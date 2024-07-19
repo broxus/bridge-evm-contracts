@@ -1,0 +1,211 @@
+pragma ever-solidity >= 0.62.0;
+
+library JettonUtils {
+    // Jetton Wallet
+    uint32 constant TRANSFER_FUNCTION_ID = 0xf8a7ea5;
+    uint32 constant INTERNAL_TRANSFER_FUNCTION_ID = 0x178d4519;
+    uint32 constant BURN_FUNCTION_ID = 0x595f07bc;
+
+    // Jetton Minter
+    uint32 constant PROVIDE_WALLET_ADDRESS_FUNCTION_ID = 0x2c76b973;
+    uint32 constant MINT_FUNCTION_ID = 0x00000015;
+    uint32 constant SET_ADMIN_FUNCTION_ID = 0x00000003;
+    uint32 constant SET_META_FUNCTION_ID = 0x00000004;
+
+    // Callbacks
+    uint32 constant TAKE_WALLET_ADDRESS_FUNCTION_ID = 0xd1735400;
+    uint32 constant TRANSFER_NOTIFICATION_FUNCTION_ID = 0x7362d09c;
+    uint32 constant EXCESSES_FUNCTION_ID = 0xd53276db;
+
+    function deployMinter(
+        address _admin,
+        TvmCell _metadata,
+        TvmCell _walletCode,
+        TvmCell _minterCode,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public returns (address) {
+        TvmBuilder data;
+
+        data.storeTons(varUint16(0)); // supply
+        data.store(_admin);
+        data.store(_metadata);
+        data.store(_walletCode);
+
+        TvmCell stateInit = tvm.buildStateInit(_minterCode, data.toCell());
+        address minter = address(tvm.hash(stateInit));
+
+        minter.transfer({
+            stateInit: stateInit,
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+
+        return minter;
+    }
+
+    function walletOf(
+        address _minter,
+        uint64 _callId,
+        address _walletOwner,
+        bool _addWalletOwnerToCallback,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public {
+        TvmBuilder body;
+
+        body.store(PROVIDE_WALLET_ADDRESS_FUNCTION_ID);
+        body.store(_callId);
+        body.store(_walletOwner);
+        body.store(_addWalletOwnerToCallback);
+
+        _minter.transfer({
+            body: body.toCell(),
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+    }
+
+    function mint(
+        address _minter,
+        uint64 _callId,
+        address _recipient,
+        varUint16 _amount,
+        varUint16 _deployWalletValue,
+        varUint16 _callbackValue,
+        optional(TvmCell) _payload,
+        address _remainingGasTo,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public {
+        TvmBuilder payload;
+
+        payload.store(INTERNAL_TRANSFER_FUNCTION_ID);
+        payload.store(_callId);
+        payload.storeTons(_amount);
+        payload.store(address(this)); // token sender
+        payload.store(_remainingGasTo);
+        payload.storeTons(_callbackValue);
+        payload.store(_payload);
+
+        TvmBuilder body;
+
+        body.store(MINT_FUNCTION_ID);
+        body.store(_callId);
+        body.store(_recipient);
+        body.storeTons(_deployWalletValue);
+        body.store(payload.toCell());
+
+        _minter.transfer({
+            body: body.toCell(),
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+    }
+
+    function transferJettons(
+        address _wallet,
+        uint64 _callId,
+        address _recipient,
+        varUint16 _amount,
+        varUint16 _callbackValue,
+        optional(TvmCell) _payload,
+        address _remainingGasTo,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public {
+        TvmBuilder body;
+        optional(TvmCell) nullCell;
+
+        body.store(TRANSFER_FUNCTION_ID);
+        body.store(_callId);
+        body.storeTons(_amount);
+        body.store(_recipient);
+        body.store(_remainingGasTo);
+        body.store(nullCell);
+        body.storeTons(_callbackValue);
+        body.store(_payload);
+
+        _wallet.transfer({
+            body: body.toCell(),
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+    }
+
+    function burn(
+        address _wallet,
+        uint64 _callId,
+        varUint16 _amount,
+        address _remainingGasTo,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public {
+        TvmBuilder body;
+
+        body.store(BURN_FUNCTION_ID);
+        body.store(_callId);
+        body.storeTons(_amount);
+        body.store(_remainingGasTo);
+
+        _wallet.transfer({
+            body: body.toCell(),
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+    }
+
+    function setAdmin(
+        address _minter,
+        uint64 _callId,
+        address _newAdmin,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public {
+        TvmBuilder body;
+
+        body.store(SET_ADMIN_FUNCTION_ID);
+        body.store(_callId);
+        body.store(_newAdmin);
+
+        _minter.transfer({
+            body: body.toCell(),
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+    }
+
+    function setMeta(
+        address _minter,
+        uint64 _callId,
+        TvmCell _newMeta,
+        uint128 _value,
+        uint16 _flag,
+        bool _bounce
+    ) public {
+        TvmBuilder body;
+
+        body.store(SET_META_FUNCTION_ID);
+        body.store(_callId);
+        body.store(_newMeta);
+
+        _minter.transfer({
+            body: body.toCell(),
+            value: _value,
+            flag: _flag,
+            bounce: _bounce
+        });
+    }
+}

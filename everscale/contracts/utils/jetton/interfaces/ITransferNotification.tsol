@@ -1,0 +1,10 @@
+pragma ever-solidity >= 0.62.0;
+
+interface ITransferNotification {
+    function transferNotification(
+        uint64 _callId,
+        varUint16 _amount,
+        address _tokenSender,
+        optional(TvmCell) _payload
+    ) external functionID(0x7362d09c);
+}
