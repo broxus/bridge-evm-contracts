@@ -9,13 +9,8 @@ import "ton-eth-bridge-token-contracts/contracts/interfaces/IAcceptTokensTransfe
 import "./../interfaces/IUserData.tsol";
 import "./../interfaces/IUpgradableByRequest.tsol";
 import "./../interfaces/IStakingPool.tsol";
-import "./../interfaces/IStakingDao.tsol";
-import "./../interfaces/IRelayRound.tsol";
-import "./../interfaces/IElection.tsol";
 
 import "./../UserData.tsol";
-import "./../Election.tsol";
-import "./../RelayRound.tsol";
 
 import "./../libraries/PlatformTypes.tsol";
 import "./../../utils/ErrorCodes.tsol";
@@ -26,7 +21,7 @@ import "@broxus/contracts/contracts/platform/Platform.tsol";
 import "../../utils/Delegate.tsol";
 
 
-abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool, IStakingDao, Delegate {
+abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool, Delegate {
     // Events
     event RewardDeposit(uint128 amount, uint32 reward_round_num);
     event Deposit(address user, uint128 amount);
@@ -34,24 +29,18 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
     event RewardClaimed(address user, uint128 reward_tokens);
     event NewRewardRound(uint32 round_num);
 
-    event ElectionStarted(uint32 round_num, uint32 election_start_time, uint32 election_end_time, address election_addr);
-    event ElectionEnded(uint32 round_num, uint32 relay_requests, bool min_relays_ok);
-    event RelayRoundInitialized(
+    event SetRelaysOnNewRound(
         uint32 round_num,
         uint32 round_start_time,
         uint32 round_end_time,
-        address round_addr,
-        uint32 relays_count,
-        bool duplicate
+        uint32 relays_count
     );
     event RelayRoundCreation(uint32 round_num, uint160[] eth_keys, uint32 round_end);
     event RelayRoundCreationSol(uint32 round_num, uint256[] ton_pubkeys, uint32 round_end);
-    event RelaySlashed(address user, uint128 tokens_withdrawn);
     event Emergency(bool state);
 
     event DepositReverted(address user, uint128 amount);
 
-    event DaoRootUpdated(address new_dao_root);
     event BridgeEventEthTonConfigUpdated(address new_bridge_event_config_eth_ton);
     event BridgeEventTonEthConfigUpdated(address new_bridge_event_config_ton_eth);
     event BridgeEventTonSolConfigUpdated(address new_bridge_event_config_ton_sol);
@@ -60,18 +49,15 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
     event TonSolEventDeployValueUpdated(uint128 new_value);
 
     event AdminUpdated(address new_admin);
+    event ManagerUpdated(address new_manager);
     event RewarderUpdated(address new_rewarder);
     event RescuerUpdated(address new_rescuer);
 
     event ActiveUpdated(bool active);
 
     event RequestedUserDataUpgrade(address user);
-    event RequestedElectionUpgrade(uint32 round_num);
-    event RequestedRelayRoundUpgrade(uint32 round_num);
 
     event UserDataCodeUpgraded(uint32 code_version);
-    event ElectionCodeUpgraded(uint32 code_version);
-    event RelayRoundCodeUpgraded(uint32 code_version);
 
     event RelayConfigUpdated(RelayConfigDetails);
 
@@ -90,29 +76,19 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
 
     address public bridge_event_config_ton_sol;
 
-    uint32 constant RELAY_LOCK_TIME = 30 days;
+    address manager;
+
     uint32 constant RELAY_ROUND_TIME = 7 days;
-    uint32 constant ELECTION_TIME = 2 days;
-    uint32 constant TIME_BEFORE_ELECTION = 4 days;
+    uint32 constant TIME_BEFORE_SET_RELAYS = 6 days;
     uint32 constant MIN_ROUND_GAP_TIME = 1 hours;
-    uint16 constant RELAYS_COUNT = 30;
     uint16 constant MIN_RELAYS_COUNT = 13;
-    uint128 constant MIN_RELAY_DEPOSIT = 100000 * 10**9;
-    uint128 constant RELAY_INITIAL_TON_DEPOSIT = 500 ton;
-    uint128 constant RELAY_REWARD_PER_SECOND = 1000000;
     uint128 constant USER_REWARD_PER_SECOND = 1000000;
 
     RelayConfigDetails relay_config = RelayConfigDetails(
-        RELAY_LOCK_TIME,
         RELAY_ROUND_TIME,
-        ELECTION_TIME,
-        TIME_BEFORE_ELECTION,
+        TIME_BEFORE_SET_RELAYS,
         MIN_ROUND_GAP_TIME,
-        RELAYS_COUNT,
         MIN_RELAYS_COUNT,
-        MIN_RELAY_DEPOSIT,
-        RELAY_INITIAL_TON_DEPOSIT,
-        RELAY_REWARD_PER_SECOND,
         USER_REWARD_PER_SECOND
     );
 
@@ -171,15 +147,6 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         return math.max(address(this).balance - msg.value, Gas.ROOT_INITIAL_BALANCE);
     }
 
-    function setDaoRoot(address new_dao_root, address send_gas_to) external onlyDaoRoot {
-        require(new_dao_root != address(0), ErrorCodes.ZERO_ADDRESS);
-        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
-        tvm.rawReserve(_reserve(), 0);
-        emit DaoRootUpdated(new_dao_root);
-        base_details.dao_root = new_dao_root;
-        send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
-    }
-
     function setEventDeployValues(uint128 ton_eth_event_value, uint128 ton_sol_event_value, address send_gas_to) external onlyAdmin {
         require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
         tvm.rawReserve(_reserve(), 0);
@@ -217,7 +184,7 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
     }
 
-    function setAdmin(address new_admin, address send_gas_to) external onlyDaoRoot {
+    function setAdmin(address new_admin, address send_gas_to) external onlyAdmin {
         require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
         tvm.rawReserve(_reserve(), 0);
         emit AdminUpdated(new_admin);
@@ -225,7 +192,15 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
     }
 
-    function setRescuer(address new_rescuer, address send_gas_to) external onlyDaoRoot {
+    function setManager(address new_manager, address send_gas_to) external onlyAdmin {
+        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
+        tvm.rawReserve(_reserve(), 0);
+        emit ManagerUpdated(new_manager);
+        manager = new_manager;
+        send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
+}
+
+    function setRescuer(address new_rescuer, address send_gas_to) external onlyAdmin {
         require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
         tvm.rawReserve(_reserve(), 0);
         emit RescuerUpdated(new_rescuer);
@@ -233,7 +208,7 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
     }
 
-    function setRewarder(address new_rewarder, address send_gas_to) external onlyDaoRoot {
+    function setRewarder(address new_rewarder, address send_gas_to) external onlyAdmin {
         require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
         tvm.rawReserve(_reserve(), 0);
         emit RewarderUpdated(new_rewarder);
@@ -247,13 +222,10 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         tvm.rawReserve(_reserve(), 0);
         if (
             new_active
-            && base_details.dao_root.value != 0
             && base_details.bridge_event_config_eth_ton.value != 0
             && base_details.bridge_event_config_ton_eth.value != 0
             && code_data.has_platform_code
             && code_data.user_data_version > 0
-            && code_data.election_version > 0
-            && code_data.relay_round_version > 0
         ) {
             active = true;
         } else {
@@ -267,7 +239,7 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         return{ value: 0, flag: MsgFlag.REMAINING_GAS, bounce: false } active;
     }
 
-    function setRelayConfig(RelayConfigDetails new_relay_config, address send_gas_to) external onlyDaoRoot {
+    function setRelayConfig(RelayConfigDetails new_relay_config, address send_gas_to) external onlyAdmin {
         require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
         tvm.rawReserve(_reserve(), 0);
 
@@ -428,7 +400,7 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         address userDataAddr = getUserDataAddress(msg.sender);
         // we cant check if user has any balance here, delegate it to UserData
         UserData(userDataAddr).processWithdraw{value: 0, flag: MsgFlag.ALL_NOT_RESERVED}(
-            amount, base_details.rewardRounds, base_details.emergency, send_gas_to, code_data.user_data_version
+            amount, base_details.rewardRounds, send_gas_to, code_data.user_data_version
         );
     }
 
@@ -566,7 +538,6 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         TvmBuilder constructor_params;
         constructor_params.store(code_data.user_data_version);
         constructor_params.store(code_data.user_data_version);
-        constructor_params.store(base_details.dao_root);
 
         return new Platform{
             stateInit: _buildInitData(PlatformTypes.UserData, _buildUserDataParams(user_data_owner)),
@@ -579,53 +550,6 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
             PlatformTypes.UserData,
             _buildUserDataParams(user)
         )));
-    }
-
-    function castVote(uint32 proposal_id, bool support) public view override {
-        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
-        require (!base_details.emergency, ErrorCodes.EMERGENCY);
-        _castVote(proposal_id, support, '');
-    }
-
-    function castVoteWithReason(
-        uint32 proposal_id,
-        bool support,
-        string reason
-    ) public view override {
-        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
-        require (!base_details.emergency, ErrorCodes.EMERGENCY);
-        _castVote(proposal_id, support, reason);
-    }
-
-    function _castVote(uint32 proposal_id, bool support, string reason) private view {
-        tvm.rawReserve(_reserve(), 0);
-        IUserData(getUserDataAddress(msg.sender)).castVote{
-            value: 0,
-            flag: MsgFlag.ALL_NOT_RESERVED
-        }(code_data.user_data_version, proposal_id, support, reason);
-    }
-
-    function tryUnlockVoteTokens(uint32 proposal_id) public view override {
-        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
-        require (!base_details.emergency, ErrorCodes.EMERGENCY);
-        tvm.rawReserve(_reserve(), 0);
-
-        IUserData(getUserDataAddress(msg.sender)).tryUnlockVoteTokens{
-            value: 0,
-            flag: MsgFlag.ALL_NOT_RESERVED
-        }(code_data.user_data_version, proposal_id);
-
-    }
-
-    function tryUnlockCastedVotes(uint32[] proposal_ids) public view override {
-        require (!base_details.emergency, ErrorCodes.EMERGENCY);
-        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
-        tvm.rawReserve(_reserve(), 0);
-
-        IUserData(getUserDataAddress(msg.sender)).tryUnlockCastedVotes{
-            value: 0,
-            flag: MsgFlag.ALL_NOT_RESERVED
-        }(code_data.user_data_version, proposal_ids);
     }
 
     function withdrawTonsUserEmergency() external view {
@@ -730,15 +654,13 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
         _;
     }
 
-    modifier onlyEthTonConfig() {
-        require (msg.sender == base_details.bridge_event_config_eth_ton, ErrorCodes.NOT_BRIDGE);
+    modifier onlyAdminOrManager() {
+        if (msg.sender != manager && msg.sender != base_details.admin) {
+            checkDelegate();
+        }
         _;
     }
 
-    modifier onlyDaoRoot {
-        require(msg.sender == base_details.dao_root, ErrorCodes.NOT_DAO_ROOT);
-        _;
-    }
 
     modifier onlyRewarder {
         require(msg.sender == base_details.rewarder, ErrorCodes.NOT_REWARDER);

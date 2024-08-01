@@ -15,7 +15,6 @@ contract StakingRootDeployer {
 
     function deploy(
         address _admin,
-        address _dao_root,
         address _rewarder,
         address _rescuer,
         address _bridge_event_config_eth_ton,
@@ -38,6 +37,6 @@ contract StakingRootDeployer {
             }),
             value: 0,
             flag: 128
-        }(_admin, _dao_root, _rewarder, _rescuer, _bridge_event_config_eth_ton, _bridge_event_config_ton_eth, _bridge_event_config_ton_sol, _tokenRoot);
+        }(_admin, _rewarder, _rescuer, _bridge_event_config_eth_ton, _bridge_event_config_ton_eth, _bridge_event_config_ton_sol, _tokenRoot);
     }
 }

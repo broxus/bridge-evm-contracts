@@ -311,7 +311,6 @@ describe("Test Staking Rewards", async function () {
           .deploy({
             _admin: stakingOwner.address,
             _tokenRoot: stakingToken.address,
-            _dao_root: stakingOwner.address,
             _rewarder: stakingOwner.address,
             _rescuer: stakingOwner.address,
             _bridge_event_config_eth_ton: stakingOwner.address,
@@ -364,12 +363,6 @@ describe("Test Staking Rewards", async function () {
         const UserData = await locklift.factory.getContractArtifacts(
           "UserData"
         );
-        const Election = await locklift.factory.getContractArtifacts(
-          "Election"
-        );
-        const RelayRound = await locklift.factory.getContractArtifacts(
-          "RelayRound"
-        );
         const Platform = await locklift.factory.getContractArtifacts(
           "Platform"
         );
@@ -388,26 +381,6 @@ describe("Test Staking Rewards", async function () {
         await stakingRoot.methods
           .installOrUpdateUserDataCode({
             code: UserData.code,
-            send_gas_to: stakingOwner.address,
-          })
-          .send({
-            from: stakingOwner.address,
-            amount: locklift.utils.toNano(11),
-          });
-        logger.log(`Installing ElectionCode code`);
-        await stakingRoot.methods
-          .installOrUpdateElectionCode({
-            code: Election.code,
-            send_gas_to: stakingOwner.address,
-          })
-          .send({
-            from: stakingOwner.address,
-            amount: locklift.utils.toNano(11),
-          });
-        logger.log(`Installing RelayRoundCode code`);
-        await stakingRoot.methods
-          .installOrUpdateRelayRoundCode({
-            code: RelayRound.code,
             send_gas_to: stakingOwner.address,
           })
           .send({

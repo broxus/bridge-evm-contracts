@@ -4843,7 +4843,7 @@
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "TokenRootAlienSolana.code",
-        "line": 3263
+        "line": 3057
       }
     },
     "62fb886539d879f9a7c7f96f05342e50b8888ff02a94ea4aa21db815eb7bcf92": {
@@ -5206,24 +5206,6 @@
       "112": {
         "filename": "../../node_modules/ton-eth-bridge-token-contracts/contracts/abstract/TokenRootBase.tsol",
         "line": 51
-      }
-    },
-    "740b14f92e75b585da938a8eaf1ef557ead2095ce5c24876955f6f159ba15764": {
-      "4": {
-        "filename": "TokenRootAlienSolana.code",
-        "line": 805
-      },
-      "12": {
-        "filename": "TokenRootAlienSolana.code",
-        "line": 807
-      },
-      "28": {
-        "filename": "TokenRootAlienSolana.code",
-        "line": 810
-      },
-      "44": {
-        "filename": "TokenRootAlienSolana.code",
-        "line": 811
       }
     },
     "7485e699a56f5153fb2dd5d73cd8599c642047cd3b882318e21cb20b0228e33b": {
@@ -9177,6 +9159,24 @@
       "296": {
         "filename": "TokenRootAlienSolana.code",
         "line": 2611
+      }
+    },
+    "cbcd21fa1003d7e4cec69c02c9ab98abc0aeca89921e180151f04ead72e63ae4": {
+      "38": {
+        "filename": "TokenRootAlienSolana.code",
+        "line": 805
+      },
+      "46": {
+        "filename": "TokenRootAlienSolana.code",
+        "line": 807
+      },
+      "62": {
+        "filename": "TokenRootAlienSolana.code",
+        "line": 810
+      },
+      "78": {
+        "filename": "TokenRootAlienSolana.code",
+        "line": 811
       }
     },
     "cc2c043de1d637315bd89affb49c7cbdfa8384de608794f6401ad143ce738c4a": {

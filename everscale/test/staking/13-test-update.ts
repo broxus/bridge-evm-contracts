@@ -58,7 +58,7 @@ describe("Test Staking Upgrade", async function () {
         for (const i of [0, 1, 2]) {
           const keyPair = await locklift.keystore.getSigner(i.toString());
           const account = await deployAccount(
-            keyPair,
+            keyPair!,
             RELAY_INITIAL_DEPOSIT + 50
           );
           logger.log(`User address: ${account.address}`);
@@ -155,7 +155,6 @@ describe("Test Staking Upgrade", async function () {
           .deploy({
             _admin: stakingOwner.address,
             _tokenRoot: stakingToken.address,
-            _dao_root: stakingOwner.address,
             _rewarder: stakingOwner.address,
             _rescuer: stakingOwner.address,
             _bridge_event_config_eth_ton: stakingOwner.address,
@@ -233,26 +232,6 @@ describe("Test Staking Upgrade", async function () {
         await stakingRoot.methods
           .installOrUpdateUserDataCode({
             code: UserData.code,
-            send_gas_to: stakingOwner.address,
-          })
-          .send({
-            from: stakingOwner.address,
-            amount: locklift.utils.toNano(11),
-          });
-        logger.log(`Installing ElectionCode code`);
-        await stakingRoot.methods
-          .installOrUpdateElectionCode({
-            code: Election.code,
-            send_gas_to: stakingOwner.address,
-          })
-          .send({
-            from: stakingOwner.address,
-            amount: locklift.utils.toNano(11),
-          });
-        logger.log(`Installing RelayRoundCode code`);
-        await stakingRoot.methods
-          .installOrUpdateRelayRoundCode({
-            code: RelayRound.code,
             send_gas_to: stakingOwner.address,
           })
           .send({

@@ -7,7 +7,7 @@ import "./base/StakingRelay.tsol";
 contract Staking is StakingPoolRelay {
     constructor(
         address _admin,
-        address _dao_root,
+//        address _dao_root,
         address _rewarder,
         address _rescuer,
         address _bridge_event_config_eth_ton,
@@ -20,7 +20,7 @@ contract Staking is StakingPoolRelay {
         base_details.bridge_event_config_eth_ton = _bridge_event_config_eth_ton;
         base_details.bridge_event_config_ton_eth = _bridge_event_config_ton_eth;
         base_details.admin = _admin;
-        base_details.dao_root = _dao_root;
+//        base_details.dao_root = _dao_root;
         base_details.rescuer = _rescuer;
         base_details.rewarder = _rewarder;
         base_details.rewardRounds.push(RewardRound(0, 0, 0, now));
@@ -38,13 +38,13 @@ contract Staking is StakingPoolRelay {
         TvmBuilder codes_builder;
         codes_builder.store(code_data.has_platform_code); // bool
         codes_builder.store(code_data.user_data_version); // 32
-        codes_builder.store(code_data.election_version); // 32
-        codes_builder.store(code_data.relay_round_version); // 32
+//        codes_builder.store(code_data.election_version); // 32
+//        codes_builder.store(code_data.relay_round_version); // 32
 
         codes_builder.store(code_data.platform_code); // ref1
         codes_builder.store(code_data.user_data_code); // ref2
-        codes_builder.store(code_data.election_code); // ref3
-        codes_builder.store(code_data.relay_round_code); // ref4
+//        codes_builder.store(code_data.election_code); // ref3
+//        codes_builder.store(code_data.relay_round_code); // ref4
 
         main_builder.storeRef(codes_builder);
 
@@ -52,15 +52,15 @@ contract Staking is StakingPoolRelay {
         // MAIN DATA 1
         data_builder_1.store(deploy_nonce); // 32
         data_builder_1.store(deployer); // address 267
-        data_builder_1.store(base_details.dao_root); // address 267
+//        data_builder_1.store(base_details.dao_root); // address 267
         data_builder_1.store(base_details.bridge_event_config_eth_ton); // address 267
         data_builder_1.store(active); // 1
         data_builder_1.store(round_details.currentRelayRound); // 32
         data_builder_1.store(round_details.currentRelayRoundStartTime); // 32
         data_builder_1.store(round_details.currentRelayRoundEndTime); // 32
-        data_builder_1.store(round_details.currentElectionStartTime); // 32
+//        data_builder_1.store(round_details.currentElectionStartTime); // 32
         data_builder_1.store(lastExtCall); // 32
-        data_builder_1.store(round_details.currentElectionEnded); // 1
+//        data_builder_1.store(round_details.currentElectionEnded); // 1
         // TOTAL 995
 
         TvmBuilder data_builder_2;
@@ -85,17 +85,17 @@ contract Staking is StakingPoolRelay {
         // TOTAL 929
 
         TvmBuilder data_builder_4;
-        data_builder_4.store(relay_config.relayLockTime); // 32
+//        data_builder_4.store(relay_config.relayLockTime); // 32
         data_builder_4.store(relay_config.relayRoundTime); // 32
-        data_builder_4.store(relay_config.electionTime); // 32
-        data_builder_4.store(relay_config.timeBeforeElection); // 32
+//        data_builder_4.store(relay_config.electionTime); // 32
+//        data_builder_4.store(relay_config.timeBeforeElection); // 32
         data_builder_4.store(relay_config.minRoundGapTime); // 32
-        data_builder_4.store(relay_config.relaysCount); // 16
+//        data_builder_4.store(relay_config.relaysCount); // 16
         data_builder_4.store(relay_config.minRelaysCount); // 16
-        data_builder_4.store(relay_config.minRelayDeposit); // 128
-        data_builder_4.store(relay_config.relayInitialTonDeposit); // 128
+//        data_builder_4.store(relay_config.minRelayDeposit); // 128
+//        data_builder_4.store(relay_config.relayInitialTonDeposit); // 128
         data_builder_4.store(relay_config.userRewardPerSecond); // 128
-        data_builder_4.store(relay_config.relayRewardPerSecond); // 128
+//        data_builder_4.store(relay_config.relayRewardPerSecond); // 128
         data_builder_4.store(tonEthEventDeployValue); // 128
         data_builder_4.store(deposit_nonce); // 64
         data_builder_4.store(deposits); // 33 + ref
