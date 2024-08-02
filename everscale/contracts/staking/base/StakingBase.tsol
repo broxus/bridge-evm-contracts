@@ -655,6 +655,7 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
     }
 
     modifier onlyAdminOrManager() {
+        require(msg.sender.value != 0, ErrorCodes.NOT_ADMIN);
         if (msg.sender != manager && msg.sender != base_details.admin) {
             checkDelegate();
         }
