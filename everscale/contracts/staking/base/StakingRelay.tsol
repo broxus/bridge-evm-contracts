@@ -17,8 +17,12 @@ abstract contract StakingPoolRelay is StakingPoolUpgradable {
         uint256 relays_count = ton_keys.length;
         require (relays_count == eth_keys.length, ErrorCodes.BAD_INPUT_ARRAYS);
         require (relays_count >= relay_config.minRelaysCount, ErrorCodes.NOT_ENOUGH_RELAYS);
+        require (
+            msg.value >= tonEthEventDeployValue + tonSolEventDeployValue + Gas.DESTROY_MSG_VALUE + Gas.DEPLOY_RELAY_ROUND_MIN_VALUE + Gas.MIN_SEND_RELAYS_MSG_VALUE,
+            ErrorCodes.VALUE_TOO_LOW
+        );
 
-        tvm.rawReserve(_reserve() - tonEthEventDeployValue - tonSolEventDeployValue, 2);
+        tvm.rawReserve(_reserve(), 0);
 
         uint32 start_time;
         uint32 round_num;
@@ -39,28 +43,79 @@ abstract contract StakingPoolRelay is StakingPoolUpgradable {
         }
         uint32 end_time = start_time + relay_config.relayRoundTime;
 
+        address relay_address = deployRelayRound(
+            round_num,
+            start_time,
+            end_time,
+            MsgFlag.SENDER_PAYS_FEES
+        );
+
+        IRelayRound(relay_address).setRelays {
+            value: 0,
+            flag: MsgFlag.ALL_NOT_RESERVED
+        }(ton_keys, eth_keys);
+    }
+
+    function deployRelayRound(
+        uint32 round_num,
+        uint32 start_time,
+        uint32 end_time,
+        uint16 msg_flag
+    ) private view returns (address) {
+        TvmBuilder constructor_params;
+        constructor_params.store(code_data.relay_round_version);
+        constructor_params.store(code_data.relay_round_version);
+        constructor_params.store(start_time);
+        constructor_params.store(end_time);
+
+        return new Platform{
+                stateInit: _buildInitData(PlatformTypes.RelayRound, _buildRelayRoundParams(round_num)),
+                value: Gas.DEPLOY_RELAY_ROUND_MIN_VALUE,
+                flag: msg_flag
+            }(code_data.relay_round_code, constructor_params.toCell(), address(this));
+    }
+
+    function onRelayRoundInitialized(
+        uint32 round_num,
+        uint32 round_start_time,
+        uint32 round_end_time,
+        uint32 relays_count,
+        uint160[] eth_keys,
+        uint256[] ton_keys
+    ) external override onlyRelayRound(round_num) {
+        tvm.rawReserve(_reserve() - tonEthEventDeployValue - tonSolEventDeployValue - Gas.DESTROY_MSG_VALUE, 2);
+
         round_details.currentRelayRound = round_num;
-        round_details.currentRelayRoundStartTime = start_time;
-        round_details.currentRelayRoundEndTime = end_time;
+        round_details.currentRelayRoundEndTime = round_end_time;
+        round_details.currentRelayRoundStartTime = round_start_time;
 
         if (round_num > 0) {
             TvmBuilder event_builder;
             event_builder.store(round_num); // 32
             event_builder.store(eth_keys); // ref
-            event_builder.store(end_time);
+            event_builder.store(round_end_time);
             IEverscaleEthereumEvent.EverscaleEthereumEventVoteData event_data_eth = IEverscaleEthereumEvent.EverscaleEthereumEventVoteData(tx.timestamp, now, event_builder.toCell());
             IEverscaleEthereumEventConfiguration(base_details.bridge_event_config_ton_eth).deployEvent{value: tonEthEventDeployValue}(event_data_eth);
 
             TvmBuilder event_builder2;
             event_builder2.store(round_num);
             event_builder2.store(ton_keys);
-            event_builder2.store(end_time);
+            event_builder2.store(round_end_time);
             IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] _empty;
             IEverscaleSolanaEvent.EverscaleSolanaEventVoteData event_data_sol = IEverscaleSolanaEvent.EverscaleSolanaEventVoteData(tx.timestamp, now, _empty, false, _empty, event_builder2.toCell());
             IEverscaleSolanaEventConfiguration(bridge_event_config_ton_sol).deployEvent{value: tonSolEventDeployValue}(event_data_sol);
         }
 
-        emit SetRelaysOnNewRound(round_num, start_time, end_time, uint32(eth_keys.length));
+        if (round_num >= 3) {
+            address old_relay_round = getRelayRoundAddress(round_num - 3);
+            IRelayRound(old_relay_round).destroy{value: Gas.DESTROY_MSG_VALUE}();
+        }
+        emit RelayRoundInitialized(round_num, round_start_time, round_end_time, msg.sender, relays_count);
     }
 
+    modifier onlyRelayRound(uint32 round_num) {
+        address expectedAddr = getRelayRoundAddress(round_num);
+        require (expectedAddr == msg.sender, ErrorCodes.NOT_RELAY_ROUND);
+        _;
+    }
 }

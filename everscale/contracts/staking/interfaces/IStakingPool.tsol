@@ -38,6 +38,8 @@ interface IStakingPool {
         bool has_platform_code;
         TvmCell user_data_code;
         uint32 user_data_version;
+        TvmCell relay_round_code;
+        uint32 relay_round_version;
     }
 
     struct RelayRoundsDetails {
@@ -57,4 +59,14 @@ interface IStakingPool {
         uint160[] eth_keys,
         uint256[] ton_keys
     ) external;
+
+    function onRelayRoundInitialized(
+        uint32 round_num,
+        uint32 round_start_time,
+        uint32 round_end_time,
+        uint32 relays_count,
+        uint160[] eth_keys,
+        uint256[] ton_keys
+    ) external;
+
 }

@@ -36,6 +36,19 @@
 			]
 		},
 		{
+			"name": "onRelayRoundInitialized",
+			"inputs": [
+				{"name":"round_num","type":"uint32"},
+				{"name":"round_start_time","type":"uint32"},
+				{"name":"round_end_time","type":"uint32"},
+				{"name":"relays_count","type":"uint32"},
+				{"name":"eth_keys","type":"uint160[]"},
+				{"name":"ton_keys","type":"uint256[]"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "installPlatformOnce",
 			"inputs": [
 				{"name":"code","type":"cell"},
@@ -71,6 +84,45 @@
 			]
 		},
 		{
+			"name": "installOrUpdateRelayRoundCode",
+			"inputs": [
+				{"name":"code","type":"cell"},
+				{"name":"send_gas_to","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "upgradeRelayRound",
+			"inputs": [
+				{"name":"round_num","type":"uint32"},
+				{"name":"send_gas_to","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getRelayRoundAddress",
+			"inputs": [
+				{"name":"answerId","type":"uint32"},
+				{"name":"round_num","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"value0","type":"address"}
+			]
+		},
+		{
+			"name": "getRelayRoundAddressFromTimestamp",
+			"inputs": [
+				{"name":"answerId","type":"uint32"},
+				{"name":"time","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"value0","type":"address"},
+				{"name":"value1","type":"uint32"}
+			]
+		},
+		{
 			"name": "getDetails",
 			"inputs": [
 				{"name":"answerId","type":"uint32"}
@@ -85,7 +137,7 @@
 				{"name":"answerId","type":"uint32"}
 			],
 			"outputs": [
-				{"components":[{"name":"platform_code","type":"cell"},{"name":"has_platform_code","type":"bool"},{"name":"user_data_code","type":"cell"},{"name":"user_data_version","type":"uint32"}],"name":"value0","type":"tuple"}
+				{"components":[{"name":"platform_code","type":"cell"},{"name":"has_platform_code","type":"bool"},{"name":"user_data_code","type":"cell"},{"name":"user_data_version","type":"uint32"},{"name":"relay_round_code","type":"cell"},{"name":"relay_round_version","type":"uint32"}],"name":"value0","type":"tuple"}
 			]
 		},
 		{
@@ -440,11 +492,12 @@
 			]
 		},
 		{
-			"name": "SetRelaysOnNewRound",
+			"name": "RelayRoundInitialized",
 			"inputs": [
 				{"name":"round_num","type":"uint32"},
 				{"name":"round_start_time","type":"uint32"},
 				{"name":"round_end_time","type":"uint32"},
+				{"name":"round_addr","type":"address"},
 				{"name":"relays_count","type":"uint32"}
 			],
 			"outputs": [
@@ -576,7 +629,23 @@
 			]
 		},
 		{
+			"name": "RequestedRelayRoundUpgrade",
+			"inputs": [
+				{"name":"round_num","type":"uint32"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "UserDataCodeUpgraded",
+			"inputs": [
+				{"name":"code_version","type":"uint32"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "RelayRoundCodeUpgraded",
 			"inputs": [
 				{"name":"code_version","type":"uint32"}
 			],
@@ -601,7 +670,7 @@
 		{"name":"deployer","type":"address"},
 		{"name":"active","type":"bool"},
 		{"name":"lastExtCall","type":"uint32"},
-		{"components":[{"name":"platform_code","type":"cell"},{"name":"has_platform_code","type":"bool"},{"name":"user_data_code","type":"cell"},{"name":"user_data_version","type":"uint32"}],"name":"code_data","type":"tuple"},
+		{"components":[{"name":"platform_code","type":"cell"},{"name":"has_platform_code","type":"bool"},{"name":"user_data_code","type":"cell"},{"name":"user_data_version","type":"uint32"},{"name":"relay_round_code","type":"cell"},{"name":"relay_round_version","type":"uint32"}],"name":"code_data","type":"tuple"},
 		{"components":[{"name":"currentRelayRound","type":"uint32"},{"name":"currentRelayRoundStartTime","type":"uint32"},{"name":"currentRelayRoundEndTime","type":"uint32"}],"name":"round_details","type":"tuple"},
 		{"components":[{"name":"bridge_event_config_eth_ton","type":"address"},{"name":"bridge_event_config_ton_eth","type":"address"},{"name":"tokenRoot","type":"address"},{"name":"tokenWallet","type":"address"},{"name":"admin","type":"address"},{"name":"rescuer","type":"address"},{"name":"rewarder","type":"address"},{"name":"tokenBalance","type":"uint128"},{"name":"rewardTokenBalance","type":"uint128"},{"name":"lastRewardTime","type":"uint32"},{"components":[{"name":"accRewardPerShare","type":"uint256"},{"name":"rewardTokens","type":"uint128"},{"name":"totalReward","type":"uint128"},{"name":"startTime","type":"uint32"}],"name":"rewardRounds","type":"tuple[]"},{"name":"emergency","type":"bool"}],"name":"base_details","type":"tuple"},
 		{"name":"bridge_event_config_ton_sol","type":"address"},

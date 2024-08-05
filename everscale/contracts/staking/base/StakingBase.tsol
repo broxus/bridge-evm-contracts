@@ -9,6 +9,7 @@ import "ton-eth-bridge-token-contracts/contracts/interfaces/IAcceptTokensTransfe
 import "./../interfaces/IUserData.tsol";
 import "./../interfaces/IUpgradableByRequest.tsol";
 import "./../interfaces/IStakingPool.tsol";
+import "./../interfaces/IRelayRound.tsol";
 
 import "./../UserData.tsol";
 
@@ -29,10 +30,11 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
     event RewardClaimed(address user, uint128 reward_tokens);
     event NewRewardRound(uint32 round_num);
 
-    event SetRelaysOnNewRound(
+    event RelayRoundInitialized(
         uint32 round_num,
         uint32 round_start_time,
         uint32 round_end_time,
+        address round_addr,
         uint32 relays_count
     );
     event RelayRoundCreation(uint32 round_num, uint160[] eth_keys, uint32 round_end);
@@ -56,8 +58,10 @@ abstract contract StakingPoolBase is IAcceptTokensTransferCallback, IStakingPool
     event ActiveUpdated(bool active);
 
     event RequestedUserDataUpgrade(address user);
+    event RequestedRelayRoundUpgrade(uint32 round_num);
 
     event UserDataCodeUpgraded(uint32 code_version);
+    event RelayRoundCodeUpgraded(uint32 code_version);
 
     event RelayConfigUpdated(RelayConfigDetails);
 

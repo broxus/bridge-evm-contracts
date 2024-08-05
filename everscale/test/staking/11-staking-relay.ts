@@ -54,7 +54,6 @@ const ETH_KEYS = [
     '140753720155491120018711504417491442525636555630'
 ];
 
-
 describe("Test Staking Relay mechanic", async function () {
     this.timeout(10000000);
 
@@ -110,11 +109,31 @@ describe("Test Staking Relay mechanic", async function () {
         );
     };
 
+    const getBalance = async function (address: Address) {
+        const res = await locklift.provider.getBalance(address);
+        return new BigNumber(res);
+    };
+
     const setRelaysOnNewRound = async function (_user: Account, _eth_keys: string[], _ton_keys: string[]) {
         return await stakingRoot.methods
             .setRelaysOnNewRound({eth_keys: _eth_keys, ton_keys: _ton_keys})
-            .send({from: _user.address, amount: locklift.utils.toNano(7)});
+            .send({from: _user.address, amount: locklift.utils.toNano(12)});
     };
+
+    const getRelayRound = async function (round_num: number) {
+        const addr = await stakingRoot.methods
+            .getRelayRoundAddress({
+                round_num: round_num,
+                answerId: 0,
+            })
+            .call();
+        const round = await locklift.factory.getDeployedContract(
+            "RelayRound",
+            addr.value0
+        );
+        return round;
+    };
+
 
     const setEmergency = async function () {
         return await stakingRoot.methods
@@ -169,6 +188,10 @@ describe("Test Staking Relay mechanic", async function () {
                 .then((t) => t.value0)
         );
         return userData;
+    };
+
+    const waitForDeploy = async function (address: Address) {
+        return await getBalance(address);
     };
 
     describe("Setup contracts", async function () {
@@ -342,6 +365,9 @@ describe("Test Staking Relay mechanic", async function () {
                 const UserData = await locklift.factory.getContractArtifacts(
                     "UserData"
                 );
+                const RelayRound = await locklift.factory.getContractArtifacts(
+                    "RelayRound"
+                );
                 const Platform = await locklift.factory.getContractArtifacts(
                     "Platform"
                 );
@@ -361,6 +387,16 @@ describe("Test Staking Relay mechanic", async function () {
                 await stakingRoot.methods
                     .installOrUpdateUserDataCode({
                         code: UserData.code,
+                        send_gas_to: stakingOwner.address,
+                    })
+                    .send({
+                        from: stakingOwner.address,
+                        amount: locklift.utils.toNano(11),
+                    });
+                logger.log(`Installing RelayRound code`);
+                await stakingRoot.methods
+                    .installOrUpdateRelayRoundCode({
+                        code: RelayRound.code,
                         send_gas_to: stakingOwner.address,
                     })
                     .send({
@@ -564,8 +600,16 @@ describe("Test Staking Relay mechanic", async function () {
 
                 await tryIncreaseTime(1000);
 
+                const round = await getRelayRound(0);
+                await waitForDeploy(round.address);
+                if (locklift.context.network.name === "dev") {
+                    await tryIncreaseTime(DEV_WAIT);
+                }
+
+                await tryIncreaseTime(DEV_WAIT);
+
                 const events = await stakingRoot
-                    .getPastEvents({filter: "SetRelaysOnNewRound"})
+                    .getPastEvents({filter: "RelayRoundInitialized"})
                     .then((e) => e.events);
                 const [
                     {
@@ -574,9 +618,12 @@ describe("Test Staking Relay mechanic", async function () {
                             round_start_time: _round_start_time,
                             round_end_time: _round_end_time,
                             relays_count: _relays_count,
+                            round_addr: _round_address
                         },
                     },
                 ] = events;
+
+                expect(_round_address.toString()).to.be.equal(round.address.toString(), "Wrong round address")
 
                 expect(_round_num.toString()).to.be.equal("0", "Bad event");
 
@@ -632,7 +679,7 @@ describe("Test Staking Relay mechanic", async function () {
                 await setRelaysOnNewRound(stakingOwner, ETH_KEYS, TON_KEYS);
 
                 const events = await stakingRoot
-                    .getPastEvents({filter: "SetRelaysOnNewRound"})
+                    .getPastEvents({filter: "RelayRoundInitialized"})
                     .then((e) => e.events);
                 const [
                     {
