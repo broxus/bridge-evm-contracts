@@ -10,7 +10,7 @@
 				{"name":"_manager","type":"address"},
 				{"name":"_connectorCode","type":"cell"},
 				{"name":"_connectorDeployValue","type":"uint64"},
-				{"name":"_staking","type":"address"}
+				{"name":"_roundDeployer","type":"address"}
 			],
 			"outputs": [
 			]
@@ -65,7 +65,7 @@
 				{"name":"_connectorCode","type":"cell"},
 				{"name":"_connectorDeployValue","type":"uint64"},
 				{"name":"_connectorCounter","type":"uint64"},
-				{"name":"_staking","type":"address"},
+				{"name":"_roundDeployer","type":"address"},
 				{"name":"_active","type":"bool"}
 			]
 		},
@@ -125,11 +125,11 @@
 			]
 		},
 		{
-			"name": "staking",
+			"name": "roundDeployer",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"staking","type":"address"}
+				{"name":"roundDeployer","type":"address"}
 			]
 		},
 		{
@@ -182,7 +182,7 @@
 		{"name":"connectorCode","type":"cell"},
 		{"name":"connectorDeployValue","type":"uint64"},
 		{"name":"active","type":"bool"},
-		{"name":"staking","type":"address"},
+		{"name":"roundDeployer","type":"address"},
 		{"name":"manager","type":"address"},
 		{"name":"connectorCounter","type":"uint64"}
 	]

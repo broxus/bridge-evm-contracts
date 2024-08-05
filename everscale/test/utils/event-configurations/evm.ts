@@ -6,7 +6,7 @@ import {logContract} from "../logger";
 
 export const setupEthereumEverscaleEventConfiguration = async (
     owner: Account,
-    staking: Contract<FactorySource["StakingMockup"]>,
+    roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>,
     proxy: Address,
     eventCode: string
 ) => {
@@ -25,7 +25,7 @@ export const setupEthereumEverscaleEventConfiguration = async (
             basicConfiguration: {
                 eventABI: "",
                 eventInitialBalance: locklift.utils.toNano(2),
-                staking: staking.address,
+                roundDeployer: roundDeployer.address,
                 eventCode,
             },
             networkConfiguration: {
@@ -52,7 +52,7 @@ export const setupEthereumEverscaleEventConfiguration = async (
 
 export const setupEverscaleEthereumEventConfiguration = async (
     owner: Account,
-    staking: Contract<FactorySource["StakingMockup"]>,
+    roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>,
     eventEmitter: Address,
     eventCode: string
 ) => {
@@ -71,7 +71,7 @@ export const setupEverscaleEthereumEventConfiguration = async (
             basicConfiguration: {
                 eventABI: "",
                 eventInitialBalance: locklift.utils.toNano(2),
-                staking: staking.address,
+                roundDeployer: roundDeployer.address,
                 eventCode,
             },
             networkConfiguration: {

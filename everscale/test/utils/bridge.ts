@@ -4,10 +4,9 @@ import _ from "underscore";
 import {Account} from "everscale-standalone-client/nodejs";
 import {
     BridgeAbi,
-    CellEncoderStandaloneAbi, EthereumEverscaleBaseEventAbi,
+    CellEncoderStandaloneAbi,
     FactorySource,
-    StakingAbi,
-    StakingMockupAbi
+    RoundDeployerMockupAbi,
 } from "../../build/factorySource";
 import {logContract} from "./logger";
 const logger = require("mocha-logger");
@@ -98,7 +97,7 @@ export const captureConnectors = async (bridge: Contract<FactorySource["Bridge"]
 export const setupBridge = async (relays: Ed25519KeyPair[]): Promise<[
     Contract<BridgeAbi>,
     Account,
-    Contract<StakingMockupAbi>,
+    Contract<RoundDeployerMockupAbi>,
     Contract<CellEncoderStandaloneAbi>
 ]> => {
     const signer = (await locklift.keystore.getSigner("0"))!;
@@ -109,9 +108,9 @@ export const setupBridge = async (relays: Ed25519KeyPair[]): Promise<[
 
     await logContract("Owner", owner.address);
 
-    const { contract: staking } = await locklift.tracing.trace(
+    const { contract: roundDeployer } = await locklift.tracing.trace(
         locklift.factory.deployContract({
-            contract: "StakingMockup",
+            contract: "RoundDeployerMockup",
             constructorParams: {},
             initParams: {
                 _randomNonce,
@@ -122,7 +121,7 @@ export const setupBridge = async (relays: Ed25519KeyPair[]): Promise<[
         })
     );
 
-    await logContract("Staking", staking.address);
+    await logContract("RoundDeployer", roundDeployer.address);
 
     const connectorData = await locklift.factory.getContractArtifacts(
         "Connector"
@@ -134,7 +133,7 @@ export const setupBridge = async (relays: Ed25519KeyPair[]): Promise<[
             constructorParams: {
                 _owner: owner.address,
                 _manager: owner.address,
-                _staking: staking.address,
+                _roundDeployer: roundDeployer.address,
                 _connectorCode: connectorData.code,
                 _connectorDeployValue: locklift.utils.toNano(1),
             },
@@ -160,6 +159,6 @@ export const setupBridge = async (relays: Ed25519KeyPair[]): Promise<[
 
     await logContract("CellEncoderStandalone", cellEncoder.address);
 
-    return [bridge, owner, staking, cellEncoder];
+    return [bridge, owner, roundDeployer, cellEncoder];
 };
 

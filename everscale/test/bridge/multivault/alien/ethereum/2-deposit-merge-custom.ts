@@ -14,9 +14,9 @@ import {
     MergePool_V3Abi,
     MergeRouterAbi,
     MultiVaultEVMEverscaleEventAlienAbi,
-    ProxyMultiVaultAlien_V6Abi, ProxyMultiVaultAlien_V8Abi,
+    ProxyMultiVaultAlien_V8Abi,
+    RoundDeployerMockupAbi,
     SolanaEverscaleEventConfigurationAbi,
-    StakingMockupAbi,
     TokenRootAbi,
     TokenRootAlienEVMAbi
 } from "../../../../../build/factorySource";
@@ -30,7 +30,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -86,7 +86,7 @@ describe('Deposit Alien token with merging with custom token', async function() 
 
     it("Setup bridge", async () => {
         relays = await setupRelays();
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
         const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -100,7 +100,7 @@ describe('Deposit Alien token with merging with custom token', async function() 
             solanaEverscaleEventConfiguration,
             everscaleSolanaEventConfiguration,
             proxy
-        ] = await setupAlienMultiVault(bridgeOwner, staking);
+        ] = await setupAlienMultiVault(bridgeOwner, roundDeployer);
     });
 
     it('Deploy custom token root', async () => {

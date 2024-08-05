@@ -6,7 +6,7 @@ import {logContract} from "../logger";
 
 export const setupSolanaEverscaleEventConfiguration = async (
     owner: Account,
-    staking: Contract<FactorySource["StakingMockup"]>,
+    roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>,
     proxy: Address,
     eventCode: string
 ) => {
@@ -31,7 +31,7 @@ export const setupSolanaEverscaleEventConfiguration = async (
     const basicConfiguration = {
         eventABI: "",
         eventInitialBalance: locklift.utils.toNano(2),
-        staking: staking.address,
+        roundDeployer: roundDeployer.address,
         eventCode,
     };
 
@@ -77,7 +77,7 @@ export const setupSolanaEverscaleEventConfiguration = async (
 
 export const setupEverscaleSolanaEventConfiguration = async (
     owner: Account,
-    staking: Contract<FactorySource["StakingMockup"]>,
+    roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>,
     eventEmitter: Address,
     eventCode: string
 ) => {
@@ -102,7 +102,7 @@ export const setupEverscaleSolanaEventConfiguration = async (
     const everBasicConfiguration = {
         eventABI: "",
         eventInitialBalance: locklift.utils.toNano(2),
-        staking: staking.address,
+        roundDeployer: roundDeployer.address,
         eventCode,
     };
 

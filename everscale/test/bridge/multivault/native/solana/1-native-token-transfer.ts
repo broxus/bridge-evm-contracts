@@ -8,11 +8,10 @@ import {
   EthereumEverscaleEventConfigurationAbi,
   EverscaleEthereumEventConfigurationAbi,
   EverscaleSolanaEventConfigurationAbi,
-  MultiVaultEverscaleEVMEventNativeAbi, MultiVaultEverscaleSolanaEventNativeAbi,
-  MultiVaultEVMEverscaleEventNativeAbi,
-  ProxyMultiVaultNative_V3Abi, ProxyMultiVaultNative_V6Abi,
+  MultiVaultEverscaleSolanaEventNativeAbi,
+  ProxyMultiVaultNative_V6Abi,
   SolanaEverscaleEventConfigurationAbi,
-  StakingMockupAbi,
+  RoundDeployerMockupAbi,
   TokenRootAbi,
   TokenWalletAbi,
 } from "../../../../../build/factorySource";
@@ -31,7 +30,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -66,7 +65,7 @@ describe("Test EVM native multivault pipeline", async function () {
 
   it("Setup bridge", async () => {
     relays = await setupRelays();
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
     const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -80,7 +79,7 @@ describe("Test EVM native multivault pipeline", async function () {
       solanaEverscaleEventConfiguration,
       everscaleSolanaEventConfiguration,
       proxy
-    ] = await setupNativeMultiVault(bridgeOwner, staking);
+    ] = await setupNativeMultiVault(bridgeOwner, roundDeployer);
   });
 
   it('Deploy native token root', async () => {
@@ -534,9 +533,9 @@ describe("Test EVM native multivault pipeline", async function () {
   //         "Wrong event configuration"
   //     );
   //
-  //     expect(details._eventInitData.staking.toString()).to.be.equal(
-  //         staking.address.toString(),
-  //         "Wrong staking"
+  //     expect(details._eventInitData.roundDeployer.toString()).to.be.equal(
+  //         roundDeployer.address.toString(),
+  //         "Wrong round deployer"
   //     );
   //
   //     expect(details._status)

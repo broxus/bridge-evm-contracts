@@ -40,8 +40,8 @@ contract SolanaEverscaleBaseEvent is BaseEvent, ISolanaEverscaleEvent {
         return {value: 0, flag: MsgFlag.REMAINING_GAS, bounce: false} eventInitData;
     }
 
-    function getStakingAddress() override internal view returns (address) {
-        return eventInitData.staking;
+    function getRoundDeployerAddress() override internal view returns (address) {
+        return eventInitData.roundDeployer;
     }
 
     function isExternalVoteCall(uint32 functionId) override internal view returns (bool){

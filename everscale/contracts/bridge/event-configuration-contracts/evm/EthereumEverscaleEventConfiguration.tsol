@@ -107,7 +107,7 @@ contract EthereumEverscaleEventConfiguration is
         eventInitData.voteData = eventVoteData;
 
         eventInitData.configuration = address(this);
-        eventInitData.staking = basicConfiguration.staking;
+        eventInitData.roundDeployer = basicConfiguration.roundDeployer;
         eventInitData.chainId = networkConfiguration.chainId;
     }
 

@@ -13,12 +13,12 @@ let bridgeOwner: Account;
 describe("Test bridge update", async function () {
   this.timeout(10000000);
 
-  let staking, cellEncoder;
+  let roundDeployer, cellEncoder;
 
   it("Deploy bridge", async () => {
     const relays = await setupRelays();
 
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
   });
 
   it("Update active flag", async () => {

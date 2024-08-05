@@ -49,7 +49,7 @@
 			]
 		},
 		{
-			"name": "decodeEverscaleEthereumStakingEventData",
+			"name": "decodeEverscaleEthereumRoundsEventData",
 			"inputs": [
 				{"name":"data","type":"cell"}
 			],
@@ -60,7 +60,7 @@
 			]
 		},
 		{
-			"name": "decodeEthereumEverscaleStakingEventData",
+			"name": "decodeEthereumEverscaleRoundsEventData",
 			"inputs": [
 				{"name":"data","type":"cell"}
 			],
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"name": "encodeEthereumEverscaleStakingEventData",
+			"name": "encodeEthereumEverscaleRoundsEventData",
 			"inputs": [
 				{"name":"eth_addr","type":"uint160"},
 				{"name":"wk_id","type":"int8"},
@@ -82,7 +82,7 @@
 			]
 		},
 		{
-			"name": "decodeEverscaleSolanaStakingEventData",
+			"name": "decodeEverscaleSolanaRoundsEventData",
 			"inputs": [
 				{"name":"data","type":"cell"}
 			],
@@ -93,7 +93,7 @@
 			]
 		},
 		{
-			"name": "encodeEverscaleSolanaStakingEventData",
+			"name": "encodeEverscaleSolanaRoundsEventData",
 			"inputs": [
 				{"name":"round_num","type":"uint32"},
 				{"name":"sol_keys","type":"uint256[]"},
@@ -104,7 +104,7 @@
 			]
 		},
 		{
-			"name": "decodeSolanaEverscaleStakingEventData",
+			"name": "decodeSolanaEverscaleRoundsEventData",
 			"inputs": [
 				{"name":"data","type":"cell"}
 			],
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"name": "encodeSolanaEverscaleStakingEventData",
+			"name": "encodeSolanaEverscaleRoundsEventData",
 			"inputs": [
 				{"name":"sol_addr","type":"uint256"},
 				{"name":"wk_id","type":"int8"},

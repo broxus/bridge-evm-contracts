@@ -3,7 +3,7 @@ pragma ever-solidity >= 0.62.0;
 import "./ProxyTokenTransferCellEncoder.tsol";
 import "./ProxyMultiVaultCellEncoder.tsol";
 import "./TokenCellEncoder.tsol";
-import "./StakingCellEncoder.tsol";
+import "./RoundCellEncoder.tsol";
 import "./MergePoolCellEncoder.tsol";
 import "./MediatorCellEncoder.tsol";
 
@@ -14,7 +14,7 @@ contract CellEncoderStandalone is
     ProxyTokenTransferCellEncoder,
     ProxyMultiVaultCellEncoder,
     TokenCellEncoder,
-    StakingCellEncoder,
+    RoundCellEncoder,
     MergePoolCellEncoder,
     MediatorCellEncoder,
     RandomNonce

@@ -13,7 +13,7 @@ interface IEverscaleEthereumEvent is IBasicEvent {
     struct EverscaleEthereumEventInitData {
         EverscaleEthereumEventVoteData voteData;
         address configuration;
-        address staking;
+        address roundDeployer;
     }
 
     function close() external view;

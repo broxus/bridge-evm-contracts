@@ -17,9 +17,9 @@ import {
     MultiVaultEverscaleEVMEventNativeAbi,
     MultiVaultEVMEverscaleEventAlienAbi,
     ProxyMultiVaultAlien_V8Abi,
-    ProxyMultiVaultNative_V4Abi, ProxyMultiVaultNative_V6Abi,
+    ProxyMultiVaultNative_V6Abi,
     SolanaEverscaleEventConfigurationAbi,
-    StakingMockupAbi,
+    RoundDeployerMockupAbi,
     TokenRootAbi,
     TokenRootAlienEVMAbi
 } from "../../../../build/factorySource";
@@ -35,7 +35,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let mediator: Contract<Mediator_V2Abi>;
@@ -76,7 +76,7 @@ describe('Test EVM-EVM bridge transfers, deposit alien withdraw native token', a
 
     it("Setup bridge", async () => {
         relays = await setupRelays();
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
         const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -91,7 +91,7 @@ describe('Test EVM-EVM bridge transfers, deposit alien withdraw native token', a
             alienSolanaEverscaleEventConfiguration,
             alienEverscaleSolanaEventConfiguration,
             alienProxy
-        ] = await setupAlienMultiVault(bridgeOwner, staking);
+        ] = await setupAlienMultiVault(bridgeOwner, roundDeployer);
     });
 
     it('Setup native pipeline', async () => {
@@ -101,7 +101,7 @@ describe('Test EVM-EVM bridge transfers, deposit alien withdraw native token', a
             nativeSolanaEverscaleEventConfiguration,
             nativeEverscaleSolanaEventConfiguration,
             nativeProxy
-        ] = await setupNativeMultiVault(bridgeOwner, staking);
+        ] = await setupNativeMultiVault(bridgeOwner, roundDeployer);
     });
 
     it('Setup mediator', async () => {
