@@ -119,14 +119,6 @@ abstract contract RoundDeployerBase is IRoundDeployer, Delegate {
         send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
     }
 
-    function setBridgeEventEthTonConfig(address new_bridge_event_config_eth_ton, address send_gas_to) external onlyAdmin {
-        require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
-        tvm.rawReserve(_reserve(), 0);
-        emit BridgeEventEthTonConfigUpdated(new_bridge_event_config_eth_ton);
-        base_details.bridge_event_config_eth_ton = new_bridge_event_config_eth_ton;
-        send_gas_to.transfer({ value: 0, bounce: false, flag: MsgFlag.ALL_NOT_RESERVED });
-    }
-
     function setBridgeEventTonEthConfig(address new_bridge_event_config_ton_eth, address send_gas_to) external onlyAdmin {
         require (msg.value >= Gas.MIN_CALL_MSG_VALUE, ErrorCodes.VALUE_TOO_LOW);
         tvm.rawReserve(_reserve(), 0);
@@ -165,7 +157,6 @@ abstract contract RoundDeployerBase is IRoundDeployer, Delegate {
         tvm.rawReserve(_reserve(), 0);
         if (
             new_active
-            && base_details.bridge_event_config_eth_ton.value != 0
             && base_details.bridge_event_config_ton_eth.value != 0
             && code_data.has_platform_code
             && code_data.relay_round_version > 0

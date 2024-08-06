@@ -10,7 +10,6 @@ contract RoundDeployer is RoundDeployerRelay {
 
     constructor(
         address _admin,
-        address _bridge_event_config_eth_ton,
         address _bridge_event_config_ton_eth,
         address _bridge_event_config_ton_sol
     ) public {
@@ -18,7 +17,6 @@ contract RoundDeployer is RoundDeployerRelay {
 
         tvm.accept();
 
-        base_details.bridge_event_config_eth_ton = _bridge_event_config_eth_ton;
         base_details.bridge_event_config_ton_eth = _bridge_event_config_ton_eth;
         base_details.admin = _admin;
         bridge_event_config_ton_sol = _bridge_event_config_ton_sol;
@@ -42,7 +40,6 @@ contract RoundDeployer is RoundDeployerRelay {
             code_data.relay_round_code, // ref3
             deploy_nonce, // 32
 //            deployer, // address 267
-            base_details.bridge_event_config_eth_ton, // address 267
             base_details.bridge_event_config_ton_eth, // address 267
             base_details.admin, // address 267
 

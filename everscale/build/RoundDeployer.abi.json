@@ -7,7 +7,6 @@
 			"name": "constructor",
 			"inputs": [
 				{"name":"_admin","type":"address"},
-				{"name":"_bridge_event_config_eth_ton","type":"address"},
 				{"name":"_bridge_event_config_ton_eth","type":"address"},
 				{"name":"_bridge_event_config_ton_sol","type":"address"}
 			],
@@ -99,7 +98,7 @@
 				{"name":"answerId","type":"uint32"}
 			],
 			"outputs": [
-				{"components":[{"name":"bridge_event_config_eth_ton","type":"address"},{"name":"bridge_event_config_ton_eth","type":"address"},{"name":"admin","type":"address"}],"name":"value0","type":"tuple"}
+				{"components":[{"name":"bridge_event_config_ton_eth","type":"address"},{"name":"admin","type":"address"}],"name":"value0","type":"tuple"}
 			]
 		},
 		{
@@ -143,15 +142,6 @@
 			"inputs": [
 				{"name":"ton_eth_event_value","type":"uint128"},
 				{"name":"ton_sol_event_value","type":"uint128"},
-				{"name":"send_gas_to","type":"address"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "setBridgeEventEthTonConfig",
-			"inputs": [
-				{"name":"new_bridge_event_config_eth_ton","type":"address"},
 				{"name":"send_gas_to","type":"address"}
 			],
 			"outputs": [
@@ -378,7 +368,7 @@
 		{"name":"active","type":"bool"},
 		{"components":[{"name":"platform_code","type":"cell"},{"name":"has_platform_code","type":"bool"},{"name":"user_data_code","type":"cell"},{"name":"user_data_version","type":"uint32"},{"name":"relay_round_code","type":"cell"},{"name":"relay_round_version","type":"uint32"}],"name":"code_data","type":"tuple"},
 		{"components":[{"name":"currentRelayRound","type":"uint32"},{"name":"currentRelayRoundStartTime","type":"uint32"},{"name":"currentRelayRoundEndTime","type":"uint32"}],"name":"round_details","type":"tuple"},
-		{"components":[{"name":"bridge_event_config_eth_ton","type":"address"},{"name":"bridge_event_config_ton_eth","type":"address"},{"name":"admin","type":"address"}],"name":"base_details","type":"tuple"},
+		{"components":[{"name":"bridge_event_config_ton_eth","type":"address"},{"name":"admin","type":"address"}],"name":"base_details","type":"tuple"},
 		{"name":"bridge_event_config_ton_sol","type":"address"},
 		{"name":"manager","type":"address"},
 		{"components":[{"name":"relayRoundTime","type":"uint32"},{"name":"timeBeforeSetRelays","type":"uint32"},{"name":"minRoundGapTime","type":"uint32"},{"name":"minRelaysCount","type":"uint16"}],"name":"relay_config","type":"tuple"},

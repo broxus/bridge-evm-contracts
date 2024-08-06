@@ -101,7 +101,6 @@ describe("Test Relay round mechanic", async function () {
                         contract: "RoundDeployer",
                         constructorParams: {
                             _admin: roundDeployerOwner.address,
-                            _bridge_event_config_eth_ton: roundDeployerOwner.address,
                             _bridge_event_config_ton_eth: ton_config_mockup.address,
                             _bridge_event_config_ton_sol: sol_config_mockup.address,
                         },

@@ -5,7 +5,6 @@ pragma AbiHeader expire;
 interface IRoundDeployer {
 
     struct BaseDetails {
-        address bridge_event_config_eth_ton;
         address bridge_event_config_ton_eth;
         address admin;
     }
