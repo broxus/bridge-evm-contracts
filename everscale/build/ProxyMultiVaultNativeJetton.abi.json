@@ -30,16 +30,6 @@
 			]
 		},
 		{
-			"name": "onSolanaEventConfirmedExtended",
-			"inputs": [
-				{"components":[{"components":[{"name":"accountSeed","type":"uint128"},{"name":"slot","type":"uint64"},{"name":"blockTime","type":"uint64"},{"name":"txSignature","type":"string"},{"name":"eventData","type":"cell"}],"name":"voteData","type":"tuple"},{"name":"configuration","type":"address"},{"name":"staking","type":"address"}],"name":"eventInitData","type":"tuple"},
-				{"name":"meta","type":"cell"},
-				{"name":"remainingGasTo","type":"address"}
-			],
-			"outputs": [
-			]
-		},
-		{
 			"name": "transferNotification",
 			"id": "0x7362D09C",
 			"inputs": [
@@ -74,23 +64,13 @@
 				{"name":"answerId","type":"uint32"}
 			],
 			"outputs": [
-				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"}],"name":"value0","type":"tuple"},
-				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"solanaConfiguration","type":"address"}],"name":"value1","type":"tuple"}
+				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"}],"name":"value0","type":"tuple"}
 			]
 		},
 		{
 			"name": "setEVMConfiguration",
 			"inputs": [
 				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"}],"name":"_config","type":"tuple"},
-				{"name":"remainingGasTo","type":"address"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "setSolanaConfiguration",
-			"inputs": [
-				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"solanaConfiguration","type":"address"}],"name":"_config","type":"tuple"},
 				{"name":"remainingGasTo","type":"address"}
 			],
 			"outputs": [
@@ -150,21 +130,6 @@
 			]
 		},
 		{
-			"name": "SolanaNativeTransfer",
-			"inputs": [
-				{"name":"base_token","type":"uint256"},
-				{"name":"name","type":"string"},
-				{"name":"symbol","type":"string"},
-				{"name":"decimals","type":"uint8"},
-				{"name":"amount","type":"uint128"},
-				{"name":"sol_amount","type":"uint64"},
-				{"name":"recipient","type":"address"},
-				{"name":"payload","type":"bytes"}
-			],
-			"outputs": [
-			]
-		},
-		{
 			"name": "EVMNativeTransfer",
 			"inputs": [
 				{"name":"token_wid","type":"int8"},
@@ -189,7 +154,6 @@
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"owner","type":"address"},
 		{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"}],"name":"evmConfiguration","type":"tuple"},
-		{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"solanaConfiguration","type":"address"}],"name":"solanaConfiguration","type":"tuple"},
 		{"name":"api_version","type":"uint8"},
 		{"name":"dex_middleware","type":"address"},
 		{"name":"_randomNonce","type":"uint256"}

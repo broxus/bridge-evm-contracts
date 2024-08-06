@@ -1,12 +1,9 @@
 pragma ever-solidity >= 0.62.0;
 
-import "../../../../utils/jetton/interfaces/ITransferNotification.tsol";
-
 import "../../../interfaces/event-contracts/IEverscaleEthereumEvent.tsol";
-import "../../../interfaces/event-contracts/IEverscaleSolanaEvent.tsol";
-
-import "../../../interfaces/event-configuration-contracts/IEverscaleSolanaEventConfiguration.tsol";
 import "../../../interfaces/event-configuration-contracts/IEverscaleEthereumEventConfiguration.tsol";
+
+import "../../../../utils/jetton/interfaces/ITransferNotification.tsol";
 
 import "./ProxyMultiVaultNativeJetton_Base.tsol";
 
@@ -23,48 +20,36 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
         address _tokenSender,
         optional(TvmCell) _payload
     ) external override functionID(0x7362d09c) reserveAtLeastTargetBalance {
-        address tokenRoot = msg.sender;
         address remainingGasTo = _tokenSender;
 
         (
             uint32 nonce,
             Network network,
-            TvmCell transferPayload
-        ) = abi.decode(_payload.get(), (uint32, Network, TvmCell));
+            TvmCell transferPayload,
+            string name,
+            string symbol,
+            uint8 decimals,
+            address tokenRoot
+        ) = abi.decode(_payload.get(), (
+            uint32,
+            Network,
+            TvmCell,
+            string,
+            string,
+            uint8,
+            address
+        ));
 
-        if (network == Network.Solana) {
-            (
-                uint256 recipient,
-                IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executeAccounts,
-                bool executePayloadNeeded,
-                IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executePayloadAccounts,
-                bytes solanaPayload
-            ) = abi.decode(transferPayload, (
-                uint256,
-                IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[],
-                bool,
-                IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[],
-                bytes
-            ));
-
-            _deploySolanaEvent(
-                nonce,
-                tokenRoot,
-                _amount,
-                recipient,
-                _tokenSender,
-                remainingGasTo,
-                executeAccounts ,
-                executePayloadNeeded,
-                executePayloadAccounts,
-                solanaPayload
-            );
-        } else if (network == Network.EVM) {
+        if (network == Network.EVM) {
             (
                 uint160 recipient,
                 uint256 chainId,
                 EVMCallback callback
-            ) = abi.decode(transferPayload, (uint160, uint256, EVMCallback));
+            ) = abi.decode(transferPayload, (
+                uint160,
+                uint256,
+                EVMCallback
+            ));
 
             _deployEVMEvent(
                 nonce,
@@ -74,50 +59,12 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
                 recipient,
                 remainingGasTo,
                 _tokenSender,
-                callback
+                callback,
+                name,
+                symbol,
+                decimals
             );
         }
-    }
-
-    function _deploySolanaEvent(
-        uint32 nonce,
-        address token,
-        uint128 amount,
-        uint256 recipient,
-        address sender,
-        address remainingGasTo,
-        IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executeAccounts,
-        bool executePayloadNeeded,
-        IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executePayloadAccounts,
-        bytes solanaPayload
-    ) internal view {
-        TvmCell eventData = abi.encode(
-            nonce,
-            address(this), // Proxy address
-            msg.sender, // Token wallet address, must be validated in the event contract
-            token, // Token root
-            remainingGasTo, // Remaining gas to
-            amount, // Amount of tokens to withdraw
-            recipient, // Solana recipient address
-            sender,
-            solanaPayload
-        );
-
-        IEverscaleSolanaEvent.EverscaleSolanaEventVoteData eventVoteData = IEverscaleSolanaEvent.EverscaleSolanaEventVoteData(
-            tx.timestamp,
-            now,
-            executeAccounts,
-            executePayloadNeeded,
-            executePayloadAccounts,
-            eventData
-        );
-
-        IEverscaleSolanaEventConfiguration(solanaConfiguration.everscaleConfiguration)
-            .deployEvent{
-                value: 0,
-                bounce: false,
-                flag: MsgFlag.ALL_NOT_RESERVED
-            }(eventVoteData);
     }
 
     function _deployEVMEvent(
@@ -128,7 +75,10 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
         uint160 recipient,
         address remainingGasTo,
         address sender,
-        EVMCallback callback
+        EVMCallback callback,
+        string name,
+        string symbol,
+        uint8 decimals
     ) internal view {
         TvmCell eventData = abi.encode(
             nonce,
@@ -142,7 +92,10 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
             sender,
             callback.recipient,
             callback.payload,
-            callback.strict
+            callback.strict,
+            name,
+            symbol,
+            decimals
         );
 
         IEverscaleEthereumEvent.EverscaleEthereumEventVoteData eventVoteData = IEverscaleEthereumEvent.EverscaleEthereumEventVoteData(

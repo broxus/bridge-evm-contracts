@@ -6,11 +6,14 @@ import "@broxus/contracts/contracts/libraries/MsgFlag.tsol";
 import "../../../../utils/jetton/libraries/JettonUtils.tsol";
 import "../../../../utils/TransferUtils.tsol";
 
-import "../../../interfaces/proxy/multivault/native/IProxyMultiVaultNative_V3.tsol";
+import "../../../interfaces/proxy/multivault/native/IProxyMultiVaultNativeJetton.tsol";
 
-abstract contract ProxyMultiVaultNativeJetton_Base is IProxyMultiVaultNative_V3, InternalOwner, TransferUtils {
+abstract contract ProxyMultiVaultNativeJetton_Base is
+    IProxyMultiVaultNativeJetton,
+    InternalOwner,
+    TransferUtils
+{
     EVMConfiguration evmConfiguration;
-    SolanaConfiguration solanaConfiguration;
     uint8 api_version;
     address public dex_middleware;
 
@@ -18,7 +21,7 @@ abstract contract ProxyMultiVaultNativeJetton_Base is IProxyMultiVaultNative_V3,
     /// Each time contract is upgraded, API version is incremented.
     /// @return Current API version
     function apiVersion() external override view responsible returns (uint8) {
-        return{ value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } api_version;
+        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } api_version;
     }
 
     function setDexMiddleware(address _dex_middleware) external onlyOwner cashBack {
@@ -30,9 +33,9 @@ abstract contract ProxyMultiVaultNativeJetton_Base is IProxyMultiVaultNative_V3,
         external
         view
         responsible
-        returns (EVMConfiguration, SolanaConfiguration)
+        returns (EVMConfiguration)
     {
-        return{ value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } (evmConfiguration, solanaConfiguration);
+        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } evmConfiguration;
     }
 
     function setEVMConfiguration(
@@ -40,13 +43,6 @@ abstract contract ProxyMultiVaultNativeJetton_Base is IProxyMultiVaultNative_V3,
         address remainingGasTo
     ) override external onlyOwner cashBackTo(remainingGasTo) {
         evmConfiguration = _config;
-    }
-
-    function setSolanaConfiguration(
-        SolanaConfiguration _config,
-        address remainingGasTo
-    ) override external onlyOwner cashBackTo(remainingGasTo) {
-        solanaConfiguration = _config;
     }
 
     function _transferTokens(

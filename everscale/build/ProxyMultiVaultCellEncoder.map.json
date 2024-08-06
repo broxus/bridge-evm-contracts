@@ -65,367 +65,367 @@
     "150ed8d7aa9381cbc59019c71b692a163fe89f23791b93e48c9e76bd82271b48": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 181
+        "line": 195
       },
       "8": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 181
+        "line": 195
       },
       "24": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "40": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "64": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "80": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "96": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "104": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "112": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "128": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "136": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       },
       "144": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 189
+        "line": 203
       }
     },
     "21e92ce56f3db1a2a34fa763be58eeedfd9250f177b4c369479aafc5ba946d67": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 482
+        "line": 580
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 483
+        "line": 581
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 484
+        "line": 582
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "64": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 489
+        "line": 587
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 492
+        "line": 590
       },
       "88": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 493
+        "line": 591
       },
       "104": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 494
+        "line": 592
       },
       "112": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 495
+        "line": 593
       },
       "120": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 496
+        "line": 594
       },
       "136": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 497
+        "line": 595
       },
       "152": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 498
+        "line": 596
       },
       "160": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 499
+        "line": 597
       },
       "168": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 500
+        "line": 598
       },
       "176": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 501
+        "line": 599
       },
       "200": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 502
+        "line": 600
       },
       "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 503
+        "line": 601
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 504
+        "line": 602
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 505
+        "line": 603
       },
       "256": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 506
+        "line": 604
       },
       "264": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 507
+        "line": 605
       },
       "312": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 508
+        "line": 606
       },
       "328": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 509
+        "line": 607
       },
       "344": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 510
+        "line": 608
       },
       "352": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 511
+        "line": 609
       },
       "360": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 512
+        "line": 610
       },
       "376": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 513
+        "line": 611
       },
       "392": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 514
+        "line": 612
       },
       "408": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 515
+        "line": 613
       },
       "424": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 516
+        "line": 614
       },
       "440": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 517
+        "line": 615
       },
       "448": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 518
+        "line": 616
       },
       "464": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 519
+        "line": 617
       },
       "472": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 520
+        "line": 618
       },
       "480": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 521
+        "line": 619
       },
       "488": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 522
+        "line": 620
       },
       "504": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 524
+        "line": 622
       },
       "512": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 525
+        "line": 623
       },
       "528": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 527
+        "line": 625
       },
       "536": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 528
+        "line": 626
       },
       "552": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 531
+        "line": 629
       }
     },
     "2285f7fe1878370daae14eb627c5ca0ea4fe1131f7e67a6b9157510d0b9a6f3a": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 800
+        "line": 898
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 801
+        "line": 899
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 802
+        "line": 900
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 181
+        "line": 195
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 181
+        "line": 195
       },
       "64": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 807
+        "line": 905
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 810
+        "line": 908
       },
       "88": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 811
+        "line": 909
       },
       "104": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 812
+        "line": 910
       },
       "112": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 813
+        "line": 911
       },
       "120": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 814
+        "line": 912
       },
       "136": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 815
+        "line": 913
       },
       "152": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 816
+        "line": 914
       },
       "160": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 817
+        "line": 915
       },
       "168": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 818
+        "line": 916
       },
       "176": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 819
+        "line": 917
       },
       "200": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 820
+        "line": 918
       },
       "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 821
+        "line": 919
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 822
+        "line": 920
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 823
+        "line": 921
       },
       "256": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 824
+        "line": 922
       },
       "264": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 825
+        "line": 923
       },
       "312": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 826
+        "line": 924
       },
       "328": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 827
+        "line": 925
       },
       "344": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 828
+        "line": 926
       },
       "360": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 829
+        "line": 927
       },
       "368": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 830
+        "line": 928
       },
       "376": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 831
+        "line": 929
       },
       "384": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 832
+        "line": 930
       },
       "392": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 833
+        "line": 931
       },
       "408": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 835
+        "line": 933
       },
       "416": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 836
+        "line": 934
       },
       "432": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 838
+        "line": 936
       },
       "440": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 839
+        "line": 937
       },
       "456": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 842
+        "line": 940
       }
     },
     "25594b77c6d66cd03ac50956e5e719c357c600387b5a0f8bcae94d8655f6cb19": {
@@ -602,140 +602,208 @@
         "line": 385
       }
     },
-    "3066e0e97ccec74a2bf4e918047a8e01669aab012aeaf86a20ac3714c650097a": {
+    "335119c7761020d626ad3b815411e34d38bb3f7c5311ff5860eb640643d9afe1": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 998
+        "line": 1128
       },
       "16": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 999
+        "line": 1129
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1000
+        "line": 1130
       },
       "40": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1001
+        "line": 1131
       },
       "56": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1002
+        "line": 1132
       },
       "72": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1003
+        "line": 1133
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1004
+        "line": 1134
       },
-      "88": {
+      "96": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1005
+        "line": 1137
       },
       "112": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1006
+        "line": 1138
       },
-      "136": {
+      "120": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1007
+        "line": 1139
+      },
+      "128": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1140
       },
       "144": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1008
+        "line": 1141
       },
-      "152": {
+      "160": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1009
+        "line": 1142
       },
       "168": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1010
+        "line": 1143
       },
       "184": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1014
+        "line": 1144
       },
       "192": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1015
+        "line": 1145
       },
-      "216": {
+      "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1016
+        "line": 1146
       },
-      "232": {
+      "224": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1017
+        "line": 1147
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1018
+        "line": 1149
       },
-      "256": {
+      "248": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1022
+        "line": 1150
       },
       "264": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1023
+        "line": 1151
       },
-      "280": {
+      "272": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "288": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "296": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "304": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "320": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "328": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "344": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "368": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "376": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "424": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "464": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1026
+        "line": 1153
+      },
+      "480": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1154
+      },
+      "488": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1155
+      },
+      "504": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1158
       }
     },
     "418e0e6dbc654b45d1e514994a4864cfb9ccd241fe97b7be566e7fc6adfb5aa3": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "16": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "24": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "32": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "64": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "72": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "80": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "96": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "112": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "120": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       },
       "128": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 166
+        "line": 180
       }
     },
     "42aa676d16d19f95a85a3a8f6b8578c96167a12005f5a454dcdc62d5181d3cf4": {
@@ -989,431 +1057,365 @@
     "46f78ff39d8a79cb674007d0fa0e4903176e955cc0fb97b11cbffb7cb0599d1a": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 408
+        "line": 506
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 409
+        "line": 507
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 410
+        "line": 508
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 83
+        "line": 97
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 83
+        "line": 97
       },
       "64": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 415
+        "line": 513
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 418
+        "line": 516
       },
       "88": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 419
+        "line": 517
       },
       "104": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 420
+        "line": 518
       },
       "112": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 421
+        "line": 519
       },
       "120": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 422
+        "line": 520
       },
       "136": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 423
+        "line": 521
       },
       "152": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 424
+        "line": 522
       },
       "160": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 425
+        "line": 523
       },
       "168": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 426
+        "line": 524
       },
       "176": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 427
+        "line": 525
       },
       "200": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 428
+        "line": 526
       },
       "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 429
+        "line": 527
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 430
+        "line": 528
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 431
+        "line": 529
       },
       "256": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 432
+        "line": 530
       },
       "264": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 433
+        "line": 531
       },
       "312": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 434
+        "line": 532
       },
       "328": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 435
+        "line": 533
       },
       "344": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 436
+        "line": 534
       },
       "360": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 437
+        "line": 535
       },
       "376": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 438
+        "line": 536
       },
       "392": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 439
+        "line": 537
       },
       "400": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 440
+        "line": 538
       },
       "416": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 441
+        "line": 539
       },
       "424": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 442
+        "line": 540
       },
       "432": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 443
+        "line": 541
       },
       "440": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 444
+        "line": 542
       },
       "456": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 446
+        "line": 544
       },
       "464": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 447
+        "line": 545
       },
       "480": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 449
+        "line": 547
       },
       "488": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 450
+        "line": 548
       },
       "504": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 453
-      }
-    },
-    "4b88f1c4325665f3ef7537de51ca70ca0e12f964fd927e73476707d2550f5cac": {
-      "0": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1096
-      },
-      "8": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1097
-      },
-      "56": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1098
-      },
-      "64": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1099
-      },
-      "80": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1102
-      },
-      "88": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1103
-      },
-      "136": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1104
-      },
-      "144": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1105
-      },
-      "160": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1108
-      },
-      "168": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1109
-      },
-      "216": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1110
-      },
-      "224": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1111
-      },
-      "240": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1114
-      },
-      "248": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1115
-      },
-      "296": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1116
-      },
-      "304": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1117
+        "line": 551
       }
     },
     "4fa5eb4e2128307ccfc0452e15da9d73eb83519bec62ccd9d639d3f15ebed400": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 573
+        "line": 671
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 574
+        "line": 672
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 575
+        "line": 673
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "64": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "80": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "88": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "96": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "112": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "128": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "136": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "144": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "152": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "168": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "176": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "192": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "200": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "208": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "224": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "240": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "256": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "264": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "272": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "280": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "288": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "304": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "320": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "328": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 135
+        "line": 149
       },
       "336": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 606
+        "line": 704
       },
       "352": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 609
+        "line": 707
       },
       "360": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 610
+        "line": 708
       },
       "376": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 611
+        "line": 709
       },
       "384": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 612
+        "line": 710
       },
       "392": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 613
+        "line": 711
       },
       "408": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 614
+        "line": 712
       },
       "424": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 615
+        "line": 713
       },
       "432": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 616
+        "line": 714
       },
       "440": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 617
+        "line": 715
       },
       "448": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 618
+        "line": 716
       },
       "472": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 619
+        "line": 717
       },
       "480": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 620
+        "line": 718
       },
       "528": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 621
+        "line": 719
       },
       "552": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 622
+        "line": 720
       },
       "560": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 623
+        "line": 721
       },
       "568": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 624
+        "line": 722
       },
       "576": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 625
+        "line": 723
       },
       "592": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 627
+        "line": 725
       },
       "600": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 628
+        "line": 726
       },
       "608": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 630
+        "line": 728
       },
       "616": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 631
+        "line": 729
       },
       "632": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 634
+        "line": 732
       }
     },
     "5488143b342a13c2d26340020cb1452b5c9932007ba3e02b3640f5f1d2d4c397": {
@@ -1474,406 +1476,186 @@
         "line": 45
       }
     },
-    "5db955efa724bd19f7342bfbc32e0229dabb9090308912271ad7e367f454bcc0": {
-      "0": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1063
-      },
-      "8": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1064
-      },
-      "56": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1065
-      },
-      "64": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1066
-      },
-      "80": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1092
-      },
-      "88": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1093
-      },
-      "136": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1094
-      },
-      "144": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1095
-      },
-      "160": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1121
-      },
-      "168": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1122
-      },
-      "216": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1123
-      },
-      "224": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1124
-      },
-      "240": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1150
-      },
-      "248": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1151
-      },
-      "296": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1152
-      },
-      "304": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1153
-      }
-    },
-    "603d163f2840d89f62e61520866fe49bf24aa238ba37b9252cbcd6c7fbee03ee": {
-      "0": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1030
-      },
-      "16": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1031
-      },
-      "24": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1032
-      },
-      "40": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1033
-      },
-      "56": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1034
-      },
-      "72": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1035
-      },
-      "80": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1036
-      },
-      "96": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1039
-      },
-      "112": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1040
-      },
-      "120": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1041
-      },
-      "128": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1042
-      },
-      "144": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1043
-      },
-      "160": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1044
-      },
-      "168": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1045
-      },
-      "184": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1046
-      },
-      "192": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1047
-      },
-      "208": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1048
-      },
-      "224": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1049
-      },
-      "240": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1051
-      },
-      "248": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1052
-      },
-      "264": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1053
-      },
-      "272": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "288": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "296": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "304": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "320": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "328": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "344": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "368": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "376": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "416": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "424": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "432": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "448": {
-        "filename": "stdlib.sol",
-        "line": 63
-      },
-      "464": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1055
-      },
-      "480": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1056
-      },
-      "488": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1057
-      },
-      "504": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1060
-      }
-    },
     "60488e96384d55db5809d3be340ce676908c99e02e0f6a89a307f1376c1ceb17": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 972
+        "line": 1070
       },
       "16": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 973
+        "line": 1071
       },
       "32": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 974
+        "line": 1072
       },
       "40": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 975
+        "line": 1073
       },
       "56": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 976
+        "line": 1074
       },
       "72": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 977
+        "line": 1075
       },
       "88": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 978
+        "line": 1076
       },
       "96": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 979
+        "line": 1077
       }
     },
     "605102e676c81369a7d085c61df94260a65881d6d248bc8fff7a74470318934f": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1067
+        "line": 1165
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1068
+        "line": 1166
       },
       "48": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1069
+        "line": 1167
       },
       "56": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1070
+        "line": 1168
       },
       "72": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1073
+        "line": 1171
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1074
+        "line": 1172
       },
       "128": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1075
+        "line": 1173
       },
       "136": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1076
+        "line": 1174
       },
       "152": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1079
+        "line": 1177
       },
       "160": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1080
+        "line": 1178
       },
       "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1081
+        "line": 1179
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1082
+        "line": 1180
       },
       "232": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1085
+        "line": 1183
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1086
+        "line": 1184
       },
       "288": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1087
+        "line": 1185
       },
       "296": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1088
+        "line": 1186
       }
     },
     "6302d30ca6d922dc6b7a47fbcbe58df43c8fd68a76c07c3ef2c9b3c5415a18b0": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 83
+        "line": 97
       },
       "8": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 83
+        "line": 97
       },
       "24": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 83
+        "line": 97
       },
       "32": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "72": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "88": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "104": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "120": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "136": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "144": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "160": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "168": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "184": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "192": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "200": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "208": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "216": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       },
       "224": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 95
+        "line": 109
       }
     },
     "63ae47e7fb00adf05bbdc2640bc7ff63c019f8b4d155fc1adeaadcdc2a559df5": {
@@ -1934,152 +1716,86 @@
         "line": 58
       }
     },
-    "6ba3b415ff1fcca47bff96bfe798e0511376085aa169b46b8a71dc09b68d5b65": {
-      "0": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1125
-      },
-      "8": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1126
-      },
-      "56": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1127
-      },
-      "64": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1128
-      },
-      "80": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1131
-      },
-      "88": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1132
-      },
-      "136": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1133
-      },
-      "144": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1134
-      },
-      "160": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1137
-      },
-      "168": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1138
-      },
-      "216": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1139
-      },
-      "224": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1140
-      },
-      "240": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1143
-      },
-      "248": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1144
-      },
-      "296": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1145
-      },
-      "304": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1146
-      }
-    },
     "6eb7591faf2912e244508d3b383d9e85122f30623c54c11756e4349edd1b2072": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "16": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "24": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "40": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "64": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "72": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "88": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "104": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "120": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "128": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "144": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "152": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "168": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "184": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "192": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 176
+        "line": 190
       },
       "200": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 178
+        "line": 192
       },
       "208": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 178
+        "line": 192
       },
       "264": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 178
+        "line": 192
       },
       "272": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 178
+        "line": 192
       }
     },
     "7081a709d87b2b24857229452ea6c1ffb1e5c86aa821fec4dfeb5891ff31d03f": {
@@ -2254,515 +1970,1115 @@
         "line": 2
       }
     },
-    "8aa0121e26d3b161cf92456c4c2c6a5a8355b1be3bf8e4a2179fc5985385f4f1": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
-      }
-    },
-    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "a0730b3beb73688b8ea91fbe9707d14be0e50ec446a18856a8dd7719f05c3add": {
+    "8db83a32f38e232fc29d3c0c58c1f17fef56ee829670730521b42ce5f59cf0cb": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 656
+        "line": 1161
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 657
-      },
-      "24": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 658
-      },
-      "48": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "line": 1162
       },
       "56": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1163
       },
       "64": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "72": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1164
       },
       "80": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1190
       },
       "88": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "96": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "112": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "128": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1191
       },
       "136": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1192
       },
       "144": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1193
       },
-      "152": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+      "160": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1219
       },
       "168": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "184": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "200": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
-      },
-      "208": {
-        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 157
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1220
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 678
+        "line": 1221
       },
-      "232": {
+      "224": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 681
+        "line": 1222
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 682
+        "line": 1248
       },
-      "256": {
+      "248": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 683
+        "line": 1249
       },
-      "264": {
+      "296": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 684
-      },
-      "272": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 685
-      },
-      "288": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 686
+        "line": 1250
       },
       "304": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 687
+        "line": 1251
+      }
+    },
+    "925c73a63a9b963f2134e5d8d4bf3ddb6ce3b5410e814adb66b2d1008b932987": {
+      "0": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 408
+      },
+      "8": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 409
+      },
+      "24": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 410
+      },
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "56": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "72": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "88": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "96": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "104": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "112": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "128": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "144": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "152": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "168": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "184": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "200": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "208": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "216": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "224": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "240": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "256": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "272": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "288": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "304": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "312": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 688
-      },
-      "320": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 689
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "328": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 690
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
-      "352": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 691
+      "344": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "360": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 692
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "368": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "376": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "384": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "400": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "408": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 693
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "416": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
+      },
+      "424": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "432": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 694
-      },
-      "440": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 695
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "448": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 696
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 83
       },
       "456": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 697
+        "line": 449
       },
       "472": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 699
+        "line": 452
       },
       "480": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 700
-      },
-      "488": {
-        "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 702
+        "line": 453
       },
       "496": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 703
+        "line": 454
+      },
+      "504": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 455
       },
       "512": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 706
+        "line": 456
+      },
+      "528": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 457
+      },
+      "544": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 458
+      },
+      "552": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 459
+      },
+      "560": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 460
+      },
+      "568": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 461
+      },
+      "592": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 462
+      },
+      "600": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 463
+      },
+      "648": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 464
+      },
+      "672": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 465
+      },
+      "680": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 466
+      },
+      "688": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 467
+      },
+      "696": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 468
+      },
+      "712": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 470
+      },
+      "720": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 471
+      },
+      "728": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 473
+      },
+      "736": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 474
+      },
+      "752": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 477
+      }
+    },
+    "93298f9f8273e3c9e3b2fa22a46ed1e6e31234764e0865da3b39ab3544758b2a": {
+      "0": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1096
+      },
+      "16": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1097
+      },
+      "24": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1098
+      },
+      "40": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1099
+      },
+      "56": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1100
+      },
+      "72": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1101
+      },
+      "80": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1102
+      },
+      "88": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1103
+      },
+      "112": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1104
+      },
+      "136": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1105
+      },
+      "144": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1106
+      },
+      "152": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1107
+      },
+      "168": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1108
+      },
+      "184": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1112
+      },
+      "192": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1113
+      },
+      "216": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1114
+      },
+      "232": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1115
+      },
+      "240": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1116
+      },
+      "256": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1120
+      },
+      "264": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1121
+      },
+      "280": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1124
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9847512cf28311c512efb51ed5cfa9de9ad93343160ad4d1265af2672c9d7e89": {
+      "0": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1194
+      },
+      "8": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1195
+      },
+      "56": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1196
+      },
+      "64": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1197
+      },
+      "80": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1200
+      },
+      "88": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1201
+      },
+      "136": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1202
+      },
+      "144": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1203
+      },
+      "160": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1206
+      },
+      "168": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1207
+      },
+      "216": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1208
+      },
+      "224": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1209
+      },
+      "240": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1212
+      },
+      "248": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1213
+      },
+      "296": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1214
+      },
+      "304": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1215
+      }
+    },
+    "a0730b3beb73688b8ea91fbe9707d14be0e50ec446a18856a8dd7719f05c3add": {
+      "0": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 754
+      },
+      "8": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 755
+      },
+      "24": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 756
+      },
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "56": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "64": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "72": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "80": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "88": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "96": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "112": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "128": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "136": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "144": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "152": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "168": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "184": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "200": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "208": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 171
+      },
+      "216": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 776
+      },
+      "232": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 779
+      },
+      "240": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 780
+      },
+      "256": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 781
+      },
+      "264": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 782
+      },
+      "272": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 783
+      },
+      "288": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 784
+      },
+      "304": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 785
+      },
+      "312": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 786
+      },
+      "320": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 787
+      },
+      "328": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 788
+      },
+      "352": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 789
+      },
+      "360": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 790
+      },
+      "408": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 791
+      },
+      "432": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 792
+      },
+      "440": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 793
+      },
+      "448": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 794
+      },
+      "456": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 795
+      },
+      "472": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 797
+      },
+      "480": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 798
+      },
+      "488": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 800
+      },
+      "496": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 801
+      },
+      "512": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 804
+      }
+    },
+    "af8aaaad339b218913305a6d6cc0a12d2887ec8e96bd24555deed517927adfa5": {
+      "0": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1252
+      },
+      "8": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1253
+      },
+      "56": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1254
+      },
+      "64": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1255
+      },
+      "80": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1258
+      },
+      "88": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1259
+      },
+      "136": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1260
+      },
+      "144": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1261
+      }
+    },
+    "afd22938e1c9055f424a82dfd705d4f7b08ee170da2ef823ca1b19a4f7aa74fb": {
+      "0": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1223
+      },
+      "8": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1224
+      },
+      "56": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1225
+      },
+      "64": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1226
+      },
+      "80": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1229
+      },
+      "88": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1230
+      },
+      "136": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1231
+      },
+      "144": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1232
+      },
+      "160": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1235
+      },
+      "168": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1236
+      },
+      "216": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1237
+      },
+      "224": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1238
+      },
+      "240": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1241
+      },
+      "248": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1242
+      },
+      "296": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1243
+      },
+      "304": {
+        "filename": "ProxyMultiVaultCellEncoder.code",
+        "line": 1244
+      }
+    },
+    "b1f511c0348541794474c29c12a0b1ff21ac38fbe197f5e5aba208802f1ca442": {
+      "0": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "16": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "24": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "32": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "48": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "64": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "72": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "88": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "104": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "120": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "128": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "144": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 92
+      },
+      "152": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "168": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "176": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "232": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "240": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "248": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "256": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "272": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
+      },
+      "280": {
+        "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
+        "line": 94
       }
     },
     "b3cf2299671ee839a83bfa90810100b8576c7d3fca3dfb0d0c3a87136da8ca87": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 725
+        "line": 823
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 726
+        "line": 824
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 727
+        "line": 825
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "64": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "80": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "96": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "104": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "120": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "128": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "144": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "160": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "176": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "184": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "200": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "208": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "216": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 169
+        "line": 183
       },
       "224": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 744
+        "line": 842
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 747
+        "line": 845
       },
       "248": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 748
+        "line": 846
       },
       "264": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 749
+        "line": 847
       },
       "272": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 750
+        "line": 848
       },
       "280": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 751
+        "line": 849
       },
       "296": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 752
+        "line": 850
       },
       "312": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 753
+        "line": 851
       },
       "320": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 754
+        "line": 852
       },
       "328": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 755
+        "line": 853
       },
       "336": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 756
+        "line": 854
       },
       "360": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 757
+        "line": 855
       },
       "368": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 758
+        "line": 856
       },
       "416": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 759
+        "line": 857
       },
       "440": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 760
+        "line": 858
       },
       "448": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 761
+        "line": 859
       },
       "456": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 762
+        "line": 860
       },
       "464": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 763
+        "line": 861
       },
       "480": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 765
+        "line": 863
       },
       "488": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 766
+        "line": 864
       },
       "496": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 768
+        "line": 866
       },
       "504": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 769
+        "line": 867
       },
       "520": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 772
+        "line": 870
       }
     },
     "b6f27d187f26bd046272f9f471e9ae01f051b960e654874ac3fb0749c691c4c6": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 950
+        "line": 1048
       },
       "16": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 951
+        "line": 1049
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 952
+        "line": 1050
       },
       "40": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 953
+        "line": 1051
       },
       "56": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 954
+        "line": 1052
       },
       "72": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 955
+        "line": 1053
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 956
+        "line": 1054
       },
       "96": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 957
+        "line": 1055
       },
       "104": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 958
+        "line": 1056
       },
       "120": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 959
+        "line": 1057
       },
       "136": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 960
+        "line": 1058
       },
       "152": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 961
+        "line": 1059
       },
       "168": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 962
+        "line": 1060
       },
       "192": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 963
+        "line": 1061
       },
       "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 964
+        "line": 1062
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 965
+        "line": 1063
       },
       "232": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 967
+        "line": 1065
       }
     },
     "b83dcadd2d726677d18cb1ca2e22f2bb7c2bc043c126b33570aae6a47d2b4962": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "16": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "24": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "40": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "72": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "88": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "96": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "112": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "120": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "136": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "152": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "160": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       },
       "168": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 149
+        "line": 163
       }
     },
     "c0024893f19868099eed8e5f9d43df1b3b37834cfad83d94777101c0bb3e54b7": {
@@ -3010,375 +3326,375 @@
     "dd966469f9f5e5b853d5ea4d1651e37623844ac978d59f562d2f1ebd71aea348": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "288": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "296": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "304": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "312": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "328": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "344": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "352": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "368": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "376": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "384": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "400": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "416": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "432": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "440": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "448": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "464": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "472": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "480": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "488": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "496": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       },
       "504": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 206
+        "line": 220
       }
     },
     "ddfe71dc49241e09de46eea25c72c07ace111bf2b987328b0b5cf65393872326": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "8": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "16": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "24": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "32": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "40": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 101
+        "line": 115
       },
       "64": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "80": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "88": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "104": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "120": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "128": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "136": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "152": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "168": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "184": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "200": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "216": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "224": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "240": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "248": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "264": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "280": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "296": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "312": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "320": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "328": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "336": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "344": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "352": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       },
       "360": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 119
+        "line": 133
       }
     },
     "df2b35c0e0a3009a212c19a45634aa0048278a1176b0c61a35541efffd39b7bc": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 863
+        "line": 961
       },
       "8": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 864
+        "line": 962
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 865
+        "line": 963
       },
       "48": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "56": {
         "filename": "../contracts/utils/cell-encoder/ProxyMultiVaultCellEncoder.tsol",
-        "line": 195
+        "line": 209
       },
       "64": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 870
+        "line": 968
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 873
+        "line": 971
       },
       "88": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 874
+        "line": 972
       },
       "104": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 875
+        "line": 973
       },
       "112": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 876
+        "line": 974
       },
       "120": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 877
+        "line": 975
       },
       "136": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 878
+        "line": 976
       },
       "152": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 879
+        "line": 977
       },
       "160": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 880
+        "line": 978
       },
       "168": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 881
+        "line": 979
       },
       "176": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 882
+        "line": 980
       },
       "200": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 883
+        "line": 981
       },
       "208": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 884
+        "line": 982
       },
       "216": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 885
+        "line": 983
       },
       "240": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 886
+        "line": 984
       },
       "256": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 887
+        "line": 985
       },
       "264": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 888
+        "line": 986
       },
       "312": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 889
+        "line": 987
       },
       "320": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 890
+        "line": 988
       },
       "328": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 891
+        "line": 989
       },
       "336": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 892
+        "line": 990
       },
       "352": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 893
+        "line": 991
       },
       "368": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 894
+        "line": 992
       },
       "384": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 895
+        "line": 993
       },
       "392": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 896
+        "line": 994
       },
       "400": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 897
+        "line": 995
       },
       "408": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 898
+        "line": 996
       },
       "416": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 899
+        "line": 997
       },
       "432": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 901
+        "line": 999
       },
       "440": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 902
+        "line": 1000
       },
       "456": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 904
+        "line": 1002
       },
       "464": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 905
+        "line": 1003
       },
       "480": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 908
+        "line": 1006
       }
     },
     "e0f77486a70f33eeb3d1275dcf6886367b065d2388692e5915ee574e5bfac26f": {
@@ -3596,49 +3912,95 @@
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1011
+        "line": 1109
       },
       "16": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 1012
+        "line": 1110
       }
     },
     "f2b6fee906959c240bebf2ae6014f1d4be66e2dc6e03df25aa5ea29205d3e249": {
       "0": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 939
+        "line": 1037
       },
       "16": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 940
+        "line": 1038
       },
       "24": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 941
+        "line": 1039
       },
       "40": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 942
+        "line": 1040
       },
       "56": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 943
+        "line": 1041
       },
       "72": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 944
+        "line": 1042
       },
       "80": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 945
+        "line": 1043
       },
       "88": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 946
+        "line": 1044
       },
       "104": {
         "filename": "ProxyMultiVaultCellEncoder.code",
-        "line": 947
+        "line": 1045
+      }
+    },
+    "fb18b844799aa01d8f5bcc3eb3a62ead217873b7abbc2681dab31ee513b63adc": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
       }
     }
   }

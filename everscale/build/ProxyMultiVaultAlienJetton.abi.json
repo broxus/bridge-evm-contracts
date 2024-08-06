@@ -103,24 +103,6 @@
 			]
 		},
 		{
-			"name": "withdrawTokensToSolanaByMergePool",
-			"inputs": [
-				{"name":"mergePoolNonce","type":"uint256"},
-				{"name":"nonce","type":"uint32"},
-				{"name":"token","type":"address"},
-				{"name":"amount","type":"uint128"},
-				{"name":"recipient","type":"uint256"},
-				{"name":"remainingGasTo","type":"address"},
-				{"name":"sender","type":"address"},
-				{"components":[{"name":"account","type":"uint256"},{"name":"readOnly","type":"bool"},{"name":"isSigner","type":"bool"}],"name":"executeAccounts","type":"tuple[]"},
-				{"name":"executePayloadNeeded","type":"bool"},
-				{"components":[{"name":"account","type":"uint256"},{"name":"readOnly","type":"bool"},{"name":"isSigner","type":"bool"}],"name":"executePayloadAccounts","type":"tuple[]"},
-				{"name":"solanaPayload","type":"bytes"}
-			],
-			"outputs": [
-			]
-		},
-		{
 			"name": "upgradeMergePool",
 			"inputs": [
 				{"name":"pool","type":"address"}
@@ -150,7 +132,7 @@
 				{"name":"amount","type":"uint128"},
 				{"name":"sender","type":"address"},
 				{"name":"value2","type":"address"},
-				{"name":"remainingGasTo","type":"address"},
+				{"name":"value3","type":"address"},
 				{"name":"payload","type":"cell"}
 			],
 			"outputs": [
@@ -174,19 +156,7 @@
 				{"name":"name","type":"string"},
 				{"name":"symbol","type":"string"},
 				{"name":"decimals","type":"uint8"},
-				{"name":"remainingGasTo","type":"address"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "deploySolanaAlienToken",
-			"inputs": [
-				{"name":"token","type":"uint256"},
-				{"name":"name","type":"string"},
-				{"name":"symbol","type":"string"},
-				{"name":"decimals","type":"uint8"},
-				{"name":"remainingGasTo","type":"address"}
+				{"name":"value5","type":"address"}
 			],
 			"outputs": [
 			]
@@ -206,41 +176,18 @@
 			]
 		},
 		{
-			"name": "deriveSolanaAlienTokenRoot",
-			"inputs": [
-				{"name":"answerId","type":"uint32"},
-				{"name":"token","type":"uint256"},
-				{"name":"name","type":"string"},
-				{"name":"symbol","type":"string"},
-				{"name":"decimals","type":"uint8"}
-			],
-			"outputs": [
-				{"name":"value0","type":"address"}
-			]
-		},
-		{
 			"name": "getConfiguration",
 			"inputs": [
 				{"name":"answerId","type":"uint32"}
 			],
 			"outputs": [
-				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"value0","type":"tuple"},
-				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"solanaConfiguration","type":"address"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"value1","type":"tuple"}
+				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"value0","type":"tuple"}
 			]
 		},
 		{
 			"name": "setEVMConfiguration",
 			"inputs": [
 				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"_config","type":"tuple"},
-				{"name":"remainingGasTo","type":"address"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "setSolanaConfiguration",
-			"inputs": [
-				{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"solanaConfiguration","type":"address"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"_config","type":"tuple"},
 				{"name":"remainingGasTo","type":"address"}
 			],
 			"outputs": [
@@ -340,21 +287,6 @@
 			]
 		},
 		{
-			"name": "SolanaAlienTransfer",
-			"inputs": [
-				{"name":"base_token","type":"uint256"},
-				{"name":"name","type":"string"},
-				{"name":"symbol","type":"string"},
-				{"name":"decimals","type":"uint8"},
-				{"name":"amount","type":"uint128"},
-				{"name":"sol_amount","type":"uint64"},
-				{"name":"recipient","type":"address"},
-				{"name":"payload","type":"bytes"}
-			],
-			"outputs": [
-			]
-		},
-		{
 			"name": "EVMAlienTransfer",
 			"inputs": [
 				{"name":"token","type":"uint160"},
@@ -374,7 +306,6 @@
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"owner","type":"address"},
-		{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"solanaConfiguration","type":"address"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"solanaConfiguration","type":"tuple"},
 		{"components":[{"name":"everscaleConfiguration","type":"address"},{"name":"evmConfigurations","type":"address[]"},{"name":"alienTokenRootCode","type":"cell"},{"name":"alienTokenWalletCode","type":"cell"},{"name":"alienTokenWalletPlatformCode","type":"cell"}],"name":"evmConfiguration","type":"tuple"},
 		{"name":"api_version","type":"uint8"},
 		{"name":"manager","type":"address"},

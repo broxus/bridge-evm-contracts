@@ -1,0 +1,169 @@
+pragma ever-solidity >= 0.62.0;
+
+pragma AbiHeader time;
+pragma AbiHeader pubkey;
+pragma AbiHeader expire;
+
+import "./../../../interfaces/event-contracts/multivault/evm/IMultiVaultEVMTONEventNative.tsol";
+import "./../../../interfaces/event-configuration-contracts/IEthereumEverscaleEventConfiguration.tsol";
+import "./../../../interfaces/proxy/IEthereumEverscaleProxyExtended.tsol";
+
+import "./../../base/evm/EthereumEverscaleBaseEvent.tsol";
+
+import "../../../../utils/jetton/libraries/JettonUtils.tsol";
+import "../../../../utils/jetton/interfaces/ITakeWalletAddress.tsol";
+
+contract MultiVaultEVMTONEventNative is
+    EthereumEverscaleBaseEvent,
+    IMultiVaultEVMTONEventNative,
+    ITakeWalletAddress
+{
+    address public token;
+    uint128 public amount;
+    address public recipient;
+
+    uint public value;
+    uint public expected_evers;
+    TvmCell public payload;
+
+    // Derived fields
+    address public proxy;
+    address public tokenWallet;
+
+    constructor(
+        address _initializer,
+        TvmCell _meta
+    ) EthereumEverscaleBaseEvent(_initializer, _meta) public {}
+
+    function onReject() virtual override internal {
+        transferAll(initializer);
+    }
+
+    function afterSignatureCheck(TvmSlice body, TvmCell /*message*/) private inline view returns (TvmSlice) {
+        body.decode(uint64, uint32);
+
+        TvmSlice bodyCopy = body;
+        uint32 functionId = body.decode(uint32);
+
+        if (isExternalVoteCall(functionId)){
+            require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
+        }
+
+        return bodyCopy;
+    }
+
+    function onInit() override internal {
+        int8 token_wid;
+        uint256 token_addr;
+
+        int8 recipient_wid;
+        uint256 recipient_addr;
+
+        (
+            token_wid,
+            token_addr,
+            amount,
+            recipient_wid,
+            recipient_addr,
+            value,
+            expected_evers,
+            payload
+        ) = abi.decode(eventInitData.voteData.eventData, (
+            int8,
+            uint256,
+            uint128,
+            int8,
+            uint256,
+            uint256,
+            uint256,
+            TvmCell
+        ));
+
+        token = address.makeAddrStd(token_wid, token_addr);
+        recipient = address.makeAddrStd(recipient_wid, recipient_addr);
+
+        // Destroy event contract in case event contract is less than required
+        if (address(this).balance < expected_evers) {
+            initializer.transfer({
+                value: 0,
+                bounce: false,
+                flag: MsgFlag.ALL_NOT_RESERVED + MsgFlag.DESTROY_IF_ZERO
+            });
+
+            return;
+        }
+
+        IEthereumEverscaleEventConfiguration(eventInitData.configuration)
+            .getDetails{
+                value: 1 ever,
+                callback: MultiVaultEVMTONEventNative.receiveConfigurationDetails
+            }();
+    }
+
+    function receiveConfigurationDetails(
+        IBasicEventConfiguration.BasicConfiguration,
+        IEthereumEverscaleEventConfiguration.EthereumEverscaleEventConfiguration _networkConfiguration,
+        TvmCell
+    ) external override {
+        require(msg.sender == eventInitData.configuration, ErrorCodes.SENDER_NOT_EVENT_CONFIGURATION);
+
+        proxy = _networkConfiguration.proxy;
+
+        JettonUtils.walletOf(
+            token,
+            0,
+            proxy,
+            false,
+            0.1 ever,
+            MsgFlag.SENDER_PAYS_FEES,
+            true
+        );
+    }
+
+    function takeWalletAddress(
+        uint64,
+        address _wallet,
+        optional(TvmCell)
+    ) external override functionID(0xd1735400) {
+        require(msg.sender == token, ErrorCodes.SENDER_NOT_ROOT);
+
+        tokenWallet = _wallet;
+
+        loadRelays();
+    }
+
+    function getDecodedData() external override responsible returns (
+        address token_,
+        uint128 amount_,
+        address recipient_,
+        uint value_,
+        uint expected_evers_,
+        TvmCell payload_,
+        address proxy_,
+        address tokenWallet_
+    ) {
+        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } (
+            token,
+            amount,
+            recipient,
+            value,
+            expected_evers,
+            payload,
+            proxy,
+            tokenWallet
+        );
+    }
+
+    function onConfirm() internal override {
+        TvmCell metaData = abi.encode(
+            tokenWallet,
+            amount,
+            recipient,
+            payload
+        );
+
+        IEthereumEverscaleProxyExtended(eventInitData.configuration)
+            .onEventConfirmedExtended{ flag: MsgFlag.ALL_NOT_RESERVED }
+            (eventInitData, metaData, initializer);
+    }
+}

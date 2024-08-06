@@ -1,0 +1,207 @@
+pragma ever-solidity >= 0.62.0;
+
+pragma AbiHeader time;
+pragma AbiHeader pubkey;
+pragma AbiHeader expire;
+
+import "./../../../interfaces/event-contracts/multivault/evm/IMultiVaultTONEVMEventNative.tsol";
+
+import "./../../base/evm/EverscaleEthereumBaseEvent.tsol";
+
+import "../../../../utils/jetton/libraries/JettonUtils.tsol";
+import "../../../../utils/jetton/interfaces/ITakeWalletAddress.tsol";
+
+/// @notice Everscale-EVM event for MultiVault native token transfer.
+/// Before switching into the `Pending` status, event contract must perform
+/// the following actions:
+/// - Verify that the `tokenWallet` is a correct token wallet for `token`, owned by the proxy
+/// - Rewrite the `eventData` with the correct value
+contract MultiVaultTONEVMEventNative is
+    EverscaleEthereumBaseEvent,
+    IMultiVaultTONEVMEventNative,
+    ITakeWalletAddress
+{
+    uint32 public nonce;
+    address public proxy;
+    address public tokenWallet;
+    address public token;
+    address public remainingGasTo;
+    uint128 public amount;
+    uint160 public recipient;
+    uint256 public chainId;
+
+    address public sender;
+    uint128 public initial_balance;
+
+    uint160 public callback_recipient;
+    bytes public callback_payload;
+    bool public callback_strict;
+
+    string public name;
+    string public symbol;
+    uint8 public decimals;
+    address public expectedTokenWallet;
+
+    // Unmodified event data
+    TvmCell public unmodifiedEventData;
+
+    constructor(
+        address _initializer,
+        TvmCell _meta
+    ) EverscaleEthereumBaseEvent(_initializer, _meta) public {
+        unmodifiedEventData = eventInitData.voteData.eventData;
+    }
+
+    function afterSignatureCheck(TvmSlice body, TvmCell /*message*/) private inline view returns (TvmSlice) {
+        body.decode(uint64, uint32);
+
+        TvmSlice bodyCopy = body;
+        uint32 functionId = body.decode(uint32);
+
+        if (isExternalVoteCall(functionId)) {
+            require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
+        }
+
+        return bodyCopy;
+    }
+
+    function getUnmodifiedEventData() external override responsible returns (TvmCell) {
+        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } unmodifiedEventData;
+    }
+
+    function onInit() override internal {
+        (
+            nonce,
+            proxy,
+            tokenWallet,
+            token,
+            remainingGasTo,
+            amount,
+            recipient,
+            chainId,
+            sender,
+            callback_recipient,
+            callback_payload,
+            callback_strict,
+            name,
+            symbol,
+            decimals
+        ) = abi.decode(eventInitData.voteData.eventData, (
+            uint32,
+            address,
+            address,
+            address,
+            address,
+            uint128,
+            uint160,
+            uint256,
+            address,
+            uint160,
+            bytes,
+            bool,
+            string,
+            string,
+            uint8
+        ));
+
+        initial_balance = address(this).balance;
+
+        JettonUtils.walletOf(
+            token,
+            0,
+            proxy,
+            false,
+            0.1 ever,
+            MsgFlag.SENDER_PAYS_FEES,
+            true
+        );
+    }
+
+    function takeWalletAddress(
+        uint64,
+        address _wallet,
+        optional(TvmCell)
+    ) external override functionID(0xd1735400) {
+        require(msg.sender == token, ErrorCodes.SENDER_NOT_ROOT);
+
+        expectedTokenWallet = _wallet;
+
+        if (tokenWallet == expectedTokenWallet) {
+            _updateEventData();
+
+            loadRelays();
+        } else {
+            setStatusRejected(1);
+        }
+    }
+
+    function getDecodedData() external override responsible returns (
+        address proxy_,
+        address tokenWallet_,
+        address token_,
+        address remainingGasTo_,
+        uint128 amount_,
+        uint160 recipient_,
+        uint256 chainId_,
+        EVMCallback callback,
+        string name_,
+        string symbol_,
+        uint8 decimals_
+    ) {
+        return {
+            value: 0,
+            bounce: false,
+            flag: MsgFlag.REMAINING_GAS
+        } (
+            proxy,
+            tokenWallet,
+            token,
+            remainingGasTo,
+            amount,
+            recipient,
+            chainId,
+            EVMCallback(
+                callback_recipient,
+                callback_payload,
+                callback_strict
+            ),
+            name,
+            symbol,
+            decimals
+        );
+    }
+
+    function _updateEventData() internal {
+        eventInitData.voteData.eventData = abi.encode(
+            token.wid,
+            token.value,
+
+            name,
+            symbol,
+            decimals,
+
+            amount,
+            recipient,
+            chainId,
+
+            callback_recipient,
+            callback_payload,
+            callback_strict
+        );
+    }
+
+    function gasBackAddress() internal override view returns (address) {
+        return remainingGasTo;
+    }
+
+    onBounce(TvmSlice slice) external {
+        uint32 selector = slice.decode(uint32);
+
+        if (
+            selector == JettonUtils.PROVIDE_WALLET_ADDRESS_FUNCTION_ID &&
+            msg.sender == token
+        ) {
+            setStatusRejected(2);
+        }
+    }
+}

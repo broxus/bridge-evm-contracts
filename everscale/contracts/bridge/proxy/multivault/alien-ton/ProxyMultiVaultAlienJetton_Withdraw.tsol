@@ -1,0 +1,89 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+
+import "../../../../utils/jetton/interfaces/IOnAcceptTokensBurn.tsol";
+
+import "../../../interfaces/event-contracts/IEverscaleEthereumEvent.tsol";
+import "../../../interfaces/event-configuration-contracts/IEverscaleEthereumEventConfiguration.tsol";
+
+import "./ProxyMultiVaultAlienJetton_Deposit_EVM.tsol";
+
+abstract contract ProxyMultiVaultAlienJetton_Withdraw is
+    ProxyMultiVaultAlienJetton_Deposit_EVM,
+    IOnAcceptTokensBurn
+{
+    /// @notice Handles token burn.
+    /// Initializes alien transfer (eg BSC CAKE or ETH AAVE).
+    /// @param amount Tokens amount
+    /// @param payload TvmCell encoded (uint160 recipient)
+    function onAcceptTokensBurn(
+        uint128 amount,
+        address sender,
+        address,
+        address,
+        TvmCell payload
+    ) public override reserveAtLeastTargetBalance {
+        (
+            uint32 nonce,
+            Network network,
+            TvmCell burnPayload
+        ) = abi.decode(payload, (
+            uint32,
+            Network,
+            TvmCell
+        ));
+
+        if (network == Network.EVM) {
+            (
+                uint160 recipient,
+                EVMCallback callback
+            ) = abi.decode(burnPayload, (uint160, EVMCallback));
+
+            _deployEVMEvent(
+                nonce,
+                msg.sender,
+                amount,
+                recipient,
+                sender,
+                sender,
+                callback
+            );
+        }
+    }
+
+    function _deployEVMEvent(
+        uint32 nonce,
+        address token,
+        uint128 amount,
+        uint160 recipient,
+        address remainingGasTo,
+        address sender,
+        EVMCallback callback
+    ) internal view {
+        TvmCell eventData = abi.encode(
+            nonce,
+            address(this), // Proxy address, used in event contract for validating token root
+            token, // Everscale token root address
+            remainingGasTo, // Remaining gas receiver (on event contract destroy)
+            amount, // Amount of tokens to withdraw
+            recipient, // Recipient address in EVM network
+            sender,
+            callback.recipient,
+            callback.payload,
+            callback.strict
+        );
+
+        IEverscaleEthereumEvent.EverscaleEthereumEventVoteData eventVoteData = IEverscaleEthereumEvent.EverscaleEthereumEventVoteData(
+            tx.timestamp,
+            now,
+            eventData
+        );
+
+        IEverscaleEthereumEventConfiguration(evmConfiguration.everscaleConfiguration)
+            .deployEvent{
+                value: 0,
+                bounce: false,
+                flag: MsgFlag.ALL_NOT_RESERVED
+            }(eventVoteData);
+    }
+}

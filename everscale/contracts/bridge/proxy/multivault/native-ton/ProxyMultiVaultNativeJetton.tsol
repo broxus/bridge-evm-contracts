@@ -5,19 +5,20 @@ import "@broxus/contracts/contracts/utils/RandomNonce.tsol";
 
 import "./ProxyMultiVaultNativeJetton_Deposit.tsol";
 
-contract ProxyMultiVaultNativeJetton is ProxyMultiVaultNativeJetton_Deposit, CheckPubKey, RandomNonce {
+contract ProxyMultiVaultNativeJetton is
+    ProxyMultiVaultNativeJetton_Deposit,
+    CheckPubKey,
+    RandomNonce
+{
     constructor(address owner_) public checkPubKey {
         tvm.accept();
 
         setOwnership(owner_);
     }
 
-    function upgrade(
-        TvmCell code
-    ) external onlyOwner {
+    function upgrade(TvmCell code) external onlyOwner {
         TvmCell data = abi.encode(
             evmConfiguration,
-            solanaConfiguration,
             owner,
             api_version,
             dex_middleware,
@@ -35,14 +36,12 @@ contract ProxyMultiVaultNativeJetton is ProxyMultiVaultNativeJetton_Deposit, Che
 
         (
             EVMConfiguration evmConfiguration_,
-            SolanaConfiguration solanaConfiguration_,
             address owner_,
             uint8 api_version_,
             address dex_middleware_,
             uint _randomNonce_
         ) = abi.decode(data, (
             EVMConfiguration,
-            SolanaConfiguration,
             address,
             uint8,
             address,
@@ -50,7 +49,6 @@ contract ProxyMultiVaultNativeJetton is ProxyMultiVaultNativeJetton_Deposit, Che
         ));
 
         evmConfiguration = evmConfiguration_;
-        solanaConfiguration = solanaConfiguration_;
 
         api_version = api_version_ + 1;
         dex_middleware = dex_middleware_;

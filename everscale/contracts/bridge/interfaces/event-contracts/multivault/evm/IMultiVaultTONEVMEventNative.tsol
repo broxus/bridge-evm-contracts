@@ -1,0 +1,21 @@
+pragma ever-solidity >= 0.62.0;
+
+import "./IEVMCallback.tsol";
+
+interface IMultiVaultTONEVMEventNative is IEVMCallback {
+    function getUnmodifiedEventData() external responsible returns (TvmCell);
+
+    function getDecodedData() external responsible returns (
+        address proxy_,
+        address tokenWallet_,
+        address token_,
+        address remainingGasTo_,
+        uint128 amount_,
+        uint160 recipient_,
+        uint256 chainId_,
+        EVMCallback callback,
+        string name_,
+        string symbol_,
+        uint8 decimals_
+    );
+}

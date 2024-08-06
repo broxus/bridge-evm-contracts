@@ -80,6 +80,20 @@ contract ProxyMultiVaultCellEncoder is IEVMCallback, INetworks {
         return abi.encode(uint32(0), Network.EVM, transferPayload);
     }
 
+    function encodeNativeJettonTransferPayloadEthereum(
+        uint160 recipient,
+        uint256 chainId,
+        EVMCallback callback,
+        string name,
+        string symbol,
+        uint8 decimals,
+        address token
+    ) external pure returns (TvmCell) {
+        TvmCell transferPayload = abi.encode(recipient, chainId, callback);
+
+        return abi.encode(uint32(0), Network.EVM, transferPayload, name, symbol, decimals, token);
+    }
+
     function decodeMultiVaultAlienEverscaleEthereum(
         TvmCell data
     ) external pure returns (
