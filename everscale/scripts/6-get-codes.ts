@@ -43,10 +43,9 @@ const main = async () => {
     const MergePool = await getNamedContract('MergePool_V3');
     const MergePoolPlatform = await getNamedContract('MergePoolPlatform');
 
-    // Load staking & dao events
-    const stakingEverscaleEthereumEvent = await getNamedContract('StakingEverscaleEthereumEvent');
-    const stakingEthereumEverscaleEvent = await getNamedContract('StakingEthereumEverscaleEvent');
-    const daoEthereumActionEvent = await getNamedContract('DaoEthereumActionEvent');
+    // Load round
+    const roundEverscaleEthereumEvent = await getNamedContract('RoundEverscaleEthereumEvent');
+    const roundEthereumEverscaleEvent = await getNamedContract('RoundEthereumEverscaleEvent');
 
     // Load alien token contracts
     const alienTokenRootEVM = await getNamedContract("TokenRootAlienEVM");
@@ -72,9 +71,8 @@ const main = async () => {
         MergePool,
         MergePoolPlatform,
         
-        stakingEverscaleEthereumEvent,
-        stakingEthereumEverscaleEvent,
-        daoEthereumActionEvent,
+        roundEverscaleEthereumEvent,
+        roundEthereumEverscaleEvent,
 
         alienTokenRootEVM,
         alienTokenRootSolana,

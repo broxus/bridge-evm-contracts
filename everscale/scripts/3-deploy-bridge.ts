@@ -19,8 +19,8 @@ const main = async () => {
     },
     {
       type: "text",
-      name: "staking",
-      message: "Staking contract",
+      name: "roundDeployer",
+      message: "RoundDeployer contract",
       validate: (value: any) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
@@ -54,7 +54,7 @@ const main = async () => {
     constructorParams: {
       _owner: response.owner,
       _manager: response.manager,
-      _staking: response.staking,
+      _roundDeployer: response.roundDeployer,
       _connectorCode: Connector.code,
       _connectorDeployValue: locklift.utils.toNano(
         response.connectorDeployValue
