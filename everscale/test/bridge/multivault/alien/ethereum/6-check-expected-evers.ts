@@ -13,7 +13,7 @@ import {
     MultiVaultEVMEverscaleEventAlienAbi,
     ProxyMultiVaultAlien_V8Abi,
     SolanaEverscaleEventConfigurationAbi,
-    StakingMockupAbi
+    RoundDeployerMockupAbi
 } from "../../../../../build/factorySource";
 import {Account} from "everscale-standalone-client/nodejs";
 import {expect} from "chai";
@@ -25,7 +25,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -69,7 +69,7 @@ describe('Check expected_evers constraint on event deployment', async function()
 
     it("Setup bridge", async () => {
         relays = await setupRelays();
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
         const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -83,7 +83,7 @@ describe('Check expected_evers constraint on event deployment', async function()
             solanaEverscaleEventConfiguration,
             everscaleSolanaEventConfiguration,
             proxy
-        ] = await setupAlienMultiVault(bridgeOwner, staking);
+        ] = await setupAlienMultiVault(bridgeOwner, roundDeployer);
     });
 
     describe('Deploy event contract with less EVERs than required', async () => {

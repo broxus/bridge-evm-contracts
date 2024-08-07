@@ -22,8 +22,8 @@ const main = async () => {
         },
         {
             type: "text",
-            name: "staking",
-            message: "Staking contract",
+            name: "roundDeployer",
+            message: "RoundDeployer contract",
             validate: (value: any) =>
                 isValidTonAddress(value) ? true : "Invalid address",
         },
@@ -81,7 +81,7 @@ const main = async () => {
             {"name":"expected_evers","type":"uint256"},
             {"name":"payload","type":"cell"}])),
         eventInitialBalance: locklift.utils.toNano(2),
-        staking: response.staking,
+        roundDeployer: response.roundDeployer,
         eventCode: solanaEverscaleEvent.code,
     };
 

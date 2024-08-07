@@ -98,7 +98,7 @@ contract SolanaEverscaleEventConfiguration is
         eventInitData.voteData = eventVoteData;
 
         eventInitData.configuration = address(this);
-        eventInitData.staking = basicConfiguration.staking;
+        eventInitData.roundDeployer = basicConfiguration.roundDeployer;
     }
 
     /// @dev Deploy event contract

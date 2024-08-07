@@ -16,7 +16,7 @@ interface IEverscaleSolanaEvent is IBasicEvent {
     struct EverscaleSolanaEventInitData {
         EverscaleSolanaEventVoteData voteData;
         address configuration;
-        address staking;
+        address roundDeployer;
     }
 
     struct EverscaleSolanaExecuteAccount {

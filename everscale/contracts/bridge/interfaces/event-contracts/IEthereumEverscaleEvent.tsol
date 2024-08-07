@@ -15,7 +15,7 @@ interface IEthereumEverscaleEvent {
     struct EthereumEverscaleEventInitData {
         EthereumEverscaleEventVoteData voteData;
         address configuration;
-        address staking;
+        address roundDeployer;
         uint32 chainId;
     }
 }

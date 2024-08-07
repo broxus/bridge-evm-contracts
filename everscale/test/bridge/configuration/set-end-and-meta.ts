@@ -1,6 +1,11 @@
 import { expect } from "chai";
 import {Address, Contract, zeroAddress} from "locklift";
-import {BridgeAbi, CellEncoderStandaloneAbi, FactorySource, StakingMockupAbi} from "../../../build/factorySource";
+import {
+    BridgeAbi,
+    CellEncoderStandaloneAbi,
+    FactorySource,
+    RoundDeployerMockupAbi,
+} from "../../../build/factorySource";
 import { Account } from "everscale-standalone-client/nodejs";
 import {setupBridge, setupRelays} from "../../utils/bridge";
 import {
@@ -15,7 +20,7 @@ import {
 
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 
@@ -29,7 +34,7 @@ describe("Test setting configuration end", async function () {
     it("Setup bridge", async () => {
         const relays = await setupRelays();
 
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
     });
 
     describe("Ethereum Everscale event configuration", async () => {
@@ -38,7 +43,7 @@ describe("Test setting configuration end", async function () {
         it("Setup Ethereum Everscale event configuration", async () => {
             ethereumEverscaleEventConfiguration = await setupEthereumEverscaleEventConfiguration(
                 bridgeOwner,
-                staking,
+                roundDeployer,
                 proxy,
                 ""
             );
@@ -99,7 +104,7 @@ describe("Test setting configuration end", async function () {
         it("Setup Everscale Ethereum event configuration", async () => {
             everscaleEthereumEventConfiguration = await setupEverscaleEthereumEventConfiguration(
                 bridgeOwner,
-                staking,
+                roundDeployer,
                 proxy,
                 ""
             );
@@ -153,7 +158,7 @@ describe("Test setting configuration end", async function () {
         it("Setup Solana Everscale event configuration", async () => {
             solanaEverscaleEventConfiguration = await setupSolanaEverscaleEventConfiguration(
                 bridgeOwner,
-                staking,
+                roundDeployer,
                 proxy,
                 ""
             );
@@ -207,7 +212,7 @@ describe("Test setting configuration end", async function () {
         it("Setup Everscale Solana event configuration", async () => {
             everscaleSolanaEventConfiguration = await setupEverscaleSolanaEventConfiguration(
                 bridgeOwner,
-                staking,
+                roundDeployer,
                 proxy,
                 ""
             );

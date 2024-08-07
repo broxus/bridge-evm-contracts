@@ -141,7 +141,7 @@
 		{
 			"name": "onEventConfirmedExtended",
 			"inputs": [
-				{"components":[{"components":[{"name":"eventTransaction","type":"uint256"},{"name":"eventIndex","type":"uint32"},{"name":"eventData","type":"cell"},{"name":"eventBlockNumber","type":"uint32"},{"name":"eventBlock","type":"uint256"}],"name":"voteData","type":"tuple"},{"name":"configuration","type":"address"},{"name":"staking","type":"address"},{"name":"chainId","type":"uint32"}],"name":"eventInitData","type":"tuple"},
+				{"components":[{"components":[{"name":"eventTransaction","type":"uint256"},{"name":"eventIndex","type":"uint32"},{"name":"eventData","type":"cell"},{"name":"eventBlockNumber","type":"uint32"},{"name":"eventBlock","type":"uint256"}],"name":"voteData","type":"tuple"},{"name":"configuration","type":"address"},{"name":"roundDeployer","type":"address"},{"name":"chainId","type":"uint32"}],"name":"eventInitData","type":"tuple"},
 				{"name":"meta","type":"cell"},
 				{"name":"remainingGasTo","type":"address"}
 			],

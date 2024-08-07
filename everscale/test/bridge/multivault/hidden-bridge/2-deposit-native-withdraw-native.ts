@@ -12,11 +12,10 @@ import {
     EverscaleEthereumEventConfigurationAbi,
     EverscaleSolanaEventConfigurationAbi, Mediator_V2Abi,
     MultiVaultEverscaleEVMEventNativeAbi,
-    MultiVaultEVMEverscaleEventAlienAbi,
     MultiVaultEVMEverscaleEventNativeAbi, ProxyMultiVaultAlien_V8Abi,
     ProxyMultiVaultNative_V6Abi,
     SolanaEverscaleEventConfigurationAbi,
-    StakingMockupAbi,
+    RoundDeployerMockupAbi,
     TokenRootAbi,
     TokenWalletAbi
 } from "../../../../build/factorySource";
@@ -33,7 +32,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let mediator: Contract<Mediator_V2Abi>;
@@ -73,7 +72,7 @@ describe('Test EVM-EVM bridge transfers, deposit native withdraw native token', 
 
     it("Setup bridge", async () => {
         relays = await setupRelays();
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
         const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -87,7 +86,7 @@ describe('Test EVM-EVM bridge transfers, deposit native withdraw native token', 
             nativeSolanaEverscaleEventConfiguration,
             nativeEverscaleSolanaEventConfiguration,
             nativeProxy
-        ] = await setupNativeMultiVault(bridgeOwner, staking);
+        ] = await setupNativeMultiVault(bridgeOwner, roundDeployer);
 
         [
             alienEthereumEverscaleEventConfiguration,
@@ -95,7 +94,7 @@ describe('Test EVM-EVM bridge transfers, deposit native withdraw native token', 
             alienSolanaEverscaleEventConfiguration,
             alienEverscaleSolanaEventConfiguration,
             alienProxy
-        ] = await setupAlienMultiVault(bridgeOwner, staking);
+        ] = await setupAlienMultiVault(bridgeOwner, roundDeployer);
 
         eventCloser = await deployAccount(
             (await locklift.keystore.getSigner("1"))!,

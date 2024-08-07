@@ -54,9 +54,9 @@ const main = async () => {
 
 
     const eventDetails = await Promise.all(events.map(async (event) => {
-        const stakingTonEvent = await locklift.factory.getDeployedContract('StakingEverscaleEthereumEvent', event.data.eventContract);
-        const decodedData = await stakingTonEvent.methods.getDecodedData({ answerId: 0 }).call();
-        const details = await stakingTonEvent.methods.getDetails({ answerId: 0 }).call();
+        const roundTonEvent = await locklift.factory.getDeployedContract('RoundEverscaleEthereumEvent', event.data.eventContract);
+        const decodedData = await roundTonEvent.methods.getDecodedData({ answerId: 0 }).call();
+        const details = await roundTonEvent.methods.getDetails({ answerId: 0 }).call();
 
         const eventDataEncoded = ethers.utils.defaultAbiCoder.encode(
             ['uint32', 'uint160[]', 'uint32'],
@@ -65,7 +65,7 @@ const main = async () => {
 
         const {
             round_number: roundNumber
-        } = await stakingTonEvent.methods.round_number().call();
+        } = await roundTonEvent.methods.round_number().call();
 
         const encodedEvent = ethers.utils.defaultAbiCoder.encode(
             [

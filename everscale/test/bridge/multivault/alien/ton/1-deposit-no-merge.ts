@@ -9,7 +9,7 @@ import {
   MergeRouterAbi,
   MultiVaultEVMEverscaleEventAlienAbi,
   ProxyMultiVaultAlienJettonAbi,
-  StakingMockupAbi,
+  RoundDeployerMockupAbi,
 } from "../../../../../build/factorySource";
 
 import { setupBridge, setupRelays } from "../../../../utils/bridge";
@@ -33,7 +33,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
 
   let relays: Ed25519KeyPair[];
   let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-  let staking: Contract<StakingMockupAbi>;
+  let roundDeployer: Contract<RoundDeployerMockupAbi>;
   let bridgeOwner: Account;
 
   let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -58,7 +58,9 @@ describe("Deposit Alien jetton to TON with no merging", function () {
     let bridge, everscaleEthereumEventConfiguration;
 
     relays = await setupRelays();
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+      relays
+    );
 
     const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -71,7 +73,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
       ethereumEverscaleEventConfiguration,
       everscaleEthereumEventConfiguration,
       proxy,
-    ] = await setupAlienJettonMultiVault(bridgeOwner, staking);
+    ] = await setupAlienJettonMultiVault(bridgeOwner, roundDeployer);
 
     await logContract(
       "EverscaleEthereumEventConfiguration",
@@ -183,8 +185,8 @@ describe("Deposit Alien jetton to TON with no merging", function () {
         "Wrong event configuration"
       );
 
-      expect(details._eventInitData.staking.toString()).to.be.equal(
-        staking.address.toString(),
+      expect(details._eventInitData.roundDeployer.toString()).to.be.equal(
+        roundDeployer.address.toString(),
         "Wrong staking"
       );
 

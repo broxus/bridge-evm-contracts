@@ -26,7 +26,7 @@ contract Bridge is IBridge, InternalOwner, RandomNonce, CheckPubKey, TransferUti
     TvmCell public connectorCode;
     uint64 public connectorDeployValue;
     bool public active;
-    address public staking;
+    address public roundDeployer;
 
     address public manager;
 
@@ -36,17 +36,17 @@ contract Bridge is IBridge, InternalOwner, RandomNonce, CheckPubKey, TransferUti
     /// @param _manager Manager role - can enable connectors
     /// @param _connectorCode Connector contract code
     /// @param _connectorDeployValue Value in TONs, required to be attached, to deploy Connector
-    /// @param _staking Staking address
+    /// @param _roundDeployer RoundDeployer address
     constructor(
         address _owner,
         address _manager,
         TvmCell _connectorCode,
         uint64 _connectorDeployValue,
-        address _staking
+        address _roundDeployer
     ) public checkPubKey {
         require(_owner != address(0), ErrorCodes.ZERO_ADDRESS);
         require(_manager != address(0), ErrorCodes.ZERO_ADDRESS);
-        require(_staking != address(0), ErrorCodes.ZERO_ADDRESS);
+        require(_roundDeployer != address(0), ErrorCodes.ZERO_ADDRESS);
 
         tvm.accept();
 
@@ -56,7 +56,7 @@ contract Bridge is IBridge, InternalOwner, RandomNonce, CheckPubKey, TransferUti
 
         connectorCode = _connectorCode;
         connectorDeployValue = _connectorDeployValue;
-        staking = _staking;
+        roundDeployer = _roundDeployer;
 
         active = true;
     }
@@ -161,21 +161,21 @@ contract Bridge is IBridge, InternalOwner, RandomNonce, CheckPubKey, TransferUti
         @return _connectorCode Connector contract code
         @return _connectorDeployValue Value in TONs, required to be attached, to deploy Connector
         @return _connectorCounter Counter of deployed connectors
-        @return _staking Staking address
+        @return _roundDeployer RoundDeployer address
         @return _active Bridge status
     */
     function getDetails() external view responsible returns(
         TvmCell _connectorCode,
         uint64 _connectorDeployValue,
         uint64 _connectorCounter,
-        address _staking,
+        address _roundDeployer,
         bool _active
     ) {
         return {value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS}(
             connectorCode,
             connectorDeployValue,
             connectorCounter,
-            staking,
+            roundDeployer,
             active
         );
     }

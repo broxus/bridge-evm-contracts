@@ -68,7 +68,7 @@
 				{"name":"answerId","type":"uint32"}
 			],
 			"outputs": [
-				{"components":[{"name":"eventABI","type":"bytes"},{"name":"staking","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"name":"_basicConfiguration","type":"tuple"},
+				{"components":[{"name":"eventABI","type":"bytes"},{"name":"roundDeployer","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"name":"_basicConfiguration","type":"tuple"},
 				{"components":[{"name":"program","type":"uint256"},{"name":"eventEmitter","type":"address"},{"name":"instruction","type":"uint8"},{"name":"startTimestamp","type":"uint32"},{"name":"endTimestamp","type":"uint32"},{"name":"executeNeeded","type":"bool"},{"name":"executeInstruction","type":"uint8"},{"name":"executePayloadInstruction","type":"uint8"}],"name":"_networkConfiguration","type":"tuple"},
 				{"name":"_meta","type":"cell"}
 			]
@@ -119,7 +119,7 @@
 			"inputs": [
 			],
 			"outputs": [
-				{"components":[{"name":"eventABI","type":"bytes"},{"name":"staking","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"name":"basicConfiguration","type":"tuple"}
+				{"components":[{"name":"eventABI","type":"bytes"},{"name":"roundDeployer","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"name":"basicConfiguration","type":"tuple"}
 			]
 		},
 		{
@@ -148,7 +148,7 @@
 		}
 	],
 	"data": [
-		{"components":[{"name":"eventABI","type":"bytes"},{"name":"staking","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"key":1,"name":"basicConfiguration","type":"tuple"},
+		{"components":[{"name":"eventABI","type":"bytes"},{"name":"roundDeployer","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"key":1,"name":"basicConfiguration","type":"tuple"},
 		{"components":[{"name":"program","type":"uint256"},{"name":"eventEmitter","type":"address"},{"name":"instruction","type":"uint8"},{"name":"startTimestamp","type":"uint32"},{"name":"endTimestamp","type":"uint32"},{"name":"executeNeeded","type":"bool"},{"name":"executeInstruction","type":"uint8"},{"name":"executePayloadInstruction","type":"uint8"}],"key":2,"name":"networkConfiguration","type":"tuple"}
 	],
 	"events": [
@@ -175,7 +175,7 @@
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"owner","type":"address"},
-		{"components":[{"name":"eventABI","type":"bytes"},{"name":"staking","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"name":"basicConfiguration","type":"tuple"},
+		{"components":[{"name":"eventABI","type":"bytes"},{"name":"roundDeployer","type":"address"},{"name":"eventInitialBalance","type":"uint64"},{"name":"eventCode","type":"cell"}],"name":"basicConfiguration","type":"tuple"},
 		{"components":[{"name":"program","type":"uint256"},{"name":"eventEmitter","type":"address"},{"name":"instruction","type":"uint8"},{"name":"startTimestamp","type":"uint32"},{"name":"endTimestamp","type":"uint32"},{"name":"executeNeeded","type":"bool"},{"name":"executeInstruction","type":"uint8"},{"name":"executePayloadInstruction","type":"uint8"}],"name":"networkConfiguration","type":"tuple"},
 		{"name":"meta","type":"cell"},
 		{"name":"flags","type":"uint64"}

@@ -23,7 +23,7 @@ import JettonWallet from "../../../jetton-contracts/jetton-wallet.compiled.json"
 
 export const setupAlienMultiVault = async (
   owner: Account,
-  staking: Contract<FactorySource["StakingMockup"]>
+  roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>
 ): Promise<
   [
     Contract<EthereumEverscaleEventConfigurationAbi>,
@@ -52,16 +52,16 @@ export const setupAlienMultiVault = async (
   await logContract("ProxyMultiVaultAlien_V8", proxy.address);
 
   // Load event contracts
-  const ethereumEverscaleEvent = await locklift.factory.getContractArtifacts(
+  const ethereumEverscaleEvent = locklift.factory.getContractArtifacts(
     "MultiVaultEVMEverscaleEventAlien"
   );
-  const everscaleEthereumEvent = await locklift.factory.getContractArtifacts(
+  const everscaleEthereumEvent = locklift.factory.getContractArtifacts(
     "MultiVaultEverscaleEVMEventAlien"
   );
-  const solanaEverscaleEvent = await locklift.factory.getContractArtifacts(
+  const solanaEverscaleEvent = locklift.factory.getContractArtifacts(
     "MultiVaultSolanaEverscaleEventAlien"
   );
-  const everscaleSolanaEvent = await locklift.factory.getContractArtifacts(
+  const everscaleSolanaEvent = locklift.factory.getContractArtifacts(
     "MultiVaultEverscaleSolanaEventAlien"
   );
 
@@ -69,44 +69,45 @@ export const setupAlienMultiVault = async (
   const ethereumEverscaleEventConfiguration =
     await setupEthereumEverscaleEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       ethereumEverscaleEvent.code
     );
   const everscaleEthereumEventConfiguration =
     await setupEverscaleEthereumEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       everscaleEthereumEvent.code
     );
   const solanaEverscaleEventConfiguration =
     await setupSolanaEverscaleEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       solanaEverscaleEvent.code
     );
   const everscaleSolanaEventConfiguration =
     await setupEverscaleSolanaEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       everscaleSolanaEvent.code
     );
 
   // Load proxy settings
-  const alienTokenRootEVM = await locklift.factory.getContractArtifacts(
-    "TokenRootAlienEVM"
-  );
-  const alienTokenRootSolana = await locklift.factory.getContractArtifacts(
+  const alienTokenRootEVM =
+    locklift.factory.getContractArtifacts("TokenRootAlienEVM");
+  const alienTokenRootSolana = locklift.factory.getContractArtifacts(
     "TokenRootAlienSolana"
   );
 
-  const alienTokenWalletUpgradeableData =
-    await locklift.factory.getContractArtifacts("AlienTokenWalletUpgradeable");
-  const alienTokenWalletPlatformData =
-    await locklift.factory.getContractArtifacts("AlienTokenWalletPlatform");
+  const alienTokenWalletUpgradeableData = locklift.factory.getContractArtifacts(
+    "AlienTokenWalletUpgradeable"
+  );
+  const alienTokenWalletPlatformData = locklift.factory.getContractArtifacts(
+    "AlienTokenWalletPlatform"
+  );
 
   // Set proxy EVM configuration
   await proxy.methods
@@ -143,13 +144,10 @@ export const setupAlienMultiVault = async (
     });
 
   // Set merging
-  const MergeRouter = await locklift.factory.getContractArtifacts(
-    "MergeRouter"
-  );
-  const MergePool = await locklift.factory.getContractArtifacts("MergePool_V5");
-  const MergePoolPlatform = await locklift.factory.getContractArtifacts(
-    "MergePoolPlatform"
-  );
+  const MergeRouter = locklift.factory.getContractArtifacts("MergeRouter");
+  const MergePool = locklift.factory.getContractArtifacts("MergePool_V5");
+  const MergePoolPlatform =
+    locklift.factory.getContractArtifacts("MergePoolPlatform");
 
   await proxy.methods
     .setMergeRouter({
@@ -189,7 +187,7 @@ export const setupAlienMultiVault = async (
 
 export const setupAlienJettonMultiVault = async (
   owner: Account,
-  staking: Contract<FactorySource["StakingMockup"]>
+  roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>
 ): Promise<
   [
     Contract<EthereumEverscaleEventConfigurationAbi>,
@@ -223,14 +221,14 @@ export const setupAlienJettonMultiVault = async (
   const ethereumEverscaleEventConfiguration =
     await setupEthereumEverscaleEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       ethereumEverscaleEvent.code
     );
   const everscaleEthereumEventConfiguration =
     await setupEverscaleEthereumEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       everscaleEthereumEvent.code
     );

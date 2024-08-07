@@ -1,5 +1,5 @@
 import {Address, Contract, zeroAddress} from "locklift";
-import {FactorySource, StakingV1_2Abi} from "../../build/factorySource";
+import {FactorySource} from "../../build/factorySource";
 import {Account} from "everscale-standalone-client/nodejs";
 import {logContract} from "./logger";
 
@@ -128,32 +128,6 @@ export const getTokenRoot = async (rootAddress: Address) => {
     );
 
     return tokenRoot;
-};
-
-
-export const depositTokens = async function (
-    stakingRoot: Contract<StakingV1_2Abi>,
-    user: Account,
-    _userTokenWallet: Contract<FactorySource["TokenWallet"]>,
-    depositAmount: number,
-    reward = false
-) {
-    var payload;
-    const DEPOSIT_PAYLOAD = "te6ccgEBAQEAAwAAAgA=";
-    const REWARD_DEPOSIT_PAYLOAD = "te6ccgEBAQEAAwAAAgE=";
-    if (reward) {
-        payload = REWARD_DEPOSIT_PAYLOAD;
-    } else {
-        payload = DEPOSIT_PAYLOAD;
-    }
-
-    return await sendTokens(
-        user,
-        _userTokenWallet,
-        stakingRoot,
-        depositAmount,
-        payload
-    );
 };
 
 // mint + deploy

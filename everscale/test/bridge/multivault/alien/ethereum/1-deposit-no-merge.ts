@@ -8,9 +8,8 @@ import {
     EverscaleSolanaEventConfigurationAbi,
     MergeRouterAbi,
     MultiVaultEVMEverscaleEventAlienAbi,
-    ProxyMultiVaultAlien_V8Abi,
+    ProxyMultiVaultAlien_V8Abi, RoundDeployerMockupAbi,
     SolanaEverscaleEventConfigurationAbi,
-    StakingMockupAbi,
     TokenRootAlienEVMAbi
 } from "../../../../../build/factorySource";
 import {Account} from "everscale-standalone-client/nodejs";
@@ -27,7 +26,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -58,7 +57,7 @@ describe('Deposit Alien token to Everscale with no merging', async function() {
 
     it("Setup bridge", async () => {
         relays = await setupRelays();
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
         const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -72,7 +71,7 @@ describe('Deposit Alien token to Everscale with no merging', async function() {
             solanaEverscaleEventConfiguration,
             everscaleSolanaEventConfiguration,
             proxy
-        ] = await setupAlienMultiVault(bridgeOwner, staking);
+        ] = await setupAlienMultiVault(bridgeOwner, roundDeployer);
     });
 
     describe('Transfer alien token from EVM to Everscale', async () => {
@@ -196,9 +195,9 @@ describe('Deposit Alien token to Everscale with no merging', async function() {
                 "Wrong event configuration"
             );
 
-            expect(details._eventInitData.staking.toString()).to.be.equal(
-                staking.address.toString(),
-                "Wrong staking"
+            expect(details._eventInitData.roundDeployer.toString()).to.be.equal(
+                roundDeployer.address.toString(),
+                "Wrong round deployer"
             );
 
             expect(details._status).to.be.equal("1", "Wrong status");

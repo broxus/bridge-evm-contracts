@@ -21,7 +21,7 @@ import {
 
 export const setupNativeMultiVault = async (
   owner: Account,
-  staking: Contract<FactorySource["StakingMockup"]>
+  roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>
 ): Promise<
   [
     Contract<EthereumEverscaleEventConfigurationAbi>,
@@ -50,16 +50,16 @@ export const setupNativeMultiVault = async (
   await logContract("ProxyMultiVaultNative_V6", proxy.address);
 
   // Load event contracts
-  const ethereumEverscaleEvent = await locklift.factory.getContractArtifacts(
+  const ethereumEverscaleEvent = locklift.factory.getContractArtifacts(
     "MultiVaultEVMEverscaleEventNative"
   );
-  const everscaleEthereumEvent = await locklift.factory.getContractArtifacts(
+  const everscaleEthereumEvent = locklift.factory.getContractArtifacts(
     "MultiVaultEverscaleEVMEventNative"
   );
-  const solanaEverscaleEvent = await locklift.factory.getContractArtifacts(
+  const solanaEverscaleEvent = locklift.factory.getContractArtifacts(
     "MultiVaultSolanaEverscaleEventNative"
   );
-  const everscaleSolanaEvent = await locklift.factory.getContractArtifacts(
+  const everscaleSolanaEvent = locklift.factory.getContractArtifacts(
     "MultiVaultEverscaleSolanaEventNative"
   );
 
@@ -67,28 +67,28 @@ export const setupNativeMultiVault = async (
   const ethereumEverscaleEventConfiguration =
     await setupEthereumEverscaleEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       ethereumEverscaleEvent.code
     );
   const everscaleEthereumEventConfiguration =
     await setupEverscaleEthereumEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       everscaleEthereumEvent.code
     );
   const solanaEverscaleEventConfiguration =
     await setupSolanaEverscaleEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       solanaEverscaleEvent.code
     );
   const everscaleSolanaEventConfiguration =
     await setupEverscaleSolanaEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       everscaleSolanaEvent.code
     );
@@ -132,7 +132,7 @@ export const setupNativeMultiVault = async (
 
 export const setupNativeJettonMultiVault = async (
   owner: Account,
-  staking: Contract<FactorySource["StakingMockup"]>
+  roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>
 ): Promise<
   [
     Contract<EthereumEverscaleEventConfigurationAbi>,
@@ -166,14 +166,14 @@ export const setupNativeJettonMultiVault = async (
   const ethereumEverscaleEventConfiguration =
     await setupEthereumEverscaleEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       ethereumEverscaleEvent.code
     );
   const everscaleEthereumEventConfiguration =
     await setupEverscaleEthereumEventConfiguration(
       owner,
-      staking,
+      roundDeployer,
       proxy.address,
       everscaleEthereumEvent.code
     );

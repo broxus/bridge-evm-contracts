@@ -8,7 +8,7 @@ const { zeroAddress } = require("locklift");
 
 let bridge: Contract<FactorySource["Bridge"]>;
 let cellEncoder: Contract<FactorySource["CellEncoderStandalone"]>;
-let staking: Contract<FactorySource["StakingMockup"]>;
+let roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>;
 let bridgeOwner: Account;
 
 describe("Test configuration factory", async function () {
@@ -17,7 +17,7 @@ describe("Test configuration factory", async function () {
   it("Setup bridge", async () => {
     const relays = await setupRelays();
 
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
   });
 
   describe("Test Ethereum event configuration", async () => {
@@ -62,7 +62,7 @@ describe("Test configuration factory", async function () {
       const basicConfiguration = {
         eventABI: "",
         eventInitialBalance: locklift.utils.toNano("2"),
-        staking: staking.address,
+        roundDeployer: roundDeployer.address,
         eventCode: EthereumEvent.code,
       };
 
@@ -107,9 +107,9 @@ describe("Test configuration factory", async function () {
         .getDetails({ answerId: 0 })
         .call();
 
-      expect(details._basicConfiguration.staking.toString()).to.be.equal(
-        staking.address.toString(),
-        "Wrong staking"
+      expect(details._basicConfiguration.roundDeployer.toString()).to.be.equal(
+        roundDeployer.address.toString(),
+        "Wrong round deployer"
       );
       expect(details._networkConfiguration.chainId.toString()).to.be.equal(
         "12",
@@ -160,7 +160,7 @@ describe("Test configuration factory", async function () {
       const basicConfiguration = {
         eventABI: "",
         eventInitialBalance: locklift.utils.toNano(2),
-        staking: staking.address,
+        roundDeployer: roundDeployer.address,
         eventCode: SolanaEvent.code,
       };
 
@@ -203,9 +203,9 @@ describe("Test configuration factory", async function () {
         .getDetails({ answerId: 0 })
         .call();
 
-      expect(details._basicConfiguration.staking.toString()).to.be.equal(
-        staking.address.toString(),
-        "Wrong staking"
+      expect(details._basicConfiguration.roundDeployer.toString()).to.be.equal(
+        roundDeployer.address.toString(),
+        "Wrong round deployer"
       );
     });
   });
@@ -252,7 +252,7 @@ describe("Test configuration factory", async function () {
       const basicConfiguration = {
         eventABI: "",
         eventInitialBalance: locklift.utils.toNano(2),
-        staking: staking.address,
+        roundDeployer: roundDeployer.address,
         eventCode: EverEvent.code,
       };
 
@@ -299,9 +299,9 @@ describe("Test configuration factory", async function () {
         .getDetails({ answerId: 0 })
         .call();
 
-      expect(details._basicConfiguration.staking.toString()).to.be.equal(
-        staking.address.toString(),
-        "Wrong staking"
+      expect(details._basicConfiguration.roundDeployer.toString()).to.be.equal(
+        roundDeployer.address.toString(),
+        "Wrong round deployer"
       );
     });
   });

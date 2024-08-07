@@ -7,11 +7,11 @@ import {
     EverscaleEthereumEventConfigurationAbi,
     EverscaleSolanaEventConfigurationAbi,
     SolanaEverscaleEventConfigurationAbi,
-    StakingMockupAbi,
     TokenRootAlienEVMAbi,
     AlienTokenWalletUpgradeableAbi,
     MultiVaultEverscaleEVMEventAlienAbi,
-    ProxyMultiVaultAlien_V8Abi
+    ProxyMultiVaultAlien_V8Abi,
+    RoundDeployerMockupAbi
 } from "../../../../../build/factorySource";
 import {Account} from "everscale-standalone-client/nodejs";
 import {setupBridge, setupRelays} from "../../../../utils/bridge";
@@ -27,7 +27,7 @@ const logger = require("mocha-logger");
 let relays: Ed25519KeyPair[];
 let bridge: Contract<BridgeAbi>;
 let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-let staking: Contract<StakingMockupAbi>;
+let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
 let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -63,7 +63,7 @@ describe('Withdraw tokens by burning in favor of proxy', async function() {
 
     it("Setup bridge", async () => {
         relays = await setupRelays();
-        [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
 
         const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -77,7 +77,7 @@ describe('Withdraw tokens by burning in favor of proxy', async function() {
             solanaEverscaleEventConfiguration,
             everscaleSolanaEventConfiguration,
             proxy
-        ] = await setupAlienMultiVault(bridgeOwner, staking);
+        ] = await setupAlienMultiVault(bridgeOwner, roundDeployer);
 
         eventCloser = await deployAccount(
             (await locklift.keystore.getSigner("1"))!,

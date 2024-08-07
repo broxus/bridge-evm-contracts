@@ -11,7 +11,7 @@ import {
   MultiVaultEverscaleEVMEventNativeAbi,
   MultiVaultEVMEverscaleEventNativeAbi,
   ProxyMultiVaultNativeJettonAbi,
-  StakingMockupAbi,
+  RoundDeployerMockupAbi,
 } from "../../../../../build/factorySource";
 
 import { logContract } from "../../../../utils/logger";
@@ -35,7 +35,7 @@ describe("Test EVM native multivault pipeline", function () {
 
   let relays: Ed25519KeyPair[];
   let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-  let staking: Contract<StakingMockupAbi>;
+  let roundDeployer: Contract<RoundDeployerMockupAbi>;
   let bridgeOwner: Account;
 
   let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -65,7 +65,9 @@ describe("Test EVM native multivault pipeline", function () {
     let bridge;
 
     relays = await setupRelays();
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+      relays
+    );
 
     const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -78,7 +80,7 @@ describe("Test EVM native multivault pipeline", function () {
       ethereumEverscaleEventConfiguration,
       everscaleEthereumEventConfiguration,
       proxy,
-    ] = await setupNativeJettonMultiVault(bridgeOwner, staking);
+    ] = await setupNativeJettonMultiVault(bridgeOwner, roundDeployer);
 
     eventCloser = await deployAccount(
       (await locklift.keystore.getSigner("1"))!,
@@ -533,8 +535,8 @@ describe("Test EVM native multivault pipeline", function () {
         "Wrong event configuration"
       );
 
-      expect(details._eventInitData.staking.toString()).to.be.equal(
-        staking.address.toString(),
+      expect(details._eventInitData.roundDeployer.toString()).to.be.equal(
+        roundDeployer.address.toString(),
         "Wrong staking"
       );
 

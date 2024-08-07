@@ -11,7 +11,7 @@ interface IBasicEventConfiguration {
 
     struct BasicConfiguration {
         bytes eventABI;
-        address staking;
+        address roundDeployer;
         uint64 eventInitialBalance;
         TvmCell eventCode;
     }
