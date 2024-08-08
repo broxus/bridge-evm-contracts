@@ -1,10 +1,7 @@
-export {};
-
-const { isValidTonAddress } = require("../test/utils");
-import {logContract} from "../test/utils/logger";
-
-const prompts = require("prompts");
-const ora = require("ora");
+import { isValidTonAddress } from "../test/utils";
+import { logContract } from "../test/utils/logger";
+import prompts from "prompts";
+import ora from "ora";
 
 const main = async () => {
   const signer = (await locklift.keystore.getSigner("0"))!;
@@ -47,7 +44,7 @@ const main = async () => {
 
   const spinner = ora("Deploying bridge").start();
 
-  const Connector = await locklift.factory.getContractArtifacts("Connector");
+  const Connector = locklift.factory.getContractArtifacts("Connector");
 
   const { contract: bridge } = await locklift.factory.deployContract({
     contract: "Bridge",

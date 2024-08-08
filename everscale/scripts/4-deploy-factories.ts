@@ -1,7 +1,5 @@
-export {};
-
-const { logContract } = require("../test/utils/logger");
-const ora = require("ora");
+import { logContract } from "../test/utils/logger";
+import ora from "ora";
 
 async function main() {
   const signer = (await locklift.keystore.getSigner("0"))!;
@@ -13,7 +11,7 @@ async function main() {
   spinner.start("Deploying Ethereum Everscale event configuration factory");
 
   const EthereumEverscaleEventConfiguration =
-    await locklift.factory.getContractArtifacts(
+    locklift.factory.getContractArtifacts(
       "EthereumEverscaleEventConfiguration"
     );
 
@@ -39,7 +37,7 @@ async function main() {
 
   // Everscale configuration factory
   const EverscaleEthereumEventConfiguration =
-    await locklift.factory.getContractArtifacts(
+    locklift.factory.getContractArtifacts(
       "EverscaleEthereumEventConfiguration"
     );
 
@@ -68,9 +66,7 @@ async function main() {
   spinner.start("Deploying Solana Ever event configuration factory");
 
   const SolanaEverscaleEventConfiguration =
-    await locklift.factory.getContractArtifacts(
-      "SolanaEverscaleEventConfiguration"
-    );
+    locklift.factory.getContractArtifacts("SolanaEverscaleEventConfiguration");
 
   const { contract: solanaEverscaleEventConfigurationFactory } =
     await locklift.factory.deployContract({
@@ -94,9 +90,7 @@ async function main() {
 
   // Everscale configuration factory
   const EverscaleSolanaEventConfiguration =
-    await locklift.factory.getContractArtifacts(
-      "EverscaleSolanaEventConfiguration"
-    );
+    locklift.factory.getContractArtifacts("EverscaleSolanaEventConfiguration");
 
   spinner.start("Deploying Everscale Solana event configuration factory");
 
@@ -121,31 +115,30 @@ async function main() {
   );
 
   // Proxy token transfer factory
-  const ProxyTokenTransfer = await locklift.factory.getContractArtifacts(
-    "ProxyTokenTransfer"
-  );
-
-  spinner.start("Deploying proxy token transfer factory");
-
-  const { contract: proxyTokenTransferFactory } =
-    await locklift.factory.deployContract({
-      contract: "ProxyTokenTransferFactory",
-      constructorParams: {
-        _proxyCode: ProxyTokenTransfer.code,
-      },
-      initParams: {
-        _randomNonce,
-      },
-      publicKey: signer.publicKey,
-      value: locklift.utils.toNano(2),
-    });
-
-  spinner.stop();
-
-  await logContract(
-    "proxyTokenTransferFactory address",
-    proxyTokenTransferFactory.address
-  );
+  // const ProxyTokenTransfer =
+  //   locklift.factory.getContractArtifacts("ProxyTokenTransfer");
+  //
+  // spinner.start("Deploying proxy token transfer factory");
+  //
+  // const { contract: proxyTokenTransferFactory } =
+  //   await locklift.factory.deployContract({
+  //     contract: "ProxyTokenTransferFactory",
+  //     constructorParams: {
+  //       _proxyCode: ProxyTokenTransfer.code,
+  //     },
+  //     initParams: {
+  //       _randomNonce,
+  //     },
+  //     publicKey: signer.publicKey,
+  //     value: locklift.utils.toNano(2),
+  //   });
+  //
+  // spinner.stop();
+  //
+  // await logContract(
+  //   "proxyTokenTransferFactory address",
+  //   proxyTokenTransferFactory.address
+  // );
 }
 
 main()

@@ -1,14 +1,12 @@
-import {logContract} from "../test/utils/logger";
-import {isValidTonAddress} from "../test/utils";
-import {deployAccount} from "../test/utils/account";
-
-const prompts = require("prompts");
-const ora = require("ora");
-
+import { isValidTonAddress } from "../test/utils";
+import { deployAccount } from "../test/utils/account";
+import prompts from "prompts";
+import ora from "ora";
 
 async function main() {
   // bright
   console.log("\x1b[1m", "\n\nSetting roundDeployer deployment params:");
+
   const deploy_params = await prompts([
     {
       type: "text",
@@ -39,7 +37,9 @@ async function main() {
         isValidTonAddress(value) ? true : "Invalid address",
     },
   ]);
+
   console.log("\x1b[1m", "\n\nNow setting relay configs:");
+
   const relay_config = await prompts([
     {
       type: "number",
@@ -65,8 +65,9 @@ async function main() {
       name: "minRelaysCount",
       message: "Min relays count",
       initial: 14,
-    }
+    },
   ]);
+
   console.log("\x1b[1m", "\nSetup complete! ✔\n");
 
   const spinner = ora("Deploying round deployer...").start();
@@ -79,41 +80,40 @@ async function main() {
 
   spinner.succeed(`Temporary admin address: ${admin.address}`);
 
-  const r =
-    await locklift.transactions.waitFinalized(
-      locklift.factory.deployContract({
-        contract: "RoundDeployer",
-        constructorParams: {
-          _admin: admin.address,
-          _bridge_event_config_ton_eth: deploy_params.tonEthEventConfig,
-          _bridge_event_config_ton_sol: deploy_params.tonSolEventConfig,
-        },
-        initParams: {
-          deploy_nonce: locklift.utils.getRandomNonce()
-        },
-        publicKey: signer.publicKey,
-        value: locklift.utils.toNano(5),
-      })
-    );
+  const r = await locklift.transactions.waitFinalized(
+    locklift.factory.deployContract({
+      contract: "RoundDeployer",
+      constructorParams: {
+        _admin: admin.address,
+        _bridge_event_config_ton_eth: deploy_params.tonEthEventConfig,
+        _bridge_event_config_ton_sol: deploy_params.tonSolEventConfig,
+      },
+      initParams: {
+        deploy_nonce: locklift.utils.getRandomNonce(),
+      },
+      publicKey: signer.publicKey,
+      value: locklift.utils.toNano(5),
+    })
+  );
 
   const {
-    extTransaction: {
-      contract: roundDeployer
-    }
+    extTransaction: { contract: roundDeployer },
   } = r;
 
   spinner.succeed(`Round deployer address: ${roundDeployer.address}`);
 
-  const RelayRound = await locklift.factory.getContractArtifacts("RelayRound");
-  const Platform = await locklift.factory.getContractArtifacts("Platform");
+  const RelayRound = locklift.factory.getContractArtifacts("RelayRound");
+  const Platform = locklift.factory.getContractArtifacts("Platform");
 
   spinner.start("Installing dependant contracts code...");
+
   await roundDeployer.methods
     .installPlatformOnce({ code: Platform.code, send_gas_to: admin.address })
     .send({
       from: admin.address,
       amount: locklift.utils.toNano(15),
     });
+
   await roundDeployer.methods
     .installOrUpdateRelayRoundCode({
       code: RelayRound.code,
@@ -123,9 +123,11 @@ async function main() {
       from: admin.address,
       amount: locklift.utils.toNano(15),
     });
+
   spinner.succeed("Dependant contracts code installed ✔");
 
   spinner.start("Setting relay config...");
+
   await roundDeployer.methods
     .setRelayConfig({
       new_relay_config: relay_config,
@@ -135,29 +137,36 @@ async function main() {
       from: admin.address,
       amount: locklift.utils.toNano(15),
     });
+
   spinner.succeed("Relay config set ✔");
 
   spinner.start("Setting active flag to true...");
+
   await roundDeployer.methods
     .setActive({ new_active: true, send_gas_to: admin.address })
     .send({
       from: admin.address,
       amount: locklift.utils.toNano(15),
     });
+
   spinner.succeed("Active flag set ✔");
 
   spinner.start("Setting real admin...");
+
   await roundDeployer.methods
     .setAdmin({ new_admin: deploy_params.admin, send_gas_to: admin.address })
     .send({
       from: admin.address,
       amount: locklift.utils.toNano(15),
     });
+
   spinner.succeed("Real admin set ✔");
 
-  spinner.start("Sending remaining evers from temporary admin to real admin...");
+  spinner.start(
+    "Sending remaining evers from temporary admin to real admin..."
+  );
 
-  const adminContract = await locklift.factory.getDeployedContract(
+  const adminContract = locklift.factory.getDeployedContract(
     "Wallet",
     admin.address
   );
