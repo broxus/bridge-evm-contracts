@@ -1,71 +1,5 @@
 {
   "map": {
-    "01157c689b1358fd6bc895bbc1496a547e629851f4ed2e898d15d618be29e828": {
-      "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2805
-      },
-      "8": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2806
-      },
-      "56": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2807
-      },
-      "64": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2808
-      },
-      "80": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2811
-      },
-      "88": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2812
-      },
-      "136": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2813
-      },
-      "144": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2814
-      },
-      "160": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2817
-      },
-      "168": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2818
-      },
-      "216": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2819
-      },
-      "224": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2820
-      },
-      "240": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2823
-      },
-      "248": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2824
-      },
-      "296": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2825
-      },
-      "304": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2826
-      }
-    },
     "016502983ecf2f4447f7d4fc9d31d97efca782602e84fb1ae4fb86d674e1374b": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
@@ -89,135 +23,135 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "232": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "256": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "272": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "320": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "352": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "368": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "384": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "416": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "432": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "440": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "464": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "472": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "488": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "504": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "520": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -241,15 +175,15 @@
       },
       "568": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "576": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "592": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 105
+        "line": 107
       }
     },
     "040c6df6be710c7b837c756d692a97855e36a98bae1412aa14a5abca206a4d18": {
@@ -476,84 +410,6 @@
         "line": 2889
       }
     },
-    "068bd4234d899ae3b7801cf15bceb1e1c97e785588040b0d66b5708029088ee8": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 85
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "208": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "480": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      }
-    },
     "07cf0b8481deac1836c2601a4312e69d5f5f9ce0dd191010644805aa515e4de4": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyTokenTransferCellEncoder.tsol",
@@ -729,23 +585,23 @@
     "10e7a24543754de05512874ac3704d2c17c92a4bc8d2e664b2ffb03ee3da2c9c": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       }
     },
     "11d482f0a0c62c529ea51ba343329dd448260398a2b212da75c378cda92a4c37": {
@@ -814,6 +670,144 @@
         "line": 2797
       }
     },
+    "1278c3a6eec1850ca6568ce60204e190f121cb02d2fe726be5166deff170b4ba": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2348
+      },
+      "16": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2349
+      },
+      "24": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2350
+      },
+      "40": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2351
+      },
+      "56": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2352
+      },
+      "72": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2353
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2354
+      },
+      "88": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2355
+      },
+      "104": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2356
+      },
+      "120": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2357
+      },
+      "128": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2358
+      },
+      "144": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2359
+      },
+      "168": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2360
+      },
+      "184": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2361
+      },
+      "192": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2362
+      },
+      "208": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2363
+      },
+      "248": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2364
+      },
+      "264": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2365
+      },
+      "272": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2366
+      },
+      "288": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2367
+      },
+      "296": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2368
+      },
+      "312": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2369
+      },
+      "328": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2370
+      },
+      "336": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2371
+      },
+      "344": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2372
+      },
+      "360": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2373
+      },
+      "376": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2377
+      },
+      "384": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2378
+      },
+      "408": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2379
+      },
+      "424": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2380
+      },
+      "432": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2381
+      },
+      "448": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2385
+      },
+      "456": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2386
+      },
+      "472": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2389
+      }
+    },
     "12f1ef3736c4cab2809e75a29886e8eda875905b9191123e12f59c45b26cb76c": {
       "0": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -874,16 +868,6 @@
       "304": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
         "line": 2666
-      }
-    },
-    "1477ae255b9d2266e5de33b105dbd44770f62f0343250db0911cbcf6d78ee041": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 33
-      },
-      "16": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 35
       }
     },
     "14cf036ed1523f9eaa584daa57e1aed17cd1d3d541d808c2d89d12814af48116": {
@@ -1124,116 +1108,42 @@
         "line": 667
       }
     },
-    "18a0cde4d820fac8486a58410074ac25efc196a20f8ab7e3a32832014c0396c7": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "192": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "416": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      }
-    },
     "1bd0c8f2cfca1ce30f4ec134f6123b10a5591f21f1ade9f6ff824a62d46e3b1a": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       }
     },
     "1d8068584b0641fa0d29285ef4794bcb034a66219fc8404aae6e53fe654239fb": {
@@ -1511,67 +1421,145 @@
     "1f7f0d840aa536b7bebb1d01835e1c32c4e69dbd37eaaa6dfc668453db80bedc": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "296": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
+      }
+    },
+    "23f9e82c0fe9d2537659befe209daab396b3348e910d67122260ebed6f4673c9": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 86
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "208": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "480": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
       }
     },
     "2584f2ecdd600e7c4521f679fe3b5d42e4cffd9851ab9c936e9991db820ac6bd": {
@@ -1786,144 +1774,6 @@
       "216": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
         "line": 2236
-      }
-    },
-    "2dca9784b52fa284b6f04988ac64f7e41b9b497741100a1cefe14c1cdb357d53": {
-      "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2348
-      },
-      "16": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2349
-      },
-      "24": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2350
-      },
-      "40": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2351
-      },
-      "56": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2352
-      },
-      "72": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2353
-      },
-      "80": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2354
-      },
-      "88": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2355
-      },
-      "104": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2356
-      },
-      "120": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2357
-      },
-      "128": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2358
-      },
-      "144": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2359
-      },
-      "168": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2360
-      },
-      "184": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2361
-      },
-      "192": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2362
-      },
-      "208": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2363
-      },
-      "248": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2364
-      },
-      "264": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2365
-      },
-      "272": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2366
-      },
-      "288": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2367
-      },
-      "296": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2368
-      },
-      "312": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2369
-      },
-      "328": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2370
-      },
-      "336": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2371
-      },
-      "344": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2372
-      },
-      "360": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2373
-      },
-      "376": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2377
-      },
-      "384": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2378
-      },
-      "408": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2379
-      },
-      "424": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2380
-      },
-      "432": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2381
-      },
-      "448": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2385
-      },
-      "456": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2386
-      },
-      "472": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2389
       }
     },
     "31b3f8c9b001e7ac2fb1c85a456c8503e0dd68486eb2f97148581cb20da07699": {
@@ -2302,6 +2152,80 @@
         "line": 1003
       }
     },
+    "351655b34d7a11ef7979175a330ac74173210e9117a34490fa416905d9ae65f0": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "192": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "416": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      }
+    },
     "370a589a651521838b5f64a95c9bbef0594c510bcc8ab7b6807025ce117eff1c": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyTokenTransferCellEncoder.tsol",
@@ -2340,10 +2264,132 @@
         "line": 49
       }
     },
+    "3a76e6cd5b54c3325d96c41b0aa4b4a7fe1bbe848e31aa9daea3714808bc27cf": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 13
+      },
+      "96": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 14
+      },
+      "104": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 15
+      },
+      "112": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 18
+      },
+      "128": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 19
+      },
+      "144": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 20
+      },
+      "152": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 21
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "200": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "232": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "248": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "264": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "280": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "296": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "312": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 33
+      },
+      "320": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 33
+      },
+      "336": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 34
+      },
+      "352": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 36
+      },
+      "368": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 45
+      },
+      "384": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 48
+      }
+    },
     "3b936848c0f6984028a91d7f121e7da53ade95dedbf222a3c50df2c256352f6f": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
     "3c4930e0bc8c6c6ff053e807230468254f69ecd06d997cab39e50be616d4fe63": {
@@ -2574,290 +2620,50 @@
         "line": 2186
       }
     },
-    "45b16310878cdd77d821f4a1cbd5f26b46bdabf8cddd6265180b7aab9ab8859d": {
+    "44011113f5b673418ab3a957becfc1a1fb70602608e6aac08739674c34fd92a5": {
       "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2393
+        "filename": "<entry-selector>",
+        "line": 1
       },
-      "16": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2394
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
       },
       "24": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2395
+        "filename": "<entry-selector>",
+        "line": 3
       },
-      "40": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2396
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
       },
       "56": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2397
+        "filename": "<entry-selector>",
+        "line": 6
       },
       "72": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2398
+        "filename": "<entry-selector>",
+        "line": 7
       },
-      "80": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2401
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
       },
       "96": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2402
+        "filename": "<entry-selector>",
+        "line": 9
       },
-      "104": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2403
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
       },
-      "120": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2406
-      },
-      "136": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2407
-      },
-      "144": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2408
-      },
-      "160": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2409
-      },
-      "176": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2410
-      },
-      "192": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2411
-      },
-      "200": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2412
-      },
-      "216": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2413
-      },
-      "224": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2414
-      },
-      "240": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2415
-      },
-      "248": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2416
-      },
-      "256": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2417
-      },
-      "272": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2418
-      },
-      "280": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2419
-      },
-      "288": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2421
-      },
-      "296": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2422
-      },
-      "304": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2423
-      },
-      "320": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2425
-      },
-      "328": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2426
-      },
-      "336": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2427
-      },
-      "352": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2428
-      },
-      "368": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2429
-      },
-      "384": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2431
-      },
-      "392": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2432
-      },
-      "408": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2433
-      },
-      "416": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2434
-      },
-      "432": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2436
-      },
-      "440": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2437
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 23
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 23
-      },
-      "488": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 23
-      },
-      "496": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 23
-      },
-      "504": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 24
-      },
-      "520": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 25
-      },
-      "536": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 25
-      },
-      "544": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 26
-      },
-      "552": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 26
-      },
-      "568": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 26
-      },
-      "584": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "608": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "624": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "632": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "640": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "648": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "656": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "664": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "672": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "688": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "704": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "720": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "736": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "744": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "768": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "776": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "792": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 27
-      },
-      "808": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2476
-      },
-      "816": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 29
-      },
-      "824": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
-        "line": 29
-      },
-      "840": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2481
-      },
-      "856": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2482
-      },
-      "864": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2483
-      },
-      "880": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2486
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
       }
     },
     "4edaf582ac01d07c0b6d2682f09bd92622c0102b9adab8d8769af360a1182394": {
@@ -3359,27 +3165,27 @@
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "128": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -3639,53 +3445,7 @@
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2399
-      }
-    },
-    "61b0dde22d65873f6611f6750775e8b794c4e354e10f02a9bd5d2b1f62ec4afc": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
+        "line": 2201
       }
     },
     "6322a9eee85392f0423c1557ca2938e605026845428ed68df41da258324d1f5b": {
@@ -4188,6 +3948,16 @@
         "line": 2855
       }
     },
+    "6e5f3df3c8eacbc0cd0d9980d0ccbfd1c7ace0c3205d12497305f0aa6ea14167": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 33
+      },
+      "16": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 35
+      }
+    },
     "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
       "0": {
         "filename": "<internal-selector>",
@@ -4196,72 +3966,6 @@
       "24": {
         "filename": "<internal-selector>",
         "line": 2
-      }
-    },
-    "7404d6965504a17fb188374b6846889f22b78bc08c71f5306b95023e99c67f34": {
-      "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2743
-      },
-      "8": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2744
-      },
-      "56": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2745
-      },
-      "64": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2746
-      },
-      "80": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2772
-      },
-      "88": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2773
-      },
-      "136": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2774
-      },
-      "144": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2775
-      },
-      "160": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2801
-      },
-      "168": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2802
-      },
-      "216": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2803
-      },
-      "224": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2804
-      },
-      "240": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2830
-      },
-      "248": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2831
-      },
-      "296": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2832
-      },
-      "304": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2833
       }
     },
     "77c55dc9124f4d96a50e121a44e28ab45d1c81b99c205afe63c433c36b8e68c4": {
@@ -4379,43 +4083,43 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "232": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -4778,6 +4482,72 @@
       "480": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
         "line": 728
+      }
+    },
+    "7df945e6a3822b4df8bf01ebb15975a76821e227468c8f74e9951fd26d521e97": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2805
+      },
+      "8": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2806
+      },
+      "56": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2807
+      },
+      "64": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2808
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2811
+      },
+      "88": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2812
+      },
+      "136": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2813
+      },
+      "144": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2814
+      },
+      "160": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2817
+      },
+      "168": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2818
+      },
+      "216": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2819
+      },
+      "224": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2820
+      },
+      "240": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2823
+      },
+      "248": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2824
+      },
+      "296": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2825
+      },
+      "304": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2826
       }
     },
     "7e09e38b4e2cf7060fa61f4bee01070bf87a4f127f2c994d8473e4bd27ac3b6a": {
@@ -5981,27 +5751,27 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "160": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -6080,6 +5850,292 @@
       "296": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
         "line": 2626
+      }
+    },
+    "95b411a32e6a7fc24b7f39b90fca5f932a5a14dcd52cc1238b43757b91edf852": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2393
+      },
+      "16": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2394
+      },
+      "24": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2395
+      },
+      "40": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2396
+      },
+      "56": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2397
+      },
+      "72": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2398
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2401
+      },
+      "96": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2402
+      },
+      "104": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2403
+      },
+      "120": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2406
+      },
+      "136": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2407
+      },
+      "144": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2408
+      },
+      "160": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2409
+      },
+      "176": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2410
+      },
+      "192": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2411
+      },
+      "200": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2412
+      },
+      "216": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2413
+      },
+      "224": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2414
+      },
+      "240": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2415
+      },
+      "248": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2416
+      },
+      "256": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2417
+      },
+      "272": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2418
+      },
+      "280": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2419
+      },
+      "288": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2421
+      },
+      "296": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2422
+      },
+      "304": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2423
+      },
+      "320": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2425
+      },
+      "328": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2426
+      },
+      "336": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2427
+      },
+      "352": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2428
+      },
+      "368": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2429
+      },
+      "384": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2431
+      },
+      "392": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2432
+      },
+      "408": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2433
+      },
+      "416": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2434
+      },
+      "432": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2436
+      },
+      "440": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2437
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 23
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 23
+      },
+      "488": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 23
+      },
+      "496": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 23
+      },
+      "504": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 24
+      },
+      "520": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 25
+      },
+      "536": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 25
+      },
+      "544": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 26
+      },
+      "552": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 26
+      },
+      "568": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 26
+      },
+      "584": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "608": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "624": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "632": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "640": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "648": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "656": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "664": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "672": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "688": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "704": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "720": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "736": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "744": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "768": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "776": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "792": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 27
+      },
+      "808": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2476
+      },
+      "816": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 29
+      },
+      "824": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferEthereumEverscaleEvent.tsol",
+        "line": 29
+      },
+      "840": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2481
+      },
+      "856": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2482
+      },
+      "864": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2483
+      },
+      "880": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2486
       }
     },
     "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
@@ -6216,55 +6272,55 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "232": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -6395,6 +6451,72 @@
         "line": 71
       }
     },
+    "a781c0eaaa1c450137f0842da5902a49c9f634b87d51328a70f5a6620d3df613": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2747
+      },
+      "8": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2748
+      },
+      "48": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2749
+      },
+      "56": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2750
+      },
+      "72": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2753
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2754
+      },
+      "128": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2755
+      },
+      "136": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2756
+      },
+      "152": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2759
+      },
+      "160": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2760
+      },
+      "208": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2761
+      },
+      "216": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2762
+      },
+      "232": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2765
+      },
+      "240": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2766
+      },
+      "288": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2767
+      },
+      "296": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2768
+      }
+    },
     "a8164a3581236f17c1fbe16a479407853171dba5b74e108a5c512755af7b845b": {
       "0": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -6435,6 +6557,72 @@
       "80": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
         "line": 2252
+      }
+    },
+    "b1999897b5f01df9b449a989c9caa702abade6317d1a5fd2452ac24b20ad20d8": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2743
+      },
+      "8": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2744
+      },
+      "56": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2745
+      },
+      "64": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2746
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2772
+      },
+      "88": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2773
+      },
+      "136": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2774
+      },
+      "144": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2775
+      },
+      "160": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2801
+      },
+      "168": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2802
+      },
+      "216": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2803
+      },
+      "224": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2804
+      },
+      "240": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2830
+      },
+      "248": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2831
+      },
+      "296": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2832
+      },
+      "304": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2833
       }
     },
     "b3c7462a9ce3bfdfc6cbe0e15af568f872d0adcc6f4e536a3b76a857a268d1fd": {
@@ -6601,100 +6789,144 @@
         "line": 2954
       }
     },
-    "bf63d289d90fa7090e8bdff29c134f245704e1821c6fd8a42d03c8811a2ca263": {
+    "bce41d884f5de5d7ec7fd256371916b894565cb95f31919f5ddc19a18590c242": {
       "0": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2739
+        "line": 1502
       },
       "8": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2740
+        "line": 1503
       },
-      "56": {
+      "24": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2741
+        "line": 1504
+      },
+      "48": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 1505
       },
       "64": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2742
+        "line": 1506
       },
-      "80": {
+      "72": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2860
+        "line": 1507
       },
       "88": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2861
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
       },
       "136": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2862
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
       },
-      "144": {
+      "152": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "176": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2863
+        "line": 1522
+      },
+      "192": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 1525
+      },
+      "200": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 1526
+      },
+      "216": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 1529
       }
     },
     "c1420872735fb16737a9cac20b62d6941f187147c5475ada3e27ecb772ea20e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       }
     },
     "c34f96cd8ba79ddc6b5bcb538d99732a24be9515d53b9cd419d444ee2d5fa05a": {
@@ -7294,181 +7526,181 @@
     "d329d342092e50ce033e9bd6399cd7d00421b27f65f856bdbd9173849116c2e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
     "d45441ecc5103d7eaa742d5002abde04a482231fe116e8261a22ee28b5c76476": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "8": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "248": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "264": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "280": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "416": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
@@ -7532,39 +7764,39 @@
       },
       "600": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "616": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "624": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "640": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "648": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "664": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "680": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "696": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "712": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       }
     },
     "d5bcfe4c4b06d234e30a4abb0888bd28b021221503ad131a833d1f8a99e4f36e": {
@@ -7739,84 +7971,6 @@
         "line": 469
       }
     },
-    "d98f1917e03f490a6748ae4b9ec7f2014e038f9f3db385cd9db7dc0cf2164fe0": {
-      "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1502
-      },
-      "8": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1503
-      },
-      "24": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1504
-      },
-      "48": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1505
-      },
-      "64": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1506
-      },
-      "72": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1507
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "152": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "176": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1522
-      },
-      "192": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1525
-      },
-      "200": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1526
-      },
-      "216": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 1529
-      }
-    },
     "def4475aea4472b4401aaa2d6c1e5c8575965909c24ccad019a7330288aeae2d": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyTokenTransferCellEncoder.tsol",
@@ -7919,6 +8073,40 @@
       "176": {
         "filename": "../contracts/utils/cell-encoder/ProxyTokenTransferCellEncoder.tsol",
         "line": 105
+      }
+    },
+    "e6f9e6bf9efcdbf1e151acfedee65fe918ddef446b55a1545641e13c3d4c01c6": {
+      "0": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2739
+      },
+      "8": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2740
+      },
+      "56": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2741
+      },
+      "64": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2742
+      },
+      "80": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2860
+      },
+      "88": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2861
+      },
+      "136": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2862
+      },
+      "144": {
+        "filename": "TokenTransferEthereumEverscaleEvent.code",
+        "line": 2863
       }
     },
     "e85077aa4308dab3caed6b0e8e8103f19a2b2e88222852fe861ae26667264c7d": {
@@ -8277,194 +8465,6 @@
       "296": {
         "filename": "TokenTransferEthereumEverscaleEvent.code",
         "line": 2546
-      }
-    },
-    "ee35ebe31d0e46aee6c1fbea9075b1ea9bef670c23309932320e1dd05b210467": {
-      "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2747
-      },
-      "8": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2748
-      },
-      "48": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2749
-      },
-      "56": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2750
-      },
-      "72": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2753
-      },
-      "80": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2754
-      },
-      "128": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2755
-      },
-      "136": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2756
-      },
-      "152": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2759
-      },
-      "160": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2760
-      },
-      "208": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2761
-      },
-      "216": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2762
-      },
-      "232": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2765
-      },
-      "240": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2766
-      },
-      "288": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2767
-      },
-      "296": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 2768
-      }
-    },
-    "f04aebdd7dc5608edf16403c20badf43bf86886ea46c1077f8cc07604ca8af0b": {
-      "0": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 4
-      },
-      "8": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 5
-      },
-      "24": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 6
-      },
-      "32": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 7
-      },
-      "48": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 10
-      },
-      "64": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 11
-      },
-      "80": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 12
-      },
-      "88": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 13
-      },
-      "96": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 14
-      },
-      "104": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 15
-      },
-      "112": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 16
-      },
-      "120": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 18
-      },
-      "128": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 19
-      },
-      "144": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 20
-      },
-      "152": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 21
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "200": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "232": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "248": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "264": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "280": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "296": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "312": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 33
-      },
-      "320": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 33
-      },
-      "336": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 34
-      },
-      "352": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 36
-      },
-      "368": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 45
-      },
-      "384": {
-        "filename": "TokenTransferEthereumEverscaleEvent.code",
-        "line": 48
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {

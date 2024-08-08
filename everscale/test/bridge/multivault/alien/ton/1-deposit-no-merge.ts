@@ -119,7 +119,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
         .deployEvent({ eventVoteData })
         .send({
           from: initializer.address,
-          amount: locklift.utils.toNano(6),
+          amount: locklift.utils.toNano(3),
         });
 
       logger.log(`Event initialization tx: ${tx.id}`);
@@ -141,9 +141,11 @@ describe("Deposit Alien jetton to TON with no merging", function () {
     });
 
     it("Check event contract exists", async () => {
-      expect(
-        Number(await locklift.provider.getBalance(eventContract.address))
-      ).to.be.greaterThan(0, "Event contract balance is zero");
+      const state = await locklift.provider
+        .getFullContractState({ address: eventContract.address })
+        .then((s) => s.state!);
+
+      expect(state.isDeployed).to.be.true;
     });
 
     it("Check event state before confirmation", async () => {
@@ -241,9 +243,12 @@ describe("Deposit Alien jetton to TON with no merging", function () {
     });
 
     it("Check alien jetton exists", async () => {
-      expect(
-        Number(await locklift.provider.getBalance(jetton.minter))
-      ).to.be.greaterThan(0, "Alien token root balance is zero");
+      const state = await jetton.getState();
+
+      expect(+state.balance).to.be.greaterThan(
+        0,
+        "Alien token root balance is zero"
+      );
     });
 
     it("Check alien jetton meta", async () => {
@@ -292,9 +297,11 @@ describe("Deposit Alien jetton to TON with no merging", function () {
     });
 
     it("Check merge router exists", async () => {
-      expect(
-        Number(await locklift.provider.getBalance(mergeRouter.address))
-      ).to.be.greaterThan(0, "Merge router balance is zero");
+      const state = await locklift.provider
+        .getFullContractState({ address: mergeRouter.address })
+        .then((s) => s.state!);
+
+      expect(state.isDeployed).to.be.true;
     });
 
     it("Check merge router data", async () => {

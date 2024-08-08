@@ -1,69 +1,69 @@
 {
   "map": {
-    "0114fddbe667804c2c10a4f294cf6a614f124dbf3df291ef958a87deec07e3e8": {
+    "006745523d47c8c59baeba7cfdc1c24a75611113bafa3ecf64270380f749a9fb": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2769
+        "line": 2707
       },
       "8": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2770
+        "line": 2708
       },
       "56": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2771
+        "line": 2709
       },
       "64": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2772
+        "line": 2710
       },
       "80": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2775
+        "line": 2736
       },
       "88": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2776
+        "line": 2737
       },
       "136": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2777
+        "line": 2738
       },
       "144": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2778
+        "line": 2739
       },
       "160": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2781
+        "line": 2765
       },
       "168": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2782
+        "line": 2766
       },
       "216": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2783
+        "line": 2767
       },
       "224": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2784
+        "line": 2768
       },
       "240": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2787
+        "line": 2794
       },
       "248": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2788
+        "line": 2795
       },
       "296": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2789
+        "line": 2796
       },
       "304": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2790
+        "line": 2797
       }
     },
     "016502983ecf2f4447f7d4fc9d31d97efca782602e84fb1ae4fb86d674e1374b": {
@@ -89,135 +89,135 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "232": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "256": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "272": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "320": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "352": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "368": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "384": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "416": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "432": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "440": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "464": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "472": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "488": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "504": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "520": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -241,15 +241,15 @@
       },
       "568": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "576": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "592": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 105
+        "line": 107
       }
     },
     "017f0d91223b38d5afa4605426f3be8bfa62fe22512d33e2d1fdff276a44f80b": {
@@ -318,26 +318,290 @@
         "line": 145
       }
     },
-    "04f8ee21c8cde6f929a26942d2455f7a7e50c03e0162a74b12fc08db77ff1331": {
+    "0355c2097d731908d9273b113da5050d4f2be70e1007961d0df583baa8df4333": {
       "0": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2124
+      },
+      "16": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2125
+      },
+      "24": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2126
+      },
+      "40": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2127
+      },
+      "56": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2128
+      },
+      "72": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2129
+      },
+      "80": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2132
+      },
+      "96": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2133
+      },
+      "104": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2134
+      },
+      "120": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2137
+      },
+      "136": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2138
+      },
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2139
+      },
+      "160": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2140
+      },
+      "176": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2141
+      },
+      "192": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2142
+      },
+      "200": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2143
+      },
+      "216": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2144
       },
       "224": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2145
+      },
+      "240": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2146
       },
       "248": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2147
       },
       "256": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2148
       },
-      "264": {
+      "272": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2149
+      },
+      "280": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2150
+      },
+      "288": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2152
+      },
+      "296": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2153
+      },
+      "304": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2154
+      },
+      "320": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2156
+      },
+      "328": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2157
+      },
+      "336": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2158
+      },
+      "352": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2159
+      },
+      "368": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2160
+      },
+      "384": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2162
+      },
+      "392": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2163
+      },
+      "408": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2164
+      },
+      "416": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2165
+      },
+      "432": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2167
+      },
+      "440": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2168
+      },
+      "456": {
         "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
+        "line": 43
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 43
+      },
+      "488": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 43
+      },
+      "496": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 43
+      },
+      "504": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 45
+      },
+      "520": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 46
+      },
+      "536": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 46
+      },
+      "544": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 48
+      },
+      "552": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 48
+      },
+      "568": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 48
+      },
+      "584": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "608": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "624": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "632": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "640": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "648": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "656": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "664": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "672": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "688": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "704": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "720": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "736": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "744": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "768": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "776": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "792": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 49
+      },
+      "808": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2207
+      },
+      "816": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 52
+      },
+      "824": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 52
+      },
+      "840": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2212
+      },
+      "856": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2213
+      },
+      "864": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2214
+      },
+      "880": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2217
       }
     },
     "05de6e01513f6d4ed6c8c5e37eb2c70288954faac1cfeff7471bf7792978833a": {
@@ -367,43 +631,43 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "232": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -622,84 +886,6 @@
         "line": 1451
       }
     },
-    "068bd4234d899ae3b7801cf15bceb1e1c97e785588040b0d66b5708029088ee8": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 85
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "208": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "480": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      }
-    },
     "0ffa226f4450e08779b0b963aa50d0ac3f64ee434aadc1d97b7e5a9f9243e18c": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -765,23 +951,89 @@
     "10e7a24543754de05512874ac3704d2c17c92a4bc8d2e664b2ffb03ee3da2c9c": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
+      }
+    },
+    "146ca7691377a57b8ddc91b27acd3f0ea48ce3445e20173b11194430328b8018": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2769
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2770
+      },
+      "56": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2771
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2772
+      },
+      "80": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2775
+      },
+      "88": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2776
+      },
+      "136": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2777
+      },
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2778
+      },
+      "160": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2781
+      },
+      "168": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2782
+      },
+      "216": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2783
+      },
+      "224": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2784
+      },
+      "240": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2787
+      },
+      "248": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2788
+      },
+      "296": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2789
+      },
+      "304": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2790
       }
     },
     "14ab9fea2edc2506fa3503ded6260189978d11f5d9cc488bafd455037ca44e4d": {
@@ -976,254 +1228,80 @@
         "line": 7
       }
     },
-    "18a0cde4d820fac8486a58410074ac25efc196a20f8ab7e3a32832014c0396c7": {
+    "164d7affdf14d67907b11b273af41270786210cb572caea92fe90cda2b0aca1c": {
       "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 128
       },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
+      "8": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 128
       },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
+      "32": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 128
       },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
+      "48": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 128
       },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "192": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "416": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      }
-    },
-    "1a0732eca85a9520767e45d624bd49dec1ea40cdc62e662aff07565a458f2921": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2079
-      },
-      "16": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2080
-      },
-      "24": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2081
-      },
-      "40": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2082
-      },
-      "56": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2083
-      },
-      "72": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2084
+      "64": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 128
       },
       "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2085
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 128
       },
-      "88": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2086
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 130
       },
-      "104": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2087
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 132
       },
       "120": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2088
-      },
-      "128": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2089
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2090
-      },
-      "168": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2091
-      },
-      "184": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2092
-      },
-      "192": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2093
-      },
-      "208": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2094
-      },
-      "248": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2095
-      },
-      "264": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2096
-      },
-      "272": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2097
-      },
-      "288": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2098
-      },
-      "296": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2099
-      },
-      "312": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2100
-      },
-      "328": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2101
-      },
-      "336": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2102
-      },
-      "344": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2103
-      },
-      "360": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2104
-      },
-      "376": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2108
-      },
-      "384": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2109
-      },
-      "408": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2110
-      },
-      "424": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2111
-      },
-      "432": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2112
-      },
-      "448": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2116
-      },
-      "456": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2117
-      },
-      "472": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2120
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 132
       }
     },
     "1bd0c8f2cfca1ce30f4ec134f6123b10a5591f21f1ade9f6ff824a62d46e3b1a": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       }
     },
     "1e5005aebcdbdb03fe96919609bf80aa1dbd5309b459a882697e0f9b0cd31c56": {
@@ -1295,67 +1373,67 @@
     "1f7f0d840aa536b7bebb1d01835e1c32c4e69dbd37eaaa6dfc668453db80bedc": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "296": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       }
     },
     "1f8a3bda32d80be38c2e45aa09bac16af8efb30a57e851e1446c1517f6930c4c": {
@@ -1384,10 +1462,154 @@
         "line": 1986
       }
     },
+    "23f9e82c0fe9d2537659befe209daab396b3348e910d67122260ebed6f4673c9": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 86
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "208": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "480": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      }
+    },
     "2584f2ecdd600e7c4521f679fe3b5d42e4cffd9851ab9c936e9991db820ac6bd": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
         "line": 1454
+      }
+    },
+    "2816169295a2784c66cededff0a6305eaaf4db02a86246bf29d368f0d3c4c854": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2711
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2712
+      },
+      "56": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2713
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2714
+      },
+      "80": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2717
+      },
+      "88": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2718
+      },
+      "136": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2719
+      },
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2720
+      },
+      "160": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2723
+      },
+      "168": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2724
+      },
+      "216": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2725
+      },
+      "224": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2726
+      },
+      "240": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2729
+      },
+      "248": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2730
+      },
+      "296": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2731
+      },
+      "304": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2732
       }
     },
     "29378caf60ba609a462a03c2c77eb3dd1b98bbc5e1a42493babb1c77166f8eaf": {
@@ -1626,142 +1848,26 @@
         "line": 2417
       }
     },
-    "2f39f852a9a9c23c0893b0947d7ed19cf522227fc12ba1d61c208024a40df273": {
+    "30e178015621b7293c8a36691b53ae24f322bfe8cea13a58883c3bc5e65c1bb6": {
       "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 226
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 227
-      },
-      "24": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 228
-      },
-      "48": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 229
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 230
-      },
-      "72": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 231
-      },
-      "88": {
         "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "176": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "200": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "208": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
+        "line": 96
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "232": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
+        "line": 96
       },
       "248": {
         "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
+        "line": 96
+      },
+      "256": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 96
       },
       "264": {
         "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "280": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "288": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "304": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "312": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "320": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "328": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "336": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 123
-      },
-      "344": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 264
-      },
-      "360": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 267
-      },
-      "368": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 268
-      },
-      "384": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 271
+        "line": 96
       }
     },
     "3230100c677242c71d3baebff54d8195984e547b81fce062c45acdbbab28da84": {
@@ -1828,268 +1934,6 @@
       "304": {
         "filename": "MultiVaultEVMTONEventNative.code",
         "line": 2761
-      }
-    },
-    "33b4634d90ced0be6f7cbf886611083b87d8d1f28167f4385e0017ea481705a0": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 56
-      },
-      "8": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 56
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "64": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "80": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "176": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "200": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "208": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "232": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "240": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "248": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "264": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "272": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "280": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "296": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "312": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 62
-      },
-      "328": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "336": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "344": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "352": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "376": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "392": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "408": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "416": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "424": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 82
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "448": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "480": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "496": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "512": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "520": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "528": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 83
-      },
-      "544": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 86
-      },
-      "560": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 86
-      },
-      "576": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 86
-      },
-      "592": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 86
-      },
-      "600": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 86
-      },
-      "616": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "632": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "640": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "664": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "672": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "688": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "704": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "712": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "728": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "744": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "760": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 87
-      },
-      "776": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 134
-      },
-      "784": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
-      },
-      "800": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
-      },
-      "816": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
-      },
-      "824": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
-      },
-      "848": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 96
       }
     },
     "33cf5ffcc565791e9658f4354694360c94b77c89351083b79370f6220b566ba5": {
@@ -2374,52 +2218,6 @@
         "line": 2060
       }
     },
-    "3410d17e43a47e3bdf39c941996e89b2482391bab5826b0fde6e91bd89afba90": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
-      }
-    },
     "3411572a3e6c53a59285f20dbb011231e089ee9cb12e3bf1334714ebb9b46c62": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -2480,6 +2278,80 @@
       "304": {
         "filename": "MultiVaultEVMTONEventNative.code",
         "line": 2437
+      }
+    },
+    "351655b34d7a11ef7979175a330ac74173210e9117a34490fa416905d9ae65f0": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "192": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "416": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
       }
     },
     "3abdca30ed1c48140b5db5006a7d663ef235e2d217b7863ca4ae2858a6d74cd5": {
@@ -2547,7 +2419,7 @@
     "3b936848c0f6984028a91d7f121e7da53ade95dedbf222a3c50df2c256352f6f": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
     "47d4d182a89ef236007152d249aab7584ccba9e9ab5e5ba11216599f381bc314": {
@@ -3046,6 +2918,128 @@
         "line": 939
       }
     },
+    "4c3101ec1404b0f6919ccdbe5304a6ac55a67d88fddaf45bd599779f5d4a1fa1": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 13
+      },
+      "96": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 14
+      },
+      "104": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 15
+      },
+      "112": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 18
+      },
+      "128": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 19
+      },
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 20
+      },
+      "152": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 21
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "200": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "232": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "248": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "264": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "280": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "296": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "312": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 33
+      },
+      "320": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 33
+      },
+      "336": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 34
+      },
+      "352": {
+        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
+        "line": 36
+      },
+      "368": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 45
+      },
+      "384": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 48
+      }
+    },
     "55508ab7376fd421e0374294d5c4afc0f2282d3283888ee246bbca67de714af1": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -3137,7 +3131,7 @@
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1905
+        "line": 2130
       }
     },
     "6322a9eee85392f0423c1557ca2938e605026845428ed68df41da258324d1f5b": {
@@ -3442,84 +3436,6 @@
       "24": {
         "filename": "<internal-selector>",
         "line": 2
-      }
-    },
-    "76b521fd213a3ded3e4272a8d965acfa393f03cf45c2aefec6bf76d153d55461": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1169
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1170
-      },
-      "24": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1171
-      },
-      "48": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1172
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1173
-      },
-      "72": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1174
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "152": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "176": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1189
-      },
-      "192": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1192
-      },
-      "200": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1193
-      },
-      "216": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 1196
       }
     },
     "76fa2a66ea482d1230e8f2e95602b02c938eb8620577b4c97ba82c1055791990": {
@@ -3900,128 +3816,6 @@
       "992": {
         "filename": "MultiVaultEVMTONEventNative.code",
         "line": 1878
-      }
-    },
-    "7b6e5f9525749d46b166c4159cd216cfe3318608a7eb7021b23e72cbde55270a": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 4
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 5
-      },
-      "24": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 6
-      },
-      "32": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 7
-      },
-      "48": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 10
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 11
-      },
-      "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 12
-      },
-      "88": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 13
-      },
-      "96": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 14
-      },
-      "104": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 15
-      },
-      "112": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 16
-      },
-      "120": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 18
-      },
-      "128": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 19
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 20
-      },
-      "152": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 21
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "200": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "232": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "248": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "264": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "280": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "296": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "312": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 33
-      },
-      "320": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 33
-      },
-      "336": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 34
-      },
-      "352": {
-        "filename": "../contracts/bridge/event-contracts/base/evm/EthereumEverscaleBaseEvent.tsol",
-        "line": 36
-      },
-      "368": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 45
-      },
-      "384": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 48
       }
     },
     "7b927247dc6a89d67cf1851f4cb5529c862128ede715f116c0341d4dc740b33e": {
@@ -4432,6 +4226,84 @@
         "line": 777
       }
     },
+    "8fe3ef4f76b2883c32251cf0d426c24629bf6fa20168c848f6051f58a305fdfb": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1169
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1170
+      },
+      "24": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1171
+      },
+      "48": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1172
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1173
+      },
+      "72": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1174
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "152": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "176": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1189
+      },
+      "192": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1192
+      },
+      "200": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1193
+      },
+      "216": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 1196
+      }
+    },
     "90e01ed4da208ed334dd23c69e83ad7e03b34d1ed15ec736b19d6fa4dce83b7d": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -4509,6 +4381,144 @@
       }
     },
     "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9b0c1faf7ef29a5bc3fa776bd8cad49f12ebd021d1afd002bdc707353f726af8": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 226
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 227
+      },
+      "24": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 228
+      },
+      "48": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 229
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 230
+      },
+      "72": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 231
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "176": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "200": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "208": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "224": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "232": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "248": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "264": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "280": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "288": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "304": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "312": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "320": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "328": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "336": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 123
+      },
+      "344": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 264
+      },
+      "360": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 267
+      },
+      "368": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 268
+      },
+      "384": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 271
+      }
+    },
     "9b0d671913272be813b241bc00933ca020b0452861d30cbc1cf691f60f83e13f": {
       "0": {
         "filename": "../contracts/bridge/libraries/EventContractNonce.tsol",
@@ -4713,6 +4723,40 @@
         "line": 119
       }
     },
+    "9e6bda7112be5c23bba9c4bd589f0878f83c67ad0e6cbebb1b31c35d2c70856e": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2703
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2704
+      },
+      "56": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2705
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2706
+      },
+      "80": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2824
+      },
+      "88": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2825
+      },
+      "136": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2826
+      },
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2827
+      }
+    },
     "a2a40cecfeae0e12fc7f2514f84410d637952e5e1edf574518aca3c0e22dfae1": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -4802,55 +4846,55 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "232": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -5167,38 +5211,142 @@
         "line": 543
       }
     },
-    "a4af7b8e63df3abbf0e5e920c4f4c954f6966d215b2b7df69df7e7d8a8030367": {
+    "a6a7a7ba87056b0230915a7fb5cccf3013780ce5c495e371fedacac6bbbbb115": {
       "0": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2703
+        "line": 2079
       },
-      "8": {
+      "16": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2704
+        "line": 2080
+      },
+      "24": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2081
+      },
+      "40": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2082
       },
       "56": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2705
+        "line": 2083
       },
-      "64": {
+      "72": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2706
+        "line": 2084
       },
       "80": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2824
+        "line": 2085
       },
       "88": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2825
+        "line": 2086
       },
-      "136": {
+      "104": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2826
+        "line": 2087
+      },
+      "120": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2088
+      },
+      "128": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2089
       },
       "144": {
         "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2827
+        "line": 2090
+      },
+      "168": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2091
+      },
+      "184": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2092
+      },
+      "192": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2093
+      },
+      "208": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2094
+      },
+      "248": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2095
+      },
+      "264": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2096
+      },
+      "272": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2097
+      },
+      "288": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2098
+      },
+      "296": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2099
+      },
+      "312": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2100
+      },
+      "328": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2101
+      },
+      "336": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2102
+      },
+      "344": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2103
+      },
+      "360": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2104
+      },
+      "376": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2108
+      },
+      "384": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2109
+      },
+      "408": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2110
+      },
+      "424": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2111
+      },
+      "432": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2112
+      },
+      "448": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2116
+      },
+      "456": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2117
+      },
+      "472": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2120
       }
     },
     "a8164a3581236f17c1fbe16a479407853171dba5b74e108a5c512755af7b845b": {
@@ -5375,290 +5523,50 @@
         "line": 2911
       }
     },
-    "aabcf23376285cbeb960f346998055ea38be073a07754f963ae46a57cd3e5ca3": {
+    "b0c96d24d3b419293c1ef23650e5aa08bc09316c172c150adf1c2c1a29bc57fb": {
       "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2124
+        "filename": "<entry-selector>",
+        "line": 1
       },
-      "16": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2125
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
       },
       "24": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2126
+        "filename": "<entry-selector>",
+        "line": 3
       },
-      "40": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2127
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
       },
       "56": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2128
+        "filename": "<entry-selector>",
+        "line": 6
       },
       "72": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2129
+        "filename": "<entry-selector>",
+        "line": 7
       },
-      "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2132
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
       },
       "96": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2133
+        "filename": "<entry-selector>",
+        "line": 9
       },
-      "104": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2134
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
       },
-      "120": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2137
-      },
-      "136": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2138
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2139
-      },
-      "160": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2140
-      },
-      "176": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2141
-      },
-      "192": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2142
-      },
-      "200": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2143
-      },
-      "216": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2144
-      },
-      "224": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2145
-      },
-      "240": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2146
-      },
-      "248": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2147
-      },
-      "256": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2148
-      },
-      "272": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2149
-      },
-      "280": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2150
-      },
-      "288": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2152
-      },
-      "296": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2153
-      },
-      "304": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2154
-      },
-      "320": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2156
-      },
-      "328": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2157
-      },
-      "336": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2158
-      },
-      "352": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2159
-      },
-      "368": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2160
-      },
-      "384": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2162
-      },
-      "392": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2163
-      },
-      "408": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2164
-      },
-      "416": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2165
-      },
-      "432": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2167
-      },
-      "440": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2168
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 43
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 43
-      },
-      "488": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 43
-      },
-      "496": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 43
-      },
-      "504": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 45
-      },
-      "520": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 46
-      },
-      "536": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 46
-      },
-      "544": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 48
-      },
-      "552": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 48
-      },
-      "568": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 48
-      },
-      "584": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "608": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "624": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "632": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "640": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "648": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "656": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "664": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "672": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "688": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "704": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "720": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "736": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "744": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "768": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "776": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "792": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 49
-      },
-      "808": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2207
-      },
-      "816": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 52
-      },
-      "824": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 52
-      },
-      "840": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2212
-      },
-      "856": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2213
-      },
-      "864": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2214
-      },
-      "880": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2217
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
       }
     },
     "b112cf1842757e9b18e409deff5ea5a0dede9f41ab2336c64c6c1b8df201c357": {
@@ -6058,63 +5966,63 @@
     "c1420872735fb16737a9cac20b62d6941f187147c5475ada3e27ecb772ea20e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       }
     },
     "c34f96cd8ba79ddc6b5bcb538d99732a24be9515d53b9cd419d444ee2d5fa05a": {
@@ -6363,250 +6271,250 @@
         "line": 37
       }
     },
-    "ca696c95ae0123d0ca3a345ae22a12ab377d66ed176e9a8fb2dafcc5a7521437": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2707
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2708
-      },
-      "56": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2709
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2710
-      },
-      "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2736
-      },
-      "88": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2737
-      },
-      "136": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2738
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2739
-      },
-      "160": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2765
-      },
-      "168": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2766
-      },
-      "216": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2767
-      },
-      "224": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2768
-      },
-      "240": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2794
-      },
-      "248": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2795
-      },
-      "296": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2796
-      },
-      "304": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2797
-      }
-    },
     "d329d342092e50ce033e9bd6399cd7d00421b27f65f856bdbd9173849116c2e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
+      }
+    },
+    "d3e0ff696d81b5112952d50ed4103641c5b470667f2e1080651722a4febb027c": {
+      "0": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2828
+      },
+      "8": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2829
+      },
+      "56": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2830
+      },
+      "64": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2831
+      },
+      "80": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2857
+      },
+      "88": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2858
+      },
+      "136": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2859
+      },
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2860
+      },
+      "160": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2886
+      },
+      "168": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2887
+      },
+      "216": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2888
+      },
+      "224": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2889
+      },
+      "240": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2915
+      },
+      "248": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2916
+      },
+      "296": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2917
+      },
+      "304": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2918
       }
     },
     "d45441ecc5103d7eaa742d5002abde04a482231fe116e8261a22ee28b5c76476": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "8": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "248": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "264": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "280": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "416": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -6670,39 +6578,39 @@
       },
       "600": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "616": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "624": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "640": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "648": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "664": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "680": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "696": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "712": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       }
     },
     "d5413b8f1d5dd429edfdf71cad00caa20c2da4fa8a2f242a13e1fffb24c439b1": {
@@ -6827,188 +6735,6 @@
       "304": {
         "filename": "MultiVaultEVMTONEventNative.code",
         "line": 2377
-      }
-    },
-    "e3befadb536320b582a5771d5df10af9c24d1194e53bc70849231c2c2294503e": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2919
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2920
-      },
-      "56": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2921
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2922
-      },
-      "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2925
-      },
-      "88": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2926
-      },
-      "136": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2927
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2928
-      },
-      "160": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2931
-      },
-      "168": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2932
-      },
-      "216": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2933
-      },
-      "224": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2934
-      }
-    },
-    "e69843299b7e6a1e69a6eab06aa6d908856e4f8f37b58d83aea916d48d73b2a4": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2711
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2712
-      },
-      "56": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2713
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2714
-      },
-      "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2717
-      },
-      "88": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2718
-      },
-      "136": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2719
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2720
-      },
-      "160": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2723
-      },
-      "168": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2724
-      },
-      "216": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2725
-      },
-      "224": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2726
-      },
-      "240": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2729
-      },
-      "248": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2730
-      },
-      "296": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2731
-      },
-      "304": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2732
-      }
-    },
-    "e6c111edc832874e96edff94973cb7c498560d254b393200d32cf397e0fe2888": {
-      "0": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2828
-      },
-      "8": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2829
-      },
-      "56": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2830
-      },
-      "64": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2831
-      },
-      "80": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2857
-      },
-      "88": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2858
-      },
-      "136": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2859
-      },
-      "144": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2860
-      },
-      "160": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2886
-      },
-      "168": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2887
-      },
-      "216": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2888
-      },
-      "224": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2889
-      },
-      "240": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2915
-      },
-      "248": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2916
-      },
-      "296": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2917
-      },
-      "304": {
-        "filename": "MultiVaultEVMTONEventNative.code",
-        "line": 2918
       }
     },
     "e786fed408981704b8264c5632b568f3ee2ae1d651c0203dc65c1f35a20fe71c": {
@@ -7595,42 +7321,54 @@
         "line": 122
       }
     },
-    "ec385dd2cad319c45aff8cb3598aa844cf2561e0424c0b19f0065138438f8873": {
+    "e99dc7bd65478b4f8bd0cf78c704cf592fbdb827cc50cbf6b429de9e47e5877d": {
       "0": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 128
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2919
       },
       "8": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 128
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2920
       },
-      "32": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 128
-      },
-      "48": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 128
+      "56": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2921
       },
       "64": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 128
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2922
       },
       "80": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 128
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2925
       },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 130
+      "88": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2926
       },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 132
+      "136": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2927
       },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
-        "line": 132
+      "144": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2928
+      },
+      "160": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2931
+      },
+      "168": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2932
+      },
+      "216": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2933
+      },
+      "224": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 2934
       }
     },
     "ed07bcedf2d83e62d432894aeff5ade3254de5bc1a02d988a2eebc102e8c4067": {
@@ -8154,27 +7892,27 @@
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "128": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -8586,27 +8324,27 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "160": {
         "filename": "MultiVaultEVMTONEventNative.code",
@@ -8623,6 +8361,268 @@
       "200": {
         "filename": "MultiVaultEVMTONEventNative.code",
         "line": 1250
+      }
+    },
+    "fef290ee2e8f5f0ac23981a5a16ef14ec640b900650aca5e1d735a05118497de": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 56
+      },
+      "8": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 56
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "64": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "80": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "176": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "200": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "208": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "232": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "240": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "248": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "264": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "272": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "280": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "296": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "312": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 62
+      },
+      "328": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "336": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "344": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "352": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "376": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "392": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "408": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "416": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "424": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 82
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "448": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "480": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "496": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "512": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "520": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "528": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 83
+      },
+      "544": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 86
+      },
+      "560": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 86
+      },
+      "576": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 86
+      },
+      "592": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 86
+      },
+      "600": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 86
+      },
+      "616": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "632": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "640": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "664": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "672": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "688": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "704": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "712": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "728": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "744": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "760": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 87
+      },
+      "776": {
+        "filename": "MultiVaultEVMTONEventNative.code",
+        "line": 134
+      },
+      "784": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 96
+      },
+      "800": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 96
+      },
+      "816": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 96
+      },
+      "824": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 96
+      },
+      "848": {
+        "filename": "../contracts/bridge/event-contracts/multivault/evm/MultiVaultEVMTONEventNative.tsol",
+        "line": 96
       }
     }
   }

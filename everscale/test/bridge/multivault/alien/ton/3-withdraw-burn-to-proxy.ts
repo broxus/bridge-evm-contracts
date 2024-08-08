@@ -7,7 +7,7 @@ import {
   CellEncoderStandaloneAbi,
   EthereumEverscaleEventConfigurationAbi,
   EverscaleEthereumEventConfigurationAbi,
-  StakingMockupAbi,
+  RoundDeployerMockupAbi,
   MultiVaultEverscaleEVMEventAlienAbi,
   ProxyMultiVaultAlienJettonAbi,
 } from "../../../../../build/factorySource";
@@ -26,7 +26,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
 
   let relays: Ed25519KeyPair[];
   let cellEncoder: Contract<CellEncoderStandaloneAbi>;
-  let staking: Contract<StakingMockupAbi>;
+  let roundDeployer: Contract<RoundDeployerMockupAbi>;
   let bridgeOwner: Account;
 
   let ethereumEverscaleEventConfiguration: Contract<EthereumEverscaleEventConfigurationAbi>;
@@ -56,7 +56,9 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
     let bridge;
 
     relays = await setupRelays();
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+      relays
+    );
 
     const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -69,20 +71,19 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       ethereumEverscaleEventConfiguration,
       everscaleEthereumEventConfiguration,
       proxy,
-    ] = await setupAlienJettonMultiVault(bridgeOwner, staking);
+    ] = await setupAlienJettonMultiVault(bridgeOwner, roundDeployer);
   });
 
   it("Deploy alien jetton", async () => {
-    await proxy.methods
-      .deployEVMAlienToken({
-        ...alienTokenBase,
-        ...alienTokenMeta,
-        value5: initializer.address,
-      })
-      .send({
-        from: initializer.address,
-        amount: locklift.utils.toNano(5),
-      });
+    await locklift.transactions.waitFinalized(
+      proxy.methods
+        .deployEVMAlienToken({
+          ...alienTokenBase,
+          ...alienTokenMeta,
+          value5: initializer.address,
+        })
+        .send({ from: initializer.address, amount: locklift.utils.toNano(1) })
+    );
 
     const alienTokenRootAddress = await proxy.methods
       .deriveEVMAlienTokenRoot({
@@ -125,11 +126,13 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       eventBlock: 444,
     };
 
-    const tx = await ethereumEverscaleEventConfiguration.methods
-      .deployEvent({ eventVoteData })
-      .send({ from: initializer.address, amount: locklift.utils.toNano(6) });
+    const tx = await locklift.transactions.waitFinalized(
+      ethereumEverscaleEventConfiguration.methods
+        .deployEvent({ eventVoteData })
+        .send({ from: initializer.address, amount: locklift.utils.toNano(2.5) })
+    );
 
-    logger.log(`Event initialization tx: ${tx.id}`);
+    logger.log(`Event initialization tx: ${tx.extTransaction.id}`);
 
     const expectedEventContract =
       await ethereumEverscaleEventConfiguration.methods
@@ -177,14 +180,17 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       })
       .call();
 
-    const tx = await jetton.getWalletOf(initializer.address).then((w) =>
-      w.burn(amount, proxy.address, burnPayload.value0, {
-        bounce: true,
-        value: locklift.utils.toNano(10),
-      })
-    );
+    const tx = await jetton
+      .getWalletOf(initializer.address)
+      .then((w) =>
+        w.burn(amount, proxy.address, burnPayload.value0, {
+          bounce: true,
+          value: locklift.utils.toNano(2.5),
+        })
+      )
+      .then((tx) => locklift.transactions.waitFinalized(tx));
 
-    logger.log(`Event initialization tx: ${tx.id.hash}`);
+    logger.log(`Event initialization tx: ${tx.extTransaction.id.hash}`);
 
     const events = await everscaleEthereumEventConfiguration
       .getPastEvents({ filter: "NewEventContract" })
@@ -210,9 +216,11 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
   });
 
   it("Check event contract exists", async () => {
-    expect(
-      Number(await locklift.provider.getBalance(eventContract.address))
-    ).to.be.greaterThan(0, "Event contract balance is zero");
+    const state = await locklift.provider
+      .getFullContractState({ address: eventContract.address })
+      .then((s) => s.state!);
+
+    expect(state.isDeployed).to.be.true;
   });
 
   it("Check total supply reduced", async () => {
@@ -250,7 +258,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       .call();
 
     expect(Number(initial_balance)).to.be.greaterThan(
-      Number(locklift.utils.toNano(9)),
+      Number(locklift.utils.toNano(2.4)),
       "Wrong event contract initial balance"
     );
   });

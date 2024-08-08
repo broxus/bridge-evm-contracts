@@ -70,11 +70,12 @@ abstract contract BaseEvent is IBasicEvent, TransferUtils {
     function loadRelays() internal view {
         require(_status == Status.Initializing, ErrorCodes.WRONG_STATUS);
 
-        IRoundDeployer(getRoundDeployerAddress()).getRelayRoundAddressFromTimestamp{
-            value: 1 ever,
-            bounce: false,
-            callback: BaseEvent.receiveRoundAddress
-        }(now);
+        IRoundDeployer(getRoundDeployerAddress())
+            .getRelayRoundAddressFromTimestamp{
+                value: 0.1 ever,
+                bounce: false,
+                callback: BaseEvent.receiveRoundAddress
+            }(now);
     }
 
     function receiveRoundAddress(
@@ -84,11 +85,12 @@ abstract contract BaseEvent is IBasicEvent, TransferUtils {
         relay_round = roundContract;
         round_number = roundNum;
 
-        IRound(roundContract).relayKeys{
-            value: 1 ever,
-            bounce: false,
-            callback: BaseEvent.receiveRoundRelays
-        }();
+        IRound(roundContract)
+            .relayKeys{
+                value: 0.1 ever,
+                bounce: false,
+                callback: BaseEvent.receiveRoundRelays
+            }();
     }
 
     function receiveRoundRelays(

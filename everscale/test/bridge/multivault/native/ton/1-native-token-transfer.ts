@@ -96,7 +96,7 @@ describe("Test EVM native multivault pipeline", function () {
         symbol: tokenMeta.symbol,
         decimals: tokenMeta.decimals,
       },
-      { bounce: true, value: locklift.utils.toNano(2) }
+      { bounce: true, value: locklift.utils.toNano(1.1) }
     );
 
     await logContract("Custom jetton", jetton.minter);
@@ -106,9 +106,9 @@ describe("Test EVM native multivault pipeline", function () {
     await jetton.mint(
       mintAmount,
       initializer.address,
-      locklift.utils.toNano(1.5),
+      0,
       { value: 0 },
-      { bounce: true, value: locklift.utils.toNano(2) }
+      { bounce: true, value: locklift.utils.toNano(0.1) }
     );
   });
 
@@ -150,8 +150,8 @@ describe("Test EVM native multivault pipeline", function () {
             w.transfer(
               amount,
               proxy.address,
-              { value: locklift.utils.toNano(9.2), payload: payload },
-              { value: locklift.utils.toNano(10), bounce: true }
+              { value: 1, payload: payload },
+              { value: locklift.utils.toNano(2.5), bounce: true }
             )
           )
       );
@@ -204,9 +204,11 @@ describe("Test EVM native multivault pipeline", function () {
     });
 
     it("Check event contract exists", async () => {
-      expect(
-        Number(await locklift.provider.getBalance(eventContract.address))
-      ).to.be.greaterThan(0, "Event contract balance is zero");
+      const state = await locklift.provider
+        .getFullContractState({ address: eventContract.address })
+        .then((s) => s.state!);
+
+      expect(state.isDeployed).to.be.true;
     });
 
     it("Check sender address", async () => {
@@ -224,7 +226,7 @@ describe("Test EVM native multivault pipeline", function () {
         .call();
 
       expect(Number(initial_balance)).to.be.greaterThan(
-        Number(locklift.utils.toNano(9)),
+        Number(locklift.utils.toNano(2.4)),
         "Wrong event contract initial balance"
       );
     });
@@ -432,10 +434,12 @@ describe("Test EVM native multivault pipeline", function () {
     });
 
     it("Close event", async () => {
-      await eventContract.methods.close({}).send({
-        from: eventCloser.address,
-        amount: locklift.utils.toNano(1),
-      });
+      await locklift.transactions.waitFinalized(
+        eventContract.methods.close({}).send({
+          from: eventCloser.address,
+          amount: locklift.utils.toNano(0.5),
+        })
+      );
     });
   });
 
@@ -470,11 +474,16 @@ describe("Test EVM native multivault pipeline", function () {
         eventBlock: 444,
       };
 
-      const tx = await ethereumEverscaleEventConfiguration.methods
-        .deployEvent({ eventVoteData })
-        .send({ from: initializer.address, amount: locklift.utils.toNano(6) });
+      const tx = await locklift.transactions.waitFinalized(
+        ethereumEverscaleEventConfiguration.methods
+          .deployEvent({ eventVoteData })
+          .send({
+            from: initializer.address,
+            amount: locklift.utils.toNano(2.5),
+          })
+      );
 
-      logger.log(`Event initialization tx: ${tx.id}`);
+      logger.log(`Event initialization tx: ${tx.extTransaction.id}`);
 
       const expectedEventContract =
         await ethereumEverscaleEventConfiguration.methods
@@ -495,9 +504,11 @@ describe("Test EVM native multivault pipeline", function () {
     });
 
     it("Check event contract exists", async () => {
-      expect(
-        Number(await locklift.provider.getBalance(eventContract.address))
-      ).to.be.greaterThan(0, "Event contract balance is zero");
+      const state = await locklift.provider
+        .getFullContractState({ address: eventContract.address })
+        .then((s) => s.state!);
+
+      expect(state.isDeployed).to.be.true;
     });
 
     it("Check event state before confirmation", async () => {

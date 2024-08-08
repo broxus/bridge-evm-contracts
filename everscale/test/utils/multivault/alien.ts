@@ -204,14 +204,14 @@ export const setupAlienJettonMultiVault = async (
     constructorParams: { owner_: owner.address },
     initParams: { _randomNonce },
     publicKey: signer.publicKey,
-    value: locklift.utils.toNano(15),
+    value: locklift.utils.toNano(1.2),
   });
 
   await logContract("ProxyMultiVaultAlienJetton", proxy.address);
 
   // Load event contracts
   const ethereumEverscaleEvent = locklift.factory.getContractArtifacts(
-    "MultiVaultEVMEverscaleEventAlien"
+    "MultiVaultEVMTONEventAlien"
   );
   const everscaleEthereumEvent = locklift.factory.getContractArtifacts(
     "MultiVaultTONEVMEventAlien"
@@ -242,18 +242,20 @@ export const setupAlienJettonMultiVault = async (
   );
 
   // Set proxy EVM configuration
-  await proxy.methods
-    .setEVMConfiguration({
-      _config: {
-        everscaleConfiguration: everscaleEthereumEventConfiguration.address,
-        evmConfigurations: [ethereumEverscaleEventConfiguration.address],
-        alienTokenRootCode: alienJettonMinterCode,
-        alienTokenWalletCode: alienJettonWalletCode,
-        alienTokenWalletPlatformCode: "",
-      },
-      remainingGasTo: owner.address,
-    })
-    .send({ from: owner.address, amount: locklift.utils.toNano(0.5) });
+  await locklift.transactions.waitFinalized(
+    proxy.methods
+      .setEVMConfiguration({
+        _config: {
+          everscaleConfiguration: everscaleEthereumEventConfiguration.address,
+          evmConfigurations: [ethereumEverscaleEventConfiguration.address],
+          alienTokenRootCode: alienJettonMinterCode,
+          alienTokenWalletCode: alienJettonWalletCode,
+          alienTokenWalletPlatformCode: "",
+        },
+        remainingGasTo: owner.address,
+      })
+      .send({ from: owner.address, amount: locklift.utils.toNano(0.01) })
+  );
 
   // Set merging
   const MergeRouter = locklift.factory.getContractArtifacts("MergeRouter");
@@ -261,17 +263,23 @@ export const setupAlienJettonMultiVault = async (
   const MergePoolPlatform =
     locklift.factory.getContractArtifacts("MergePoolPlatform");
 
-  await proxy.methods
-    .setMergeRouter({ _mergeRouter: MergeRouter.code })
-    .send({ from: owner.address, amount: locklift.utils.toNano(1) });
+  await locklift.transactions.waitFinalized(
+    proxy.methods
+      .setMergeRouter({ _mergeRouter: MergeRouter.code })
+      .send({ from: owner.address, amount: locklift.utils.toNano(0.01) })
+  );
 
-  await proxy.methods
-    .setMergePool({ _mergePool: MergePool.code })
-    .send({ from: owner.address, amount: locklift.utils.toNano(1) });
+  await locklift.transactions.waitFinalized(
+    proxy.methods
+      .setMergePool({ _mergePool: MergePool.code })
+      .send({ from: owner.address, amount: locklift.utils.toNano(0.01) })
+  );
 
-  await proxy.methods
-    .setMergePoolPlatform({ _mergePoolPlatform: MergePoolPlatform.code })
-    .send({ from: owner.address, amount: locklift.utils.toNano(1) });
+  await locklift.transactions.waitFinalized(
+    proxy.methods
+      .setMergePoolPlatform({ _mergePoolPlatform: MergePoolPlatform.code })
+      .send({ from: owner.address, amount: locklift.utils.toNano(0.01) })
+  );
 
   return [
     ethereumEverscaleEventConfiguration,

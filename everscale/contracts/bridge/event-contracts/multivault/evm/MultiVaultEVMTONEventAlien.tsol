@@ -1,0 +1,456 @@
+pragma ever-solidity >= 0.62.0;
+
+pragma AbiHeader time;
+pragma AbiHeader pubkey;
+pragma AbiHeader expire;
+
+import "../../../../utils/jetton/libraries/JettonUtils.tsol";
+import "../../../../utils/jetton/interfaces/ITakeInfo.tsol";
+
+import "../../../interfaces/proxy/IEthereumEverscaleProxyExtended.tsol";
+import "../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlien_V8.tsol";
+import "../../../interfaces/event-contracts/multivault/evm/IMultiVaultEVMTONEventAlien.tsol";
+import "../../../interfaces/event-configuration-contracts/IEthereumEverscaleEventConfiguration.tsol";
+import "../../../interfaces/alien-token-merge/merge-pool/IMergePool_V2.tsol";
+import "../../../interfaces/alien-token-merge/IMergeRouter.tsol";
+
+import "../../base/evm/EthereumEverscaleBaseEvent.tsol";
+
+contract MultiVaultEVMTONEventAlien is
+    EthereumEverscaleBaseEvent,
+    IMultiVaultEVMTONEventAlien,
+    ITakeInfo
+{
+    uint128 constant POWER_BASE = 10;
+
+    TvmCell public transitionalDataCell;
+
+    constructor(
+        address _initializer,
+        TvmCell _meta
+    ) EthereumEverscaleBaseEvent(_initializer, _meta) public {}
+
+    function onReject() virtual override internal {
+        transferAll(initializer);
+    }
+
+    function afterSignatureCheck(
+        TvmSlice body,
+        TvmCell
+    ) private inline view returns (TvmSlice) {
+        body.decode(uint64, uint32);
+
+        TvmSlice bodyCopy = body;
+        uint32 functionId = body.decode(uint32);
+
+        if (isExternalVoteCall(functionId)) {
+            require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
+        }
+
+        return bodyCopy;
+    }
+
+    function onInit() override internal {
+        _init_transitional_data();
+
+        EventData eventData = getEventData();
+
+        // Destroy event contract in case event contract is less than required
+        if (address(this).balance < eventData.expected_evers) {
+            initializer.transfer({
+                value: 0,
+                bounce: false,
+                flag: MsgFlag.ALL_NOT_RESERVED + MsgFlag.DESTROY_IF_ZERO
+            });
+
+            return;
+        }
+
+        IEthereumEverscaleEventConfiguration(eventInitData.configuration)
+            .getDetails{
+                value: 0.1 ever,
+                callback: MultiVaultEVMTONEventAlien.receiveConfigurationDetails
+            }();
+    }
+
+    function receiveConfigurationDetails(
+        IBasicEventConfiguration.BasicConfiguration,
+        IEthereumEverscaleEventConfiguration.EthereumEverscaleEventConfiguration _networkConfiguration,
+        TvmCell
+    ) external override {
+        require(msg.sender == eventInitData.configuration);
+
+        _set_proxy(_networkConfiguration.proxy);
+
+        EventData eventData = getEventData();
+
+        IProxyMultiVaultAlien_V8(_networkConfiguration.proxy)
+            .deriveEVMAlienTokenRoot{
+                value: 0.5 ever,
+                callback: MultiVaultEVMTONEventAlien.receiveAlienTokenRoot
+            }(
+                eventData.base_chainId,
+                eventData.base_token,
+                eventData.name,
+                eventData.symbol,
+                eventData.decimals
+            );
+    }
+
+    /// @notice Receives the alien token root address
+    /// Can be called only by `proxy`
+    /// @dev Sends the request to token to ensure it's already deployed
+    /// In case it's not - bounced message will be received, see `onBounce`
+    function receiveAlienTokenRoot(address token) external override {
+        TransitionalData transitionalData = getTransitionalData();
+
+        require(msg.sender == transitionalData.proxy, ErrorCodes.WRONG_PROXY);
+
+        _set_token(token);
+
+        JettonUtils.getInfo(
+            token,
+            0,
+            0.1 ever,
+            MsgFlag.SENDER_PAYS_FEES,
+            true
+        );
+    }
+
+    function takeInfo(
+        uint64,
+        uint8,
+        uint256,
+        uint160,
+        string,
+        string
+    ) external override functionID(0x93e5c11a) {
+        TransitionalData transitionalData = getTransitionalData();
+
+        require(msg.sender == transitionalData.token, ErrorCodes.SENDER_NOT_ROOT);
+
+        _requestMergeRouter();
+    }
+
+    function _requestMergeRouter() internal view {
+        TransitionalData transitionalData = getTransitionalData();
+
+        // Token exists, no need to deploy
+        // Ask the router address
+        IProxyMultiVaultAlien_V8(transitionalData.proxy)
+            .deriveMergeRouter{
+                value: 0.1 ever,
+                bounce: false,
+                callback: MultiVaultEVMTONEventAlien.receiveMergeRouter
+            }(transitionalData.token);
+    }
+
+    /// @notice Receives merge router address
+    /// Can be called only by `proxy`
+    /// @dev Sends request to the merge router to receive pool address
+    /// In case merge router is not deployed yet - the onBounce message will be received
+    /// @param router Router address
+    function receiveMergeRouter(address router) external override {
+        TransitionalData transitionalData = getTransitionalData();
+
+        require(msg.sender == transitionalData.proxy, ErrorCodes.WRONG_PROXY);
+
+        _set_router(router);
+
+        // Request merge router pool
+        IMergeRouter(router)
+            .getPool{
+                value: 0.1 ever,
+                bounce: true,
+                callback: MultiVaultEVMTONEventAlien.receiveMergeRouterPool
+            }();
+    }
+
+    /// @notice Receives merge pool address
+    /// Can be called only by `router`
+    /// @dev In case pool is zero address - then finish transfer with `token` and `amount`
+    /// Otherwise - request canon token from the pool
+    /// @param pool Pool address
+    function receiveMergeRouterPool(address pool) external override {
+        TransitionalData transitionalData = getTransitionalData();
+
+        require(msg.sender == transitionalData.router, ErrorCodes.WRONG_ROUTER);
+
+        _set_pool(pool);
+
+        if (pool.value == 0) {
+            EventData eventData = getEventData();
+
+            _finishSetup(transitionalData.token, eventData.amount);
+        } else {
+            IMergePool_V2(pool)
+                .getCanon{
+                    value: 1 ever,
+                    bounce: false,
+                    callback: MultiVaultEVMTONEventAlien.receiveMergePoolCanon
+                }();
+        }
+    }
+
+    /// @notice Receives merge pool canon
+    /// @dev Canon token can be disabled, in this case user receives `token`
+    /// @param canon Canon token address
+    /// @param canonToken_ Canon token
+    function receiveMergePoolCanon(
+        address canon,
+        IMergePool_V2.Token canonToken_
+    ) external override {
+        TransitionalData transitionalData = getTransitionalData();
+
+        require(msg.sender == transitionalData.pool, ErrorCodes.WRONG_POOL);
+
+        _set_canon(canon);
+
+        EventData eventData = getEventData();
+
+        if (canonToken_.enabled == false) {
+            // Canon token specified but not enabled
+            // fallback to the `token`
+
+            _finishSetup(transitionalData.token, eventData.amount);
+        } else {
+            // Canon token specified and enabled
+
+            uint128 canon_amount;
+
+            if (eventData.decimals > canonToken_.decimals) {
+                canon_amount = eventData.amount / (POWER_BASE**(eventData.decimals - canonToken_.decimals));
+            } else if (eventData.decimals < canonToken_.decimals) {
+                canon_amount = eventData.amount * (POWER_BASE**(canonToken_.decimals - eventData.decimals));
+            } else {
+                canon_amount = eventData.amount;
+            }
+
+            // In case the token decimals is more than canon decimals
+            // And the transferred amount is too low
+            // The canon_amount may be equal to zero. In this case - mints user the original token
+            if (canon_amount == 0) {
+                _finishSetup(transitionalData.token, eventData.amount);
+            } else {
+                _finishSetup(canon, canon_amount);
+            }
+        }
+    }
+
+    function onConfirm() internal override {
+        EventData eventData = getEventData();
+        TransitionalData transitionalData = getTransitionalData();
+
+        TvmCell metaData = abi.encode(
+            transitionalData.target_token,
+            transitionalData.target_amount,
+            eventData.recipient,
+            eventData.payload
+        );
+
+        IEthereumEverscaleProxyExtended(eventInitData.configuration)
+            .onEventConfirmedExtended{ flag: MsgFlag.ALL_NOT_RESERVED }(
+                eventInitData,
+                metaData,
+                initializer
+            );
+    }
+
+    function getEventData() public override responsible returns (EventData) {
+        (
+            uint256 base_chainId,
+            uint160 base_token,
+
+            string name,
+            string symbol,
+            uint8 decimals,
+
+            uint128 amount,
+            int8 recipient_wid,
+            uint256 recipient_addr,
+
+            uint256 value,
+            uint256 expected_evers,
+            TvmCell payload
+        ) = abi.decode(eventInitData.voteData.eventData, (
+            uint256,
+            uint160,
+            string,
+            string,
+            uint8,
+            uint128,
+            int8,
+            uint256,
+            uint256,
+            uint256,
+            TvmCell
+        ));
+
+        address recipient = address.makeAddrStd(recipient_wid, recipient_addr);
+
+        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } EventData(
+            base_chainId,
+            base_token,
+
+            name,
+            symbol,
+            decimals,
+
+            amount,
+            recipient,
+
+            value,
+            expected_evers,
+            payload
+        );
+    }
+
+    onBounce(TvmSlice slice) external {
+        uint32 selector = slice.decode(uint32);
+
+        EventData eventData = getEventData();
+        TransitionalData transitionalData = getTransitionalData();
+
+        if (
+            selector == JettonUtils.PROVIDE_INFO_FUNCTION_ID &&
+            msg.sender == transitionalData.token
+        ) {
+            // Failed to request token meta
+            // Seems like corresponding token root not deployed so deploy it
+            IProxyMultiVaultAlien_V8(transitionalData.proxy)
+                .deployEVMAlienToken{
+                    value: 1 ever,
+                    bounce: false
+                }(
+                    eventData.base_chainId,
+                    eventData.base_token,
+                    eventData.name,
+                    eventData.symbol,
+                    eventData.decimals,
+                    initializer
+                );
+
+            _requestMergeRouter();
+        } else if (
+            selector == tvm.functionId(IMergeRouter.getPool) &&
+            msg.sender == transitionalData.router
+        ) {
+            // Failed to request router's pool
+            // Seems like corresponding router not deployed so deploy it
+            IProxyMultiVaultAlien_V8(transitionalData.proxy)
+                .deployMergeRouter{
+                    value: 1 ever,
+                    bounce: false
+                }(transitionalData.token);
+
+            _finishSetup(transitionalData.token, eventData.amount);
+        }
+    }
+
+    function _finishSetup(
+        address target_token,
+        uint128 target_amount
+    ) internal {
+        TransitionalData transitionalData = getTransitionalData();
+
+        transitionalData.target_amount = target_amount;
+        transitionalData.target_token = target_token;
+
+        _set_transitional_data(transitionalData);
+
+        loadRelays();
+    }
+
+    // ==== Transitional data ====
+    function getTransitionalData() public view returns (TransitionalData) {
+        return abi.decode(transitionalDataCell, TransitionalData);
+    }
+
+    function _init_transitional_data() internal {
+        TransitionalData transitionalData;
+
+        _set_transitional_data(transitionalData);
+    }
+
+    function _set_transitional_data(TransitionalData transitionalData) internal {
+        transitionalDataCell = abi.encode(transitionalData);
+    }
+
+    function _set_proxy(address proxy) internal {
+        TransitionalData transitionalData = getTransitionalData();
+
+        transitionalData.proxy = proxy;
+
+        _set_transitional_data(transitionalData);
+    }
+
+    function _set_token(address token) internal {
+        TransitionalData transitionalData = getTransitionalData();
+
+        transitionalData.token = token;
+
+        _set_transitional_data(transitionalData);
+    }
+
+    function _set_router(address router) internal {
+        TransitionalData transitionalData = getTransitionalData();
+
+        transitionalData.router = router;
+
+        _set_transitional_data(transitionalData);
+    }
+
+    function _set_pool(address pool) internal {
+        TransitionalData transitionalData = getTransitionalData();
+
+        transitionalData.pool = pool;
+
+        _set_transitional_data(transitionalData);
+    }
+
+    function _set_canon(address canon) internal {
+        TransitionalData transitionalData = getTransitionalData();
+
+        transitionalData.canon = canon;
+
+        _set_transitional_data(transitionalData);
+    }
+
+    // ==== Legacy ====
+    function getDecodedData() external override responsible returns (
+        uint256 base_chainId_,
+        uint160 base_token_,
+        string name_,
+        string symbol_,
+        uint8 decimals_,
+        uint128 amount_,
+        address recipient_,
+        uint value_,
+        uint expected_evers_,
+        TvmCell payload_,
+        address proxy_,
+        address token_
+    ) {
+        EventData eventData = getEventData();
+        TransitionalData transitionalData = getTransitionalData();
+
+        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } (
+            eventData.base_chainId,
+            eventData.base_token,
+
+            eventData.name,
+            eventData.symbol,
+            eventData.decimals,
+
+            eventData.amount,
+            eventData.recipient,
+
+            eventData.value,
+            eventData.expected_evers,
+            eventData.payload,
+
+            transitionalData.proxy,
+            transitionalData.token
+        );
+    }
+}

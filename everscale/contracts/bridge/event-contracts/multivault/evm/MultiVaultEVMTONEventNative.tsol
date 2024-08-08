@@ -95,7 +95,7 @@ contract MultiVaultEVMTONEventNative is
 
         IEthereumEverscaleEventConfiguration(eventInitData.configuration)
             .getDetails{
-                value: 1 ever,
+                value: 0.1 ever,
                 callback: MultiVaultEVMTONEventNative.receiveConfigurationDetails
             }();
     }

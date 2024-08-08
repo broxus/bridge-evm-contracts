@@ -23,135 +23,135 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "232": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "256": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "272": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "320": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "352": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "368": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "384": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "416": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "432": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "440": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "464": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "472": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "488": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "504": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "520": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -175,103 +175,15 @@
       },
       "568": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "576": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "592": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 105
-      }
-    },
-    "05a5d5522eabed00d41f4d67d330516d313e76199db01b94aa777ffcc81f382e": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 35
-      },
-      "16": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 37
-      }
-    },
-    "068bd4234d899ae3b7801cf15bceb1e1c97e785588040b0d66b5708029088ee8": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 85
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "208": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "480": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
+        "line": 107
       }
     },
     "07045849da001e31d37feef34397a3f9b2d7569b11a742f5561bb36450e36fc2": {
@@ -512,6 +424,72 @@
         "line": 20
       }
     },
+    "0b4e4647b3cc0927b661974cff20f8ac6834c5f5507895c709328051e832a62d": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2698
+      },
+      "8": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2699
+      },
+      "56": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2700
+      },
+      "64": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2701
+      },
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2727
+      },
+      "88": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2728
+      },
+      "136": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2729
+      },
+      "144": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2730
+      },
+      "160": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2756
+      },
+      "168": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2757
+      },
+      "216": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2758
+      },
+      "224": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2759
+      },
+      "240": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2785
+      },
+      "248": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2786
+      },
+      "296": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2787
+      },
+      "304": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2788
+      }
+    },
     "0c599bffee171b20fb3e3d6a1747e491e3b96ec2c0a6d1ada8434d3ed5ff6a7e": {
       "0": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -525,23 +503,23 @@
     "10e7a24543754de05512874ac3704d2c17c92a4bc8d2e664b2ffb03ee3da2c9c": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       }
     },
     "12855f9d624055f56be748cc2bb37f6598599bd479e39130ca3f2cf0adecee19": {
@@ -902,248 +880,108 @@
         "line": 2629
       }
     },
-    "18a0cde4d820fac8486a58410074ac25efc196a20f8ab7e3a32832014c0396c7": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "192": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "416": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      }
-    },
-    "1aa769b0966fd656a057ed4e4f3838fe219689d9e1afb2b51c0d442fdb93e50a": {
-      "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2698
-      },
-      "8": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2699
-      },
-      "56": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2700
-      },
-      "64": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2701
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2727
-      },
-      "88": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2728
-      },
-      "136": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2729
-      },
-      "144": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2730
-      },
-      "160": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2756
-      },
-      "168": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2757
-      },
-      "216": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2758
-      },
-      "224": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2759
-      },
-      "240": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2785
-      },
-      "248": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2786
-      },
-      "296": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2787
-      },
-      "304": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2788
-      }
-    },
     "1bd0c8f2cfca1ce30f4ec134f6123b10a5591f21f1ade9f6ff824a62d46e3b1a": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       }
     },
     "1f7f0d840aa536b7bebb1d01835e1c32c4e69dbd37eaaa6dfc668453db80bedc": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "296": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       }
     },
     "23423da7cf1b660dfd5a17dca00e8fbbe6424bb900f1304c12fcac579ae90c38": {
@@ -1206,6 +1044,84 @@
       "304": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
         "line": 2469
+      }
+    },
+    "23f9e82c0fe9d2537659befe209daab396b3348e910d67122260ebed6f4673c9": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 86
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "208": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "480": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
       }
     },
     "2584f2ecdd600e7c4521f679fe3b5d42e4cffd9851ab9c936e9991db820ac6bd": {
@@ -1754,6 +1670,80 @@
         "line": 2609
       }
     },
+    "351655b34d7a11ef7979175a330ac74173210e9117a34490fa416905d9ae65f0": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "192": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "416": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      }
+    },
     "36a9f76f3650402cbaaf06633ce27e0d861f193c432111299e879e4f6061dde0": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
@@ -1939,145 +1929,17 @@
     "3b936848c0f6984028a91d7f121e7da53ade95dedbf222a3c50df2c256352f6f": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
-    "40b9475ee439a0101137ddb77d54fa636eb63a1ead9230a2af300c51f12b8c4e": {
+    "3f635e80b5cc3251c25e6d7f21f09d9573eb030a3d27585e9aa432920ff455f9": {
       "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2311
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 35
       },
       "16": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2312
-      },
-      "24": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2313
-      },
-      "40": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2314
-      },
-      "56": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2315
-      },
-      "72": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2316
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2317
-      },
-      "88": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2318
-      },
-      "104": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2319
-      },
-      "120": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2320
-      },
-      "128": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2321
-      },
-      "144": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2322
-      },
-      "168": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2323
-      },
-      "184": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2324
-      },
-      "192": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2325
-      },
-      "208": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2326
-      },
-      "248": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2327
-      },
-      "264": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2328
-      },
-      "272": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2329
-      },
-      "288": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2330
-      },
-      "296": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2331
-      },
-      "312": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2332
-      },
-      "328": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2333
-      },
-      "336": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2334
-      },
-      "344": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2335
-      },
-      "360": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2336
-      },
-      "376": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2340
-      },
-      "384": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2341
-      },
-      "408": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2342
-      },
-      "424": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2343
-      },
-      "432": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2344
-      },
-      "448": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2348
-      },
-      "456": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2349
-      },
-      "472": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2352
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 37
       }
     },
     "40eb3f1d24ed7a61eaf846a24d8c7bf409b7ce4e04207bc6f85ab636c9e13e2c": {
@@ -2210,6 +2072,52 @@
       "16": {
         "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
         "line": 54
+      }
+    },
+    "47126891f23fab973e5e3f1ec2f7561fc34ac93a29cab24f2b4e149238dc0ae5": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
       }
     },
     "4b803e2e77801a03e63519e5724127b4bb5b415d27e98fe95eb76dac445721f6": {
@@ -2994,10 +2902,142 @@
         "line": 2844
       }
     },
+    "5cb631609e9447e7a2dade412d05190f3431fa151a2a9ff229f2c56e02fff932": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2702
+      },
+      "8": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2703
+      },
+      "48": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2704
+      },
+      "56": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2705
+      },
+      "72": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2708
+      },
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2709
+      },
+      "128": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2710
+      },
+      "136": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2711
+      },
+      "152": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2714
+      },
+      "160": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2715
+      },
+      "208": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2716
+      },
+      "216": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2717
+      },
+      "232": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2720
+      },
+      "240": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2721
+      },
+      "288": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2722
+      },
+      "296": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2723
+      }
+    },
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
         "line": 2171
+      }
+    },
+    "64d2f9b67c3e703f642c77afaf87a1e13fd6a7ad98fbc076233283a27c13d888": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2760
+      },
+      "8": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2761
+      },
+      "56": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2762
+      },
+      "64": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2763
+      },
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2766
+      },
+      "88": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2767
+      },
+      "136": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2768
+      },
+      "144": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2769
+      },
+      "160": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2772
+      },
+      "168": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2773
+      },
+      "216": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2774
+      },
+      "224": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2775
+      },
+      "240": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2778
+      },
+      "248": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2779
+      },
+      "296": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2780
+      },
+      "304": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2781
       }
     },
     "684289f4498317d914e74977cbc3edc878ba7d9752c60382bcd8d09c71b1d1eb": {
@@ -3179,55 +3219,55 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "232": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -3334,52 +3374,6 @@
         "line": 1894
       }
     },
-    "6fb0a7f180fa339fe2c3cba56f2b03133020bde630ebd63c3015a43e03cf2895": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
-      }
-    },
     "70426497692bd91d74be533a58a4ac10e603b78c5994e6e6bc50ed80eb4706b7": {
       "0": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -3440,128 +3434,6 @@
       "304": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
         "line": 2529
-      }
-    },
-    "7162b924c638cf1b4815abc4f07a3f46a1a91f9391065ccd4eb32ab719fc27b1": {
-      "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 4
-      },
-      "8": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 5
-      },
-      "24": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 6
-      },
-      "32": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 7
-      },
-      "48": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 10
-      },
-      "64": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 11
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 12
-      },
-      "88": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 13
-      },
-      "96": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 14
-      },
-      "104": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 15
-      },
-      "112": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 16
-      },
-      "120": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 18
-      },
-      "128": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 19
-      },
-      "144": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 20
-      },
-      "152": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 21
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "200": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "232": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "248": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 27
-      },
-      "264": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "280": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "296": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 32
-      },
-      "312": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 33
-      },
-      "320": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 33
-      },
-      "336": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 34
-      },
-      "352": {
-        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
-        "line": 36
-      },
-      "368": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 45
-      },
-      "384": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 48
       }
     },
     "720fe57c68b586c5d40c974aff1d007aefb58a08d09070b17bf96ae5f8080004": {
@@ -3739,27 +3611,27 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "160": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -4236,40 +4108,6 @@
         "line": 1322
       }
     },
-    "7cce1f94976ad1c31ea41b0f8005cb25d3a5fcce9f2f63ded4c12f6ee95e12c2": {
-      "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2694
-      },
-      "8": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2695
-      },
-      "56": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2696
-      },
-      "64": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2697
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2815
-      },
-      "88": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2816
-      },
-      "136": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2817
-      },
-      "144": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2818
-      }
-    },
     "7ec164b6c9ee504b631f8f717ce121f2f7e026ba02d14eeaacc102d4c8a33518": {
       "0": {
         "filename": "../contracts/utils/cell-encoder/ProxyTokenTransferCellEncoder.tsol",
@@ -4376,6 +4214,84 @@
       "304": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
         "line": 2909
+      }
+    },
+    "7feaedcbd088e569bbe4d07576e54772c11d1c42432e0f8b27f946c14b402054": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1473
+      },
+      "8": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1474
+      },
+      "24": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1475
+      },
+      "48": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1476
+      },
+      "64": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1477
+      },
+      "72": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1478
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "152": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "176": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1493
+      },
+      "192": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1496
+      },
+      "200": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1497
+      },
+      "216": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 1500
       }
     },
     "80e748a73d3c84ef57faea9ed39c368bf9e32e462b893f3b63bc36a2b69f98b2": {
@@ -5072,72 +4988,6 @@
       "440": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
         "line": 518
-      }
-    },
-    "8bdf1426009eaf4f8288810af460c5d4c34a03cc67b6f34464136241c1aef96d": {
-      "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2702
-      },
-      "8": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2703
-      },
-      "48": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2704
-      },
-      "56": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2705
-      },
-      "72": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2708
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2709
-      },
-      "128": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2710
-      },
-      "136": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2711
-      },
-      "152": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2714
-      },
-      "160": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2715
-      },
-      "208": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2716
-      },
-      "216": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2717
-      },
-      "232": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2720
-      },
-      "240": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2721
-      },
-      "288": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2722
-      },
-      "296": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2723
       }
     },
     "8d067b315452fd12c8e052f11f48534984b0834150fa32d19d4acf6ff8807a6b": {
@@ -6027,82 +5877,324 @@
         "line": 1059
       }
     },
-    "a355abd163e949d8358bff9a408ba256d8e0c54a59b525a8bc7b50d6f79867c6": {
+    "a1958fa4739314f2ef0ebbba72dc50303eba1b9c193185a14a61d1d9735a39fd": {
       "0": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1473
+        "line": 2356
       },
-      "8": {
+      "16": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1474
+        "line": 2357
       },
       "24": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1475
+        "line": 2358
       },
-      "48": {
+      "40": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1476
+        "line": 2359
       },
-      "64": {
+      "56": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1477
+        "line": 2360
       },
       "72": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1478
+        "line": 2361
       },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2364
       },
       "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2365
       },
       "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2366
       },
       "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2369
       },
       "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2370
       },
-      "152": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+      "144": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2371
       },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
+      "160": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2372
       },
       "176": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1493
+        "line": 2373
       },
       "192": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1496
+        "line": 2374
       },
       "200": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1497
+        "line": 2375
       },
       "216": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 1500
+        "line": 2376
+      },
+      "224": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2377
+      },
+      "240": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2378
+      },
+      "248": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2379
+      },
+      "256": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2380
+      },
+      "272": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2381
+      },
+      "280": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2382
+      },
+      "288": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2384
+      },
+      "296": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2385
+      },
+      "304": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2386
+      },
+      "320": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2388
+      },
+      "328": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2389
+      },
+      "336": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2390
+      },
+      "352": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2391
+      },
+      "368": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2392
+      },
+      "384": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2394
+      },
+      "392": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2395
+      },
+      "408": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2396
+      },
+      "416": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2397
+      },
+      "432": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2399
+      },
+      "440": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2400
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 25
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 25
+      },
+      "488": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 25
+      },
+      "496": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 25
+      },
+      "504": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 26
+      },
+      "520": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 27
+      },
+      "536": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 27
+      },
+      "544": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 28
+      },
+      "552": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 28
+      },
+      "568": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 28
+      },
+      "584": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "608": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "624": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "632": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "640": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "648": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "656": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "664": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "672": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "688": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "704": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "720": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "736": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "744": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "768": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "776": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "792": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 29
+      },
+      "808": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2439
+      },
+      "816": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 31
+      },
+      "824": {
+        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
+        "line": 31
+      },
+      "840": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2444
+      },
+      "856": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2445
+      },
+      "864": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2446
+      },
+      "880": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2449
+      }
+    },
+    "a46710c6e3068b15466bb912dd1b6eb0ae5a48db94089383e750705ec6dcea4e": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2694
+      },
+      "8": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2695
+      },
+      "56": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2696
+      },
+      "64": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2697
+      },
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2815
+      },
+      "88": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2816
+      },
+      "136": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2817
+      },
+      "144": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2818
       }
     },
     "a6064ebbfeef76b19075cb1803b6afb8e845c3a9f712bbef25b663240074b03e": {
@@ -6132,43 +6224,43 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "232": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -6387,72 +6479,6 @@
         "line": 1755
       }
     },
-    "a901a79724865f873a37edb613a0597dd2901b22ab6d36379bc56925704a409a": {
-      "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2760
-      },
-      "8": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2761
-      },
-      "56": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2762
-      },
-      "64": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2763
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2766
-      },
-      "88": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2767
-      },
-      "136": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2768
-      },
-      "144": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2769
-      },
-      "160": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2772
-      },
-      "168": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2773
-      },
-      "216": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2774
-      },
-      "224": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2775
-      },
-      "240": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2778
-      },
-      "248": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2779
-      },
-      "296": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2780
-      },
-      "304": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2781
-      }
-    },
     "add45cded5d758d5d391c340ddf631320d113692a2d38cf2dfb4d93c3db57fbd": {
       "0": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -6468,27 +6494,27 @@
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "128": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -6912,63 +6938,63 @@
     "c1420872735fb16737a9cac20b62d6941f187147c5475ada3e27ecb772ea20e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       }
     },
     "c34f96cd8ba79ddc6b5bcb538d99732a24be9515d53b9cd419d444ee2d5fa05a": {
@@ -7264,181 +7290,181 @@
     "d329d342092e50ce033e9bd6399cd7d00421b27f65f856bdbd9173849116c2e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
     "d45441ecc5103d7eaa742d5002abde04a482231fe116e8261a22ee28b5c76476": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "8": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "248": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "264": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "280": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "416": {
         "filename": "TokenTransferSolanaEverscaleEvent.code",
@@ -7502,39 +7528,299 @@
       },
       "600": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "616": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "624": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "640": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "648": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "664": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "680": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "696": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "712": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
+      }
+    },
+    "d5c770dbee4ea4a43c480d2435329774712e48dce676ecee28b03ee776132936": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2311
+      },
+      "16": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2312
+      },
+      "24": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2313
+      },
+      "40": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2314
+      },
+      "56": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2315
+      },
+      "72": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2316
+      },
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2317
+      },
+      "88": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2318
+      },
+      "104": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2319
+      },
+      "120": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2320
+      },
+      "128": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2321
+      },
+      "144": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2322
+      },
+      "168": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2323
+      },
+      "184": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2324
+      },
+      "192": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2325
+      },
+      "208": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2326
+      },
+      "248": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2327
+      },
+      "264": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2328
+      },
+      "272": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2329
+      },
+      "288": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2330
+      },
+      "296": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2331
+      },
+      "312": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2332
+      },
+      "328": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2333
+      },
+      "336": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2334
+      },
+      "344": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2335
+      },
+      "360": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2336
+      },
+      "376": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2340
+      },
+      "384": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2341
+      },
+      "408": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2342
+      },
+      "424": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2343
+      },
+      "432": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2344
+      },
+      "448": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2348
+      },
+      "456": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2349
+      },
+      "472": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 2352
+      }
+    },
+    "dd5e4d9744a5c6602f2b71da28b7e4a0bb3ccd2669f0e06fd08500551b61158c": {
+      "0": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 13
+      },
+      "96": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 14
+      },
+      "104": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 15
+      },
+      "112": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 18
+      },
+      "128": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 19
+      },
+      "144": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 20
+      },
+      "152": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 21
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "200": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "232": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "248": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 27
+      },
+      "264": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "280": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "296": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 32
+      },
+      "312": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 33
+      },
+      "320": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 33
+      },
+      "336": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 34
+      },
+      "352": {
+        "filename": "../contracts/bridge/event-contracts/base/solana/SolanaEverscaleBaseEvent.tsol",
+        "line": 36
+      },
+      "368": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 45
+      },
+      "384": {
+        "filename": "TokenTransferSolanaEverscaleEvent.code",
+        "line": 48
       }
     },
     "def4475aea4472b4401aaa2d6c1e5c8575965909c24ccad019a7330288aeae2d": {
@@ -8009,292 +8295,6 @@
       "600": {
         "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
         "line": 43
-      }
-    },
-    "fc4be2a889e661744eaed26f02842c2a623196906365111b8d55071b9af8b930": {
-      "0": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2356
-      },
-      "16": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2357
-      },
-      "24": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2358
-      },
-      "40": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2359
-      },
-      "56": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2360
-      },
-      "72": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2361
-      },
-      "80": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2364
-      },
-      "96": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2365
-      },
-      "104": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2366
-      },
-      "120": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2369
-      },
-      "136": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2370
-      },
-      "144": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2371
-      },
-      "160": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2372
-      },
-      "176": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2373
-      },
-      "192": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2374
-      },
-      "200": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2375
-      },
-      "216": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2376
-      },
-      "224": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2377
-      },
-      "240": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2378
-      },
-      "248": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2379
-      },
-      "256": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2380
-      },
-      "272": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2381
-      },
-      "280": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2382
-      },
-      "288": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2384
-      },
-      "296": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2385
-      },
-      "304": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2386
-      },
-      "320": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2388
-      },
-      "328": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2389
-      },
-      "336": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2390
-      },
-      "352": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2391
-      },
-      "368": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2392
-      },
-      "384": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2394
-      },
-      "392": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2395
-      },
-      "408": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2396
-      },
-      "416": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2397
-      },
-      "432": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2399
-      },
-      "440": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2400
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 25
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 25
-      },
-      "488": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 25
-      },
-      "496": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 25
-      },
-      "504": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 26
-      },
-      "520": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 27
-      },
-      "536": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 27
-      },
-      "544": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 28
-      },
-      "552": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 28
-      },
-      "568": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 28
-      },
-      "584": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "608": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "624": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "632": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "640": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "648": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "656": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "664": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "672": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "688": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "704": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "720": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "736": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "744": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "768": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "776": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "792": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 29
-      },
-      "808": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2439
-      },
-      "816": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 31
-      },
-      "824": {
-        "filename": "../contracts/bridge/event-contracts/token-transfer/TokenTransferSolanaEverscaleEvent.tsol",
-        "line": 31
-      },
-      "840": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2444
-      },
-      "856": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2445
-      },
-      "864": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2446
-      },
-      "880": {
-        "filename": "TokenTransferSolanaEverscaleEvent.code",
-        "line": 2449
       }
     },
     "ff6108277240596341d83d6f91b9a88488d74c66880f5d1d75fa9feb38217a49": {

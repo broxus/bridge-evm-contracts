@@ -37,135 +37,135 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 97
+        "line": 99
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "232": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "256": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "272": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "320": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "352": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "368": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "384": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 99
+        "line": 101
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "416": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "432": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "440": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "464": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "472": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "488": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "504": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 100
+        "line": 102
       },
       "520": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -189,15 +189,15 @@
       },
       "568": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "576": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 103
+        "line": 105
       },
       "592": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 105
+        "line": 107
       }
     },
     "01dbe182d8c3b1f92ce528184176954e6a664becf7b3caa71f454646bf98a149": {
@@ -403,23 +403,69 @@
     "10e7a24543754de05512874ac3704d2c17c92a4bc8d2e664b2ffb03ee3da2c9c": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 128
+        "line": 130
+      }
+    },
+    "128feb0931c7534358dbf7067f2c84dbc9bb0036511a33e3cf65f76bf8d3de8c": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
       }
     },
     "14cf036ed1523f9eaa584daa57e1aed17cd1d3d541d808c2d89d12814af48116": {
@@ -724,72 +770,6 @@
         "line": 921
       }
     },
-    "1a416c4842c023cd4af58d80fb5664c6bcef1c37487b93b26770aa09c82e291b": {
-      "0": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2784
-      },
-      "8": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2785
-      },
-      "56": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2786
-      },
-      "64": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2787
-      },
-      "80": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2790
-      },
-      "88": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2791
-      },
-      "136": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2792
-      },
-      "144": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2793
-      },
-      "160": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2796
-      },
-      "168": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2797
-      },
-      "216": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2798
-      },
-      "224": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2799
-      },
-      "240": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2802
-      },
-      "248": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2803
-      },
-      "296": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2804
-      },
-      "304": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2805
-      }
-    },
     "1b892e4c0738d9499899eec8c021ad445800fdd08a1da25397796f25f4977dfe": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/solana/EverscaleSolanaBaseEvent.tsol",
@@ -879,105 +859,105 @@
     "1bd0c8f2cfca1ce30f4ec134f6123b10a5591f21f1ade9f6ff824a62d46e3b1a": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 151
+        "line": 153
       }
     },
     "1f7f0d840aa536b7bebb1d01835e1c32c4e69dbd37eaaa6dfc668453db80bedc": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 117
+        "line": 119
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 122
+        "line": 124
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "296": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 124
+        "line": 126
       }
     },
     "231a72d993e8ae333d088b573d467056cf12bd2da93434b480725149dce7462e": {
@@ -1046,6 +1026,72 @@
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
         "line": 1509
+      }
+    },
+    "26c0f79b7cefba67e7d7d9d134a3837f2d2f19e82da5d5c03509d55153b0a70c": {
+      "0": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2751
+      },
+      "8": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2752
+      },
+      "56": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2753
+      },
+      "64": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2754
+      },
+      "80": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2780
+      },
+      "88": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2781
+      },
+      "136": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2782
+      },
+      "144": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2783
+      },
+      "160": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2809
+      },
+      "168": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2810
+      },
+      "216": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2811
+      },
+      "224": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2812
+      },
+      "240": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2838
+      },
+      "248": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2839
+      },
+      "296": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2840
+      },
+      "304": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2841
       }
     },
     "271338394b9d722e665796b316ec658d00c8929d198282ed635bfb135d6b16da": {
@@ -1286,78 +1332,142 @@
         "line": 51
       }
     },
-    "2d6049a347a989280f4ec743d676a1c71f9f7f3d473c0bf99f835a5fdf419cd5": {
+    "2f24d87e39be3921a6089f69883ad821848f82bd871e86336650a7aa31829243": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 178
+        "line": 2180
       },
-      "8": {
+      "16": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 179
+        "line": 2181
       },
       "24": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 180
+        "line": 2182
       },
-      "48": {
+      "40": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 181
+        "line": 2183
       },
-      "64": {
+      "56": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 182
+        "line": 2184
       },
       "72": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 183
+        "line": 2185
+      },
+      "80": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2186
       },
       "88": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2187
       },
       "104": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2188
       },
       "120": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2189
       },
       "128": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
-      },
-      "152": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 89
-      },
-      "160": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 197
+        "line": 2190
       },
-      "176": {
+      "144": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 200
+        "line": 2191
+      },
+      "168": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2192
       },
       "184": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 201
+        "line": 2193
       },
-      "200": {
+      "192": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 204
+        "line": 2194
+      },
+      "208": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2195
+      },
+      "248": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2196
+      },
+      "264": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2197
+      },
+      "272": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2198
+      },
+      "288": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2199
+      },
+      "296": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2200
+      },
+      "312": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2201
+      },
+      "328": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2202
+      },
+      "344": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2208
+      },
+      "352": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2209
+      },
+      "368": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2210
+      },
+      "384": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2214
+      },
+      "392": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2215
+      },
+      "416": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2216
+      },
+      "432": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2217
+      },
+      "440": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2218
+      },
+      "456": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2222
+      },
+      "464": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2223
+      },
+      "480": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2226
       }
     },
     "3302a440141e652137f93e8455e0376e016f144631e7b7ed942b2ddeda6bddd4": {
@@ -1777,7 +1887,7 @@
     "3b936848c0f6984028a91d7f121e7da53ade95dedbf222a3c50df2c256352f6f": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
     "3de7fba0ba6a87282884238da12142034b722e4557bf1882bcad18b6b2a4d048": {
@@ -2314,208 +2424,148 @@
         "line": 2019
       }
     },
-    "4d64cb575b1bc9da2d2a8ae1ad10c537b05307af6524f7ed5416cd787386560b": {
+    "4a1fb652531fec2280aca6e6dcf40a73d542de0be71ed25ad68546c2da0cb81c": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2180
-      },
-      "16": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2181
-      },
-      "24": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2182
-      },
-      "40": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2183
-      },
-      "56": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2184
-      },
-      "72": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2185
-      },
-      "80": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2186
-      },
-      "88": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2187
-      },
-      "104": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2188
-      },
-      "120": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2189
-      },
-      "128": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2190
-      },
-      "144": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2191
-      },
-      "168": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2192
-      },
-      "184": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2193
-      },
-      "192": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2194
-      },
-      "208": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2195
-      },
-      "248": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2196
-      },
-      "264": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2197
-      },
-      "272": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2198
-      },
-      "288": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2199
-      },
-      "296": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2200
-      },
-      "312": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2201
-      },
-      "328": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2202
-      },
-      "344": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2208
-      },
-      "352": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2209
-      },
-      "368": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2210
-      },
-      "384": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2214
-      },
-      "392": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2215
-      },
-      "416": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2216
-      },
-      "432": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2217
-      },
-      "440": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2218
-      },
-      "456": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2222
-      },
-      "464": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2223
-      },
-      "480": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2226
-      }
-    },
-    "52026da97abcc91afba71d6177584d4f98731d8d48a7dde98d1ed7b053a3aee6": {
-      "0": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2842
+        "line": 1224
       },
       "8": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2843
+        "line": 1225
       },
-      "56": {
+      "24": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2844
+        "line": 1226
+      },
+      "48": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 1227
       },
       "64": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2845
+        "line": 1228
       },
-      "80": {
+      "72": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2848
+        "line": 1229
       },
       "88": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2849
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
       },
       "136": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2850
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
       },
-      "144": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2851
-      },
-      "160": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2854
+      "152": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
       },
       "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 81
+      },
+      "176": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2855
+        "line": 1244
+      },
+      "192": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 1247
+      },
+      "200": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 1248
       },
       "216": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2856
+        "line": 1251
+      }
+    },
+    "53dada210a320e309f5cba7190e7727e4d9e7f34a651563a022021b9f61d949f": {
+      "0": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2784
+      },
+      "8": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2785
+      },
+      "56": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2786
+      },
+      "64": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2787
+      },
+      "80": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2790
+      },
+      "88": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2791
+      },
+      "136": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2792
+      },
+      "144": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2793
+      },
+      "160": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2796
+      },
+      "168": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2797
+      },
+      "216": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2798
       },
       "224": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2857
+        "line": 2799
       },
       "240": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2860
+        "line": 2802
       },
       "248": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2861
+        "line": 2803
       },
       "296": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2862
+        "line": 2804
       },
       "304": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2863
+        "line": 2805
       }
     },
     "5ac9d67c7116b1e70a5e87bca5e88a18a70576aae83d7642d4ea3101fd7d6a2b": {
@@ -3024,6 +3074,218 @@
         "line": 2038
       }
     },
+    "647b33fad032758c3e531be74b24d0aa4de61da9457a5e96243be4ca6050227b": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 97
+      },
+      "16": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 99
+      }
+    },
+    "6a0f390c5507f585bc65df398a2b82b0d7cd8ca73b039fee280e5996a9c03e84": {
+      "0": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 178
+      },
+      "8": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 179
+      },
+      "24": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 180
+      },
+      "48": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 181
+      },
+      "64": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 182
+      },
+      "72": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 183
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "152": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 89
+      },
+      "160": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 197
+      },
+      "176": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 200
+      },
+      "184": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 201
+      },
+      "200": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 204
+      }
+    },
+    "6a2a1ffbd84cfa8c1fc097f212fb00d2452153f861412192a0c1ab3b3b57ec42": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 53
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 85
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 86
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "136": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "168": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "208": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "216": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      },
+      "480": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 88
+      }
+    },
+    "6c5c4608a6bf328b45944ef3f52e4558991423f842176f3657a9509631e8f65c": {
+      "0": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2747
+      },
+      "8": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2748
+      },
+      "56": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2749
+      },
+      "64": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2750
+      },
+      "80": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2868
+      },
+      "88": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2869
+      },
+      "136": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2870
+      },
+      "144": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2871
+      },
+      "160": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2989
+      },
+      "168": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2990
+      },
+      "216": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2991
+      },
+      "224": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2992
+      }
+    },
     "6df502a8f80d7c4365d4e9df9f3e30b50ccfd38fb71c4ae39120b49509bf9f07": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -3140,66 +3402,6 @@
       "368": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
         "line": 45
-      }
-    },
-    "6e7e8628111d8698420a0645900f8894c990b404f0ec517712d8246793d73950": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 97
-      },
-      "16": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 99
-      }
-    },
-    "701c92e1939b45237d430adf58e4fd1efdd7d547cbe1e2be991f0787bba03bef": {
-      "0": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2747
-      },
-      "8": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2748
-      },
-      "56": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2749
-      },
-      "64": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2750
-      },
-      "80": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2868
-      },
-      "88": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2869
-      },
-      "136": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2870
-      },
-      "144": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2871
-      },
-      "160": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2989
-      },
-      "168": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2990
-      },
-      "216": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2991
-      },
-      "224": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2992
       }
     },
     "7062bc7751719adb3d7fa2f90f0a2edae8978399bb28e1189145b1482dc5ce0e": {
@@ -3468,6 +3670,292 @@
         "line": 2
       }
     },
+    "73c21f6aa1e4d96f54209e8a8c3cd1ea6f7d776311769733af8f82287c0b3c1f": {
+      "0": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2230
+      },
+      "16": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2231
+      },
+      "24": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2232
+      },
+      "40": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2233
+      },
+      "56": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2234
+      },
+      "72": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2235
+      },
+      "80": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2238
+      },
+      "96": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2239
+      },
+      "104": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2240
+      },
+      "120": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2243
+      },
+      "136": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2244
+      },
+      "144": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2245
+      },
+      "160": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2246
+      },
+      "176": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2247
+      },
+      "192": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2248
+      },
+      "200": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2249
+      },
+      "216": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2250
+      },
+      "224": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2251
+      },
+      "240": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2252
+      },
+      "248": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2253
+      },
+      "256": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2254
+      },
+      "272": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2255
+      },
+      "280": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2256
+      },
+      "288": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2258
+      },
+      "296": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2259
+      },
+      "304": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2260
+      },
+      "320": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2262
+      },
+      "328": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2263
+      },
+      "336": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2264
+      },
+      "352": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2265
+      },
+      "368": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2266
+      },
+      "384": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2268
+      },
+      "392": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2269
+      },
+      "408": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2270
+      },
+      "416": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2271
+      },
+      "432": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2273
+      },
+      "440": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2274
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 43
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 43
+      },
+      "488": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 43
+      },
+      "496": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 43
+      },
+      "504": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 44
+      },
+      "520": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 45
+      },
+      "536": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 45
+      },
+      "544": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 46
+      },
+      "552": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 46
+      },
+      "568": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 46
+      },
+      "584": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "608": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "624": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "632": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "640": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "648": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "656": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "664": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "672": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "688": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "704": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "720": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "736": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "744": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "768": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "776": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "792": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 47
+      },
+      "808": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2313
+      },
+      "816": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 49
+      },
+      "824": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 49
+      },
+      "840": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2318
+      },
+      "856": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2319
+      },
+      "864": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2320
+      },
+      "880": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2323
+      }
+    },
     "752a36e8b37f838b9e0856f149e538cb2429bafcc33f2b64f79129061d87ce03": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -3534,72 +4022,6 @@
         "line": 2955
       }
     },
-    "75e8336cadf3f95ac8b46c6f49ba70917b73bcb00a133714e8af293a8802b26c": {
-      "0": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2751
-      },
-      "8": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2752
-      },
-      "56": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2753
-      },
-      "64": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2754
-      },
-      "80": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2780
-      },
-      "88": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2781
-      },
-      "136": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2782
-      },
-      "144": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2783
-      },
-      "160": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2809
-      },
-      "168": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2810
-      },
-      "216": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2811
-      },
-      "224": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2812
-      },
-      "240": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2838
-      },
-      "248": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2839
-      },
-      "296": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2840
-      },
-      "304": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2841
-      }
-    },
     "7a75258cdb7f2dd394ac78b193f56d1146c5bce010bc9accb397b304c3364a0a": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -3662,56 +4084,6 @@
         "line": 2603
       }
     },
-    "7c4c3f7eee6fdfa8515900169fa3e4b8c8bc4746910029c89cb3ed380623857d": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 92
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 92
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 92
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 92
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 92
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 94
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 94
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 96
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 96
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 96
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 99
-      },
-      "176": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 101
-      }
-    },
     "80114643b17d7246c1b65f3504a22f27b0d30f1ba009760fc5d5b47d24217c39": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -3739,43 +4111,43 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "232": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -4009,27 +4381,27 @@
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 150
+        "line": 152
       },
       "128": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -4420,84 +4792,6 @@
       "304": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
         "line": 2483
-      }
-    },
-    "88eb20d0b2d40129607407e594b460ecdc2a72dd0075c3966d027c16582ba838": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 53
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 84
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 85
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "208": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "216": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
-      },
-      "480": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 87
       }
     },
     "89bd1348da01fcfa93b3d5fb25ae867ff39a0e2d0b3603a656583df0cb82dc82": {
@@ -5385,6 +5679,56 @@
         "line": 77
       }
     },
+    "9c25a5c05034ccf98a16f1ea4eeb2ac237ba200593521b3c69061209257b5334": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 92
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 92
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 92
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 92
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 92
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 94
+      },
+      "96": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 94
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 96
+      },
+      "128": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 96
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 96
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 99
+      },
+      "176": {
+        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
+        "line": 101
+      }
+    },
     "a51295c8af681c76333d92c93162faa482547e953e03cc0d231a1683407ebc9b": {
       "0": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -6106,55 +6450,55 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 146
+        "line": 148
       },
       "232": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -6259,52 +6603,6 @@
       "568": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
         "line": 1645
-      }
-    },
-    "b75b62ffe9879450fd8f5e39bfd7df61e55832d202080dceef97af57c1d9a7ac": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
       }
     },
     "b8b941c7ecc7eecb8711e7532a3c3b017696ab09490299ace7afa10ab2561eb2": {
@@ -6703,66 +7001,132 @@
         "line": 332
       }
     },
+    "c12e2693fc98e87ca150e0f7556dfd939f158a14d58d18b475442c3e16fbb3bb": {
+      "0": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2842
+      },
+      "8": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2843
+      },
+      "56": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2844
+      },
+      "64": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2845
+      },
+      "80": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2848
+      },
+      "88": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2849
+      },
+      "136": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2850
+      },
+      "144": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2851
+      },
+      "160": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2854
+      },
+      "168": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2855
+      },
+      "216": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2856
+      },
+      "224": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2857
+      },
+      "240": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2860
+      },
+      "248": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2861
+      },
+      "296": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2862
+      },
+      "304": {
+        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
+        "line": 2863
+      }
+    },
     "c1420872735fb16737a9cac20b62d6941f187147c5475ada3e27ecb772ea20e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "64": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "160": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 147
+        "line": 149
       }
     },
     "c379eadec9335199ea2e7c365e012ea62fffea9dd86025b05cf1ccbd9630184d": {
@@ -6792,27 +7156,27 @@
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "120": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "128": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 94
+        "line": 96
       },
       "160": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -6963,448 +7327,10 @@
         "line": 2834
       }
     },
-    "c95ce1c074b03ba7223a2e35c53a51111994fa71bfb02f3a3e695b716dd96715": {
-      "0": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "24": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "40": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "56": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 71
-      },
-      "72": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "144": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "160": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "184": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "192": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "416": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "440": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "464": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 73
-      }
-    },
     "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
         "line": 37
-      }
-    },
-    "ce56a8cfea62ff456e8578e1a5c3251a548661bf8bdc69dd00e77c9362d36c85": {
-      "0": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1224
-      },
-      "8": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1225
-      },
-      "24": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1226
-      },
-      "48": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1227
-      },
-      "64": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1228
-      },
-      "72": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1229
-      },
-      "88": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "96": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "104": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "112": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "120": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "128": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "136": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "152": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "168": {
-        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 80
-      },
-      "176": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1244
-      },
-      "192": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1247
-      },
-      "200": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1248
-      },
-      "216": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 1251
-      }
-    },
-    "ce86dfe8d3fef1bbf374275c84eaa9a4e15bb47c1b4983ec16e004dd14d22fcc": {
-      "0": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2230
-      },
-      "16": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2231
-      },
-      "24": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2232
-      },
-      "40": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2233
-      },
-      "56": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2234
-      },
-      "72": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2235
-      },
-      "80": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2238
-      },
-      "96": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2239
-      },
-      "104": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2240
-      },
-      "120": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2243
-      },
-      "136": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2244
-      },
-      "144": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2245
-      },
-      "160": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2246
-      },
-      "176": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2247
-      },
-      "192": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2248
-      },
-      "200": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2249
-      },
-      "216": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2250
-      },
-      "224": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2251
-      },
-      "240": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2252
-      },
-      "248": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2253
-      },
-      "256": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2254
-      },
-      "272": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2255
-      },
-      "280": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2256
-      },
-      "288": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2258
-      },
-      "296": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2259
-      },
-      "304": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2260
-      },
-      "320": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2262
-      },
-      "328": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2263
-      },
-      "336": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2264
-      },
-      "352": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2265
-      },
-      "368": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2266
-      },
-      "384": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2268
-      },
-      "392": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2269
-      },
-      "408": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2270
-      },
-      "416": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2271
-      },
-      "432": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2273
-      },
-      "440": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2274
-      },
-      "456": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 43
-      },
-      "472": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 43
-      },
-      "488": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 43
-      },
-      "496": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 43
-      },
-      "504": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 44
-      },
-      "520": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 45
-      },
-      "536": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 45
-      },
-      "544": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 46
-      },
-      "552": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 46
-      },
-      "568": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 46
-      },
-      "584": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "608": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "624": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "632": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "640": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "648": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "656": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "664": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "672": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "688": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "704": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "720": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "736": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "744": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "768": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "776": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "792": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 47
-      },
-      "808": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2313
-      },
-      "816": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 49
-      },
-      "824": {
-        "filename": "../contracts/bridge/event-contracts/multivault/solana/MultiVaultEverscaleSolanaEventAlien.tsol",
-        "line": 49
-      },
-      "840": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2318
-      },
-      "856": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2319
-      },
-      "864": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2320
-      },
-      "880": {
-        "filename": "MultiVaultEverscaleSolanaEventAlien.code",
-        "line": 2323
       }
     },
     "cf2f54465e813bcbd2f5a8ec7d32552aa1989d4bff3152b8987017764fb8c128": {
@@ -7538,181 +7464,181 @@
     "d329d342092e50ce033e9bd6399cd7d00421b27f65f856bdbd9173849116c2e8": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "24": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "40": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 109
+        "line": 111
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "80": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 111
+        "line": 113
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 113
+        "line": 115
       }
     },
     "d45441ecc5103d7eaa742d5002abde04a482231fe116e8261a22ee28b5c76476": {
       "0": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "8": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "16": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 136
+        "line": 138
       },
       "32": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "48": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "56": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "72": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "88": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "96": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "104": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "112": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "136": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "144": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "152": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "168": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "176": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "184": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "192": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "200": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "208": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 137
+        "line": 139
       },
       "224": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "240": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "248": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 138
+        "line": 140
       },
       "264": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "280": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "288": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "304": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "312": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "328": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "336": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "344": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "360": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "376": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "392": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "408": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 139
+        "line": 141
       },
       "416": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
@@ -7776,39 +7702,39 @@
       },
       "600": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "616": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "624": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "640": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "648": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "664": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "680": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "696": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       },
       "712": {
         "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
-        "line": 143
+        "line": 145
       }
     },
     "d529ab09795ea6d9f622a7ee9cd8b0e2aa462e187037cc2bdb74675cee139eda": {
@@ -8143,6 +8069,80 @@
       "336": {
         "filename": "MultiVaultEverscaleSolanaEventAlien.code",
         "line": 1992
+      }
+    },
+    "db55dbddff754cff054e2674d888e27d185a18912341339b9a6e6d981c70babd": {
+      "0": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "24": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "40": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "56": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 71
+      },
+      "72": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "88": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "104": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "112": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "120": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "144": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "160": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "184": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "192": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "416": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "440": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "456": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "464": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
+      },
+      "472": {
+        "filename": "../contracts/bridge/event-contracts/base/BaseEvent.tsol",
+        "line": 73
       }
     },
     "dba179539d605517b0c180a0a761712398f09ba67a57bdcd6798a5d9d87370a2": {

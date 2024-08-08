@@ -101,7 +101,7 @@ contract MultiVaultTONEVMEventAlien is
         JettonUtils.getInfo(
             token,
             0,
-            1 ever,
+            0.1 ever,
             MsgFlag.SENDER_PAYS_FEES,
             true
         );
@@ -121,7 +121,7 @@ contract MultiVaultTONEVMEventAlien is
 
         IProxyMultiVaultAlien_V8(proxy)
             .deriveEVMAlienTokenRoot{
-                value: 1 ever,
+                value: 0.1 ever,
                 bounce: true,
                 callback: MultiVaultTONEVMEventAlien.receiveAlienTokenRoot
             }(
@@ -148,7 +148,7 @@ contract MultiVaultTONEVMEventAlien is
 
         IProxyMultiVaultAlien_V8(proxy)
             .deriveEVMAlienTokenRoot{
-                value: 1 ever,
+                value: 0.1 ever,
                 bounce: true,
                 callback: MultiVaultTONEVMEventAlien.receiveAlienTokenRoot
             }(
@@ -224,7 +224,7 @@ contract MultiVaultTONEVMEventAlien is
         uint32 selector = slice.decode(uint32);
 
         if (
-            (selector == tvm.functionId(ITakeInfo.takeInfo) && msg.sender == token) ||
+            (selector == JettonUtils.PROVIDE_INFO_FUNCTION_ID && msg.sender == token) ||
             (selector == tvm.functionId(IProxyMultiVaultAlien_V8.deriveEVMAlienTokenRoot) && msg.sender == proxy)
         ) {
             setStatusRejected(2);
