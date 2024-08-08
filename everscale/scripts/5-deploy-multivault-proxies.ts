@@ -22,39 +22,31 @@ const main = async () => {
 
   // Deploy proxy
   const { contract: proxyAlien } = await locklift.factory.deployContract({
-    contract: "ProxyMultiVaultAlien_V8",
-    constructorParams: {
-      owner_: response.owner,
-    },
-    initParams: {
-      _randomNonce,
-    },
+    contract: "ProxyMultiVaultAlienJetton",
+    constructorParams: { owner_: response.owner },
+    initParams: { _randomNonce },
     publicKey: signer.publicKey,
-    value: locklift.utils.toNano(15),
+    value: locklift.utils.toNano(1.1),
   });
 
   spinner.stop();
 
-  await logContract("ProxyMultiVaultAlien_V8", proxyAlien.address);
+  await logContract("ProxyMultiVaultAlienJetton", proxyAlien.address);
 
   spinner.start("Deploy native proxy");
 
   // Deploy proxy
   const { contract: proxyNative } = await locklift.factory.deployContract({
-    contract: "ProxyMultiVaultNative_V6",
-    constructorParams: {
-      owner_: response.owner,
-    },
-    initParams: {
-      _randomNonce,
-    },
+    contract: "ProxyMultiVaultNativeJetton",
+    constructorParams: { owner_: response.owner },
+    initParams: { _randomNonce },
     publicKey: signer.publicKey,
-    value: locklift.utils.toNano(15),
+    value: locklift.utils.toNano(1.1),
   });
 
   spinner.stop();
 
-  await logContract("ProxyMultiVaultNative_V6", proxyNative.address);
+  await logContract("ProxyMultiVaultNativeJetton", proxyNative.address);
 };
 
 main()

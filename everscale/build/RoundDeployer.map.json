@@ -1,511 +1,49 @@
 {
   "map": {
-    "049f3bf5e133db36498351e0f93a654a0e2d338e1eef13bbcdadcd8951435b9e": {
+    "0c74f955604f44a7c5d5b4b550002443ffdc6f2b4f017fffcffd1c742f077ca2": {
       "0": {
-        "filename": "RoundDeployer.code",
-        "line": 3106
+        "filename": "<entry-selector>",
+        "line": 1
       },
       "8": {
-        "filename": "RoundDeployer.code",
-        "line": 3107
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3108
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 3109
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3112
-      },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 3113
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3114
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 3115
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3118
-      },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 3119
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3120
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 3121
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3124
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 3125
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3126
-      },
-      "304": {
-        "filename": "RoundDeployer.code",
-        "line": 3127
-      }
-    },
-    "083738aca45f0a138203900378f8d3bd62545567fae7e95b1ec9bfcfd81212fb": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 898
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 899
+        "filename": "<entry-selector>",
+        "line": 2
       },
       "24": {
-        "filename": "RoundDeployer.code",
-        "line": 900
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 901
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 902
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 903
-      },
-      "88": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "144": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "168": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 28
-      },
-      "200": {
-        "filename": "RoundDeployer.code",
-        "line": 921
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 924
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 925
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 928
-      }
-    },
-    "0f2fc0e4f6cf17abdd6e0d23065c23be9a0ae8a56356f81f5c53cbd585ef4c9f": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+        "filename": "<entry-selector>",
+        "line": 3
       },
       "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+        "filename": "<entry-selector>",
+        "line": 4
       },
       "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "104": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "112": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "128": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "136": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "184": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "192": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 32
-      },
-      "208": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "224": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "240": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "256": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "272": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "288": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "304": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "320": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "336": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "352": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "368": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "384": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "400": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "416": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "432": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "448": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "464": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "480": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "496": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "512": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "528": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "544": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "560": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "576": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "592": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "608": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "624": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "640": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "656": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "672": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "688": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "704": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "720": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "728": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "736": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "744": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "760": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "776": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "784": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "792": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "800": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "816": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "832": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "840": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "848": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "864": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "872": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "880": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "896": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "904": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "912": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "928": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "944": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "960": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "976": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "992": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      }
-    },
-    "118141df9e786446939d28d83290010b359c413b081e75657d197b85428039e2": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 1746
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 1747
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 1748
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 1749
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 1750
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
       },
       "72": {
-        "filename": "RoundDeployer.code",
-        "line": 1751
+        "filename": "<entry-selector>",
+        "line": 7
       },
       "88": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
+        "filename": "<entry-selector>",
+        "line": 8
       },
       "96": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
+        "filename": "<entry-selector>",
+        "line": 9
       },
       "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
+        "filename": "<entry-selector>",
+        "line": 10
       },
       "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "168": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 109
-      },
-      "192": {
-        "filename": "RoundDeployer.code",
-        "line": 1767
-      },
-      "208": {
-        "filename": "RoundDeployer.code",
-        "line": 1770
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 1771
-      },
-      "232": {
-        "filename": "RoundDeployer.code",
-        "line": 1774
+        "filename": "<entry-selector>",
+        "line": 11
       }
     },
     "156d7def8b7afe3311fa8db53b70f0c2b0a660e7922b0959208593a2d80d54dd": {
@@ -620,400 +158,94 @@
         "line": 484
       }
     },
-    "17f840d4e6ca22a74597fe80a3c156d5f2760be4d9bf992b6219b99cd1b04430": {
+    "221ddb9adf55f3ac73680160efdaf47be66c36230dba05524dcb2bde54df7dc4": {
       "0": {
         "filename": "RoundDeployer.code",
-        "line": 3048
+        "line": 1916
       },
       "8": {
         "filename": "RoundDeployer.code",
-        "line": 3049
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3050
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 3051
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3054
-      },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 3055
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3056
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 3057
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3060
-      },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 3061
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3062
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 3063
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3066
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 3067
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3068
-      },
-      "304": {
-        "filename": "RoundDeployer.code",
-        "line": 3069
-      }
-    },
-    "180c5d8724d7049b0a357b24445f7e67de569c24619daa9eeae63abe3b9c9ca2": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 2076
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 2077
+        "line": 1917
       },
       "24": {
         "filename": "RoundDeployer.code",
-        "line": 2078
+        "line": 1918
       },
       "48": {
         "filename": "RoundDeployer.code",
-        "line": 2079
+        "line": 1919
       },
       "64": {
         "filename": "RoundDeployer.code",
-        "line": 2080
+        "line": 1920
       },
       "72": {
         "filename": "RoundDeployer.code",
-        "line": 2081
+        "line": 1921
       },
       "88": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "96": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "104": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "112": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "120": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "128": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "136": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "152": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "160": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "168": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "176": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "192": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 146
+        "line": 130
       },
       "200": {
         "filename": "RoundDeployer.code",
-        "line": 2099
+        "line": 1939
       },
       "216": {
         "filename": "RoundDeployer.code",
-        "line": 2102
+        "line": 1942
       },
       "224": {
         "filename": "RoundDeployer.code",
-        "line": 2103
+        "line": 1943
       },
       "240": {
         "filename": "RoundDeployer.code",
-        "line": 2106
-      }
-    },
-    "1a0827a41b0966673b3cf4aa386127fb7a553cbb881a5f7fed6294d52db156c6": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 2155
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 2156
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 2157
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 2158
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 2159
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 2160
-      },
-      "88": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "144": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "168": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 155
-      },
-      "200": {
-        "filename": "RoundDeployer.code",
-        "line": 2178
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 2181
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 2182
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 2185
-      }
-    },
-    "1c0a1ad99a52b40de55f051df37c5741846528478e17d99dc3d03b2e461dd3f3": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 177
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 178
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 178
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 178
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 180
-      },
-      "264": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 180
-      },
-      "280": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "440": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "448": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "464": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "480": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "496": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "512": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "528": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "544": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "560": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "568": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "576": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 182
-      },
-      "592": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "600": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "624": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "632": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "648": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "664": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "672": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
-      },
-      "688": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 183
+        "line": 1946
       }
     },
     "2584f2ecdd600e7c4521f679fe3b5d42e4cffd9851ab9c936e9991db820ac6bd": {
@@ -1260,268 +492,160 @@
         "line": 2322
       }
     },
-    "2ced6dc42428cd711b1348749257c8b571aefcc243837a57c69705d2572642dc": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 110
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 111
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 111
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 111
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "256": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "416": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "424": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "432": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "448": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "464": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 113
-      },
-      "480": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "488": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "648": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "656": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "664": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "680": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "688": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "696": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 114
-      },
-      "712": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 116
-      },
-      "720": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 116
-      },
-      "736": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 117
-      },
-      "744": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 117
-      },
-      "760": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "768": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "792": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "800": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "816": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "832": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "840": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      },
-      "856": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 119
-      }
-    },
-    "365d1d98f061d50cba26cc17b726ca62dbc54aac829e86973acb14acd43d1ac1": {
+    "2f93b79e159739cd55fa5713a4e39b93d72c6575e7c8b9a28abbefc4b010ee15": {
       "0": {
         "filename": "RoundDeployer.code",
-        "line": 1835
+        "line": 3077
       },
       "8": {
         "filename": "RoundDeployer.code",
-        "line": 1836
+        "line": 3078
       },
-      "24": {
+      "56": {
         "filename": "RoundDeployer.code",
-        "line": 1837
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 1838
+        "line": 3079
       },
       "64": {
         "filename": "RoundDeployer.code",
-        "line": 1839
+        "line": 3080
       },
-      "72": {
+      "80": {
         "filename": "RoundDeployer.code",
-        "line": 1840
+        "line": 3083
       },
       "88": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
+        "filename": "RoundDeployer.code",
+        "line": 3084
       },
       "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
+        "filename": "RoundDeployer.code",
+        "line": 3085
       },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 3086
       },
       "160": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
+        "filename": "RoundDeployer.code",
+        "line": 3089
       },
       "168": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 122
-      },
-      "200": {
         "filename": "RoundDeployer.code",
-        "line": 1858
+        "line": 3090
       },
       "216": {
         "filename": "RoundDeployer.code",
-        "line": 1861
+        "line": 3091
       },
       "224": {
         "filename": "RoundDeployer.code",
-        "line": 1862
+        "line": 3092
       },
       "240": {
         "filename": "RoundDeployer.code",
-        "line": 1865
+        "line": 3095
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 3096
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3097
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 3098
+      }
+    },
+    "37ff8cbe3d4983222385c2a5720129cfdf900609e427e01d8e75c022d1b7e6bf": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 2076
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 2077
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 2078
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 2079
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 2080
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 2081
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "160": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "168": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "192": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 146
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 2099
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 2102
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 2103
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 2106
       }
     },
     "396e8fbfead7c573f0e2cf0bfafb5222ce351417f81d3f37317a90c7d1919a7a": {
@@ -1804,72 +928,6 @@
         "line": 1410
       }
     },
-    "3b892bddb5dd06152d37dc8e90e1f64c37d68ed483700bb97f9335fdf6e531cd": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 3019
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 3020
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 3021
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3022
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 3025
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3026
-      },
-      "128": {
-        "filename": "RoundDeployer.code",
-        "line": 3027
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3028
-      },
-      "152": {
-        "filename": "RoundDeployer.code",
-        "line": 3031
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3032
-      },
-      "208": {
-        "filename": "RoundDeployer.code",
-        "line": 3033
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3034
-      },
-      "232": {
-        "filename": "RoundDeployer.code",
-        "line": 3037
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3038
-      },
-      "288": {
-        "filename": "RoundDeployer.code",
-        "line": 3039
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3040
-      }
-    },
     "3d34f20f9bb8ccdeed10937a78fcbb881ca19fe6a31399a4897de9c31e667fc8": {
       "0": {
         "filename": "RoundDeployer.code",
@@ -2148,292 +1206,734 @@
         "line": 1178
       }
     },
-    "43f3fd7b8219fc85503614d015912696c79599dd10f55eee6b55775e3942b3d0": {
-      "0": {
+    "44e78b34b3405acc2f2a477fa1cff7fdb1ed37278ccf594ee28180dfdcff2537": {
+      "40": {
         "filename": "RoundDeployer.code",
-        "line": 3169
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 3170
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3171
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 3172
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3175
-      },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 3176
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3177
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 3178
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3181
-      },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 3182
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3183
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 3184
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3187
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 3188
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3189
-      },
-      "304": {
-        "filename": "RoundDeployer.code",
-        "line": 3190
-      }
-    },
-    "4a6caaa6eb6ac81c2eed08df2784aa7c1d66ab1bcff547eeb1cdac881c85df30": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 3140
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 3141
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3142
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 3143
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3146
-      },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 3147
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3148
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 3149
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3152
-      },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 3153
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3154
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 3155
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3158
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 3159
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3160
-      },
-      "304": {
-        "filename": "RoundDeployer.code",
-        "line": 3161
-      }
-    },
-    "505185c923b348b9e47393cd290145a0bdeaa892d7d7118d59a38f2371f57c9c": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 3077
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 3078
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3079
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 3080
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3083
-      },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 3084
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3085
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 3086
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3089
-      },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 3090
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3091
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 3092
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3095
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 3096
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3097
-      },
-      "304": {
-        "filename": "RoundDeployer.code",
-        "line": 3098
-      }
-    },
-    "5680956ac38f88272394c0fdd856817f3a163e7923b8da1cbea3d2901c07939f": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 1995
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 1996
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 1997
+        "line": 207
       },
       "48": {
         "filename": "RoundDeployer.code",
-        "line": 1998
+        "line": 209
       },
       "64": {
         "filename": "RoundDeployer.code",
-        "line": 1999
+        "line": 212
       },
-      "72": {
+      "80": {
         "filename": "RoundDeployer.code",
-        "line": 2000
+        "line": 213
+      }
+    },
+    "48d9d4486e78bb6e7f29cb5727b3372caa3dfd101e3a5e13a9458c6bb92068c5": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 3048
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 3049
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 3050
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 3051
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 3054
       },
       "88": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
+        "filename": "RoundDeployer.code",
+        "line": 3055
       },
       "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
+        "filename": "RoundDeployer.code",
+        "line": 3056
       },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 3057
       },
       "160": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
+        "filename": "RoundDeployer.code",
+        "line": 3060
       },
       "168": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 138
-      },
-      "200": {
         "filename": "RoundDeployer.code",
-        "line": 2018
+        "line": 3061
       },
       "216": {
         "filename": "RoundDeployer.code",
-        "line": 2021
+        "line": 3062
       },
       "224": {
         "filename": "RoundDeployer.code",
-        "line": 2022
+        "line": 3063
       },
       "240": {
         "filename": "RoundDeployer.code",
-        "line": 2025
+        "line": 3066
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 3067
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3068
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 3069
+      }
+    },
+    "49e61f8ad7c4b3d1e178825a4a9962c61af6aedfdc8770b8f4a8ee55dd9052a8": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 32
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 33
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 33
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 33
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "248": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "416": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "424": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "440": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "448": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "456": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 35
+      },
+      "472": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "488": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "504": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "536": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "552": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "568": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "576": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "600": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "608": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "616": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "640": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "656": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "664": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "712": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "720": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "736": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "744": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "752": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "760": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      },
+      "776": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 36
+      }
+    },
+    "5155564a907deb6a2bab5c90b165aed5271b7c7800c74c289ff294176c2ccfe7": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 147
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 148
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 148
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 148
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "248": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "416": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "424": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "432": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "440": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "448": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 149
+      },
+      "464": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 150
+      },
+      "472": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 150
+      },
+      "488": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "496": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "528": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "544": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "560": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "568": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      },
+      "584": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 151
+      }
+    },
+    "51cb5a258fcc2a7ed445d6965cdd84d965ef275c84cf24fa1f77446881191124": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 3011
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 3012
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 3013
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 3014
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 3132
+      },
+      "88": {
+        "filename": "RoundDeployer.code",
+        "line": 3133
+      },
+      "136": {
+        "filename": "RoundDeployer.code",
+        "line": 3134
+      },
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 3135
+      }
+    },
+    "52ab5f13b173db26781fe410733b818da47315ddc80e5436bd919592c795b820": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 3019
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 3020
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 3021
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 3022
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 3025
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 3026
+      },
+      "128": {
+        "filename": "RoundDeployer.code",
+        "line": 3027
+      },
+      "136": {
+        "filename": "RoundDeployer.code",
+        "line": 3028
+      },
+      "152": {
+        "filename": "RoundDeployer.code",
+        "line": 3031
+      },
+      "160": {
+        "filename": "RoundDeployer.code",
+        "line": 3032
+      },
+      "208": {
+        "filename": "RoundDeployer.code",
+        "line": 3033
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 3034
+      },
+      "232": {
+        "filename": "RoundDeployer.code",
+        "line": 3037
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 3038
+      },
+      "288": {
+        "filename": "RoundDeployer.code",
+        "line": 3039
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3040
+      }
+    },
+    "532a57c4ddd1b57a77efcf98d59cce49eed7db83783bd6a2bf9b65b4be2caac1": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 2913
+      },
+      "16": {
+        "filename": "RoundDeployer.code",
+        "line": 2914
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 2915
+      },
+      "40": {
+        "filename": "RoundDeployer.code",
+        "line": 2916
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 2917
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 2918
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 2921
+      },
+      "96": {
+        "filename": "RoundDeployer.code",
+        "line": 2922
+      },
+      "104": {
+        "filename": "RoundDeployer.code",
+        "line": 2923
+      },
+      "120": {
+        "filename": "RoundDeployer.code",
+        "line": 2926
+      },
+      "136": {
+        "filename": "RoundDeployer.code",
+        "line": 2927
+      },
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 2928
+      },
+      "160": {
+        "filename": "RoundDeployer.code",
+        "line": 2929
+      },
+      "176": {
+        "filename": "RoundDeployer.code",
+        "line": 2930
+      },
+      "192": {
+        "filename": "RoundDeployer.code",
+        "line": 2931
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 2932
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 2933
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 2934
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 2935
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 2936
+      },
+      "256": {
+        "filename": "RoundDeployer.code",
+        "line": 2937
+      },
+      "272": {
+        "filename": "RoundDeployer.code",
+        "line": 2938
+      },
+      "280": {
+        "filename": "RoundDeployer.code",
+        "line": 2939
+      },
+      "288": {
+        "filename": "RoundDeployer.code",
+        "line": 2941
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 2942
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 2943
+      },
+      "320": {
+        "filename": "RoundDeployer.code",
+        "line": 2945
+      },
+      "328": {
+        "filename": "RoundDeployer.code",
+        "line": 2946
+      },
+      "344": {
+        "filename": "RoundDeployer.code",
+        "line": 2947
+      },
+      "360": {
+        "filename": "RoundDeployer.code",
+        "line": 2949
+      },
+      "368": {
+        "filename": "RoundDeployer.code",
+        "line": 2950
+      },
+      "384": {
+        "filename": "RoundDeployer.code",
+        "line": 2951
+      },
+      "392": {
+        "filename": "RoundDeployer.code",
+        "line": 2952
+      },
+      "408": {
+        "filename": "RoundDeployer.code",
+        "line": 2954
+      },
+      "416": {
+        "filename": "RoundDeployer.code",
+        "line": 2955
+      },
+      "432": {
+        "filename": "RoundDeployer.code",
+        "line": 2956
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "456": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "496": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "536": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "544": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "584": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "600": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "616": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "632": {
+        "filename": "RoundDeployer.code",
+        "line": 2958
+      },
+      "648": {
+        "filename": "RoundDeployer.code",
+        "line": 2959
+      },
+      "656": {
+        "filename": "RoundDeployer.code",
+        "line": 2960
+      },
+      "672": {
+        "filename": "RoundDeployer.code",
+        "line": 2961
+      },
+      "680": {
+        "filename": "RoundDeployer.code",
+        "line": 2962
+      },
+      "696": {
+        "filename": "RoundDeployer.code",
+        "line": 2963
+      },
+      "712": {
+        "filename": "RoundDeployer.code",
+        "line": 2964
+      },
+      "720": {
+        "filename": "RoundDeployer.code",
+        "line": 2965
+      },
+      "736": {
+        "filename": "RoundDeployer.code",
+        "line": 2968
       }
     },
     "57e193efb8dd878250c57ebf54e9805717634bbd983e49936abf09a901cfc5ad": {
@@ -2558,140 +2058,6 @@
       "256": {
         "filename": "RoundDeployer.code",
         "line": 2736
-      }
-    },
-    "59050bd639b308573efc387967abe5f4bf7864ae044079e44c15b3e15e4ed308": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 2338
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 2339
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 2340
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 2341
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 2342
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 2343
-      },
-      "88": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "144": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "160": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "216": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "240": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "264": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "280": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "296": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "312": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "328": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "344": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "352": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "360": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "376": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 176
-      },
-      "384": {
-        "filename": "RoundDeployer.code",
-        "line": 2373
-      },
-      "400": {
-        "filename": "RoundDeployer.code",
-        "line": 2376
-      },
-      "408": {
-        "filename": "RoundDeployer.code",
-        "line": 2377
-      },
-      "424": {
-        "filename": "RoundDeployer.code",
-        "line": 2380
       }
     },
     "5b2fc5604d524c747aa3c5bda550cdfd0d58b2ec62635dbc9a0450af7168caff": {
@@ -3006,6 +2372,160 @@
       "0": {
         "filename": "RoundDeployer.code",
         "line": 2919
+      }
+    },
+    "6344279b12ab9c5a173c0108f1aeb9e9eb833b58662b43fa027d90ab38329796": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 177
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 178
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 178
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 178
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 180
+      },
+      "256": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 180
+      },
+      "272": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "432": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "440": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "448": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "456": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "472": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "488": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "504": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "536": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "552": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "560": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "568": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 182
+      },
+      "584": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "592": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "616": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "624": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "640": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "656": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "664": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
+      },
+      "680": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 183
       }
     },
     "652753d8f54af47b94ee1dcd466696563a6b7c98ca0988395ec3924739bc2ad5": {
@@ -3426,216 +2946,6 @@
         "line": 1504
       }
     },
-    "68b0d1ce3fe85ddef40702009717315df3bc3fe1b4525c4616f22e2bd4e3df09": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 156
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 157
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 157
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 157
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "264": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "280": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "288": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "304": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "320": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "336": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "352": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "376": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "392": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "408": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "424": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "440": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "472": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "480": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "488": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "496": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "504": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "512": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "528": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "536": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 158
-      },
-      "552": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "712": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "720": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "728": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "744": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "752": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "760": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 168
-      },
-      "776": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "784": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "808": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "816": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "832": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "848": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "856": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      },
-      "872": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 169
-      }
-    },
     "69a5a08a5100ed969fab78209c7a38bf44133665ae3193c80660d229b452511b": {
       "0": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
@@ -3986,7 +3296,7 @@
         "line": 2849
       }
     },
-    "730fce36483a7c66d14800416a2e05e66ae746edb9fd22bf14e44c812cce52fc": {
+    "7a3330a120c37dc19a33fa5f43cdbaef37100f2e8e0debbca9a176bf0ff5bc74": {
       "0": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 34
@@ -3995,15 +3305,19 @@
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 34
       },
+      "24": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
       "32": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 34
       },
-      "40": {
+      "48": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 34
       },
-      "48": {
+      "56": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 34
       },
@@ -4021,19 +3335,19 @@
       },
       "88": {
         "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
+        "line": 61
       },
       "96": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 34
-      },
-      "104": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 61
       },
       "112": {
         "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 61
+        "line": 64
+      },
+      "120": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 64
       },
       "128": {
         "filename": "../contracts/round/RoundDeployer.tsol",
@@ -4043,11 +3357,7 @@
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
-      "144": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 64
-      },
-      "152": {
+      "176": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
@@ -4055,7 +3365,7 @@
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
-      "208": {
+      "200": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
@@ -4063,11 +3373,11 @@
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
-      "232": {
+      "224": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
-      "240": {
+      "232": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
@@ -4075,7 +3385,7 @@
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
-      "264": {
+      "256": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 64
       },
@@ -4084,10 +3394,6 @@
         "line": 64
       },
       "288": {
-        "filename": "../contracts/round/RoundDeployer.tsol",
-        "line": 64
-      },
-      "304": {
         "filename": "../contracts/round/RoundDeployer.tsol",
         "line": 65
       }
@@ -4892,148 +4198,6 @@
         "line": 1405
       }
     },
-    "7dce6e26c5d0e67149b23dd4073e734ca027c9eb6f5c3d6fdbf016245bab3e33": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 139
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 140
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 140
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 140
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "256": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "416": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "424": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "432": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "440": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "448": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 141
-      },
-      "472": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 142
-      },
-      "488": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 142
-      },
-      "496": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 142
-      },
-      "512": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 142
-      },
-      "528": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "536": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "560": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "568": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "584": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "600": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "608": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      },
-      "624": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 143
-      }
-    },
     "7e2e0d7eb527b775a098670ac670fbd7e097b4fa397f46fecf4d8fa78da1fd52": {
       "0": {
         "filename": "../contracts/round/base/RoundDeployerRelay.tsol",
@@ -5216,6 +4380,92 @@
         "line": 113
       }
     },
+    "803bbd7a84f803fd259cf5cb082789f472de7ba6b798db9b94394e48e71bde2d": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 2155
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 2156
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 2157
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 2158
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 2159
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 2160
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "144": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "168": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "192": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 155
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 2178
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 2181
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 2182
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 2185
+      }
+    },
     "823f6e1c8c34ca642b8bf19628e0ebf21fb07bbb89d726ede82cb51fb4282863": {
       "0": {
         "filename": "../contracts/utils/Delegate.tsol",
@@ -5386,114 +4636,6 @@
         "line": 19
       }
     },
-    "86be97c25309b369d0dfafa7f060648abd80ceb43800b8071284ee0b9d9a0d8b": {
-      "4": {
-        "filename": "RoundDeployer.code",
-        "line": 207
-      },
-      "12": {
-        "filename": "RoundDeployer.code",
-        "line": 209
-      },
-      "28": {
-        "filename": "RoundDeployer.code",
-        "line": 212
-      },
-      "44": {
-        "filename": "RoundDeployer.code",
-        "line": 213
-      }
-    },
-    "8886e93b7b4355de274bdfe3d9b7c427d0584f863dc5d30d0c8b61508011b960": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 1916
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 1917
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 1918
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 1919
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 1920
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 1921
-      },
-      "88": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "160": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "168": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 130
-      },
-      "200": {
-        "filename": "RoundDeployer.code",
-        "line": 1939
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 1942
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 1943
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 1946
-      }
-    },
     "91ce5d4a50746dbb97d0e9654ef1697fe5c2f99c52d0b16720a0fc5ce75f794e": {
       "0": {
         "filename": "<internal-selector>",
@@ -5659,218 +4801,418 @@
       }
     },
     "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "98ada765f1c29c01a18e76f9a8da3002e9b4bf953c95e2dfed636bc0aa2467f7": {
+    "9755aa62b6e8e81a846de2a4c4776565e4e537da0f93057b8a9d3e3dd9d2cbf6": {
       "0": {
         "filename": "RoundDeployer.code",
-        "line": 3011
+        "line": 3169
       },
       "8": {
         "filename": "RoundDeployer.code",
-        "line": 3012
+        "line": 3170
       },
       "56": {
         "filename": "RoundDeployer.code",
-        "line": 3013
+        "line": 3171
       },
       "64": {
         "filename": "RoundDeployer.code",
-        "line": 3014
+        "line": 3172
       },
       "80": {
         "filename": "RoundDeployer.code",
-        "line": 3132
+        "line": 3175
       },
       "88": {
         "filename": "RoundDeployer.code",
-        "line": 3133
+        "line": 3176
       },
       "136": {
         "filename": "RoundDeployer.code",
-        "line": 3134
+        "line": 3177
       },
       "144": {
         "filename": "RoundDeployer.code",
-        "line": 3135
+        "line": 3178
+      },
+      "160": {
+        "filename": "RoundDeployer.code",
+        "line": 3181
+      },
+      "168": {
+        "filename": "RoundDeployer.code",
+        "line": 3182
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 3183
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 3184
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 3187
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 3188
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3189
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 3190
       }
     },
-    "9a18047dcf27398bafe8d62356ea96663b843ea06bc08f72e13c33747eeb1af2": {
+    "98f9792903421fb0e61d2f74546afc14a86709d4443c676f805fefc829f09ad2": {
       "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+        "filename": "RoundDeployer.code",
+        "line": 1835
       },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 1836
       },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 1837
       },
       "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+        "filename": "RoundDeployer.code",
+        "line": 1838
       },
       "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
+        "filename": "RoundDeployer.code",
+        "line": 1839
       },
-      "80": {
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 1840
+      },
+      "88": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 122
       },
       "104": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
       },
       "112": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 122
       },
       "128": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
       },
       "136": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
       },
-      "184": {
+      "152": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
+      },
+      "160": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 122
+      },
+      "168": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 122
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 122
       },
       "192": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 131
+        "line": 122
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 1858
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 1861
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 1862
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 1865
+      }
+    },
+    "9b506934f524f878c6780d90e66016be251b633bd9a610c4616358b99a532965": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 1995
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 1996
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 1997
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 1998
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 1999
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 2000
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "160": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "168": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "192": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 138
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 2018
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 2021
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 2022
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 2025
+      }
+    },
+    "9cc3c75ac63ad70bd39545234691ae28b045609623eeb62061595ad9f0f420c8": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 3136
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 3137
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 3138
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 3139
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 3165
+      },
+      "88": {
+        "filename": "RoundDeployer.code",
+        "line": 3166
+      },
+      "136": {
+        "filename": "RoundDeployer.code",
+        "line": 3167
+      },
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 3168
+      }
+    },
+    "9f67089529b248b3642f118bfafb4b8fb0134f7782bf992a49bb7543cf70b12b": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 2338
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 2339
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 2340
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 2341
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 2342
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 2343
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "144": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "160": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "192": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
       },
       "208": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 132
+        "line": 176
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
       },
       "224": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 132
+        "line": 176
       },
       "232": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 132
+        "line": 176
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
       },
       "248": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
+        "line": 176
       },
-      "256": {
+      "264": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
+        "line": 176
       },
-      "416": {
+      "280": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
+        "line": 176
+      },
+      "296": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "312": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "328": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "344": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "352": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "360": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "376": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 176
+      },
+      "384": {
+        "filename": "RoundDeployer.code",
+        "line": 2373
+      },
+      "400": {
+        "filename": "RoundDeployer.code",
+        "line": 2376
+      },
+      "408": {
+        "filename": "RoundDeployer.code",
+        "line": 2377
       },
       "424": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
-      },
-      "432": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
-      },
-      "440": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
-      },
-      "448": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 133
-      },
-      "472": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 134
-      },
-      "480": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 134
-      },
-      "496": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "504": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "528": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "536": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "552": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "568": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "576": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      },
-      "592": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 135
-      }
-    },
-    "9ed30a4a5c6a37a8e7aea751ade8bbd27da44dfa6b4ecdd4e7590ef6f82feb7d": {
-      "0": {
-        "filename": "<entry-selector>",
-        "line": 1
-      },
-      "8": {
-        "filename": "<entry-selector>",
-        "line": 2
-      },
-      "24": {
-        "filename": "<entry-selector>",
-        "line": 3
-      },
-      "32": {
-        "filename": "<entry-selector>",
-        "line": 4
-      },
-      "48": {
-        "filename": "<entry-selector>",
-        "line": 5
-      },
-      "56": {
-        "filename": "<entry-selector>",
-        "line": 6
-      },
-      "72": {
-        "filename": "<entry-selector>",
-        "line": 7
-      },
-      "88": {
-        "filename": "<entry-selector>",
-        "line": 8
-      },
-      "96": {
-        "filename": "<entry-selector>",
-        "line": 9
-      },
-      "112": {
-        "filename": "<entry-selector>",
-        "line": 10
-      },
-      "128": {
-        "filename": "<entry-selector>",
-        "line": 11
+        "filename": "RoundDeployer.code",
+        "line": 2380
       }
     },
     "9fb113f467ce677794aec0b6ed39400d064d6f24a8a49cf6ed8d105f1b0450d4": {
@@ -6191,93 +5533,7 @@
         "line": 1303
       }
     },
-    "a79b87a2fa5faa3705720cc0f7a5f23843edadaf6394d19c52a7e0814e39a098": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 808
-      },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 809
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 810
-      },
-      "48": {
-        "filename": "RoundDeployer.code",
-        "line": 811
-      },
-      "64": {
-        "filename": "RoundDeployer.code",
-        "line": 812
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 813
-      },
-      "88": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "120": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "144": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "160": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 19
-      },
-      "184": {
-        "filename": "RoundDeployer.code",
-        "line": 831
-      },
-      "200": {
-        "filename": "RoundDeployer.code",
-        "line": 834
-      },
-      "208": {
-        "filename": "RoundDeployer.code",
-        "line": 835
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 838
-      }
-    },
-    "a8a06c8a92b14730f3332760fb749e728da0d58dcb9d24514837a8715cfc3f81": {
+    "a15155c150f6a01c6b360e757d3650881cfd5a51ead19881fd4df7ce560daa1a": {
       "0": {
         "filename": "RoundDeployer.code",
         "line": 65
@@ -6361,6 +5617,154 @@
       "224": {
         "filename": "RoundDeployer.code",
         "line": 95
+      }
+    },
+    "a53f9536ede5e4beb00bf490b272b4a0ccf982a932afcfd551446515f187429b": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 3140
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 3141
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 3142
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 3143
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 3146
+      },
+      "88": {
+        "filename": "RoundDeployer.code",
+        "line": 3147
+      },
+      "136": {
+        "filename": "RoundDeployer.code",
+        "line": 3148
+      },
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 3149
+      },
+      "160": {
+        "filename": "RoundDeployer.code",
+        "line": 3152
+      },
+      "168": {
+        "filename": "RoundDeployer.code",
+        "line": 3153
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 3154
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 3155
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 3158
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 3159
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3160
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 3161
+      }
+    },
+    "a8793751664f5df8868c10390110c3ee7af02b79f64d3f338011deef91da5385": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 1746
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 1747
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 1748
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 1749
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 1750
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 1751
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "168": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 109
+      },
+      "192": {
+        "filename": "RoundDeployer.code",
+        "line": 1767
+      },
+      "208": {
+        "filename": "RoundDeployer.code",
+        "line": 1770
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 1771
+      },
+      "232": {
+        "filename": "RoundDeployer.code",
+        "line": 1774
       }
     },
     "b203f621373cb734f814b2737a9eb66686284ff0de644f759e6b612ce33dda1f": {
@@ -6641,464 +6045,416 @@
         "line": 1596
       }
     },
-    "bb17089302a054314762e8d0dff7fc3315d0a81070b827592fc80e27ac33dafb": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 123
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 124
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 124
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 124
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "256": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "416": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "424": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "432": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "440": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "448": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 125
-      },
-      "472": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 126
-      },
-      "488": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 126
-      },
-      "496": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 126
-      },
-      "512": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 126
-      },
-      "528": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "536": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "560": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "568": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "584": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "600": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "608": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      },
-      "624": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 127
-      }
-    },
-    "bd46a514479f0a0daad261d90c0fcf11d4b756131c11dac0aedd3a1ac72daa91": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 10
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 12
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 12
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 12
-      },
-      "264": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 12
-      },
-      "272": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 12
-      },
-      "288": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 13
-      },
-      "304": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 13
-      },
-      "312": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 13
-      },
-      "328": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 14
-      },
-      "344": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 14
-      },
-      "352": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 14
-      },
-      "368": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 14
-      },
-      "376": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 14
-      },
-      "392": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 15
-      },
-      "400": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 15
-      },
-      "416": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 15
-      },
-      "432": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "440": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "464": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "472": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "488": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "504": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "512": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      },
-      "528": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 16
-      }
-    },
-    "bd95635206667ac0e7f0302eb859c4a3a80d47fdbf3690bd8e926cb9ff2b2529": {
+    "b4934d08655e054ced42e140055573bdaaa1148debcb27d5741d2509c5d01a22": {
       "0": {
         "filename": "RoundDeployer.code",
-        "line": 2868
-      },
-      "16": {
-        "filename": "RoundDeployer.code",
-        "line": 2869
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 2870
-      },
-      "40": {
-        "filename": "RoundDeployer.code",
-        "line": 2871
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 2872
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 2873
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 2874
-      },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 2875
-      },
-      "104": {
-        "filename": "RoundDeployer.code",
-        "line": 2876
-      },
-      "120": {
-        "filename": "RoundDeployer.code",
-        "line": 2877
-      },
-      "128": {
-        "filename": "RoundDeployer.code",
-        "line": 2878
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 2879
-      },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 2880
-      },
-      "184": {
-        "filename": "RoundDeployer.code",
-        "line": 2881
-      },
-      "192": {
-        "filename": "RoundDeployer.code",
-        "line": 2882
-      },
-      "208": {
-        "filename": "RoundDeployer.code",
-        "line": 2883
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 2884
-      },
-      "264": {
-        "filename": "RoundDeployer.code",
-        "line": 2885
-      },
-      "272": {
-        "filename": "RoundDeployer.code",
-        "line": 2886
-      },
-      "288": {
-        "filename": "RoundDeployer.code",
-        "line": 2887
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 2888
-      },
-      "312": {
-        "filename": "RoundDeployer.code",
-        "line": 2889
-      },
-      "328": {
-        "filename": "RoundDeployer.code",
-        "line": 2890
-      },
-      "336": {
-        "filename": "RoundDeployer.code",
-        "line": 2891
-      },
-      "344": {
-        "filename": "RoundDeployer.code",
-        "line": 2892
-      },
-      "360": {
-        "filename": "RoundDeployer.code",
-        "line": 2893
-      },
-      "376": {
-        "filename": "RoundDeployer.code",
-        "line": 2897
-      },
-      "384": {
-        "filename": "RoundDeployer.code",
-        "line": 2898
-      },
-      "408": {
-        "filename": "RoundDeployer.code",
-        "line": 2899
-      },
-      "424": {
-        "filename": "RoundDeployer.code",
-        "line": 2900
-      },
-      "432": {
-        "filename": "RoundDeployer.code",
-        "line": 2901
-      },
-      "448": {
-        "filename": "RoundDeployer.code",
-        "line": 2905
-      },
-      "456": {
-        "filename": "RoundDeployer.code",
-        "line": 2906
-      },
-      "472": {
-        "filename": "RoundDeployer.code",
-        "line": 2909
-      }
-    },
-    "bdbed494f43eca0aacdca1b15bbea541ec5412d9aba2d55afd0bbc8dc1e5462a": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 3136
+        "line": 3106
       },
       "8": {
         "filename": "RoundDeployer.code",
-        "line": 3137
+        "line": 3107
       },
       "56": {
         "filename": "RoundDeployer.code",
-        "line": 3138
+        "line": 3108
       },
       "64": {
         "filename": "RoundDeployer.code",
-        "line": 3139
+        "line": 3109
       },
       "80": {
         "filename": "RoundDeployer.code",
-        "line": 3165
+        "line": 3112
       },
       "88": {
         "filename": "RoundDeployer.code",
-        "line": 3166
+        "line": 3113
       },
       "136": {
         "filename": "RoundDeployer.code",
-        "line": 3167
+        "line": 3114
       },
       "144": {
         "filename": "RoundDeployer.code",
-        "line": 3168
+        "line": 3115
+      },
+      "160": {
+        "filename": "RoundDeployer.code",
+        "line": 3118
+      },
+      "168": {
+        "filename": "RoundDeployer.code",
+        "line": 3119
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 3120
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 3121
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 3124
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 3125
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3126
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 3127
+      }
+    },
+    "b8cae0bd3f424b354e7c29d4f77c6041efc3f47b1d6bf83b2bf46d118b8b9445": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 20
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 21
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 21
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 21
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 22
+      },
+      "256": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 22
+      },
+      "264": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 22
+      },
+      "280": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 22
+      },
+      "288": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 22
+      },
+      "304": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "312": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "328": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "336": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "352": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "368": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "376": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 23
+      },
+      "392": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "568": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "576": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "584": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "600": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "608": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "616": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 24
+      },
+      "632": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "640": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "664": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "672": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "688": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "704": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "712": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      },
+      "728": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 25
+      }
+    },
+    "bba88b55bb36b6a00f0022408c2f465c446ca43d71be50feb1df4b1119b0d14c": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 808
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 809
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 810
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 811
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 812
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 813
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "144": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "160": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 19
+      },
+      "184": {
+        "filename": "RoundDeployer.code",
+        "line": 831
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 834
+      },
+      "208": {
+        "filename": "RoundDeployer.code",
+        "line": 835
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 838
+      }
+    },
+    "bda2cae564c183b3b41398a61fba9ef51f2548b829c61ac3ef0724b8aa0f24ad": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 898
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 899
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 900
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 901
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 902
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 903
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "144": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "168": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "192": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 28
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 921
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 924
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 925
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 928
       }
     },
     "bfe72618e8dfb249c37008366c8783ab5ee0a76a96af060d18dfd5d032d2cc33": {
@@ -7867,6 +7223,370 @@
         "line": 497
       }
     },
+    "ca66fbabcf006ae5fdb655cc5404d2316d4af8adeaac91161914168ceb7ccaed": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "104": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "112": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "128": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "136": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "176": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "184": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 32
+      },
+      "200": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "216": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "232": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "248": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "264": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "280": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "296": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "312": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "328": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "344": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "360": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "376": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "392": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "408": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "424": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "440": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "456": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "472": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "488": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "504": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "520": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "536": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "552": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "568": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "584": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "600": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "616": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "632": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "648": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "664": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "680": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "696": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "712": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "720": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "728": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "736": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "752": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "768": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "776": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "784": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "792": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "808": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "824": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "832": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "840": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "856": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "864": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "872": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "888": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "896": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "904": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "920": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "936": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "952": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "968": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "984": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      },
+      "1000": {
+        "filename": "../contracts/round/RoundDeployer.tsol",
+        "line": 34
+      }
+    },
+    "ca6de6e28e163c6773afa74acc2ee6518593389f2e5e07f5455d60a1f5d66c1b": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 725
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 726
+      },
+      "24": {
+        "filename": "RoundDeployer.code",
+        "line": 727
+      },
+      "48": {
+        "filename": "RoundDeployer.code",
+        "line": 728
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 729
+      },
+      "72": {
+        "filename": "RoundDeployer.code",
+        "line": 730
+      },
+      "88": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "96": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "120": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "144": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "152": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "160": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 9
+      },
+      "184": {
+        "filename": "RoundDeployer.code",
+        "line": 748
+      },
+      "200": {
+        "filename": "RoundDeployer.code",
+        "line": 751
+      },
+      "208": {
+        "filename": "RoundDeployer.code",
+        "line": 752
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 755
+      }
+    },
     "cc2c043de1d637315bd89affb49c7cbdfa8384de608794f6401ad143ce738c4a": {
       "0": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
@@ -7905,70 +7625,150 @@
         "line": 83
       }
     },
-    "cea9026837aa49693ece0f3aee54637764481d5ce7d374e33e477b93facf960a": {
+    "cdf7cd65e07081d06c011b84874fbb84ce45c7cbc1a05157741335423a94aeb0": {
       "0": {
-        "filename": "RoundDeployer.code",
-        "line": 3015
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
       },
-      "8": {
-        "filename": "RoundDeployer.code",
-        "line": 3016
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
       },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 3017
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
       },
       "64": {
-        "filename": "RoundDeployer.code",
-        "line": 3018
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
       },
       "80": {
-        "filename": "RoundDeployer.code",
-        "line": 3044
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
       },
-      "88": {
-        "filename": "RoundDeployer.code",
-        "line": 3045
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
       },
       "136": {
-        "filename": "RoundDeployer.code",
-        "line": 3046
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
       },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 3047
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
       },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 3073
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 10
       },
-      "168": {
-        "filename": "RoundDeployer.code",
-        "line": 3074
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 3075
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 12
       },
       "224": {
-        "filename": "RoundDeployer.code",
-        "line": 3076
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 12
       },
       "240": {
-        "filename": "RoundDeployer.code",
-        "line": 3102
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 12
       },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 3103
+      "256": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 12
+      },
+      "264": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 12
+      },
+      "280": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 13
       },
       "296": {
-        "filename": "RoundDeployer.code",
-        "line": 3104
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 13
       },
       "304": {
-        "filename": "RoundDeployer.code",
-        "line": 3105
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 13
+      },
+      "320": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 14
+      },
+      "336": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 14
+      },
+      "344": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 14
+      },
+      "360": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 14
+      },
+      "368": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 14
+      },
+      "384": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 15
+      },
+      "392": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 15
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 15
+      },
+      "424": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "432": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "456": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "464": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "480": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "496": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "504": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
+        "line": 16
       }
     },
     "d0c3a53b4169150720f8270120e4a815184168203989e85c856b4cc9abd87715": {
@@ -8283,7 +8083,7 @@
         "line": 20
       }
     },
-    "ddff45dd70f1c28b9ae81de1e8cfc8ad40200a5d42ce5e4bbc638b124060e30b": {
+    "d589509d5a7043db0c3e3ab6bf8d5dec6f78dabe2b7733db55722a00b1cfc1bc": {
       "0": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
         "line": 203
@@ -8305,160 +8105,192 @@
         "line": 203
       },
       "80": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
       },
       "104": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
       },
       "112": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
       },
       "128": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
       },
       "136": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
       },
       "184": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 156
       },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 32
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 157
       },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 33
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 157
       },
       "224": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 33
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 157
       },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 33
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "256": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "272": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "280": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "296": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "312": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "328": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "344": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "368": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "384": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "400": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "416": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
-      },
-      "424": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "432": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "448": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
-      },
-      "456": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "464": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 35
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "472": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "480": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "488": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "496": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
-      "512": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+      "504": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "528": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 158
       },
       "544": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
-      "560": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+      "704": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
-      "576": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "584": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "608": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "616": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "624": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "648": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "664": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "672": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+      "712": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
       "720": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
-      "728": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+      "736": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
       "744": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
       "752": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
-      },
-      "760": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 168
       },
       "768": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
       },
-      "784": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 36
+      "776": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
+      },
+      "800": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
+      },
+      "808": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
+      },
+      "824": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
+      },
+      "840": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
+      },
+      "848": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
+      },
+      "864": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 169
       }
     },
     "e1e9f4699facfe43fa8cb7fd43111ef947a65ba984813d74b3408fc10c499cfd": {
@@ -8471,7 +8303,7 @@
         "line": 1600
       }
     },
-    "e4c02f317582315bdfd3374fa87dc38078060b935f2eb5a300b5a6335023af67": {
+    "e46a8e1aa78daf8ac73152958ef1e5110a51cd6ce0bf63b2affdf275738c69c2": {
       "0": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
         "line": 203
@@ -8494,115 +8326,115 @@
       },
       "80": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 131
       },
       "104": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 131
       },
       "112": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 131
       },
       "128": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 131
       },
       "136": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 131
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 131
       },
       "184": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 131
       },
-      "192": {
+      "200": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 147
+        "line": 132
       },
-      "208": {
+      "216": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 148
+        "line": 132
       },
       "224": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 148
+        "line": 132
       },
-      "232": {
+      "240": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 148
+        "line": 133
       },
       "248": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
-      "256": {
+      "408": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
       "416": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
       "424": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
       "432": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
       "440": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
       "448": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 133
       },
-      "456": {
+      "464": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 149
+        "line": 134
       },
       "472": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 150
+        "line": 134
       },
-      "480": {
+      "488": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 150
+        "line": 135
       },
       "496": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       },
-      "504": {
+      "520": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       },
       "528": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       },
-      "536": {
+      "544": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       },
-      "552": {
+      "560": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       },
       "568": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       },
-      "576": {
+      "584": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
-      },
-      "592": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 151
+        "line": 135
       }
     },
     "e4d802cd6be36e7b6bdb9bae81c2abdebdd243fe07cdbc6e781c1910ec099033": {
@@ -8687,240 +8519,6 @@
         "line": 1097
       }
     },
-    "e68e1bebb671a00e276246a7a1e68d2dfc027f70f46cd0a91e85fcd48d149830": {
-      "0": {
-        "filename": "RoundDeployer.code",
-        "line": 2913
-      },
-      "16": {
-        "filename": "RoundDeployer.code",
-        "line": 2914
-      },
-      "24": {
-        "filename": "RoundDeployer.code",
-        "line": 2915
-      },
-      "40": {
-        "filename": "RoundDeployer.code",
-        "line": 2916
-      },
-      "56": {
-        "filename": "RoundDeployer.code",
-        "line": 2917
-      },
-      "72": {
-        "filename": "RoundDeployer.code",
-        "line": 2918
-      },
-      "80": {
-        "filename": "RoundDeployer.code",
-        "line": 2921
-      },
-      "96": {
-        "filename": "RoundDeployer.code",
-        "line": 2922
-      },
-      "104": {
-        "filename": "RoundDeployer.code",
-        "line": 2923
-      },
-      "120": {
-        "filename": "RoundDeployer.code",
-        "line": 2926
-      },
-      "136": {
-        "filename": "RoundDeployer.code",
-        "line": 2927
-      },
-      "144": {
-        "filename": "RoundDeployer.code",
-        "line": 2928
-      },
-      "160": {
-        "filename": "RoundDeployer.code",
-        "line": 2929
-      },
-      "176": {
-        "filename": "RoundDeployer.code",
-        "line": 2930
-      },
-      "192": {
-        "filename": "RoundDeployer.code",
-        "line": 2931
-      },
-      "200": {
-        "filename": "RoundDeployer.code",
-        "line": 2932
-      },
-      "216": {
-        "filename": "RoundDeployer.code",
-        "line": 2933
-      },
-      "224": {
-        "filename": "RoundDeployer.code",
-        "line": 2934
-      },
-      "240": {
-        "filename": "RoundDeployer.code",
-        "line": 2935
-      },
-      "248": {
-        "filename": "RoundDeployer.code",
-        "line": 2936
-      },
-      "256": {
-        "filename": "RoundDeployer.code",
-        "line": 2937
-      },
-      "272": {
-        "filename": "RoundDeployer.code",
-        "line": 2938
-      },
-      "280": {
-        "filename": "RoundDeployer.code",
-        "line": 2939
-      },
-      "288": {
-        "filename": "RoundDeployer.code",
-        "line": 2941
-      },
-      "296": {
-        "filename": "RoundDeployer.code",
-        "line": 2942
-      },
-      "304": {
-        "filename": "RoundDeployer.code",
-        "line": 2943
-      },
-      "320": {
-        "filename": "RoundDeployer.code",
-        "line": 2945
-      },
-      "328": {
-        "filename": "RoundDeployer.code",
-        "line": 2946
-      },
-      "344": {
-        "filename": "RoundDeployer.code",
-        "line": 2947
-      },
-      "360": {
-        "filename": "RoundDeployer.code",
-        "line": 2949
-      },
-      "368": {
-        "filename": "RoundDeployer.code",
-        "line": 2950
-      },
-      "384": {
-        "filename": "RoundDeployer.code",
-        "line": 2951
-      },
-      "392": {
-        "filename": "RoundDeployer.code",
-        "line": 2952
-      },
-      "408": {
-        "filename": "RoundDeployer.code",
-        "line": 2954
-      },
-      "416": {
-        "filename": "RoundDeployer.code",
-        "line": 2955
-      },
-      "432": {
-        "filename": "RoundDeployer.code",
-        "line": 2956
-      },
-      "440": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "456": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "464": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "472": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "488": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "496": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "512": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "536": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "544": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "584": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "592": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "600": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "616": {
-        "filename": "stdlib.sol",
-        "line": 63
-      },
-      "632": {
-        "filename": "RoundDeployer.code",
-        "line": 2958
-      },
-      "648": {
-        "filename": "RoundDeployer.code",
-        "line": 2959
-      },
-      "656": {
-        "filename": "RoundDeployer.code",
-        "line": 2960
-      },
-      "672": {
-        "filename": "RoundDeployer.code",
-        "line": 2961
-      },
-      "680": {
-        "filename": "RoundDeployer.code",
-        "line": 2962
-      },
-      "696": {
-        "filename": "RoundDeployer.code",
-        "line": 2963
-      },
-      "712": {
-        "filename": "RoundDeployer.code",
-        "line": 2964
-      },
-      "720": {
-        "filename": "RoundDeployer.code",
-        "line": 2965
-      },
-      "736": {
-        "filename": "RoundDeployer.code",
-        "line": 2968
-      }
-    },
     "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
       "0": {
         "filename": "RoundDeployer.code",
@@ -8981,90 +8579,458 @@
         "line": 65
       }
     },
-    "ee895b8bda2aa82dd4e8186ab89a8bcfa1fe4d42235f8cbc90209bbe66ce73ee": {
+    "e8aedfb659bbe731ca8d5d9b45c8e97d902da7b5aa2dfb674c229053c1480b7b": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 110
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 111
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 111
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 111
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "248": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "416": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "424": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "440": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "448": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "456": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 113
+      },
+      "472": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "480": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "640": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "648": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "656": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "672": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "680": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "688": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 114
+      },
+      "704": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 116
+      },
+      "712": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 116
+      },
+      "728": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 117
+      },
+      "736": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 117
+      },
+      "752": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "760": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "784": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "792": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "808": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "824": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "832": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      },
+      "848": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 119
+      }
+    },
+    "ee8095413eb26fab3f380f420858d93eec8b914ee0c3383f35d466310d1d4446": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 123
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 124
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 124
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 124
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "248": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "416": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "424": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "432": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "440": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "448": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 125
+      },
+      "464": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 126
+      },
+      "480": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 126
+      },
+      "488": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 126
+      },
+      "504": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 126
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "528": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "552": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "560": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "576": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "592": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "600": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      },
+      "616": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 127
+      }
+    },
+    "eee48d274cb74a3d5cff112083a738945f69ebd7f32515312aede7d4e043cd8b": {
       "0": {
         "filename": "RoundDeployer.code",
-        "line": 725
+        "line": 2868
       },
-      "8": {
+      "16": {
         "filename": "RoundDeployer.code",
-        "line": 726
+        "line": 2869
       },
       "24": {
         "filename": "RoundDeployer.code",
-        "line": 727
+        "line": 2870
       },
-      "48": {
+      "40": {
         "filename": "RoundDeployer.code",
-        "line": 728
+        "line": 2871
       },
-      "64": {
+      "56": {
         "filename": "RoundDeployer.code",
-        "line": 729
+        "line": 2872
       },
       "72": {
         "filename": "RoundDeployer.code",
-        "line": 730
+        "line": 2873
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 2874
       },
       "88": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
-      },
-      "96": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
+        "filename": "RoundDeployer.code",
+        "line": 2875
       },
       "104": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
+        "filename": "RoundDeployer.code",
+        "line": 2876
       },
       "120": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
+        "filename": "RoundDeployer.code",
+        "line": 2877
       },
       "128": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
+        "filename": "RoundDeployer.code",
+        "line": 2878
       },
       "144": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
+        "filename": "RoundDeployer.code",
+        "line": 2879
       },
-      "152": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
-      },
-      "160": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
-      },
-      "176": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 9
+      "168": {
+        "filename": "RoundDeployer.code",
+        "line": 2880
       },
       "184": {
         "filename": "RoundDeployer.code",
-        "line": 748
+        "line": 2881
       },
-      "200": {
+      "192": {
         "filename": "RoundDeployer.code",
-        "line": 751
+        "line": 2882
       },
       "208": {
         "filename": "RoundDeployer.code",
-        "line": 752
+        "line": 2883
       },
-      "224": {
+      "248": {
         "filename": "RoundDeployer.code",
-        "line": 755
+        "line": 2884
+      },
+      "264": {
+        "filename": "RoundDeployer.code",
+        "line": 2885
+      },
+      "272": {
+        "filename": "RoundDeployer.code",
+        "line": 2886
+      },
+      "288": {
+        "filename": "RoundDeployer.code",
+        "line": 2887
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 2888
+      },
+      "312": {
+        "filename": "RoundDeployer.code",
+        "line": 2889
+      },
+      "328": {
+        "filename": "RoundDeployer.code",
+        "line": 2890
+      },
+      "336": {
+        "filename": "RoundDeployer.code",
+        "line": 2891
+      },
+      "344": {
+        "filename": "RoundDeployer.code",
+        "line": 2892
+      },
+      "360": {
+        "filename": "RoundDeployer.code",
+        "line": 2893
+      },
+      "376": {
+        "filename": "RoundDeployer.code",
+        "line": 2897
+      },
+      "384": {
+        "filename": "RoundDeployer.code",
+        "line": 2898
+      },
+      "408": {
+        "filename": "RoundDeployer.code",
+        "line": 2899
+      },
+      "424": {
+        "filename": "RoundDeployer.code",
+        "line": 2900
+      },
+      "432": {
+        "filename": "RoundDeployer.code",
+        "line": 2901
+      },
+      "448": {
+        "filename": "RoundDeployer.code",
+        "line": 2905
+      },
+      "456": {
+        "filename": "RoundDeployer.code",
+        "line": 2906
+      },
+      "472": {
+        "filename": "RoundDeployer.code",
+        "line": 2909
       }
     },
     "f1e59e7a1a04316b9474ae53435b112f4d50f779ab7698bcd04f56c9400dcc9e": {
@@ -9659,6 +9625,72 @@
         "line": 106
       }
     },
+    "fc1a76b60686c6711bef0a10492188ec348f1d4ee5c0d0997fb9544108e549ce": {
+      "0": {
+        "filename": "RoundDeployer.code",
+        "line": 3015
+      },
+      "8": {
+        "filename": "RoundDeployer.code",
+        "line": 3016
+      },
+      "56": {
+        "filename": "RoundDeployer.code",
+        "line": 3017
+      },
+      "64": {
+        "filename": "RoundDeployer.code",
+        "line": 3018
+      },
+      "80": {
+        "filename": "RoundDeployer.code",
+        "line": 3044
+      },
+      "88": {
+        "filename": "RoundDeployer.code",
+        "line": 3045
+      },
+      "136": {
+        "filename": "RoundDeployer.code",
+        "line": 3046
+      },
+      "144": {
+        "filename": "RoundDeployer.code",
+        "line": 3047
+      },
+      "160": {
+        "filename": "RoundDeployer.code",
+        "line": 3073
+      },
+      "168": {
+        "filename": "RoundDeployer.code",
+        "line": 3074
+      },
+      "216": {
+        "filename": "RoundDeployer.code",
+        "line": 3075
+      },
+      "224": {
+        "filename": "RoundDeployer.code",
+        "line": 3076
+      },
+      "240": {
+        "filename": "RoundDeployer.code",
+        "line": 3102
+      },
+      "248": {
+        "filename": "RoundDeployer.code",
+        "line": 3103
+      },
+      "296": {
+        "filename": "RoundDeployer.code",
+        "line": 3104
+      },
+      "304": {
+        "filename": "RoundDeployer.code",
+        "line": 3105
+      }
+    },
     "fd96397f61e7f77a6266d18398b8e0be173da7f8bbe596398d1ef0b46dcf4973": {
       "0": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
@@ -9695,180 +9727,6 @@
       "112": {
         "filename": "../contracts/round/base/RoundDeployerBase.tsol",
         "line": 91
-      }
-    },
-    "fdb4208793640ca596918545eb3f5925114a1c673a275ec104e9fc612a9e28b6": {
-      "0": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "16": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "32": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "48": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "64": {
-        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
-        "line": 203
-      },
-      "80": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "104": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "112": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "128": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "136": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "184": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "192": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 20
-      },
-      "208": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 21
-      },
-      "224": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 21
-      },
-      "232": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 21
-      },
-      "248": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 22
-      },
-      "264": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 22
-      },
-      "272": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 22
-      },
-      "288": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 22
-      },
-      "296": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 22
-      },
-      "312": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "320": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "336": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "344": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "360": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "376": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "384": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 23
-      },
-      "400": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "416": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "576": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "584": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "592": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "608": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "616": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "624": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 24
-      },
-      "640": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "648": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "672": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "680": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "696": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "712": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "720": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
-      },
-      "736": {
-        "filename": "../contracts/round/base/RoundDeployerUpgradable.tsol",
-        "line": 25
       }
     },
     "fdc67b703ee0c32b88d7331dc037adffb68fd555deea2577e067e665048a2cb9": {
@@ -10059,6 +9917,148 @@
       "600": {
         "filename": "RoundDeployer.code",
         "line": 62
+      }
+    },
+    "ff8a8c545ab1c849316e7cf997bd16395159f5c858d57a0ff06e3af394cfc258": {
+      "0": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "16": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "32": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "48": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "64": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 203
+      },
+      "80": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "104": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "112": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "128": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "136": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "176": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "184": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 139
+      },
+      "200": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 140
+      },
+      "216": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 140
+      },
+      "224": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 140
+      },
+      "240": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "248": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "408": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "416": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "424": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "432": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "440": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "448": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 141
+      },
+      "464": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 142
+      },
+      "480": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 142
+      },
+      "488": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 142
+      },
+      "504": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 142
+      },
+      "520": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "528": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "552": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "560": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "576": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "592": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "600": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
+      },
+      "616": {
+        "filename": "../contracts/round/base/RoundDeployerBase.tsol",
+        "line": 143
       }
     }
   }

@@ -41,10 +41,8 @@ const main = async () => {
       _nativeProxy: new Address(response.nativeProxy),
       _alienTokenWalletPlatformCode: AlienTokenWalletPlatform.code,
     },
-    initParams: {
-      _randomNonce: locklift.utils.getRandomNonce(),
-    },
-    value: locklift.utils.toNano(2),
+    initParams: { _randomNonce: locklift.utils.getRandomNonce() },
+    value: locklift.utils.toNano(1.1),
     publicKey: signer.publicKey,
   });
 

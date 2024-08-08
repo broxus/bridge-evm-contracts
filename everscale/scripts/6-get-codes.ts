@@ -10,30 +10,18 @@ export const getNamedContract = async (name: keyof FactorySource) => {
 const main = async () => {
   // Load alien contracts
   const ethereumEverscaleEventAlien = await getNamedContract(
-    "MultiVaultEVMEverscaleEventAlien"
+    "MultiVaultEVMTONEventAlien"
   );
   const everscaleEthereumEventAlien = await getNamedContract(
-    "MultiVaultEverscaleEVMEventAlien"
-  );
-  const solanaEverscaleEventAlien = await getNamedContract(
-    "MultiVaultSolanaEverscaleEventAlien"
-  );
-  const everscaleSolanaEventAlien = await getNamedContract(
-    "MultiVaultEverscaleSolanaEventAlien"
+    "MultiVaultTONEVMEventAlien"
   );
 
   // Load native contracts
   const ethereumEverscaleEventNative = await getNamedContract(
-    "MultiVaultEVMEverscaleEventNative"
+    "MultiVaultEVMTONEventNative"
   );
   const everscaleEthereumEventNative = await getNamedContract(
-    "MultiVaultEverscaleEVMEventNative"
-  );
-  const solanaEverscaleEventNative = await getNamedContract(
-    "MultiVaultSolanaEverscaleEventNative"
-  );
-  const everscaleSolanaEventNative = await getNamedContract(
-    "MultiVaultEverscaleSolanaEventNative"
+    "MultiVaultTONEVMEventNative"
   );
 
   // Load alien merging
@@ -49,27 +37,12 @@ const main = async () => {
     "RoundEthereumEverscaleEvent"
   );
 
-  // Load alien token contracts
-  const alienTokenRootEVM = await getNamedContract("TokenRootAlienEVM");
-  const alienTokenRootSolana = await getNamedContract("TokenRootAlienSolana");
-
-  const alienTokenWalletUpgradeableData = await getNamedContract(
-    "AlienTokenWalletUpgradeable"
-  );
-  const alienTokenWalletPlatformData = await getNamedContract(
-    "AlienTokenWalletPlatform"
-  );
-
   for (const contract of [
     ethereumEverscaleEventAlien,
     everscaleEthereumEventAlien,
-    solanaEverscaleEventAlien,
-    everscaleSolanaEventAlien,
 
     ethereumEverscaleEventNative,
     everscaleEthereumEventNative,
-    solanaEverscaleEventNative,
-    everscaleSolanaEventNative,
 
     MergeRouter,
     MergePool,
@@ -77,11 +50,6 @@ const main = async () => {
 
     roundEverscaleEthereumEvent,
     roundEthereumEverscaleEvent,
-
-    alienTokenRootEVM,
-    alienTokenRootSolana,
-    alienTokenWalletUpgradeableData,
-    alienTokenWalletPlatformData,
   ]) {
     console.log(contract.name);
     console.log(contract.code);

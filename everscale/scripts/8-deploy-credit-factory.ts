@@ -22,11 +22,9 @@ const main = async () => {
         eventClosersCount: 2,
         eventDeployersCount: 2,
       },
-      initParams: {
-        _randomNonce: getRandomNonce(),
-      },
+      initParams: { _randomNonce: getRandomNonce() },
       publicKey: signer.publicKey,
-      value: toNano(50),
+      value: toNano(45),
     })
   );
 

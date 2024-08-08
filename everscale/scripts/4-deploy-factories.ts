@@ -21,11 +21,9 @@ async function main() {
       constructorParams: {
         _configurationCode: EthereumEverscaleEventConfiguration.code,
       },
-      initParams: {
-        _randomNonce,
-      },
+      initParams: { _randomNonce },
       publicKey: signer.publicKey,
-      value: locklift.utils.toNano(2),
+      value: locklift.utils.toNano(1.1),
     });
 
   spinner.stop();
@@ -49,11 +47,9 @@ async function main() {
       constructorParams: {
         _configurationCode: EverscaleEthereumEventConfiguration.code,
       },
-      initParams: {
-        _randomNonce,
-      },
+      initParams: { _randomNonce },
       publicKey: signer.publicKey,
-      value: locklift.utils.toNano(2),
+      value: locklift.utils.toNano(1.1),
     });
 
   spinner.stop();
@@ -74,11 +70,9 @@ async function main() {
       constructorParams: {
         _configurationCode: SolanaEverscaleEventConfiguration.code,
       },
-      initParams: {
-        _randomNonce,
-      },
+      initParams: { _randomNonce },
       publicKey: signer.publicKey,
-      value: locklift.utils.toNano(2),
+      value: locklift.utils.toNano(1.1),
     });
 
   spinner.stop();
@@ -100,11 +94,9 @@ async function main() {
       constructorParams: {
         _configurationCode: EverscaleSolanaEventConfiguration.code,
       },
-      initParams: {
-        _randomNonce,
-      },
+      initParams: { _randomNonce },
       publicKey: signer.publicKey,
-      value: locklift.utils.toNano(2),
+      value: locklift.utils.toNano(1.1),
     });
 
   spinner.stop();
