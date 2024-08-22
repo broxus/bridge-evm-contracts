@@ -1,6 +1,6 @@
 {
 	"ABI version": 2,
-	"version": "2.2",
+	"version": "2.3",
 	"header": ["pubkey", "time", "expire"],
 	"functions": [
 		{
@@ -13,12 +13,15 @@
 			]
 		},
 		{
-			"name": "receiveTokenMeta",
+			"name": "takeInfo",
+			"id": "0x93E5C11A",
 			"inputs": [
-				{"name":"base_token_","type":"uint256"},
-				{"name":"name","type":"string"},
-				{"name":"symbol","type":"string"},
-				{"name":"decimals","type":"uint8"}
+				{"name":"value0","type":"uint64"},
+				{"name":"_decimals","type":"uint8"},
+				{"name":"value2","type":"uint256"},
+				{"name":"_baseToken","type":"uint160"},
+				{"name":"_name","type":"string"},
+				{"name":"_symbol","type":"string"}
 			],
 			"outputs": [
 			]

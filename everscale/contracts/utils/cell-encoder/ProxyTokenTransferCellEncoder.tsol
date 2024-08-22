@@ -5,7 +5,7 @@ pragma ever-solidity >= 0.62.0;
     Not implemented in the Everscale-SDK at the moment of creation.
     @important Not strictly connected to the ERC20<->TIP3 token transfers, just an example.
 */
-contract ProxyTokenTransferCellEncoder {
+abstract contract ProxyTokenTransferCellEncoder {
     function encodeEthereumEverscaleEventData(
         uint256 tokens,
         int128 wid,
@@ -36,7 +36,7 @@ contract ProxyTokenTransferCellEncoder {
 
     function decodeEthereumEverscaleEventData(
         TvmCell data
-    ) public pure returns(
+    ) public pure returns (
         uint128 tokens,
         int8 wid,
         uint256 owner_addr
@@ -45,13 +45,13 @@ contract ProxyTokenTransferCellEncoder {
             uint256 _amount,
             int128 _wid,
             uint256 _addr
-        ) = data.toSlice().decode(uint256, int128, uint256);
+        ) = data.toSlice().load(uint256, int128, uint256);
         return (uint128(_amount), int8(_wid), _addr);
     }
 
     function decodeSolanaEverscaleEventData(
         TvmCell data
-    ) public pure returns(
+    ) public pure returns (
         uint256 sender_addr,
         uint128 tokens,
         address receiver_addr
@@ -60,7 +60,7 @@ contract ProxyTokenTransferCellEncoder {
             sender_addr,
             tokens,
             receiver_addr
-        ) = data.toSlice().decode(uint256, uint128, address);
+        ) = data.toSlice().load(uint256, uint128, address);
     }
 
     function encodeEverscaleEthereumEventData(
@@ -95,7 +95,7 @@ contract ProxyTokenTransferCellEncoder {
 
     function decodeEverscaleEthereumEventData(
         TvmCell data
-    ) public pure returns(
+    ) public pure returns (
         int8 wid,
         uint addr,
         uint128 tokens,
@@ -108,12 +108,12 @@ contract ProxyTokenTransferCellEncoder {
             tokens,
             ethereum_address,
             chainId
-        ) = data.toSlice().decode(int8, uint, uint128, uint160, uint32);
+        ) = data.toSlice().load(int8, uint, uint128, uint160, uint32);
     }
 
     function decodeEverscaleSolanaEventData(
         TvmCell data
-    ) public pure returns(
+    ) public pure returns (
         address senderAddress,
         uint128 tokens,
         uint256 solanaOwnerAddress
@@ -122,6 +122,6 @@ contract ProxyTokenTransferCellEncoder {
             senderAddress,
             tokens,
             solanaOwnerAddress
-        ) = data.toSlice().decode(address, uint128, uint256);
+        ) = data.toSlice().load(address, uint128, uint256);
     }
 }

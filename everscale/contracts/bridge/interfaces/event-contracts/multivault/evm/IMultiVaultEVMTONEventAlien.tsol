@@ -1,7 +1,7 @@
 pragma ever-solidity >= 0.62.0;
 
 import "./../../../event-configuration-contracts/IEthereumEverscaleEventConfiguration.tsol";
-import "./../../../alien-token-merge/merge-pool/IMergePool_V2.tsol";
+import "../../../alien-token-merge/IMergePool.tsol";
 
 interface IMultiVaultEVMTONEventAlien {
     struct EventData {
@@ -43,7 +43,7 @@ interface IMultiVaultEVMTONEventAlien {
     function receiveMergeRouterPool(address pool_) external;
     function receiveMergePoolCanon(
         address canon_,
-        IMergePool_V2.Token canonToken_
+        IMergePool.Token canonToken_
     ) external;
 
     function getEventData() external responsible returns (EventData);

@@ -99,8 +99,8 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
         );
 
         IEverscaleEthereumEvent.EverscaleEthereumEventVoteData eventVoteData = IEverscaleEthereumEvent.EverscaleEthereumEventVoteData(
-            tx.timestamp,
-            now,
+            tx.logicaltime,
+            block.timestamp,
             eventData
         );
 

@@ -2,7 +2,7 @@ pragma ever-solidity >= 0.62.0;
 
 
 import "./../../../event-configuration-contracts/ISolanaEverscaleEventConfiguration.tsol";
-import "./../../../alien-token-merge/merge-pool/IMergePool_V2.tsol";
+import "./../../../alien-token-merge/IMergePool.tsol";
 
 
 interface IMultiVaultSolanaEverscaleEventAlien {
@@ -30,7 +30,7 @@ interface IMultiVaultSolanaEverscaleEventAlien {
 
     function receiveMergePoolCanon(
         address canon_,
-        IMergePool_V2.Token canonToken_
+        IMergePool.Token canonToken_
     ) external;
 
     function getDecodedData() external responsible returns(

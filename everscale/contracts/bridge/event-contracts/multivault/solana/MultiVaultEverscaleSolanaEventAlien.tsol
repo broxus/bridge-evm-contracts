@@ -1,12 +1,14 @@
 pragma ever-solidity >= 0.62.0;
-pragma AbiHeader time;
+
 pragma AbiHeader pubkey;
 pragma AbiHeader expire;
 
 
 import "./../../../interfaces/event-contracts/multivault/solana/IMultiVaultEverscaleSolanaEventAlien.tsol";
-import "./../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlien_V8.tsol";
-import "./../../../interfaces/alien-token/ITokenRootAlienSolana.tsol";
+import "./../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlienJetton.tsol";
+
+import "../../../../utils/jetton/libraries/JettonUtils.tsol";
+import "../../../../utils/jetton/interfaces/ITakeInfo.tsol";
 
 import "./../../base/solana/EverscaleSolanaBaseEvent.tsol";
 
@@ -17,7 +19,8 @@ import "./../../base/solana/EverscaleSolanaBaseEvent.tsol";
 /// - Obtain the `token` token source.
 contract MultiVaultEverscaleSolanaEventAlien is
     EverscaleSolanaBaseEvent,
-    IMultiVaultEverscaleSolanaEventAlien
+    IMultiVaultEverscaleSolanaEventAlien,
+    ITakeInfo
 {
     uint32 public nonce;
     address public proxy;
@@ -37,12 +40,12 @@ contract MultiVaultEverscaleSolanaEventAlien is
     constructor(
         address _initializer,
         TvmCell _meta
-    ) EverscaleSolanaBaseEvent(_initializer, _meta) public {}
+    ) EverscaleSolanaBaseEvent(_initializer, _meta) {}
 
     function afterSignatureCheck(TvmSlice body, TvmCell /*message*/) private inline view returns (TvmSlice) {
-        body.decode(uint64, uint32);
+        body.load(uint64, uint32);
         TvmSlice bodyCopy = body;
-        uint32 functionId = body.decode(uint32);
+        uint32 functionId = body.load(uint32);
         if (isExternalVoteCall(functionId)){
             require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
         }
@@ -57,33 +60,38 @@ contract MultiVaultEverscaleSolanaEventAlien is
 
         initial_balance = address(this).balance;
 
-        ITokenRootAlienSolana(token).meta{
-            value: 1 ever,
-            bounce: true,
-            callback: MultiVaultEverscaleSolanaEventAlien.receiveTokenMeta
-        }();
+        JettonUtils.getInfo(
+            token,
+            0,
+            1 ever,
+            MsgFlag.SENDER_PAYS_FEES,
+            true
+        );
     }
 
-    function receiveTokenMeta(
-        uint256 base_token_,
-        string name,
-        string symbol,
-        uint8 decimals
-    ) external override {
+    function takeInfo(
+        uint64,
+        uint8 _decimals,
+        uint256,
+        uint160 _baseToken,
+        string _name,
+        string _symbol
+    ) external override functionID(0x93e5c11a) {
         require(msg.sender == token, ErrorCodes.SENDER_NOT_ROOT);
 
-        base_token = base_token_;
+        base_token = _baseToken;
 
-        IProxyMultiVaultAlien_V8(proxy).deriveSolanaAlienTokenRoot{
-            value: 1 ever,
-            bounce: true,
-            callback: MultiVaultEverscaleSolanaEventAlien.receiveAlienTokenRoot
-        }(
-            base_token,
-            name,
-            symbol,
-            decimals
-        );
+        IProxyMultiVaultAlienJetton(proxy)
+            .deriveSolanaAlienTokenRoot{
+                value: 1 ever,
+                bounce: true,
+                callback: MultiVaultEverscaleSolanaEventAlien.receiveAlienTokenRoot
+            }(
+                base_token,
+                _name,
+                _symbol,
+                _decimals
+            );
     }
 
     function receiveAlienTokenRoot(
@@ -139,11 +147,11 @@ contract MultiVaultEverscaleSolanaEventAlien is
     }
 
     onBounce(TvmSlice slice) external {
-        uint32 selector = slice.decode(uint32);
+        uint32 selector = slice.load(uint32);
 
         if (
-            (selector == tvm.functionId(ITokenRootAlienSolana.meta) && msg.sender == token) ||
-            (selector == tvm.functionId(IProxyMultiVaultAlien_V8.deriveSolanaAlienTokenRoot) && msg.sender == proxy)
+            (selector == JettonUtils.PROVIDE_INFO_FUNCTION_ID && msg.sender == token) ||
+            (selector == tvm.functionId(IProxyMultiVaultAlienJetton.deriveSolanaAlienTokenRoot) && msg.sender == proxy)
         ) {
             setStatusRejected(2);
         }

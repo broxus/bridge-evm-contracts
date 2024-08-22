@@ -1,5 +1,5 @@
 pragma ever-solidity >= 0.62.0;
-pragma AbiHeader time;
+
 pragma AbiHeader pubkey;
 pragma AbiHeader expire;
 
@@ -27,7 +27,7 @@ contract MergeRouter is IMergeRouter, InternalOwner, TransferUtils {
     constructor(
         address _owner,
         address _manager
-    ) public {
+    ) {
         require(msg.sender == proxy, ErrorCodes.WRONG_PROXY);
 
         manager = _manager;

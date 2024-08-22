@@ -5,18 +5,16 @@ import MinterCode from "../../jetton-contracts/jetton-minter.compiled.json";
 import WalletCode from "../../jetton-contracts/jetton-wallet.compiled.json";
 
 type Metadata = { name: string; symbol: string; decimals: number };
+type AlienMeta = { baseToken: string; chainId: string };
 type SendParams = { value: BigNumber.Value; bounce: boolean };
 type CallbackParams = { value: BigNumber.Value; payload?: string };
 type CommonState = { balance: string; codeHash?: string };
 type MinterState = {
   supply: string;
   admin: Address;
-  name: string;
-  symbol: string;
-  decimals: string;
-  chainId: string;
-  baseToken: string;
-} & CommonState;
+} & AlienMeta &
+  Metadata &
+  CommonState;
 type WalletState = {
   tokenBalance: string;
   owner: Address;
@@ -61,6 +59,7 @@ const OPCODES = {
   MINT: "0x00000015",
   TRANSFER: "0xf8a7ea5",
   BURN: "0x595f07bc",
+  CHANGE_ADMIN: "0x00000003",
 };
 
 const MinterAbi = {
@@ -76,6 +75,15 @@ const MinterAbi = {
         { name: "_recipient", type: "address" },
         { name: "_deployWalletValue", type: "varuint16" },
         { name: "_payload", type: "cell" },
+      ],
+      outputs: [],
+    },
+    {
+      name: "changeAdmin",
+      id: OPCODES.CHANGE_ADMIN,
+      inputs: [
+        { name: "_callId", type: "uint64" },
+        { name: "_newAdmin", type: "address" },
       ],
       outputs: [],
     },
@@ -301,6 +309,30 @@ export class JettonMinter {
             _deployWalletValue: new BigNumber(deployWalletValue).toString(),
             _recipient: recipient,
             _payload: masterMsg.boc,
+          },
+        },
+        bounce: sendParams.bounce,
+        amount: new BigNumber(sendParams.value).toString(),
+      })
+    );
+
+    return extTransaction.transaction;
+  }
+
+  async changeAdmin(
+    newAdmin: Address,
+    sendParams: SendParams
+  ): Promise<Transaction> {
+    const { extTransaction } = await locklift.transactions.waitFinalized(
+      locklift.provider.sendMessage({
+        sender: this.admin,
+        recipient: this.minter,
+        payload: {
+          abi: JettonMinter.ABI_STRINGIFIED,
+          method: "changeAdmin",
+          params: {
+            _callId: 0,
+            _newAdmin: newAdmin,
           },
         },
         bounce: sendParams.bounce,

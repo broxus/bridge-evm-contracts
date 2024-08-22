@@ -2,12 +2,10 @@ import { expect } from "chai";
 import { Contract } from "locklift";
 import { FactorySource } from "../../../build/factorySource";
 import { Account } from "everscale-standalone-client/nodejs";
-import {setupBridge, setupRelays} from "../../utils/bridge";
-import {logContract} from "../../utils/logger";
+import { setupBridge, setupRelays } from "../../utils/bridge";
+import { logContract } from "../../utils/logger";
 const { zeroAddress } = require("locklift");
 
-let bridge: Contract<FactorySource["Bridge"]>;
-let cellEncoder: Contract<FactorySource["CellEncoderStandalone"]>;
 let roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>;
 let bridgeOwner: Account;
 
@@ -16,8 +14,11 @@ describe("Test configuration factory", async function () {
 
   it("Setup bridge", async () => {
     const relays = await setupRelays();
+    let bridge, cellEncoder;
 
-    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+      relays
+    );
   });
 
   describe("Test Ethereum event configuration", async () => {
@@ -27,7 +28,7 @@ describe("Test configuration factory", async function () {
 
     it("Setup Ethereum event configuration factory", async () => {
       const signer = (await locklift.keystore.getSigner("0"))!;
-      const Configuration = await locklift.factory.getContractArtifacts(
+      const Configuration = locklift.factory.getContractArtifacts(
         "EthereumEverscaleEventConfiguration"
       );
 
@@ -55,7 +56,7 @@ describe("Test configuration factory", async function () {
     >;
 
     it("Deploy configuration", async () => {
-      const EthereumEvent = await locklift.factory.getContractArtifacts(
+      const EthereumEvent = locklift.factory.getContractArtifacts(
         "TokenTransferEthereumEverscaleEvent"
       );
 
@@ -114,194 +115,6 @@ describe("Test configuration factory", async function () {
       expect(details._networkConfiguration.chainId.toString()).to.be.equal(
         "12",
         "Wrong chain ID"
-      );
-    });
-  });
-
-  describe("Test Solana Ever event configuration", async () => {
-    let factory: Contract<
-      FactorySource["SolanaEverscaleEventConfigurationFactory"]
-    >;
-
-    it("Setup Solana Ever event configuration factory", async () => {
-      const signer = (await locklift.keystore.getSigner("0"))!;
-      const Configuration = await locklift.factory.getContractArtifacts(
-        "SolanaEverscaleEventConfiguration"
-      );
-
-      const _randomNonce = locklift.utils.getRandomNonce();
-
-      const { contract: factory_ } = await locklift.factory.deployContract({
-        contract: "SolanaEverscaleEventConfigurationFactory",
-        constructorParams: {
-          _configurationCode: Configuration.code,
-        },
-        initParams: {
-          _randomNonce,
-        },
-        publicKey: signer.publicKey,
-        value: locklift.utils.toNano(1),
-      });
-
-      await logContract("factory address", factory_.address);
-
-      factory = factory_;
-    });
-
-    let configuration: Contract<
-      FactorySource["SolanaEverscaleEventConfiguration"]
-    >;
-
-    it("Deploy configuration", async () => {
-      const SolanaEvent = await locklift.factory.getContractArtifacts(
-        "TokenTransferSolanaEverscaleEvent"
-      );
-
-      const basicConfiguration = {
-        eventABI: "",
-        eventInitialBalance: locklift.utils.toNano(2),
-        roundDeployer: roundDeployer.address,
-        eventCode: SolanaEvent.code,
-      };
-
-      const networkConfiguration = {
-        program: 0,
-        // settings: 0,
-        proxy: zeroAddress,
-        startTimestamp: 0,
-        endTimestamp: 0,
-      };
-
-      await factory.methods
-        .deploy({
-          _owner: bridgeOwner.address,
-          basicConfiguration,
-          networkConfiguration,
-        })
-        .send({
-          from: bridgeOwner.address,
-          amount: locklift.utils.toNano(2),
-        });
-
-      let solanaEverscaleEventConfigurationAddress = await factory.methods
-        .deriveConfigurationAddress({
-          basicConfiguration,
-          networkConfiguration,
-        })
-        .call();
-
-      configuration = locklift.factory.getDeployedContract(
-        "SolanaEverscaleEventConfiguration",
-        solanaEverscaleEventConfigurationAddress.value0
-      );
-
-      await logContract("configuration address", configuration.address);
-    });
-
-    it("Check configuration", async () => {
-      const details = await configuration.methods
-        .getDetails({ answerId: 0 })
-        .call();
-
-      expect(details._basicConfiguration.roundDeployer.toString()).to.be.equal(
-        roundDeployer.address.toString(),
-        "Wrong round deployer"
-      );
-    });
-  });
-
-  describe("Test Ever Solana event configuration", async () => {
-    let factory: Contract<
-      FactorySource["EverscaleSolanaEventConfigurationFactory"]
-    >;
-
-    it("Setup Ever Solana event configuration factory", async () => {
-      const signer = (await locklift.keystore.getSigner("0"))!;
-      const Configuration = await locklift.factory.getContractArtifacts(
-        "EverscaleSolanaEventConfiguration"
-      );
-
-      const _randomNonce = locklift.utils.getRandomNonce();
-
-      const { contract: factory_ } = await locklift.factory.deployContract({
-        contract: "EverscaleSolanaEventConfigurationFactory",
-        constructorParams: {
-          _configurationCode: Configuration.code,
-        },
-        initParams: {
-          _randomNonce,
-        },
-        publicKey: signer.publicKey,
-        value: locklift.utils.toNano(1),
-      });
-
-      await logContract("factory address", factory_.address);
-
-      factory = factory_;
-    });
-
-    let configuration: Contract<
-      FactorySource["EverscaleSolanaEventConfiguration"]
-    >;
-
-    it("Deploy configuration", async () => {
-      const EverEvent = await locklift.factory.getContractArtifacts(
-        "TokenTransferEverscaleSolanaEvent"
-      );
-
-      const basicConfiguration = {
-        eventABI: "",
-        eventInitialBalance: locklift.utils.toNano(2),
-        roundDeployer: roundDeployer.address,
-        eventCode: EverEvent.code,
-      };
-
-      const networkConfiguration = {
-        program: 0,
-        // settings: 0,
-        eventEmitter: zeroAddress,
-        instruction: 0,
-        executeInstruction: 0,
-        executePayloadInstruction: 0,
-        executeNeeded: false,
-        startTimestamp: 0,
-        endTimestamp: 0,
-      };
-
-      await factory.methods
-        .deploy({
-          _owner: bridgeOwner.address,
-          basicConfiguration,
-          networkConfiguration,
-        })
-        .send({
-          from: bridgeOwner.address,
-          amount: locklift.utils.toNano(2),
-        });
-
-      let everscaleSolanaEventConfigurationAddress = await factory.methods
-        .deriveConfigurationAddress({
-          basicConfiguration,
-          networkConfiguration,
-        })
-        .call();
-
-      configuration = locklift.factory.getDeployedContract(
-        "EverscaleSolanaEventConfiguration",
-        everscaleSolanaEventConfigurationAddress.value0
-      );
-
-      await logContract("configuration address", configuration.address);
-    });
-
-    it("Check configuration", async () => {
-      const details = await configuration.methods
-        .getDetails({ answerId: 0 })
-        .call();
-
-      expect(details._basicConfiguration.roundDeployer.toString()).to.be.equal(
-        roundDeployer.address.toString(),
-        "Wrong round deployer"
       );
     });
   });

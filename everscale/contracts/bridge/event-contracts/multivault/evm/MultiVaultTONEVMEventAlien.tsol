@@ -1,11 +1,10 @@
 pragma ever-solidity >= 0.62.0;
 
-pragma AbiHeader time;
 pragma AbiHeader pubkey;
 pragma AbiHeader expire;
 
 import "./../../../interfaces/event-contracts/multivault/evm/IMultiVaultEverscaleEVMEventAlien.tsol";
-import "./../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlien_V8.tsol";
+import "./../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlienJetton.tsol";
 
 import "./../../base/evm/EverscaleEthereumBaseEvent.tsol";
 
@@ -46,15 +45,15 @@ contract MultiVaultTONEVMEventAlien is
     constructor(
         address _initializer,
         TvmCell _meta
-    ) EverscaleEthereumBaseEvent(_initializer, _meta) public {
+    ) EverscaleEthereumBaseEvent(_initializer, _meta) {
         unmodifiedEventData = eventInitData.voteData.eventData;
     }
 
     function afterSignatureCheck(TvmSlice body, TvmCell /*message*/) private inline view returns (TvmSlice) {
-        body.decode(uint64, uint32);
+        body.load(uint64, uint32);
 
         TvmSlice bodyCopy = body;
-        uint32 functionId = body.decode(uint32);
+        uint32 functionId = body.load(uint32);
 
         if (isExternalVoteCall(functionId)){
             require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
@@ -119,7 +118,7 @@ contract MultiVaultTONEVMEventAlien is
         base_chainId = base_chainId_;
         base_token = base_token_;
 
-        IProxyMultiVaultAlien_V8(proxy)
+        IProxyMultiVaultAlienJetton(proxy)
             .deriveEVMAlienTokenRoot{
                 value: 0.1 ever,
                 bounce: true,
@@ -146,7 +145,7 @@ contract MultiVaultTONEVMEventAlien is
         base_chainId = _chainId;
         base_token = _baseToken;
 
-        IProxyMultiVaultAlien_V8(proxy)
+        IProxyMultiVaultAlienJetton(proxy)
             .deriveEVMAlienTokenRoot{
                 value: 0.1 ever,
                 bounce: true,
@@ -221,11 +220,11 @@ contract MultiVaultTONEVMEventAlien is
     }
 
     onBounce(TvmSlice slice) external {
-        uint32 selector = slice.decode(uint32);
+        uint32 selector = slice.load(uint32);
 
         if (
             (selector == JettonUtils.PROVIDE_INFO_FUNCTION_ID && msg.sender == token) ||
-            (selector == tvm.functionId(IProxyMultiVaultAlien_V8.deriveEVMAlienTokenRoot) && msg.sender == proxy)
+            (selector == tvm.functionId(IProxyMultiVaultAlienJetton.deriveEVMAlienTokenRoot) && msg.sender == proxy)
         ) {
             setStatusRejected(2);
         }

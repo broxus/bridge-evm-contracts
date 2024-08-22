@@ -1,22 +1,20 @@
 pragma ever-solidity >= 0.62.0;
-pragma AbiHeader time;
+
 pragma AbiHeader pubkey;
 pragma AbiHeader expire;
 
-
-import "./../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlien_V8.tsol";
+import "./../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlienJetton.tsol";
 
 import "./../../../interfaces/event-contracts/multivault/solana/IMultiVaultSolanaEverscaleEventAlien.tsol";
 import "./../../../interfaces/event-configuration-contracts/ISolanaEverscaleEventConfiguration.tsol";
 import "./../../../interfaces/proxy/ISolanaEverscaleProxyExtended.tsol";
-import "./../../../interfaces/alien-token-merge/merge-pool/IMergePool_V2.tsol";
+import "./../../../interfaces/alien-token-merge/IMergePool.tsol";
 import "./../../../interfaces/alien-token-merge/IMergeRouter.tsol";
 
 import "./../../base/solana/SolanaEverscaleBaseEvent.tsol";
 
 import "@broxus/contracts/contracts/libraries/MsgFlag.tsol";
-import "ton-eth-bridge-token-contracts/contracts/interfaces/TIP3TokenRoot.tsol";
-
+import "../../../../utils/jetton/libraries/JettonUtils.tsol";
 
 contract MultiVaultSolanaEverscaleEventAlien is
     SolanaEverscaleBaseEvent,
@@ -50,15 +48,15 @@ contract MultiVaultSolanaEverscaleEventAlien is
     constructor(
         address _initializer,
         TvmCell _meta
-    ) SolanaEverscaleBaseEvent(_initializer, _meta) public {}
+    ) SolanaEverscaleBaseEvent(_initializer, _meta) {}
 
     function afterSignatureCheck(
         TvmSlice body,
         TvmCell
     ) private inline view returns (TvmSlice) {
-        body.decode(uint64, uint32);
+        body.load(uint64, uint32);
         TvmSlice bodyCopy = body;
-        uint32 functionId = body.decode(uint32);
+        uint32 functionId = body.load(uint32);
 
         if (isExternalVoteCall(functionId)){
             require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
@@ -117,15 +115,16 @@ contract MultiVaultSolanaEverscaleEventAlien is
 
         proxy = _networkConfiguration.proxy;
 
-        IProxyMultiVaultAlien_V8(proxy).deriveSolanaAlienTokenRoot{
-            value: 1 ever,
-            callback: MultiVaultSolanaEverscaleEventAlien.receiveAlienTokenRoot
-        }(
-            base_token,
-            name,
-            symbol,
-            decimals
-        );
+        IProxyMultiVaultAlienJetton(proxy)
+            .deriveSolanaAlienTokenRoot{
+                value: 1 ever,
+                callback: MultiVaultSolanaEverscaleEventAlien.receiveAlienTokenRoot
+            }(
+                base_token,
+                name,
+                symbol,
+                decimals
+            );
     }
 
     function receiveAlienTokenRoot(
@@ -135,11 +134,13 @@ contract MultiVaultSolanaEverscaleEventAlien is
 
         token = token_;
 
-        TIP3TokenRoot(token).name{
-            value: 1 ever,
-            bounce: true,
-            callback: MultiVaultSolanaEverscaleEventAlien.receiveTokenName
-        }();
+        JettonUtils.getInfo(
+            token,
+            0,
+            1 ever,
+            MsgFlag.SENDER_PAYS_FEES,
+            true
+        );
     }
 
     function receiveTokenName(
@@ -153,11 +154,12 @@ contract MultiVaultSolanaEverscaleEventAlien is
     function _requestMergeRouter() internal view {
         // Token exists, no need to deploy
         // Ask the router address
-        IProxyMultiVaultAlien_V8(proxy).deriveMergeRouter{
-            value: 1 ever,
-            bounce: false,
-            callback: MultiVaultSolanaEverscaleEventAlien.receiveMergeRouter
-        }(token);
+        IProxyMultiVaultAlienJetton(proxy)
+            .deriveMergeRouter{
+                value: 1 ever,
+                bounce: false,
+                callback: MultiVaultSolanaEverscaleEventAlien.receiveMergeRouter
+            }(token);
     }
 
     /// @notice Receives merge router address
@@ -195,7 +197,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
         if (pool.value == 0) {
             _finishSetup(token, amount);
         } else {
-            IMergePool_V2(pool).getCanon{
+            IMergePool(pool).getCanon{
                 value: 1 ever,
                 bounce: false,
                 callback: MultiVaultSolanaEverscaleEventAlien.receiveMergePoolCanon
@@ -209,7 +211,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
     /// @param canonToken_ Canon token
     function receiveMergePoolCanon(
         address canon_,
-        IMergePool_V2.Token canonToken_
+        IMergePool.Token canonToken_
     ) external override {
         require(msg.sender == pool, ErrorCodes.WRONG_POOL);
 
@@ -286,24 +288,25 @@ contract MultiVaultSolanaEverscaleEventAlien is
     }
 
     onBounce(TvmSlice slice) external {
-        uint32 selector = slice.decode(uint32);
+        uint32 selector = slice.load(uint32);
 
         if (
-            selector == tvm.functionId(TIP3TokenRoot.name) &&
+            selector == JettonUtils.PROVIDE_INFO_FUNCTION_ID &&
             msg.sender == token
         ) {
             // Failed to request token meta
             // Seems like corresponding token root not deployed so deploy it
-            IProxyMultiVaultAlien_V8(proxy).deploySolanaAlienToken{
-                value: 2 ever,
-                bounce: false
-            }(
-                base_token,
-                name,
-                symbol,
-                decimals,
-                recipient
-            );
+            IProxyMultiVaultAlienJetton(proxy)
+                .deploySolanaAlienToken{
+                    value: 2 ever,
+                    bounce: false
+                }(
+                    base_token,
+                    name,
+                    symbol,
+                    decimals,
+                    recipient
+                );
 
             _requestMergeRouter();
         } else if (
@@ -312,10 +315,11 @@ contract MultiVaultSolanaEverscaleEventAlien is
         ) {
             // Failed to request router's pool
             // Seems like corresponding router not deployed so deploy it
-            IProxyMultiVaultAlien_V8(proxy).deployMergeRouter{
-                value: 1 ever,
-                bounce: false
-            }(token);
+            IProxyMultiVaultAlienJetton(proxy)
+                .deployMergeRouter{
+                    value: 1 ever,
+                    bounce: false
+                }(token);
 
             _finishSetup(token, amount);
         }

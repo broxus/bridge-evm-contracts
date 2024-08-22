@@ -5,6 +5,7 @@ import "../../../../utils/jetton/interfaces/IOnAcceptTokensBurn.tsol";
 
 import "../../../interfaces/event-contracts/IEverscaleEthereumEvent.tsol";
 import "../../../interfaces/event-configuration-contracts/IEverscaleEthereumEventConfiguration.tsol";
+import "../../../interfaces/event-configuration-contracts/IEverscaleSolanaEventConfiguration.tsol";
 
 import "./ProxyMultiVaultAlienJetton_Deposit_EVM.tsol";
 
@@ -51,6 +52,47 @@ abstract contract ProxyMultiVaultAlienJetton_Withdraw is
         }
     }
 
+    function _deploySolanaEvent(
+        uint32 nonce,
+        address token,
+        uint128 amount,
+        uint256 recipient,
+        address sender,
+        address remainingGasTo,
+        IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executeAccounts,
+        bool executePayloadNeeded,
+        IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executePayloadAccounts,
+        bytes solanaPayload
+    ) internal view {
+        TvmCell eventData = abi.encode(
+            nonce,
+            address(this), // Proxy address, used in event contract for validating token root
+            msg.sender, // Token wallet address, must be validated in the event contract
+            token, // Everscale token root address
+            remainingGasTo, // Remaining gas receiver (on event contract destroy)
+            amount, // Amount of tokens to withdraw
+            recipient, // Recipient address in Solana network
+            sender,
+            solanaPayload
+        );
+
+        IEverscaleSolanaEvent.EverscaleSolanaEventVoteData eventVoteData = IEverscaleSolanaEvent.EverscaleSolanaEventVoteData(
+            tx.logicaltime,
+            block.timestamp,
+            executeAccounts,
+            executePayloadNeeded,
+            executePayloadAccounts,
+            eventData
+        );
+
+        IEverscaleSolanaEventConfiguration(solanaConfiguration.everscaleConfiguration)
+            .deployEvent{
+                value: 0,
+                bounce: false,
+                flag: MsgFlag.ALL_NOT_RESERVED
+            }(eventVoteData);
+    }
+
     function _deployEVMEvent(
         uint32 nonce,
         address token,
@@ -74,8 +116,8 @@ abstract contract ProxyMultiVaultAlienJetton_Withdraw is
         );
 
         IEverscaleEthereumEvent.EverscaleEthereumEventVoteData eventVoteData = IEverscaleEthereumEvent.EverscaleEthereumEventVoteData(
-            tx.timestamp,
-            now,
+            tx.logicaltime,
+            block.timestamp,
             eventData
         );
 

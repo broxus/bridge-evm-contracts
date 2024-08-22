@@ -1,5 +1,0 @@
-pragma ever-solidity >= 0.62.0;
-
-interface IExcesses {
-    function excesses(uint64 _callId) external functionID(0xd53276db);
-}

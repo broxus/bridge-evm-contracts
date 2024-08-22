@@ -14,7 +14,7 @@ contract SolanaEverscaleEventConfigurationFactory is TransferUtils, RandomNonce,
     TvmCell public configurationCode;
     uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
 
-    constructor(TvmCell _configurationCode) public checkPubKey {
+    constructor(TvmCell _configurationCode) checkPubKey {
         tvm.accept();
 
         configurationCode = _configurationCode;

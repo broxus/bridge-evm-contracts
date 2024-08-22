@@ -1,6 +1,5 @@
 pragma ever-solidity >= 0.62.0;
 
-pragma AbiHeader time;
 pragma AbiHeader pubkey;
 pragma AbiHeader expire;
 
@@ -8,10 +7,10 @@ import "../../../../utils/jetton/libraries/JettonUtils.tsol";
 import "../../../../utils/jetton/interfaces/ITakeInfo.tsol";
 
 import "../../../interfaces/proxy/IEthereumEverscaleProxyExtended.tsol";
-import "../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlien_V8.tsol";
+import "../../../interfaces/proxy/multivault/alien/IProxyMultiVaultAlienJetton.tsol";
 import "../../../interfaces/event-contracts/multivault/evm/IMultiVaultEVMTONEventAlien.tsol";
 import "../../../interfaces/event-configuration-contracts/IEthereumEverscaleEventConfiguration.tsol";
-import "../../../interfaces/alien-token-merge/merge-pool/IMergePool_V2.tsol";
+import "../../../interfaces/alien-token-merge/IMergePool.tsol";
 import "../../../interfaces/alien-token-merge/IMergeRouter.tsol";
 
 import "../../base/evm/EthereumEverscaleBaseEvent.tsol";
@@ -28,7 +27,7 @@ contract MultiVaultEVMTONEventAlien is
     constructor(
         address _initializer,
         TvmCell _meta
-    ) EthereumEverscaleBaseEvent(_initializer, _meta) public {}
+    ) EthereumEverscaleBaseEvent(_initializer, _meta) {}
 
     function onReject() virtual override internal {
         transferAll(initializer);
@@ -38,10 +37,10 @@ contract MultiVaultEVMTONEventAlien is
         TvmSlice body,
         TvmCell
     ) private inline view returns (TvmSlice) {
-        body.decode(uint64, uint32);
+        body.load(uint64, uint32);
 
         TvmSlice bodyCopy = body;
-        uint32 functionId = body.decode(uint32);
+        uint32 functionId = body.load(uint32);
 
         if (isExternalVoteCall(functionId)) {
             require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
@@ -84,7 +83,7 @@ contract MultiVaultEVMTONEventAlien is
 
         EventData eventData = getEventData();
 
-        IProxyMultiVaultAlien_V8(_networkConfiguration.proxy)
+        IProxyMultiVaultAlienJetton(_networkConfiguration.proxy)
             .deriveEVMAlienTokenRoot{
                 value: 0.5 ever,
                 callback: MultiVaultEVMTONEventAlien.receiveAlienTokenRoot
@@ -137,7 +136,7 @@ contract MultiVaultEVMTONEventAlien is
 
         // Token exists, no need to deploy
         // Ask the router address
-        IProxyMultiVaultAlien_V8(transitionalData.proxy)
+        IProxyMultiVaultAlienJetton(transitionalData.proxy)
             .deriveMergeRouter{
                 value: 0.1 ever,
                 bounce: false,
@@ -183,7 +182,7 @@ contract MultiVaultEVMTONEventAlien is
 
             _finishSetup(transitionalData.token, eventData.amount);
         } else {
-            IMergePool_V2(pool)
+            IMergePool(pool)
                 .getCanon{
                     value: 1 ever,
                     bounce: false,
@@ -198,7 +197,7 @@ contract MultiVaultEVMTONEventAlien is
     /// @param canonToken_ Canon token
     function receiveMergePoolCanon(
         address canon,
-        IMergePool_V2.Token canonToken_
+        IMergePool.Token canonToken_
     ) external override {
         TransitionalData transitionalData = getTransitionalData();
 
@@ -306,7 +305,7 @@ contract MultiVaultEVMTONEventAlien is
     }
 
     onBounce(TvmSlice slice) external {
-        uint32 selector = slice.decode(uint32);
+        uint32 selector = slice.load(uint32);
 
         EventData eventData = getEventData();
         TransitionalData transitionalData = getTransitionalData();
@@ -317,7 +316,7 @@ contract MultiVaultEVMTONEventAlien is
         ) {
             // Failed to request token meta
             // Seems like corresponding token root not deployed so deploy it
-            IProxyMultiVaultAlien_V8(transitionalData.proxy)
+            IProxyMultiVaultAlienJetton(transitionalData.proxy)
                 .deployEVMAlienToken{
                     value: 1 ever,
                     bounce: false
@@ -337,7 +336,7 @@ contract MultiVaultEVMTONEventAlien is
         ) {
             // Failed to request router's pool
             // Seems like corresponding router not deployed so deploy it
-            IProxyMultiVaultAlien_V8(transitionalData.proxy)
+            IProxyMultiVaultAlienJetton(transitionalData.proxy)
                 .deployMergeRouter{
                     value: 1 ever,
                     bounce: false

@@ -1,12 +1,11 @@
 import { ed25519_generateKeyPair, Ed25519KeyPair } from "nekoton-wasm";
-import { Address, Contract } from "locklift";
+import { Contract } from "locklift";
 import _ from "underscore";
 import { Account } from "everscale-standalone-client/nodejs";
 
 import {
   BridgeAbi,
   CellEncoderStandaloneAbi,
-  FactorySource,
   RoundDeployerMockupAbi,
 } from "../../build/factorySource";
 
@@ -17,80 +16,6 @@ export const setupRelays = async (amount = 20) => {
   return Promise.all(
     _.range(amount).map(async () => ed25519_generateKeyPair())
   );
-};
-
-export const enableEventConfiguration = async (
-  bridgeOwner: Account,
-  bridge: Contract<FactorySource["Bridge"]>,
-  eventConfiguration: Address
-) => {
-  const connectorId = await bridge.methods.connectorCounter().call();
-  const connectorDeployValue = await bridge.methods
-    .connectorDeployValue({})
-    .call();
-
-  await locklift.transactions.waitFinalized(
-    bridge.methods
-      .deployConnector({
-        _eventConfiguration: eventConfiguration,
-      })
-      .send({
-        from: bridgeOwner.address,
-        amount: (
-          parseInt(connectorDeployValue.connectorDeployValue, 10) + 1000000000
-        ).toString(),
-      })
-  );
-
-  const connectorAddress = await bridge.methods
-    .deriveConnectorAddress({
-      id: connectorId.connectorCounter,
-    })
-    .call();
-
-  const connector = locklift.factory.getDeployedContract(
-    "Connector",
-    connectorAddress.connector
-  );
-
-  await locklift.transactions.waitFinalized(
-    connector.methods.enable().send({
-      from: bridgeOwner.address,
-      amount: locklift.utils.toNano(0.5),
-    })
-  );
-};
-
-export const captureConnectors = async (
-  bridge: Contract<FactorySource["Bridge"]>
-) => {
-  const connectorCounter = await bridge.methods.connectorCounter().call();
-
-  type Config = { _id: string; _eventConfiguration: Address };
-
-  const configurations = await Promise.all<Config[]>(
-    _.range(parseInt(connectorCounter.connectorCounter, 10)).map(
-      async (connectorId: number) => {
-        const connectorAddress = await bridge.methods
-          .deriveConnectorAddress({ id: connectorId })
-          .call();
-
-        const connector = locklift.factory.getDeployedContract(
-          "Connector",
-          connectorAddress.connector
-        );
-
-        return connector.methods.getDetails({}).call();
-      }
-    )
-  );
-
-  return configurations.reduce((acc, configuration) => {
-    return {
-      ...acc,
-      [configuration._id]: configuration,
-    };
-  }, {} as Record<string, Config>);
 };
 
 export const setupBridge = async (

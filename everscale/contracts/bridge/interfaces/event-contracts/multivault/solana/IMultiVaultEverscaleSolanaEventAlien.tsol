@@ -2,13 +2,6 @@ pragma ever-solidity >= 0.62.0;
 
 
 interface IMultiVaultEverscaleSolanaEventAlien {
-    function receiveTokenMeta(
-        uint256 base_token,
-        string name,
-        string symbol,
-        uint8 decimals
-    ) external;
-
     function receiveAlienTokenRoot(
         address token_
     ) external;

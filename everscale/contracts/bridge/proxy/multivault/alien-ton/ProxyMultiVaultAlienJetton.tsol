@@ -1,6 +1,5 @@
 pragma ever-solidity >= 0.62.0;
 
-pragma AbiHeader time;
 pragma AbiHeader pubkey;
 
 import "@broxus/contracts/contracts/utils/CheckPubKey.tsol";
@@ -13,7 +12,7 @@ contract ProxyMultiVaultAlienJetton is
     CheckPubKey,
     RandomNonce
 {
-    constructor(address owner_) public checkPubKey {
+    constructor(address owner_) checkPubKey {
         tvm.accept();
 
         _reserveTargetBalance();

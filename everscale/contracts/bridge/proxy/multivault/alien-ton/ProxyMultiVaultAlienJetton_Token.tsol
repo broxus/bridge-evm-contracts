@@ -86,4 +86,60 @@ abstract contract ProxyMultiVaultAlienJetton_Token is ProxyMultivaultAlienJetton
             flag: MsgFlag.REMAINING_GAS
         } address(tvm.hash(stateInit));
     }
+
+    /// @notice Deploys Everscale token for any Solana token
+    /// @param token Solana token address
+    /// @param name Token name
+    /// @param symbol Token symbol
+    /// @param decimals Token decimals
+    function deploySolanaAlienToken(
+        uint256 token,
+        string name,
+        string symbol,
+        uint8 decimals,
+        address
+    ) external override reserveAtLeastTargetBalance {
+        JettonUtils.deployMinter(
+            address(this),
+            name,
+            symbol,
+            decimals,
+            900,
+            uint160(token),
+            solanaConfiguration.alienTokenWalletCode,
+            solanaConfiguration.alienTokenRootCode,
+            0,
+            MsgFlag.ALL_NOT_RESERVED,
+            false
+        );
+    }
+
+    /// @notice Derives root address for alien token, without deploying it
+    /// @param token Solana token address
+    /// @param name Token name
+    /// @param symbol Token symbol
+    /// @param decimals Token decimals
+    function deriveSolanaAlienTokenRoot(
+        uint256 token,
+        string name,
+        string symbol,
+        uint8 decimals
+    ) public override responsible returns (address) {
+        TvmCell stateInit = JettonUtils.buildMinterStateInit(
+            address(this),
+            name,
+            symbol,
+            decimals,
+            900,
+            uint160(token),
+            solanaConfiguration.alienTokenWalletCode,
+            solanaConfiguration.alienTokenRootCode
+        );
+
+        return {
+            value: 0,
+            bounce: false,
+            flag: MsgFlag.REMAINING_GAS
+        } address(tvm.hash(stateInit));
+    }
 }

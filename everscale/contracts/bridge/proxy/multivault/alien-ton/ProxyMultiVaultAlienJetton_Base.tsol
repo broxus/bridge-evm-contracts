@@ -12,6 +12,7 @@ abstract contract ProxyMultivaultAlienJetton is
     TransferUtils,
     InternalOwner
 {
+    SolanaConfiguration solanaConfiguration;
     EVMConfiguration evmConfiguration;
 
     uint8 api_version = 0;

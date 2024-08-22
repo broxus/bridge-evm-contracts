@@ -1,17 +1,14 @@
 pragma ever-solidity >= 0.62.0;
-pragma AbiHeader time;
+
 pragma AbiHeader pubkey;
 pragma AbiHeader expire;
-
-
-import "ton-eth-bridge-token-contracts/contracts/interfaces/ITokenRoot.tsol";
 
 import "./../../../interfaces/event-contracts/multivault/solana/IMultiVaultSolanaEverscaleEventNative.tsol";
 import "./../../../interfaces/event-configuration-contracts/ISolanaEverscaleEventConfiguration.tsol";
 import "./../../../interfaces/proxy/ISolanaEverscaleProxyExtended.tsol";
 
 import "./../../base/solana/SolanaEverscaleBaseEvent.tsol";
-
+import "../../../../utils/jetton/libraries/JettonUtils.tsol";
 
 contract MultiVaultSolanaEverscaleEventNative is
     SolanaEverscaleBaseEvent,
@@ -31,12 +28,12 @@ contract MultiVaultSolanaEverscaleEventNative is
     constructor(
         address _initializer,
         TvmCell _meta
-    ) SolanaEverscaleBaseEvent(_initializer, _meta) public {}
+    ) SolanaEverscaleBaseEvent(_initializer, _meta) {}
 
     function afterSignatureCheck(TvmSlice body, TvmCell /*message*/) private inline view returns (TvmSlice) {
-        body.decode(uint64, uint32);
+        body.load(uint64, uint32);
         TvmSlice bodyCopy = body;
-        uint32 functionId = body.decode(uint32);
+        uint32 functionId = body.load(uint32);
         if (isExternalVoteCall(functionId)){
             require(votes[msg.pubkey()] == Vote.Empty, ErrorCodes.KEY_VOTE_NOT_EMPTY);
         }
@@ -86,10 +83,15 @@ contract MultiVaultSolanaEverscaleEventNative is
 
         proxy = _networkConfiguration.proxy;
 
-        ITokenRoot(token).walletOf{
-            value: 0.1 ever,
-            callback: MultiVaultSolanaEverscaleEventNative.receiveProxyTokenWallet
-        }(proxy);
+        JettonUtils.walletOf(
+            token,
+            0,
+            proxy,
+            false,
+            0.1 ever,
+            MsgFlag.SENDER_PAYS_FEES,
+            true
+        );
     }
 
     function receiveProxyTokenWallet(

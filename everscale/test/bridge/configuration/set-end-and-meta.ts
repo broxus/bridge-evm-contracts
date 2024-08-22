@@ -1,262 +1,154 @@
 import { expect } from "chai";
-import {Address, Contract, zeroAddress} from "locklift";
+import { Contract, zeroAddress } from "locklift";
 import {
-    BridgeAbi,
-    CellEncoderStandaloneAbi,
-    FactorySource,
-    RoundDeployerMockupAbi,
+  BridgeAbi,
+  FactorySource,
+  RoundDeployerMockupAbi,
 } from "../../../build/factorySource";
 import { Account } from "everscale-standalone-client/nodejs";
-import {setupBridge, setupRelays} from "../../utils/bridge";
+import { setupBridge, setupRelays } from "../../utils/bridge";
 import {
-    setupEthereumEverscaleEventConfiguration,
-    setupEverscaleEthereumEventConfiguration
+  setupEthereumEverscaleEventConfiguration,
+  setupEverscaleEthereumEventConfiguration,
 } from "../../utils/event-configurations/evm";
-import {
-    setupEverscaleSolanaEventConfiguration,
-    setupSolanaEverscaleEventConfiguration
-} from "../../utils/event-configurations/solana";
-
 
 let bridge: Contract<BridgeAbi>;
-let cellEncoder: Contract<CellEncoderStandaloneAbi>;
 let roundDeployer: Contract<RoundDeployerMockupAbi>;
 let bridgeOwner: Account;
 
-
 describe("Test setting configuration end", async function () {
-    this.timeout(10000000);
+  this.timeout(10000000);
 
-    const proxy = zeroAddress;
-    const emptyCell = "te6ccgEBAQEAAgAAAA==";
+  const proxy = zeroAddress;
+  const emptyCell = "te6ccgEBAQEAAgAAAA==";
 
+  it("Setup bridge", async () => {
+    let cellEncoder;
+    const relays = await setupRelays();
 
-    it("Setup bridge", async () => {
-        const relays = await setupRelays();
+    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+      relays
+    );
+  });
 
-        [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(relays);
+  describe("Ethereum Everscale event configuration", async () => {
+    let ethereumEverscaleEventConfiguration: Contract<
+      FactorySource["EthereumEverscaleEventConfiguration"]
+    >;
+
+    it("Setup Ethereum Everscale event configuration", async () => {
+      ethereumEverscaleEventConfiguration =
+        await setupEthereumEverscaleEventConfiguration(
+          bridgeOwner,
+          roundDeployer,
+          proxy,
+          ""
+        );
     });
 
-    describe("Ethereum Everscale event configuration", async () => {
-        let ethereumEverscaleEventConfiguration: Contract<FactorySource["EthereumEverscaleEventConfiguration"]>;
-
-        it("Setup Ethereum Everscale event configuration", async () => {
-            ethereumEverscaleEventConfiguration = await setupEthereumEverscaleEventConfiguration(
-                bridgeOwner,
-                roundDeployer,
-                proxy,
-                ""
-            );
-        });
-
-        it("Set Ethereum Everscale end block", async () => {
-            await ethereumEverscaleEventConfiguration.methods
-                .setEndBlockNumber({
-                    endBlockNumber: 1,
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
-
-        it("Check Ethereum Everscale configuration end block", async () => {
-            expect(
-                await bridge.methods
-                    .active()
-                    .call()
-                    .then((t) => t.active)
-            ).to.be.equal(true, "Wrong active status");
-
-            const details = await ethereumEverscaleEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._networkConfiguration.endBlockNumber).to.be.equal(
-                "1",
-                "Wrong end block number"
-            );
-        });
-
-        it("Set Ethereum Everscale meta", async () => {
-            await ethereumEverscaleEventConfiguration.methods
-                .setMeta({
-                    _meta: "",
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
-
-        it("Check Ethereum Everscale configuration meta", async () => {
-            const details = await ethereumEverscaleEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._meta.toString()).to.be.equal(emptyCell, "Wrong meta");
+    it("Set Ethereum Everscale end block", async () => {
+      await ethereumEverscaleEventConfiguration.methods
+        .setEndBlockNumber({
+          endBlockNumber: 1,
+        })
+        .send({
+          from: bridgeOwner.address,
+          amount: locklift.utils.toNano(1),
         });
     });
 
-    describe("Everscale Ethereum event configuration", async () => {
-        let everscaleEthereumEventConfiguration: Contract<FactorySource["EverscaleEthereumEventConfiguration"]>;
+    it("Check Ethereum Everscale configuration end block", async () => {
+      expect(
+        await bridge.methods
+          .active()
+          .call()
+          .then((t) => t.active)
+      ).to.be.equal(true, "Wrong active status");
 
-        it("Setup Everscale Ethereum event configuration", async () => {
-            everscaleEthereumEventConfiguration = await setupEverscaleEthereumEventConfiguration(
-                bridgeOwner,
-                roundDeployer,
-                proxy,
-                ""
-            );
-        });
+      const details = await ethereumEverscaleEventConfiguration.methods
+        .getDetails({ answerId: 0 })
+        .call();
 
-        it("Set Everscale Ethereum end timestamp", async () => {
-            await everscaleEthereumEventConfiguration.methods
-                .setEndTimestamp({
-                    endTimestamp: 1,
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
+      expect(details._networkConfiguration.endBlockNumber).to.be.equal(
+        "1",
+        "Wrong end block number"
+      );
+    });
 
-        it("Check Everscale Ethereum configuration end timestamp", async () => {
-            const details = await everscaleEthereumEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._networkConfiguration.endTimestamp).to.be.equal(
-                "1",
-                "Wrong end timestamps"
-            );
-        });
-
-        it("Set Everscale Ethereum meta", async () => {
-            await everscaleEthereumEventConfiguration.methods
-                .setMeta({
-                    _meta: "",
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
-
-        it("Check Everscale Ethereum configuration meta", async () => {
-            const details = await everscaleEthereumEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._meta.toString()).to.be.equal(emptyCell, "Wrong meta");
+    it("Set Ethereum Everscale meta", async () => {
+      await ethereumEverscaleEventConfiguration.methods
+        .setMeta({
+          _meta: "",
+        })
+        .send({
+          from: bridgeOwner.address,
+          amount: locklift.utils.toNano(1),
         });
     });
 
-    describe("Solana Everscale event configuration", async () => {
-        let solanaEverscaleEventConfiguration: Contract<FactorySource["SolanaEverscaleEventConfiguration"]>;
+    it("Check Ethereum Everscale configuration meta", async () => {
+      const details = await ethereumEverscaleEventConfiguration.methods
+        .getDetails({ answerId: 0 })
+        .call();
 
-        it("Setup Solana Everscale event configuration", async () => {
-            solanaEverscaleEventConfiguration = await setupSolanaEverscaleEventConfiguration(
-                bridgeOwner,
-                roundDeployer,
-                proxy,
-                ""
-            );
-        });
+      expect(details._meta.toString()).to.be.equal(emptyCell, "Wrong meta");
+    });
+  });
 
-        it("Set Solana Everscale end timestamp", async () => {
-            await solanaEverscaleEventConfiguration.methods
-                .setEndTimestamp({
-                    endTimestamp: 1,
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
+  describe("Everscale Ethereum event configuration", async () => {
+    let everscaleEthereumEventConfiguration: Contract<
+      FactorySource["EverscaleEthereumEventConfiguration"]
+    >;
 
-        it("Check Solana Everscale configuration end block", async () => {
-            const details = await solanaEverscaleEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
+    it("Setup Everscale Ethereum event configuration", async () => {
+      everscaleEthereumEventConfiguration =
+        await setupEverscaleEthereumEventConfiguration(
+          bridgeOwner,
+          roundDeployer,
+          proxy,
+          ""
+        );
+    });
 
-            expect(details._networkConfiguration.endTimestamp).to.be.equal(
-                "1",
-                "Wrong end timestamp"
-            );
-        });
-
-        it("Set Solana Everscale meta", async () => {
-            await solanaEverscaleEventConfiguration.methods
-                .setMeta({
-                    _meta: "",
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
-
-        it("Check Solana Everscale configuration meta", async () => {
-            const details = await solanaEverscaleEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._meta.toString()).to.be.equal(emptyCell, "Wrong meta");
+    it("Set Everscale Ethereum end timestamp", async () => {
+      await everscaleEthereumEventConfiguration.methods
+        .setEndTimestamp({
+          endTimestamp: 1,
+        })
+        .send({
+          from: bridgeOwner.address,
+          amount: locklift.utils.toNano(1),
         });
     });
 
-    describe("Everscale Solana event configuration", async () => {
-        let everscaleSolanaEventConfiguration: Contract<FactorySource["EverscaleSolanaEventConfiguration"]>;
+    it("Check Everscale Ethereum configuration end timestamp", async () => {
+      const details = await everscaleEthereumEventConfiguration.methods
+        .getDetails({ answerId: 0 })
+        .call();
 
-        it("Setup Everscale Solana event configuration", async () => {
-            everscaleSolanaEventConfiguration = await setupEverscaleSolanaEventConfiguration(
-                bridgeOwner,
-                roundDeployer,
-                proxy,
-                ""
-            );
-        });
+      expect(details._networkConfiguration.endTimestamp).to.be.equal(
+        "1",
+        "Wrong end timestamps"
+      );
+    });
 
-        it("Set Everscale Solana end timestamp", async () => {
-            await everscaleSolanaEventConfiguration.methods
-                .setEndTimestamp({
-                    endTimestamp: 1,
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
-
-        it("Check Everscale Solana configuration end timestamp", async () => {
-            const details = await everscaleSolanaEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._networkConfiguration.endTimestamp).to.be.equal(
-                "1",
-                "Wrong end timestamps"
-            );
-        });
-
-        it("Set Everscale Solana meta", async () => {
-            await everscaleSolanaEventConfiguration.methods
-                .setMeta({
-                    _meta: "",
-                })
-                .send({
-                    from: bridgeOwner.address,
-                    amount: locklift.utils.toNano(1),
-                });
-        });
-
-        it("Check Everscale Solana configuration meta", async () => {
-            const details = await everscaleSolanaEventConfiguration.methods
-                .getDetails({ answerId: 0 })
-                .call();
-
-            expect(details._meta.toString()).to.be.equal(emptyCell, "Wrong meta");
+    it("Set Everscale Ethereum meta", async () => {
+      await everscaleEthereumEventConfiguration.methods
+        .setMeta({
+          _meta: "",
+        })
+        .send({
+          from: bridgeOwner.address,
+          amount: locklift.utils.toNano(1),
         });
     });
+
+    it("Check Everscale Ethereum configuration meta", async () => {
+      const details = await everscaleEthereumEventConfiguration.methods
+        .getDetails({ answerId: 0 })
+        .call();
+
+      expect(details._meta.toString()).to.be.equal(emptyCell, "Wrong meta");
+    });
+  });
 });

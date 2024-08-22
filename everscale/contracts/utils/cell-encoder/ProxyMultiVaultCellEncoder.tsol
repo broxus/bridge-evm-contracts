@@ -1,13 +1,12 @@
 pragma ever-solidity >= 0.62.0;
 
 import "./../../bridge/interfaces/event-contracts/IEverscaleSolanaEvent.tsol";
-
 import "./../../bridge/interfaces/proxy/INetworks.tsol";
-import "./../../bridge/interfaces/proxy/multivault/alien/IProxyMultiVaultAlien_V6.tsol";
+import "./../../bridge/interfaces/proxy/multivault/alien/IProxyMultiVaultAlienJetton.tsol";
 import "./../../bridge/interfaces/event-contracts/multivault/evm/IEVMCallback.tsol";
 
 
-contract ProxyMultiVaultCellEncoder is IEVMCallback, INetworks {
+abstract contract ProxyMultiVaultCellEncoder is IEVMCallback, INetworks {
     function encodeMultiVaultAlienEVMEverscale(
         uint256 base_chainId,
         uint160 base_token,

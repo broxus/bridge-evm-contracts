@@ -1,12 +1,22 @@
 pragma ever-solidity >= 0.62.0;
 
 import "../../../event-contracts/multivault/evm/IEVMCallback.tsol";
+import "../../../event-contracts/IEverscaleSolanaEvent.tsol";
 import "../../INetworks.tsol";
 
 interface IProxyMultiVaultAlienJetton is IEVMCallback, INetworks {
     struct EVMConfiguration {
         address everscaleConfiguration;
         address[] evmConfigurations;
+
+        TvmCell alienTokenRootCode;
+        TvmCell alienTokenWalletCode;
+        TvmCell alienTokenWalletPlatformCode;
+    }
+
+    struct SolanaConfiguration {
+        address everscaleConfiguration;
+        address solanaConfiguration;
 
         TvmCell alienTokenRootCode;
         TvmCell alienTokenWalletCode;
@@ -58,7 +68,28 @@ interface IProxyMultiVaultAlienJetton is IEVMCallback, INetworks {
         EVMCallback callback
     ) external;
 
+    function withdrawTokensToSolanaByMergePool(
+        uint mergePoolNonce,
+        uint32 nonce,
+        address token,
+        uint128 amount,
+        uint256 recipient,
+        address remainingGasTo,
+        address sender,
+        IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executeAccounts,
+        bool executePayloadNeeded,
+        IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executePayloadAccounts,
+        bytes solanaPayload
+    ) external;
+
     // Derive token root address
+    function deriveSolanaAlienTokenRoot(
+        uint256 base_token,
+        string name,
+        string symbol,
+        uint8 decimals
+    ) external responsible returns (address);
+
     function deriveEVMAlienTokenRoot(
         uint256 base_chainId,
         uint160 base_token,
@@ -68,6 +99,14 @@ interface IProxyMultiVaultAlienJetton is IEVMCallback, INetworks {
     ) external responsible returns (address);
 
     // Deploy token root
+    function deploySolanaAlienToken(
+        uint256 token,
+        string name,
+        string symbol,
+        uint8 decimals,
+        address remainingGasTo
+    ) external;
+
     function deployEVMAlienToken(
         uint256 chainId,
         uint160 token,
