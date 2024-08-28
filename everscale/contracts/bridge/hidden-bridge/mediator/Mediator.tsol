@@ -24,7 +24,7 @@ import "../../../utils/jetton/libraries/JettonUtils.tsol";
 /// 1.2 Payload says "Burn tokens in favour of proxy with some payload"
 /// 1.3 Burn initiates creating an ever-evm event contract with BNB USDT withdrawal
 /// - Support multiple event closers and event deployers
-contract MediatorJetton is
+contract Mediator is
     ITransferNotification,
     INetworks,
     TransferUtils,
