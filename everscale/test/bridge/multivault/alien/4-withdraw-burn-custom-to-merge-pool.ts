@@ -246,7 +246,7 @@ describe("Withdraw custom jettons by burning in favor of merge pool", function (
 
   it("Burn tokens in favor of merge pool", async () => {
     const burnPayload = await cellEncoder.methods
-      .encodeMergePoolBurnWithdrawPayloadEthereum({
+      .encodeMergePoolBurnJettonWithdrawPayloadEthereum({
         targetToken: alienTokenRoot.minter,
         recipient,
         callback: {
@@ -254,6 +254,7 @@ describe("Withdraw custom jettons by burning in favor of merge pool", function (
           strict: false,
           payload: "",
         },
+        remainingGasTo: initializer.address
       })
       .call();
 

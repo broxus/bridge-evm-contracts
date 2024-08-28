@@ -24,11 +24,33 @@
 			]
 		},
 		{
+			"name": "encodeMergePoolBurnJettonSwapPayload",
+			"inputs": [
+				{"name":"targetToken","type":"address"},
+				{"name":"remainingGasTo","type":"address"}
+			],
+			"outputs": [
+				{"name":"value0","type":"cell"}
+			]
+		},
+		{
 			"name": "encodeMergePoolBurnWithdrawPayloadEthereum",
 			"inputs": [
 				{"name":"targetToken","type":"address"},
 				{"name":"recipient","type":"uint160"},
 				{"components":[{"name":"recipient","type":"uint160"},{"name":"payload","type":"bytes"},{"name":"strict","type":"bool"}],"name":"callback","type":"tuple"}
+			],
+			"outputs": [
+				{"name":"value0","type":"cell"}
+			]
+		},
+		{
+			"name": "encodeMergePoolBurnJettonWithdrawPayloadEthereum",
+			"inputs": [
+				{"name":"targetToken","type":"address"},
+				{"name":"recipient","type":"uint160"},
+				{"components":[{"name":"recipient","type":"uint160"},{"name":"payload","type":"bytes"},{"name":"strict","type":"bool"}],"name":"callback","type":"tuple"},
+				{"name":"remainingGasTo","type":"address"}
 			],
 			"outputs": [
 				{"name":"value0","type":"cell"}
@@ -43,6 +65,21 @@
 				{"name":"executePayloadNeeded","type":"bool"},
 				{"components":[{"name":"account","type":"uint256"},{"name":"readOnly","type":"bool"},{"name":"isSigner","type":"bool"}],"name":"executePayloadAccounts","type":"tuple[]"},
 				{"name":"payload","type":"bytes"}
+			],
+			"outputs": [
+				{"name":"value0","type":"cell"}
+			]
+		},
+		{
+			"name": "encodeMergePoolBurnJettonWithdrawPayloadSolana",
+			"inputs": [
+				{"name":"targetToken","type":"address"},
+				{"name":"recipient","type":"uint256"},
+				{"components":[{"name":"account","type":"uint256"},{"name":"readOnly","type":"bool"},{"name":"isSigner","type":"bool"}],"name":"executeAccounts","type":"tuple[]"},
+				{"name":"executePayloadNeeded","type":"bool"},
+				{"components":[{"name":"account","type":"uint256"},{"name":"readOnly","type":"bool"},{"name":"isSigner","type":"bool"}],"name":"executePayloadAccounts","type":"tuple[]"},
+				{"name":"payload","type":"bytes"},
+				{"name":"remainingGasTo","type":"address"}
 			],
 			"outputs": [
 				{"name":"value0","type":"cell"}
@@ -211,6 +248,17 @@
 			]
 		},
 		{
+			"name": "encodeAlienJettonBurnPayloadEthereum",
+			"inputs": [
+				{"name":"recipient","type":"uint160"},
+				{"components":[{"name":"recipient","type":"uint160"},{"name":"payload","type":"bytes"},{"name":"strict","type":"bool"}],"name":"callback","type":"tuple"},
+				{"name":"remainingGasTo","type":"address"}
+			],
+			"outputs": [
+				{"name":"value0","type":"cell"}
+			]
+		},
+		{
 			"name": "encodeAlienBurnPayloadSolana",
 			"inputs": [
 				{"name":"recipient","type":"uint256"},
@@ -243,7 +291,8 @@
 				{"name":"name","type":"string"},
 				{"name":"symbol","type":"string"},
 				{"name":"decimals","type":"uint8"},
-				{"name":"token","type":"address"}
+				{"name":"token","type":"address"},
+				{"name":"remainingGasTo","type":"address"}
 			],
 			"outputs": [
 				{"name":"value0","type":"cell"}

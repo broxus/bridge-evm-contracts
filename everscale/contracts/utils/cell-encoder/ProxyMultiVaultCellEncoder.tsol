@@ -57,6 +57,16 @@ abstract contract ProxyMultiVaultCellEncoder is IEVMCallback, INetworks {
         return abi.encode(uint32(0), Network.EVM, burnPayload);
     }
 
+    function encodeAlienJettonBurnPayloadEthereum(
+        uint160 recipient,
+        EVMCallback callback,
+        address remainingGasTo
+    ) external pure returns(TvmCell) {
+        TvmCell burnPayload = abi.encode(recipient, callback);
+
+        return abi.encode(uint32(0), Network.EVM, burnPayload, remainingGasTo);
+    }
+
     function encodeAlienBurnPayloadSolana(
         uint256 recipient,
         IEverscaleSolanaEvent.EverscaleSolanaExecuteAccount[] executeAccounts,
@@ -86,11 +96,12 @@ abstract contract ProxyMultiVaultCellEncoder is IEVMCallback, INetworks {
         string name,
         string symbol,
         uint8 decimals,
-        address token
+        address token,
+        address remainingGasTo
     ) external pure returns (TvmCell) {
         TvmCell transferPayload = abi.encode(recipient, chainId, callback);
 
-        return abi.encode(uint32(0), Network.EVM, transferPayload, name, symbol, decimals, token);
+        return abi.encode(uint32(0), Network.EVM, transferPayload, name, symbol, decimals, token, remainingGasTo);
     }
 
     function decodeMultiVaultAlienEverscaleEthereum(

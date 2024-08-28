@@ -121,7 +121,7 @@
 				{"name":"_amount","type":"uint128"},
 				{"name":"walletOwner","type":"address"},
 				{"name":"sender","type":"address"},
-				{"name":"remainingGasTo","type":"address"},
+				{"name":"value3","type":"address"},
 				{"name":"payload","type":"cell"}
 			],
 			"outputs": [

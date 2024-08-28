@@ -57,7 +57,7 @@ abstract contract ProxyMultiVaultNativeJetton_Base is
             0,
             recipient,
             varUint16(amount),
-            0.1 ever,
+            0.1 ever, // todo fix
             payload,
             remainingGasTo,
             0,

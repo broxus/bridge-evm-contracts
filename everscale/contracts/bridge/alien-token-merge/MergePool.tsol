@@ -326,7 +326,7 @@ contract MergePool is
         uint128 _amount,
         address walletOwner,
         address sender,
-        address remainingGasTo,
+        address ,
         TvmCell payload
     )
         external
@@ -338,12 +338,14 @@ contract MergePool is
             uint32 nonce,
             BurnType burnType,
             address targetToken,
-            TvmCell operationPayload
+            TvmCell operationPayload,
+            address remainingGasTo
         ) = abi.decode(payload, (
             uint32,
             BurnType,
             address,
-            TvmCell
+            TvmCell,
+            address
         ));
 
         uint128 amount = _convertDecimals(

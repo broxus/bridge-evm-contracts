@@ -170,13 +170,14 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
 
   it("Burn tokens in favor of proxy", async () => {
     const burnPayload = await cellEncoder.methods
-      .encodeAlienBurnPayloadEthereum({
+      .encodeAlienJettonBurnPayloadEthereum({
         recipient,
         callback: {
           recipient: 0,
           strict: false,
           payload: "",
         },
+        remainingGasTo: initializer.address
       })
       .call();
 

@@ -33,6 +33,7 @@ const main = async (): Promise<void> => {
     symbol: JETTON_META.symbol,
     decimals: JETTON_META.decimals,
     token: new Address(JETTON),
+    remainingGasTo: SENDER
   };
 
   console.log(

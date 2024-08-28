@@ -64,13 +64,14 @@ describe("Test event contract behaviour when Alien token is incorrect", function
 
     it("Call burn callback on proxy", async () => {
       const burnPayload = await cellEncoder.methods
-        .encodeAlienBurnPayloadEthereum({
+        .encodeAlienJettonBurnPayloadEthereum({
           recipient,
           callback: {
             recipient: 0,
             payload: "",
             strict: false,
           },
+          remainingGasTo: initializer.address
         })
         .call();
 

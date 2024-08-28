@@ -139,6 +139,7 @@ describe("Test EVM native multivault pipeline", function () {
           symbol: tokenMeta.symbol,
           decimals: tokenMeta.decimals,
           token: jetton.minter,
+          remainingGasTo: initializer.address
         })
         .call()
         .then((t) => t.value0);

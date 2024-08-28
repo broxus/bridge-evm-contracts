@@ -27,11 +27,13 @@ abstract contract ProxyMultiVaultAlienJetton_Withdraw is
         (
             uint32 nonce,
             Network network,
-            TvmCell burnPayload
+            TvmCell burnPayload,
+            address remainingGasTo
         ) = abi.decode(payload, (
             uint32,
             Network,
-            TvmCell
+            TvmCell,
+            address
         ));
 
         if (network == Network.EVM) {
@@ -45,7 +47,7 @@ abstract contract ProxyMultiVaultAlienJetton_Withdraw is
                 msg.sender,
                 amount,
                 recipient,
-                sender,
+                remainingGasTo,
                 sender,
                 callback
             );

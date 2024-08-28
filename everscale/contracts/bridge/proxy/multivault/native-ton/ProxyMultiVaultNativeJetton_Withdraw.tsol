@@ -20,7 +20,6 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
         address _tokenSender,
         optional(TvmCell) _payload
     ) external override functionID(0x7362d09c) reserveAtLeastTargetBalance {
-        address remainingGasTo = _tokenSender;
 
         (
             uint32 nonce,
@@ -29,7 +28,8 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
             string name,
             string symbol,
             uint8 decimals,
-            address tokenRoot
+            address tokenRoot,
+            address remainingGasTo
         ) = abi.decode(_payload.get(), (
             uint32,
             Network,
@@ -37,6 +37,7 @@ abstract contract ProxyMultiVaultNativeJetton_Withdraw is
             string,
             string,
             uint8,
+            address,
             address
         ));
 
