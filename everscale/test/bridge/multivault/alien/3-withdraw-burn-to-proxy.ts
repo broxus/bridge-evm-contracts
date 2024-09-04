@@ -177,7 +177,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
           strict: false,
           payload: "",
         },
-        remainingGasTo: initializer.address
+        remainingGasTo: initializer.address,
       })
       .call();
 

@@ -16,7 +16,7 @@ library JettonUtils {
         string _symbol,
         uint8 _decimals,
         uint256 _chainId,
-        uint160 _baseToken
+        uint256 _baseToken
     ) public returns (TvmCell) {
         TvmBuilder info;
 
@@ -35,9 +35,10 @@ library JettonUtils {
         string _symbol,
         uint8 _decimals,
         uint256 _chainId,
-        uint160 _baseToken,
+        uint256 _baseToken,
         TvmCell _walletCode,
-        TvmCell _minterCode
+        TvmCell _minterCode,
+        TvmCell _platformCode
     ) public returns (TvmCell) {
         TvmBuilder data;
 
@@ -53,6 +54,8 @@ library JettonUtils {
             )
         );
         data.store(_walletCode);
+        data.store(_platformCode);
+        data.store(uint32(1));
 
         return tvm.buildStateInit(_minterCode, data.toCell());
     }
@@ -63,9 +66,10 @@ library JettonUtils {
         string _symbol,
         uint8 _decimals,
         uint256 _chainId,
-        uint160 _baseToken,
+        uint256 _baseToken,
         TvmCell _walletCode,
         TvmCell _minterCode,
+        TvmCell _platformCode,
         uint128 _value,
         uint16 _flag,
         bool _bounce
@@ -78,7 +82,8 @@ library JettonUtils {
             _chainId,
             _baseToken,
             _walletCode,
-            _minterCode
+            _minterCode,
+            _platformCode
         );
         address minter = address(tvm.hash(stateInit));
 

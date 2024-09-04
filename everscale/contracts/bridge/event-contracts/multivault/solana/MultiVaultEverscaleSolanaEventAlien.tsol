@@ -73,7 +73,7 @@ contract MultiVaultEverscaleSolanaEventAlien is
         uint64,
         uint8 _decimals,
         uint256,
-        uint160 _baseToken,
+        uint256 _baseToken,
         string _name,
         string _symbol
     ) external override functionID(0x93e5c11a) {

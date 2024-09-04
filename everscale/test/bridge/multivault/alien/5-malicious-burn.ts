@@ -71,7 +71,7 @@ describe("Test event contract behaviour when Alien token is incorrect", function
             payload: "",
             strict: false,
           },
-          remainingGasTo: initializer.address
+          remainingGasTo: initializer.address,
         })
         .call();
 
@@ -86,7 +86,9 @@ describe("Test event contract behaviour when Alien token is incorrect", function
         .send({
           from: initializer.address,
           amount: locklift.utils.toNano(10),
-        });
+        })
+        .then((tx) => locklift.transactions.waitFinalized(tx))
+        .then((tx) => tx.extTransaction);
 
       logger.log(`Burn tx: ${tx.id.hash}`);
 

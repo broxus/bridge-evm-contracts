@@ -50,6 +50,7 @@ abstract contract ProxyMultiVaultAlienJetton_Token is ProxyMultivaultAlienJetton
             token,
             evmConfiguration.alienTokenWalletCode,
             evmConfiguration.alienTokenRootCode,
+            evmConfiguration.alienTokenWalletPlatformCode,
             0,
             MsgFlag.ALL_NOT_RESERVED,
             false
@@ -77,7 +78,8 @@ abstract contract ProxyMultiVaultAlienJetton_Token is ProxyMultivaultAlienJetton
             chainId,
             token,
             evmConfiguration.alienTokenWalletCode,
-            evmConfiguration.alienTokenRootCode
+            evmConfiguration.alienTokenRootCode,
+            evmConfiguration.alienTokenWalletPlatformCode
         );
 
         return {
@@ -105,9 +107,10 @@ abstract contract ProxyMultiVaultAlienJetton_Token is ProxyMultivaultAlienJetton
             symbol,
             decimals,
             900,
-            uint160(token),
+            token,
             solanaConfiguration.alienTokenWalletCode,
             solanaConfiguration.alienTokenRootCode,
+            solanaConfiguration.alienTokenWalletPlatformCode,
             0,
             MsgFlag.ALL_NOT_RESERVED,
             false
@@ -131,9 +134,10 @@ abstract contract ProxyMultiVaultAlienJetton_Token is ProxyMultivaultAlienJetton
             symbol,
             decimals,
             900,
-            uint160(token),
+            token,
             solanaConfiguration.alienTokenWalletCode,
-            solanaConfiguration.alienTokenRootCode
+            solanaConfiguration.alienTokenRootCode,
+            solanaConfiguration.alienTokenWalletPlatformCode
         );
 
         return {

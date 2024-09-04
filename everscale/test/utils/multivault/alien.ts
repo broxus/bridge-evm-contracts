@@ -13,6 +13,7 @@ import {
 } from "../event-configurations/evm";
 import JettonMinter from "../../../jetton-contracts/jetton-minter.compiled.json";
 import JettonWallet from "../../../jetton-contracts/jetton-wallet.compiled.json";
+import JettonPlatform from "../../../jetton-contracts/jetton-platform.compiled.json";
 
 export const setupAlienJettonMultiVault = async (
   owner: Account,
@@ -69,6 +70,10 @@ export const setupAlienJettonMultiVault = async (
   const alienJettonWalletCode = Buffer.from(JettonWallet.hex, "hex").toString(
     "base64"
   );
+  const alienJettonPlatformCode = Buffer.from(
+    JettonPlatform.hex,
+    "hex"
+  ).toString("base64");
 
   // Set proxy EVM configuration
   await locklift.transactions.waitFinalized(
@@ -79,7 +84,7 @@ export const setupAlienJettonMultiVault = async (
           evmConfigurations: [ethereumEverscaleEventConfiguration.address],
           alienTokenRootCode: alienJettonMinterCode,
           alienTokenWalletCode: alienJettonWalletCode,
-          alienTokenWalletPlatformCode: "",
+          alienTokenWalletPlatformCode: alienJettonPlatformCode,
         },
         remainingGasTo: owner.address,
       })

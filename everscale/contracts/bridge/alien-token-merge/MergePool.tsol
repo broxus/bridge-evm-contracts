@@ -154,7 +154,7 @@ contract MergePool is
         uint64,
         uint8 _decimals,
         uint256,
-        uint160,
+        uint256,
         string,
         string
     )

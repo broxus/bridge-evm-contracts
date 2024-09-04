@@ -2,6 +2,7 @@ import { FactorySource } from "../build/factorySource";
 
 import MinterCode from "../jetton-contracts/jetton-minter.compiled.json";
 import WalletCode from "../jetton-contracts/jetton-wallet.compiled.json";
+import WalletPlatformCode from "../jetton-contracts/jetton-platform.compiled.json";
 
 export const getNamedContract = async (name: keyof FactorySource) => {
   return {
@@ -44,9 +45,14 @@ const main = async () => {
   // Load jetton
   const MINTER_CODE = Buffer.from(MinterCode.hex, "hex").toString("base64");
   const WALLET_CODE = Buffer.from(WalletCode.hex, "hex").toString("base64");
+  const WALLET_PLATFORM_CODE = Buffer.from(
+    WalletPlatformCode.hex,
+    "hex"
+  ).toString("base64");
 
   const jettonMinter = { name: "JettonMinter", code: MINTER_CODE };
   const jettonWallet = { name: "JettonWallet", code: WALLET_CODE };
+  const jettonPlatform = { name: "JettonPlatform", code: WALLET_PLATFORM_CODE };
 
   for (const contract of [
     ethereumEverscaleEventAlien,
@@ -65,6 +71,7 @@ const main = async () => {
 
     jettonMinter,
     jettonWallet,
+    jettonPlatform,
   ]) {
     console.log(contract.name);
     console.log(contract.code);

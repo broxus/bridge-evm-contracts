@@ -3,6 +3,7 @@ import { BigNumber } from "bignumber.js";
 
 import MinterCode from "../../jetton-contracts/jetton-minter.compiled.json";
 import WalletCode from "../../jetton-contracts/jetton-wallet.compiled.json";
+import PlatformCode from "../../jetton-contracts/jetton-platform.compiled.json";
 
 type Metadata = { name: string; symbol: string; decimals: number };
 type AlienMeta = { baseToken: string; chainId: string };
@@ -12,6 +13,7 @@ type CommonState = { balance: string; codeHash?: string };
 type MinterState = {
   supply: string;
   admin: Address;
+  walletVersion: number;
 } & AlienMeta &
   Metadata &
   CommonState;
@@ -19,6 +21,7 @@ type WalletState = {
   tokenBalance: string;
   owner: Address;
   minter: Address;
+  version: number;
 } & CommonState;
 
 const MINTER_CONTENT_STRUCTURE = [
@@ -26,13 +29,15 @@ const MINTER_CONTENT_STRUCTURE = [
   { name: "symbol", type: "string" },
   { name: "decimals", type: "uint8" },
   { name: "chainId", type: "uint256" },
-  { name: "baseToken", type: "uint160" },
+  { name: "baseToken", type: "uint256" },
 ] as const;
 const MINTER_STATE_STRUCTURE = [
   { name: "supply", type: "gram" },
   { name: "admin", type: "address" },
   { name: "content", type: "cell" },
   { name: "walletCode", type: "cell" },
+  { name: "platformCode", type: "cell" },
+  { name: "walletVersion", type: "uint32" },
 ] as const;
 const MINTER_MINT_STRUCTURE = [
   { name: "functionId", type: "uint32" },
@@ -48,6 +53,8 @@ const WALLET_STATE_STRUCTURE = [
   { name: "walletOwner", type: "address" },
   { name: "minter", type: "address" },
   { name: "walletCode", type: "cell" },
+  { name: "platformCode", type: "cell" },
+  { name: "version", type: "uint32" },
 ] as const;
 const STATE_AND_DATA_STRUCTURE = [
   { name: "code", type: "cell" },
@@ -137,6 +144,10 @@ export class JettonMinter {
     WalletCode.hex,
     "hex"
   ).toString("base64");
+  private static readonly PLATFORM_CODE = Buffer.from(
+    PlatformCode.hex,
+    "hex"
+  ).toString("base64");
   private static readonly ABI_STRINGIFIED = JSON.stringify(MinterAbi);
 
   constructor(
@@ -168,6 +179,8 @@ export class JettonMinter {
         admin: admin,
         content: content.boc,
         walletCode: JettonMinter.WALLET_CODE,
+        platformCode: JettonMinter.PLATFORM_CODE,
+        walletVersion: 1,
       },
     });
     const { tvc, hash } = await locklift.provider.mergeTvc({
@@ -201,13 +214,15 @@ export class JettonMinter {
         balance: 0,
         walletOwner: owner,
         minter: minter,
-        walletCode: JettonMinter.WALLET_CODE,
+        walletCode: "",
+        platformCode: JettonMinter.PLATFORM_CODE,
+        version: 0,
       },
     });
 
     const { hash } = await locklift.provider.mergeTvc({
       data: state.boc,
-      code: JettonMinter.WALLET_CODE,
+      code: JettonMinter.PLATFORM_CODE,
     });
 
     return new JettonWallet(new Address(`0:${hash}`), owner);
@@ -253,6 +268,7 @@ export class JettonMinter {
       decimals: metaData.decimals,
       chainId: metaData.chainId,
       baseToken: metaData.baseToken,
+      walletVersion: +tokenData.walletVersion,
     };
   }
 
@@ -377,6 +393,7 @@ export class JettonWallet {
       tokenBalance: walletData.balance,
       owner: walletData.walletOwner,
       minter: walletData.minter,
+      version: +walletData.version,
     };
   }
 

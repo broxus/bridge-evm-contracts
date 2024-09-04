@@ -19,7 +19,7 @@
 				{"name":"value0","type":"uint64"},
 				{"name":"_decimals","type":"uint8"},
 				{"name":"value2","type":"uint256"},
-				{"name":"_baseToken","type":"uint160"},
+				{"name":"_baseToken","type":"uint256"},
 				{"name":"_name","type":"string"},
 				{"name":"_symbol","type":"string"}
 			],

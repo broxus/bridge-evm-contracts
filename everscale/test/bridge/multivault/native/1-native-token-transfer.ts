@@ -139,7 +139,7 @@ describe("Test EVM native multivault pipeline", function () {
           symbol: tokenMeta.symbol,
           decimals: tokenMeta.decimals,
           token: jetton.minter,
-          remainingGasTo: initializer.address
+          remainingGasTo: initializer.address,
         })
         .call()
         .then((t) => t.value0);
@@ -152,7 +152,7 @@ describe("Test EVM native multivault pipeline", function () {
               amount,
               proxy.address,
               { value: 1, payload: payload },
-              { value: locklift.utils.toNano(2.5), bounce: true }
+              { value: locklift.utils.toNano(2.7), bounce: true }
             )
           )
       );

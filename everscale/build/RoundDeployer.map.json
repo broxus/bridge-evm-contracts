@@ -2679,24 +2679,6 @@
       "line": 1882
     }
   },
-  "51a26951c7a186bad0dac82c5fb0c0100eaae2e1d7e4a48fad72f00b1eabb686": {
-    "40": {
-      "filename": "RoundDeployer.code",
-      "line": 206
-    },
-    "48": {
-      "filename": "RoundDeployer.code",
-      "line": 208
-    },
-    "64": {
-      "filename": "RoundDeployer.code",
-      "line": 211
-    },
-    "80": {
-      "filename": "RoundDeployer.code",
-      "line": 212
-    }
-  },
   "51aa454c5891bfe993f73306aaac82c299546e613c09d6079660b143aa0f31ef": {
     "0": {
       "filename": "contracts/round/base/RoundDeployerBase.tsol",
@@ -8596,6 +8578,24 @@
     "16": {
       "filename": "RoundDeployer.code",
       "line": 2902
+    }
+  },
+  "f34305250fb1114eeeb408e3c77cc302420646c2f4cfd49d756994d096d34b6d": {
+    "38": {
+      "filename": "RoundDeployer.code",
+      "line": 206
+    },
+    "46": {
+      "filename": "RoundDeployer.code",
+      "line": 208
+    },
+    "62": {
+      "filename": "RoundDeployer.code",
+      "line": 211
+    },
+    "78": {
+      "filename": "RoundDeployer.code",
+      "line": 212
     }
   },
   "f43a453b5825586a285d677a6153998eb984810149fe56d7b45134ef01581385": {

@@ -278,6 +278,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
         proxy.address.toString(),
         "Wrong alien token owner"
       );
+      expect(state.walletVersion).to.be.equal(1);
     });
 
     it("Fetch merge router", async () => {

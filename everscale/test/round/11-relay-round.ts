@@ -41,7 +41,7 @@ describe("Test Relay round mechanic", async function () {
     _eth_keys: string[],
     _ton_keys: string[]
   ) {
-    return await roundDeployer.methods
+    return roundDeployer.methods
       .setRelaysOnNewRound({ eth_keys: _eth_keys, ton_keys: _ton_keys })
       .send({ from: _user.address, amount: locklift.utils.toNano(12) });
   };
@@ -296,7 +296,9 @@ describe("Test Relay round mechanic", async function () {
           .call()
           .then((t) => t.value0);
 
-        await setRelaysOnNewRound(roundDeployerOwner, ETH_KEYS, TON_KEYS);
+        await locklift.transactions.waitFinalized(
+          setRelaysOnNewRound(roundDeployerOwner, ETH_KEYS, TON_KEYS)
+        );
 
         const events = await roundDeployer
           .getPastEvents({ filter: "RelayRoundInitialized" })

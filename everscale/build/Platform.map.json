@@ -537,6 +537,24 @@
       "line": 312
     }
   },
+  "6a815ba8d7340d35a0c5cc9e634c9db4569c096f18546e5a105acb44bb5b7582": {
+    "38": {
+      "filename": "Platform.code",
+      "line": 111
+    },
+    "46": {
+      "filename": "Platform.code",
+      "line": 113
+    },
+    "62": {
+      "filename": "Platform.code",
+      "line": 116
+    },
+    "78": {
+      "filename": "Platform.code",
+      "line": 117
+    }
+  },
   "93a2480b2b2a8d8dd2b5568efcc255e497d5389d9c03eabe09836d98d1998ce0": {
     "0": {
       "filename": "Platform.code",
@@ -1000,24 +1018,6 @@
     "424": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
       "line": 35
-    }
-  },
-  "e435f35c6fbb578ea0f36e46732573156293d0d48bae5b5c7c4bf989cde7f320": {
-    "40": {
-      "filename": "Platform.code",
-      "line": 111
-    },
-    "48": {
-      "filename": "Platform.code",
-      "line": 113
-    },
-    "64": {
-      "filename": "Platform.code",
-      "line": 116
-    },
-    "80": {
-      "filename": "Platform.code",
-      "line": 117
     }
   },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
