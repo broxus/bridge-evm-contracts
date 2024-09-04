@@ -2,219 +2,187 @@
   "06a7d804a906847eb0bf76cab225672ac0438321c86dec3459c72632207139f9": {
     "0": {
       "filename": "Mediator.code",
-      "line": 693
+      "line": 730
     },
     "16": {
       "filename": "Mediator.code",
-      "line": 694
+      "line": 731
     },
     "24": {
       "filename": "Mediator.code",
-      "line": 695
+      "line": 732
     },
     "40": {
       "filename": "Mediator.code",
-      "line": 696
+      "line": 733
     },
     "56": {
       "filename": "Mediator.code",
-      "line": 697
+      "line": 734
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 698
+      "line": 735
     },
     "80": {
       "filename": "Mediator.code",
-      "line": 699
+      "line": 736
     },
     "96": {
       "filename": "Mediator.code",
-      "line": 700
+      "line": 737
     },
     "104": {
       "filename": "Mediator.code",
-      "line": 701
+      "line": 738
     },
     "112": {
       "filename": "Mediator.code",
-      "line": 702
+      "line": 739
     },
     "120": {
       "filename": "Mediator.code",
-      "line": 703
+      "line": 740
     },
     "136": {
       "filename": "Mediator.code",
-      "line": 704
+      "line": 741
     },
     "152": {
       "filename": "Mediator.code",
-      "line": 705
+      "line": 742
     },
     "160": {
       "filename": "Mediator.code",
-      "line": 706
+      "line": 743
     },
     "176": {
       "filename": "Mediator.code",
-      "line": 707
+      "line": 744
     },
     "192": {
       "filename": "Mediator.code",
-      "line": 708
+      "line": 745
     },
     "208": {
       "filename": "Mediator.code",
-      "line": 709
+      "line": 746
     },
     "224": {
       "filename": "Mediator.code",
-      "line": 710
+      "line": 747
     }
   },
-  "0d4862cca716f8541f673c1194911d27b643f63543e107722f64229f321a0dd2": {
+  "08103602c3e5b7349a5ac4173c4b50fa2f4385fb6d668c6590ed27540235accd": {
     "0": {
-      "filename": "Mediator.code",
-      "line": 790
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "16": {
-      "filename": "Mediator.code",
-      "line": 791
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
-    "24": {
-      "filename": "Mediator.code",
-      "line": 792
+    "32": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
-    "40": {
-      "filename": "Mediator.code",
-      "line": 793
+    "48": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
-    "56": {
-      "filename": "Mediator.code",
-      "line": 794
+    "64": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "72": {
-      "filename": "Mediator.code",
-      "line": 795
-    },
-    "80": {
-      "filename": "Mediator.code",
-      "line": 796
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "88": {
-      "filename": "Mediator.code",
-      "line": 797
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
+    },
+    "96": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "104": {
-      "filename": "Mediator.code",
-      "line": 798
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "120": {
-      "filename": "Mediator.code",
-      "line": 799
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
-    "128": {
-      "filename": "Mediator.code",
-      "line": 800
+    "136": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
-    "144": {
-      "filename": "Mediator.code",
-      "line": 801
+    "152": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
-    "168": {
-      "filename": "Mediator.code",
-      "line": 802
+    "160": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "176": {
-      "filename": "Mediator.code",
-      "line": 803
-    },
-    "184": {
-      "filename": "Mediator.code",
-      "line": 804
-    },
-    "200": {
-      "filename": "Mediator.code",
-      "line": 805
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "216": {
-      "filename": "Mediator.code",
-      "line": 809
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     },
     "224": {
-      "filename": "Mediator.code",
-      "line": 810
-    },
-    "248": {
-      "filename": "Mediator.code",
-      "line": 811
-    },
-    "264": {
-      "filename": "Mediator.code",
-      "line": 812
-    },
-    "272": {
-      "filename": "Mediator.code",
-      "line": 813
-    },
-    "288": {
-      "filename": "Mediator.code",
-      "line": 817
-    },
-    "296": {
-      "filename": "Mediator.code",
-      "line": 818
-    },
-    "312": {
-      "filename": "Mediator.code",
-      "line": 821
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 62
     }
   },
   "10fd524fbb51e9644413cd1d57fe98b3abc23de66980bc7c3bb0f00d1104947b": {
     "0": {
       "filename": "Mediator.code",
-      "line": 397
+      "line": 408
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 398
+      "line": 409
     },
     "24": {
       "filename": "Mediator.code",
-      "line": 399
+      "line": 410
     },
     "48": {
       "filename": "Mediator.code",
-      "line": 400
+      "line": 411
     },
     "64": {
       "filename": "Mediator.code",
-      "line": 401
+      "line": 412
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 402
+      "line": 413
     },
     "88": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 173
+      "line": 177
     },
     "96": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 173
+      "line": 177
     },
     "104": {
       "filename": "Mediator.code",
-      "line": 409
+      "line": 420
     },
     "120": {
       "filename": "Mediator.code",
-      "line": 412
+      "line": 423
     },
     "136": {
       "filename": "Mediator.code",
-      "line": 415
+      "line": 426
     }
   },
   "1dd9d4c2075cad88e871f723f6a56a8342228ee10c4e77f6ffbdfa4b473e8a7f": {
@@ -272,123 +240,309 @@
     },
     "192": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "208": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "224": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "240": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "248": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "256": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "264": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "272": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "280": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "296": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "304": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 176
+      "line": 180
     },
     "312": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 182
+      "line": 186
     },
     "320": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 182
+      "line": 186
     },
     "336": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "344": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "352": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "360": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "400": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "416": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "424": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "440": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "448": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "456": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "472": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "480": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "496": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 183
+      "line": 187
     },
     "512": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 185
+      "line": 189
     },
     "560": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 185
+      "line": 189
     },
     "576": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 185
+      "line": 189
     }
   },
-  "31d10c6071c0bb99bc60b708fd93983aa21e20fd47e333af2244b42d97ecffb8": {
+  "1f6a98273a961a6f844fedd7e2834d20bba56e0ee5d593db1b99ae5335e91f6c": {
     "0": {
+      "filename": "<entry-selector>",
+      "line": 1
+    },
+    "8": {
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
+    },
+    "48": {
+      "filename": "<entry-selector>",
+      "line": 5
+    },
+    "56": {
+      "filename": "<entry-selector>",
+      "line": 6
+    },
+    "72": {
+      "filename": "<entry-selector>",
+      "line": 7
+    },
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
+    },
+    "128": {
+      "filename": "<entry-selector>",
+      "line": 11
+    }
+  },
+  "39b037a178812ba2711dfe6e905f26052e70149f0622e8be5662456d934817b2": {
+    "0": {
+      "filename": "Mediator.code",
+      "line": 1694
+    },
+    "8": {
+      "filename": "Mediator.code",
+      "line": 1695
+    },
+    "56": {
+      "filename": "Mediator.code",
+      "line": 1696
+    },
+    "64": {
+      "filename": "Mediator.code",
+      "line": 1697
+    },
+    "80": {
+      "filename": "Mediator.code",
+      "line": 1700
+    },
+    "88": {
+      "filename": "Mediator.code",
+      "line": 1701
+    },
+    "136": {
+      "filename": "Mediator.code",
+      "line": 1702
+    },
+    "144": {
+      "filename": "Mediator.code",
+      "line": 1703
+    },
+    "160": {
+      "filename": "Mediator.code",
+      "line": 1706
+    },
+    "168": {
+      "filename": "Mediator.code",
+      "line": 1707
+    },
+    "216": {
+      "filename": "Mediator.code",
+      "line": 1708
+    },
+    "224": {
+      "filename": "Mediator.code",
+      "line": 1709
+    },
+    "240": {
+      "filename": "Mediator.code",
+      "line": 1712
+    },
+    "248": {
+      "filename": "Mediator.code",
+      "line": 1713
+    },
+    "296": {
+      "filename": "Mediator.code",
+      "line": 1714
+    },
+    "304": {
+      "filename": "Mediator.code",
+      "line": 1715
+    }
+  },
+  "3a7bbe1bc4331c38e5b4076b3015b1d87b473215cea5ec022d99c7533f7e6697": {
+    "0": {
+      "filename": "Mediator.code",
+      "line": 792
+    },
+    "16": {
+      "filename": "Mediator.code",
+      "line": 793
+    },
+    "32": {
+      "filename": "Mediator.code",
+      "line": 794
+    },
+    "48": {
+      "filename": "Mediator.code",
+      "line": 795
+    },
+    "64": {
+      "filename": "Mediator.code",
+      "line": 796
+    },
+    "80": {
+      "filename": "Mediator.code",
+      "line": 797
+    },
+    "88": {
+      "filename": "Mediator.code",
+      "line": 798
+    },
+    "104": {
+      "filename": "Mediator.code",
+      "line": 799
+    },
+    "120": {
+      "filename": "Mediator.code",
+      "line": 800
+    },
+    "136": {
+      "filename": "Mediator.code",
+      "line": 801
+    },
+    "144": {
+      "filename": "Mediator.code",
+      "line": 802
+    },
+    "152": {
+      "filename": "Mediator.code",
+      "line": 803
+    },
+    "160": {
+      "filename": "Mediator.code",
+      "line": 804
+    },
+    "176": {
+      "filename": "Mediator.code",
+      "line": 805
+    },
+    "184": {
+      "filename": "Mediator.code",
+      "line": 806
+    },
+    "192": {
+      "filename": "Mediator.code",
+      "line": 807
+    },
+    "200": {
+      "filename": "Mediator.code",
+      "line": 808
+    }
+  },
+  "3dbe47f6c5c8fcf584fd3016bd8c0ab4091652895af5a8c4e482784fbc33a727": {
+    "0": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 141
+    },
+    "8": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
       "line": 141
     },
@@ -396,7 +550,7 @@
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
       "line": 141
     },
-    "24": {
+    "32": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
       "line": 141
     },
@@ -410,167 +564,55 @@
     },
     "64": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
+      "line": 145
+    },
+    "80": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
+    },
+    "88": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
+    },
+    "104": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
     },
     "112": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
+      "line": 145
     },
     "128": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
-    },
-    "136": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
+      "line": 145
     },
     "144": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
+      "line": 145
     },
     "160": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
-    },
-    "168": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 141
-    }
-  },
-  "39b037a178812ba2711dfe6e905f26052e70149f0622e8be5662456d934817b2": {
-    "0": {
-      "filename": "Mediator.code",
-      "line": 1657
-    },
-    "8": {
-      "filename": "Mediator.code",
-      "line": 1658
-    },
-    "56": {
-      "filename": "Mediator.code",
-      "line": 1659
-    },
-    "64": {
-      "filename": "Mediator.code",
-      "line": 1660
-    },
-    "80": {
-      "filename": "Mediator.code",
-      "line": 1663
-    },
-    "88": {
-      "filename": "Mediator.code",
-      "line": 1664
-    },
-    "136": {
-      "filename": "Mediator.code",
-      "line": 1665
-    },
-    "144": {
-      "filename": "Mediator.code",
-      "line": 1666
-    },
-    "160": {
-      "filename": "Mediator.code",
-      "line": 1669
-    },
-    "168": {
-      "filename": "Mediator.code",
-      "line": 1670
-    },
-    "216": {
-      "filename": "Mediator.code",
-      "line": 1671
-    },
-    "224": {
-      "filename": "Mediator.code",
-      "line": 1672
-    },
-    "240": {
-      "filename": "Mediator.code",
-      "line": 1675
-    },
-    "248": {
-      "filename": "Mediator.code",
-      "line": 1676
-    },
-    "296": {
-      "filename": "Mediator.code",
-      "line": 1677
-    },
-    "304": {
-      "filename": "Mediator.code",
-      "line": 1678
-    }
-  },
-  "3a7bbe1bc4331c38e5b4076b3015b1d87b473215cea5ec022d99c7533f7e6697": {
-    "0": {
-      "filename": "Mediator.code",
-      "line": 755
-    },
-    "16": {
-      "filename": "Mediator.code",
-      "line": 756
-    },
-    "32": {
-      "filename": "Mediator.code",
-      "line": 757
-    },
-    "48": {
-      "filename": "Mediator.code",
-      "line": 758
-    },
-    "64": {
-      "filename": "Mediator.code",
-      "line": 759
-    },
-    "80": {
-      "filename": "Mediator.code",
-      "line": 760
-    },
-    "88": {
-      "filename": "Mediator.code",
-      "line": 761
-    },
-    "104": {
-      "filename": "Mediator.code",
-      "line": 762
-    },
-    "120": {
-      "filename": "Mediator.code",
-      "line": 763
-    },
-    "136": {
-      "filename": "Mediator.code",
-      "line": 764
-    },
-    "144": {
-      "filename": "Mediator.code",
-      "line": 765
-    },
-    "152": {
-      "filename": "Mediator.code",
-      "line": 766
-    },
-    "160": {
-      "filename": "Mediator.code",
-      "line": 767
+      "line": 145
     },
     "176": {
-      "filename": "Mediator.code",
-      "line": 768
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
     },
     "184": {
-      "filename": "Mediator.code",
-      "line": 769
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
     },
     "192": {
-      "filename": "Mediator.code",
-      "line": 770
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
     },
-    "200": {
-      "filename": "Mediator.code",
-      "line": 771
+    "208": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
+    },
+    "216": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 145
     }
   },
   "43eec3857cc5dd0c7c03dc4636aa055a87f5d626da614fc2b594cb8ceecd3c4b": {
@@ -656,63 +698,63 @@
   "4fc08390c6a810ba84ee9f991425f0d07e0a5a58532e0b2f6dfd0c9496292345": {
     "0": {
       "filename": "Mediator.code",
-      "line": 874
+      "line": 911
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 875
+      "line": 912
     },
     "16": {
       "filename": "Mediator.code",
-      "line": 876
+      "line": 913
     },
     "32": {
       "filename": "Mediator.code",
-      "line": 879
+      "line": 916
     },
     "48": {
       "filename": "Mediator.code",
-      "line": 880
+      "line": 917
     },
     "56": {
       "filename": "Mediator.code",
-      "line": 881
+      "line": 918
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 882
+      "line": 919
     },
     "232": {
       "filename": "Mediator.code",
-      "line": 883
+      "line": 920
     },
     "240": {
       "filename": "Mediator.code",
-      "line": 884
+      "line": 921
     },
     "248": {
       "filename": "Mediator.code",
-      "line": 885
+      "line": 922
     },
     "256": {
       "filename": "Mediator.code",
-      "line": 886
+      "line": 923
     },
     "264": {
       "filename": "Mediator.code",
-      "line": 887
+      "line": 924
     },
     "272": {
       "filename": "Mediator.code",
-      "line": 888
+      "line": 925
     },
     "288": {
       "filename": "Mediator.code",
-      "line": 890
+      "line": 927
     },
     "296": {
       "filename": "Mediator.code",
-      "line": 891
+      "line": 928
     }
   },
   "5906d4d2eadda35333f44b0e40c0e3b505c308628c531aca85e486a4dcc6c8e0": {
@@ -890,39 +932,39 @@
   "5b1df6e0f936d853f95e1eb271d383319ca8c74fecad68b5bddb679825ceed76": {
     "0": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "16": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "24": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "40": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "56": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "72": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "80": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "96": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     },
     "104": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 161
+      "line": 165
     }
   },
   "5b8a67731c1cb79b1bdbba949a13e7c6d930792f9d8062cac94172df687ffdb3": {
@@ -999,72 +1041,316 @@
       "line": 39
     }
   },
+  "5cb82375821100967bc0fab525be6c6a84a11b5156678902dcab40052a960f2d": {
+    "0": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 22
+    },
+    "16": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 68
+    },
+    "24": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 68
+    },
+    "32": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 68
+    },
+    "48": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 68
+    },
+    "64": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 68
+    },
+    "72": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 68
+    },
+    "88": {
+      "filename": "Mediator.code",
+      "line": 197
+    }
+  },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 46
     }
   },
   "63e466b828a4505dd77d5daea4791a74849c8aa8d267f9314104847192c8739b": {
     "0": {
       "filename": "Mediator.code",
-      "line": 914
+      "line": 951
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 915
+      "line": 952
     },
     "16": {
       "filename": "Mediator.code",
-      "line": 916
+      "line": 953
     },
     "32": {
       "filename": "Mediator.code",
-      "line": 919
+      "line": 956
     },
     "48": {
       "filename": "Mediator.code",
-      "line": 920
+      "line": 957
     },
     "56": {
       "filename": "Mediator.code",
-      "line": 921
+      "line": 958
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 922
+      "line": 959
     },
     "232": {
       "filename": "Mediator.code",
-      "line": 923
+      "line": 960
     },
     "240": {
       "filename": "Mediator.code",
-      "line": 924
+      "line": 961
     },
     "248": {
       "filename": "Mediator.code",
-      "line": 925
+      "line": 962
     },
     "256": {
       "filename": "Mediator.code",
-      "line": 926
+      "line": 963
     },
     "264": {
       "filename": "Mediator.code",
-      "line": 927
+      "line": 964
     },
     "272": {
       "filename": "Mediator.code",
-      "line": 928
+      "line": 965
     },
     "288": {
       "filename": "Mediator.code",
-      "line": 930
+      "line": 967
     },
     "296": {
       "filename": "Mediator.code",
-      "line": 931
+      "line": 968
+    }
+  },
+  "669dd495f48795d93b1e6266f0fe34f00888fbfc550fcf084ad732280b592c51": {
+    "0": {
+      "filename": "Mediator.code",
+      "line": 862
+    },
+    "16": {
+      "filename": "Mediator.code",
+      "line": 863
+    },
+    "24": {
+      "filename": "Mediator.code",
+      "line": 864
+    },
+    "40": {
+      "filename": "Mediator.code",
+      "line": 865
+    },
+    "56": {
+      "filename": "Mediator.code",
+      "line": 866
+    },
+    "72": {
+      "filename": "Mediator.code",
+      "line": 867
+    },
+    "80": {
+      "filename": "Mediator.code",
+      "line": 870
+    },
+    "96": {
+      "filename": "Mediator.code",
+      "line": 871
+    },
+    "104": {
+      "filename": "Mediator.code",
+      "line": 872
+    },
+    "120": {
+      "filename": "Mediator.code",
+      "line": 875
+    },
+    "136": {
+      "filename": "Mediator.code",
+      "line": 876
+    },
+    "144": {
+      "filename": "Mediator.code",
+      "line": 877
+    },
+    "160": {
+      "filename": "Mediator.code",
+      "line": 878
+    },
+    "176": {
+      "filename": "Mediator.code",
+      "line": 879
+    },
+    "192": {
+      "filename": "Mediator.code",
+      "line": 880
+    },
+    "200": {
+      "filename": "Mediator.code",
+      "line": 881
+    },
+    "216": {
+      "filename": "Mediator.code",
+      "line": 882
+    },
+    "224": {
+      "filename": "Mediator.code",
+      "line": 883
+    },
+    "232": {
+      "filename": "Mediator.code",
+      "line": 884
+    },
+    "240": {
+      "filename": "Mediator.code",
+      "line": 885
+    },
+    "248": {
+      "filename": "Mediator.code",
+      "line": 886
+    },
+    "264": {
+      "filename": "Mediator.code",
+      "line": 887
+    },
+    "272": {
+      "filename": "Mediator.code",
+      "line": 888
+    },
+    "288": {
+      "filename": "Mediator.code",
+      "line": 889
+    },
+    "296": {
+      "filename": "Mediator.code",
+      "line": 890
+    },
+    "312": {
+      "filename": "Mediator.code",
+      "line": 891
+    },
+    "328": {
+      "filename": "Mediator.code",
+      "line": 892
+    },
+    "344": {
+      "filename": "Mediator.code",
+      "line": 894
+    },
+    "352": {
+      "filename": "Mediator.code",
+      "line": 895
+    },
+    "368": {
+      "filename": "Mediator.code",
+      "line": 896
+    },
+    "376": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "392": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "400": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "408": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "424": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "432": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "448": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "472": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "480": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "520": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "528": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "536": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "552": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "568": {
+      "filename": "Mediator.code",
+      "line": 898
+    },
+    "584": {
+      "filename": "Mediator.code",
+      "line": 899
+    },
+    "592": {
+      "filename": "Mediator.code",
+      "line": 900
+    },
+    "608": {
+      "filename": "Mediator.code",
+      "line": 901
+    },
+    "616": {
+      "filename": "Mediator.code",
+      "line": 902
+    },
+    "632": {
+      "filename": "Mediator.code",
+      "line": 903
+    },
+    "648": {
+      "filename": "Mediator.code",
+      "line": 904
+    },
+    "656": {
+      "filename": "Mediator.code",
+      "line": 905
+    },
+    "672": {
+      "filename": "Mediator.code",
+      "line": 908
     }
   },
   "7485b35054111b4a3d0a1ee080a545c56b3c7da7d80b040835eed7eafb9a2ff8": {
@@ -1204,27 +1490,27 @@
   "792aa31a9497141472127de14f0038505d08d2ed05addc95a1c7ebd541d9a100": {
     "0": {
       "filename": "Mediator.code",
-      "line": 588
+      "line": 599
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 589
+      "line": 600
     },
     "24": {
       "filename": "Mediator.code",
-      "line": 590
+      "line": 601
     },
     "48": {
       "filename": "Mediator.code",
-      "line": 591
+      "line": 602
     },
     "64": {
       "filename": "Mediator.code",
-      "line": 592
+      "line": 603
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 593
+      "line": 604
     },
     "88": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
@@ -1232,15 +1518,163 @@
     },
     "96": {
       "filename": "Mediator.code",
-      "line": 599
+      "line": 610
     },
     "112": {
       "filename": "Mediator.code",
-      "line": 602
+      "line": 613
     },
     "128": {
       "filename": "Mediator.code",
-      "line": 605
+      "line": 616
+    }
+  },
+  "792c4ff6f91a06f4de4a87d140faaade0e3d96c865512e1e5d014a8647f6eebe": {
+    "0": {
+      "filename": "Mediator.code",
+      "line": 827
+    },
+    "16": {
+      "filename": "Mediator.code",
+      "line": 828
+    },
+    "24": {
+      "filename": "Mediator.code",
+      "line": 829
+    },
+    "40": {
+      "filename": "Mediator.code",
+      "line": 830
+    },
+    "56": {
+      "filename": "Mediator.code",
+      "line": 831
+    },
+    "72": {
+      "filename": "Mediator.code",
+      "line": 832
+    },
+    "80": {
+      "filename": "Mediator.code",
+      "line": 833
+    },
+    "88": {
+      "filename": "Mediator.code",
+      "line": 834
+    },
+    "104": {
+      "filename": "Mediator.code",
+      "line": 835
+    },
+    "120": {
+      "filename": "Mediator.code",
+      "line": 836
+    },
+    "128": {
+      "filename": "Mediator.code",
+      "line": 837
+    },
+    "144": {
+      "filename": "Mediator.code",
+      "line": 838
+    },
+    "168": {
+      "filename": "Mediator.code",
+      "line": 839
+    },
+    "176": {
+      "filename": "Mediator.code",
+      "line": 840
+    },
+    "184": {
+      "filename": "Mediator.code",
+      "line": 841
+    },
+    "200": {
+      "filename": "Mediator.code",
+      "line": 842
+    },
+    "216": {
+      "filename": "Mediator.code",
+      "line": 846
+    },
+    "224": {
+      "filename": "Mediator.code",
+      "line": 847
+    },
+    "248": {
+      "filename": "Mediator.code",
+      "line": 848
+    },
+    "264": {
+      "filename": "Mediator.code",
+      "line": 849
+    },
+    "272": {
+      "filename": "Mediator.code",
+      "line": 850
+    },
+    "288": {
+      "filename": "Mediator.code",
+      "line": 854
+    },
+    "296": {
+      "filename": "Mediator.code",
+      "line": 855
+    },
+    "312": {
+      "filename": "Mediator.code",
+      "line": 858
+    }
+  },
+  "7c2204b5e1edf1b8290f72080686e6429a76416ed15cc64ce27d6da6910523bf": {
+    "0": {
+      "filename": "Mediator.code",
+      "line": 1661
+    },
+    "8": {
+      "filename": "Mediator.code",
+      "line": 1662
+    },
+    "56": {
+      "filename": "Mediator.code",
+      "line": 1663
+    },
+    "64": {
+      "filename": "Mediator.code",
+      "line": 1664
+    },
+    "80": {
+      "filename": "Mediator.code",
+      "line": 1690
+    },
+    "88": {
+      "filename": "Mediator.code",
+      "line": 1691
+    },
+    "136": {
+      "filename": "Mediator.code",
+      "line": 1692
+    },
+    "144": {
+      "filename": "Mediator.code",
+      "line": 1693
+    },
+    "160": {
+      "filename": "Mediator.code",
+      "line": 1719
+    },
+    "168": {
+      "filename": "Mediator.code",
+      "line": 1720
+    },
+    "216": {
+      "filename": "Mediator.code",
+      "line": 1721
+    },
+    "224": {
+      "filename": "Mediator.code",
+      "line": 1722
     }
   },
   "83bf894c56150b14ae82236116a1e1af54ddb37fe8037d4f3322a68a10b7b3ea": {
@@ -1420,160 +1854,66 @@
       "line": 233
     }
   },
-  "9c5795222200576a4c5132cba7164be49e045692bfaf24633362ba66838132c8": {
-    "0": {
-      "filename": "Mediator.code",
-      "line": 148
-    },
-    "8": {
-      "filename": "Mediator.code",
-      "line": 149
-    },
-    "24": {
-      "filename": "Mediator.code",
-      "line": 150
-    },
-    "48": {
-      "filename": "Mediator.code",
-      "line": 151
-    },
-    "64": {
-      "filename": "Mediator.code",
-      "line": 152
-    },
-    "72": {
-      "filename": "Mediator.code",
-      "line": 153
-    },
-    "88": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "96": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "104": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "120": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "136": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "144": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "152": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "160": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "168": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "184": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "200": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "208": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "224": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "240": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 62
-    },
-    "248": {
-      "filename": "Mediator.code",
-      "line": 174
-    },
-    "264": {
-      "filename": "Mediator.code",
-      "line": 177
-    },
-    "280": {
-      "filename": "Mediator.code",
-      "line": 180
-    }
-  },
   "a2b910947a9fb58bb82c015e8483129dd538a89974cc08e355a04f1c929ad187": {
     "0": {
       "filename": "Mediator.code",
-      "line": 894
+      "line": 931
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 895
+      "line": 932
     },
     "16": {
       "filename": "Mediator.code",
-      "line": 896
+      "line": 933
     },
     "32": {
       "filename": "Mediator.code",
-      "line": 899
+      "line": 936
     },
     "48": {
       "filename": "Mediator.code",
-      "line": 900
+      "line": 937
     },
     "56": {
       "filename": "Mediator.code",
-      "line": 901
+      "line": 938
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 902
+      "line": 939
     },
     "232": {
       "filename": "Mediator.code",
-      "line": 903
+      "line": 940
     },
     "240": {
       "filename": "Mediator.code",
-      "line": 904
+      "line": 941
     },
     "248": {
       "filename": "Mediator.code",
-      "line": 905
+      "line": 942
     },
     "264": {
       "filename": "Mediator.code",
-      "line": 906
+      "line": 943
     },
     "272": {
       "filename": "Mediator.code",
-      "line": 907
+      "line": 944
     },
     "280": {
       "filename": "Mediator.code",
-      "line": 908
+      "line": 945
     },
     "296": {
       "filename": "Mediator.code",
-      "line": 910
+      "line": 947
     },
     "304": {
       "filename": "Mediator.code",
-      "line": 911
+      "line": 948
     }
   },
   "a3f8a2848a48331a8409c7fe3ab85980180c3279d618371434b0f8e11d790853": {
@@ -1862,76 +2202,30 @@
       "line": 353
     }
   },
-  "abae6a19f2c877f6857a9e749731d4786eb8ea41cd6a4eb5eb20b77023b20a1b": {
-    "0": {
-      "filename": "<entry-selector>",
-      "line": 1
-    },
-    "8": {
-      "filename": "<entry-selector>",
-      "line": 2
-    },
-    "24": {
-      "filename": "<entry-selector>",
-      "line": 3
-    },
-    "32": {
-      "filename": "<entry-selector>",
-      "line": 4
-    },
-    "48": {
-      "filename": "<entry-selector>",
-      "line": 5
-    },
-    "56": {
-      "filename": "<entry-selector>",
-      "line": 6
-    },
-    "72": {
-      "filename": "<entry-selector>",
-      "line": 7
-    },
-    "88": {
-      "filename": "<entry-selector>",
-      "line": 8
-    },
-    "96": {
-      "filename": "<entry-selector>",
-      "line": 9
-    },
-    "112": {
-      "filename": "<entry-selector>",
-      "line": 10
-    },
-    "128": {
-      "filename": "<entry-selector>",
-      "line": 11
-    }
-  },
   "bb7330ead147e846edeaa5ef39d0c9009e0524c35a0b07a5de082309b5c91ac5": {
     "0": {
       "filename": "Mediator.code",
-      "line": 531
+      "line": 542
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 532
+      "line": 543
     },
     "24": {
       "filename": "Mediator.code",
-      "line": 533
+      "line": 544
     },
     "48": {
       "filename": "Mediator.code",
-      "line": 534
+      "line": 545
     },
     "64": {
       "filename": "Mediator.code",
-      "line": 535
+      "line": 546
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 536
+      "line": 547
     },
     "88": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
@@ -1967,483 +2261,175 @@
     },
     "160": {
       "filename": "Mediator.code",
-      "line": 550
+      "line": 561
     },
     "176": {
       "filename": "Mediator.code",
-      "line": 553
+      "line": 564
     },
     "192": {
       "filename": "Mediator.code",
-      "line": 556
+      "line": 567
     }
   },
   "bbad19817520be9f9143a37c7501c1aad7c6ff9b4540492ea31b00f2857dcf63": {
     "0": {
       "filename": "Mediator.code",
-      "line": 1628
+      "line": 1665
     },
     "8": {
       "filename": "Mediator.code",
-      "line": 1629
+      "line": 1666
     },
     "56": {
       "filename": "Mediator.code",
-      "line": 1630
+      "line": 1667
     },
     "64": {
       "filename": "Mediator.code",
-      "line": 1631
+      "line": 1668
     },
     "80": {
       "filename": "Mediator.code",
-      "line": 1634
+      "line": 1671
     },
     "88": {
       "filename": "Mediator.code",
-      "line": 1635
+      "line": 1672
     },
     "136": {
       "filename": "Mediator.code",
-      "line": 1636
+      "line": 1673
     },
     "144": {
       "filename": "Mediator.code",
-      "line": 1637
+      "line": 1674
     },
     "160": {
       "filename": "Mediator.code",
-      "line": 1640
+      "line": 1677
     },
     "168": {
       "filename": "Mediator.code",
-      "line": 1641
+      "line": 1678
     },
     "216": {
       "filename": "Mediator.code",
-      "line": 1642
+      "line": 1679
     },
     "224": {
       "filename": "Mediator.code",
-      "line": 1643
+      "line": 1680
     },
     "240": {
       "filename": "Mediator.code",
-      "line": 1646
+      "line": 1683
     },
     "248": {
       "filename": "Mediator.code",
-      "line": 1647
+      "line": 1684
     },
     "296": {
       "filename": "Mediator.code",
-      "line": 1648
+      "line": 1685
     },
     "304": {
       "filename": "Mediator.code",
-      "line": 1649
+      "line": 1686
     }
   },
-  "bffcc322c949601579a737aa3aeeea372482b55434dffdb1519aaf04fc9a3da9": {
+  "c04b392536e35fe607683c80f8bff3b2646891defe078a28aec111567e10d60d": {
     "0": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 82
+      "filename": "Mediator.code",
+      "line": 148
     },
-    "16": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 82
+    "8": {
+      "filename": "Mediator.code",
+      "line": 149
     },
     "24": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 82
-    },
-    "40": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 82
+      "filename": "Mediator.code",
+      "line": 150
     },
     "48": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 82
-    },
-    "56": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "filename": "Mediator.code",
+      "line": 151
     },
     "64": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "filename": "Mediator.code",
+      "line": 152
     },
-    "80": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+    "72": {
+      "filename": "Mediator.code",
+      "line": 153
     },
     "88": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "line": 62
+    },
+    "96": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 62
     },
     "104": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "line": 62
     },
-    "128": {
+    "120": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "line": 62
+    },
+    "136": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 62
     },
     "144": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "line": 62
     },
     "152": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 84
+      "line": 62
     },
     "160": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 90
+      "line": 62
     },
-    "176": {
+    "168": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 90
+      "line": 62
     },
-    "192": {
+    "184": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 90
+      "line": 62
+    },
+    "200": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 62
     },
     "208": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 92
-    },
-    "216": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 92
-    },
-    "232": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 92
-    },
-    "240": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 92
-    },
-    "256": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 92
-    },
-    "264": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 92
-    },
-    "280": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "296": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "304": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "320": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "336": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "344": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "360": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "368": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "384": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "400": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "408": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 93
-    },
-    "424": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 95
-    },
-    "440": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 95
-    },
-    "464": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 95
-    },
-    "480": {
-      "filename": "Mediator.code",
-      "line": 255
-    },
-    "488": {
-      "filename": "Mediator.code",
-      "line": 257
-    },
-    "496": {
-      "filename": "Mediator.code",
-      "line": 259
-    }
-  },
-  "d233e418c51712bae72e0762b5ce593112f132869632b444f2e633c580314c3f": {
-    "0": {
-      "filename": "Mediator.code",
-      "line": 825
-    },
-    "16": {
-      "filename": "Mediator.code",
-      "line": 826
-    },
-    "24": {
-      "filename": "Mediator.code",
-      "line": 827
-    },
-    "40": {
-      "filename": "Mediator.code",
-      "line": 828
-    },
-    "56": {
-      "filename": "Mediator.code",
-      "line": 829
-    },
-    "72": {
-      "filename": "Mediator.code",
-      "line": 830
-    },
-    "80": {
-      "filename": "Mediator.code",
-      "line": 833
-    },
-    "96": {
-      "filename": "Mediator.code",
-      "line": 834
-    },
-    "104": {
-      "filename": "Mediator.code",
-      "line": 835
-    },
-    "120": {
-      "filename": "Mediator.code",
-      "line": 838
-    },
-    "136": {
-      "filename": "Mediator.code",
-      "line": 839
-    },
-    "144": {
-      "filename": "Mediator.code",
-      "line": 840
-    },
-    "160": {
-      "filename": "Mediator.code",
-      "line": 841
-    },
-    "176": {
-      "filename": "Mediator.code",
-      "line": 842
-    },
-    "192": {
-      "filename": "Mediator.code",
-      "line": 843
-    },
-    "200": {
-      "filename": "Mediator.code",
-      "line": 844
-    },
-    "216": {
-      "filename": "Mediator.code",
-      "line": 845
+      "line": 62
     },
     "224": {
-      "filename": "Mediator.code",
-      "line": 846
-    },
-    "232": {
-      "filename": "Mediator.code",
-      "line": 847
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 62
     },
     "240": {
-      "filename": "Mediator.code",
-      "line": 848
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 62
     },
     "248": {
       "filename": "Mediator.code",
-      "line": 849
+      "line": 174
     },
     "264": {
       "filename": "Mediator.code",
-      "line": 850
+      "line": 177
     },
-    "272": {
+    "280": {
       "filename": "Mediator.code",
-      "line": 851
-    },
-    "288": {
-      "filename": "Mediator.code",
-      "line": 852
-    },
-    "296": {
-      "filename": "Mediator.code",
-      "line": 853
-    },
-    "312": {
-      "filename": "Mediator.code",
-      "line": 854
-    },
-    "328": {
-      "filename": "Mediator.code",
-      "line": 855
-    },
-    "344": {
-      "filename": "Mediator.code",
-      "line": 857
-    },
-    "352": {
-      "filename": "Mediator.code",
-      "line": 858
-    },
-    "368": {
-      "filename": "Mediator.code",
-      "line": 859
-    },
-    "376": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "392": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "400": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "408": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "424": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "432": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "448": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "472": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "480": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "520": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "528": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "536": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "552": {
-      "filename": "stdlib.sol",
-      "line": 63
-    },
-    "568": {
-      "filename": "Mediator.code",
-      "line": 861
-    },
-    "584": {
-      "filename": "Mediator.code",
-      "line": 862
-    },
-    "592": {
-      "filename": "Mediator.code",
-      "line": 863
-    },
-    "608": {
-      "filename": "Mediator.code",
-      "line": 864
-    },
-    "616": {
-      "filename": "Mediator.code",
-      "line": 865
-    },
-    "632": {
-      "filename": "Mediator.code",
-      "line": 866
-    },
-    "648": {
-      "filename": "Mediator.code",
-      "line": 867
-    },
-    "656": {
-      "filename": "Mediator.code",
-      "line": 868
-    },
-    "672": {
-      "filename": "Mediator.code",
-      "line": 871
-    }
-  },
-  "d561e4eed49d6a1973e3ae3cb19e299393b28e8dbdd97f9c743862f2f8060ea6": {
-    "0": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 22
-    },
-    "16": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 68
-    },
-    "24": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 68
-    },
-    "32": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 68
-    },
-    "48": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 68
-    },
-    "64": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 68
-    },
-    "72": {
-      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 68
-    },
-    "88": {
-      "filename": "Mediator.code",
-      "line": 197
+      "line": 180
     }
   },
   "d78fd1915e92e63939d6d4b7f3bc535a368c11660d4c4ea1040f6a41a71c89d8": {
@@ -2619,127 +2605,127 @@
   "d910d6aa730dc49d24bbf3d37db9eedb75cf89f86a60f5af559af7a7b07a795d": {
     "0": {
       "filename": "Mediator.code",
-      "line": 713
+      "line": 750
     },
     "16": {
       "filename": "Mediator.code",
-      "line": 714
+      "line": 751
     },
     "24": {
       "filename": "Mediator.code",
-      "line": 715
+      "line": 752
     },
     "40": {
       "filename": "Mediator.code",
-      "line": 716
+      "line": 753
     },
     "56": {
       "filename": "Mediator.code",
-      "line": 717
+      "line": 754
     },
     "72": {
       "filename": "Mediator.code",
-      "line": 718
+      "line": 755
     },
     "80": {
       "filename": "Mediator.code",
-      "line": 719
+      "line": 756
     },
     "96": {
       "filename": "Mediator.code",
-      "line": 720
+      "line": 757
     },
     "104": {
       "filename": "Mediator.code",
-      "line": 721
+      "line": 758
     },
     "120": {
       "filename": "Mediator.code",
-      "line": 722
+      "line": 759
     },
     "128": {
       "filename": "Mediator.code",
-      "line": 725
+      "line": 762
     },
     "136": {
       "filename": "Mediator.code",
-      "line": 726
+      "line": 763
     },
     "144": {
       "filename": "Mediator.code",
-      "line": 727
+      "line": 764
     },
     "160": {
       "filename": "Mediator.code",
-      "line": 728
+      "line": 765
     },
     "176": {
       "filename": "Mediator.code",
-      "line": 729
+      "line": 766
     },
     "184": {
       "filename": "Mediator.code",
-      "line": 730
+      "line": 767
     },
     "208": {
       "filename": "Mediator.code",
-      "line": 732
+      "line": 769
     },
     "216": {
       "filename": "Mediator.code",
-      "line": 733
+      "line": 770
     },
     "224": {
       "filename": "Mediator.code",
-      "line": 735
+      "line": 772
     },
     "232": {
       "filename": "Mediator.code",
-      "line": 736
+      "line": 773
     },
     "240": {
       "filename": "Mediator.code",
-      "line": 739
+      "line": 776
     },
     "256": {
       "filename": "Mediator.code",
-      "line": 740
+      "line": 777
     },
     "272": {
       "filename": "Mediator.code",
-      "line": 741
+      "line": 778
     },
     "288": {
       "filename": "Mediator.code",
-      "line": 742
+      "line": 779
     },
     "304": {
       "filename": "Mediator.code",
-      "line": 743
+      "line": 780
     },
     "320": {
       "filename": "Mediator.code",
-      "line": 744
+      "line": 781
     },
     "336": {
       "filename": "Mediator.code",
-      "line": 745
+      "line": 782
     },
     "360": {
       "filename": "Mediator.code",
-      "line": 746
+      "line": 783
     },
     "376": {
       "filename": "Mediator.code",
-      "line": 747
+      "line": 784
     },
     "384": {
       "filename": "Mediator.code",
-      "line": 748
+      "line": 785
     },
     "400": {
       "filename": "Mediator.code",
-      "line": 750
+      "line": 787
     }
   },
   "e24ec1c309f47cd1025af5597f0448ceba89b3291953c0bd4630c16c06ee9d56": {
@@ -2756,150 +2742,258 @@
       "line": 3
     }
   },
-  "eebcf2ee968bdbb88b64ee61ce37cee6ebea77a1d1b2b402bf9d385f5893563f": {
-    "37": {
+  "e372cd9d7ebe720af176726544d2286a10ae36a546e3e505a4d77d39892b8984": {
+    "38": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "line": 195
     },
-    "45": {
+    "46": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "line": 195
     },
-    "53": {
+    "54": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "line": 195
     },
-    "61": {
+    "62": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "line": 195
     },
-    "77": {
+    "78": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "line": 195
     },
-    "93": {
+    "94": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 191
+      "line": 195
     },
-    "109": {
+    "110": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "117": {
+    "118": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "133": {
+    "134": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "141": {
+    "142": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "149": {
+    "150": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "157": {
+    "158": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "173": {
+    "174": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "189": {
+    "190": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "197": {
+    "198": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "205": {
+    "206": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "221": {
+    "222": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "237": {
+    "238": {
       "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
-      "line": 193
+      "line": 197
     },
-    "253": {
+    "254": {
       "filename": "Mediator.code",
-      "line": 496
+      "line": 507
     },
-    "269": {
+    "270": {
       "filename": "Mediator.code",
-      "line": 499
+      "line": 510
     },
-    "285": {
+    "286": {
       "filename": "Mediator.code",
-      "line": 500
+      "line": 511
+    }
+  },
+  "ee63d96dfa9a4123d713c8c49dde9c121919d38b957de9cfef446c6b60495776": {
+    "0": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 82
+    },
+    "16": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 82
+    },
+    "24": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 82
+    },
+    "40": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 82
+    },
+    "48": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 82
+    },
+    "56": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "64": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "80": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "88": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "104": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "128": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "144": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "152": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 84
+    },
+    "160": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 90
+    },
+    "176": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 90
+    },
+    "192": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 90
+    },
+    "208": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 92
+    },
+    "216": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 92
+    },
+    "232": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 92
+    },
+    "240": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 92
+    },
+    "256": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 92
+    },
+    "264": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 92
+    },
+    "280": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "296": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "304": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "320": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "336": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "344": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "360": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "368": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "384": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "400": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "408": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 93
+    },
+    "424": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 95
+    },
+    "440": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 95
+    },
+    "464": {
+      "filename": "contracts/bridge/hidden-bridge/mediator/Mediator.tsol",
+      "line": 95
+    },
+    "480": {
+      "filename": "Mediator.code",
+      "line": 255
+    },
+    "488": {
+      "filename": "Mediator.code",
+      "line": 257
+    },
+    "496": {
+      "filename": "Mediator.code",
+      "line": 259
     }
   },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
     "0": {
       "filename": "Mediator.code",
-      "line": 806
+      "line": 843
     },
     "16": {
       "filename": "Mediator.code",
-      "line": 807
-    }
-  },
-  "f80f05eb91596ea6de433ba49f26306599bf2e3c9da115e097e6bf554289dd71": {
-    "0": {
-      "filename": "Mediator.code",
-      "line": 1624
-    },
-    "8": {
-      "filename": "Mediator.code",
-      "line": 1625
-    },
-    "56": {
-      "filename": "Mediator.code",
-      "line": 1626
-    },
-    "64": {
-      "filename": "Mediator.code",
-      "line": 1627
-    },
-    "80": {
-      "filename": "Mediator.code",
-      "line": 1653
-    },
-    "88": {
-      "filename": "Mediator.code",
-      "line": 1654
-    },
-    "136": {
-      "filename": "Mediator.code",
-      "line": 1655
-    },
-    "144": {
-      "filename": "Mediator.code",
-      "line": 1656
-    },
-    "160": {
-      "filename": "Mediator.code",
-      "line": 1682
-    },
-    "168": {
-      "filename": "Mediator.code",
-      "line": 1683
-    },
-    "216": {
-      "filename": "Mediator.code",
-      "line": 1684
-    },
-    "224": {
-      "filename": "Mediator.code",
-      "line": 1685
+      "line": 844
     }
   },
   "f9cf078b1ee9bb5f8428c5cac6a83ef09103184df306b169e8f3e88359b5ef45": {

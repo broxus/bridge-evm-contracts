@@ -138,12 +138,16 @@ contract Mediator is
         address remainingGasTo,
         TvmCell payload
     ) internal pure {
+        uint128 callbackValue = payload.toSlice().empty()
+            ? 0
+            : _transferJettonsCallbackValue();
+
         JettonUtils.transferJettons(
             wallet,
             0,
             proxy,
             varUint16(amount),
-            0.1 ever, // todo fix later
+            varUint16(callbackValue),
             payload,
             remainingGasTo,
             0,

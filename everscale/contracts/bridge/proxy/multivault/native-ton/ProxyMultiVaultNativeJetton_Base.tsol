@@ -52,12 +52,16 @@ abstract contract ProxyMultiVaultNativeJetton_Base is
         address remainingGasTo,
         TvmCell payload
     ) internal pure {
+        uint128 callbackValue = payload.toSlice().empty()
+            ? 0
+            : _transferJettonsCallbackValue();
+
         JettonUtils.transferJettons(
             token_wallet,
             0,
             recipient,
             varUint16(amount),
-            0.1 ever, // todo fix
+            varUint16(callbackValue),
             payload,
             remainingGasTo,
             0,
