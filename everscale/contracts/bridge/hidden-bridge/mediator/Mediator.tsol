@@ -78,7 +78,7 @@ contract Mediator is
         address wallet,
         uint128 amount,
         address _tokenSender
-    ) internal view {
+    ) internal pure {
         (uint32 nonce, TvmCell payload) = abi.decode(payloadWithNonce, (uint32, TvmCell));
 
         (
@@ -91,7 +91,7 @@ contract Mediator is
 
         if (operation == Operation.BurnToAlienProxy || operation == Operation.BurnToMergePool) {
             _burn(wallet, amount, proxy, withdrawPayload);
-        } else if (operation == Operation.TransferToNativeProxy && _tokenSender == nativeProxy) {
+        } else if (operation == Operation.TransferToNativeProxy) {
             _transfer(wallet, amount, proxy, _tokenSender, withdrawPayload);
         }
     }
@@ -122,10 +122,33 @@ contract Mediator is
             (
                 , // ignore nonce
                 Network network,
-                TvmCell transferPayload
-            ) = abi.decode(payload, (uint32, Network, TvmCell));
+                TvmCell transferPayload,
+                string name,
+                string symbol,
+                uint8 decimals,
+                address token,
+                address remainingGasTo
+            ) = abi.decode(payload, (
+                uint32,
+                Network,
+                TvmCell,
+                string,
+                string,
+                uint8,
+                address,
+                address
+            ));
 
-            withdrawPayload = abi.encode(nonce, network, transferPayload);
+            withdrawPayload = abi.encode(
+                nonce,
+                network,
+                transferPayload,
+                name,
+                symbol,
+                decimals,
+                token,
+                remainingGasTo
+            );
         } else {
             revert(ErrorCodes.UNKNOWN_MEDIATOR_OPERATION);
         }

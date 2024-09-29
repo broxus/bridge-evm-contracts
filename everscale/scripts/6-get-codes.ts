@@ -42,6 +42,14 @@ const main = async () => {
   );
   const roundDeployer = await getNamedContract("RoundDeployer");
 
+  // Proxy vault
+  const proxyMultiVaultAlienJetton = await getNamedContract(
+    "ProxyMultiVaultAlienJetton"
+  );
+  const proxyMultiVaultNativeJetton = await getNamedContract(
+    "ProxyMultiVaultNativeJetton"
+  );
+
   // Load jetton
   const MINTER_CODE = Buffer.from(MinterCode.hex, "hex").toString("base64");
   const WALLET_CODE = Buffer.from(WalletCode.hex, "hex").toString("base64");
@@ -72,6 +80,9 @@ const main = async () => {
     jettonMinter,
     jettonWallet,
     jettonPlatform,
+
+    proxyMultiVaultAlienJetton,
+    proxyMultiVaultNativeJetton,
   ]) {
     console.log(contract.name);
     console.log(contract.code);

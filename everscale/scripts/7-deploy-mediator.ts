@@ -20,26 +20,17 @@ const main = async () => {
       validate: (value: any) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
-    {
-      type: "text",
-      name: "key",
-      message: "Backend public key",
-    },
   ]);
 
-  const AlienTokenWalletPlatform = locklift.factory.getContractArtifacts(
-    "AlienTokenWalletPlatform"
-  );
   const signer = (await locklift.keystore.getSigner("0"))!;
 
   const spinner = ora("Deploying mediator").start();
 
   const { contract: Mediator } = await locklift.factory.deployContract({
-    contract: "Mediator_V2",
+    contract: "Mediator",
     constructorParams: {
       _owner: new Address(response.owner),
       _nativeProxy: new Address(response.nativeProxy),
-      _alienTokenWalletPlatformCode: AlienTokenWalletPlatform.code,
     },
     initParams: { _randomNonce: locklift.utils.getRandomNonce() },
     value: locklift.utils.toNano(1.1),

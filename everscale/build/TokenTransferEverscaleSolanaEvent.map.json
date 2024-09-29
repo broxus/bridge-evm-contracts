@@ -2693,8 +2693,8 @@
   },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
-      "filename": "TokenTransferEverscaleSolanaEvent.code",
-      "line": 2489
+      "filename": "contracts/bridge/event-contracts/token-transfer/TokenTransferEverscaleSolanaEvent.tsol",
+      "line": 65
     }
   },
   "61cb26ac5461f7d41fccc51b0b7de2b63d61547576a6e9137c3393d8ab8193ae": {
