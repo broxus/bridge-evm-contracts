@@ -14,6 +14,7 @@ abstract contract ProxyMultiVaultNativeJetton_Base is
     TransferUtils
 {
     EVMConfiguration evmConfiguration;
+    SolanaConfiguration solanaConfiguration;
     uint8 api_version;
     address public dex_middleware;
 
@@ -33,9 +34,13 @@ abstract contract ProxyMultiVaultNativeJetton_Base is
         external
         view
         responsible
-        returns (EVMConfiguration)
+        returns (EVMConfiguration, SolanaConfiguration)
     {
-        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } evmConfiguration;
+        return {
+            value: 0,
+            bounce: false,
+            flag: MsgFlag.REMAINING_GAS
+        } (evmConfiguration, solanaConfiguration);
     }
 
     function setEVMConfiguration(
@@ -43,6 +48,13 @@ abstract contract ProxyMultiVaultNativeJetton_Base is
         address remainingGasTo
     ) override external onlyOwner cashBackTo(remainingGasTo) {
         evmConfiguration = _config;
+    }
+
+    function setSolanaConfiguration(
+        SolanaConfiguration _config,
+        address remainingGasTo
+    ) override external onlyOwner cashBackTo(remainingGasTo) {
+        solanaConfiguration = _config;
     }
 
     function _transferTokens(

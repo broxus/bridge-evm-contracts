@@ -10,10 +10,16 @@ interface IProxyMultiVaultNativeJetton is IEVMCallback, INetworks {
         address[] evmConfigurations;
     }
 
+    struct SolanaConfiguration {
+        address everscaleConfiguration;
+        address solanaConfiguration;
+    }
+
     // Settings
     function apiVersion() external view responsible returns(uint8);
-    function getConfiguration() external view responsible returns (EVMConfiguration);
+    function getConfiguration() external view responsible returns (EVMConfiguration, SolanaConfiguration);
     function setEVMConfiguration(EVMConfiguration _config, address gasBackAddress) external;
+    function setSolanaConfiguration(SolanaConfiguration _config, address gasBackAddress) external;
 
     // Events specification
     event EVMNativeTransfer(
