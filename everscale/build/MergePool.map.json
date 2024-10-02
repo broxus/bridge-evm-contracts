@@ -2,23 +2,23 @@
   "0300315e80fc38b12d8d49a0982964576bf5b7cb3dc9f1686fedfcac8dd30045": {
     "0": {
       "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 166
+      "line": 144
     },
     "16": {
       "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 166
+      "line": 144
     },
     "24": {
       "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 166
+      "line": 144
     },
     "32": {
       "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 166
+      "line": 144
     },
     "48": {
       "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 166
+      "line": 144
     }
   },
   "037f2083e318d03772cc61f33a825a1dbed681fe071d836127da72eedc285442": {
@@ -543,6 +543,264 @@
     "72": {
       "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
       "line": 449
+    }
+  },
+  "174754ffea19157e3021486025781ec9253d31f0a24d54107291b1e0cda836c9": {
+    "37": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "45": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "53": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "61": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "69": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "77": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "85": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "93": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "109": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "125": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "141": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "157": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "173": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "189": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
+    },
+    "205": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "213": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "229": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "245": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "261": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "277": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "293": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "301": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "317": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "325": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "333": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "341": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "349": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "365": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "381": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "389": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "397": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "405": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "421": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 110
+    },
+    "429": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 128
+    },
+    "445": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 128
+    },
+    "461": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 129
+    },
+    "477": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 129
+    },
+    "493": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 130
+    },
+    "509": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 130
+    },
+    "525": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 132
+    },
+    "549": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 132
+    },
+    "557": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 132
+    },
+    "573": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 132
+    },
+    "589": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 132
+    },
+    "605": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 133
+    },
+    "629": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 133
+    },
+    "645": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 133
+    },
+    "661": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 133
+    },
+    "677": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 133
+    },
+    "693": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "717": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "733": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "749": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "757": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "773": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "781": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 134
+    },
+    "797": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "805": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "813": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "829": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "845": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "861": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "877": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 136
+    },
+    "893": {
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 138
     }
   },
   "18a5b17f39f3acee3f16a1c18d96a3bb94039352b3ea54cd7daa0bbe37edcde3": {
@@ -3079,8 +3337,8 @@
   },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
-      "filename": "MergePool.code",
-      "line": 2265
+      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
+      "line": 108
     }
   },
   "69abcce515fd931c8645084e199640a970374ddba89083a0782a8c33dafc54e5": {
@@ -3931,264 +4189,6 @@
     "192": {
       "filename": "MergePool.code",
       "line": 434
-    }
-  },
-  "793193cb98b110d50758b1191763dd5b41506c4a0066a5ea53964b4b83103005": {
-    "40": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "48": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "56": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "64": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "72": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "80": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "88": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "96": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "112": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "128": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "144": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "160": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "176": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "192": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 108
-    },
-    "208": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "216": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "232": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "248": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "264": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "280": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "296": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "304": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "320": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "328": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "336": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "344": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "352": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "368": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "384": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "392": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "400": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "408": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "424": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 110
-    },
-    "432": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 128
-    },
-    "448": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 128
-    },
-    "464": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 129
-    },
-    "480": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 129
-    },
-    "496": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 130
-    },
-    "512": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 130
-    },
-    "528": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 132
-    },
-    "552": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 132
-    },
-    "560": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 132
-    },
-    "576": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 132
-    },
-    "592": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 132
-    },
-    "608": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 133
-    },
-    "632": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 133
-    },
-    "648": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 133
-    },
-    "664": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 133
-    },
-    "680": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 133
-    },
-    "696": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "720": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "736": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "752": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "760": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "776": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "784": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 134
-    },
-    "800": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "808": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "816": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "832": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "848": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "864": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "880": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 136
-    },
-    "896": {
-      "filename": "contracts/bridge/alien-token-merge/MergePool.tsol",
-      "line": 138
     }
   },
   "7d0b8f8c008bf2478a70205768c5b7250df7d33491f25f1e3dfcaf0e88b73383": {

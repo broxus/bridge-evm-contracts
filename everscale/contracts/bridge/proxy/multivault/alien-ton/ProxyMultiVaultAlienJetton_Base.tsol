@@ -29,9 +29,13 @@ abstract contract ProxyMultivaultAlienJetton is
         external
         view
         responsible
-        returns (EVMConfiguration)
+        returns (EVMConfiguration, SolanaConfiguration)
     {
-        return { value: 0, bounce: false, flag: MsgFlag.REMAINING_GAS } evmConfiguration;
+        return {
+            value: 0,
+            bounce: false,
+            flag: MsgFlag.REMAINING_GAS
+        } (evmConfiguration, solanaConfiguration);
     }
 
     function setEVMConfiguration(
@@ -39,6 +43,13 @@ abstract contract ProxyMultivaultAlienJetton is
         address remainingGasTo
     ) override external onlyOwner cashBackTo(remainingGasTo) {
         evmConfiguration = _config;
+    }
+
+    function setSolanaConfiguration(
+        SolanaConfiguration _config,
+        address remainingGasTo
+    ) override external onlyOwner cashBackTo(remainingGasTo) {
+        solanaConfiguration = _config;
     }
 
     /// @notice Set merge manager
