@@ -3,8 +3,6 @@ import { Address } from "locklift";
 import { TransactionParameter } from "locklift/types";
 import { WaitFinalizedOutput } from "locklift/internal/tracing/types";
 
-const logger = require("mocha-logger");
-
 export enum EventType {
   EthereumEverscale,
   EverscaleEthereum,
@@ -44,7 +42,7 @@ export const processEvent = async (
   for (const [relayId, relay] of Object.entries(
     relays.slice(0, requiredVotes)
   )) {
-    logger.log(`Confirm #${relayId} from ${relay.publicKey}`);
+    console.log(`Confirm #${relayId} from ${relay.publicKey}`);
 
     locklift.keystore.addKeyPair(relay);
 
@@ -150,7 +148,7 @@ export const processEvent = async (
     }
   }
 
-  const txs = await Promise.all(votes);
+  await Promise.all(votes);
 
   // for (const tx of txs) {
   //   const { traceTree } = await locklift.tracing.trace(tx.extTransaction, {

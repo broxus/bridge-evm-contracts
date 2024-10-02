@@ -10,14 +10,14 @@ const main = async () => {
       type: "text",
       name: "owner",
       message: "Contracts owner address",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
     {
       type: "text",
       name: "nativeProxy",
       message: "Native proxy address",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
   ]);

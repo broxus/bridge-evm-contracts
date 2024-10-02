@@ -1,9 +1,5 @@
-const {
-    encodeEverscaleEvent,
-    expect,
-    ...utils
-} = require("../utils");
-const {ethers} = require("hardhat");
+const { expect} = require("../utils");
+const {ethers, deployments} = require("hardhat");
 const _ = require("lodash");
 
 
@@ -79,7 +75,7 @@ describe('Test upgrading Ethereum MultiVault to the Diamond proxy', async () => 
         const facetCuts = await Promise.all(facets.map(async (name) => {
             const facet = await ethers.getContract(name);
 
-            const functionSelectors = Object.entries(facet.interface.functions).map(([function_name, fn]) => {
+            const functionSelectors = Object.entries(facet.interface.functions).map(([, fn]) => {
                 return ethers.utils.Interface.getSighash(fn);
             });
 
@@ -96,7 +92,7 @@ describe('Test upgrading Ethereum MultiVault to the Diamond proxy', async () => 
         ].reduce(async (acc, name) => {
             const facet = await deployments.getExtendedArtifact(name);
 
-            return [...await acc, ...facet.abi];
+            return [...acc, ...facet.abi];
         }, []);
 
         diamond_multivault = await ethers.getContractAt(_.uniqWith(diamondABI, _.isEqual), MULTIVAULT);

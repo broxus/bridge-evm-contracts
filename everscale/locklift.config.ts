@@ -1,9 +1,8 @@
+import "@broxus/locklift-verifier";
+import 'dotenv/config';
+
 import { LockliftConfig } from "locklift";
 import { FactorySource } from "./build/factorySource";
-const LOCAL_NETWORK_ENDPOINT = "http://localhost/graphql";
-import "dotenv/config";
-
-import "locklift-verifier";
 
 declare global {
   const locklift: import("locklift").Locklift<FactorySource>;
@@ -11,10 +10,9 @@ declare global {
 
 const config: LockliftConfig = {
   verifier: {
-    verifierVersion: "latest", // contract verifier binary, see https://github.com/broxus/everscan-verify/releases
-    apiKey: "uwJlTyvauW",
-    secretKey: "IEx2jg4hqE3V1YUqcVOY",
-    // license: "AGPL-3.0-or-later", <- this is default value and can be overrided
+    verifierVersion: "latest",
+    apiKey: process.env.VERIFIER_API_KEY!,
+    secretKey: process.env.VERIFIER_SECRET_KEY!,
   },
   compiler: {
     version: "0.71.0",
@@ -25,52 +23,35 @@ const config: LockliftConfig = {
   },
   linker: { version: "0.20.6" },
   networks: {
-    proxy: {
-      deploy: ["local/"],
+    locklift: {
       giver: {
-        // Check if you need provide custom giver
-        address:
-          "0:ece57bcc6c530283becbbd8a3b24d3c5987cdddc3c8b7b33be6e4a6312490415",
-        key: "172af540e43a524763dd53b26a066d472a97c4de37d5498170564510608250c3",
+        address: process.env.LOCAL_GIVER_ADDRESS!,
+        key: process.env.LOCAL_GIVER_KEY!,
       },
       connection: {
         id: 1001,
-        // @ts-ignore
         type: "proxy",
-        // @ts-ignore
-        data: {},
+        data: {} as never,
       },
       keys: {
-        // Use everdev to generate your phrase
-        // !!! Never commit it in your repos !!!
-        // phrase: "action inject penalty envelope rabbit element slim tornado dinner pizza off blood",
         amount: 20,
       },
     },
     local: {
-      // Specify connection settings for https://github.com/broxus/everscale-standalone-client/
       connection: {
+        id: 1003,
         group: "localnet",
         type: "graphql",
         data: {
-          endpoints: [LOCAL_NETWORK_ENDPOINT],
+          endpoints: [process.env.LOCAL_GRAPHQL_ENDPOINT!],
           local: true,
         },
       },
-      // This giver is the default local-node giverV2
       giver: {
-        // Check if you need to provide a custom giver
-        address:
-          "0:ece57bcc6c530283becbbd8a3b24d3c5987cdddc3c8b7b33be6e4a6312490415",
-        key: "172af540e43a524763dd53b26a066d472a97c4de37d5498170564510608250c3",
-      },
-      tracing: {
-        endpoint: LOCAL_NETWORK_ENDPOINT,
+        address: process.env.LOCAL_GIVER_ADDRESS!,
+        key: process.env.LOCAL_GIVER_KEY!,
       },
       keys: {
-        // Use everdev to generate your phrase
-        // !!! Never commit it in your repos !!!
-        // phrase: "action inject penalty envelope rabbit element slim tornado dinner pizza off blood",
         amount: 20,
       },
     },
@@ -80,27 +61,24 @@ const config: LockliftConfig = {
         type: "jrpc",
         group: "ton",
         data: {
-          endpoint: "https://jrpc-ton.broxus.com/",
+          endpoint: process.env.TON_JRPC_ENDPOINT!,
         },
       },
       giver: {
-        address:
-          "0:a0a606886db07fb46042832ea1b65ff62377f8f892a67d0de6f7b58616d3783b",
-        phrase:
-          "action inject penalty envelope rabbit element slim tornado dinner pizza off blood",
+        address: process.env.TON_GIVER_ADDRESS!,
+        phrase: process.env.TON_GIVER_PHRASE!,
         accountId: 0,
       },
       keys: {
-        phrase:
-          "action inject penalty envelope rabbit element slim tornado dinner pizza off blood",
+        phrase: process.env.TON_KEYS_PHRASE,
         amount: 20,
       },
     },
   },
-  // you can use any settings that mocha framework support
   mocha: {
     timeout: 2000000,
   },
 };
 
+// noinspection JSUnusedGlobalSymbols
 export default config;

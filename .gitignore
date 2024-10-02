@@ -15,6 +15,7 @@ ethereum/cache
 everscale/build/*.code
 everscale/build/*.base64
 everscale/build/*.tvc
+**/.env
 ethereum/deployments
 .DS_Store
 ethereum/artifacts

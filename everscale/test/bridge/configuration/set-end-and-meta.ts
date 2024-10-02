@@ -23,10 +23,9 @@ describe("Test setting configuration end", async function () {
   const emptyCell = "te6ccgEBAQEAAgAAAA==";
 
   it("Setup bridge", async () => {
-    let cellEncoder;
     const relays = await setupRelays();
 
-    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+    [bridge, bridgeOwner, roundDeployer, ] = await setupBridge(
       relays
     );
   });

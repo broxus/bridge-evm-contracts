@@ -1,0 +1,34 @@
+{
+  "name": "@broxus/octusbridge-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "author": "broxus",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.11",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@primitivefi/hardhat-dodoc": "^0.2.3",
+    "bignumber.js": "^9.1.2",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.12",
+    "hardhat-abi-exporter": "^2.10.1",
+    "hardhat-dependency-compiler": "^1.2.1",
+    "hardhat-deploy": "^0.12.4",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "lodash": "^4.17.21",
+    "mocha": "^10.7.3",
+    "mocha-logger": "^1.0.8",
+    "underscore": "^1.13.7",
+    "web3": "^1.10.4"
+  }
+}

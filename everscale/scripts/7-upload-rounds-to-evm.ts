@@ -1,24 +1,27 @@
 import ethers from "ethers";
 import { BigNumber } from "bignumber.js";
 import fs from "fs";
+import { Address } from "locklift";
 
-const logger = require("mocha-logger");
-
-const requireEnv = (name: string, _default?: any) => {
+const requireEnv = <T>(name: string, _default?: T): string | T => {
   const value = process.env[name];
 
   if (value === undefined && _default === undefined) {
     throw new Error(`Missing env at ${name}`);
   }
 
+  if (_default === undefined || _default == null) {
+    throw new Error(`Missing default value for ${name}`);
+  }
+
   return value || _default;
 };
 
 const main = async () => {
-  const rpc = requireEnv("EVM_RPC");
-  const bridgeAddress = requireEnv("EVM_BRIDGE");
-  const configuration = requireEnv("ROUND_RELAYS_CONFIGURATION");
-  const seed = requireEnv(
+  const rpc = requireEnv<string>("EVM_RPC");
+  const bridgeAddress = requireEnv<string>("EVM_BRIDGE");
+  const configuration = requireEnv<string>("ROUND_RELAYS_CONFIGURATION");
+  const seed = requireEnv<string>(
     "EVM_SEED",
     "body force exact angry main news train capital kitten bronze skirt stock"
   );
@@ -28,7 +31,7 @@ const main = async () => {
     9
   );
 
-  logger.log("Starting rounds uploading");
+  console.log("Starting rounds uploading");
 
   // Connect to the Ethereum
   const provider = new ethers.providers.JsonRpcProvider(rpc);
@@ -40,11 +43,11 @@ const main = async () => {
   const submitter = ethers.Wallet.fromMnemonic(seed).connect(provider);
 
   const lastRound = await bridge.lastRound();
-  logger.success(`Last round in Ethereum bridge: ${lastRound}`);
+  console.log(`Last round in Ethereum bridge: ${lastRound}`);
 
   const roundRelaysConfiguration = locklift.factory.getDeployedContract(
     "EverscaleEthereumEventConfiguration",
-    configuration
+    new Address(configuration)
   );
   // const cellEncoderStandalone = locklift.factory.getDeployedContract(
   //   "CellEncoderStandalone",
@@ -61,7 +64,7 @@ const main = async () => {
     .getPastEvents({ filter: "NewEventContract" })
     .then((e) => e.events);
 
-  logger.log(`Found ${events.length} events`);
+  console.log(`Found ${events.length} events`);
 
   const eventDetails = await Promise.all(
     events.map(async (event) => {
@@ -128,7 +131,7 @@ const main = async () => {
           },
         ]
       );
-      let signatures = await Promise.all(
+      const signatures = await Promise.all(
         details._signatures.map(async (sign) => {
           return {
             sign,
@@ -167,21 +170,21 @@ const main = async () => {
     })
   );
 
-  logger.success(`Event decoded`);
+  console.log(`Event decoded`);
 
-  for (let event of eventDetails.sort((a, b) =>
+  for (const event of eventDetails.sort((a, b) =>
     a.roundNumber < b.roundNumber ? -1 : 1
   )) {
-    logger.log(`Processing event #${event.eventData.round_num}`);
-    logger.log(`Event address: ${event.eventContract}`);
-    logger.log(`Payload: ${event.encodedEvent}`);
-    logger.log(`Signatures: [${event.signatures.join(",")}]`);
+    console.log(`Processing event #${event.eventData.round_num}`);
+    console.log(`Event address: ${event.eventContract}`);
+    console.log(`Payload: ${event.encodedEvent}`);
+    console.log(`Signatures: [${event.signatures.join(",")}]`);
 
     if (event.eventData.round_num > lastRound) {
-      logger.success(`Submitting round`);
+      console.log(`Submitting round`);
 
-      logger.log(`Submitter: ${submitter.address}`);
-      logger.log(
+      console.log(`Submitter: ${submitter.address}`);
+      console.log(
         `Balance: ${ethers.utils.formatUnits(
           await provider.getBalance(submitter.address),
           18
@@ -189,8 +192,8 @@ const main = async () => {
       );
 
       const gasPrice = await provider.getGasPrice();
-      logger.log(`Gas price: ${ethers.utils.formatUnits(gasPrice, "gwei")}`);
-      logger.log(
+      console.log(`Gas price: ${ethers.utils.formatUnits(gasPrice, "gwei")}`);
+      console.log(
         `Target gas price: ${ethers.utils.formatUnits(targetGasPrice, "gwei")}`
       );
 
@@ -204,12 +207,12 @@ const main = async () => {
         "latest"
       );
 
-      logger.log(
+      console.log(
         `Submitter transactions count: pending - ${pendingCount}, confirmed - ${confirmedCount}`
       );
 
       if (pendingCount > confirmedCount) {
-        logger.error(`Submitter has pending transactions, exit`);
+        console.error(`Submitter has pending transactions, exit`);
         process.exit(1);
       }
 
@@ -219,11 +222,11 @@ const main = async () => {
           gasPrice: targetGasPrice.gt(gasPrice) ? gasPrice : targetGasPrice, // Use min gas price possible
         });
 
-      logger.success(`Transaction: ${tx.hash}`);
+      console.log(`Transaction: ${tx.hash}`);
 
       process.exit(0);
     } else {
-      logger.log(`Round already uploaded, skipping`);
+      console.log(`Round already uploaded, skipping`);
     }
 
     console.log("");

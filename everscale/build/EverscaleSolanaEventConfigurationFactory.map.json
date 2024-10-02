@@ -1,4 +1,102 @@
 {
+  "02f8fcf7d66816be1d79069b7f1d49f5b2b71b24b10ff685a2860ff7f7c6b783": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 506
+    },
+    "16": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 507
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 508
+    },
+    "40": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 509
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 510
+    },
+    "72": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 511
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 512
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 513
+    },
+    "104": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 514
+    },
+    "120": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 515
+    },
+    "128": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 516
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 517
+    },
+    "168": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 518
+    },
+    "176": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 519
+    },
+    "184": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 520
+    },
+    "200": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 521
+    },
+    "216": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 525
+    },
+    "224": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 526
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 527
+    },
+    "264": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 528
+    },
+    "272": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 529
+    },
+    "288": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 533
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 534
+    },
+    "312": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 537
+    }
+  },
   "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
     "0": {
       "filename": "contracts/bridge/factory/EverscaleSolanaEventConfigurationFactory.tsol",
@@ -589,6 +687,106 @@
       "line": 29
     }
   },
+  "21ff1662d52a7ce9a73593e450f998ace15c610ea1103e01e35d9e4bad2c7f03": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 627
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 628
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 629
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 630
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 633
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 634
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 635
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 636
+    },
+    "160": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 639
+    },
+    "168": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 640
+    },
+    "216": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 641
+    },
+    "224": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 642
+    },
+    "240": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 645
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 646
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 647
+    },
+    "304": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 648
+    }
+  },
+  "25ad4f8a20a5e475e0ad7f8c98a079a5230942da2c6b8661cb47fe8b351558fa": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 623
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 624
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 625
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 626
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 652
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 653
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 654
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 655
+    }
+  },
   "51bec4e97e9c9aa1148b5906c9de20714d8c41ef790fcbf1eecb57f8b3959b75": {
     "0": {
       "filename": "contracts/bridge/factory/EverscaleSolanaEventConfigurationFactory.tsol",
@@ -731,6 +929,242 @@
       "line": 55
     }
   },
+  "71a22cc370d79ee6877908b056739b3dbbdd366ac153971890fb21850b5cb482": {
+    "0": {
+      "filename": "<entry-selector>",
+      "line": 1
+    },
+    "8": {
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
+    },
+    "48": {
+      "filename": "<entry-selector>",
+      "line": 5
+    },
+    "56": {
+      "filename": "<entry-selector>",
+      "line": 6
+    },
+    "72": {
+      "filename": "<entry-selector>",
+      "line": 7
+    },
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
+    },
+    "128": {
+      "filename": "<entry-selector>",
+      "line": 11
+    }
+  },
+  "7cefeb39f4920eb55988aaa61d60ab0dfa1d5d8ed4017ce63682c6b6ddb9a94b": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 541
+    },
+    "16": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 542
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 543
+    },
+    "40": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 544
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 545
+    },
+    "72": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 546
+    },
+    "360": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 547
+    },
+    "376": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 548
+    },
+    "384": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 549
+    },
+    "400": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 552
+    },
+    "416": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 553
+    },
+    "424": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 554
+    },
+    "440": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 555
+    },
+    "456": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 556
+    },
+    "472": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 557
+    },
+    "480": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 558
+    },
+    "496": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 559
+    },
+    "504": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 560
+    },
+    "512": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 561
+    },
+    "520": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 562
+    },
+    "528": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 563
+    },
+    "544": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 564
+    },
+    "552": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 565
+    },
+    "568": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 566
+    },
+    "576": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 567
+    },
+    "592": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 568
+    },
+    "608": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 569
+    },
+    "624": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 571
+    },
+    "632": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 572
+    },
+    "648": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 573
+    },
+    "656": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "672": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "680": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "688": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "704": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "712": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "728": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "752": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "760": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "800": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "808": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "816": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "832": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "848": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 575
+    },
+    "864": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 576
+    },
+    "872": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 577
+    },
+    "888": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 580
+    }
+  },
   "7f85152918443df5d60e0835abd3b3dd69dba9aedade122b53ad2f3818e0bdf5": {
     "0": {
       "filename": "EverscaleSolanaEventConfigurationFactory.code",
@@ -791,196 +1225,6 @@
     "296": {
       "filename": "EverscaleSolanaEventConfigurationFactory.code",
       "line": 620
-    }
-  },
-  "8205ee4acb48837cfaaab0df318ffb7bfb7ff09f9b18a11903b1a75f88323333": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 627
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 628
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 629
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 630
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 633
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 634
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 635
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 636
-    },
-    "160": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 639
-    },
-    "168": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 640
-    },
-    "216": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 641
-    },
-    "224": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 642
-    },
-    "240": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 645
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 646
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 647
-    },
-    "304": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 648
-    }
-  },
-  "82b56a1dfcc417c06d2ebd09f4cc85a935a4dc76f3ed2348c56a08dabecffe79": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 4
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 5
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 6
-    },
-    "32": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 7
-    },
-    "48": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 10
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 11
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 12
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 13
-    },
-    "96": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "136": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "152": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "176": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "184": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "208": {
-      "filename": "contracts/bridge/factory/EverscaleSolanaEventConfigurationFactory.tsol",
-      "line": 17
-    },
-    "224": {
-      "filename": "contracts/bridge/factory/EverscaleSolanaEventConfigurationFactory.tsol",
-      "line": 19
-    },
-    "240": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 31
-    },
-    "256": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 34
-    }
-  },
-  "92f5fccbeb94d4af2f88e3b6d634752dc7f21eebf516705648d315aa71fadb35": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 623
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 624
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 625
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 626
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 652
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 653
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 654
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 655
     }
   },
   "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
@@ -1044,104 +1288,6 @@
     "304": {
       "filename": "EverscaleSolanaEventConfigurationFactory.code",
       "line": 600
-    }
-  },
-  "a1e50f0d0d067fab71e009c4020edc8dcee4874a8767b96d1f8a13a6c44e4f8e": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 506
-    },
-    "16": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 507
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 508
-    },
-    "40": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 509
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 510
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 511
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 512
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 513
-    },
-    "104": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 514
-    },
-    "120": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 515
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 516
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 517
-    },
-    "168": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 518
-    },
-    "176": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 519
-    },
-    "184": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 520
-    },
-    "200": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 521
-    },
-    "216": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 525
-    },
-    "224": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 526
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 527
-    },
-    "264": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 528
-    },
-    "272": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 529
-    },
-    "288": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 533
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 534
-    },
-    "312": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 537
     }
   },
   "a846ddc8c538d66cda2a2b51399cd8eb803d6a77451d8a66a4c1af7245ffd631": {
@@ -1412,196 +1558,6 @@
       "line": 487
     }
   },
-  "c30d8b96a8075a663a6d786b5c23d2834bf27ec2ce4a9a5b32557197c31085b6": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 541
-    },
-    "16": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 542
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 543
-    },
-    "40": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 544
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 545
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 546
-    },
-    "360": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 547
-    },
-    "376": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 548
-    },
-    "384": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 549
-    },
-    "400": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 552
-    },
-    "416": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 553
-    },
-    "424": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 554
-    },
-    "440": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 555
-    },
-    "456": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 556
-    },
-    "472": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 557
-    },
-    "480": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 558
-    },
-    "496": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 559
-    },
-    "504": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 560
-    },
-    "512": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 561
-    },
-    "520": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 562
-    },
-    "528": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 563
-    },
-    "544": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 564
-    },
-    "552": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 565
-    },
-    "568": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 566
-    },
-    "576": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 567
-    },
-    "592": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 568
-    },
-    "608": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 569
-    },
-    "624": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 571
-    },
-    "632": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 572
-    },
-    "648": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 573
-    },
-    "656": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "672": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "680": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "688": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "704": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "712": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "728": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "752": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "760": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "800": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "808": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "816": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "832": {
-      "filename": "stdlib.sol",
-      "line": 63
-    },
-    "848": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 575
-    },
-    "864": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 576
-    },
-    "872": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 577
-    },
-    "888": {
-      "filename": "EverscaleSolanaEventConfigurationFactory.code",
-      "line": 580
-    }
-  },
   "cc3192f35113462dc9e2a0d72beb9271078460bb457634d774dd35216a9d5ee9": {
     "0": {
       "filename": "EverscaleSolanaEventConfigurationFactory.code",
@@ -1822,52 +1778,6 @@
       "line": 502
     }
   },
-  "e72be2c2174678d9278da724d9f6d9027f68fd7f1a4e4475913a6f13c067854f": {
-    "0": {
-      "filename": "<entry-selector>",
-      "line": 1
-    },
-    "8": {
-      "filename": "<entry-selector>",
-      "line": 2
-    },
-    "24": {
-      "filename": "<entry-selector>",
-      "line": 3
-    },
-    "32": {
-      "filename": "<entry-selector>",
-      "line": 4
-    },
-    "48": {
-      "filename": "<entry-selector>",
-      "line": 5
-    },
-    "56": {
-      "filename": "<entry-selector>",
-      "line": 6
-    },
-    "72": {
-      "filename": "<entry-selector>",
-      "line": 7
-    },
-    "88": {
-      "filename": "<entry-selector>",
-      "line": 8
-    },
-    "96": {
-      "filename": "<entry-selector>",
-      "line": 9
-    },
-    "112": {
-      "filename": "<entry-selector>",
-      "line": 10
-    },
-    "128": {
-      "filename": "<entry-selector>",
-      "line": 11
-    }
-  },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
     "0": {
       "filename": "EverscaleSolanaEventConfigurationFactory.code",
@@ -1876,6 +1786,96 @@
     "16": {
       "filename": "EverscaleSolanaEventConfigurationFactory.code",
       "line": 523
+    }
+  },
+  "f251210cb656ef7f9b82f518e3978ca587a363458e6dd5f8ad9c5ea27f55df8e": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 4
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 5
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 6
+    },
+    "32": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 7
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 10
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 11
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 12
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 13
+    },
+    "96": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "136": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "152": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "184": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "208": {
+      "filename": "contracts/bridge/factory/EverscaleSolanaEventConfigurationFactory.tsol",
+      "line": 17
+    },
+    "224": {
+      "filename": "contracts/bridge/factory/EverscaleSolanaEventConfigurationFactory.tsol",
+      "line": 19
+    },
+    "240": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 31
+    },
+    "256": {
+      "filename": "EverscaleSolanaEventConfigurationFactory.code",
+      "line": 34
     }
   },
   "f27764cb50550ec8d239399d295416bcc45db5348e628a501f88dfa30784b964": {

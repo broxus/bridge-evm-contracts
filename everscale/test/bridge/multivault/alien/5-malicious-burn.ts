@@ -16,8 +16,6 @@ import { deployAccount } from "../../../utils/account";
 import { logContract } from "../../../utils/logger";
 import { setupAlienJettonMultiVault } from "../../../utils/multivault/alien";
 
-const logger = require("mocha-logger");
-
 describe("Test event contract behaviour when Alien token is incorrect", function () {
   this.timeout(10000000);
 
@@ -90,7 +88,7 @@ describe("Test event contract behaviour when Alien token is incorrect", function
         .then((tx) => locklift.transactions.waitFinalized(tx))
         .then((tx) => tx.extTransaction);
 
-      logger.log(`Burn tx: ${tx.id.hash}`);
+      console.log(`Burn tx: ${tx.id.hash}`);
 
       const events = await everscaleEthereumEventConfiguration
         .getPastEvents({ filter: "NewEventContract" })
@@ -107,7 +105,7 @@ describe("Test event contract behaviour when Alien token is incorrect", function
         },
       ] = events;
 
-      logger.log(`Expected event address: ${expectedEventContract}`);
+      console.log(`Expected event address: ${expectedEventContract}`);
 
       eventContract = locklift.factory.getDeployedContract(
         "MultiVaultTONEVMEventAlien",

@@ -195,76 +195,6 @@
       "line": 429
     }
   },
-  "157391007f0d2d2a636a86eabcdcc9136f185aeb9c05f07c818538c06b78c5f9": {
-    "0": {
-      "filename": "Bridge.code",
-      "line": 786
-    },
-    "8": {
-      "filename": "Bridge.code",
-      "line": 787
-    },
-    "24": {
-      "filename": "Bridge.code",
-      "line": 788
-    },
-    "48": {
-      "filename": "Bridge.code",
-      "line": 789
-    },
-    "64": {
-      "filename": "Bridge.code",
-      "line": 790
-    },
-    "72": {
-      "filename": "Bridge.code",
-      "line": 791
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "96": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "136": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "152": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "160": {
-      "filename": "Bridge.code",
-      "line": 805
-    },
-    "176": {
-      "filename": "Bridge.code",
-      "line": 808
-    },
-    "192": {
-      "filename": "Bridge.code",
-      "line": 811
-    }
-  },
   "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
     "0": {
       "filename": "contracts/bridge/Bridge.tsol",
@@ -405,546 +335,56 @@
       "line": 1382
     }
   },
-  "1f88c1d8b9ff7c59527cce994f0789b94aeda1e60cee3b60098be2c9c135620c": {
-    "0": {
-      "filename": "Bridge.code",
-      "line": 231
-    },
-    "8": {
-      "filename": "Bridge.code",
-      "line": 232
-    },
-    "24": {
-      "filename": "Bridge.code",
-      "line": 233
-    },
-    "48": {
-      "filename": "Bridge.code",
-      "line": 234
-    },
-    "64": {
-      "filename": "Bridge.code",
-      "line": 235
-    },
-    "72": {
-      "filename": "Bridge.code",
-      "line": 236
-    },
-    "88": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "96": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "104": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "112": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "120": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "128": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "136": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "152": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 88
-    },
-    "160": {
-      "filename": "Bridge.code",
-      "line": 250
-    },
-    "176": {
-      "filename": "Bridge.code",
-      "line": 253
-    },
-    "192": {
-      "filename": "Bridge.code",
-      "line": 256
-    }
-  },
   "2584f2ecdd600e7c4521f679fe3b5d42e4cffd9851ab9c936e9991db820ac6bd": {
     "0": {
       "filename": "Bridge.code",
       "line": 653
     }
   },
-  "274340de7a71712b322287b99e73e414a3c832b875bf2f31b261f9a8f1a51eab": {
+  "335658a622a534ca39ac7727b252852f7850ca7e64cd70c761149bc40a8ca82a": {
     "0": {
-      "filename": "Bridge.code",
-      "line": 1070
-    },
-    "16": {
-      "filename": "Bridge.code",
-      "line": 1071
-    },
-    "24": {
-      "filename": "Bridge.code",
-      "line": 1072
-    },
-    "40": {
-      "filename": "Bridge.code",
-      "line": 1073
-    },
-    "56": {
-      "filename": "Bridge.code",
-      "line": 1074
-    },
-    "72": {
-      "filename": "Bridge.code",
-      "line": 1075
-    },
-    "80": {
-      "filename": "Bridge.code",
-      "line": 1078
-    },
-    "96": {
-      "filename": "Bridge.code",
-      "line": 1079
-    },
-    "104": {
-      "filename": "Bridge.code",
-      "line": 1080
-    },
-    "120": {
-      "filename": "Bridge.code",
-      "line": 1083
-    },
-    "136": {
-      "filename": "Bridge.code",
-      "line": 1084
-    },
-    "144": {
-      "filename": "Bridge.code",
-      "line": 1085
-    },
-    "160": {
-      "filename": "Bridge.code",
-      "line": 1086
-    },
-    "176": {
-      "filename": "Bridge.code",
-      "line": 1087
-    },
-    "192": {
-      "filename": "Bridge.code",
-      "line": 1088
-    },
-    "200": {
-      "filename": "Bridge.code",
-      "line": 1089
-    },
-    "216": {
-      "filename": "Bridge.code",
-      "line": 1090
-    },
-    "224": {
-      "filename": "Bridge.code",
-      "line": 1091
-    },
-    "232": {
-      "filename": "Bridge.code",
-      "line": 1092
-    },
-    "240": {
-      "filename": "Bridge.code",
-      "line": 1093
-    },
-    "248": {
-      "filename": "Bridge.code",
-      "line": 1094
-    },
-    "264": {
-      "filename": "Bridge.code",
-      "line": 1095
-    },
-    "272": {
-      "filename": "Bridge.code",
-      "line": 1096
-    },
-    "288": {
-      "filename": "Bridge.code",
-      "line": 1097
-    },
-    "296": {
-      "filename": "Bridge.code",
-      "line": 1098
-    },
-    "304": {
-      "filename": "Bridge.code",
-      "line": 1099
-    },
-    "320": {
-      "filename": "Bridge.code",
-      "line": 1100
-    },
-    "328": {
-      "filename": "Bridge.code",
-      "line": 1101
-    },
-    "336": {
-      "filename": "Bridge.code",
-      "line": 1103
-    },
-    "344": {
-      "filename": "Bridge.code",
-      "line": 1104
-    },
-    "352": {
-      "filename": "Bridge.code",
-      "line": 1105
-    },
-    "368": {
-      "filename": "Bridge.code",
-      "line": 1107
-    },
-    "376": {
-      "filename": "Bridge.code",
-      "line": 1108
-    },
-    "384": {
-      "filename": "Bridge.code",
-      "line": 1109
-    },
-    "400": {
-      "filename": "Bridge.code",
-      "line": 1110
-    },
-    "416": {
-      "filename": "Bridge.code",
-      "line": 1111
-    },
-    "432": {
-      "filename": "Bridge.code",
-      "line": 1113
-    },
-    "440": {
-      "filename": "Bridge.code",
-      "line": 1114
-    },
-    "456": {
-      "filename": "Bridge.code",
-      "line": 1115
-    },
-    "464": {
-      "filename": "Bridge.code",
-      "line": 1116
-    },
-    "480": {
-      "filename": "Bridge.code",
-      "line": 1118
-    },
-    "488": {
-      "filename": "Bridge.code",
-      "line": 1119
-    },
-    "504": {
-      "filename": "Bridge.code",
-      "line": 1120
-    },
-    "512": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "528": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "536": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "544": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "560": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "568": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "584": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "608": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "616": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "656": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "664": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "672": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "688": {
-      "filename": "stdlib.sol",
-      "line": 63
-    },
-    "704": {
-      "filename": "Bridge.code",
-      "line": 1122
-    },
-    "720": {
-      "filename": "Bridge.code",
-      "line": 1123
-    },
-    "728": {
-      "filename": "Bridge.code",
-      "line": 1124
-    },
-    "744": {
-      "filename": "Bridge.code",
-      "line": 1125
-    },
-    "752": {
-      "filename": "Bridge.code",
-      "line": 1126
-    },
-    "768": {
-      "filename": "Bridge.code",
-      "line": 1127
-    },
-    "784": {
-      "filename": "Bridge.code",
-      "line": 1128
-    },
-    "792": {
-      "filename": "Bridge.code",
-      "line": 1129
-    },
-    "808": {
-      "filename": "Bridge.code",
-      "line": 1132
-    }
-  },
-  "27a4f836919382fe37b0e0c2fe2c4eb564acf17fc018225e2c3244c583781377": {
-    "0": {
-      "filename": "Bridge.code",
-      "line": 1025
-    },
-    "16": {
-      "filename": "Bridge.code",
-      "line": 1026
-    },
-    "24": {
-      "filename": "Bridge.code",
-      "line": 1027
-    },
-    "40": {
-      "filename": "Bridge.code",
-      "line": 1028
-    },
-    "56": {
-      "filename": "Bridge.code",
-      "line": 1029
-    },
-    "72": {
-      "filename": "Bridge.code",
-      "line": 1030
-    },
-    "80": {
-      "filename": "Bridge.code",
-      "line": 1031
-    },
-    "88": {
-      "filename": "Bridge.code",
-      "line": 1032
-    },
-    "104": {
-      "filename": "Bridge.code",
-      "line": 1033
-    },
-    "120": {
-      "filename": "Bridge.code",
-      "line": 1034
-    },
-    "128": {
-      "filename": "Bridge.code",
-      "line": 1035
-    },
-    "144": {
-      "filename": "Bridge.code",
-      "line": 1036
-    },
-    "168": {
-      "filename": "Bridge.code",
-      "line": 1037
-    },
-    "184": {
-      "filename": "Bridge.code",
-      "line": 1038
-    },
-    "192": {
-      "filename": "Bridge.code",
-      "line": 1039
-    },
-    "208": {
-      "filename": "Bridge.code",
-      "line": 1040
-    },
-    "248": {
-      "filename": "Bridge.code",
-      "line": 1041
-    },
-    "264": {
-      "filename": "Bridge.code",
-      "line": 1042
-    },
-    "272": {
-      "filename": "Bridge.code",
-      "line": 1043
-    },
-    "288": {
-      "filename": "Bridge.code",
-      "line": 1044
-    },
-    "296": {
-      "filename": "Bridge.code",
-      "line": 1045
-    },
-    "312": {
-      "filename": "Bridge.code",
-      "line": 1046
-    },
-    "328": {
-      "filename": "Bridge.code",
-      "line": 1047
-    },
-    "336": {
-      "filename": "Bridge.code",
-      "line": 1048
-    },
-    "344": {
-      "filename": "Bridge.code",
-      "line": 1049
-    },
-    "360": {
-      "filename": "Bridge.code",
-      "line": 1050
-    },
-    "376": {
-      "filename": "Bridge.code",
-      "line": 1054
-    },
-    "384": {
-      "filename": "Bridge.code",
-      "line": 1055
-    },
-    "408": {
-      "filename": "Bridge.code",
-      "line": 1056
-    },
-    "424": {
-      "filename": "Bridge.code",
-      "line": 1057
-    },
-    "432": {
-      "filename": "Bridge.code",
-      "line": 1058
-    },
-    "448": {
-      "filename": "Bridge.code",
-      "line": 1062
-    },
-    "456": {
-      "filename": "Bridge.code",
-      "line": 1063
-    },
-    "472": {
-      "filename": "Bridge.code",
-      "line": 1066
-    }
-  },
-  "296dc798e751206625c86df37534bb4a6aefcacf18d47b62e1ab383f626ef5c7": {
-    "0": {
-      "filename": "Bridge.code",
-      "line": 1303
+      "filename": "<entry-selector>",
+      "line": 1
     },
     "8": {
-      "filename": "Bridge.code",
-      "line": 1304
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
     },
     "48": {
-      "filename": "Bridge.code",
-      "line": 1305
+      "filename": "<entry-selector>",
+      "line": 5
     },
     "56": {
-      "filename": "Bridge.code",
-      "line": 1306
+      "filename": "<entry-selector>",
+      "line": 6
     },
     "72": {
-      "filename": "Bridge.code",
-      "line": 1309
+      "filename": "<entry-selector>",
+      "line": 7
     },
-    "80": {
-      "filename": "Bridge.code",
-      "line": 1310
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
     },
     "128": {
-      "filename": "Bridge.code",
-      "line": 1311
-    },
-    "136": {
-      "filename": "Bridge.code",
-      "line": 1312
-    },
-    "152": {
-      "filename": "Bridge.code",
-      "line": 1315
-    },
-    "160": {
-      "filename": "Bridge.code",
-      "line": 1316
-    },
-    "208": {
-      "filename": "Bridge.code",
-      "line": 1317
-    },
-    "216": {
-      "filename": "Bridge.code",
-      "line": 1318
-    },
-    "232": {
-      "filename": "Bridge.code",
-      "line": 1321
-    },
-    "240": {
-      "filename": "Bridge.code",
-      "line": 1322
-    },
-    "288": {
-      "filename": "Bridge.code",
-      "line": 1323
-    },
-    "296": {
-      "filename": "Bridge.code",
-      "line": 1324
+      "filename": "<entry-selector>",
+      "line": 11
     }
   },
   "35771aa35c963f61e66fe085fe907fa672e2611ddb4dd142ec9da61ad01e9405": {
@@ -1009,78 +449,272 @@
       "line": 1192
     }
   },
+  "40611fd5dc18e1f8048df1ae7c81c8d96b6aba0885247d632de141b7aeaf90f5": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 4
+    },
+    "8": {
+      "filename": "Bridge.code",
+      "line": 5
+    },
+    "24": {
+      "filename": "Bridge.code",
+      "line": 6
+    },
+    "32": {
+      "filename": "Bridge.code",
+      "line": 7
+    },
+    "48": {
+      "filename": "Bridge.code",
+      "line": 10
+    },
+    "64": {
+      "filename": "Bridge.code",
+      "line": 11
+    },
+    "80": {
+      "filename": "Bridge.code",
+      "line": 12
+    },
+    "88": {
+      "filename": "Bridge.code",
+      "line": 13
+    },
+    "96": {
+      "filename": "Bridge.code",
+      "line": 14
+    },
+    "104": {
+      "filename": "Bridge.code",
+      "line": 15
+    },
+    "112": {
+      "filename": "Bridge.code",
+      "line": 16
+    },
+    "120": {
+      "filename": "Bridge.code",
+      "line": 18
+    },
+    "128": {
+      "filename": "Bridge.code",
+      "line": 19
+    },
+    "144": {
+      "filename": "Bridge.code",
+      "line": 20
+    },
+    "152": {
+      "filename": "Bridge.code",
+      "line": 21
+    },
+    "160": {
+      "filename": "Bridge.code",
+      "line": 22
+    },
+    "168": {
+      "filename": "Bridge.code",
+      "line": 23
+    },
+    "184": {
+      "filename": "Bridge.code",
+      "line": 24
+    },
+    "192": {
+      "filename": "Bridge.code",
+      "line": 25
+    },
+    "208": {
+      "filename": "Bridge.code",
+      "line": 26
+    },
+    "216": {
+      "filename": "Bridge.code",
+      "line": 27
+    },
+    "224": {
+      "filename": "Bridge.code",
+      "line": 28
+    },
+    "232": {
+      "filename": "Bridge.code",
+      "line": 29
+    },
+    "248": {
+      "filename": "Bridge.code",
+      "line": 30
+    },
+    "256": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "272": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "280": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "288": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "296": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "304": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "312": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "320": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "336": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "344": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "368": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 47
+    },
+    "392": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 47
+    },
+    "400": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 47
+    },
+    "408": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 47
+    },
+    "424": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 47
+    },
+    "432": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 47
+    },
+    "448": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 48
+    },
+    "472": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 48
+    },
+    "480": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 48
+    },
+    "488": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 48
+    },
+    "504": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 48
+    },
+    "512": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 48
+    },
+    "528": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 49
+    },
+    "552": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 49
+    }
+  },
   "43eec3857cc5dd0c7c03dc4636aa055a87f5d626da614fc2b594cb8ceecd3c4b": {
     "0": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 24
+      "line": 26
     },
     "16": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
+      "line": 28
     },
     "24": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
+      "line": 28
     },
     "40": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "160": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "168": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "176": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "184": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "192": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "240": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "248": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "256": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "264": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "272": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "280": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "288": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "296": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "304": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     }
   },
   "47977409fbda8114191f94c945863c8ffefbd15cba3d8cd73aeccd3ab1407e50": {
@@ -1937,320 +1571,80 @@
       "line": 919
     }
   },
-  "5b8a67731c1cb79b1bdbba949a13e7c6d930792f9d8062cac94172df687ffdb3": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "208": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "224": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "248": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 39
-    }
-  },
-  "5c689d331bd661c394bc6bceaa5c1ec2981eb8fb8ffbad94f880c6fcb1cab2b9": {
+  "61a4b3b6b1cb441d384c7f3ebf424aebfaebf91676572bafeeca26803c7dad6e": {
     "0": {
       "filename": "Bridge.code",
-      "line": 4
+      "line": 231
     },
     "8": {
       "filename": "Bridge.code",
-      "line": 5
+      "line": 232
     },
     "24": {
       "filename": "Bridge.code",
-      "line": 6
-    },
-    "32": {
-      "filename": "Bridge.code",
-      "line": 7
+      "line": 233
     },
     "48": {
       "filename": "Bridge.code",
-      "line": 10
+      "line": 234
     },
     "64": {
       "filename": "Bridge.code",
-      "line": 11
+      "line": 235
     },
-    "80": {
+    "72": {
       "filename": "Bridge.code",
-      "line": 12
+      "line": 236
     },
     "88": {
-      "filename": "Bridge.code",
-      "line": 13
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "96": {
-      "filename": "Bridge.code",
-      "line": 14
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "104": {
-      "filename": "Bridge.code",
-      "line": 15
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "112": {
-      "filename": "Bridge.code",
-      "line": 16
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "120": {
-      "filename": "Bridge.code",
-      "line": 18
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "128": {
-      "filename": "Bridge.code",
-      "line": 19
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
-    "144": {
-      "filename": "Bridge.code",
-      "line": 20
+    "136": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "152": {
-      "filename": "Bridge.code",
-      "line": 21
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 88
     },
     "160": {
       "filename": "Bridge.code",
-      "line": 22
+      "line": 250
     },
-    "168": {
+    "176": {
       "filename": "Bridge.code",
-      "line": 23
-    },
-    "184": {
-      "filename": "Bridge.code",
-      "line": 24
+      "line": 253
     },
     "192": {
       "filename": "Bridge.code",
-      "line": 25
-    },
-    "208": {
-      "filename": "Bridge.code",
-      "line": 26
-    },
-    "216": {
-      "filename": "Bridge.code",
-      "line": 27
-    },
-    "224": {
-      "filename": "Bridge.code",
-      "line": 28
-    },
-    "232": {
-      "filename": "Bridge.code",
-      "line": 29
-    },
-    "248": {
-      "filename": "Bridge.code",
-      "line": 30
-    },
-    "256": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "272": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "280": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "288": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "296": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "304": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "312": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "320": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "336": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "344": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "368": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 47
-    },
-    "392": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 47
-    },
-    "400": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 47
-    },
-    "408": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 47
-    },
-    "424": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 47
-    },
-    "432": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 47
-    },
-    "448": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 48
-    },
-    "472": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 48
-    },
-    "480": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 48
-    },
-    "488": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 48
-    },
-    "504": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 48
-    },
-    "512": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 48
-    },
-    "528": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 49
-    },
-    "552": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 49
+      "line": 256
     }
   },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
       "filename": "Bridge.code",
       "line": 1076
-    }
-  },
-  "6232a838c5097dacfec311351ae0ba5f6b560dcf00f5bf222c811da1c270f4de": {
-    "0": {
-      "filename": "Bridge.code",
-      "line": 843
-    },
-    "8": {
-      "filename": "Bridge.code",
-      "line": 844
-    },
-    "24": {
-      "filename": "Bridge.code",
-      "line": 845
-    },
-    "48": {
-      "filename": "Bridge.code",
-      "line": 846
-    },
-    "64": {
-      "filename": "Bridge.code",
-      "line": 847
-    },
-    "72": {
-      "filename": "Bridge.code",
-      "line": 848
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 45
-    },
-    "96": {
-      "filename": "Bridge.code",
-      "line": 854
-    },
-    "112": {
-      "filename": "Bridge.code",
-      "line": 857
-    },
-    "128": {
-      "filename": "Bridge.code",
-      "line": 860
     }
   },
   "62e87a6585f45cf2ef1e5b2edad5206151fd50dea46c4de92f863f18cf59efa9": {
@@ -2375,70 +1769,70 @@
       "line": 1006
     }
   },
-  "66984e807bdc3cf0489dbd1ac79cfcd9589419d6e19b2a3b052bf2e1ed8ae274": {
+  "6b86c816c8bed9d52cdb055c7a86a656815cb3a7840656488574e011ec8414fb": {
     "0": {
       "filename": "Bridge.code",
-      "line": 1299
+      "line": 1390
     },
     "8": {
       "filename": "Bridge.code",
-      "line": 1300
+      "line": 1391
     },
     "56": {
       "filename": "Bridge.code",
-      "line": 1301
+      "line": 1392
     },
     "64": {
       "filename": "Bridge.code",
-      "line": 1302
+      "line": 1393
     },
     "80": {
       "filename": "Bridge.code",
-      "line": 1328
+      "line": 1396
     },
     "88": {
       "filename": "Bridge.code",
-      "line": 1329
+      "line": 1397
     },
     "136": {
       "filename": "Bridge.code",
-      "line": 1330
+      "line": 1398
     },
     "144": {
       "filename": "Bridge.code",
-      "line": 1331
+      "line": 1399
     },
     "160": {
       "filename": "Bridge.code",
-      "line": 1357
+      "line": 1402
     },
     "168": {
       "filename": "Bridge.code",
-      "line": 1358
+      "line": 1403
     },
     "216": {
       "filename": "Bridge.code",
-      "line": 1359
+      "line": 1404
     },
     "224": {
       "filename": "Bridge.code",
-      "line": 1360
+      "line": 1405
     },
     "240": {
       "filename": "Bridge.code",
-      "line": 1386
+      "line": 1408
     },
     "248": {
       "filename": "Bridge.code",
-      "line": 1387
+      "line": 1409
     },
     "296": {
       "filename": "Bridge.code",
-      "line": 1388
+      "line": 1410
     },
     "304": {
       "filename": "Bridge.code",
-      "line": 1389
+      "line": 1411
     }
   },
   "7403fa448b912c55ce772b2ab6707e9e95a706c684ad3790285b30afa7087b28": {
@@ -2501,136 +1895,6 @@
     "304": {
       "filename": "Bridge.code",
       "line": 1292
-    }
-  },
-  "7c7cffee35902f9a0b3cd098a06fb0e5e65910e779727af82a1f0ba37bf3cc76": {
-    "0": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "16": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "32": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "40": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "56": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "64": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "72": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "88": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "96": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "176": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "184": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "216": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "232": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "256": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "272": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "280": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "304": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 81
-    },
-    "320": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "336": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "344": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "368": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "376": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "392": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "408": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "416": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "440": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
     }
   },
   "7d111ba61fd8ddec8d9415d49ba56ac1d9cc4d74638cb36a9c61346da40053cd": {
@@ -2827,6 +2091,268 @@
       "line": 123
     }
   },
+  "839a84e24c6e0a7741e45bc488da47f953f82a2c9699e5a38b9ae25aa7b0d8ff": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 1070
+    },
+    "16": {
+      "filename": "Bridge.code",
+      "line": 1071
+    },
+    "24": {
+      "filename": "Bridge.code",
+      "line": 1072
+    },
+    "40": {
+      "filename": "Bridge.code",
+      "line": 1073
+    },
+    "56": {
+      "filename": "Bridge.code",
+      "line": 1074
+    },
+    "72": {
+      "filename": "Bridge.code",
+      "line": 1075
+    },
+    "80": {
+      "filename": "Bridge.code",
+      "line": 1078
+    },
+    "96": {
+      "filename": "Bridge.code",
+      "line": 1079
+    },
+    "104": {
+      "filename": "Bridge.code",
+      "line": 1080
+    },
+    "120": {
+      "filename": "Bridge.code",
+      "line": 1083
+    },
+    "136": {
+      "filename": "Bridge.code",
+      "line": 1084
+    },
+    "144": {
+      "filename": "Bridge.code",
+      "line": 1085
+    },
+    "160": {
+      "filename": "Bridge.code",
+      "line": 1086
+    },
+    "176": {
+      "filename": "Bridge.code",
+      "line": 1087
+    },
+    "192": {
+      "filename": "Bridge.code",
+      "line": 1088
+    },
+    "200": {
+      "filename": "Bridge.code",
+      "line": 1089
+    },
+    "216": {
+      "filename": "Bridge.code",
+      "line": 1090
+    },
+    "224": {
+      "filename": "Bridge.code",
+      "line": 1091
+    },
+    "232": {
+      "filename": "Bridge.code",
+      "line": 1092
+    },
+    "240": {
+      "filename": "Bridge.code",
+      "line": 1093
+    },
+    "248": {
+      "filename": "Bridge.code",
+      "line": 1094
+    },
+    "264": {
+      "filename": "Bridge.code",
+      "line": 1095
+    },
+    "272": {
+      "filename": "Bridge.code",
+      "line": 1096
+    },
+    "288": {
+      "filename": "Bridge.code",
+      "line": 1097
+    },
+    "296": {
+      "filename": "Bridge.code",
+      "line": 1098
+    },
+    "304": {
+      "filename": "Bridge.code",
+      "line": 1099
+    },
+    "320": {
+      "filename": "Bridge.code",
+      "line": 1100
+    },
+    "328": {
+      "filename": "Bridge.code",
+      "line": 1101
+    },
+    "336": {
+      "filename": "Bridge.code",
+      "line": 1103
+    },
+    "344": {
+      "filename": "Bridge.code",
+      "line": 1104
+    },
+    "352": {
+      "filename": "Bridge.code",
+      "line": 1105
+    },
+    "368": {
+      "filename": "Bridge.code",
+      "line": 1107
+    },
+    "376": {
+      "filename": "Bridge.code",
+      "line": 1108
+    },
+    "384": {
+      "filename": "Bridge.code",
+      "line": 1109
+    },
+    "400": {
+      "filename": "Bridge.code",
+      "line": 1110
+    },
+    "416": {
+      "filename": "Bridge.code",
+      "line": 1111
+    },
+    "432": {
+      "filename": "Bridge.code",
+      "line": 1113
+    },
+    "440": {
+      "filename": "Bridge.code",
+      "line": 1114
+    },
+    "456": {
+      "filename": "Bridge.code",
+      "line": 1115
+    },
+    "464": {
+      "filename": "Bridge.code",
+      "line": 1116
+    },
+    "480": {
+      "filename": "Bridge.code",
+      "line": 1118
+    },
+    "488": {
+      "filename": "Bridge.code",
+      "line": 1119
+    },
+    "504": {
+      "filename": "Bridge.code",
+      "line": 1120
+    },
+    "512": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "528": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "536": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "544": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "560": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "568": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "584": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "608": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "616": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "656": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "664": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "672": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "688": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "704": {
+      "filename": "Bridge.code",
+      "line": 1122
+    },
+    "720": {
+      "filename": "Bridge.code",
+      "line": 1123
+    },
+    "728": {
+      "filename": "Bridge.code",
+      "line": 1124
+    },
+    "744": {
+      "filename": "Bridge.code",
+      "line": 1125
+    },
+    "752": {
+      "filename": "Bridge.code",
+      "line": 1126
+    },
+    "768": {
+      "filename": "Bridge.code",
+      "line": 1127
+    },
+    "784": {
+      "filename": "Bridge.code",
+      "line": 1128
+    },
+    "792": {
+      "filename": "Bridge.code",
+      "line": 1129
+    },
+    "808": {
+      "filename": "Bridge.code",
+      "line": 1132
+    }
+  },
   "8764b444026c1857001269c89e2571249af2ff9dd0c6a8dcdba19a94b733f379": {
     "0": {
       "filename": "Bridge.code",
@@ -2889,7 +2415,179 @@
       "line": 1152
     }
   },
+  "878fe699308313e36e0a033cb9da65ca19718cd5c43d72557ff08cce558fef18": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 1295
+    },
+    "8": {
+      "filename": "Bridge.code",
+      "line": 1296
+    },
+    "56": {
+      "filename": "Bridge.code",
+      "line": 1297
+    },
+    "64": {
+      "filename": "Bridge.code",
+      "line": 1298
+    },
+    "80": {
+      "filename": "Bridge.code",
+      "line": 1416
+    },
+    "88": {
+      "filename": "Bridge.code",
+      "line": 1417
+    },
+    "136": {
+      "filename": "Bridge.code",
+      "line": 1418
+    },
+    "144": {
+      "filename": "Bridge.code",
+      "line": 1419
+    }
+  },
   "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+  "9971f3ca8a7795ffd37e1482745b7ea02aef3291c89ac371ef4ebf7ce07fc692": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 1025
+    },
+    "16": {
+      "filename": "Bridge.code",
+      "line": 1026
+    },
+    "24": {
+      "filename": "Bridge.code",
+      "line": 1027
+    },
+    "40": {
+      "filename": "Bridge.code",
+      "line": 1028
+    },
+    "56": {
+      "filename": "Bridge.code",
+      "line": 1029
+    },
+    "72": {
+      "filename": "Bridge.code",
+      "line": 1030
+    },
+    "80": {
+      "filename": "Bridge.code",
+      "line": 1031
+    },
+    "88": {
+      "filename": "Bridge.code",
+      "line": 1032
+    },
+    "104": {
+      "filename": "Bridge.code",
+      "line": 1033
+    },
+    "120": {
+      "filename": "Bridge.code",
+      "line": 1034
+    },
+    "128": {
+      "filename": "Bridge.code",
+      "line": 1035
+    },
+    "144": {
+      "filename": "Bridge.code",
+      "line": 1036
+    },
+    "168": {
+      "filename": "Bridge.code",
+      "line": 1037
+    },
+    "184": {
+      "filename": "Bridge.code",
+      "line": 1038
+    },
+    "192": {
+      "filename": "Bridge.code",
+      "line": 1039
+    },
+    "208": {
+      "filename": "Bridge.code",
+      "line": 1040
+    },
+    "248": {
+      "filename": "Bridge.code",
+      "line": 1041
+    },
+    "264": {
+      "filename": "Bridge.code",
+      "line": 1042
+    },
+    "272": {
+      "filename": "Bridge.code",
+      "line": 1043
+    },
+    "288": {
+      "filename": "Bridge.code",
+      "line": 1044
+    },
+    "296": {
+      "filename": "Bridge.code",
+      "line": 1045
+    },
+    "312": {
+      "filename": "Bridge.code",
+      "line": 1046
+    },
+    "328": {
+      "filename": "Bridge.code",
+      "line": 1047
+    },
+    "336": {
+      "filename": "Bridge.code",
+      "line": 1048
+    },
+    "344": {
+      "filename": "Bridge.code",
+      "line": 1049
+    },
+    "360": {
+      "filename": "Bridge.code",
+      "line": 1050
+    },
+    "376": {
+      "filename": "Bridge.code",
+      "line": 1054
+    },
+    "384": {
+      "filename": "Bridge.code",
+      "line": 1055
+    },
+    "408": {
+      "filename": "Bridge.code",
+      "line": 1056
+    },
+    "424": {
+      "filename": "Bridge.code",
+      "line": 1057
+    },
+    "432": {
+      "filename": "Bridge.code",
+      "line": 1058
+    },
+    "448": {
+      "filename": "Bridge.code",
+      "line": 1062
+    },
+    "456": {
+      "filename": "Bridge.code",
+      "line": 1063
+    },
+    "472": {
+      "filename": "Bridge.code",
+      "line": 1066
+    }
+  },
   "9d703538127ebee30196548ecded15850e111ec6c256e2a20a2262f75a470041": {
     "0": {
       "filename": "contracts/bridge/Bridge.tsol",
@@ -2968,136 +2666,6 @@
     "0": {
       "filename": "contracts/bridge/Bridge.tsol",
       "line": 125
-    }
-  },
-  "a6d280c75bbe4b99adf36aef2334f467d97b8b0eaa1b38d3168913b68c11db4e": {
-    "0": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "16": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "32": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "40": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "56": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "64": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "72": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "88": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "96": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "176": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "184": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "216": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "232": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "256": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "272": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "280": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "304": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 91
-    },
-    "320": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "336": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "344": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "368": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "376": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "392": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "408": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "416": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "440": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
     }
   },
   "a77fd5c6e8c6430056892ae7c2f7ec7664d191d14ac6e3b4149be462937c8d2a": {
@@ -3238,96 +2806,266 @@
       "line": 48
     }
   },
-  "a9fc3a4bfc7908fc1eed0e134a3b768e57ddaa2cd311a98124fbf5237e7503ee": {
+  "b4e1784c45b524e5d1d4e29403ae9814d70ebf95515e7f9da61b9ce684a240d7": {
     "0": {
       "filename": "Bridge.code",
-      "line": 170
+      "line": 1303
     },
     "8": {
       "filename": "Bridge.code",
-      "line": 171
-    },
-    "24": {
-      "filename": "Bridge.code",
-      "line": 172
+      "line": 1304
     },
     "48": {
       "filename": "Bridge.code",
-      "line": 173
+      "line": 1305
+    },
+    "56": {
+      "filename": "Bridge.code",
+      "line": 1306
+    },
+    "72": {
+      "filename": "Bridge.code",
+      "line": 1309
+    },
+    "80": {
+      "filename": "Bridge.code",
+      "line": 1310
+    },
+    "128": {
+      "filename": "Bridge.code",
+      "line": 1311
+    },
+    "136": {
+      "filename": "Bridge.code",
+      "line": 1312
+    },
+    "152": {
+      "filename": "Bridge.code",
+      "line": 1315
+    },
+    "160": {
+      "filename": "Bridge.code",
+      "line": 1316
+    },
+    "208": {
+      "filename": "Bridge.code",
+      "line": 1317
+    },
+    "216": {
+      "filename": "Bridge.code",
+      "line": 1318
+    },
+    "232": {
+      "filename": "Bridge.code",
+      "line": 1321
+    },
+    "240": {
+      "filename": "Bridge.code",
+      "line": 1322
+    },
+    "288": {
+      "filename": "Bridge.code",
+      "line": 1323
+    },
+    "296": {
+      "filename": "Bridge.code",
+      "line": 1324
+    }
+  },
+  "b64ff983b5537575ad3eee553449f85c32394e050015bc2050da3fcb39a87d60": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 1299
+    },
+    "8": {
+      "filename": "Bridge.code",
+      "line": 1300
+    },
+    "56": {
+      "filename": "Bridge.code",
+      "line": 1301
     },
     "64": {
       "filename": "Bridge.code",
-      "line": 174
+      "line": 1302
     },
-    "72": {
+    "80": {
       "filename": "Bridge.code",
-      "line": 175
+      "line": 1328
     },
     "88": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 78
-    },
-    "104": {
-      "filename": "contracts/bridge/Bridge.tsol",
-      "line": 78
-    },
-    "112": {
       "filename": "Bridge.code",
-      "line": 182
+      "line": 1329
     },
-    "128": {
+    "136": {
       "filename": "Bridge.code",
-      "line": 185
+      "line": 1330
     },
     "144": {
       "filename": "Bridge.code",
-      "line": 188
+      "line": 1331
+    },
+    "160": {
+      "filename": "Bridge.code",
+      "line": 1357
+    },
+    "168": {
+      "filename": "Bridge.code",
+      "line": 1358
+    },
+    "216": {
+      "filename": "Bridge.code",
+      "line": 1359
+    },
+    "224": {
+      "filename": "Bridge.code",
+      "line": 1360
+    },
+    "240": {
+      "filename": "Bridge.code",
+      "line": 1386
+    },
+    "248": {
+      "filename": "Bridge.code",
+      "line": 1387
+    },
+    "296": {
+      "filename": "Bridge.code",
+      "line": 1388
+    },
+    "304": {
+      "filename": "Bridge.code",
+      "line": 1389
     }
   },
-  "c19bbd23b066537877a5774074aa574f9ff6c68b10a93be8e3a3189e84b676df": {
+  "bcce15135ef3a194624a1f3187634e3f1b3802b6d40503dcf55825dbfac038af": {
     "0": {
-      "filename": "<entry-selector>",
-      "line": 1
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
-    "8": {
-      "filename": "<entry-selector>",
-      "line": 2
-    },
-    "24": {
-      "filename": "<entry-selector>",
-      "line": 3
+    "16": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "32": {
-      "filename": "<entry-selector>",
-      "line": 4
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
-    "48": {
-      "filename": "<entry-selector>",
-      "line": 5
+    "40": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "56": {
-      "filename": "<entry-selector>",
-      "line": 6
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "64": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "72": {
-      "filename": "<entry-selector>",
-      "line": 7
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "88": {
-      "filename": "<entry-selector>",
-      "line": 8
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "96": {
-      "filename": "<entry-selector>",
-      "line": 9
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "112": {
-      "filename": "<entry-selector>",
-      "line": 10
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "128": {
-      "filename": "<entry-selector>",
-      "line": 11
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "184": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "216": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "232": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "256": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "272": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "280": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "304": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 81
+    },
+    "320": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "336": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "344": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "368": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "376": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "392": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "408": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "416": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "440": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     }
   },
   "c30d53b76ab235f76a5a20caffe2b016806191ebbb91b7fd0bc488d197e8a7d9": {
@@ -3628,38 +3366,210 @@
       "line": 972
     }
   },
-  "d7a12613a68b1808aaf296f944329c5117d079dbec93843d57d789e5efea6de1": {
+  "cfe59a6bde1e57745e779548b75e458066ea667b90bf99219fbcff62f093bc77": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "208": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "224": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "248": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 42
+    }
+  },
+  "e219c314c4095843fb77bae6eaf2452e75e5f23f9a9d7469d89d7417cc4c00e7": {
     "0": {
       "filename": "Bridge.code",
-      "line": 1295
+      "line": 786
     },
     "8": {
       "filename": "Bridge.code",
-      "line": 1296
+      "line": 787
     },
-    "56": {
+    "24": {
       "filename": "Bridge.code",
-      "line": 1297
+      "line": 788
+    },
+    "48": {
+      "filename": "Bridge.code",
+      "line": 789
     },
     "64": {
       "filename": "Bridge.code",
-      "line": 1298
+      "line": 790
     },
-    "80": {
+    "72": {
       "filename": "Bridge.code",
-      "line": 1416
+      "line": 791
     },
     "88": {
-      "filename": "Bridge.code",
-      "line": 1417
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "96": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
     },
     "136": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "152": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "160": {
       "filename": "Bridge.code",
-      "line": 1418
+      "line": 805
+    },
+    "176": {
+      "filename": "Bridge.code",
+      "line": 808
+    },
+    "192": {
+      "filename": "Bridge.code",
+      "line": 811
+    }
+  },
+  "e44af7d40d775c0eff9e55dce4a4db8e0e36b450e9f336f25d1332718a973abe": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "144": {
-      "filename": "Bridge.code",
-      "line": 1419
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 49
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 51
     }
   },
   "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
@@ -3714,6 +3624,136 @@
     "144": {
       "filename": "Bridge.code",
       "line": 1021
+    }
+  },
+  "ea15fdabff6f47f65bd5df4fe2ea1d2bd7de9445d6351cd8597a2b45af7c952d": {
+    "0": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "16": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "32": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "40": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "56": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "64": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "72": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "88": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "96": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "184": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "216": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "232": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "256": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "272": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "280": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "304": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 91
+    },
+    "320": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "336": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "344": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "368": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "376": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "392": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "408": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "416": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "440": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     }
   },
   "ee2d45da70f823e4bbc3fceb783af37fbd7b7d33d194e0a75ceadbb8b6531aef": {
@@ -3986,6 +4026,94 @@
       "line": 145
     }
   },
+  "ef184fc0451dc863ea2a011610580bfbb531de46ce20ad30ccd90926133ce11a": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 843
+    },
+    "8": {
+      "filename": "Bridge.code",
+      "line": 844
+    },
+    "24": {
+      "filename": "Bridge.code",
+      "line": 845
+    },
+    "48": {
+      "filename": "Bridge.code",
+      "line": 846
+    },
+    "64": {
+      "filename": "Bridge.code",
+      "line": 847
+    },
+    "72": {
+      "filename": "Bridge.code",
+      "line": 848
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 48
+    },
+    "96": {
+      "filename": "Bridge.code",
+      "line": 854
+    },
+    "112": {
+      "filename": "Bridge.code",
+      "line": 857
+    },
+    "128": {
+      "filename": "Bridge.code",
+      "line": 860
+    }
+  },
+  "f01e3dcd575d46194eb61b7491149a45b1f6d60f95425d48a0403b420943ada0": {
+    "0": {
+      "filename": "Bridge.code",
+      "line": 170
+    },
+    "8": {
+      "filename": "Bridge.code",
+      "line": 171
+    },
+    "24": {
+      "filename": "Bridge.code",
+      "line": 172
+    },
+    "48": {
+      "filename": "Bridge.code",
+      "line": 173
+    },
+    "64": {
+      "filename": "Bridge.code",
+      "line": 174
+    },
+    "72": {
+      "filename": "Bridge.code",
+      "line": 175
+    },
+    "88": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 78
+    },
+    "104": {
+      "filename": "contracts/bridge/Bridge.tsol",
+      "line": 78
+    },
+    "112": {
+      "filename": "Bridge.code",
+      "line": 182
+    },
+    "128": {
+      "filename": "Bridge.code",
+      "line": 185
+    },
+    "144": {
+      "filename": "Bridge.code",
+      "line": 188
+    }
+  },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
     "0": {
       "filename": "Bridge.code",
@@ -4008,72 +4136,6 @@
     "40": {
       "filename": "<internal-selector>",
       "line": 3
-    }
-  },
-  "f475a7200444caed0ff8dc421779edc2a8c90bf8d8882e6909c46fdca234f637": {
-    "0": {
-      "filename": "Bridge.code",
-      "line": 1390
-    },
-    "8": {
-      "filename": "Bridge.code",
-      "line": 1391
-    },
-    "56": {
-      "filename": "Bridge.code",
-      "line": 1392
-    },
-    "64": {
-      "filename": "Bridge.code",
-      "line": 1393
-    },
-    "80": {
-      "filename": "Bridge.code",
-      "line": 1396
-    },
-    "88": {
-      "filename": "Bridge.code",
-      "line": 1397
-    },
-    "136": {
-      "filename": "Bridge.code",
-      "line": 1398
-    },
-    "144": {
-      "filename": "Bridge.code",
-      "line": 1399
-    },
-    "160": {
-      "filename": "Bridge.code",
-      "line": 1402
-    },
-    "168": {
-      "filename": "Bridge.code",
-      "line": 1403
-    },
-    "216": {
-      "filename": "Bridge.code",
-      "line": 1404
-    },
-    "224": {
-      "filename": "Bridge.code",
-      "line": 1405
-    },
-    "240": {
-      "filename": "Bridge.code",
-      "line": 1408
-    },
-    "248": {
-      "filename": "Bridge.code",
-      "line": 1409
-    },
-    "296": {
-      "filename": "Bridge.code",
-      "line": 1410
-    },
-    "304": {
-      "filename": "Bridge.code",
-      "line": 1411
     }
   },
   "f7d49cece872889248ca7fcf346a19c34ef2f5ff7aa70d207e57efcad5d99e91": {
@@ -4136,68 +4198,6 @@
     "304": {
       "filename": "Bridge.code",
       "line": 1232
-    }
-  },
-  "f9cf078b1ee9bb5f8428c5cac6a83ef09103184df306b169e8f3e88359b5ef45": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 46
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 48
     }
   },
   "fd4d42c889898c15e076750e73b46185047d0d411d8c0d7cc85d81769022b6e2": {

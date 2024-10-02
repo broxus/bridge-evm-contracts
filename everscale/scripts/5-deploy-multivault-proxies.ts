@@ -9,7 +9,7 @@ const main = async () => {
       type: "text",
       name: "owner",
       message: "Proxies owner (can be changed later)",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
   ]);

@@ -370,7 +370,7 @@
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
       "filename": "Platform.code",
-      "line": 279
+      "line": 154
     }
   },
   "69c0c11a81321bde4836b5b33a42cf678c120c6d9c488c1371521cb17a5048ec": {
@@ -634,79 +634,79 @@
     },
     "192": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 13
+      "line": 16
     },
     "208": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 13
+      "line": 16
     },
     "224": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 13
+      "line": 16
     },
     "240": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 13
+      "line": 16
     },
     "256": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 16
+      "line": 23
     },
     "272": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 16
+      "line": 23
     },
     "288": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 16
+      "line": 23
     },
     "304": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "320": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "328": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "352": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "360": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "376": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "392": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "400": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "416": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "432": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "448": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "464": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 14
+      "line": 17
     },
     "472": {
       "filename": "Platform.code",
@@ -893,131 +893,131 @@
   "e0c069a119c639c279c90dfc50f00e67230b25ff790d819d3767ab5dca062a4e": {
     "0": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 24
+      "line": 34
     },
     "16": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 24
+      "line": 34
     },
     "24": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 24
+      "line": 34
     },
     "32": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 25
+      "line": 35
     },
     "48": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 25
+      "line": 35
     },
     "72": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 26
+      "line": 36
     },
     "80": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 28
+      "line": 38
     },
     "96": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 28
+      "line": 38
     },
     "104": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 28
+      "line": 38
     },
     "112": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 29
+      "line": 39
     },
     "128": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 29
+      "line": 39
     },
     "136": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 29
+      "line": 39
     },
     "144": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 30
+      "line": 40
     },
     "152": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 32
+      "line": 42
     },
     "160": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 32
+      "line": 42
     },
     "176": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "184": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "192": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "200": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "240": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "256": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "264": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "280": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "288": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "296": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "312": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "320": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "336": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 33
+      "line": 43
     },
     "352": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 35
+      "line": 45
     },
     "360": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 35
+      "line": 45
     },
     "408": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 35
+      "line": 45
     },
     "424": {
       "filename": "@broxus/contracts/contracts/platform/Platform.tsol",
-      "line": 35
+      "line": 45
     }
   },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {

@@ -4,9 +4,7 @@ import { Account } from "everscale-standalone-client/nodejs";
 import { expect } from "chai";
 import { deployAccount } from "../utils/account";
 import { tryIncreaseTime } from "../utils/time";
-
-const logger = require("mocha-logger");
-const BigNumber = require("bignumber.js");
+import { BigNumber } from "bignumber.js";
 
 let roundDeployer: Contract<FactorySource["RoundDeployer"]>;
 
@@ -106,21 +104,21 @@ describe("Test Relay round mechanic", async function () {
         });
         roundDeployer = contract.contract;
 
-        logger.log(`RoundDeployer address: ${roundDeployer.address}`);
-        logger.log(
+        console.log(`RoundDeployer address: ${roundDeployer.address}`);
+        console.log(
           `RoundDeployer owner address: ${roundDeployerOwner.address}`
         );
       });
 
       it("Installing codes", async function () {
-        const RelayRound = await locklift.factory.getContractArtifacts(
+        const RelayRound = locklift.factory.getContractArtifacts(
           "RelayRound"
         );
-        const Platform = await locklift.factory.getContractArtifacts(
+        const Platform = locklift.factory.getContractArtifacts(
           "Platform"
         );
 
-        logger.log(`Installing Platform code`);
+        console.log(`Installing Platform code`);
         await roundDeployer.methods
           .installPlatformOnce({
             code: Platform.code,
@@ -131,7 +129,7 @@ describe("Test Relay round mechanic", async function () {
             amount: locklift.utils.toNano(11),
           });
 
-        logger.log(`Installing RelayRound code`);
+        console.log(`Installing RelayRound code`);
         await roundDeployer.methods
           .installOrUpdateRelayRoundCode({
             code: RelayRound.code,
@@ -141,7 +139,7 @@ describe("Test Relay round mechanic", async function () {
             from: roundDeployerOwner.address,
             amount: locklift.utils.toNano(11),
           });
-        logger.log(`Set staking to Active`);
+        console.log(`Set staking to Active`);
         await roundDeployer.methods
           .setActive({
             new_active: true,

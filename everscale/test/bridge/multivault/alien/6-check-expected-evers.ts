@@ -16,8 +16,6 @@ import { deployAccount } from "../../../utils/account";
 import { logContract } from "../../../utils/logger";
 import { setupAlienJettonMultiVault } from "../../../utils/multivault/alien";
 
-const logger = require("mocha-logger");
-
 type EncodeMultiVaultAlienEVMEverscaleParam = Parameters<
   Contract<CellEncoderStandaloneAbi>["methods"]["encodeMultiVaultAlienEVMEverscale"]
 >[0];
@@ -54,10 +52,8 @@ describe("Check expected_evers constraint on event deployment", function () {
   const expected_evers = locklift.utils.toNano(30);
 
   it("Setup bridge", async () => {
-    let bridge, proxy, everscaleEthereumEventConfiguration;
-
     relays = await setupRelays();
-    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+    [, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
       relays
     );
 
@@ -69,8 +65,8 @@ describe("Check expected_evers constraint on event deployment", function () {
 
     [
       ethereumEverscaleEventConfiguration,
-      everscaleEthereumEventConfiguration,
-      proxy,
+      ,
+      ,
     ] = await setupAlienJettonMultiVault(bridgeOwner, roundDeployer);
   });
 
@@ -121,7 +117,7 @@ describe("Check expected_evers constraint on event deployment", function () {
           amount: new BigNumber(expected_evers).div(2).toString(),
         });
 
-      logger.log(`Event initialization tx: ${tx.id}`);
+      console.log(`Event initialization tx: ${tx.id}`);
 
       const expectedEventContract =
         await ethereumEverscaleEventConfiguration.methods
@@ -131,7 +127,7 @@ describe("Check expected_evers constraint on event deployment", function () {
           })
           .call();
 
-      logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+      console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
       eventContract = locklift.factory.getDeployedContract(
         "MultiVaultEVMTONEventAlien",
@@ -195,7 +191,7 @@ describe("Check expected_evers constraint on event deployment", function () {
             .toString(),
         });
 
-      logger.log(`Event initialization tx: ${tx.id}`);
+      console.log(`Event initialization tx: ${tx.id}`);
 
       const expectedEventContract =
         await ethereumEverscaleEventConfiguration.methods
@@ -205,7 +201,7 @@ describe("Check expected_evers constraint on event deployment", function () {
           })
           .call();
 
-      logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+      console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
       eventContract = locklift.factory.getDeployedContract(
         "MultiVaultEVMTONEventAlien",

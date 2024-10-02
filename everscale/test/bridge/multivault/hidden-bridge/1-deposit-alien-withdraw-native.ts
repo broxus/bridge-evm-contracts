@@ -26,8 +26,6 @@ import {
 } from "../../../utils/hidden-bridge";
 import { setupNativeJettonMultiVault } from "../../../utils/multivault/native";
 
-const logger = require("mocha-logger");
-
 type EventVoteDataParam = Parameters<
   Contract<EthereumEverscaleEventConfigurationAbi>["methods"]["deployEvent"]
 >[0]["eventVoteData"];
@@ -62,10 +60,8 @@ describe("Test EVM-EVM bridge transfers, deposit alien withdraw native token", (
   };
 
   it("Setup bridge", async () => {
-    let bridge;
-
     relays = await setupRelays();
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
 
     const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -74,20 +70,16 @@ describe("Test EVM-EVM bridge transfers, deposit alien withdraw native token", (
   });
 
   it("Setup alien pipeline", async () => {
-    let alienEverscaleEthereumEventConfiguration;
-
     [
       alienEthereumEverscaleEventConfiguration,
-      alienEverscaleEthereumEventConfiguration,
+      ,
       alienProxy,
     ] = await setupAlienJettonMultiVault(bridgeOwner, staking);
   });
 
   it("Setup native pipeline", async () => {
-    let nativeEthereumEverscaleEventConfiguration;
-
     [
-      nativeEthereumEverscaleEventConfiguration,
+      ,
       nativeEverscaleEthereumEventConfiguration,
       nativeProxy,
     ] = await setupNativeJettonMultiVault(bridgeOwner, staking);
@@ -188,7 +180,7 @@ describe("Test EVM-EVM bridge transfers, deposit alien withdraw native token", (
           amount: locklift.utils.toNano(10),
         });
 
-      logger.log(`Event initialization tx: ${tx.id.hash}`);
+      console.log(`Event initialization tx: ${tx.id.hash}`);
 
       const expectedEventContract =
         await alienEthereumEverscaleEventConfiguration.methods
@@ -198,7 +190,7 @@ describe("Test EVM-EVM bridge transfers, deposit alien withdraw native token", (
           })
           .call();
 
-      logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+      console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
       depositEventContract = locklift.factory.getDeployedContract(
         "MultiVaultEVMTONEventAlien",
@@ -231,7 +223,7 @@ describe("Test EVM-EVM bridge transfers, deposit alien withdraw native token", (
         },
       ] = events;
 
-      logger.log(`Expected event address: ${expectedEventContract}`);
+      console.log(`Expected event address: ${expectedEventContract}`);
 
       withdrawEventContract = locklift.factory.getDeployedContract(
         "MultiVaultTONEVMEventNative",

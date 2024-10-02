@@ -1,74 +1,4 @@
 {
-  "0bce71f14be893edc5e886e7d80255d4f3079f3a8f44babbbb9b95bd6d44c54a": {
-    "0": {
-      "filename": "MergeRouter.code",
-      "line": 554
-    },
-    "8": {
-      "filename": "MergeRouter.code",
-      "line": 555
-    },
-    "24": {
-      "filename": "MergeRouter.code",
-      "line": 556
-    },
-    "48": {
-      "filename": "MergeRouter.code",
-      "line": 557
-    },
-    "64": {
-      "filename": "MergeRouter.code",
-      "line": 558
-    },
-    "72": {
-      "filename": "MergeRouter.code",
-      "line": 559
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "96": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "136": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "152": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "160": {
-      "filename": "MergeRouter.code",
-      "line": 573
-    },
-    "176": {
-      "filename": "MergeRouter.code",
-      "line": 576
-    },
-    "192": {
-      "filename": "MergeRouter.code",
-      "line": 579
-    }
-  },
   "1f0b33cea53b05c03a361f833dd5b174b9a3df595fac36e3401cd5c4c9da82cd": {
     "0": {
       "filename": "contracts/utils/TransferUtils.tsol",
@@ -209,56 +139,6 @@
     "512": {
       "filename": "contracts/utils/TransferUtils.tsol",
       "line": 48
-    }
-  },
-  "1f10815eaf612381ff6d7aa7c9fb34ab9faab7d0873e91f456776b5a3c517a18": {
-    "0": {
-      "filename": "MergeRouter.code",
-      "line": 940
-    },
-    "8": {
-      "filename": "MergeRouter.code",
-      "line": 941
-    },
-    "56": {
-      "filename": "MergeRouter.code",
-      "line": 942
-    },
-    "64": {
-      "filename": "MergeRouter.code",
-      "line": 943
-    },
-    "80": {
-      "filename": "MergeRouter.code",
-      "line": 969
-    },
-    "88": {
-      "filename": "MergeRouter.code",
-      "line": 970
-    },
-    "136": {
-      "filename": "MergeRouter.code",
-      "line": 971
-    },
-    "144": {
-      "filename": "MergeRouter.code",
-      "line": 972
-    },
-    "160": {
-      "filename": "MergeRouter.code",
-      "line": 998
-    },
-    "168": {
-      "filename": "MergeRouter.code",
-      "line": 999
-    },
-    "216": {
-      "filename": "MergeRouter.code",
-      "line": 1000
-    },
-    "224": {
-      "filename": "MergeRouter.code",
-      "line": 1001
     }
   },
   "26bcfb4f7bc98c3bcd11c211c4aa8b2e6221b60a876a08681a9963f6c62f339a": {
@@ -411,6 +291,144 @@
       "line": 937
     }
   },
+  "3a023ce70cb02afa69ee2367d0e43dc02edf7180e7b2ed2b7fc25c3a59b441b0": {
+    "0": {
+      "filename": "MergeRouter.code",
+      "line": 792
+    },
+    "16": {
+      "filename": "MergeRouter.code",
+      "line": 793
+    },
+    "24": {
+      "filename": "MergeRouter.code",
+      "line": 794
+    },
+    "40": {
+      "filename": "MergeRouter.code",
+      "line": 795
+    },
+    "56": {
+      "filename": "MergeRouter.code",
+      "line": 796
+    },
+    "72": {
+      "filename": "MergeRouter.code",
+      "line": 797
+    },
+    "80": {
+      "filename": "MergeRouter.code",
+      "line": 798
+    },
+    "88": {
+      "filename": "MergeRouter.code",
+      "line": 799
+    },
+    "104": {
+      "filename": "MergeRouter.code",
+      "line": 800
+    },
+    "120": {
+      "filename": "MergeRouter.code",
+      "line": 801
+    },
+    "128": {
+      "filename": "MergeRouter.code",
+      "line": 802
+    },
+    "144": {
+      "filename": "MergeRouter.code",
+      "line": 803
+    },
+    "168": {
+      "filename": "MergeRouter.code",
+      "line": 804
+    },
+    "184": {
+      "filename": "MergeRouter.code",
+      "line": 805
+    },
+    "192": {
+      "filename": "MergeRouter.code",
+      "line": 806
+    },
+    "208": {
+      "filename": "MergeRouter.code",
+      "line": 807
+    },
+    "248": {
+      "filename": "MergeRouter.code",
+      "line": 808
+    },
+    "264": {
+      "filename": "MergeRouter.code",
+      "line": 809
+    },
+    "272": {
+      "filename": "MergeRouter.code",
+      "line": 810
+    },
+    "288": {
+      "filename": "MergeRouter.code",
+      "line": 811
+    },
+    "296": {
+      "filename": "MergeRouter.code",
+      "line": 812
+    },
+    "312": {
+      "filename": "MergeRouter.code",
+      "line": 813
+    },
+    "328": {
+      "filename": "MergeRouter.code",
+      "line": 814
+    },
+    "336": {
+      "filename": "MergeRouter.code",
+      "line": 815
+    },
+    "344": {
+      "filename": "MergeRouter.code",
+      "line": 816
+    },
+    "360": {
+      "filename": "MergeRouter.code",
+      "line": 817
+    },
+    "376": {
+      "filename": "MergeRouter.code",
+      "line": 821
+    },
+    "384": {
+      "filename": "MergeRouter.code",
+      "line": 822
+    },
+    "408": {
+      "filename": "MergeRouter.code",
+      "line": 823
+    },
+    "424": {
+      "filename": "MergeRouter.code",
+      "line": 824
+    },
+    "432": {
+      "filename": "MergeRouter.code",
+      "line": 825
+    },
+    "448": {
+      "filename": "MergeRouter.code",
+      "line": 829
+    },
+    "456": {
+      "filename": "MergeRouter.code",
+      "line": 830
+    },
+    "472": {
+      "filename": "MergeRouter.code",
+      "line": 833
+    }
+  },
   "42132032fa962a4fb7f9d83b3aaa9fff852859405792abdb087e56b458db451c": {
     "0": {
       "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
@@ -460,75 +478,75 @@
   "43eec3857cc5dd0c7c03dc4636aa055a87f5d626da614fc2b594cb8ceecd3c4b": {
     "0": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 24
+      "line": 26
     },
     "16": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
+      "line": 28
     },
     "24": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
+      "line": 28
     },
     "40": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "160": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "168": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "176": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "184": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "192": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "240": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "248": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "256": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "264": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "272": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "280": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "288": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "296": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "304": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     }
   },
   "4ca75333371c3445edc406f52dca5b22a78363dcaeec738c2535a6172dab106d": {
@@ -979,280 +997,114 @@
       "line": 687
     }
   },
-  "5a8fa2af34395b883a5fcd7846d657c36fcd670349a18446a65fca8cb7c65bed": {
+  "5b854e49b47e24ce419b7d69ded668cdfd8d31508f81d631f7d8562184df84f6": {
     "0": {
       "filename": "MergeRouter.code",
-      "line": 944
+      "line": 115
     },
     "8": {
       "filename": "MergeRouter.code",
-      "line": 945
+      "line": 116
+    },
+    "24": {
+      "filename": "MergeRouter.code",
+      "line": 117
     },
     "48": {
       "filename": "MergeRouter.code",
-      "line": 946
-    },
-    "56": {
-      "filename": "MergeRouter.code",
-      "line": 947
-    },
-    "72": {
-      "filename": "MergeRouter.code",
-      "line": 950
-    },
-    "80": {
-      "filename": "MergeRouter.code",
-      "line": 951
-    },
-    "128": {
-      "filename": "MergeRouter.code",
-      "line": 952
-    },
-    "136": {
-      "filename": "MergeRouter.code",
-      "line": 953
-    },
-    "152": {
-      "filename": "MergeRouter.code",
-      "line": 956
-    },
-    "160": {
-      "filename": "MergeRouter.code",
-      "line": 957
-    },
-    "208": {
-      "filename": "MergeRouter.code",
-      "line": 958
-    },
-    "216": {
-      "filename": "MergeRouter.code",
-      "line": 959
-    },
-    "232": {
-      "filename": "MergeRouter.code",
-      "line": 962
-    },
-    "240": {
-      "filename": "MergeRouter.code",
-      "line": 963
-    },
-    "288": {
-      "filename": "MergeRouter.code",
-      "line": 964
-    },
-    "296": {
-      "filename": "MergeRouter.code",
-      "line": 965
-    }
-  },
-  "5b8a67731c1cb79b1bdbba949a13e7c6d930792f9d8062cac94172df687ffdb3": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 118
     },
     "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "MergeRouter.code",
+      "line": 119
     },
     "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "MergeRouter.code",
+      "line": 120
     },
     "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
+    },
+    "96": {
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
     },
     "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
+    },
+    "112": {
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
     },
     "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
     },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+    "128": {
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
+    },
+    "136": {
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
+    },
+    "152": {
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 49
     },
     "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "MergeRouter.code",
+      "line": 134
     },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+    "176": {
+      "filename": "MergeRouter.code",
+      "line": 137
     },
     "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "208": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "224": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "248": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 39
+      "filename": "MergeRouter.code",
+      "line": 140
     }
   },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 46
+      "filename": "MergeRouter.code",
+      "line": 843
     }
   },
-  "7c7cffee35902f9a0b3cd098a06fb0e5e65910e779727af82a1f0ba37bf3cc76": {
+  "77a50bb698a57da83c3f54b8669e290e44db213760957fc79c7a18c063b52176": {
     "0": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
+      "filename": "MergeRouter.code",
+      "line": 1002
     },
-    "16": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "32": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "40": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
+    "8": {
+      "filename": "MergeRouter.code",
+      "line": 1003
     },
     "56": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
+      "filename": "MergeRouter.code",
+      "line": 1004
     },
     "64": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
+      "filename": "MergeRouter.code",
+      "line": 1005
     },
-    "72": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
+    "80": {
+      "filename": "MergeRouter.code",
+      "line": 1008
     },
     "88": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
+      "filename": "MergeRouter.code",
+      "line": 1009
     },
-    "96": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+    "136": {
+      "filename": "MergeRouter.code",
+      "line": 1010
     },
     "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "176": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "184": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "216": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "232": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "256": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "272": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "280": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "304": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 52
-    },
-    "320": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "336": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "344": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "368": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "376": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "392": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "408": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "416": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "440": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
+      "filename": "MergeRouter.code",
+      "line": 1011
     }
   },
   "7fdcc814c09d0660a6d77539eabd538d573407fdf2c85f4fb0dac5f790523355": {
@@ -1509,6 +1361,48 @@
     "408": {
       "filename": "MergeRouter.code",
       "line": 737
+    }
+  },
+  "94603af030feabd84d1e5cf1ac6ddadf6c62c6d84d127478e9a0a0f72bda1734": {
+    "0": {
+      "filename": "MergeRouter.code",
+      "line": 611
+    },
+    "8": {
+      "filename": "MergeRouter.code",
+      "line": 612
+    },
+    "24": {
+      "filename": "MergeRouter.code",
+      "line": 613
+    },
+    "48": {
+      "filename": "MergeRouter.code",
+      "line": 614
+    },
+    "64": {
+      "filename": "MergeRouter.code",
+      "line": 615
+    },
+    "72": {
+      "filename": "MergeRouter.code",
+      "line": 616
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 48
+    },
+    "96": {
+      "filename": "MergeRouter.code",
+      "line": 622
+    },
+    "112": {
+      "filename": "MergeRouter.code",
+      "line": 625
+    },
+    "128": {
+      "filename": "MergeRouter.code",
+      "line": 628
     }
   },
   "a290296c8b452c98b07ecaacf0b6bfa31f41bd2e7a70ff7972421f3bbd542753": {
@@ -1777,49 +1671,7 @@
       "line": 316
     }
   },
-  "ad0c82a88b7f176b05347fda0166cc446e0f5c2b8d4a7a27e4618bbf74236056": {
-    "0": {
-      "filename": "MergeRouter.code",
-      "line": 611
-    },
-    "8": {
-      "filename": "MergeRouter.code",
-      "line": 612
-    },
-    "24": {
-      "filename": "MergeRouter.code",
-      "line": 613
-    },
-    "48": {
-      "filename": "MergeRouter.code",
-      "line": 614
-    },
-    "64": {
-      "filename": "MergeRouter.code",
-      "line": 615
-    },
-    "72": {
-      "filename": "MergeRouter.code",
-      "line": 616
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 45
-    },
-    "96": {
-      "filename": "MergeRouter.code",
-      "line": 622
-    },
-    "112": {
-      "filename": "MergeRouter.code",
-      "line": 625
-    },
-    "128": {
-      "filename": "MergeRouter.code",
-      "line": 628
-    }
-  },
-  "b260ce285f71b51bf453d117a47c5af67ef6b80c920187e5cf4ee99c7808c2f2": {
+  "ac4b55b0482ce9521c80b8e506fd52970123b4738b7c45689839570152361f67": {
     "0": {
       "filename": "<entry-selector>",
       "line": 1
@@ -1863,6 +1715,272 @@
     "128": {
       "filename": "<entry-selector>",
       "line": 11
+    }
+  },
+  "ae775370fdab8d1e26646bf71dbd9c8c53454b48e4a7941c0c36a91c883a518b": {
+    "0": {
+      "filename": "MergeRouter.code",
+      "line": 554
+    },
+    "8": {
+      "filename": "MergeRouter.code",
+      "line": 555
+    },
+    "24": {
+      "filename": "MergeRouter.code",
+      "line": 556
+    },
+    "48": {
+      "filename": "MergeRouter.code",
+      "line": 557
+    },
+    "64": {
+      "filename": "MergeRouter.code",
+      "line": 558
+    },
+    "72": {
+      "filename": "MergeRouter.code",
+      "line": 559
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "96": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "136": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "152": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "160": {
+      "filename": "MergeRouter.code",
+      "line": 573
+    },
+    "176": {
+      "filename": "MergeRouter.code",
+      "line": 576
+    },
+    "192": {
+      "filename": "MergeRouter.code",
+      "line": 579
+    }
+  },
+  "bcce15135ef3a194624a1f3187634e3f1b3802b6d40503dcf55825dbfac038af": {
+    "0": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "16": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "32": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "40": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "56": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "64": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "72": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "88": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "96": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "184": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "216": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "232": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "256": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "272": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "280": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "304": {
+      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
+      "line": 52
+    },
+    "320": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "336": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "344": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "368": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "376": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "392": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "408": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "416": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "440": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    }
+  },
+  "c91256b2b8253c8eb0f4bbcbffab1394a99f6b9fe9008e1fd5cb39e149047d3a": {
+    "0": {
+      "filename": "MergeRouter.code",
+      "line": 973
+    },
+    "8": {
+      "filename": "MergeRouter.code",
+      "line": 974
+    },
+    "56": {
+      "filename": "MergeRouter.code",
+      "line": 975
+    },
+    "64": {
+      "filename": "MergeRouter.code",
+      "line": 976
+    },
+    "80": {
+      "filename": "MergeRouter.code",
+      "line": 979
+    },
+    "88": {
+      "filename": "MergeRouter.code",
+      "line": 980
+    },
+    "136": {
+      "filename": "MergeRouter.code",
+      "line": 981
+    },
+    "144": {
+      "filename": "MergeRouter.code",
+      "line": 982
+    },
+    "160": {
+      "filename": "MergeRouter.code",
+      "line": 985
+    },
+    "168": {
+      "filename": "MergeRouter.code",
+      "line": 986
+    },
+    "216": {
+      "filename": "MergeRouter.code",
+      "line": 987
+    },
+    "224": {
+      "filename": "MergeRouter.code",
+      "line": 988
+    },
+    "240": {
+      "filename": "MergeRouter.code",
+      "line": 991
+    },
+    "248": {
+      "filename": "MergeRouter.code",
+      "line": 992
+    },
+    "296": {
+      "filename": "MergeRouter.code",
+      "line": 993
+    },
+    "304": {
+      "filename": "MergeRouter.code",
+      "line": 994
     }
   },
   "c9ab0d50c4e066790312938a809f78f822be8d625fd9a906bb97271ce172fdc3": {
@@ -1975,6 +2093,56 @@
       "line": 41
     }
   },
+  "caa51f016118f6842cd91477b5cdbee3f25e3b3d0ea4141f86fc7eb94c170b10": {
+    "0": {
+      "filename": "MergeRouter.code",
+      "line": 940
+    },
+    "8": {
+      "filename": "MergeRouter.code",
+      "line": 941
+    },
+    "56": {
+      "filename": "MergeRouter.code",
+      "line": 942
+    },
+    "64": {
+      "filename": "MergeRouter.code",
+      "line": 943
+    },
+    "80": {
+      "filename": "MergeRouter.code",
+      "line": 969
+    },
+    "88": {
+      "filename": "MergeRouter.code",
+      "line": 970
+    },
+    "136": {
+      "filename": "MergeRouter.code",
+      "line": 971
+    },
+    "144": {
+      "filename": "MergeRouter.code",
+      "line": 972
+    },
+    "160": {
+      "filename": "MergeRouter.code",
+      "line": 998
+    },
+    "168": {
+      "filename": "MergeRouter.code",
+      "line": 999
+    },
+    "216": {
+      "filename": "MergeRouter.code",
+      "line": 1000
+    },
+    "224": {
+      "filename": "MergeRouter.code",
+      "line": 1001
+    }
+  },
   "cbdfb51445914fae696d2e8fcf37aab47a78e2334650452e179b037986f66972": {
     "0": {
       "filename": "MergeRouter.code",
@@ -2045,7 +2213,147 @@
       "line": 69
     }
   },
-  "cd7e8f48dad00f0201f2ca101966de80b07b24f8ea0c0bf8c0af37256ac7caf1": {
+  "cbec2c5d94436b163a60837ec2efbdf7a22abdc2cacc8bc99d12406a5ef62f1c": {
+    "0": {
+      "filename": "MergeRouter.code",
+      "line": 944
+    },
+    "8": {
+      "filename": "MergeRouter.code",
+      "line": 945
+    },
+    "48": {
+      "filename": "MergeRouter.code",
+      "line": 946
+    },
+    "56": {
+      "filename": "MergeRouter.code",
+      "line": 947
+    },
+    "72": {
+      "filename": "MergeRouter.code",
+      "line": 950
+    },
+    "80": {
+      "filename": "MergeRouter.code",
+      "line": 951
+    },
+    "128": {
+      "filename": "MergeRouter.code",
+      "line": 952
+    },
+    "136": {
+      "filename": "MergeRouter.code",
+      "line": 953
+    },
+    "152": {
+      "filename": "MergeRouter.code",
+      "line": 956
+    },
+    "160": {
+      "filename": "MergeRouter.code",
+      "line": 957
+    },
+    "208": {
+      "filename": "MergeRouter.code",
+      "line": 958
+    },
+    "216": {
+      "filename": "MergeRouter.code",
+      "line": 959
+    },
+    "232": {
+      "filename": "MergeRouter.code",
+      "line": 962
+    },
+    "240": {
+      "filename": "MergeRouter.code",
+      "line": 963
+    },
+    "288": {
+      "filename": "MergeRouter.code",
+      "line": 964
+    },
+    "296": {
+      "filename": "MergeRouter.code",
+      "line": 965
+    }
+  },
+  "cfe59a6bde1e57745e779548b75e458066ea667b90bf99219fbcff62f093bc77": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "208": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "224": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "248": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 42
+    }
+  },
+  "dc3770b39c908d55a0eabf914a728867e7b00ab4f9af48fb10abcfaa6ee29f6f": {
     "0": {
       "filename": "MergeRouter.code",
       "line": 837
@@ -2299,110 +2607,6 @@
       "line": 897
     }
   },
-  "d6d78f2b8d85f07129c964e8cc0a8d2822d5497fb734c29d9284521c156bd881": {
-    "0": {
-      "filename": "MergeRouter.code",
-      "line": 115
-    },
-    "8": {
-      "filename": "MergeRouter.code",
-      "line": 116
-    },
-    "24": {
-      "filename": "MergeRouter.code",
-      "line": 117
-    },
-    "48": {
-      "filename": "MergeRouter.code",
-      "line": 118
-    },
-    "64": {
-      "filename": "MergeRouter.code",
-      "line": 119
-    },
-    "72": {
-      "filename": "MergeRouter.code",
-      "line": 120
-    },
-    "88": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "96": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "104": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "112": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "120": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "128": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "136": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "152": {
-      "filename": "contracts/bridge/alien-token-merge/MergeRouter.tsol",
-      "line": 49
-    },
-    "160": {
-      "filename": "MergeRouter.code",
-      "line": 134
-    },
-    "176": {
-      "filename": "MergeRouter.code",
-      "line": 137
-    },
-    "192": {
-      "filename": "MergeRouter.code",
-      "line": 140
-    }
-  },
-  "dc969ed025130066005daa2d07ba62e07f9c7db395fbae7742a678efff61e7a4": {
-    "0": {
-      "filename": "MergeRouter.code",
-      "line": 1002
-    },
-    "8": {
-      "filename": "MergeRouter.code",
-      "line": 1003
-    },
-    "56": {
-      "filename": "MergeRouter.code",
-      "line": 1004
-    },
-    "64": {
-      "filename": "MergeRouter.code",
-      "line": 1005
-    },
-    "80": {
-      "filename": "MergeRouter.code",
-      "line": 1008
-    },
-    "88": {
-      "filename": "MergeRouter.code",
-      "line": 1009
-    },
-    "136": {
-      "filename": "MergeRouter.code",
-      "line": 1010
-    },
-    "144": {
-      "filename": "MergeRouter.code",
-      "line": 1011
-    }
-  },
   "de4389f66e36382e71b0eeca48395b1c45f129c6926c2a2c53eacf2d0ee6c30f": {
     "0": {
       "filename": "contracts/utils/TransferUtils.tsol",
@@ -2521,208 +2725,66 @@
       "line": 48
     }
   },
-  "e302aa4fcdbdcb36bff9664272ee904f56b45ae0c0f36ad91a3655e803704395": {
+  "e44af7d40d775c0eff9e55dce4a4db8e0e36b450e9f336f25d1332718a973abe": {
     "0": {
-      "filename": "MergeRouter.code",
-      "line": 792
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "16": {
-      "filename": "MergeRouter.code",
-      "line": 793
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "24": {
-      "filename": "MergeRouter.code",
-      "line": 794
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "40": {
-      "filename": "MergeRouter.code",
-      "line": 795
-    },
-    "56": {
-      "filename": "MergeRouter.code",
-      "line": 796
-    },
-    "72": {
-      "filename": "MergeRouter.code",
-      "line": 797
-    },
-    "80": {
-      "filename": "MergeRouter.code",
-      "line": 798
-    },
-    "88": {
-      "filename": "MergeRouter.code",
-      "line": 799
-    },
-    "104": {
-      "filename": "MergeRouter.code",
-      "line": 800
-    },
-    "120": {
-      "filename": "MergeRouter.code",
-      "line": 801
-    },
-    "128": {
-      "filename": "MergeRouter.code",
-      "line": 802
-    },
-    "144": {
-      "filename": "MergeRouter.code",
-      "line": 803
-    },
-    "168": {
-      "filename": "MergeRouter.code",
-      "line": 804
-    },
-    "184": {
-      "filename": "MergeRouter.code",
-      "line": 805
-    },
-    "192": {
-      "filename": "MergeRouter.code",
-      "line": 806
-    },
-    "208": {
-      "filename": "MergeRouter.code",
-      "line": 807
-    },
-    "248": {
-      "filename": "MergeRouter.code",
-      "line": 808
-    },
-    "264": {
-      "filename": "MergeRouter.code",
-      "line": 809
-    },
-    "272": {
-      "filename": "MergeRouter.code",
-      "line": 810
-    },
-    "288": {
-      "filename": "MergeRouter.code",
-      "line": 811
-    },
-    "296": {
-      "filename": "MergeRouter.code",
-      "line": 812
-    },
-    "312": {
-      "filename": "MergeRouter.code",
-      "line": 813
-    },
-    "328": {
-      "filename": "MergeRouter.code",
-      "line": 814
-    },
-    "336": {
-      "filename": "MergeRouter.code",
-      "line": 815
-    },
-    "344": {
-      "filename": "MergeRouter.code",
-      "line": 816
-    },
-    "360": {
-      "filename": "MergeRouter.code",
-      "line": 817
-    },
-    "376": {
-      "filename": "MergeRouter.code",
-      "line": 821
-    },
-    "384": {
-      "filename": "MergeRouter.code",
-      "line": 822
-    },
-    "408": {
-      "filename": "MergeRouter.code",
-      "line": 823
-    },
-    "424": {
-      "filename": "MergeRouter.code",
-      "line": 824
-    },
-    "432": {
-      "filename": "MergeRouter.code",
-      "line": 825
-    },
-    "448": {
-      "filename": "MergeRouter.code",
-      "line": 829
-    },
-    "456": {
-      "filename": "MergeRouter.code",
-      "line": 830
-    },
-    "472": {
-      "filename": "MergeRouter.code",
-      "line": 833
-    }
-  },
-  "e4ab36f32daa504f548abede3faa05cd80bdbeb9de4740907fd2957997771d22": {
-    "0": {
-      "filename": "MergeRouter.code",
-      "line": 973
-    },
-    "8": {
-      "filename": "MergeRouter.code",
-      "line": 974
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "56": {
-      "filename": "MergeRouter.code",
-      "line": 975
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "64": {
-      "filename": "MergeRouter.code",
-      "line": 976
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "80": {
-      "filename": "MergeRouter.code",
-      "line": 979
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "88": {
-      "filename": "MergeRouter.code",
-      "line": 980
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "136": {
-      "filename": "MergeRouter.code",
-      "line": 981
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "144": {
-      "filename": "MergeRouter.code",
-      "line": 982
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "160": {
-      "filename": "MergeRouter.code",
-      "line": 985
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "168": {
-      "filename": "MergeRouter.code",
-      "line": 986
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "216": {
-      "filename": "MergeRouter.code",
-      "line": 987
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 49
     },
-    "224": {
-      "filename": "MergeRouter.code",
-      "line": 988
-    },
-    "240": {
-      "filename": "MergeRouter.code",
-      "line": 991
-    },
-    "248": {
-      "filename": "MergeRouter.code",
-      "line": 992
-    },
-    "296": {
-      "filename": "MergeRouter.code",
-      "line": 993
-    },
-    "304": {
-      "filename": "MergeRouter.code",
-      "line": 994
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 51
     }
   },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
@@ -2757,68 +2819,6 @@
     "16": {
       "filename": "MergeRouter.code",
       "line": 423
-    }
-  },
-  "f9cf078b1ee9bb5f8428c5cac6a83ef09103184df306b169e8f3e88359b5ef45": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 46
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 48
     }
   },
   "fdd5e0572e56faafecbc66a0cb7acf647be900cb52ec43a183961c5495c5a216": {

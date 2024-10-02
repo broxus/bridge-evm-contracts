@@ -21,8 +21,6 @@ import { deployAccount } from "../../../utils/account";
 import { EventAction, EventType, processEvent } from "../../../utils/events";
 import { JettonMinter } from "../../../utils/jetton";
 
-const logger = require("mocha-logger");
-
 type EncodeMultiVaultNativeEVMEverscaleParam = Parameters<
   Contract<CellEncoderStandaloneAbi>["methods"]["encodeMultiVaultNativeEVMEverscale"]
 >[0];
@@ -157,7 +155,7 @@ describe("Test EVM native multivault pipeline", function () {
           )
       );
 
-      logger.log(`Token transfer tx: ${tx.id.hash}`);
+      console.log(`Token transfer tx: ${tx.id.hash}`);
 
       const events = await everscaleEthereumEventConfiguration
         .getPastEvents({ filter: "NewEventContract" })
@@ -174,7 +172,7 @@ describe("Test EVM native multivault pipeline", function () {
         },
       ] = events;
 
-      logger.log(`Expected event address: ${expectedEventContract}`);
+      console.log(`Expected event address: ${expectedEventContract}`);
 
       eventContract = locklift.factory.getDeployedContract(
         "MultiVaultTONEVMEventNative",
@@ -209,7 +207,7 @@ describe("Test EVM native multivault pipeline", function () {
         .getFullContractState({ address: eventContract.address })
         .then((s) => s.state!);
 
-      expect(state.isDeployed).to.be.true;
+      expect(state.isDeployed).to.be.eq(true);
     });
 
     it("Check sender address", async () => {
@@ -315,7 +313,7 @@ describe("Test EVM native multivault pipeline", function () {
         "Wrong event decoded root symbol"
       );
       expect(decodedData.decimals_).to.be.equal(
-        tokenData.decimals,
+        tokenData.decimals.toString(),
         "Wrong event decoded root decimals"
       );
     });
@@ -339,7 +337,7 @@ describe("Test EVM native multivault pipeline", function () {
         new BigNumber(decodedData.token_addr).eq(
           new BigNumber(jetton.getEthAddress(), 16)
         )
-      ).to.be.true;
+      ).to.be.eq(true);
 
       expect(decodedData.amount).to.be.equal(
         amount.toString(),
@@ -367,7 +365,7 @@ describe("Test EVM native multivault pipeline", function () {
         "Wrong event data root symbol"
       );
       expect(decodedData.decimals).to.be.equal(
-        tokenData.decimals,
+        tokenData.decimals.toString(),
         "Wrong event data root decimals"
       );
     });
@@ -484,7 +482,7 @@ describe("Test EVM native multivault pipeline", function () {
           })
       );
 
-      logger.log(`Event initialization tx: ${tx.extTransaction.id}`);
+      console.log(`Event initialization tx: ${tx.extTransaction.id}`);
 
       const expectedEventContract =
         await ethereumEverscaleEventConfiguration.methods
@@ -494,7 +492,7 @@ describe("Test EVM native multivault pipeline", function () {
           })
           .call();
 
-      logger.log(
+      console.log(
         `Expected event address: ${expectedEventContract.eventContract}`
       );
 
@@ -509,7 +507,7 @@ describe("Test EVM native multivault pipeline", function () {
         .getFullContractState({ address: eventContract.address })
         .then((s) => s.state!);
 
-      expect(state.isDeployed).to.be.true;
+      expect(state.isDeployed).to.be.eq(true);
     });
 
     it("Check event state before confirmation", async () => {

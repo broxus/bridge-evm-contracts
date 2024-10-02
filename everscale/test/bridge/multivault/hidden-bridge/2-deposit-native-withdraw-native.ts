@@ -25,8 +25,6 @@ import {
 import { EventAction, EventType, processEvent } from "../../../utils/events";
 import { JettonMinter, JettonWallet } from "../../../utils/jetton";
 
-const logger = require("mocha-logger");
-
 type EventVoteDataParam = Parameters<
   Contract<EthereumEverscaleEventConfigurationAbi>["methods"]["deployEvent"]
 >[0]["eventVoteData"];
@@ -59,11 +57,9 @@ describe("Test EVM-EVM bridge transfers, deposit native withdraw native token", 
   const amount = 500;
 
   it("Setup bridge", async () => {
-    let bridge;
-
     relays = await setupRelays();
 
-    [bridge, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
+    [, bridgeOwner, staking, cellEncoder] = await setupBridge(relays);
 
     const signer = (await locklift.keystore.getSigner("0"))!;
 
@@ -196,7 +192,7 @@ describe("Test EVM-EVM bridge transfers, deposit native withdraw native token", 
           amount: locklift.utils.toNano(10),
         });
 
-      logger.log(`Event initialization tx: ${tx.id.hash}`);
+      console.log(`Event initialization tx: ${tx.id.hash}`);
 
       const expectedEventContract =
         await nativeEthereumEverscaleEventConfiguration.methods
@@ -206,7 +202,7 @@ describe("Test EVM-EVM bridge transfers, deposit native withdraw native token", 
           })
           .call();
 
-      logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+      console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
       depositEventContract = locklift.factory.getDeployedContract(
         "MultiVaultEVMTONEventNative",
@@ -239,7 +235,7 @@ describe("Test EVM-EVM bridge transfers, deposit native withdraw native token", 
         },
       ] = events;
 
-      logger.log(`Expected event address: ${expectedEventContract}`);
+      console.log(`Expected event address: ${expectedEventContract}`);
 
       withdrawEventContract = locklift.factory.getDeployedContract(
         "MultiVaultTONEVMEventNative",

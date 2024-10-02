@@ -20,8 +20,6 @@ import { logContract } from "../../../utils/logger";
 import { setupAlienJettonMultiVault } from "../../../utils/multivault/alien";
 import { EventAction, EventType, processEvent } from "../../../utils/events";
 
-const logger = require("mocha-logger");
-
 type EventVoteDataParam = Parameters<
   Contract<EthereumEverscaleEventConfigurationAbi>["methods"]["deployEvent"]
 >[0]["eventVoteData"];
@@ -287,9 +285,7 @@ describe("Deposit Alien jetton with merging with custom jetton", function () {
       { raise: false }
     );
 
-    // await tx.traceTree?.beautyPrint();
-
-    logger.log(`Event initialization tx: ${tx.id.hash}`);
+    console.log(`Event initialization tx: ${tx.id.hash}`);
 
     const expectedEventContract =
       await ethereumEverscaleEventConfiguration.methods
@@ -299,7 +295,7 @@ describe("Deposit Alien jetton with merging with custom jetton", function () {
         })
         .call();
 
-    logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+    console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
     eventContract = locklift.factory.getDeployedContract(
       "MultiVaultEVMTONEventAlien",

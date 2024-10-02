@@ -20,8 +20,6 @@ import { setupAlienJettonMultiVault } from "../../../utils/multivault/alien";
 import { EventAction, EventType, processEvent } from "../../../utils/events";
 import { JettonMinter, JettonWallet } from "../../../utils/jetton";
 
-const logger = require("mocha-logger");
-
 describe("Withdraw custom jettons by burning in favor of merge pool", function () {
   this.timeout(10000000);
 
@@ -265,7 +263,7 @@ describe("Withdraw custom jettons by burning in favor of merge pool", function (
       { value: toNano(10), bounce: true }
     );
 
-    logger.log(`Event initialization tx: ${tx.id.hash}`);
+    console.log(`Event initialization tx: ${tx.id.hash}`);
 
     const events = await everscaleEthereumEventConfiguration
       .getPastEvents({ filter: "NewEventContract" })
@@ -282,7 +280,7 @@ describe("Withdraw custom jettons by burning in favor of merge pool", function (
       },
     ] = events;
 
-    logger.log(`Expected event address: ${expectedEventContract}`);
+    console.log(`Expected event address: ${expectedEventContract}`);
 
     eventContract = locklift.factory.getDeployedContract(
       "MultiVaultTONEVMEventAlien",

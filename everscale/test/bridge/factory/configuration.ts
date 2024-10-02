@@ -1,10 +1,9 @@
 import { expect } from "chai";
-import { Contract } from "locklift";
+import { Contract, zeroAddress } from "locklift";
 import { FactorySource } from "../../../build/factorySource";
 import { Account } from "everscale-standalone-client/nodejs";
 import { setupBridge, setupRelays } from "../../utils/bridge";
 import { logContract } from "../../utils/logger";
-const { zeroAddress } = require("locklift");
 
 let roundDeployer: Contract<FactorySource["RoundDeployerMockup"]>;
 let bridgeOwner: Account;
@@ -14,9 +13,8 @@ describe("Test configuration factory", async function () {
 
   it("Setup bridge", async () => {
     const relays = await setupRelays();
-    let bridge, cellEncoder;
 
-    [bridge, bridgeOwner, roundDeployer, cellEncoder] = await setupBridge(
+    [, bridgeOwner, roundDeployer, ] = await setupBridge(
       relays
     );
   });
@@ -88,7 +86,7 @@ describe("Test configuration factory", async function () {
           amount: locklift.utils.toNano(2),
         });
 
-      let ethereumEverscaleEventConfigurationAddress = await factory.methods
+      const ethereumEverscaleEventConfigurationAddress = await factory.methods
         .deriveConfigurationAddress({
           basicConfiguration,
           networkConfiguration,

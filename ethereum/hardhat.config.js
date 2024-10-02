@@ -1,6 +1,8 @@
+require('dotenv').config();
+
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-web3");
-require("@nomiclabs/hardhat-etherscan");
+require("@nomicfoundation/hardhat-verify");
 require("@nomiclabs/hardhat-ethers");
 require('hardhat-deploy-ethers');
 require('hardhat-deploy');
@@ -10,6 +12,7 @@ require('@primitivefi/hardhat-dodoc');
 // require('hardhat-contract-sizer');
 // require("hardhat-diamond-abi");
 require('hardhat-dependency-compiler');
+const { task } = require("hardhat/config");
 
 
 task("accounts", "Prints the list of accounts", async () => {

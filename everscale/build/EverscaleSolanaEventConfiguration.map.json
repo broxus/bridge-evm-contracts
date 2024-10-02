@@ -1,4 +1,70 @@
 {
+  "0a38f94263c45e5427259ea1656571d7099ec1ec8ee910d3b783598f8391d8ff": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1678
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1679
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1680
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1681
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1684
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1685
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1686
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1687
+    },
+    "160": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1690
+    },
+    "168": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1691
+    },
+    "216": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1692
+    },
+    "224": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1693
+    },
+    "240": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1696
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1697
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1698
+    },
+    "304": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1699
+    }
+  },
   "0e543ee406b309bd6ac0b811bdb0b2268377952872173527751cb4f3b305c12f": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
@@ -171,6 +237,176 @@
       "line": 379
     }
   },
+  "0f928434dfe2fcd543e941255c81990deb19b24065cf2d6dec01e7a9a1f129f9": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 4
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 5
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 6
+    },
+    "32": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 7
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 10
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 11
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 12
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 13
+    },
+    "96": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 14
+    },
+    "104": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 15
+    },
+    "112": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 16
+    },
+    "120": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 18
+    },
+    "128": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 19
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 20
+    },
+    "152": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 21
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "184": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "208": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "216": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "224": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "240": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "248": {
+      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
+      "line": 7
+    },
+    "272": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 28
+    },
+    "288": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 28
+    },
+    "296": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 28
+    },
+    "312": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 37
+    },
+    "328": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 39
+    },
+    "336": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 39
+    },
+    "352": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 41
+    },
+    "368": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "376": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "400": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "408": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "424": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "440": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "448": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "464": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 43
+    },
+    "480": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 59
+    },
+    "496": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 62
+    }
+  },
   "117bd48ed3ddc8975321b9639d12469883fe019454fc7d1fd0c3ae267d2dbafc": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
@@ -305,6 +541,72 @@
       "line": 636
     }
   },
+  "123ddfbb5f93cbd61eb6c887af0c63c38e748fe5ba6e894c6789bb3e94b18e0c": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1645
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1646
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1647
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1648
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1674
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1675
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1676
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1677
+    },
+    "160": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1703
+    },
+    "168": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1704
+    },
+    "216": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1705
+    },
+    "224": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1706
+    },
+    "240": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1732
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1733
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1734
+    },
+    "304": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1735
+    }
+  },
   "1243077fca9e74f789444dc677c372dde03835d86866947408c525ca7506dd53": {
     "0": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
@@ -385,118 +687,6 @@
     "232": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
       "line": 101
-    }
-  },
-  "160a98c8e8f9c7609b7402b3a5f771751970373b002efacaf7ed835768620ca0": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1678
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1679
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1680
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1681
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1684
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1685
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1686
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1687
-    },
-    "160": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1690
-    },
-    "168": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1691
-    },
-    "216": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1692
-    },
-    "224": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1693
-    },
-    "240": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1696
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1697
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1698
-    },
-    "304": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1699
-    }
-  },
-  "166501718fe2a1b31ad9baa428b085e9fc664eda74deb2356a8815a8dd0d04d1": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 126
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 127
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 128
-    },
-    "48": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 129
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 130
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 131
-    },
-    "88": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 58
-    },
-    "104": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 58
-    },
-    "112": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 138
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 141
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 144
     }
   },
   "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
@@ -841,6 +1031,76 @@
       "line": 1283
     }
   },
+  "257f99bb6059d11ac5c23d71310d12f9ddd4cf8834bd3a600e13772403201a95": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1055
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1056
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1057
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1058
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1059
+    },
+    "72": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1060
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "96": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "136": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "152": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "160": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1074
+    },
+    "176": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1077
+    },
+    "192": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1080
+    }
+  },
   "27b1b8c370b1f5aef73f54c5c8ee4ebd736b90ef39b28997b7a578fc8733506f": {
     "0": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
@@ -1029,58 +1289,58 @@
       "line": 1364
     }
   },
-  "35d7c5d85f4a8a7dd3397af760bd66dcab6ba31e7c386179b43cabe693090a17": {
+  "31492c31069ab6f0f886a8cda14d54e6d81a9a9cae996f91ec7ea3048afdb9ad": {
     "0": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "16": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "32": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "48": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "56": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "64": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "72": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "88": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "104": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "120": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "144": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "160": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "168": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "192": {
       "filename": "contracts/utils/TransferUtils.tsol",
@@ -1120,7 +1380,7 @@
     },
     "304": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 81
+      "line": 53
     },
     "320": {
       "filename": "contracts/utils/TransferUtils.tsol",
@@ -1157,6 +1417,144 @@
     "440": {
       "filename": "contracts/utils/TransferUtils.tsol",
       "line": 48
+    }
+  },
+  "375bde2cffba6ba8cfd2d2426d5b5a0b69d22b6d0a8d232362a81635bb85e526": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1427
+    },
+    "16": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1428
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1429
+    },
+    "40": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1430
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1431
+    },
+    "72": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1432
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1433
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1434
+    },
+    "104": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1435
+    },
+    "120": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1436
+    },
+    "128": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1437
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1438
+    },
+    "168": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1439
+    },
+    "184": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1440
+    },
+    "192": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1441
+    },
+    "208": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1442
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1443
+    },
+    "264": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1444
+    },
+    "272": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1445
+    },
+    "288": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1446
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1447
+    },
+    "312": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1448
+    },
+    "328": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1449
+    },
+    "336": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1450
+    },
+    "344": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1451
+    },
+    "360": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1452
+    },
+    "376": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1456
+    },
+    "384": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1457
+    },
+    "408": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1458
+    },
+    "424": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1459
+    },
+    "432": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1460
+    },
+    "448": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1464
+    },
+    "456": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1465
+    },
+    "472": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1468
     }
   },
   "3bbdf80dcd1e0601742fa010ae9807b72189173b48cae49e0858becfc9f896d0": {
@@ -1319,6 +1717,52 @@
     "520": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
       "line": 170
+    }
+  },
+  "3c6499ea9cd124ef66286f21f1121a532f471097fec1d978299284cb7430eac6": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 65
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 66
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 67
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 68
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 69
+    },
+    "72": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 70
+    },
+    "88": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 52
+    },
+    "96": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 52
+    },
+    "104": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 77
+    },
+    "120": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 80
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 83
     }
   },
   "4012574e11bbc449b4508f69cfcd60ae4fd9837202ab262a16c05a22bb55a8fc": {
@@ -1542,75 +1986,75 @@
   "43eec3857cc5dd0c7c03dc4636aa055a87f5d626da614fc2b594cb8ceecd3c4b": {
     "0": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 24
+      "line": 26
     },
     "16": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
+      "line": 28
     },
     "24": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
+      "line": 28
     },
     "40": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "160": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "168": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "176": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "184": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "192": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "240": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "248": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "256": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "264": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "272": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "280": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "288": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "296": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     },
     "304": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
+      "line": 30
     }
   },
   "448c2fae5a15a5f7efe545bf8b914b78e0f09af8c067a199708b7dd5b8f7eb3c": {
@@ -1669,48 +2113,6 @@
     "152": {
       "filename": "EverscaleSolanaEventConfiguration.code",
       "line": 1325
-    }
-  },
-  "45dcc384bbc3056788f2adb36fb426b3ecd8d45db1eb30db1444842e9255f14f": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1112
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1113
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1114
-    },
-    "48": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1115
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1116
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1117
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 45
-    },
-    "96": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1123
-    },
-    "112": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1126
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1129
     }
   },
   "47977409fbda8114191f94c945863c8ffefbd15cba3d8cd73aeccd3ab1407e50": {
@@ -1779,148 +2181,6 @@
     "304": {
       "filename": "EverscaleSolanaEventConfiguration.code",
       "line": 1638
-    }
-  },
-  "4a0fefb7b54b1f6b5fc6bf7fb28e9219bb722b91a0fd192ff34358802e4d3fab": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "208": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "224": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "232": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "248": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "256": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "264": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "280": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "288": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "304": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 87
-    },
-    "320": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 87
-    },
-    "328": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 87
-    },
-    "344": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 87
-    },
-    "360": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "376": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "384": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "408": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "416": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "432": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "448": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "456": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "480": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
     }
   },
   "4c1c713619d39afac570cd6efb88f720bef8d2cc7d742a371a403df1cc25904a": {
@@ -2203,50 +2463,280 @@
       "line": 1598
     }
   },
-  "58f03ff48bc438277cacc7fa6ff8dbbe7d9c0fe9d059fe02484ddf4377b434d8": {
+  "567e3aeaddb56c3a1658bfca2c4cea54d506d7cb9da618ea262c4aa5e9cfae35": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 248
+      "line": 1472
     },
-    "8": {
+    "16": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 249
+      "line": 1473
     },
     "24": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 250
+      "line": 1474
     },
-    "48": {
+    "40": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 251
+      "line": 1475
     },
-    "64": {
+    "56": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 252
+      "line": 1476
     },
     "72": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 253
+      "line": 1477
     },
-    "88": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 84
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1480
+    },
+    "96": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1481
     },
     "104": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 84
-    },
-    "112": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 260
+      "line": 1482
     },
-    "128": {
+    "120": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 263
+      "line": 1485
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1486
     },
     "144": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 266
+      "line": 1487
+    },
+    "160": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1488
+    },
+    "176": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1489
+    },
+    "192": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1490
+    },
+    "200": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1491
+    },
+    "216": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1492
+    },
+    "224": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1493
+    },
+    "232": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1494
+    },
+    "240": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1495
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1496
+    },
+    "264": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1497
+    },
+    "272": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1498
+    },
+    "288": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1499
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1500
+    },
+    "312": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1501
+    },
+    "328": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1502
+    },
+    "344": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1504
+    },
+    "352": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1505
+    },
+    "368": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1506
+    },
+    "376": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "392": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "400": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "408": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "424": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "432": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "448": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "472": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "480": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "520": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "528": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "536": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "552": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "568": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1508
+    },
+    "584": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1509
+    },
+    "592": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1510
+    },
+    "608": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1511
+    },
+    "616": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1512
+    },
+    "632": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1513
+    },
+    "648": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1514
+    },
+    "656": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1515
+    },
+    "672": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1518
+    }
+  },
+  "5692a4f562b75e1239c7b9600851cc5cf2706a3438a8432ccfa9d7e2c233441b": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1736
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1737
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1738
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1739
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1742
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1743
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1744
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1745
+    },
+    "160": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1748
+    },
+    "168": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1749
+    },
+    "216": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1750
+    },
+    "224": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1751
+    },
+    "240": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1754
+    },
+    "248": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1755
+    },
+    "296": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1756
+    },
+    "304": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1757
     }
   },
   "5b2fc5604d524c747aa3c5bda550cdfd0d58b2ec62635dbc9a0450af7168caff": {
@@ -2287,84 +2777,10 @@
       "line": 196
     }
   },
-  "5b8a67731c1cb79b1bdbba949a13e7c6d930792f9d8062cac94172df687ffdb3": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "208": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "224": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "248": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 39
-    }
-  },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1478
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 98
     }
   },
   "61c385dff152fbb809a638ff8496e4b022fde23390bafe494c41b8913401dd17": {
@@ -2427,6 +2843,136 @@
     "296": {
       "filename": "EverscaleSolanaEventConfiguration.code",
       "line": 1538
+    }
+  },
+  "6389ad84fb9d89121e21228d52b6bb727866afc585179d802c185f5dfd320ed2": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "208": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "224": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "232": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "248": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "256": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "264": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "280": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "288": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "304": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 81
+    },
+    "320": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "336": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "344": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "368": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "376": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "392": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "408": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "416": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
+    },
+    "440": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     }
   },
   "642ea9de81279bd998ca257e5014be5c4e774bcf95db5fb21005794baba259f4": {
@@ -2869,74 +3415,50 @@
       "line": 599
     }
   },
-  "66929c2549c0c65f6dd233a6eb965c262aecfffaa82b2f4745da967f587e6430": {
+  "6683ff675c6d4eaaf4549ca6df0745e8f6bbcfd42e64a04047b0e4a3d32551b1": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1055
+      "line": 187
     },
     "8": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1056
+      "line": 188
     },
     "24": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1057
+      "line": 189
     },
     "48": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1058
+      "line": 190
     },
     "64": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1059
+      "line": 191
     },
     "72": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1060
+      "line": 192
     },
     "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "96": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 78
     },
     "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 78
     },
     "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 199
     },
     "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "136": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "152": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "160": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1074
+      "line": 202
     },
-    "176": {
+    "144": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1077
-    },
-    "192": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1080
+      "line": 205
     }
   },
   "66ef7bccc8ef2ba57b8f739b3a69bd755a393adfa4181df75f3336582396bfd7": {
@@ -3001,174 +3523,146 @@
       "line": 1618
     }
   },
-  "69df460a00c581aa8520b099583067f9851990bf7a704c34d4d87b33cbfce523": {
+  "66f8566c91ca0961842425c0d87116106c6cc7ccd63a70dd51382f87c055d8bf": {
     "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 4
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 5
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 6
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "32": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 7
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "48": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 10
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 11
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 12
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "88": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 13
-    },
-    "96": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
       "line": 14
     },
     "104": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 15
-    },
-    "112": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 16
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "120": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 18
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 19
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 20
-    },
-    "152": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 21
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "160": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "176": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "184": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "192": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "208": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "216": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "224": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
-    "240": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
+    "232": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "248": {
-      "filename": "@broxus/contracts/contracts/utils/CheckPubKey.tsol",
-      "line": 9
-    },
-    "272": {
       "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 28
+      "line": 46
+    },
+    "256": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "264": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
+    },
+    "280": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 46
     },
     "288": {
       "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 28
+      "line": 46
     },
-    "296": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 28
-    },
-    "312": {
+    "304": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 37
+      "line": 87
+    },
+    "320": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 87
     },
     "328": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 39
+      "line": 87
     },
-    "336": {
+    "344": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 39
+      "line": 87
     },
-    "352": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 41
-    },
-    "368": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+    "360": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
     "376": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
-    "400": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+    "384": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
     "408": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
-    "424": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+    "416": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
-    "440": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+    "432": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
     "448": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
-    "464": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 43
+    "456": {
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     },
     "480": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 59
-    },
-    "496": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 62
+      "filename": "contracts/utils/TransferUtils.tsol",
+      "line": 48
     }
   },
   "6a25d55896be73eb41ea69da96e409307a86140f88c867da91f68539eaa95f22": {
@@ -3195,86 +3689,6 @@
     "56": {
       "filename": "EverscaleSolanaEventConfiguration.code",
       "line": 1317
-    }
-  },
-  "6ab632f31a9192c8fa33ab26da9dbace38bef03298f10502b2949602494e91e7": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1641
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1642
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1643
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1644
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1762
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1763
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1764
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1765
-    }
-  },
-  "7510346270e0667b5053837a4dfea7b769e1499f21503e58f03613274d549b88": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 187
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 188
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 189
-    },
-    "48": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 190
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 191
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 192
-    },
-    "88": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 78
-    },
-    "104": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 78
-    },
-    "112": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 199
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 202
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 205
     }
   },
   "76cf179435ddd90e6692a27288e4ac12134aace165af02d09895ed303c067ef1": {
@@ -3315,7 +3729,7 @@
       "line": 192
     }
   },
-  "838d40b8089756baf4166b06a72b03c9bc97b9ea5ead83525307cc2d33e6b404": {
+  "8331cbfc7b39de15407e8d42a5ee9e24c65a502aa4239b5a19af9bdb359ba044": {
     "0": {
       "filename": "<entry-selector>",
       "line": 1
@@ -3361,73 +3775,53 @@
       "line": 11
     }
   },
-  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-  "9ac325862afc6d0e7d756c0ba9dcc74f16dc5085b924228ec9eed6bfe8f9c93e": {
+  "85dc87d61a3b30cec9e2d188a5c67504a30628e47801d22fe0a548505588afe1": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1645
+      "line": 126
     },
     "8": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1646
+      "line": 127
     },
-    "56": {
+    "24": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1647
+      "line": 128
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 129
     },
     "64": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1648
+      "line": 130
     },
-    "80": {
+    "72": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1674
+      "line": 131
     },
     "88": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1675
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 58
     },
-    "136": {
+    "104": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 58
+    },
+    "112": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1676
+      "line": 138
+    },
+    "128": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 141
     },
     "144": {
       "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1677
-    },
-    "160": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1703
-    },
-    "168": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1704
-    },
-    "216": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1705
-    },
-    "224": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1706
-    },
-    "240": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1732
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1733
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1734
-    },
-    "304": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1735
+      "line": 144
     }
   },
+  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
   "9df522a4ad93fabe335ee30520c102770a92383b5cdd33ec7d9251e10416bdd6": {
     "0": {
       "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
@@ -3584,134 +3978,46 @@
       "line": 1327
     }
   },
-  "b1334d2a18bf91c0ae9db56576b87c8c6a8b47ed1808226e3dafe106534f4d40": {
+  "adaaed934babadd2caf05102bf6c0e0f087cea0a9e1a0c955ef0afd3b3505e7a": {
     "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1112
     },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1113
     },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+    "24": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1114
     },
     "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1115
     },
     "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1116
     },
     "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1117
     },
     "88": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "208": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "224": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "232": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "248": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "256": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "264": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "280": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "288": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 46
-    },
-    "304": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 53
-    },
-    "320": {
-      "filename": "contracts/utils/TransferUtils.tsol",
       "line": 48
     },
-    "336": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
+    "96": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1123
     },
-    "344": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
+    "112": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1126
     },
-    "368": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "376": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "392": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "408": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "416": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
-    },
-    "440": {
-      "filename": "contracts/utils/TransferUtils.tsol",
-      "line": 48
+    "128": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1129
     }
   },
   "bf87aaebadda74d8514d64894883f4fa052d11e0bfe1023dc849dff123751db1": {
@@ -3940,439 +4246,7 @@
       "line": 919
     }
   },
-  "bfaea5f0e77042aa6ef47e4c36798901766a9bf29561936406ccb631477c414e": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1472
-    },
-    "16": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1473
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1474
-    },
-    "40": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1475
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1476
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1477
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1480
-    },
-    "96": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1481
-    },
-    "104": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1482
-    },
-    "120": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1485
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1486
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1487
-    },
-    "160": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1488
-    },
-    "176": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1489
-    },
-    "192": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1490
-    },
-    "200": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1491
-    },
-    "216": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1492
-    },
-    "224": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1493
-    },
-    "232": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1494
-    },
-    "240": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1495
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1496
-    },
-    "264": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1497
-    },
-    "272": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1498
-    },
-    "288": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1499
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1500
-    },
-    "312": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1501
-    },
-    "328": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1502
-    },
-    "344": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1504
-    },
-    "352": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1505
-    },
-    "368": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1506
-    },
-    "376": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "392": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "400": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "408": {
-      "filename": "stdlib.sol",
-      "line": 61
-    },
-    "424": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "432": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "448": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "472": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "480": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "520": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "528": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "536": {
-      "filename": "stdlib.sol",
-      "line": 62
-    },
-    "552": {
-      "filename": "stdlib.sol",
-      "line": 63
-    },
-    "568": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1508
-    },
-    "584": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1509
-    },
-    "592": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1510
-    },
-    "608": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1511
-    },
-    "616": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1512
-    },
-    "632": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1513
-    },
-    "648": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1514
-    },
-    "656": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1515
-    },
-    "672": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1518
-    }
-  },
-  "cc9536fd239b644af254ef731a39d1c41927f906c08190fd891a0ea9baa6c101": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1340
-    },
-    "16": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1341
-    },
-    "32": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1342
-    },
-    "48": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1343
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1344
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1345
-    },
-    "96": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1346
-    },
-    "112": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1347
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1348
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1349
-    }
-  },
-  "cde9dc895d475a48b5c81c25cdfc3a7963fcaf043121a18b43ae39c2452e604a": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1736
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1737
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1738
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1739
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1742
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1743
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1744
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1745
-    },
-    "160": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1748
-    },
-    "168": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1749
-    },
-    "216": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1750
-    },
-    "224": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1751
-    },
-    "240": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1754
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1755
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1756
-    },
-    "304": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1757
-    }
-  },
-  "dd7731d36ba3c900cd8b5df01f0e868896fb35d9db34bc7f29011ec356cb0e5f": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 65
-    },
-    "216": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 65
-    },
-    "232": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 65
-    },
-    "248": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 65
-    },
-    "264": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 65
-    },
-    "280": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 70
-    },
-    "304": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 70
-    },
-    "312": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 70
-    },
-    "328": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 70
-    },
-    "344": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 70
-    },
-    "352": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 70
-    },
-    "368": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 75
-    },
-    "384": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 75
-    },
-    "392": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 75
-    },
-    "408": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 75
-    }
-  },
-  "e5df0c51104cf3750e0f6a0d6569a53ececfa68324893de490b06d9015488c3d": {
+  "c8874a03cf8275a87dcf03fb426e5f16d8a8a1ca340354021fa48058128c0fbe": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
       "line": 1649
@@ -4438,6 +4312,264 @@
       "line": 1670
     }
   },
+  "cc9536fd239b644af254ef731a39d1c41927f906c08190fd891a0ea9baa6c101": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1340
+    },
+    "16": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1341
+    },
+    "32": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1342
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1343
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1344
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1345
+    },
+    "96": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1346
+    },
+    "112": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1347
+    },
+    "128": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1348
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1349
+    }
+  },
+  "cfe59a6bde1e57745e779548b75e458066ea667b90bf99219fbcff62f093bc77": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "208": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "224": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "248": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 42
+    }
+  },
+  "d9bc1b18748ee8d5f5c41688c8ed0a381fac11de0cd80fe7fd29091b4bd88ab1": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1641
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1642
+    },
+    "56": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1643
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1644
+    },
+    "80": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1762
+    },
+    "88": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1763
+    },
+    "136": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1764
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 1765
+    }
+  },
+  "dd30f1e8f86e3a09ea243ae15e1a2394da43bcb9f52c11443cfc8fbf1fa5fd35": {
+    "0": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 248
+    },
+    "8": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 249
+    },
+    "24": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 250
+    },
+    "48": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 251
+    },
+    "64": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 252
+    },
+    "72": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 253
+    },
+    "88": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 84
+    },
+    "104": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 84
+    },
+    "112": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 260
+    },
+    "128": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 263
+    },
+    "144": {
+      "filename": "EverscaleSolanaEventConfiguration.code",
+      "line": 266
+    }
+  },
+  "e44af7d40d775c0eff9e55dce4a4db8e0e36b450e9f336f25d1332718a973abe": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 49
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 51
+    }
+  },
   "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
@@ -4492,52 +4624,6 @@
       "line": 1423
     }
   },
-  "e6d5e22df22c88ad4b14687cb75d518ed047808c49996dfd8e69fe26a605eb1e": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 65
-    },
-    "8": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 66
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 67
-    },
-    "48": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 68
-    },
-    "64": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 69
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 70
-    },
-    "88": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 52
-    },
-    "96": {
-      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
-      "line": 52
-    },
-    "104": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 77
-    },
-    "120": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 80
-    },
-    "136": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 83
-    }
-  },
   "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
@@ -4560,68 +4646,6 @@
     "40": {
       "filename": "<internal-selector>",
       "line": 3
-    }
-  },
-  "f9cf078b1ee9bb5f8428c5cac6a83ef09103184df306b169e8f3e88359b5ef45": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 46
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 48
     }
   },
   "fb8b922e02c5976140eacad3b969889c361344e1e8bc0f482867344d45046653": {
@@ -5060,144 +5084,6 @@
       "line": 834
     }
   },
-  "fbbe09d5e2397f6eca81665fdc5c8d58062f733ce3cc1ae7704b8a247a3aff9b": {
-    "0": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1427
-    },
-    "16": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1428
-    },
-    "24": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1429
-    },
-    "40": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1430
-    },
-    "56": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1431
-    },
-    "72": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1432
-    },
-    "80": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1433
-    },
-    "88": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1434
-    },
-    "104": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1435
-    },
-    "120": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1436
-    },
-    "128": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1437
-    },
-    "144": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1438
-    },
-    "168": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1439
-    },
-    "184": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1440
-    },
-    "192": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1441
-    },
-    "208": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1442
-    },
-    "248": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1443
-    },
-    "264": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1444
-    },
-    "272": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1445
-    },
-    "288": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1446
-    },
-    "296": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1447
-    },
-    "312": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1448
-    },
-    "328": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1449
-    },
-    "336": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1450
-    },
-    "344": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1451
-    },
-    "360": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1452
-    },
-    "376": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1456
-    },
-    "384": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1457
-    },
-    "408": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1458
-    },
-    "424": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1459
-    },
-    "432": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1460
-    },
-    "448": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1464
-    },
-    "456": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1465
-    },
-    "472": {
-      "filename": "EverscaleSolanaEventConfiguration.code",
-      "line": 1468
-    }
-  },
   "fcd2f26de7e99da727bb3d6f37b2278fffcfbd2754c69bc156b26f3373b50ac4": {
     "0": {
       "filename": "EverscaleSolanaEventConfiguration.code",
@@ -5328,6 +5214,120 @@
     "128": {
       "filename": "contracts/utils/TransferUtils.tsol",
       "line": 15
+    }
+  },
+  "fdcf60f3ca7ac6d82a573a8e18cf89bdc9f3f4076260fe258030a154413cf5cd": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 65
+    },
+    "216": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 65
+    },
+    "232": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 65
+    },
+    "248": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 65
+    },
+    "264": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 65
+    },
+    "280": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 70
+    },
+    "304": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 70
+    },
+    "312": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 70
+    },
+    "328": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 70
+    },
+    "344": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 70
+    },
+    "352": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 70
+    },
+    "368": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 75
+    },
+    "384": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 75
+    },
+    "392": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 75
+    },
+    "408": {
+      "filename": "contracts/bridge/event-configuration-contracts/solana/EverscaleSolanaEventConfiguration.tsol",
+      "line": 75
     }
   }
 }

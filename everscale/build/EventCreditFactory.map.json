@@ -1,4 +1,46 @@
 {
+  "0eca7bf2cfc7032e9969d58d6ee74bc146ce6e12b2673e8047cf4e77c291c7d6": {
+    "0": {
+      "filename": "EventCreditFactory.code",
+      "line": 534
+    },
+    "8": {
+      "filename": "EventCreditFactory.code",
+      "line": 535
+    },
+    "24": {
+      "filename": "EventCreditFactory.code",
+      "line": 536
+    },
+    "48": {
+      "filename": "EventCreditFactory.code",
+      "line": 537
+    },
+    "64": {
+      "filename": "EventCreditFactory.code",
+      "line": 538
+    },
+    "72": {
+      "filename": "EventCreditFactory.code",
+      "line": 539
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 48
+    },
+    "96": {
+      "filename": "EventCreditFactory.code",
+      "line": 545
+    },
+    "112": {
+      "filename": "EventCreditFactory.code",
+      "line": 548
+    },
+    "128": {
+      "filename": "EventCreditFactory.code",
+      "line": 551
+    }
+  },
   "12ec102eb152e3a10a79c8627f41ddf0e6b6af9052d88d38f027c4abc21444ce": {
     "0": {
       "filename": "EventCreditFactory.code",
@@ -261,545 +303,247 @@
       "line": 57
     }
   },
-  "1fb5f0d5f020c7fb765d887ee8bae125b16415421aeaa28055b5e75281b20828": {
+  "1f90d589d68076cd5de20701d53e64b654dc69efa3476d3ce13fbff5a523c477": {
     "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "208": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "224": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "232": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "240": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "248": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "264": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "280": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "296": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "312": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "320": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "328": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "336": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "344": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "352": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 86
-    },
-    "368": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "376": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "384": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "392": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "416": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "432": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "456": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "464": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "624": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "648": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "664": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "672": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "720": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "728": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "736": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "744": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "752": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 87
-    },
-    "768": {
       "filename": "EventCreditFactory.code",
-      "line": 400
-    },
-    "776": {
-      "filename": "EventCreditFactory.code",
-      "line": 401
-    },
-    "784": {
-      "filename": "EventCreditFactory.code",
-      "line": 402
-    },
-    "792": {
-      "filename": "EventCreditFactory.code",
-      "line": 404
-    },
-    "800": {
-      "filename": "EventCreditFactory.code",
-      "line": 405
-    }
-  },
-  "25a21a034158754684df61427e34bdaf80746c1ba9d6e430387e2a535a5eb59f": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 409
     },
     "8": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "filename": "EventCreditFactory.code",
+      "line": 410
     },
     "24": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "40": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "80": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "96": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "152": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "176": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    }
-  },
-  "43eec3857cc5dd0c7c03dc4636aa055a87f5d626da614fc2b594cb8ceecd3c4b": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 24
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
-    },
-    "24": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 26
-    },
-    "40": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "176": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "184": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "240": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "248": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "256": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "264": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "272": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "280": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "288": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "296": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    },
-    "304": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 28
-    }
-  },
-  "4cfb4d6c1b0cea2d859dacb87e9eeff78ae6755e8f80a67b959e27c779ffbdb3": {
-    "0": {
-      "filename": "<entry-selector>",
-      "line": 1
-    },
-    "8": {
-      "filename": "<entry-selector>",
-      "line": 2
-    },
-    "24": {
-      "filename": "<entry-selector>",
-      "line": 3
-    },
-    "32": {
-      "filename": "<entry-selector>",
-      "line": 4
+      "filename": "EventCreditFactory.code",
+      "line": 411
     },
     "48": {
-      "filename": "<entry-selector>",
-      "line": 5
+      "filename": "EventCreditFactory.code",
+      "line": 412
     },
-    "56": {
-      "filename": "<entry-selector>",
-      "line": 6
+    "64": {
+      "filename": "EventCreditFactory.code",
+      "line": 413
     },
     "72": {
-      "filename": "<entry-selector>",
-      "line": 7
+      "filename": "EventCreditFactory.code",
+      "line": 414
     },
     "88": {
-      "filename": "<entry-selector>",
-      "line": 8
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 95
     },
     "96": {
-      "filename": "<entry-selector>",
-      "line": 9
-    },
-    "112": {
-      "filename": "<entry-selector>",
-      "line": 10
-    },
-    "128": {
-      "filename": "<entry-selector>",
-      "line": 11
-    }
-  },
-  "554b77537e9e792dd7bbf89a01a7ba05e3cee738c23830e64e09d59bf5e8d978": {
-    "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 614
-    },
-    "16": {
-      "filename": "EventCreditFactory.code",
-      "line": 615
-    },
-    "24": {
-      "filename": "EventCreditFactory.code",
-      "line": 616
-    },
-    "40": {
-      "filename": "EventCreditFactory.code",
-      "line": 617
-    },
-    "56": {
-      "filename": "EventCreditFactory.code",
-      "line": 618
-    },
-    "72": {
-      "filename": "EventCreditFactory.code",
-      "line": 619
-    },
-    "80": {
-      "filename": "EventCreditFactory.code",
-      "line": 620
-    },
-    "96": {
-      "filename": "EventCreditFactory.code",
-      "line": 621
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 95
     },
     "104": {
       "filename": "EventCreditFactory.code",
-      "line": 622
+      "line": 421
     },
     "120": {
       "filename": "EventCreditFactory.code",
-      "line": 623
-    },
-    "128": {
-      "filename": "EventCreditFactory.code",
-      "line": 626
+      "line": 424
     },
     "136": {
       "filename": "EventCreditFactory.code",
-      "line": 627
-    },
-    "144": {
+      "line": 427
+    }
+  },
+  "3148e3b4d680d27efca28168791c2360f5d7b9667a804838521f4d7a298609ff": {
+    "0": {
       "filename": "EventCreditFactory.code",
-      "line": 628
+      "line": 477
+    },
+    "8": {
+      "filename": "EventCreditFactory.code",
+      "line": 478
+    },
+    "24": {
+      "filename": "EventCreditFactory.code",
+      "line": 479
+    },
+    "48": {
+      "filename": "EventCreditFactory.code",
+      "line": 480
+    },
+    "64": {
+      "filename": "EventCreditFactory.code",
+      "line": 481
+    },
+    "72": {
+      "filename": "EventCreditFactory.code",
+      "line": 482
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "96": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "136": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
+    },
+    "152": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 36
     },
     "160": {
       "filename": "EventCreditFactory.code",
-      "line": 629
+      "line": 496
     },
     "176": {
       "filename": "EventCreditFactory.code",
-      "line": 630
+      "line": 499
     },
-    "184": {
+    "192": {
       "filename": "EventCreditFactory.code",
-      "line": 631
+      "line": 502
+    }
+  },
+  "39ac4c46b44c48557d702ec9ebfe70e44a67bbe45e75f0f4da7c71fda8fafa64": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "208": {
+    "8": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "24": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "40": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "80": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "96": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "112": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "128": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "152": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    }
+  },
+  "3e20e6a74d663c0f56ca6efc632e4f25885e1ce3769a212b9afb8b14f4482f20": {
+    "0": {
       "filename": "EventCreditFactory.code",
-      "line": 633
+      "line": 908
+    },
+    "8": {
+      "filename": "EventCreditFactory.code",
+      "line": 909
+    },
+    "56": {
+      "filename": "EventCreditFactory.code",
+      "line": 910
+    },
+    "64": {
+      "filename": "EventCreditFactory.code",
+      "line": 911
+    },
+    "80": {
+      "filename": "EventCreditFactory.code",
+      "line": 914
+    },
+    "88": {
+      "filename": "EventCreditFactory.code",
+      "line": 915
+    },
+    "136": {
+      "filename": "EventCreditFactory.code",
+      "line": 916
+    },
+    "144": {
+      "filename": "EventCreditFactory.code",
+      "line": 917
+    },
+    "160": {
+      "filename": "EventCreditFactory.code",
+      "line": 920
+    },
+    "168": {
+      "filename": "EventCreditFactory.code",
+      "line": 921
     },
     "216": {
       "filename": "EventCreditFactory.code",
-      "line": 634
+      "line": 922
     },
     "224": {
       "filename": "EventCreditFactory.code",
-      "line": 636
-    },
-    "232": {
-      "filename": "EventCreditFactory.code",
-      "line": 637
+      "line": 923
     },
     "240": {
       "filename": "EventCreditFactory.code",
-      "line": 639
+      "line": 926
     },
     "248": {
       "filename": "EventCreditFactory.code",
-      "line": 640
+      "line": 927
     },
-    "256": {
+    "296": {
       "filename": "EventCreditFactory.code",
-      "line": 641
-    },
-    "264": {
-      "filename": "EventCreditFactory.code",
-      "line": 642
-    },
-    "280": {
-      "filename": "EventCreditFactory.code",
-      "line": 643
-    },
-    "288": {
-      "filename": "EventCreditFactory.code",
-      "line": 644
+      "line": 928
     },
     "304": {
       "filename": "EventCreditFactory.code",
-      "line": 645
-    },
-    "320": {
-      "filename": "EventCreditFactory.code",
-      "line": 646
-    },
-    "336": {
-      "filename": "EventCreditFactory.code",
-      "line": 647
-    },
-    "352": {
-      "filename": "EventCreditFactory.code",
-      "line": 648
-    },
-    "368": {
-      "filename": "EventCreditFactory.code",
-      "line": 649
-    },
-    "384": {
-      "filename": "EventCreditFactory.code",
-      "line": 650
-    },
-    "400": {
-      "filename": "EventCreditFactory.code",
-      "line": 651
-    },
-    "416": {
-      "filename": "EventCreditFactory.code",
-      "line": 652
-    },
-    "432": {
-      "filename": "EventCreditFactory.code",
-      "line": 653
-    },
-    "456": {
-      "filename": "EventCreditFactory.code",
-      "line": 654
-    },
-    "472": {
-      "filename": "EventCreditFactory.code",
-      "line": 655
-    },
-    "480": {
-      "filename": "EventCreditFactory.code",
-      "line": 656
-    },
-    "496": {
-      "filename": "EventCreditFactory.code",
-      "line": 658
+      "line": 929
     }
   },
-  "56889ea9ea8a7b4d1b958557c2c012eca572e41e39c5734441229143c39fdbc3": {
+  "409d58437bebbacb76a858f655a946a720fbad804a85cb5d0dd8c98c60159cbf": {
     "0": {
       "filename": "EventCreditFactory.code",
       "line": 753
@@ -1053,6 +797,284 @@
       "line": 813
     }
   },
+  "43eec3857cc5dd0c7c03dc4636aa055a87f5d626da614fc2b594cb8ceecd3c4b": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 26
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 28
+    },
+    "24": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 28
+    },
+    "40": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "176": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "184": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "240": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "248": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "256": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "264": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "272": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "280": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "288": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "296": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    },
+    "304": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 30
+    }
+  },
+  "554b77537e9e792dd7bbf89a01a7ba05e3cee738c23830e64e09d59bf5e8d978": {
+    "0": {
+      "filename": "EventCreditFactory.code",
+      "line": 614
+    },
+    "16": {
+      "filename": "EventCreditFactory.code",
+      "line": 615
+    },
+    "24": {
+      "filename": "EventCreditFactory.code",
+      "line": 616
+    },
+    "40": {
+      "filename": "EventCreditFactory.code",
+      "line": 617
+    },
+    "56": {
+      "filename": "EventCreditFactory.code",
+      "line": 618
+    },
+    "72": {
+      "filename": "EventCreditFactory.code",
+      "line": 619
+    },
+    "80": {
+      "filename": "EventCreditFactory.code",
+      "line": 620
+    },
+    "96": {
+      "filename": "EventCreditFactory.code",
+      "line": 621
+    },
+    "104": {
+      "filename": "EventCreditFactory.code",
+      "line": 622
+    },
+    "120": {
+      "filename": "EventCreditFactory.code",
+      "line": 623
+    },
+    "128": {
+      "filename": "EventCreditFactory.code",
+      "line": 626
+    },
+    "136": {
+      "filename": "EventCreditFactory.code",
+      "line": 627
+    },
+    "144": {
+      "filename": "EventCreditFactory.code",
+      "line": 628
+    },
+    "160": {
+      "filename": "EventCreditFactory.code",
+      "line": 629
+    },
+    "176": {
+      "filename": "EventCreditFactory.code",
+      "line": 630
+    },
+    "184": {
+      "filename": "EventCreditFactory.code",
+      "line": 631
+    },
+    "208": {
+      "filename": "EventCreditFactory.code",
+      "line": 633
+    },
+    "216": {
+      "filename": "EventCreditFactory.code",
+      "line": 634
+    },
+    "224": {
+      "filename": "EventCreditFactory.code",
+      "line": 636
+    },
+    "232": {
+      "filename": "EventCreditFactory.code",
+      "line": 637
+    },
+    "240": {
+      "filename": "EventCreditFactory.code",
+      "line": 639
+    },
+    "248": {
+      "filename": "EventCreditFactory.code",
+      "line": 640
+    },
+    "256": {
+      "filename": "EventCreditFactory.code",
+      "line": 641
+    },
+    "264": {
+      "filename": "EventCreditFactory.code",
+      "line": 642
+    },
+    "280": {
+      "filename": "EventCreditFactory.code",
+      "line": 643
+    },
+    "288": {
+      "filename": "EventCreditFactory.code",
+      "line": 644
+    },
+    "304": {
+      "filename": "EventCreditFactory.code",
+      "line": 645
+    },
+    "320": {
+      "filename": "EventCreditFactory.code",
+      "line": 646
+    },
+    "336": {
+      "filename": "EventCreditFactory.code",
+      "line": 647
+    },
+    "352": {
+      "filename": "EventCreditFactory.code",
+      "line": 648
+    },
+    "368": {
+      "filename": "EventCreditFactory.code",
+      "line": 649
+    },
+    "384": {
+      "filename": "EventCreditFactory.code",
+      "line": 650
+    },
+    "400": {
+      "filename": "EventCreditFactory.code",
+      "line": 651
+    },
+    "416": {
+      "filename": "EventCreditFactory.code",
+      "line": 652
+    },
+    "432": {
+      "filename": "EventCreditFactory.code",
+      "line": 653
+    },
+    "456": {
+      "filename": "EventCreditFactory.code",
+      "line": 654
+    },
+    "472": {
+      "filename": "EventCreditFactory.code",
+      "line": 655
+    },
+    "480": {
+      "filename": "EventCreditFactory.code",
+      "line": 656
+    },
+    "496": {
+      "filename": "EventCreditFactory.code",
+      "line": 658
+    }
+  },
+  "571027d99cb51023dfba3000e6555c9a8d3a2937c4dcf555e4808690378e6b56": {
+    "0": {
+      "filename": "<entry-selector>",
+      "line": 1
+    },
+    "8": {
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
+    },
+    "48": {
+      "filename": "<entry-selector>",
+      "line": 5
+    },
+    "56": {
+      "filename": "<entry-selector>",
+      "line": 6
+    },
+    "72": {
+      "filename": "<entry-selector>",
+      "line": 7
+    },
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
+    },
+    "128": {
+      "filename": "<entry-selector>",
+      "line": 11
+    }
+  },
   "57412dba172c18dbff470e85707203b6c666df3f185ba57fc95bbdbfba9e8dc6": {
     "0": {
       "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
@@ -1273,176 +1295,10 @@
       "line": 324
     }
   },
-  "5b8a67731c1cb79b1bdbba949a13e7c6d930792f9d8062cac94172df687ffdb3": {
-    "0": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "16": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "32": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "48": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "56": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "64": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "72": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "144": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "160": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "168": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
-    },
-    "192": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "200": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "208": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "224": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 37
-    },
-    "248": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 39
-    }
-  },
-  "5d42d44b23474bb295bbad1daf836f84f8aba0636ca6c2dc0abd7745670422c4": {
-    "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 904
-    },
-    "8": {
-      "filename": "EventCreditFactory.code",
-      "line": 905
-    },
-    "56": {
-      "filename": "EventCreditFactory.code",
-      "line": 906
-    },
-    "64": {
-      "filename": "EventCreditFactory.code",
-      "line": 907
-    },
-    "80": {
-      "filename": "EventCreditFactory.code",
-      "line": 933
-    },
-    "88": {
-      "filename": "EventCreditFactory.code",
-      "line": 934
-    },
-    "136": {
-      "filename": "EventCreditFactory.code",
-      "line": 935
-    },
-    "144": {
-      "filename": "EventCreditFactory.code",
-      "line": 936
-    },
-    "160": {
-      "filename": "EventCreditFactory.code",
-      "line": 962
-    },
-    "168": {
-      "filename": "EventCreditFactory.code",
-      "line": 963
-    },
-    "216": {
-      "filename": "EventCreditFactory.code",
-      "line": 964
-    },
-    "224": {
-      "filename": "EventCreditFactory.code",
-      "line": 965
-    }
-  },
   "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
     "0": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 46
-    }
-  },
-  "64654e0c5711f8a7a37fa63b88e9cb4a06047cb5ebcefa9d7f8f5d22ca6c0b33": {
-    "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 329
-    },
-    "8": {
-      "filename": "EventCreditFactory.code",
-      "line": 330
-    },
-    "24": {
-      "filename": "EventCreditFactory.code",
-      "line": 331
-    },
-    "48": {
-      "filename": "EventCreditFactory.code",
-      "line": 332
-    },
-    "64": {
-      "filename": "EventCreditFactory.code",
-      "line": 333
-    },
-    "72": {
-      "filename": "EventCreditFactory.code",
-      "line": 334
-    },
-    "88": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 85
-    },
-    "96": {
-      "filename": "EventCreditFactory.code",
-      "line": 340
-    },
-    "112": {
-      "filename": "EventCreditFactory.code",
-      "line": 343
-    },
-    "128": {
-      "filename": "EventCreditFactory.code",
-      "line": 346
+      "line": 49
     }
   },
   "736bbada4092898d3cabf8003da05ff42da4d85d8e5ba72fd48c9791d569475c": {
@@ -1735,49 +1591,72 @@
       "line": 901
     }
   },
-  "8413e39d0d67fcdb8d8f723125718ba254e466879de1923e03fb34313ecd05bc": {
+  "94563a9e3b5949a86baaa1b1e69cd51935eba06a916dc0d1e093ddb962089a33": {
     "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 534
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 56
     },
-    "8": {
+    "16": {
       "filename": "EventCreditFactory.code",
-      "line": 535
+      "line": 259
     },
     "24": {
       "filename": "EventCreditFactory.code",
-      "line": 536
+      "line": 260
+    },
+    "40": {
+      "filename": "EventCreditFactory.code",
+      "line": 262
+    },
+    "56": {
+      "filename": "EventCreditFactory.code",
+      "line": 265
+    }
+  },
+  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+  "96b7a70b837cd8d500c5e0287f7cd20d9e38937f13d0dba717cb2725bd8e5a75": {
+    "0": {
+      "filename": "EventCreditFactory.code",
+      "line": 329
+    },
+    "8": {
+      "filename": "EventCreditFactory.code",
+      "line": 330
+    },
+    "24": {
+      "filename": "EventCreditFactory.code",
+      "line": 331
     },
     "48": {
       "filename": "EventCreditFactory.code",
-      "line": 537
+      "line": 332
     },
     "64": {
       "filename": "EventCreditFactory.code",
-      "line": 538
+      "line": 333
     },
     "72": {
       "filename": "EventCreditFactory.code",
-      "line": 539
+      "line": 334
     },
     "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 45
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 85
     },
     "96": {
       "filename": "EventCreditFactory.code",
-      "line": 545
+      "line": 340
     },
     "112": {
       "filename": "EventCreditFactory.code",
-      "line": 548
+      "line": 343
     },
     "128": {
       "filename": "EventCreditFactory.code",
-      "line": 551
+      "line": 346
     }
   },
-  "935069d018d40d45ce8b911cdac381d67b7147df0e6b6db503619c09679cd1de": {
+  "96f25142262386accadf0a37f12d60826fc603c2d49a30e9c72a915c9a0509c1": {
     "0": {
       "filename": "EventCreditFactory.code",
       "line": 937
@@ -1843,29 +1722,6 @@
       "line": 958
     }
   },
-  "94563a9e3b5949a86baaa1b1e69cd51935eba06a916dc0d1e093ddb962089a33": {
-    "0": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 56
-    },
-    "16": {
-      "filename": "EventCreditFactory.code",
-      "line": 259
-    },
-    "24": {
-      "filename": "EventCreditFactory.code",
-      "line": 260
-    },
-    "40": {
-      "filename": "EventCreditFactory.code",
-      "line": 262
-    },
-    "56": {
-      "filename": "EventCreditFactory.code",
-      "line": 265
-    }
-  },
-  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
   "9f4690eb6e3ce32aa0140fe76cb20f910f9ebfa619e9f234cadfe06e048d86a7": {
     "0": {
       "filename": "EventCreditFactory.code",
@@ -2074,50 +1930,206 @@
       "line": 611
     }
   },
-  "a66827fbcf8bed030566511d410a8105836a50e21b6f2c4f0667229a099441eb": {
+  "afbabe4fd0a6484704cb5900a9afece548b01e45f65cd08bfa1d75295589930e": {
     "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 409
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "8": {
-      "filename": "EventCreditFactory.code",
-      "line": 410
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "24": {
-      "filename": "EventCreditFactory.code",
-      "line": 411
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "48": {
-      "filename": "EventCreditFactory.code",
-      "line": 412
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "64": {
-      "filename": "EventCreditFactory.code",
-      "line": 413
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "72": {
-      "filename": "EventCreditFactory.code",
-      "line": 414
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "88": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 95
-    },
-    "96": {
-      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
-      "line": 95
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "104": {
-      "filename": "EventCreditFactory.code",
-      "line": 421
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
     "120": {
-      "filename": "EventCreditFactory.code",
-      "line": 424
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
     },
-    "136": {
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "208": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "224": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "232": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "240": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "248": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "264": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "280": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "296": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "312": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "320": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "328": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "336": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "344": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "352": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 86
+    },
+    "368": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "376": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "384": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "392": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "416": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "432": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "456": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "464": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "624": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "648": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "664": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "672": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "720": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "728": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "736": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "744": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "752": {
+      "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
+      "line": 87
+    },
+    "768": {
       "filename": "EventCreditFactory.code",
-      "line": 427
+      "line": 400
+    },
+    "776": {
+      "filename": "EventCreditFactory.code",
+      "line": 401
+    },
+    "784": {
+      "filename": "EventCreditFactory.code",
+      "line": 402
+    },
+    "792": {
+      "filename": "EventCreditFactory.code",
+      "line": 404
+    },
+    "800": {
+      "filename": "EventCreditFactory.code",
+      "line": 405
     }
   },
   "b0e7c9c08c0941d707ebc11a73f51dc8fd0c74db728664b66994c7b32e1fec9e": {
@@ -2414,6 +2426,56 @@
       "line": 69
     }
   },
+  "bc156e0c75e5715072bfb966a4a1b404dd41d60ca18828d1824214005f1d0b25": {
+    "0": {
+      "filename": "EventCreditFactory.code",
+      "line": 904
+    },
+    "8": {
+      "filename": "EventCreditFactory.code",
+      "line": 905
+    },
+    "56": {
+      "filename": "EventCreditFactory.code",
+      "line": 906
+    },
+    "64": {
+      "filename": "EventCreditFactory.code",
+      "line": 907
+    },
+    "80": {
+      "filename": "EventCreditFactory.code",
+      "line": 933
+    },
+    "88": {
+      "filename": "EventCreditFactory.code",
+      "line": 934
+    },
+    "136": {
+      "filename": "EventCreditFactory.code",
+      "line": 935
+    },
+    "144": {
+      "filename": "EventCreditFactory.code",
+      "line": 936
+    },
+    "160": {
+      "filename": "EventCreditFactory.code",
+      "line": 962
+    },
+    "168": {
+      "filename": "EventCreditFactory.code",
+      "line": 963
+    },
+    "216": {
+      "filename": "EventCreditFactory.code",
+      "line": 964
+    },
+    "224": {
+      "filename": "EventCreditFactory.code",
+      "line": 965
+    }
+  },
   "be3410734715e9c90656a4763fc1a27075da26ce62f3ca11d2b210657436cea7": {
     "0": {
       "filename": "contracts/bridge/hidden-bridge/EventCreditFactory.tsol",
@@ -2708,211 +2770,7 @@
       "line": 39
     }
   },
-  "c207f2af1add0e40798cd1481306d137f8ac09d3d7285760d922018270874fed": {
-    "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 477
-    },
-    "8": {
-      "filename": "EventCreditFactory.code",
-      "line": 478
-    },
-    "24": {
-      "filename": "EventCreditFactory.code",
-      "line": 479
-    },
-    "48": {
-      "filename": "EventCreditFactory.code",
-      "line": 480
-    },
-    "64": {
-      "filename": "EventCreditFactory.code",
-      "line": 481
-    },
-    "72": {
-      "filename": "EventCreditFactory.code",
-      "line": 482
-    },
-    "88": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "96": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "104": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "112": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "120": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "128": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "136": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "152": {
-      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 34
-    },
-    "160": {
-      "filename": "EventCreditFactory.code",
-      "line": 496
-    },
-    "176": {
-      "filename": "EventCreditFactory.code",
-      "line": 499
-    },
-    "192": {
-      "filename": "EventCreditFactory.code",
-      "line": 502
-    }
-  },
-  "dd52ae226e6f48103ff816e3acbf429dcbfa5b0b37e307a4164045454c2d9ae9": {
-    "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 908
-    },
-    "8": {
-      "filename": "EventCreditFactory.code",
-      "line": 909
-    },
-    "56": {
-      "filename": "EventCreditFactory.code",
-      "line": 910
-    },
-    "64": {
-      "filename": "EventCreditFactory.code",
-      "line": 911
-    },
-    "80": {
-      "filename": "EventCreditFactory.code",
-      "line": 914
-    },
-    "88": {
-      "filename": "EventCreditFactory.code",
-      "line": 915
-    },
-    "136": {
-      "filename": "EventCreditFactory.code",
-      "line": 916
-    },
-    "144": {
-      "filename": "EventCreditFactory.code",
-      "line": 917
-    },
-    "160": {
-      "filename": "EventCreditFactory.code",
-      "line": 920
-    },
-    "168": {
-      "filename": "EventCreditFactory.code",
-      "line": 921
-    },
-    "216": {
-      "filename": "EventCreditFactory.code",
-      "line": 922
-    },
-    "224": {
-      "filename": "EventCreditFactory.code",
-      "line": 923
-    },
-    "240": {
-      "filename": "EventCreditFactory.code",
-      "line": 926
-    },
-    "248": {
-      "filename": "EventCreditFactory.code",
-      "line": 927
-    },
-    "296": {
-      "filename": "EventCreditFactory.code",
-      "line": 928
-    },
-    "304": {
-      "filename": "EventCreditFactory.code",
-      "line": 929
-    }
-  },
-  "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
-    "0": {
-      "filename": "EventCreditFactory.code",
-      "line": 696
-    },
-    "16": {
-      "filename": "EventCreditFactory.code",
-      "line": 697
-    },
-    "24": {
-      "filename": "EventCreditFactory.code",
-      "line": 698
-    },
-    "40": {
-      "filename": "EventCreditFactory.code",
-      "line": 699
-    },
-    "56": {
-      "filename": "EventCreditFactory.code",
-      "line": 700
-    },
-    "64": {
-      "filename": "EventCreditFactory.code",
-      "line": 701
-    },
-    "80": {
-      "filename": "EventCreditFactory.code",
-      "line": 702
-    },
-    "88": {
-      "filename": "EventCreditFactory.code",
-      "line": 703
-    },
-    "96": {
-      "filename": "EventCreditFactory.code",
-      "line": 704
-    },
-    "112": {
-      "filename": "EventCreditFactory.code",
-      "line": 705
-    },
-    "128": {
-      "filename": "EventCreditFactory.code",
-      "line": 706
-    },
-    "136": {
-      "filename": "EventCreditFactory.code",
-      "line": 707
-    },
-    "144": {
-      "filename": "EventCreditFactory.code",
-      "line": 708
-    }
-  },
-  "f27764cb50550ec8d239399d295416bcc45db5348e628a501f88dfa30784b964": {
-    "0": {
-      "filename": "<internal-selector>",
-      "line": 1
-    },
-    "24": {
-      "filename": "<internal-selector>",
-      "line": 2
-    },
-    "40": {
-      "filename": "<internal-selector>",
-      "line": 3
-    }
-  },
-  "f5f7d2ef0f93c8fbcb7f095d5d5ade318530248bd119b5bb637f732541a378d7": {
+  "c79b001f9603d61b2d0b3769762badc4ff46d8f30e6e56d2b9ac0f756ba16f73": {
     "0": {
       "filename": "EventCreditFactory.code",
       "line": 712
@@ -3042,66 +2900,208 @@
       "line": 749
     }
   },
-  "f9cf078b1ee9bb5f8428c5cac6a83ef09103184df306b169e8f3e88359b5ef45": {
+  "cfe59a6bde1e57745e779548b75e458066ea667b90bf99219fbcff62f093bc77": {
     "0": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "16": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "32": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "48": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "56": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "64": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "72": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "88": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "104": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "120": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "144": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "160": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "168": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 15
+      "line": 14
     },
     "192": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 46
+      "line": 37
     },
     "200": {
       "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
-      "line": 48
+      "line": 37
+    },
+    "208": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "224": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 37
+    },
+    "248": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 42
+    }
+  },
+  "e44af7d40d775c0eff9e55dce4a4db8e0e36b450e9f336f25d1332718a973abe": {
+    "0": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "16": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "32": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "48": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "56": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "64": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "72": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "88": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "104": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "120": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "144": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "160": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "168": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 14
+    },
+    "192": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 49
+    },
+    "200": {
+      "filename": "@broxus/contracts/contracts/access/InternalOwner.tsol",
+      "line": 51
+    }
+  },
+  "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+    "0": {
+      "filename": "EventCreditFactory.code",
+      "line": 696
+    },
+    "16": {
+      "filename": "EventCreditFactory.code",
+      "line": 697
+    },
+    "24": {
+      "filename": "EventCreditFactory.code",
+      "line": 698
+    },
+    "40": {
+      "filename": "EventCreditFactory.code",
+      "line": 699
+    },
+    "56": {
+      "filename": "EventCreditFactory.code",
+      "line": 700
+    },
+    "64": {
+      "filename": "EventCreditFactory.code",
+      "line": 701
+    },
+    "80": {
+      "filename": "EventCreditFactory.code",
+      "line": 702
+    },
+    "88": {
+      "filename": "EventCreditFactory.code",
+      "line": 703
+    },
+    "96": {
+      "filename": "EventCreditFactory.code",
+      "line": 704
+    },
+    "112": {
+      "filename": "EventCreditFactory.code",
+      "line": 705
+    },
+    "128": {
+      "filename": "EventCreditFactory.code",
+      "line": 706
+    },
+    "136": {
+      "filename": "EventCreditFactory.code",
+      "line": 707
+    },
+    "144": {
+      "filename": "EventCreditFactory.code",
+      "line": 708
+    }
+  },
+  "f27764cb50550ec8d239399d295416bcc45db5348e628a501f88dfa30784b964": {
+    "0": {
+      "filename": "<internal-selector>",
+      "line": 1
+    },
+    "24": {
+      "filename": "<internal-selector>",
+      "line": 2
+    },
+    "40": {
+      "filename": "<internal-selector>",
+      "line": 3
     }
   }
 }

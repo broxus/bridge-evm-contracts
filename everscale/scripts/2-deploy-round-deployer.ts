@@ -13,7 +13,7 @@ async function main() {
       name: "admin",
       message:
         "RoundDeployer admin (can upgrade contracts code, set event config addresses)",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
     {
@@ -23,7 +23,7 @@ async function main() {
         "0:0000000000000000000000000000000000000000000000000000000000000001",
       message:
         "Ever->Eth event configuration (broadcast RelayRoundCreation event with eth keys from round deployer). Could be omitted",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
     {
@@ -33,7 +33,7 @@ async function main() {
         "0:0000000000000000000000000000000000000000000000000000000000000001",
       message:
         "Ever->Sol event configuration (broadcast RelayRoundCreation event with ton keys from round deployer). Could be omitted",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
   ]);
@@ -156,29 +156,6 @@ async function main() {
   );
 
   spinner.succeed("Real admin set ✔");
-
-  spinner.start(
-    "Sending remaining evers from temporary admin to real admin..."
-  );
-
-  const adminContract = locklift.factory.getDeployedContract(
-    "Wallet",
-    admin.address
-  );
-
-  await locklift.transactions.waitFinalized(
-    adminContract.methods
-      .sendTransaction({
-        dest: deploy_params.admin,
-        value: 0,
-        bounce: false,
-        flags: 128,
-        payload: "",
-      })
-      .send({ from: admin.address, amount: locklift.utils.toNano(0.06) })
-  );
-
-  spinner.succeed("Remaining evers sent ✔");
 }
 
 main()

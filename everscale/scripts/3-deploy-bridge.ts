@@ -11,21 +11,21 @@ const main = async () => {
       type: "text",
       name: "owner",
       message: "Bridge initial owner (can be changed later)",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
     {
       type: "text",
       name: "roundDeployer",
       message: "RoundDeployer contract",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
     {
       type: "text",
       name: "manager",
       message: "Bridge initial manager",
-      validate: (value: any) =>
+      validate: (value: string) =>
         isValidTonAddress(value) ? true : "Invalid address",
     },
     {

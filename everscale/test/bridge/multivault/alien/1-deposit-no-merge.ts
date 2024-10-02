@@ -19,8 +19,6 @@ import { logContract } from "../../../utils/logger";
 import { EventAction, EventType, processEvent } from "../../../utils/events";
 import { JettonMinter } from "../../../utils/jetton";
 
-const logger = require("mocha-logger");
-
 type EventVoteDataParam = Parameters<
   Contract<EthereumEverscaleEventConfigurationAbi>["methods"]["deployEvent"]
 >[0]["eventVoteData"];
@@ -122,7 +120,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
           amount: locklift.utils.toNano(3),
         });
 
-      logger.log(`Event initialization tx: ${tx.id}`);
+      console.log(`Event initialization tx: ${tx.id}`);
 
       const expectedEventContract =
         await ethereumEverscaleEventConfiguration.methods
@@ -132,7 +130,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
           })
           .call();
 
-      logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+      console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
       eventContract = locklift.factory.getDeployedContract(
         "MultiVaultEVMTONEventAlien",
@@ -145,7 +143,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
         .getFullContractState({ address: eventContract.address })
         .then((s) => s.state!);
 
-      expect(state.isDeployed).to.be.true;
+      expect(state.isDeployed).to.be.eq(true);
     });
 
     it("Check event state before confirmation", async () => {
@@ -271,7 +269,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
         "Wrong alien token symbol"
       );
       expect(state.decimals).to.be.equal(
-        eventDataStructure.decimals.toString(),
+        eventDataStructure.decimals,
         "Wrong alien token decimals"
       );
       expect(state.admin.toString()).to.be.equal(
@@ -302,7 +300,7 @@ describe("Deposit Alien jetton to TON with no merging", function () {
         .getFullContractState({ address: mergeRouter.address })
         .then((s) => s.state!);
 
-      expect(state.isDeployed).to.be.true;
+      expect(state.isDeployed).to.be.eq(true);
     });
 
     it("Check merge router data", async () => {

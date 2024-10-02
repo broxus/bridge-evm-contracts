@@ -19,8 +19,6 @@ import { setupAlienJettonMultiVault } from "../../../utils/multivault/alien";
 import { EventAction, EventType, processEvent } from "../../../utils/events";
 import { JettonMinter } from "../../../utils/jetton";
 
-const logger = require("mocha-logger");
-
 describe("Withdraw tokens by burning in favor of proxy", function () {
   this.timeout(10000000);
 
@@ -132,7 +130,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
         .send({ from: initializer.address, amount: locklift.utils.toNano(2.5) })
     );
 
-    logger.log(`Event initialization tx: ${tx.extTransaction.id}`);
+    console.log(`Event initialization tx: ${tx.extTransaction.id}`);
 
     const expectedEventContract =
       await ethereumEverscaleEventConfiguration.methods
@@ -142,7 +140,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
         })
         .call();
 
-    logger.log(`Expected event: ${expectedEventContract.eventContract}`);
+    console.log(`Expected event: ${expectedEventContract.eventContract}`);
 
     const eventContract = locklift.factory.getDeployedContract(
       "MultiVaultEVMTONEventAlien",
@@ -191,7 +189,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       )
       .then((tx) => locklift.transactions.waitFinalized(tx));
 
-    logger.log(`Event initialization tx: ${tx.extTransaction.id.hash}`);
+    console.log(`Event initialization tx: ${tx.extTransaction.id.hash}`);
 
     const events = await everscaleEthereumEventConfiguration
       .getPastEvents({ filter: "NewEventContract" })
@@ -208,7 +206,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       },
     ] = events;
 
-    logger.log(`Expected event address: ${expectedEventContract}`);
+    console.log(`Expected event address: ${expectedEventContract}`);
 
     eventContract = locklift.factory.getDeployedContract(
       "MultiVaultTONEVMEventAlien",
@@ -221,7 +219,7 @@ describe("Withdraw tokens by burning in favor of proxy", function () {
       .getFullContractState({ address: eventContract.address })
       .then((s) => s.state!);
 
-    expect(state.isDeployed).to.be.true;
+    expect(state.isDeployed).to.be.eq(true);
   });
 
   it("Check total supply reduced", async () => {
