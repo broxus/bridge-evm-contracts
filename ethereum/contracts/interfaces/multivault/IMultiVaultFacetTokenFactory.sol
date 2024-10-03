@@ -5,6 +5,11 @@ pragma solidity ^0.8.20;
 // MultiVaultFacetTokenFactory has different pragma solidity (0.8.0)
 // Since it depends on not-upgredeable MultiVaultToken
 interface IMultiVaultFacetTokenFactory {
+    function DEFAULT_NAME_LP_PREFIX() external view returns (string memory);
+    function DEFAULT_SYMBOL_LP_PREFIX() external view returns (string memory);
+
+    function getInitHash() external pure returns (bytes32);
+
     function getLPToken(
         address token
     ) external view returns (address lp);
