@@ -1,6 +1,7 @@
 import { LockliftConfig } from "locklift";
 import { FactorySource } from "./build/factorySource";
 const LOCAL_NETWORK_ENDPOINT = "http://localhost/graphql";
+import "dotenv/config";
 
 import "locklift-verifier";
 

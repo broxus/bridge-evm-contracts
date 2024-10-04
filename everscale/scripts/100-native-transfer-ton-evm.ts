@@ -1,22 +1,24 @@
-import { Address, WalletTypes } from "locklift";
+import { Address, toNano, WalletTypes } from 'locklift';
 import { BigNumber } from "bignumber.js";
 
-import { JettonMinter } from "../test/utils/jetton";
+import { JettonWallet } from "../test/utils/jetton";
 
 const CELL_ENCODER_ADDRESS =
-  "0:ca7848b62741b9117ca1f6f877f59c4d210074bb867ec843ae22339bfc12df6c";
+  "0:f3f2e616773fc907d85887e132cb80b64f825e693feb8e15203eea6192c534cc";
 const PROXY =
   "0:31f98edaf5cd92e674799c0e4bc5cd8e050e4e9401e29f1766f4d27ccc87377d";
 const JETTON =
-  "0:f6b8e26e3723ce02ab73b86cf01bc4e1e6fffe75a10561266ef371dfd81ef255";
+  "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe";
 const CHAIN_ID = 56; // BSC
+const WALLET =
+  new Address("0:23e7bc1740bce56178ddc32d89ff24754de1755734bfc6c3f470c533279a2b50");
 
-const JETTON_META = { name: "ZALUPA", symbol: "ZLP", decimals: 18 };
+const JETTON_META = { name: "Tether USD", symbol: "USD₮", decimals: 18 };
 const EVM_CALLBACK_PARAMS = { recipient: 0, strict: false, payload: "" };
 
 const SENDER =
-  "0:a0a606886db07fb46042832ea1b65ff62377f8f892a67d0de6f7b58616d3783b";
-const RECIPIENT = "0x6cE02dC9401960Cf15d6B0B0EA6d70f8af65AA38";
+  new Address("0:a0a606886db07fb46042832ea1b65ff62377f8f892a67d0de6f7b58616d3783b");
+const RECIPIENT = "0x7596D0774993fF05C36f891D9F49617DFfDA98a5";
 const AMOUNT = "100";
 
 const main = async (): Promise<void> => {
@@ -56,22 +58,18 @@ const main = async (): Promise<void> => {
     address: SENDER,
   });
 
-  const jetton = new JettonMinter(JETTON);
+  const wallet = new JettonWallet(WALLET, SENDER);
 
   const { extTransaction } = await locklift.transactions.waitFinalized(
-    jetton
-      .getWalletOf(SENDER)
-      .then((w) =>
-        w.transfer(
-          AMOUNT,
-          new Address(PROXY),
-          { value: 1, payload: payload },
-          { value: locklift.utils.toNano(5), bounce: true }
-        )
-      )
+    wallet.transfer(
+      AMOUNT,
+      new Address(PROXY),
+      { value: toNano(2.8), payload: payload },
+      { value: locklift.utils.toNano(3), bounce: true }
+    )
   );
 
-  console.log(`Token transfer tx: ${extTransaction.transaction}`);
+  console.log(`Token transfer tx: ${extTransaction.id.hash}`);
 };
 
 main().then(() => console.log("Success"));

@@ -67,6 +67,7 @@ const OPCODES = {
   TRANSFER: "0xf8a7ea5",
   BURN: "0x595f07bc",
   CHANGE_ADMIN: "0x00000003",
+  UPGRADE: "0x17230c3a",
 };
 
 const MinterAbi = {
@@ -91,6 +92,15 @@ const MinterAbi = {
       inputs: [
         { name: "_callId", type: "uint64" },
         { name: "_newAdmin", type: "address" },
+      ],
+      outputs: [],
+    },
+    {
+      name: "upgrade",
+      id: OPCODES.UPGRADE,
+      inputs: [
+        { name: "_callId", type: "uint64" },
+        { name: "_newCode", type: "cell" },
       ],
       outputs: [],
     },
@@ -265,7 +275,7 @@ export class JettonMinter {
       admin: tokenData.admin,
       name: metaData.name,
       symbol: metaData.symbol,
-      decimals: metaData.decimals,
+      decimals: +metaData.decimals,
       chainId: metaData.chainId,
       baseToken: metaData.baseToken,
       walletVersion: +tokenData.walletVersion,
@@ -349,6 +359,30 @@ export class JettonMinter {
           params: {
             _callId: 0,
             _newAdmin: newAdmin,
+          },
+        },
+        bounce: sendParams.bounce,
+        amount: new BigNumber(sendParams.value).toString(),
+      })
+    );
+
+    return extTransaction.transaction;
+  }
+
+  async upgrade(
+    newCode: string,
+    sendParams: SendParams
+  ): Promise<Transaction> {
+    const { extTransaction } = await locklift.transactions.waitFinalized(
+      locklift.provider.sendMessage({
+        sender: this.admin,
+        recipient: this.minter,
+        payload: {
+          abi: JettonMinter.ABI_STRINGIFIED,
+          method: "upgrade",
+          params: {
+            _callId: 0,
+            _newCode: newCode,
           },
         },
         bounce: sendParams.bounce,
