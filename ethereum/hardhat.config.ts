@@ -209,7 +209,7 @@ const config: HardhatUserConfig = {
       timeout: 1000000,
       accounts: {
         mnemonic: process.env.ETH_MNEMONIC,
-        count: 50
+        count: 50,
       },
     },
     polygon: {
@@ -219,7 +219,7 @@ const config: HardhatUserConfig = {
       timeout: 1000000,
       accounts: {
         mnemonic: process.env.ETH_MNEMONIC,
-        count: 50
+        count: 50,
       },
     },
     bsc: {
@@ -229,7 +229,7 @@ const config: HardhatUserConfig = {
       timeout: 1000000,
       accounts: {
         mnemonic: process.env.ETH_MNEMONIC,
-        count: 50
+        count: 50,
       },
     },
     fantom: {
@@ -239,7 +239,7 @@ const config: HardhatUserConfig = {
       timeout: 1000000,
       accounts: {
         mnemonic: process.env.ETH_MNEMONIC,
-        count: 50
+        count: 50,
       },
     },
     avalanche: {
@@ -249,7 +249,7 @@ const config: HardhatUserConfig = {
       timeout: 1000000,
       accounts: {
         mnemonic: process.env.ETH_MNEMONIC,
-        count: 50
+        count: 50,
       },
     },
     klaytn: {
@@ -258,7 +258,7 @@ const config: HardhatUserConfig = {
       gas: 3000000,
       timeout: 1000000,
       accounts: {
-        mnemonic: process.env.ETH_MNEMONIC
+        mnemonic: process.env.ETH_MNEMONIC,
         count: 50,
       },
     },
