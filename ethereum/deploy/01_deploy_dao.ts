@@ -1,30 +1,36 @@
-import { HardhatRuntimeEnvironment } from 'hardhat/types';
-import { DeployFunction } from 'hardhat-deploy/types';
+import { HardhatRuntimeEnvironment } from "hardhat/types";
+import { DeployFunction } from "hardhat-deploy/types";
 
-const func: DeployFunction = async function ({ getNamedAccounts, deployments }: HardhatRuntimeEnvironment) {
+const deterministicDeployment = "multivault-ton-main";
+
+const func: DeployFunction = async function ({
+  getNamedAccounts,
+  deployments,
+  ethers,
+}: HardhatRuntimeEnvironment) {
   const { deployer, owner } = await getNamedAccounts();
 
-  const bridge = await deployments.get('Bridge');
+  const bridge = await deployments.get("Bridge");
 
   console.log(`DAO owner: ${owner}`);
 
-  await deployments.deploy('DAO', {
+  await deployments.deploy("DAO", {
     from: deployer,
     log: true,
+    deterministicDeployment: ethers.encodeBytes32String(
+      deterministicDeployment,
+    ),
     proxy: {
-      proxyContract: 'OpenZeppelinTransparentProxy',
+      proxyContract: "OpenZeppelinTransparentProxy",
       execute: {
-        methodName: 'initialize',
-        args: [
-          owner,
-          bridge.address
-        ],
-      }
-    }
+        methodName: "initialize",
+        args: [owner, bridge.address],
+      },
+    },
   });
 };
 
 // noinspection JSUnusedGlobalSymbols
 export default func;
 
-export const tags = ['Deploy_DAO'];
+func.tags = ["Deploy_DAO"];

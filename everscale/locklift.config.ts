@@ -18,7 +18,7 @@ const config: LockliftConfig = {
     version: "0.71.0",
     compilerParams: ["--tvm-version", "ton"],
     externalContracts: {
-      "../node_modules/@broxus/contracts/contracts/platform": ["Platform"],
+      "node_modules/@broxus/contracts/contracts/platform": ["Platform"],
     },
   },
   linker: { version: "0.20.6" },

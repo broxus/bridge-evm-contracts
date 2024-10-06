@@ -1,37 +1,38 @@
 import { DeployFunction } from "hardhat-deploy/types";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
-const func: DeployFunction = async function ({ getNamedAccounts, ethers, deployments }: HardhatRuntimeEnvironment) {
-    const {
-        deployer,
-        multivault: multivault_,
-    } = await getNamedAccounts();
+const deterministicDeployment = "multivault-ton-main";
 
-    // - Get multivault address
-    let multivault;
+const func: DeployFunction = async function ({
+  getNamedAccounts,
+  ethers,
+  deployments,
+}: HardhatRuntimeEnvironment) {
+  const { deployer, multivault: multivault_ } = await getNamedAccounts();
 
-    if (multivault_ === ethers.ZeroAddress) {
-        const MultiVault = await deployments.get('MultiVault');
+  // - Get multivault address
+  let multivault;
 
-        multivault = MultiVault.address;
-    } else {
-        multivault = multivault_;
-    }
+  if (multivault_ === ethers.ZeroAddress) {
+    const MultiVault = await deployments.get("MultiVault");
 
-    // Deploy diamond
-    await deployments.deploy('BatchSaver', {
-        from: deployer,
-        log: true,
-        deterministicDeployment: true,
-        args: [
-            ethers.ZeroAddress,
-            multivault
-        ]
-    });
+    multivault = MultiVault.address;
+  } else {
+    multivault = multivault_;
+  }
+
+  // Deploy diamond
+  await deployments.deploy("BatchSaver", {
+    from: deployer,
+    log: true,
+    deterministicDeployment: ethers.encodeBytes32String(
+      deterministicDeployment,
+    ),
+    args: [ethers.ZeroAddress, multivault],
+  });
 };
 
 // noinspection JSUnusedGlobalSymbols
 export default func;
 
-export const tags = ['Deploy_Batch_Saver'];
-
+func.tags = ["Deploy_Batch_Saver"];

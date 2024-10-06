@@ -10,17 +10,17 @@ const func: DeployFunction = async function ({
 }: HardhatRuntimeEnvironment) {
   const { deployer } = await getNamedAccounts();
 
-  // Deploy diamond
-  await deployments.deploy("MultiVaultFacetSettings", {
+  await deployments.deploy("Middleman", {
     from: deployer,
     log: true,
     deterministicDeployment: ethers.encodeBytes32String(
       deterministicDeployment,
     ),
+    args: [],
   });
 };
 
 // noinspection JSUnusedGlobalSymbols
 export default func;
 
-func.tags = ["Deploy_MultiVault_Facet_Settings"];
+func.tags = ["Deploy_Middleman"];

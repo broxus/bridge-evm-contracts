@@ -1,16 +1,25 @@
-import { HardhatRuntimeEnvironment } from 'hardhat/types';
-import { DeployFunction } from 'hardhat-deploy/types';
+import { HardhatRuntimeEnvironment } from "hardhat/types";
+import { DeployFunction } from "hardhat-deploy/types";
 
-const func: DeployFunction = async function ({ getNamedAccounts, deployments }: HardhatRuntimeEnvironment) {
+const deterministicDeployment = "multivault-ton-main";
+
+const func: DeployFunction = async function ({
+  getNamedAccounts,
+  deployments,
+  ethers,
+}: HardhatRuntimeEnvironment) {
   const { deployer } = await getNamedAccounts();
-  
-  await deployments.deploy('StakingRelayVerifier', {
+
+  await deployments.deploy("StakingRelayVerifier", {
     from: deployer,
     log: true,
+    deterministicDeployment: ethers.encodeBytes32String(
+      deterministicDeployment,
+    ),
   });
 };
 
 // noinspection JSUnusedGlobalSymbols
 export default func;
 
-export const tags = ['Deploy_StakingRelayVerifier'];
+func.tags = ["Deploy_StakingRelayVerifier"];
