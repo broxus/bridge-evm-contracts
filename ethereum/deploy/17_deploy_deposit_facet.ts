@@ -6,6 +6,7 @@ const deterministicDeployment = "multivault-ton-main";
 const func: DeployFunction = async function ({
   getNamedAccounts,
   deployments,
+  ethers,
 }: HardhatRuntimeEnvironment) {
   const { deployer } = await getNamedAccounts();
 
