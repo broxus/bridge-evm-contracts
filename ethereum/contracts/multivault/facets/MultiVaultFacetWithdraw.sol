@@ -358,7 +358,7 @@ contract MultiVaultFacetWithdraw is
         IEverscale.EverscaleAddress memory tvmToken,
         address evmToken,
         IMultiVaultFacetTokens.TokenMeta memory meta
-    ) external override onlyGovernanceOrManagement {
+    ) external override onlyGovernance {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         emit TokenCreated(
@@ -376,5 +376,19 @@ contract MultiVaultFacetWithdraw is
 
         s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = evmToken;
         s.natives_[evmToken] = tvmToken;
+    }
+
+    function removePredeployedToken(
+        IEverscale.EverscaleAddress memory tvmToken,
+        address evmToken
+    ) external override onlyGovernance {
+        MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+
+        IEverscale.EverscaleAddress memory emptyTvmAddr;
+        IMultiVaultFacetTokens.Token memory emptyTokenData;
+
+        s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = address(0);
+        s.natives_[evmToken] = emptyTvmAddr;
+        s.tokens_[evmToken] = emptyTokenData;
     }
 }

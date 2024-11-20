@@ -26,7 +26,6 @@ library MultiVaultStorage {
     struct Storage {
         mapping (address => IMultiVaultFacetTokens.Token) tokens_;
         mapping (address => IEverscale.EverscaleAddress) natives_;
-        mapping (bytes32 => address) predeployed_; // tvm address hash -> evm address
 
         uint defaultNativeDepositFee;
         uint defaultNativeWithdrawFee;
@@ -78,6 +77,9 @@ library MultiVaultStorage {
         // - Receives native value, attached to the deposit
         address gasDonor;
         address weth;
+
+        // STORAGE UPDATE 5
+        mapping (bytes32 => address) predeployed_; // tvm address hash -> evm address
     }
 
     function _storage() internal pure returns (Storage storage s) {

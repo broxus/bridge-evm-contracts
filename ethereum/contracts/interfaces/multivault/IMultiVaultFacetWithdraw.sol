@@ -53,4 +53,9 @@ interface IMultiVaultFacetWithdraw {
         address evmToken,
         IMultiVaultFacetTokens.TokenMeta memory meta
     ) external;
+
+    function removePredeployedToken(
+        IEverscale.EverscaleAddress memory tvmToken,
+        address evmToken
+    ) external;
 }

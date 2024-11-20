@@ -706,6 +706,36 @@
   {
     "inputs": [
       {
+        "components": [
+          {
+            "internalType": "int8",
+            "name": "wid",
+            "type": "int8"
+          },
+          {
+            "internalType": "uint256",
+            "name": "addr",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IEverscale.EverscaleAddress",
+        "name": "tvmToken",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "evmToken",
+        "type": "address"
+      }
+    ],
+    "name": "removePredeployedToken",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
         "internalType": "bytes",
         "name": "payload",
         "type": "bytes"

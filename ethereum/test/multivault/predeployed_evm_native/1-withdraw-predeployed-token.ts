@@ -163,4 +163,33 @@ describe("Test withdraw for predeployed native token", () => {
       expect(await multivault.fees(token.getAddress())).to.be.equal(0);
     });
   });
+
+  describe("Remove predeployed token", async () => {
+    it("Remove predeployed token", async () => {
+      const { owner } = await getNamedAccounts();
+
+      const tx = await deployments.execute(
+        "MultiVault",
+        {
+          from: owner,
+          log: true,
+        },
+        "removePredeployedToken",
+        native,
+        await token.getAddress(),
+      );
+
+      const predeployed = await multivault.predeployed(native);
+      const storageTokenData = await multivault.tokens(
+        await token.getAddress(),
+      );
+      const storageNativeData = await multivault.getNativeToken(
+        native.wid,
+        native.addr,
+      );
+      expect(predeployed).to.be.equal(ethers.ZeroAddress);
+      expect(storageTokenData.isNative).to.be.equal(false);
+      expect(storageNativeData).to.be.not.equal(await token.getAddress());
+    });
+  });
 });
