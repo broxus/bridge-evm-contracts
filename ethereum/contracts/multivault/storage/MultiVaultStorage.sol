@@ -77,14 +77,21 @@ library MultiVaultStorage {
         // - Receives native value, attached to the deposit
         address gasDonor;
         address weth;
-
-        // STORAGE UPDATE 5
-        mapping (bytes32 => address) predeployed_; // tvm address hash -> evm address
     }
 
     function _storage() internal pure returns (Storage storage s) {
         assembly {
             s.slot := MULTIVAULT_LEGACY_STORAGE_POSITION
+        }
+    }
+
+    // keccak256(abi.encode(uint256(keccak256("multivault.storage.predeployed")) - 1)) & ~bytes32(uint256(0xff))
+    bytes32 private constant PredeployedLocation = 0xbec917ae7ed1adaace7b11b7376bec6f2e2a1f67a48222c2301daaca51cd9900;
+
+    // tvm address hash -> evm address
+    function _getPredeployed() internal pure returns (mapping (bytes32 => address) storage $) {
+        assembly {
+            $.slot := PredeployedLocation
         }
     }
 }

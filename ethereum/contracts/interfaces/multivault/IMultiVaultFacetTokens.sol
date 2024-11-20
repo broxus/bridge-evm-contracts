@@ -33,7 +33,8 @@ interface IMultiVaultFacetTokens {
     function prefixes(address _token) external view returns (TokenPrefix memory);
     function tokens(address _token) external view returns (Token memory);
     function natives(address _token) external view returns (IEverscale.EverscaleAddress memory);
-    function predeployed(IEverscale.EverscaleAddress memory tvmToken) external view returns (address);
+
+    function getPredeployedToken(IEverscale.EverscaleAddress memory tvmToken) external view returns (address);
 
     function getLPToken(
         address token

@@ -200,6 +200,37 @@
   {
     "inputs": [
       {
+        "components": [
+          {
+            "internalType": "int8",
+            "name": "wid",
+            "type": "int8"
+          },
+          {
+            "internalType": "uint256",
+            "name": "addr",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IEverscale.EverscaleAddress",
+        "name": "tvmToken",
+        "type": "tuple"
+      }
+    ],
+    "name": "getPredeployedToken",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
         "internalType": "address",
         "name": "_token",
         "type": "address"
@@ -223,37 +254,6 @@
         "internalType": "struct IEverscale.EverscaleAddress",
         "name": "",
         "type": "tuple"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "components": [
-          {
-            "internalType": "int8",
-            "name": "wid",
-            "type": "int8"
-          },
-          {
-            "internalType": "uint256",
-            "name": "addr",
-            "type": "uint256"
-          }
-        ],
-        "internalType": "struct IEverscale.EverscaleAddress",
-        "name": "tvmToken",
-        "type": "tuple"
-      }
-    ],
-    "name": "predeployed",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
       }
     ],
     "stateMutability": "view",

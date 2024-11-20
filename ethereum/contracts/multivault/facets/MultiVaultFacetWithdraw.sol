@@ -360,6 +360,7 @@ contract MultiVaultFacetWithdraw is
         IMultiVaultFacetTokens.TokenMeta memory meta
     ) external override onlyGovernance {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+        mapping (bytes32 => address) storage predeployed = MultiVaultStorage._getPredeployed();
 
         emit TokenCreated(
             evmToken,
@@ -374,7 +375,7 @@ contract MultiVaultFacetWithdraw is
 
         _activateToken(evmToken, true);
 
-        s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = evmToken;
+        predeployed[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = evmToken;
         s.natives_[evmToken] = tvmToken;
     }
 
@@ -383,11 +384,12 @@ contract MultiVaultFacetWithdraw is
         address evmToken
     ) external override onlyGovernance {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+        mapping (bytes32 => address) storage predeployed = MultiVaultStorage._getPredeployed();
 
         IEverscale.EverscaleAddress memory emptyTvmAddr;
         IMultiVaultFacetTokens.Token memory emptyTokenData;
 
-        s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = address(0);
+        predeployed[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = address(0);
         s.natives_[evmToken] = emptyTvmAddr;
         s.tokens_[evmToken] = emptyTokenData;
     }

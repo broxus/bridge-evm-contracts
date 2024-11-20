@@ -48,12 +48,12 @@ contract MultiVaultFacetTokens is
         return s.natives_[_token];
     }
 
-    function predeployed(
+    function getPredeployedToken(
         IEverscale.EverscaleAddress memory tvmToken
     ) external view override returns (address) {
-        MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+        mapping (bytes32 => address) storage predeployed = MultiVaultStorage._getPredeployed();
 
-        return s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))];
+        return predeployed[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))];
     }
 
     function getLPToken(
@@ -75,10 +75,10 @@ contract MultiVaultFacetTokens is
         int8 wid,
         uint256 addr
     ) external view returns (address token) {
-        MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+        mapping (bytes32 => address) storage predeployed = MultiVaultStorage._getPredeployed();
 
         bytes32 hash = keccak256(abi.encodePacked(wid, addr));
-        if (s.predeployed_[hash] == address(0)) {
+        if (predeployed[hash] == address(0)) {
             token = address(uint160(uint(keccak256(abi.encodePacked(
                 hex'ff',
                 address(this),
@@ -86,7 +86,7 @@ contract MultiVaultFacetTokens is
                 hex'192c19818bebb5c6c95f5dcb3c3257379fc46fb654780cb06f3211ee77e1a360' // MultiVaultToken init code hash
             )))));
         } else {
-            token = s.predeployed_[hash];
+            token = predeployed[hash];
         }
     }
 

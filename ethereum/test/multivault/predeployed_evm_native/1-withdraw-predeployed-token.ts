@@ -179,7 +179,7 @@ describe("Test withdraw for predeployed native token", () => {
         await token.getAddress(),
       );
 
-      const predeployed = await multivault.predeployed(native);
+      const predeployed = await multivault.getPredeployedToken(native);
       const storageTokenData = await multivault.tokens(
         await token.getAddress(),
       );
