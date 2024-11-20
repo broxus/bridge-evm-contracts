@@ -20,7 +20,7 @@ abstract contract MultiVaultHelperLiquidity is IMultiVaultFacetLiquidityEvents {
     function _getLPToken(
         address token
     ) internal view returns (address lp) {
-        return IMultiVaultFacetTokenFactory(address(this)).getLPToken(token);
+        return IMultiVaultFacetTokens(address(this)).getLPToken(token);
     }
 
     function _exchangeRateCurrent(

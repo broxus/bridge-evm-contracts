@@ -48,6 +48,48 @@ contract MultiVaultFacetTokens is
         return s.natives_[_token];
     }
 
+    function predeployed(
+        IEverscale.EverscaleAddress memory tvmToken
+    ) external view override returns (address) {
+        MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+
+        return s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))];
+    }
+
+    function getLPToken(
+        address token
+    ) external view returns (address lp) {
+        lp = address(uint160(uint(keccak256(abi.encodePacked(
+            hex'ff',
+            address(this),
+            keccak256(abi.encodePacked('LP', token)),
+            hex'192c19818bebb5c6c95f5dcb3c3257379fc46fb654780cb06f3211ee77e1a360' // MultiVaultToken init code hash
+        )))));
+    }
+
+    /// @notice Gets the address
+    /// @param wid Everscale token address workchain id
+    /// @param addr Everscale token address body
+    /// @return token Token address
+    function getNativeToken(
+        int8 wid,
+        uint256 addr
+    ) external view returns (address token) {
+        MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+
+        bytes32 hash = keccak256(abi.encodePacked(wid, addr));
+        if (s.predeployed_[hash] == address(0)) {
+            token = address(uint160(uint(keccak256(abi.encodePacked(
+                hex'ff',
+                address(this),
+                keccak256(abi.encodePacked(wid, addr)),
+                hex'192c19818bebb5c6c95f5dcb3c3257379fc46fb654780cb06f3211ee77e1a360' // MultiVaultToken init code hash
+            )))));
+        } else {
+            token = s.predeployed_[hash];
+        }
+    }
+
     function setTokenBlacklist(
         address token,
         bool blacklisted

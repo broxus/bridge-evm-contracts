@@ -26,6 +26,7 @@ library MultiVaultStorage {
     struct Storage {
         mapping (address => IMultiVaultFacetTokens.Token) tokens_;
         mapping (address => IEverscale.EverscaleAddress) natives_;
+        mapping (bytes32 => address) predeployed_; // tvm address hash -> evm address
 
         uint defaultNativeDepositFee;
         uint defaultNativeWithdrawFee;

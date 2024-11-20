@@ -125,49 +125,6 @@
         "internalType": "address",
         "name": "token",
         "type": "address"
-      }
-    ],
-    "name": "getLPToken",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "lp",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "int8",
-        "name": "wid",
-        "type": "int8"
-      },
-      {
-        "internalType": "uint256",
-        "name": "addr",
-        "type": "uint256"
-      }
-    ],
-    "name": "getNativeToken",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "token",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "token",
-        "type": "address"
       },
       {
         "internalType": "address",

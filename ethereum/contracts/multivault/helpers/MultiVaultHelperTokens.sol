@@ -99,7 +99,7 @@ abstract contract MultiVaultHelperTokens is
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         // Derive native token address from the Everscale (token wid, token addr)
-        address token = IMultiVaultFacetTokenFactory(address(this)).getNativeToken(
+        address token = IMultiVaultFacetTokens(address(this)).getNativeToken(
             withdrawal.native.wid,
             withdrawal.native.addr
         );

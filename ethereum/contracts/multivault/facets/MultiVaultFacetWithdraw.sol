@@ -18,6 +18,7 @@ import "../helpers/MultiVaultHelperTokens.sol";
 import "../helpers/MultiVaultHelperPendingWithdrawal.sol";
 import "../helpers/MultiVaultHelperTokenBalance.sol";
 import "../helpers/MultiVaultHelperCallback.sol";
+import "../helpers/MultiVaultHelperActors.sol";
 
 
 contract MultiVaultFacetWithdraw is
@@ -28,6 +29,7 @@ contract MultiVaultFacetWithdraw is
     MultiVaultHelperTokens,
     MultiVaultHelperTokenBalance,
     MultiVaultHelperCallback,
+    MultiVaultHelperActors,
     IMultiVaultFacetWithdraw
 {
     using SafeERC20 for IERC20;
@@ -350,5 +352,29 @@ contract MultiVaultFacetWithdraw is
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         return s.withdrawalIds[id];
+    }
+
+    function addPredeployedToken(
+        IEverscale.EverscaleAddress memory tvmToken,
+        address evmToken,
+        IMultiVaultFacetTokens.TokenMeta memory meta
+    ) external override onlyGovernanceOrManagement {
+        MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
+
+        emit TokenCreated(
+            evmToken,
+            tvmToken.wid,
+            tvmToken.addr,
+            string(''),
+            string(''),
+            meta.name,
+            meta.symbol,
+            meta.decimals
+        );
+
+        _activateToken(evmToken, true);
+
+        s.predeployed_[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = evmToken;
+        s.natives_[evmToken] = tvmToken;
     }
 }

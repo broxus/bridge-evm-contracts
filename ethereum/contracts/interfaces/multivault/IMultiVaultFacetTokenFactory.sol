@@ -10,15 +10,6 @@ interface IMultiVaultFacetTokenFactory {
 
     function getInitHash() external pure returns (bytes32);
 
-    function getLPToken(
-        address token
-    ) external view returns (address lp);
-
-    function getNativeToken(
-        int8 wid,
-        uint256 addr
-    ) external view returns (address token);
-
     function deployTokenForNative(
         int8 wid,
         uint256 addr,

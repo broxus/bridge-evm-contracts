@@ -47,4 +47,10 @@ interface IMultiVaultFacetWithdraw {
         bytes[] memory signatures,
         uint bounty
     ) external;
+
+    function addPredeployedToken(
+        IEverscale.EverscaleAddress memory tvmToken,
+        address evmToken,
+        IMultiVaultFacetTokens.TokenMeta memory meta
+    ) external;
 }

@@ -21,33 +21,6 @@ contract MultiVaultFacetTokenFactory {
         return keccak256(abi.encodePacked(bytecode));
     }
 
-    function getLPToken(
-        address token
-    ) external view returns (address lp) {
-        lp = address(uint160(uint(keccak256(abi.encodePacked(
-            hex'ff',
-            address(this),
-            keccak256(abi.encodePacked('LP', token)),
-            hex'192c19818bebb5c6c95f5dcb3c3257379fc46fb654780cb06f3211ee77e1a360' // MultiVaultToken init code hash
-        )))));
-    }
-
-    /// @notice Gets the address
-    /// @param wid Everscale token address workchain id
-    /// @param addr Everscale token address body
-    /// @return token Token address
-    function getNativeToken(
-        int8 wid,
-        uint256 addr
-    ) external view returns (address token) {
-        token = address(uint160(uint(keccak256(abi.encodePacked(
-            hex'ff',
-            address(this),
-            keccak256(abi.encodePacked(wid, addr)),
-            hex'192c19818bebb5c6c95f5dcb3c3257379fc46fb654780cb06f3211ee77e1a360' // MultiVaultToken init code hash
-        )))));
-    }
-
     function deployTokenForNative(
         int8 wid,
         uint256 addr,
