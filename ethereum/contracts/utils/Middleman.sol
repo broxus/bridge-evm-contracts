@@ -3,6 +3,7 @@ pragma solidity ^0.8.20;
 
 import "../interfaces/multivault/IMultiVaultFacetDeposit.sol";
 import "../interfaces/multivault/IMultiVaultFacetWithdraw.sol";
+import "../interfaces/multivault/IMultiVaultFacetTokens.sol";
 import "../interfaces/multivault/IOctusCallback.sol";
 
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
@@ -11,7 +12,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 
-contract Middleman is Initializable, IOctusCallbackAlien, ReentrancyGuardUpgradeable {
+contract Middleman is Initializable, IOctusCallbackAlien, IOctusCallbackNative, ReentrancyGuardUpgradeable {
 
     event MiddlemanDeposit(address srcToken, uint256 depositAmount, address dstMultiVault);
 
@@ -23,30 +24,63 @@ contract Middleman is Initializable, IOctusCallbackAlien, ReentrancyGuardUpgrade
         IMultiVaultFacetWithdraw.AlienWithdrawalParams memory payload,
         uint256 withdrawAmount
     ) external override nonReentrant {
-        require(payload.recipient == address(this), "Wrong withdrawal recipient");
+        _onWithdrawal(
+            payload.token,
+            payload.recipient,
+            payload.callback,
+            withdrawAmount
+        );
+    }
+
+    function onNativeWithdrawal(
+        IMultiVaultFacetWithdraw.NativeWithdrawalParams memory payload,
+        uint256 withdrawAmount
+    ) external override nonReentrant {
+        address token = IMultiVaultFacetTokens(msg.sender).getNativeToken(payload.native.wid, payload.native.addr);
+
+        _onWithdrawal(
+            token,
+            payload.recipient,
+            payload.callback,
+            withdrawAmount
+        );
+    }
+
+    function _onWithdrawal(
+        address token,
+        address recipient,
+        IMultiVaultFacetWithdraw.Callback memory callback,
+        uint256 withdrawAmount
+    ) internal {
+        require(recipient == address(this), "Wrong withdrawal recipient");
 
         (
             address dstMultiVault,
             IEverscale.EverscaleAddress memory recipientAddress,
             bytes memory depositData
-        ) = abi.decode(payload.callback.payload, (
+        ) = abi.decode(callback.payload, (
             address,
             IEverscale.EverscaleAddress,
             bytes
         ));
 
-        emit MiddlemanDeposit(payload.token, withdrawAmount, dstMultiVault);
+        emit MiddlemanDeposit(token, withdrawAmount, dstMultiVault);
 
-        IERC20(payload.token).approve(dstMultiVault, withdrawAmount);
+        IERC20(token).approve(dstMultiVault, withdrawAmount);
 
         IMultiVaultFacetDeposit(dstMultiVault).deposit(IMultiVaultFacetDeposit.DepositParams(
             recipientAddress,
-            payload.token,
+            token,
             withdrawAmount,
             0,
             depositData
         ));
     }
+
+    function onNativeWithdrawalPendingCreated(
+        IMultiVaultFacetWithdraw.NativeWithdrawalParams memory /*_payload*/,
+        uint /*pendingWithdrawalId*/
+    ) external override nonReentrant {}
 
     function onAlienWithdrawalPendingCreated(
         IMultiVaultFacetWithdraw.AlienWithdrawalParams memory /*_payload*/,
