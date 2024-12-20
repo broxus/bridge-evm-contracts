@@ -21,6 +21,7 @@
     "chai": "^4.5.0",
     "dotenv": "^16.4.5",
     "eslint": "^9.11.1",
+    "eth-ton-abi-converter" : "^0.5.2",
     "ethers": "^5.7.2",
     "globals": "^15.10.0",
     "locklift": "^2.9.4",

@@ -1,7 +1,7 @@
 import { Address, Contract } from "locklift";
 import { deriveBip39Phrase } from "everscale-crypto";
 
-import { MultiVaultEVMTONEventNativeAbi } from "../build/factorySource";
+import { MultiVaultEVMTONEventNativeAbi } from "../../build/factorySource";
 import { BigNumber } from "bignumber.js";
 
 const loadRelays = (): string[] => {
