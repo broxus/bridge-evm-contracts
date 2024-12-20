@@ -74,6 +74,25 @@ const config: LockliftConfig = {
         amount: 20,
       },
     },
+    tycho: {
+      connection: {
+        id: 2000,
+        type: "jrpc",
+        group: "tycho",
+        data: {
+          endpoint: process.env.TYCHO_JRPC_ENDPOINT!,
+        },
+      },
+      giver: {
+        address: process.env.TYCHO_GIVER_ADDRESS!,
+        phrase: process.env.TYCHO_GIVER_PHRASE!,
+        accountId: 0,
+      },
+      keys: {
+        phrase: process.env.TYCHO_PHRASE,
+        amount: 20,
+      },
+    },
   },
   mocha: {
     timeout: 2000000,

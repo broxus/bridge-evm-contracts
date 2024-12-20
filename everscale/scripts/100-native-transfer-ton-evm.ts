@@ -1,23 +1,20 @@
-import { Address, WalletTypes } from "locklift";
+import { Address, toNano, WalletTypes } from "locklift";
 import { BigNumber } from "bignumber.js";
 
-import { JettonMinter } from "../test/utils/jetton";
-
 const CELL_ENCODER_ADDRESS =
-  "0:ca7848b62741b9117ca1f6f877f59c4d210074bb867ec843ae22339bfc12df6c";
+  "0:f6f40f44e8633d8184441df9d8663905cd0d13864db71863de27b3313f765b6f";
 const PROXY =
-  "0:31f98edaf5cd92e674799c0e4bc5cd8e050e4e9401e29f1766f4d27ccc87377d";
-const JETTON =
-  new Address("0:f6b8e26e3723ce02ab73b86cf01bc4e1e6fffe75a10561266ef371dfd81ef255");
+  "0:abaef59990f979b2f42bfb3ebd85bbe4a9841dc1b489a9dbb3cd73244b95fee8";
 const CHAIN_ID = 56; // BSC
+const WALLET =
+  new Address("0:6dc8199fc7ad4c84c64a6f3d2a18c874f2e924175897af81ed79ced1c26b4934");
 
-const JETTON_META = { name: "ZALUPA", symbol: "ZLP", decimals: 18 };
 const EVM_CALLBACK_PARAMS = { recipient: 0, strict: false, payload: "" };
 
 const SENDER =
-  new Address("0:a0a606886db07fb46042832ea1b65ff62377f8f892a67d0de6f7b58616d3783b");
-const RECIPIENT = "0x6cE02dC9401960Cf15d6B0B0EA6d70f8af65AA38";
-const AMOUNT = "100";
+  new Address("0:2746d46337aa25d790c97f1aefb01a5de48cc1315b41a4f32753146a1e1aeb7d");
+const RECIPIENT = "0x7a1cdAc618c584375A535f97141E08a60ED40ee4";
+const AMOUNT = "1";
 
 const main = async (): Promise<void> => {
   const cellEncoder = locklift.factory.getDeployedContract(
@@ -25,24 +22,24 @@ const main = async (): Promise<void> => {
     new Address(CELL_ENCODER_ADDRESS)
   );
 
+  await locklift.factory.accounts.addExistingAccount({
+    type: WalletTypes.EverWallet,
+    address: SENDER,
+  });
+
   const params = {
     recipient: new BigNumber(RECIPIENT.toLowerCase(), 16).toString(10),
     chainId: CHAIN_ID,
     callback: EVM_CALLBACK_PARAMS,
-    name: JETTON_META.name,
-    symbol: JETTON_META.symbol,
-    decimals: JETTON_META.decimals,
-    token: JETTON,
-    remainingGasTo: SENDER
   };
 
   console.log(
-    "Calling encodeNativeJettonTransferPayloadEthereum with params:",
+    "Calling encodeNativeTransferPayloadEthereum with params:",
     JSON.stringify(params, null, 2)
   );
 
   const payload = await cellEncoder.methods
-    .encodeNativeJettonTransferPayloadEthereum(params)
+    .encodeNativeTransferPayloadEthereum(params)
     .call()
     .then((t) => t.value0);
 
@@ -56,19 +53,19 @@ const main = async (): Promise<void> => {
     address: SENDER,
   });
 
-  const jetton = new JettonMinter(JETTON, SENDER);
+  const wallet = locklift.factory.getDeployedContract("TokenWalletUpgradeable", WALLET);
 
   const { extTransaction } = await locklift.transactions.waitFinalized(
-    jetton
-      .getWalletOf(SENDER)
-      .then((w) =>
-        w.transfer(
-          AMOUNT,
-          new Address(PROXY),
-          { value: 1, payload: payload },
-          { value: locklift.utils.toNano(5), bounce: true }
-        )
-      )
+    wallet.methods
+      .transfer({
+        amount: AMOUNT,
+        recipient: new Address(PROXY),
+        deployWalletValue: 0,
+        remainingGasTo: SENDER,
+        notify: true,
+        payload: payload,
+      })
+      .send({ from: SENDER, amount: toNano(10), bounce: true }),
   );
 
   console.log(`Token transfer tx: ${extTransaction.id.hash}`);
