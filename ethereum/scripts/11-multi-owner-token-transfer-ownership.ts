@@ -3,7 +3,7 @@ import { deployments, ethers, getNamedAccounts } from "hardhat";
 const main = async () => {
   const token = await ethers.getContract("MultiOwnerToken");
 
-  const multiVaults = [];
+  const multiVaults: string[] = [];
 
   const { deployer, owner } = await getNamedAccounts();
   await deployments.execute(

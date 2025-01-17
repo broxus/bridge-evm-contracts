@@ -1,0 +1,1674 @@
+{
+  "0c184557a1c057ea8a0a3207eb6d78ea5123940f8a99c73082b641d8078b4011": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 292
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 293
+    },
+    "32": {
+      "filename": "TestRelayRound.code",
+      "line": 294
+    },
+    "48": {
+      "filename": "TestRelayRound.code",
+      "line": 295
+    },
+    "64": {
+      "filename": "TestRelayRound.code",
+      "line": 296
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 297
+    },
+    "96": {
+      "filename": "TestRelayRound.code",
+      "line": 298
+    },
+    "112": {
+      "filename": "TestRelayRound.code",
+      "line": 299
+    },
+    "128": {
+      "filename": "TestRelayRound.code",
+      "line": 300
+    },
+    "144": {
+      "filename": "TestRelayRound.code",
+      "line": 301
+    },
+    "160": {
+      "filename": "TestRelayRound.code",
+      "line": 302
+    },
+    "168": {
+      "filename": "TestRelayRound.code",
+      "line": 303
+    },
+    "184": {
+      "filename": "TestRelayRound.code",
+      "line": 304
+    },
+    "200": {
+      "filename": "TestRelayRound.code",
+      "line": 305
+    },
+    "216": {
+      "filename": "TestRelayRound.code",
+      "line": 306
+    },
+    "224": {
+      "filename": "TestRelayRound.code",
+      "line": 307
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 308
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 309
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 310
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 311
+    },
+    "288": {
+      "filename": "TestRelayRound.code",
+      "line": 312
+    },
+    "304": {
+      "filename": "TestRelayRound.code",
+      "line": 313
+    },
+    "312": {
+      "filename": "TestRelayRound.code",
+      "line": 314
+    },
+    "328": {
+      "filename": "TestRelayRound.code",
+      "line": 315
+    },
+    "344": {
+      "filename": "TestRelayRound.code",
+      "line": 316
+    },
+    "352": {
+      "filename": "TestRelayRound.code",
+      "line": 317
+    },
+    "368": {
+      "filename": "TestRelayRound.code",
+      "line": 318
+    },
+    "376": {
+      "filename": "TestRelayRound.code",
+      "line": 319
+    },
+    "392": {
+      "filename": "TestRelayRound.code",
+      "line": 320
+    },
+    "408": {
+      "filename": "TestRelayRound.code",
+      "line": 321
+    },
+    "424": {
+      "filename": "TestRelayRound.code",
+      "line": 322
+    },
+    "432": {
+      "filename": "TestRelayRound.code",
+      "line": 323
+    },
+    "440": {
+      "filename": "TestRelayRound.code",
+      "line": 324
+    },
+    "456": {
+      "filename": "TestRelayRound.code",
+      "line": 325
+    },
+    "464": {
+      "filename": "TestRelayRound.code",
+      "line": 326
+    },
+    "480": {
+      "filename": "TestRelayRound.code",
+      "line": 327
+    },
+    "496": {
+      "filename": "TestRelayRound.code",
+      "line": 328
+    },
+    "512": {
+      "filename": "TestRelayRound.code",
+      "line": 329
+    },
+    "528": {
+      "filename": "TestRelayRound.code",
+      "line": 330
+    },
+    "544": {
+      "filename": "TestRelayRound.code",
+      "line": 331
+    },
+    "560": {
+      "filename": "TestRelayRound.code",
+      "line": 332
+    },
+    "568": {
+      "filename": "TestRelayRound.code",
+      "line": 333
+    },
+    "576": {
+      "filename": "TestRelayRound.code",
+      "line": 334
+    }
+  },
+  "0efc7222171aa30c9767d82f69ac482901d3047cd321ec357a6360f0b5c63ede": {
+    "0": {
+      "filename": "<entry-selector>",
+      "line": 1
+    },
+    "8": {
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
+    },
+    "48": {
+      "filename": "<entry-selector>",
+      "line": 5
+    },
+    "56": {
+      "filename": "<entry-selector>",
+      "line": 6
+    },
+    "72": {
+      "filename": "<entry-selector>",
+      "line": 7
+    },
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
+    },
+    "128": {
+      "filename": "<entry-selector>",
+      "line": 11
+    }
+  },
+  "1b20aa77402a38bb1e5f57f34060e096301e46c12daeaea48d1be88e37d4ec2f": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 207
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 208
+    },
+    "24": {
+      "filename": "TestRelayRound.code",
+      "line": 209
+    },
+    "40": {
+      "filename": "TestRelayRound.code",
+      "line": 210
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 211
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 212
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 213
+    },
+    "96": {
+      "filename": "TestRelayRound.code",
+      "line": 214
+    },
+    "112": {
+      "filename": "TestRelayRound.code",
+      "line": 215
+    },
+    "120": {
+      "filename": "TestRelayRound.code",
+      "line": 216
+    },
+    "136": {
+      "filename": "TestRelayRound.code",
+      "line": 217
+    },
+    "144": {
+      "filename": "TestRelayRound.code",
+      "line": 218
+    },
+    "160": {
+      "filename": "TestRelayRound.code",
+      "line": 219
+    },
+    "176": {
+      "filename": "TestRelayRound.code",
+      "line": 220
+    },
+    "184": {
+      "filename": "TestRelayRound.code",
+      "line": 221
+    },
+    "200": {
+      "filename": "TestRelayRound.code",
+      "line": 222
+    },
+    "208": {
+      "filename": "TestRelayRound.code",
+      "line": 223
+    },
+    "224": {
+      "filename": "TestRelayRound.code",
+      "line": 224
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 225
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 226
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 227
+    },
+    "272": {
+      "filename": "TestRelayRound.code",
+      "line": 228
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 229
+    },
+    "288": {
+      "filename": "TestRelayRound.code",
+      "line": 230
+    },
+    "296": {
+      "filename": "TestRelayRound.code",
+      "line": 231
+    },
+    "312": {
+      "filename": "TestRelayRound.code",
+      "line": 232
+    },
+    "328": {
+      "filename": "TestRelayRound.code",
+      "line": 233
+    },
+    "336": {
+      "filename": "TestRelayRound.code",
+      "line": 234
+    },
+    "352": {
+      "filename": "TestRelayRound.code",
+      "line": 235
+    },
+    "360": {
+      "filename": "TestRelayRound.code",
+      "line": 236
+    },
+    "376": {
+      "filename": "TestRelayRound.code",
+      "line": 237
+    },
+    "392": {
+      "filename": "TestRelayRound.code",
+      "line": 238
+    },
+    "408": {
+      "filename": "TestRelayRound.code",
+      "line": 239
+    },
+    "424": {
+      "filename": "TestRelayRound.code",
+      "line": 240
+    },
+    "432": {
+      "filename": "TestRelayRound.code",
+      "line": 241
+    },
+    "448": {
+      "filename": "TestRelayRound.code",
+      "line": 242
+    },
+    "464": {
+      "filename": "TestRelayRound.code",
+      "line": 243
+    },
+    "480": {
+      "filename": "TestRelayRound.code",
+      "line": 244
+    },
+    "496": {
+      "filename": "TestRelayRound.code",
+      "line": 245
+    },
+    "512": {
+      "filename": "TestRelayRound.code",
+      "line": 246
+    },
+    "528": {
+      "filename": "TestRelayRound.code",
+      "line": 247
+    },
+    "544": {
+      "filename": "TestRelayRound.code",
+      "line": 248
+    },
+    "560": {
+      "filename": "TestRelayRound.code",
+      "line": 249
+    },
+    "576": {
+      "filename": "TestRelayRound.code",
+      "line": 250
+    }
+  },
+  "1d3240e2d6d64787f71ae4f3dd53d4cb98fe4caa3d7526f918ca3995e9084780": {
+    "0": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 27
+    },
+    "16": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 27
+    },
+    "24": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 27
+    },
+    "40": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "48": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "56": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "72": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "88": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "96": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "112": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "128": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "144": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "160": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "176": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "192": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "216": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "232": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 30
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 192
+    },
+    "256": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 40
+    },
+    "272": {
+      "filename": "TestRelayRound.code",
+      "line": 197
+    },
+    "280": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 29
+    },
+    "288": {
+      "filename": "TestRelayRound.code",
+      "line": 202
+    },
+    "304": {
+      "filename": "TestRelayRound.code",
+      "line": 203
+    }
+  },
+  "2048fe03fe6a43821604cfac2b937c295813ac538e3e851542fccdb69ae2c33b": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 253
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 254
+    },
+    "24": {
+      "filename": "TestRelayRound.code",
+      "line": 255
+    },
+    "40": {
+      "filename": "TestRelayRound.code",
+      "line": 256
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 257
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 258
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 259
+    },
+    "96": {
+      "filename": "TestRelayRound.code",
+      "line": 260
+    },
+    "104": {
+      "filename": "TestRelayRound.code",
+      "line": 261
+    },
+    "120": {
+      "filename": "TestRelayRound.code",
+      "line": 262
+    },
+    "128": {
+      "filename": "TestRelayRound.code",
+      "line": 263
+    },
+    "136": {
+      "filename": "TestRelayRound.code",
+      "line": 264
+    },
+    "152": {
+      "filename": "TestRelayRound.code",
+      "line": 265
+    },
+    "168": {
+      "filename": "TestRelayRound.code",
+      "line": 266
+    },
+    "176": {
+      "filename": "TestRelayRound.code",
+      "line": 267
+    },
+    "184": {
+      "filename": "TestRelayRound.code",
+      "line": 268
+    },
+    "200": {
+      "filename": "TestRelayRound.code",
+      "line": 269
+    },
+    "216": {
+      "filename": "TestRelayRound.code",
+      "line": 270
+    },
+    "232": {
+      "filename": "TestRelayRound.code",
+      "line": 271
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 272
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 273
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 274
+    },
+    "296": {
+      "filename": "TestRelayRound.code",
+      "line": 275
+    },
+    "312": {
+      "filename": "TestRelayRound.code",
+      "line": 276
+    },
+    "328": {
+      "filename": "TestRelayRound.code",
+      "line": 277
+    },
+    "344": {
+      "filename": "TestRelayRound.code",
+      "line": 278
+    },
+    "360": {
+      "filename": "TestRelayRound.code",
+      "line": 279
+    },
+    "376": {
+      "filename": "TestRelayRound.code",
+      "line": 280
+    },
+    "400": {
+      "filename": "TestRelayRound.code",
+      "line": 281
+    },
+    "416": {
+      "filename": "TestRelayRound.code",
+      "line": 282
+    },
+    "424": {
+      "filename": "TestRelayRound.code",
+      "line": 283
+    },
+    "440": {
+      "filename": "TestRelayRound.code",
+      "line": 284
+    },
+    "488": {
+      "filename": "TestRelayRound.code",
+      "line": 285
+    },
+    "504": {
+      "filename": "TestRelayRound.code",
+      "line": 287
+    }
+  },
+  "5de193fb73550fa2b8d8de4d4d083bda6bb25326a4791ec2f082205d20d51594": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 385
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 386
+    },
+    "24": {
+      "filename": "TestRelayRound.code",
+      "line": 387
+    },
+    "40": {
+      "filename": "TestRelayRound.code",
+      "line": 388
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 389
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 390
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 391
+    },
+    "96": {
+      "filename": "TestRelayRound.code",
+      "line": 394
+    },
+    "112": {
+      "filename": "TestRelayRound.code",
+      "line": 395
+    },
+    "120": {
+      "filename": "TestRelayRound.code",
+      "line": 396
+    },
+    "136": {
+      "filename": "TestRelayRound.code",
+      "line": 397
+    },
+    "152": {
+      "filename": "TestRelayRound.code",
+      "line": 398
+    },
+    "168": {
+      "filename": "TestRelayRound.code",
+      "line": 399
+    },
+    "176": {
+      "filename": "TestRelayRound.code",
+      "line": 400
+    },
+    "192": {
+      "filename": "TestRelayRound.code",
+      "line": 401
+    },
+    "200": {
+      "filename": "TestRelayRound.code",
+      "line": 402
+    },
+    "208": {
+      "filename": "TestRelayRound.code",
+      "line": 403
+    },
+    "216": {
+      "filename": "TestRelayRound.code",
+      "line": 404
+    },
+    "224": {
+      "filename": "TestRelayRound.code",
+      "line": 405
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 406
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 407
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 408
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 409
+    },
+    "296": {
+      "filename": "TestRelayRound.code",
+      "line": 411
+    },
+    "304": {
+      "filename": "TestRelayRound.code",
+      "line": 412
+    },
+    "320": {
+      "filename": "TestRelayRound.code",
+      "line": 413
+    },
+    "328": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "344": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "352": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "360": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "376": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "384": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "400": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "424": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "432": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "472": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "480": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "488": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "504": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "520": {
+      "filename": "TestRelayRound.code",
+      "line": 415
+    },
+    "536": {
+      "filename": "TestRelayRound.code",
+      "line": 416
+    },
+    "544": {
+      "filename": "TestRelayRound.code",
+      "line": 417
+    },
+    "560": {
+      "filename": "TestRelayRound.code",
+      "line": 420
+    }
+  },
+  "675f0c9ce073725a917fd418f7fb126ff80957c8925f9c3fbdedab2d120c7286": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 353
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 354
+    },
+    "24": {
+      "filename": "TestRelayRound.code",
+      "line": 355
+    },
+    "40": {
+      "filename": "TestRelayRound.code",
+      "line": 356
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 357
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 358
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 359
+    },
+    "88": {
+      "filename": "TestRelayRound.code",
+      "line": 360
+    },
+    "112": {
+      "filename": "TestRelayRound.code",
+      "line": 361
+    },
+    "136": {
+      "filename": "TestRelayRound.code",
+      "line": 362
+    },
+    "144": {
+      "filename": "TestRelayRound.code",
+      "line": 363
+    },
+    "152": {
+      "filename": "TestRelayRound.code",
+      "line": 364
+    },
+    "168": {
+      "filename": "TestRelayRound.code",
+      "line": 365
+    },
+    "184": {
+      "filename": "TestRelayRound.code",
+      "line": 369
+    },
+    "192": {
+      "filename": "TestRelayRound.code",
+      "line": 370
+    },
+    "216": {
+      "filename": "TestRelayRound.code",
+      "line": 371
+    },
+    "232": {
+      "filename": "TestRelayRound.code",
+      "line": 372
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 373
+    },
+    "256": {
+      "filename": "TestRelayRound.code",
+      "line": 377
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 378
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 381
+    }
+  },
+  "752ceba80670ee9ac777c189bc7a36a55947595494b45d03ec35ed7575a119ba": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 423
+    },
+    "8": {
+      "filename": "TestRelayRound.code",
+      "line": 424
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 425
+    },
+    "32": {
+      "filename": "TestRelayRound.code",
+      "line": 428
+    },
+    "48": {
+      "filename": "TestRelayRound.code",
+      "line": 429
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 430
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 431
+    },
+    "232": {
+      "filename": "TestRelayRound.code",
+      "line": 432
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 433
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 434
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 435
+    },
+    "272": {
+      "filename": "TestRelayRound.code",
+      "line": 436
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 437
+    },
+    "296": {
+      "filename": "TestRelayRound.code",
+      "line": 439
+    },
+    "304": {
+      "filename": "TestRelayRound.code",
+      "line": 440
+    }
+  },
+  "935fb9cb716cf6d7e0a5d44d3cef37fa78c41c6ac095209bd864850741b6e21b": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 4
+    },
+    "8": {
+      "filename": "TestRelayRound.code",
+      "line": 5
+    },
+    "24": {
+      "filename": "TestRelayRound.code",
+      "line": 6
+    },
+    "32": {
+      "filename": "TestRelayRound.code",
+      "line": 7
+    },
+    "48": {
+      "filename": "TestRelayRound.code",
+      "line": 10
+    },
+    "64": {
+      "filename": "TestRelayRound.code",
+      "line": 11
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 12
+    },
+    "88": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 18
+    },
+    "104": {
+      "filename": "TestRelayRound.code",
+      "line": 16
+    },
+    "120": {
+      "filename": "TestRelayRound.code",
+      "line": 19
+    }
+  },
+  "a233af5e31bbd000c151972bf5e2fcfd9af9d1ba0a4f6ce6559755487a23c4d6": {
+    "0": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "16": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "32": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "48": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "64": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "80": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "96": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "120": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "128": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "144": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "152": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "168": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "176": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "184": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "200": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "216": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "232": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "248": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 31
+    },
+    "264": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "280": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "296": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "312": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "328": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "344": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "360": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "384": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "392": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "408": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "416": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "432": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "440": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "448": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "464": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "480": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "496": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "512": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 32
+    },
+    "528": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "544": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "560": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "576": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "592": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "608": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "624": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "648": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "656": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "672": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "680": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "696": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "704": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "712": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "728": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "744": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "760": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "776": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 33
+    },
+    "792": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "808": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "824": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "840": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "856": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "872": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "888": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "896": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "912": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "920": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "928": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "944": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "960": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "976": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "992": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    },
+    "1000": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 34
+    }
+  },
+  "cf3a9260d469723f24cfd71d61744c08e88f06ee1cd700971a65501b99b7cbd0": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 463
+    },
+    "8": {
+      "filename": "TestRelayRound.code",
+      "line": 464
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 465
+    },
+    "64": {
+      "filename": "TestRelayRound.code",
+      "line": 466
+    },
+    "80": {
+      "filename": "TestRelayRound.code",
+      "line": 469
+    },
+    "88": {
+      "filename": "TestRelayRound.code",
+      "line": 470
+    },
+    "136": {
+      "filename": "TestRelayRound.code",
+      "line": 471
+    },
+    "144": {
+      "filename": "TestRelayRound.code",
+      "line": 472
+    },
+    "160": {
+      "filename": "TestRelayRound.code",
+      "line": 475
+    },
+    "168": {
+      "filename": "TestRelayRound.code",
+      "line": 476
+    },
+    "216": {
+      "filename": "TestRelayRound.code",
+      "line": 477
+    },
+    "224": {
+      "filename": "TestRelayRound.code",
+      "line": 478
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 481
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 482
+    },
+    "296": {
+      "filename": "TestRelayRound.code",
+      "line": 483
+    },
+    "304": {
+      "filename": "TestRelayRound.code",
+      "line": 484
+    }
+  },
+  "da142121cac256059a3799ebad6e1e002db67278d4e0cf07f06a4a1e892b777e": {
+    "0": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "16": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "24": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "40": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "56": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "72": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "88": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "104": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "120": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "136": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "144": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "152": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "168": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "176": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "200": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "216": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 36
+    },
+    "232": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "248": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "264": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "280": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "296": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "312": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "336": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "352": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "360": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "376": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 37
+    },
+    "392": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 38
+    },
+    "408": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 38
+    },
+    "416": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 38
+    },
+    "432": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 38
+    }
+  },
+  "e02b991c256c0ae9a2f6808b3723806657ccbfd667d12cf0087e49c77a0e876b": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 443
+    },
+    "8": {
+      "filename": "TestRelayRound.code",
+      "line": 444
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 445
+    },
+    "32": {
+      "filename": "TestRelayRound.code",
+      "line": 448
+    },
+    "48": {
+      "filename": "TestRelayRound.code",
+      "line": 449
+    },
+    "56": {
+      "filename": "TestRelayRound.code",
+      "line": 450
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 451
+    },
+    "232": {
+      "filename": "TestRelayRound.code",
+      "line": 452
+    },
+    "240": {
+      "filename": "TestRelayRound.code",
+      "line": 453
+    },
+    "248": {
+      "filename": "TestRelayRound.code",
+      "line": 454
+    },
+    "264": {
+      "filename": "TestRelayRound.code",
+      "line": 455
+    },
+    "272": {
+      "filename": "TestRelayRound.code",
+      "line": 456
+    },
+    "280": {
+      "filename": "TestRelayRound.code",
+      "line": 457
+    },
+    "296": {
+      "filename": "TestRelayRound.code",
+      "line": 459
+    },
+    "304": {
+      "filename": "TestRelayRound.code",
+      "line": 460
+    }
+  },
+  "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 366
+    },
+    "16": {
+      "filename": "TestRelayRound.code",
+      "line": 367
+    }
+  },
+  "f27764cb50550ec8d239399d295416bcc45db5348e628a501f88dfa30784b964": {
+    "0": {
+      "filename": "<internal-selector>",
+      "line": 1
+    },
+    "24": {
+      "filename": "<internal-selector>",
+      "line": 2
+    },
+    "40": {
+      "filename": "<internal-selector>",
+      "line": 3
+    }
+  },
+  "fc84c7f08403bbf521d4505720be0bca9b7aba8e34bdaa41d06667ce1814a647": {
+    "0": {
+      "filename": "TestRelayRound.code",
+      "line": 22
+    },
+    "8": {
+      "filename": "TestRelayRound.code",
+      "line": 23
+    },
+    "24": {
+      "filename": "TestRelayRound.code",
+      "line": 24
+    },
+    "48": {
+      "filename": "TestRelayRound.code",
+      "line": 25
+    },
+    "64": {
+      "filename": "TestRelayRound.code",
+      "line": 26
+    },
+    "72": {
+      "filename": "TestRelayRound.code",
+      "line": 27
+    },
+    "88": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "104": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "120": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "128": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "144": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "152": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "168": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "184": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "192": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "208": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "216": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "232": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "248": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "256": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "272": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "280": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "296": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "312": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "320": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "336": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "344": {
+      "filename": "contracts/round/test/TestRelayRound.tsol",
+      "line": 21
+    },
+    "352": {
+      "filename": "TestRelayRound.code",
+      "line": 53
+    },
+    "368": {
+      "filename": "TestRelayRound.code",
+      "line": 56
+    },
+    "384": {
+      "filename": "TestRelayRound.code",
+      "line": 59
+    }
+  }
+}

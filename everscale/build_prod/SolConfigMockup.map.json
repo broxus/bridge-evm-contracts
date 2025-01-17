@@ -1,0 +1,794 @@
+{
+  "473a31c23122d36db673084f2f8445d8232273ab6fee504b52490f34ca789a82": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 144
+    },
+    "16": {
+      "filename": "SolConfigMockup.code",
+      "line": 145
+    },
+    "24": {
+      "filename": "SolConfigMockup.code",
+      "line": 146
+    },
+    "40": {
+      "filename": "SolConfigMockup.code",
+      "line": 147
+    },
+    "56": {
+      "filename": "SolConfigMockup.code",
+      "line": 148
+    },
+    "72": {
+      "filename": "SolConfigMockup.code",
+      "line": 149
+    },
+    "80": {
+      "filename": "SolConfigMockup.code",
+      "line": 150
+    },
+    "88": {
+      "filename": "SolConfigMockup.code",
+      "line": 151
+    },
+    "112": {
+      "filename": "SolConfigMockup.code",
+      "line": 152
+    },
+    "136": {
+      "filename": "SolConfigMockup.code",
+      "line": 153
+    },
+    "144": {
+      "filename": "SolConfigMockup.code",
+      "line": 154
+    },
+    "152": {
+      "filename": "SolConfigMockup.code",
+      "line": 155
+    },
+    "168": {
+      "filename": "SolConfigMockup.code",
+      "line": 156
+    },
+    "184": {
+      "filename": "SolConfigMockup.code",
+      "line": 160
+    },
+    "192": {
+      "filename": "SolConfigMockup.code",
+      "line": 161
+    },
+    "216": {
+      "filename": "SolConfigMockup.code",
+      "line": 162
+    },
+    "232": {
+      "filename": "SolConfigMockup.code",
+      "line": 163
+    },
+    "240": {
+      "filename": "SolConfigMockup.code",
+      "line": 164
+    },
+    "256": {
+      "filename": "SolConfigMockup.code",
+      "line": 168
+    },
+    "264": {
+      "filename": "SolConfigMockup.code",
+      "line": 169
+    },
+    "280": {
+      "filename": "SolConfigMockup.code",
+      "line": 172
+    }
+  },
+  "60d460e4a7d1e823fba9433010059b35507c0e16d301d3df56bd5f07fda59068": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 230
+    },
+    "8": {
+      "filename": "SolConfigMockup.code",
+      "line": 231
+    },
+    "56": {
+      "filename": "SolConfigMockup.code",
+      "line": 232
+    },
+    "64": {
+      "filename": "SolConfigMockup.code",
+      "line": 233
+    },
+    "80": {
+      "filename": "SolConfigMockup.code",
+      "line": 236
+    },
+    "88": {
+      "filename": "SolConfigMockup.code",
+      "line": 237
+    },
+    "136": {
+      "filename": "SolConfigMockup.code",
+      "line": 238
+    },
+    "144": {
+      "filename": "SolConfigMockup.code",
+      "line": 239
+    }
+  },
+  "77048231066423997e964d365f850f04d0a6d5701d2eb2939b2f5c18c9d01658": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 176
+    },
+    "16": {
+      "filename": "SolConfigMockup.code",
+      "line": 177
+    },
+    "24": {
+      "filename": "SolConfigMockup.code",
+      "line": 178
+    },
+    "40": {
+      "filename": "SolConfigMockup.code",
+      "line": 179
+    },
+    "56": {
+      "filename": "SolConfigMockup.code",
+      "line": 180
+    },
+    "72": {
+      "filename": "SolConfigMockup.code",
+      "line": 181
+    },
+    "80": {
+      "filename": "SolConfigMockup.code",
+      "line": 182
+    },
+    "96": {
+      "filename": "SolConfigMockup.code",
+      "line": 185
+    },
+    "112": {
+      "filename": "SolConfigMockup.code",
+      "line": 186
+    },
+    "120": {
+      "filename": "SolConfigMockup.code",
+      "line": 187
+    },
+    "136": {
+      "filename": "SolConfigMockup.code",
+      "line": 188
+    },
+    "152": {
+      "filename": "SolConfigMockup.code",
+      "line": 189
+    },
+    "168": {
+      "filename": "SolConfigMockup.code",
+      "line": 190
+    },
+    "176": {
+      "filename": "SolConfigMockup.code",
+      "line": 191
+    },
+    "192": {
+      "filename": "SolConfigMockup.code",
+      "line": 192
+    },
+    "200": {
+      "filename": "SolConfigMockup.code",
+      "line": 193
+    },
+    "208": {
+      "filename": "SolConfigMockup.code",
+      "line": 194
+    },
+    "216": {
+      "filename": "SolConfigMockup.code",
+      "line": 195
+    },
+    "224": {
+      "filename": "SolConfigMockup.code",
+      "line": 196
+    },
+    "240": {
+      "filename": "SolConfigMockup.code",
+      "line": 197
+    },
+    "248": {
+      "filename": "SolConfigMockup.code",
+      "line": 198
+    },
+    "264": {
+      "filename": "SolConfigMockup.code",
+      "line": 199
+    },
+    "272": {
+      "filename": "SolConfigMockup.code",
+      "line": 200
+    },
+    "280": {
+      "filename": "SolConfigMockup.code",
+      "line": 201
+    },
+    "296": {
+      "filename": "SolConfigMockup.code",
+      "line": 202
+    },
+    "304": {
+      "filename": "SolConfigMockup.code",
+      "line": 203
+    },
+    "312": {
+      "filename": "SolConfigMockup.code",
+      "line": 205
+    },
+    "320": {
+      "filename": "SolConfigMockup.code",
+      "line": 206
+    },
+    "328": {
+      "filename": "SolConfigMockup.code",
+      "line": 207
+    },
+    "344": {
+      "filename": "SolConfigMockup.code",
+      "line": 209
+    },
+    "352": {
+      "filename": "SolConfigMockup.code",
+      "line": 210
+    },
+    "368": {
+      "filename": "SolConfigMockup.code",
+      "line": 211
+    },
+    "384": {
+      "filename": "SolConfigMockup.code",
+      "line": 213
+    },
+    "392": {
+      "filename": "SolConfigMockup.code",
+      "line": 214
+    },
+    "408": {
+      "filename": "SolConfigMockup.code",
+      "line": 215
+    },
+    "416": {
+      "filename": "SolConfigMockup.code",
+      "line": 216
+    },
+    "432": {
+      "filename": "SolConfigMockup.code",
+      "line": 218
+    },
+    "440": {
+      "filename": "SolConfigMockup.code",
+      "line": 219
+    },
+    "456": {
+      "filename": "SolConfigMockup.code",
+      "line": 220
+    },
+    "464": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "480": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "488": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "496": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "512": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "520": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "536": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "560": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "568": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "608": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "616": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "624": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "640": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "656": {
+      "filename": "SolConfigMockup.code",
+      "line": 222
+    },
+    "672": {
+      "filename": "SolConfigMockup.code",
+      "line": 223
+    },
+    "680": {
+      "filename": "SolConfigMockup.code",
+      "line": 224
+    },
+    "696": {
+      "filename": "SolConfigMockup.code",
+      "line": 227
+    }
+  },
+  "860f3c1c650c20a1e73b4dcb72713ed0c755fc2711d6d7b6d9182ecd08231495": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 69
+    },
+    "16": {
+      "filename": "SolConfigMockup.code",
+      "line": 70
+    },
+    "24": {
+      "filename": "SolConfigMockup.code",
+      "line": 71
+    },
+    "40": {
+      "filename": "SolConfigMockup.code",
+      "line": 72
+    },
+    "56": {
+      "filename": "SolConfigMockup.code",
+      "line": 73
+    },
+    "72": {
+      "filename": "SolConfigMockup.code",
+      "line": 74
+    },
+    "80": {
+      "filename": "SolConfigMockup.code",
+      "line": 75
+    },
+    "96": {
+      "filename": "SolConfigMockup.code",
+      "line": 76
+    },
+    "104": {
+      "filename": "SolConfigMockup.code",
+      "line": 77
+    },
+    "120": {
+      "filename": "SolConfigMockup.code",
+      "line": 78
+    },
+    "136": {
+      "filename": "SolConfigMockup.code",
+      "line": 79
+    }
+  },
+  "8e304f3597acab215e904d4420031be8322cfdd4e578cb9618d9d35c2fe6214c": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 82
+    },
+    "16": {
+      "filename": "SolConfigMockup.code",
+      "line": 83
+    },
+    "24": {
+      "filename": "SolConfigMockup.code",
+      "line": 84
+    },
+    "40": {
+      "filename": "SolConfigMockup.code",
+      "line": 85
+    },
+    "56": {
+      "filename": "SolConfigMockup.code",
+      "line": 86
+    },
+    "72": {
+      "filename": "SolConfigMockup.code",
+      "line": 87
+    },
+    "80": {
+      "filename": "SolConfigMockup.code",
+      "line": 88
+    },
+    "96": {
+      "filename": "SolConfigMockup.code",
+      "line": 89
+    },
+    "104": {
+      "filename": "SolConfigMockup.code",
+      "line": 90
+    },
+    "120": {
+      "filename": "SolConfigMockup.code",
+      "line": 91
+    },
+    "128": {
+      "filename": "SolConfigMockup.code",
+      "line": 92
+    },
+    "136": {
+      "filename": "SolConfigMockup.code",
+      "line": 93
+    },
+    "152": {
+      "filename": "SolConfigMockup.code",
+      "line": 94
+    },
+    "168": {
+      "filename": "SolConfigMockup.code",
+      "line": 95
+    },
+    "176": {
+      "filename": "SolConfigMockup.code",
+      "line": 96
+    },
+    "200": {
+      "filename": "SolConfigMockup.code",
+      "line": 98
+    },
+    "208": {
+      "filename": "SolConfigMockup.code",
+      "line": 99
+    },
+    "216": {
+      "filename": "SolConfigMockup.code",
+      "line": 101
+    },
+    "224": {
+      "filename": "SolConfigMockup.code",
+      "line": 102
+    },
+    "240": {
+      "filename": "SolConfigMockup.code",
+      "line": 103
+    },
+    "256": {
+      "filename": "SolConfigMockup.code",
+      "line": 104
+    },
+    "272": {
+      "filename": "SolConfigMockup.code",
+      "line": 105
+    },
+    "288": {
+      "filename": "SolConfigMockup.code",
+      "line": 106
+    },
+    "312": {
+      "filename": "SolConfigMockup.code",
+      "line": 107
+    },
+    "328": {
+      "filename": "SolConfigMockup.code",
+      "line": 108
+    },
+    "336": {
+      "filename": "SolConfigMockup.code",
+      "line": 109
+    },
+    "352": {
+      "filename": "SolConfigMockup.code",
+      "line": 111
+    }
+  },
+  "8ea778ce26097ccd773275decc33c2425850ee0bacbf3bd464f73513b5fd0df7": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 116
+    },
+    "16": {
+      "filename": "SolConfigMockup.code",
+      "line": 117
+    },
+    "32": {
+      "filename": "SolConfigMockup.code",
+      "line": 118
+    },
+    "48": {
+      "filename": "SolConfigMockup.code",
+      "line": 119
+    },
+    "56": {
+      "filename": "SolConfigMockup.code",
+      "line": 120
+    },
+    "72": {
+      "filename": "SolConfigMockup.code",
+      "line": 121
+    },
+    "88": {
+      "filename": "SolConfigMockup.code",
+      "line": 122
+    },
+    "104": {
+      "filename": "SolConfigMockup.code",
+      "line": 123
+    },
+    "120": {
+      "filename": "SolConfigMockup.code",
+      "line": 124
+    },
+    "128": {
+      "filename": "SolConfigMockup.code",
+      "line": 125
+    }
+  },
+  "a0eacc9676d4e13d5bade93200eee2734baf0ad2256df4ee1983c5e6ce29c388": {
+    "0": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 16
+    }
+  },
+  "cf517b423634f9fe521e2e1f8ef60ea842a0824afbbaa21817afc649048dc861": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 4
+    },
+    "8": {
+      "filename": "SolConfigMockup.code",
+      "line": 5
+    },
+    "24": {
+      "filename": "SolConfigMockup.code",
+      "line": 6
+    },
+    "32": {
+      "filename": "SolConfigMockup.code",
+      "line": 7
+    },
+    "48": {
+      "filename": "SolConfigMockup.code",
+      "line": 10
+    },
+    "64": {
+      "filename": "SolConfigMockup.code",
+      "line": 11
+    },
+    "80": {
+      "filename": "SolConfigMockup.code",
+      "line": 12
+    },
+    "88": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 11
+    },
+    "104": {
+      "filename": "SolConfigMockup.code",
+      "line": 16
+    },
+    "120": {
+      "filename": "SolConfigMockup.code",
+      "line": 19
+    }
+  },
+  "da20c0104611e3ef426fba8ad495d5f027c41956cdcae7c623743b6786f6c12b": {
+    "0": {
+      "filename": "<entry-selector>",
+      "line": 1
+    },
+    "8": {
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
+    },
+    "48": {
+      "filename": "<entry-selector>",
+      "line": 5
+    },
+    "56": {
+      "filename": "<entry-selector>",
+      "line": 6
+    },
+    "72": {
+      "filename": "<entry-selector>",
+      "line": 7
+    },
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
+    },
+    "128": {
+      "filename": "<entry-selector>",
+      "line": 11
+    }
+  },
+  "ea0f9ecaefefb48b996e464fd2a5efd41873d9c33e10ec002d65a11cae5a60e2": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 22
+    },
+    "8": {
+      "filename": "SolConfigMockup.code",
+      "line": 23
+    },
+    "24": {
+      "filename": "SolConfigMockup.code",
+      "line": 24
+    },
+    "48": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "56": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "64": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "80": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "88": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "96": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "104": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "112": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "128": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "136": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "152": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "168": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "184": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "192": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "208": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "216": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "232": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "248": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "264": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "272": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "288": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "296": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "304": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "320": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "336": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "344": {
+      "filename": "contracts/round/SolConfigMockup.tsol",
+      "line": 13
+    },
+    "352": {
+      "filename": "SolConfigMockup.code",
+      "line": 55
+    },
+    "368": {
+      "filename": "SolConfigMockup.code",
+      "line": 58
+    },
+    "384": {
+      "filename": "SolConfigMockup.code",
+      "line": 61
+    }
+  },
+  "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+    "0": {
+      "filename": "SolConfigMockup.code",
+      "line": 157
+    },
+    "16": {
+      "filename": "SolConfigMockup.code",
+      "line": 158
+    }
+  },
+  "f27764cb50550ec8d239399d295416bcc45db5348e628a501f88dfa30784b964": {
+    "0": {
+      "filename": "<internal-selector>",
+      "line": 1
+    },
+    "24": {
+      "filename": "<internal-selector>",
+      "line": 2
+    },
+    "40": {
+      "filename": "<internal-selector>",
+      "line": 3
+    }
+  }
+}

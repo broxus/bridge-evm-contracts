@@ -1,0 +1,3349 @@
+{
+  "0371195a4580a689eb7394d549020beab41e52b8556e884144260c9fd9296521": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 700
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 701
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 702
+    },
+    "40": {
+      "filename": "RelayRound.code",
+      "line": 703
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 704
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 705
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 706
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 707
+    },
+    "104": {
+      "filename": "RelayRound.code",
+      "line": 708
+    },
+    "120": {
+      "filename": "RelayRound.code",
+      "line": 709
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 710
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 711
+    },
+    "152": {
+      "filename": "RelayRound.code",
+      "line": 712
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 713
+    },
+    "176": {
+      "filename": "RelayRound.code",
+      "line": 714
+    },
+    "184": {
+      "filename": "RelayRound.code",
+      "line": 715
+    },
+    "192": {
+      "filename": "RelayRound.code",
+      "line": 717
+    },
+    "200": {
+      "filename": "RelayRound.code",
+      "line": 720
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 721
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 722
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 723
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 724
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 725
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 726
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 727
+    },
+    "328": {
+      "filename": "RelayRound.code",
+      "line": 728
+    },
+    "344": {
+      "filename": "RelayRound.code",
+      "line": 729
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 730
+    },
+    "376": {
+      "filename": "RelayRound.code",
+      "line": 731
+    },
+    "392": {
+      "filename": "RelayRound.code",
+      "line": 732
+    },
+    "408": {
+      "filename": "RelayRound.code",
+      "line": 733
+    },
+    "432": {
+      "filename": "RelayRound.code",
+      "line": 734
+    },
+    "448": {
+      "filename": "RelayRound.code",
+      "line": 735
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 736
+    },
+    "472": {
+      "filename": "RelayRound.code",
+      "line": 738
+    }
+  },
+  "0488ea550274ca1a9dd1307d98fad5458f4f54f4172b82306ac7ef2026e8b455": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "24": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "40": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "56": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "72": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 69
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 69
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 69
+    },
+    "144": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 69
+    },
+    "152": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 69
+    },
+    "168": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "184": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "192": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "216": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "224": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "240": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "256": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "264": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    },
+    "280": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 71
+    }
+  },
+  "068bb48b6d4b4d71e3fbd9b7f2dc959d3d7fb4457e80f77e90c550a87e368d64": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 979
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 980
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 981
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 982
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 985
+    },
+    "88": {
+      "filename": "RelayRound.code",
+      "line": 986
+    },
+    "136": {
+      "filename": "RelayRound.code",
+      "line": 987
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 988
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 991
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 992
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 993
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 994
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 997
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 998
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 999
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 1000
+    }
+  },
+  "090a77a2972b7319ff8435d91bfb4b7ab0ff936573362b86d5cfe3bdfde65169": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 926
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 927
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 928
+    },
+    "32": {
+      "filename": "RelayRound.code",
+      "line": 931
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 932
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 933
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 934
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 935
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 936
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 937
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 938
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 939
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 940
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 942
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 943
+    }
+  },
+  "09900ed22d8cf1591782f6a9a8bb158722512a88bfa262e79b19b0c6228749c6": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 74
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 75
+    },
+    "32": {
+      "filename": "RelayRound.code",
+      "line": 76
+    },
+    "40": {
+      "filename": "RelayRound.code",
+      "line": 77
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 78
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 79
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 80
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 81
+    },
+    "112": {
+      "filename": "RelayRound.code",
+      "line": 82
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 83
+    },
+    "136": {
+      "filename": "RelayRound.code",
+      "line": 84
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 85
+    },
+    "176": {
+      "filename": "RelayRound.code",
+      "line": 86
+    },
+    "200": {
+      "filename": "RelayRound.code",
+      "line": 87
+    },
+    "208": {
+      "filename": "RelayRound.code",
+      "line": 88
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 89
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 90
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 91
+    },
+    "256": {
+      "filename": "RelayRound.code",
+      "line": 92
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 93
+    },
+    "288": {
+      "filename": "RelayRound.code",
+      "line": 94
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 95
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 96
+    },
+    "328": {
+      "filename": "RelayRound.code",
+      "line": 97
+    },
+    "352": {
+      "filename": "RelayRound.code",
+      "line": 98
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 99
+    },
+    "376": {
+      "filename": "RelayRound.code",
+      "line": 100
+    },
+    "392": {
+      "filename": "RelayRound.code",
+      "line": 101
+    },
+    "400": {
+      "filename": "RelayRound.code",
+      "line": 102
+    },
+    "416": {
+      "filename": "RelayRound.code",
+      "line": 103
+    },
+    "424": {
+      "filename": "RelayRound.code",
+      "line": 104
+    },
+    "440": {
+      "filename": "RelayRound.code",
+      "line": 105
+    },
+    "448": {
+      "filename": "RelayRound.code",
+      "line": 106
+    },
+    "464": {
+      "filename": "RelayRound.code",
+      "line": 107
+    },
+    "480": {
+      "filename": "RelayRound.code",
+      "line": 108
+    },
+    "488": {
+      "filename": "RelayRound.code",
+      "line": 109
+    },
+    "504": {
+      "filename": "RelayRound.code",
+      "line": 110
+    },
+    "512": {
+      "filename": "RelayRound.code",
+      "line": 111
+    },
+    "528": {
+      "filename": "RelayRound.code",
+      "line": 112
+    },
+    "544": {
+      "filename": "RelayRound.code",
+      "line": 113
+    },
+    "560": {
+      "filename": "RelayRound.code",
+      "line": 114
+    },
+    "576": {
+      "filename": "RelayRound.code",
+      "line": 115
+    },
+    "584": {
+      "filename": "RelayRound.code",
+      "line": 116
+    },
+    "592": {
+      "filename": "RelayRound.code",
+      "line": 117
+    },
+    "608": {
+      "filename": "RelayRound.code",
+      "line": 118
+    },
+    "624": {
+      "filename": "RelayRound.code",
+      "line": 120
+    },
+    "632": {
+      "filename": "RelayRound.code",
+      "line": 121
+    },
+    "648": {
+      "filename": "RelayRound.code",
+      "line": 122
+    },
+    "664": {
+      "filename": "RelayRound.code",
+      "line": 125
+    }
+  },
+  "180beb70a9c1a0487825f410e2607313eff48006db84a25f2ee42e8125aeed00": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 906
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 907
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 908
+    },
+    "32": {
+      "filename": "RelayRound.code",
+      "line": 911
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 912
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 913
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 914
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 915
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 916
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 917
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 918
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 919
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 920
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 922
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 923
+    }
+  },
+  "282bf4fff27b331eebcf0dc5a0b13da735fb0276688fd65586c5b221b272abeb": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 743
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 744
+    },
+    "32": {
+      "filename": "RelayRound.code",
+      "line": 745
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 746
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 747
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 748
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 749
+    },
+    "112": {
+      "filename": "RelayRound.code",
+      "line": 750
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 751
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 752
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 753
+    },
+    "176": {
+      "filename": "RelayRound.code",
+      "line": 754
+    },
+    "184": {
+      "filename": "RelayRound.code",
+      "line": 755
+    },
+    "200": {
+      "filename": "RelayRound.code",
+      "line": 756
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 757
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 758
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 759
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 760
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 761
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 762
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 763
+    },
+    "320": {
+      "filename": "RelayRound.code",
+      "line": 764
+    },
+    "336": {
+      "filename": "RelayRound.code",
+      "line": 765
+    },
+    "344": {
+      "filename": "RelayRound.code",
+      "line": 766
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 767
+    },
+    "376": {
+      "filename": "RelayRound.code",
+      "line": 768
+    },
+    "384": {
+      "filename": "RelayRound.code",
+      "line": 769
+    },
+    "400": {
+      "filename": "RelayRound.code",
+      "line": 770
+    },
+    "408": {
+      "filename": "RelayRound.code",
+      "line": 771
+    },
+    "424": {
+      "filename": "RelayRound.code",
+      "line": 772
+    },
+    "440": {
+      "filename": "RelayRound.code",
+      "line": 773
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 774
+    },
+    "464": {
+      "filename": "RelayRound.code",
+      "line": 775
+    },
+    "480": {
+      "filename": "RelayRound.code",
+      "line": 776
+    },
+    "488": {
+      "filename": "RelayRound.code",
+      "line": 777
+    },
+    "496": {
+      "filename": "RelayRound.code",
+      "line": 778
+    },
+    "504": {
+      "filename": "RelayRound.code",
+      "line": 779
+    },
+    "512": {
+      "filename": "RelayRound.code",
+      "line": 780
+    }
+  },
+  "306dcf0b9f35c98d14efac67c04f9d7af3640848bc91707c2eebdddce9370c09": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 4
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 5
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 6
+    },
+    "32": {
+      "filename": "RelayRound.code",
+      "line": 7
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 10
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 11
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 12
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 33
+    }
+  },
+  "3b9fd101575ad792a984491f805b7275dd21f311a014f2ddb3d48f71a6904a8a": {
+    "0": {
+      "filename": "<entry-selector>",
+      "line": 1
+    },
+    "8": {
+      "filename": "<entry-selector>",
+      "line": 2
+    },
+    "24": {
+      "filename": "<entry-selector>",
+      "line": 3
+    },
+    "32": {
+      "filename": "<entry-selector>",
+      "line": 4
+    },
+    "48": {
+      "filename": "<entry-selector>",
+      "line": 5
+    },
+    "56": {
+      "filename": "<entry-selector>",
+      "line": 6
+    },
+    "72": {
+      "filename": "<entry-selector>",
+      "line": 7
+    },
+    "88": {
+      "filename": "<entry-selector>",
+      "line": 8
+    },
+    "96": {
+      "filename": "<entry-selector>",
+      "line": 9
+    },
+    "112": {
+      "filename": "<entry-selector>",
+      "line": 10
+    },
+    "128": {
+      "filename": "<entry-selector>",
+      "line": 11
+    }
+  },
+  "4aae24dfd28d98ee749b97998def22a00a2454afde07af7ecfe5f43998047fb0": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 96
+    },
+    "16": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 99
+    },
+    "64": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 99
+    },
+    "72": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 99
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "96": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "104": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "120": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "136": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "152": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "168": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "184": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "200": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "216": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "224": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "240": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "248": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "264": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "280": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "288": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "304": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "312": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "320": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "336": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "352": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "368": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "384": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "400": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "416": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "432": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 101
+    },
+    "440": {
+      "filename": "RelayRound.code",
+      "line": 497
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 498
+    },
+    "472": {
+      "filename": "RelayRound.code",
+      "line": 501
+    },
+    "488": {
+      "filename": "RelayRound.code",
+      "line": 502
+    }
+  },
+  "50de14ea2462f4f024cd76e2e407c25f2f9532e4a8e2eed77e0a038451e79d43": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "16": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "24": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "184": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "192": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "200": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "216": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "224": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "232": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 127
+    },
+    "248": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 131
+    },
+    "264": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 131
+    },
+    "272": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 131
+    },
+    "280": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 132
+    },
+    "304": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 133
+    },
+    "312": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 133
+    },
+    "328": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 135
+    },
+    "344": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 135
+    },
+    "352": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 135
+    },
+    "360": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 138
+    },
+    "376": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 138
+    },
+    "384": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 138
+    },
+    "400": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 140
+    },
+    "408": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 143
+    },
+    "416": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 143
+    },
+    "424": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 143
+    },
+    "440": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 144
+    },
+    "456": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 144
+    },
+    "480": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 146
+    },
+    "488": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "504": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "520": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "536": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "552": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "568": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "584": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "592": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "608": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "624": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "640": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "656": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "664": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "680": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "688": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "704": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "720": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "728": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "744": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "752": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "768": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "784": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 148
+    },
+    "792": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 157
+    },
+    "800": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 157
+    },
+    "808": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 160
+    },
+    "816": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 160
+    },
+    "832": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "840": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "848": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "856": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "896": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "912": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "920": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "936": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "944": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "952": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "968": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "976": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "992": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 163
+    },
+    "1008": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 164
+    }
+  },
+  "5c62e00c36bd954eb17310a10bdfcef4bac8ffbaeade6f5d8752087daeaa9461": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 243
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 244
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 245
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 246
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 247
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 248
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "104": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "120": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "144": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "152": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "168": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "184": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "192": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "208": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "216": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 45
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 264
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 267
+    },
+    "256": {
+      "filename": "RelayRound.code",
+      "line": 270
+    }
+  },
+  "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    }
+  },
+  "74fe7d44a013df7d2f34de978637c26b16e26691f13006a6c23120ddb18ff126": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 164
+    },
+    "48": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 164
+    },
+    "64": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 164
+    }
+  },
+  "7932b370df438b9a70dc8a3b45237e90c8a19871a65bab1c13c7bcc08c1d6b0b": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "16": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "24": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "40": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "48": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "64": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "80": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "96": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 42
+    }
+  },
+  "859b17232452984d31b2c8b465ddb090e8cf6c51f180d774451d9dd8e789f1e6": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 49
+    },
+    "24": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 49
+    },
+    "40": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 49
+    },
+    "56": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 49
+    },
+    "72": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 49
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 50
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 50
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 50
+    },
+    "136": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 50
+    },
+    "152": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 52
+    },
+    "200": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 52
+    },
+    "208": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 52
+    },
+    "224": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 54
+    },
+    "232": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 54
+    },
+    "248": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 55
+    },
+    "264": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 57
+    },
+    "280": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 57
+    },
+    "296": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 57
+    },
+    "312": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 59
+    },
+    "320": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 59
+    },
+    "336": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "352": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "368": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "384": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "400": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "416": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "432": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "448": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "456": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "480": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "488": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "536": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "560": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "576": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "592": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "608": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "624": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "632": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "648": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "656": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "672": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "688": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "696": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "712": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "720": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "736": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "752": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "760": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    },
+    "776": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 60
+    }
+  },
+  "863fab343442742ac20dd27ae541f110e009ba1164f9c6c07bd2c6c27db6a427": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 886
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 887
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 888
+    },
+    "32": {
+      "filename": "RelayRound.code",
+      "line": 891
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 892
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 893
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 894
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 895
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 896
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 897
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 898
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 899
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 900
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 902
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 903
+    }
+  },
+  "92a4d26bff5efbbdf5bbb966a57080d72ebd8a5e67f5fb7e1b117a3b5670f9e0": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 950
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 951
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 952
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 953
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 956
+    },
+    "88": {
+      "filename": "RelayRound.code",
+      "line": 957
+    },
+    "136": {
+      "filename": "RelayRound.code",
+      "line": 958
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 959
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 962
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 963
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 964
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 965
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 968
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 969
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 970
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 971
+    }
+  },
+  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+  "97dde64c569df4b807e69f2bb1daa73e11d5b2b0c303aa5205b133ec715b0df0": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 799
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 800
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 801
+    },
+    "40": {
+      "filename": "RelayRound.code",
+      "line": 802
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 803
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 804
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 805
+    },
+    "88": {
+      "filename": "RelayRound.code",
+      "line": 806
+    },
+    "104": {
+      "filename": "RelayRound.code",
+      "line": 807
+    },
+    "120": {
+      "filename": "RelayRound.code",
+      "line": 808
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 809
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 810
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 811
+    },
+    "184": {
+      "filename": "RelayRound.code",
+      "line": 812
+    },
+    "192": {
+      "filename": "RelayRound.code",
+      "line": 813
+    },
+    "208": {
+      "filename": "RelayRound.code",
+      "line": 814
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 815
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 816
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 817
+    },
+    "288": {
+      "filename": "RelayRound.code",
+      "line": 818
+    },
+    "296": {
+      "filename": "RelayRound.code",
+      "line": 819
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 820
+    },
+    "328": {
+      "filename": "RelayRound.code",
+      "line": 821
+    },
+    "336": {
+      "filename": "RelayRound.code",
+      "line": 822
+    },
+    "344": {
+      "filename": "RelayRound.code",
+      "line": 823
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 824
+    },
+    "376": {
+      "filename": "RelayRound.code",
+      "line": 828
+    },
+    "384": {
+      "filename": "RelayRound.code",
+      "line": 829
+    },
+    "408": {
+      "filename": "RelayRound.code",
+      "line": 830
+    },
+    "424": {
+      "filename": "RelayRound.code",
+      "line": 831
+    },
+    "432": {
+      "filename": "RelayRound.code",
+      "line": 832
+    },
+    "448": {
+      "filename": "RelayRound.code",
+      "line": 836
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 837
+    },
+    "472": {
+      "filename": "RelayRound.code",
+      "line": 840
+    }
+  },
+  "9b2e1a990475243018eb413a5ffaaf6d27a751de83beec1a561831675aaea178": {
+    "37": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 75
+    },
+    "45": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 76
+    },
+    "53": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 76
+    },
+    "69": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 76
+    },
+    "85": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 76
+    },
+    "101": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 76
+    },
+    "109": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 76
+    },
+    "117": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 78
+    },
+    "125": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 78
+    },
+    "133": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 78
+    },
+    "141": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 80
+    },
+    "149": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 80
+    },
+    "157": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 80
+    },
+    "165": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 80
+    },
+    "173": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 81
+    },
+    "197": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 83
+    },
+    "205": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 83
+    },
+    "213": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 83
+    },
+    "221": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 83
+    },
+    "229": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 84
+    },
+    "237": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 84
+    },
+    "253": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 84
+    },
+    "269": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 84
+    },
+    "277": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 86
+    },
+    "285": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 86
+    },
+    "293": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 86
+    },
+    "309": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "317": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "333": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "341": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "357": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "365": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "373": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "381": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "389": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "405": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "421": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "437": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "453": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "469": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "485": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "501": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "517": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "533": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 87
+    },
+    "549": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 88
+    },
+    "597": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 88
+    },
+    "605": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 88
+    },
+    "621": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 90
+    },
+    "629": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 90
+    },
+    "645": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 91
+    },
+    "653": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 91
+    },
+    "669": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 92
+    },
+    "677": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 92
+    },
+    "693": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 93
+    },
+    "701": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 93
+    },
+    "717": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 95
+    },
+    "725": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 95
+    },
+    "741": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 95
+    },
+    "749": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 95
+    },
+    "765": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 96
+    },
+    "773": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 96
+    },
+    "789": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 96
+    },
+    "797": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 96
+    }
+  },
+  "a159393bc930ed419266f612641e61fb2976513ff30462470c1371d86dc06c7e": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 333
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 334
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 335
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 336
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 337
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 338
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 67
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 344
+    },
+    "112": {
+      "filename": "RelayRound.code",
+      "line": 347
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 350
+    }
+  },
+  "a296eb556cdc589aef7b4142efb0e4dc81cbfe431933f0c957500edb1ae2a47e": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 164
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 655
+    }
+  },
+  "a895bcf8f0e2cdc8fd96cabc6e70829cfb19ed26875261173238b2d884445cb2": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 946
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 947
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 948
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 949
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 975
+    },
+    "88": {
+      "filename": "RelayRound.code",
+      "line": 976
+    },
+    "136": {
+      "filename": "RelayRound.code",
+      "line": 977
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 978
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 1004
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 1005
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 1006
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 1007
+    }
+  },
+  "adec5929630179c5a1de08650b405087d46c1d1a3baa9b50ec5171cbe295e3eb": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 505
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 506
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 507
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 508
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 509
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 510
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "96": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "104": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "136": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "144": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "152": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "160": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "168": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "184": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "192": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "208": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 122
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 530
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 533
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 536
+    }
+  },
+  "b8cff6c2eea996a5e3b1370e2d998f3647af645c48a4b12bf25c2eaa009967b9": {
+    "0": {
+      "filename": "<internal-selector>",
+      "line": 1
+    },
+    "24": {
+      "filename": "<internal-selector>",
+      "line": 2
+    },
+    "40": {
+      "filename": "<internal-selector>",
+      "line": 3
+    }
+  },
+  "bb6f69e27280ade4735f57e71a73adbe86c15e822a67e6659835abba09a9290e": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 147
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 148
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 149
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 150
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 151
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 152
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 41
+    },
+    "104": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 41
+    },
+    "120": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 41
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 41
+    },
+    "144": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 41
+    },
+    "160": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 41
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 163
+    },
+    "184": {
+      "filename": "RelayRound.code",
+      "line": 166
+    },
+    "192": {
+      "filename": "RelayRound.code",
+      "line": 167
+    },
+    "208": {
+      "filename": "RelayRound.code",
+      "line": 168
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 169
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 170
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 171
+    },
+    "256": {
+      "filename": "RelayRound.code",
+      "line": 172
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 173
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 174
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 175
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 176
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 177
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 178
+    },
+    "384": {
+      "filename": "RelayRound.code",
+      "line": 179
+    },
+    "392": {
+      "filename": "RelayRound.code",
+      "line": 180
+    },
+    "408": {
+      "filename": "RelayRound.code",
+      "line": 181
+    },
+    "416": {
+      "filename": "RelayRound.code",
+      "line": 182
+    },
+    "432": {
+      "filename": "RelayRound.code",
+      "line": 183
+    },
+    "448": {
+      "filename": "RelayRound.code",
+      "line": 184
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 185
+    },
+    "464": {
+      "filename": "RelayRound.code",
+      "line": 187
+    },
+    "480": {
+      "filename": "RelayRound.code",
+      "line": 188
+    },
+    "496": {
+      "filename": "RelayRound.code",
+      "line": 189
+    },
+    "504": {
+      "filename": "RelayRound.code",
+      "line": 190
+    },
+    "520": {
+      "filename": "RelayRound.code",
+      "line": 191
+    },
+    "528": {
+      "filename": "RelayRound.code",
+      "line": 192
+    },
+    "544": {
+      "filename": "RelayRound.code",
+      "line": 193
+    },
+    "560": {
+      "filename": "RelayRound.code",
+      "line": 194
+    },
+    "576": {
+      "filename": "RelayRound.code",
+      "line": 195
+    },
+    "592": {
+      "filename": "RelayRound.code",
+      "line": 196
+    },
+    "600": {
+      "filename": "RelayRound.code",
+      "line": 197
+    },
+    "624": {
+      "filename": "RelayRound.code",
+      "line": 198
+    },
+    "640": {
+      "filename": "RelayRound.code",
+      "line": 199
+    },
+    "664": {
+      "filename": "RelayRound.code",
+      "line": 200
+    },
+    "672": {
+      "filename": "RelayRound.code",
+      "line": 201
+    },
+    "680": {
+      "filename": "RelayRound.code",
+      "line": 202
+    },
+    "696": {
+      "filename": "RelayRound.code",
+      "line": 203
+    },
+    "712": {
+      "filename": "RelayRound.code",
+      "line": 204
+    },
+    "728": {
+      "filename": "RelayRound.code",
+      "line": 205
+    },
+    "744": {
+      "filename": "RelayRound.code",
+      "line": 206
+    },
+    "760": {
+      "filename": "RelayRound.code",
+      "line": 207
+    },
+    "776": {
+      "filename": "RelayRound.code",
+      "line": 208
+    },
+    "800": {
+      "filename": "RelayRound.code",
+      "line": 209
+    },
+    "808": {
+      "filename": "RelayRound.code",
+      "line": 210
+    },
+    "824": {
+      "filename": "RelayRound.code",
+      "line": 211
+    },
+    "832": {
+      "filename": "RelayRound.code",
+      "line": 212
+    },
+    "848": {
+      "filename": "RelayRound.code",
+      "line": 213
+    },
+    "864": {
+      "filename": "RelayRound.code",
+      "line": 214
+    },
+    "872": {
+      "filename": "RelayRound.code",
+      "line": 215
+    },
+    "888": {
+      "filename": "RelayRound.code",
+      "line": 216
+    },
+    "904": {
+      "filename": "RelayRound.code",
+      "line": 218
+    },
+    "912": {
+      "filename": "RelayRound.code",
+      "line": 219
+    },
+    "928": {
+      "filename": "RelayRound.code",
+      "line": 220
+    },
+    "944": {
+      "filename": "RelayRound.code",
+      "line": 223
+    }
+  },
+  "c5fd481479feb0ddd8d76f2a5853964ffd04fc9c6c334e212a2438f228f02284": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "24": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "40": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "56": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "72": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 195
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 123
+    },
+    "96": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 123
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 123
+    },
+    "120": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 123
+    },
+    "136": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 124
+    },
+    "184": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 124
+    },
+    "192": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 124
+    },
+    "208": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "216": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "224": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "248": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "256": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "272": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "288": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "296": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    },
+    "312": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 125
+    }
+  },
+  "cb05b237bff10e5b430e12c81a55ea55178753b197cfac47a582422706c5d0c9": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 18
+    },
+    "8": {
+      "filename": "RelayRound.code",
+      "line": 19
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 20
+    },
+    "48": {
+      "filename": "RelayRound.code",
+      "line": 21
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 22
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 23
+    },
+    "88": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 35
+    },
+    "104": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 35
+    },
+    "120": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 35
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 35
+    },
+    "144": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 35
+    },
+    "160": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 35
+    },
+    "168": {
+      "filename": "RelayRound.code",
+      "line": 34
+    },
+    "184": {
+      "filename": "RelayRound.code",
+      "line": 37
+    },
+    "192": {
+      "filename": "RelayRound.code",
+      "line": 38
+    },
+    "208": {
+      "filename": "RelayRound.code",
+      "line": 39
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 40
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 41
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 42
+    },
+    "256": {
+      "filename": "RelayRound.code",
+      "line": 43
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 44
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 45
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 46
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 47
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 48
+    },
+    "320": {
+      "filename": "RelayRound.code",
+      "line": 49
+    },
+    "344": {
+      "filename": "RelayRound.code",
+      "line": 50
+    },
+    "352": {
+      "filename": "RelayRound.code",
+      "line": 51
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 52
+    },
+    "408": {
+      "filename": "RelayRound.code",
+      "line": 53
+    },
+    "416": {
+      "filename": "RelayRound.code",
+      "line": 54
+    },
+    "432": {
+      "filename": "RelayRound.code",
+      "line": 55
+    },
+    "448": {
+      "filename": "RelayRound.code",
+      "line": 56
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 57
+    },
+    "472": {
+      "filename": "RelayRound.code",
+      "line": 58
+    },
+    "480": {
+      "filename": "RelayRound.code",
+      "line": 59
+    },
+    "496": {
+      "filename": "RelayRound.code",
+      "line": 60
+    },
+    "504": {
+      "filename": "RelayRound.code",
+      "line": 61
+    },
+    "520": {
+      "filename": "RelayRound.code",
+      "line": 62
+    },
+    "536": {
+      "filename": "RelayRound.code",
+      "line": 63
+    },
+    "544": {
+      "filename": "RelayRound.code",
+      "line": 64
+    },
+    "560": {
+      "filename": "RelayRound.code",
+      "line": 65
+    },
+    "568": {
+      "filename": "RelayRound.code",
+      "line": 66
+    },
+    "584": {
+      "filename": "RelayRound.code",
+      "line": 67
+    },
+    "600": {
+      "filename": "RelayRound.code",
+      "line": 68
+    },
+    "616": {
+      "filename": "RelayRound.code",
+      "line": 69
+    },
+    "632": {
+      "filename": "RelayRound.code",
+      "line": 70
+    },
+    "640": {
+      "filename": "RelayRound.code",
+      "line": 71
+    },
+    "648": {
+      "filename": "RelayRound.code",
+      "line": 72
+    }
+  },
+  "d17b9ba2410ff7a94f44c4fe9073bcda27b9c79d29d09a1e5dc1e4b6b8d844d6": {
+    "0": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "16": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "24": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "40": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "48": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "64": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "80": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "96": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "112": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "128": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "144": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "160": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "176": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "192": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    },
+    "208": {
+      "filename": "contracts/round/RelayRound.tsol",
+      "line": 36
+    }
+  },
+  "d4b7794b45560d6cf8cb6c4e69e2092ccdcc1e78ddaf3a4d5d7732409cd24987": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 844
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 845
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 846
+    },
+    "40": {
+      "filename": "RelayRound.code",
+      "line": 847
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 848
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 849
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 852
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 853
+    },
+    "104": {
+      "filename": "RelayRound.code",
+      "line": 854
+    },
+    "120": {
+      "filename": "RelayRound.code",
+      "line": 857
+    },
+    "136": {
+      "filename": "RelayRound.code",
+      "line": 858
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 859
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 860
+    },
+    "176": {
+      "filename": "RelayRound.code",
+      "line": 861
+    },
+    "192": {
+      "filename": "RelayRound.code",
+      "line": 862
+    },
+    "200": {
+      "filename": "RelayRound.code",
+      "line": 863
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 864
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 865
+    },
+    "232": {
+      "filename": "RelayRound.code",
+      "line": 866
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 867
+    },
+    "248": {
+      "filename": "RelayRound.code",
+      "line": 868
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 869
+    },
+    "272": {
+      "filename": "RelayRound.code",
+      "line": 870
+    },
+    "288": {
+      "filename": "RelayRound.code",
+      "line": 871
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 872
+    },
+    "320": {
+      "filename": "RelayRound.code",
+      "line": 874
+    },
+    "328": {
+      "filename": "RelayRound.code",
+      "line": 875
+    },
+    "344": {
+      "filename": "RelayRound.code",
+      "line": 876
+    },
+    "352": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "368": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "376": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "384": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "400": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "408": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "424": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "448": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "456": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "496": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "504": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "512": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "528": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "544": {
+      "filename": "RelayRound.code",
+      "line": 878
+    },
+    "560": {
+      "filename": "RelayRound.code",
+      "line": 879
+    },
+    "568": {
+      "filename": "RelayRound.code",
+      "line": 880
+    },
+    "584": {
+      "filename": "RelayRound.code",
+      "line": 883
+    }
+  },
+  "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 783
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 784
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 785
+    },
+    "40": {
+      "filename": "RelayRound.code",
+      "line": 786
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 787
+    },
+    "64": {
+      "filename": "RelayRound.code",
+      "line": 788
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 789
+    },
+    "88": {
+      "filename": "RelayRound.code",
+      "line": 790
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 791
+    },
+    "112": {
+      "filename": "RelayRound.code",
+      "line": 792
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 793
+    },
+    "136": {
+      "filename": "RelayRound.code",
+      "line": 794
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 795
+    }
+  },
+  "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 825
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 826
+    }
+  },
+  "f4611e67f167368c1087aa25fae689bdfdf3be977dc972afbafa97fb0cd6dc8e": {
+    "0": {
+      "filename": "RelayRound.code",
+      "line": 658
+    },
+    "16": {
+      "filename": "RelayRound.code",
+      "line": 659
+    },
+    "24": {
+      "filename": "RelayRound.code",
+      "line": 660
+    },
+    "40": {
+      "filename": "RelayRound.code",
+      "line": 661
+    },
+    "56": {
+      "filename": "RelayRound.code",
+      "line": 662
+    },
+    "72": {
+      "filename": "RelayRound.code",
+      "line": 663
+    },
+    "80": {
+      "filename": "RelayRound.code",
+      "line": 664
+    },
+    "96": {
+      "filename": "RelayRound.code",
+      "line": 665
+    },
+    "112": {
+      "filename": "RelayRound.code",
+      "line": 666
+    },
+    "128": {
+      "filename": "RelayRound.code",
+      "line": 667
+    },
+    "144": {
+      "filename": "RelayRound.code",
+      "line": 668
+    },
+    "160": {
+      "filename": "RelayRound.code",
+      "line": 669
+    },
+    "176": {
+      "filename": "RelayRound.code",
+      "line": 670
+    },
+    "192": {
+      "filename": "RelayRound.code",
+      "line": 671
+    },
+    "200": {
+      "filename": "RelayRound.code",
+      "line": 672
+    },
+    "216": {
+      "filename": "RelayRound.code",
+      "line": 673
+    },
+    "224": {
+      "filename": "RelayRound.code",
+      "line": 674
+    },
+    "240": {
+      "filename": "RelayRound.code",
+      "line": 675
+    },
+    "256": {
+      "filename": "RelayRound.code",
+      "line": 676
+    },
+    "264": {
+      "filename": "RelayRound.code",
+      "line": 677
+    },
+    "280": {
+      "filename": "RelayRound.code",
+      "line": 678
+    },
+    "288": {
+      "filename": "RelayRound.code",
+      "line": 679
+    },
+    "304": {
+      "filename": "RelayRound.code",
+      "line": 680
+    },
+    "312": {
+      "filename": "RelayRound.code",
+      "line": 681
+    },
+    "320": {
+      "filename": "RelayRound.code",
+      "line": 682
+    },
+    "328": {
+      "filename": "RelayRound.code",
+      "line": 683
+    },
+    "336": {
+      "filename": "RelayRound.code",
+      "line": 684
+    },
+    "352": {
+      "filename": "RelayRound.code",
+      "line": 685
+    },
+    "360": {
+      "filename": "RelayRound.code",
+      "line": 686
+    },
+    "376": {
+      "filename": "RelayRound.code",
+      "line": 687
+    },
+    "392": {
+      "filename": "RelayRound.code",
+      "line": 688
+    },
+    "408": {
+      "filename": "RelayRound.code",
+      "line": 689
+    },
+    "424": {
+      "filename": "RelayRound.code",
+      "line": 690
+    },
+    "440": {
+      "filename": "RelayRound.code",
+      "line": 691
+    },
+    "456": {
+      "filename": "RelayRound.code",
+      "line": 692
+    },
+    "472": {
+      "filename": "RelayRound.code",
+      "line": 693
+    },
+    "488": {
+      "filename": "RelayRound.code",
+      "line": 694
+    },
+    "504": {
+      "filename": "RelayRound.code",
+      "line": 695
+    },
+    "520": {
+      "filename": "RelayRound.code",
+      "line": 696
+    },
+    "536": {
+      "filename": "RelayRound.code",
+      "line": 697
+    }
+  }
+}

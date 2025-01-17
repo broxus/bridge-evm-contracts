@@ -1,0 +1,2616 @@
+.version sol 0.71.0
+
+.macro constructor
+DROP
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7_with_init_storage
+}
+GETGLOB 6
+THROWIF 51
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+ENDS
+.loc @broxus/contracts/contracts/utils/CheckPubKey.tsol, 7
+GETGLOB 5
+DUP
+ISNULL
+PUSHCONT {
+	DROP
+	PUSHINT 0
+}
+IF
+GETGLOB 2
+EQUAL
+THROWIFNOT 1010
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 14
+ACCEPT
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 16
+CALLREF {
+	.inline __setOwnership_a7016023_internal_macro
+}
+.loc @broxus/contracts/contracts/utils/CheckPubKey.tsol, 0
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro upgrade
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 19
+LDREF
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 0
+CALLREF {
+	.inline __upgrade_7916ae0d_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro upgrade_7916ae0d_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 14
+GETGLOB 9
+GETGLOB 10
+SDEQ
+DUP
+PUSHCONT {
+	DROP
+	GETGLOB 9
+	PARSEMSGADDR
+	INDEX 3
+	PLDU 256
+	NEQINT 0
+}
+IF
+THROWIFNOT 1000
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 20
+GETGLOB 15
+GETGLOB 14
+GETGLOB 13
+GETGLOB 10
+NEWC
+GETGLOB 11
+UNPAIR
+XCHG S2
+STSLICE
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+ROLLREV 4
+NEWC
+STSLICE
+STU 8
+ROTREV
+NEWC
+STSLICE
+STU 256
+STBREFR
+STBREFR
+ENDC
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 28
+OVER
+SETCODE
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 29
+SWAP
+CTOS
+DUP
+PUSHSLICE x8adb35
+SDEQ
+PUSHCONT {
+	PLDREFIDX 1
+	CTOS
+}
+IF
+PLDREF
+CTOS
+BLESS
+POP C3
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 31
+PUSHINT $onCodeUpgrade_0e89a1b9_internal$
+PUSH C3
+EXECUTE
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 0
+
+.internal-alias onCodeUpgrade_0e89a1b9_internal, 2083461128
+.internal onCodeUpgrade_0e89a1b9_internal
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 35
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+DUP
+PUSHINT 0
+NEWDICT
+PAIR
+PAIR
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+DUP
+PAIR
+PUSHINT 0
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+PUSHINT 0
+SETGLOB 15
+SETGLOB 14
+SETGLOB 13
+SETGLOB 12
+SETGLOB 11
+SETGLOB 10
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 37
+CTOS
+LDMSGADDR
+LDU 32
+LDDICT
+ROTREV
+PAIR
+XCHG S1, S2
+PAIR
+SWAP
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDU 8
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDU 256
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 51
+ROLL 4
+SETGLOB 11
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 53
+ROT
+INC
+UFITS 8
+SETGLOB 13
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 54
+SWAP
+SETGLOB 14
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 55
+SWAP
+CALLREF {
+	.inline __setOwnership_a7016023_internal_macro
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 56
+SETGLOB 15
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton.tsol, 0
+CALLREF {
+	.inline __c7_to_c4
+}
+COMMIT
+THROW 0
+
+.macro onEventConfirmedExtended
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 17
+OVER
+PUSHCONT {
+	LDU 256
+	LDU 32
+	LDREF
+	LDU 32
+	LDREF
+	ENDS
+	CTOS
+	LDU 256
+	ROLLREV 5
+	TUPLE 5
+	SWAP
+}
+PUSHCONT {
+	LDU 256
+	LDU 32
+	LDREF
+	LDU 32
+	LDU 256
+	ROLLREV 5
+	TUPLE 5
+	SWAP
+	LDREF
+	ENDS
+	CTOS
+}
+IFELSE
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDU 32
+ROLLREV 4
+TUPLE 4
+SWAP
+LDREF
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
+CALLREF {
+	.inline __onEventConfirmedExtended_0278ec8c_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro onEventConfirmedExtended_0278ec8c_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 22
+CALLREF {
+	.inline ___reserveAtLeastTargetBalance_a644bc3b_internal_macro
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 22
+PUSHINT 2701
+GETGLOB 11
+SECOND
+GETGLOB 9
+CALLREF {
+	.inline ___isArrayContainsAddress_fd9f2e52_internal_macro
+}
+THROWANYIFNOT
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 27
+SWAP
+CTOS
+LDMSGADDR
+LDU 128
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDREF
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 39
+PUSHREF {
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 41
+PUSH S2
+GETGLOB 14
+SDEQ
+PUSHCONT {
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 42
+	OVER
+}
+PUSHCONT {
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 44
+	PUSH S6
+	CALLREF {
+		.inline __EventContractNonce_no_obj__calculateNonce_dc2a9bcf_macro
+	}
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 46
+	PUXC S2, S-1
+	NEWC
+	STU 32
+	STREF
+	ENDC
+}
+IFELSE
+NIP
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 49
+XCHG S1, S5
+CALLREF {
+	.inline ___transferTokens_76bf1fab_internal_macro
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
+DROP2
+
+.globl	_isArrayContainsAddress_fd9f2e52_internal
+.type	_isArrayContainsAddress_fd9f2e52_internal, @function
+.inline ___isArrayContainsAddress_fd9f2e52_internal_macro
+
+.macro _isArrayContainsAddress_fd9f2e52_internal_macro
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 62
+SWAP
+SECOND
+PUSHINT 0
+NULL
+FALSE ; decl return flag
+PUSHCONT {
+	PUSH2 S2, S3
+	PUSHINT 32
+	DICTUGET
+	NULLSWAPIFNOT
+	DROP
+	DUP
+	POP S3
+	ISNULL
+	NOT
+}
+PUSHCONT {
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 63
+	PUSH2 S4, S1
+	SDEQ
+	PUSHCONT {
+		.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 64
+		BLKDROP 5
+		TRUE
+		PUSHINT 4
+		RETALT
+		.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
+	}
+	IFJMP
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
+	PUSH S2
+	INC
+	POP S3
+}
+WHILEBRK
+IFRET
+BLKDROP 4
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 68
+FALSE
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
+
+.macro transferNotification
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 17
+OVER
+PUSHCONT {
+	LDU 64
+	LDVARUINT16
+	LDREF
+	ENDS
+	CTOS
+}
+PUSHCONT {
+	LDU 64
+	LDVARUINT16
+}
+IFELSE
+LDMSGADDR
+LDDICT
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 0
+CALLREF {
+	.inline __transferNotification_d34400ca_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro transferNotification_d34400ca_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 22
+CALLREF {
+	.inline ___reserveAtLeastTargetBalance_a644bc3b_internal_macro
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 24
+DUP
+ISNULL
+THROWIF 63
+CTOS
+LDU 32
+LDU 8
+OVER
+GTINT 1
+THROWIF 73
+LDREF
+LDREF
+LDREF
+LDU 8
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 44
+ROLL 6
+EQINT 1
+PUSHCONT {
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 45
+	PUSH S5
+	CTOS
+	LDU 160
+	LDU 256
+	LDU 160
+	LDREF
+	LDI 1
+	ROLLREV 3
+	TRIPLE
+	SWAP
+	ENDS
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 55
+	PUSH2 S9, S4
+	ROLL 3
+	PUSH S13
+	ROLL 5
+	PUSH2 S6, S13
+	ROLL 7
+	BLKPUSH 3, 12
+	CALLREF {
+		.inline ___deployEVMEvent_8b24bc4e_internal_macro
+	}
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 0
+}
+IF
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 0
+BLKDROP 10
+
+.globl	_deployEVMEvent_8b24bc4e_internal
+.type	_deployEVMEvent_8b24bc4e_internal, @function
+.inline ___deployEVMEvent_8b24bc4e_internal_macro
+
+.macro _deployEVMEvent_8b24bc4e_internal_macro
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 84
+XCPU S2, S3
+THIRD
+PUSH S4
+SECOND
+ROLL 5
+FIRST
+ROLL 6
+ROLL 10
+BLKSWAP 2, 9
+SWAP
+BLKSWAP 2, 10
+SWAP
+GETGLOB 9
+MYADDR
+ROLL 14
+NEWC
+STU 32
+STSLICE
+ROLLREV 13
+NEWC
+STSLICE
+ROLLREV 12
+NEWC
+STSLICE
+ROLLREV 11
+NEWC
+STSLICE
+STU 128
+STU 160
+ROLLREV 8
+NEWC
+STU 256
+STSLICE
+STU 160
+STREF
+STI 1
+STREF
+STREF
+STU 8
+STBREFR
+STBREFR
+STBREFR
+STBREFR
+ENDC
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 102
+LTIME
+NOW
+ROT
+TRIPLE
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 108
+GETGLOB 11
+FIRST
+FALSE
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+PUSHINT 547684567
+STUR 143
+SWAP
+UNTRIPLE
+REVERSE 4, 0
+STU 64
+STU 32
+STREF
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Withdraw.tsol, 0
+
+.macro apiVersion
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 24
+LDU 32
+GETGLOB 4
+ROT
+SETINDEXQ 5
+SETGLOB 4
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+CALLREF {
+	.inline __apiVersion_25829410_internal_macro
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 2155612015
+	STUR 130
+	STU 8
+	ENDC
+	PUSHINT 0
+}
+PUSHCONT {
+	GETGLOB 4
+	DUP
+	INDEX 3
+	OVER
+	THIRD
+	GETGLOB 9
+	ROLL 3
+	SECOND
+	NEWC
+	STSLICECONST x2_
+	STI 1
+	STSLICECONST x1_
+	STSLICE
+	SWAP
+	STGRAMS
+	STDICT
+	PUSHINT 106
+	STZEROES
+	GETGLOB 4
+	INDEX 5
+	STUR 32
+	STU 8
+	ENDC
+	GETGLOB 4
+	INDEX 4
+}
+IFELSE
+SENDRAWMSG
+IFREF {
+	.inline __upd_only_time_in_c4
+}
+THROW 0
+
+.macro apiVersion_25829410_internal_macro
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 25
+GETGLOB 4
+PUSHINT 0
+SETINDEXQ 2
+FALSE
+SETINDEXQ 1
+PUSHINT 64
+SETINDEXQ 4
+SETGLOB 4
+GETGLOB 13
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+
+.macro setDexMiddleware
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 28
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+CALLREF {
+	.inline __setDexMiddleware_1ed49aef_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro setDexMiddleware_1ed49aef_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 14
+GETGLOB 9
+GETGLOB 10
+SDEQ
+DUP
+PUSHCONT {
+	DROP
+	GETGLOB 9
+	PARSEMSGADDR
+	INDEX 3
+	PLDU 256
+	NEQINT 0
+}
+IF
+THROWIFNOT 1000
+.loc contracts/utils/TransferUtils.tsol, 46
+GETPARAM 7
+FIRST
+DEPTH
+ADDCONST -2
+PICK
+SUB
+UFITS 128
+PUSHINT 2
+RAWRESERVE
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 29
+SETGLOB 14
+.loc contracts/utils/TransferUtils.tsol, 48
+GETGLOB 9
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHINT 129
+SENDRAWMSG
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+
+.macro getConfiguration
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 32
+LDU 32
+GETGLOB 4
+ROT
+SETINDEXQ 5
+SETGLOB 4
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+CALLREF {
+	.inline __getConfiguration_6bd50cef_internal_macro
+}
+PUSH S2
+PUSHCONT {
+	PUSH S4
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 1
+	STUR 98
+	XCHG S2
+	NEWC
+	STSLICECONST xe69698a4
+	SWAP
+	UNPAIR
+	XCHG S2
+	STSLICE
+	SWAP
+	UNPAIR
+	XCHG S2
+	STU 32
+	STDICT
+	SWAP
+	UNPAIR
+	SWAP
+	NEWC
+	STSLICE
+	SWAP
+	NEWC
+	STSLICE
+	STBREFR
+	STBREFR
+	STBREFR
+	ENDC
+	PUSHINT 0
+}
+PUSHCONT {
+	GETGLOB 4
+	DUP
+	INDEX 3
+	OVER
+	THIRD
+	GETGLOB 9
+	ROLL 3
+	SECOND
+	NEWC
+	STSLICECONST x2_
+	STI 1
+	STSLICECONST x1_
+	STSLICE
+	SWAP
+	STGRAMS
+	STDICT
+	PUSHINT 1
+	STUR 106
+	XCHG S2
+	NEWC
+	GETGLOB 4
+	INDEX 5
+	STUR 32
+	SWAP
+	UNPAIR
+	XCHG S2
+	STSLICE
+	SWAP
+	UNPAIR
+	XCHG S2
+	STU 32
+	STDICT
+	SWAP
+	UNPAIR
+	SWAP
+	NEWC
+	STSLICE
+	SWAP
+	NEWC
+	STSLICE
+	STBREFR
+	STBREFR
+	STBREFR
+	ENDC
+	GETGLOB 4
+	INDEX 4
+}
+IFELSE
+SENDRAWMSG
+IFREF {
+	.inline __upd_only_time_in_c4
+}
+THROW 0
+
+.macro getConfiguration_6bd50cef_internal_macro
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 39
+GETGLOB 4
+PUSHINT 0
+SETINDEXQ 2
+FALSE
+SETINDEXQ 1
+PUSHINT 64
+SETINDEXQ 4
+SETGLOB 4
+GETGLOB 11
+GETGLOB 12
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+
+.macro setEVMConfiguration
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 46
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+LDU 32
+LDDICT
+ROTREV
+PAIR
+XCHG S1, S2
+PAIR
+SWAP
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+CALLREF {
+	.inline __setEVMConfiguration_61e771f1_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro setEVMConfiguration_61e771f1_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 14
+GETGLOB 9
+GETGLOB 10
+SDEQ
+DUP
+PUSHCONT {
+	DROP
+	GETGLOB 9
+	PARSEMSGADDR
+	INDEX 3
+	PLDU 256
+	NEQINT 0
+}
+IF
+THROWIFNOT 1000
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 18
+DUP
+.loc contracts/utils/TransferUtils.tsol, 52
+GETPARAM 7
+FIRST
+DEPTH
+ADDCONST -2
+PICK
+SUB
+UFITS 128
+PUSHINT 2
+RAWRESERVE
+.loc contracts/utils/TransferUtils.tsol, 53
+ROTREV
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 50
+DROP
+SETGLOB 11
+.loc contracts/utils/TransferUtils.tsol, 54
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHINT 129
+SENDRAWMSG
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+
+.macro setSolanaConfiguration
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 53
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ROTREV
+PAIR
+SWAP
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ENDS
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+CALLREF {
+	.inline __setSolanaConfiguration_106baf3e_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro setSolanaConfiguration_106baf3e_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 14
+GETGLOB 9
+GETGLOB 10
+SDEQ
+DUP
+PUSHCONT {
+	DROP
+	GETGLOB 9
+	PARSEMSGADDR
+	INDEX 3
+	PLDU 256
+	NEQINT 0
+}
+IF
+THROWIFNOT 1000
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 18
+DUP
+.loc contracts/utils/TransferUtils.tsol, 52
+GETPARAM 7
+FIRST
+DEPTH
+ADDCONST -2
+PICK
+SUB
+UFITS 128
+PUSHINT 2
+RAWRESERVE
+.loc contracts/utils/TransferUtils.tsol, 53
+ROTREV
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 57
+DROP
+SETGLOB 12
+.loc contracts/utils/TransferUtils.tsol, 54
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHINT 129
+SENDRAWMSG
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+
+.globl	_transferTokens_76bf1fab_internal
+.type	_transferTokens_76bf1fab_internal, @function
+.inline ___transferTokens_76bf1fab_internal_macro
+
+.macro _transferTokens_76bf1fab_internal_macro
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 67
+DUP
+CTOS
+SEMPTY
+PUSHCONT {
+	PUSHINT 0
+}
+IFELSEREF {
+	.inline ___transferJettonsCallbackValue_7e6a0612_internal_macro
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 71
+ROLL 5
+PUSHINT 0
+BLKSWAP 2, 5
+SWAP
+UFITS 120
+ROLL 4
+UFITS 120
+BLKSWAP 2, 5
+SWAP
+PUSHINT 0
+PUSHPOW2 7
+FALSE
+CALLREF {
+	.inline __JettonUtils_no_obj_transferJettons_bbd7a0e3_macro
+}
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Base.tsol, 0
+
+.globl	transferAll_a3a7e7f3_internal
+.type	transferAll_a3a7e7f3_internal, @function
+.inline __transferAll_a3a7e7f3_internal_macro
+
+.macro transferAll_a3a7e7f3_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 6
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHINT 129
+SENDRAWMSG
+.loc contracts/utils/TransferUtils.tsol, 0
+
+.globl	_reserveAtLeastTargetBalance_a644bc3b_internal
+.type	_reserveAtLeastTargetBalance_a644bc3b_internal, @function
+.inline ___reserveAtLeastTargetBalance_a644bc3b_internal_macro
+
+.macro _reserveAtLeastTargetBalance_a644bc3b_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 15
+GETPARAM 7
+FIRST
+DEPTH
+ADDCONST -2
+PICK
+SUB
+UFITS 128
+CALLREF {
+	.inline ___targetBalance_81a00f03_internal_macro
+}
+MAX
+PUSHINT 2
+RAWRESERVE
+.loc contracts/utils/TransferUtils.tsol, 0
+
+.globl	_reserveTargetBalance_c4db675c_internal
+.type	_reserveTargetBalance_c4db675c_internal, @function
+.inline ___reserveTargetBalance_c4db675c_internal_macro
+
+.macro _reserveTargetBalance_c4db675c_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 42
+CALLREF {
+	.inline ___targetBalance_81a00f03_internal_macro
+}
+PUSHINT 0
+RAWRESERVE
+.loc contracts/utils/TransferUtils.tsol, 0
+
+.globl	_targetBalance_81a00f03_internal
+.type	_targetBalance_81a00f03_internal, @function
+.inline ___targetBalance_81a00f03_internal_macro
+
+.macro _targetBalance_81a00f03_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 58
+PUSHINT 1000000000
+.loc contracts/utils/TransferUtils.tsol, 0
+
+.globl	_transferJettonsCallbackValue_7e6a0612_internal
+.type	_transferJettonsCallbackValue_7e6a0612_internal, @function
+.inline ___transferJettonsCallbackValue_7e6a0612_internal_macro
+
+.macro _transferJettonsCallbackValue_7e6a0612_internal_macro
+.loc contracts/utils/TransferUtils.tsol, 62
+GETPARAM 7
+FIRST
+GETPARAM 7
+FIRST
+DEPTH
+ADDCONST -2
+PICK
+SUB
+UFITS 128
+CALLREF {
+	.inline ___targetBalance_81a00f03_internal_macro
+}
+MAX
+SUB
+UFITS 128
+PUSHINT 50000000
+SUB
+UFITS 128
+.loc contracts/utils/TransferUtils.tsol, 0
+
+.globl	setOwnership_a7016023_internal
+.type	setOwnership_a7016023_internal, @function
+.inline __setOwnership_a7016023_internal_macro
+
+.macro setOwnership_a7016023_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 26
+GETGLOB 10
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 28
+OVER
+SETGLOB 10
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 30
+PUSHSLICE xc0000000000000000000000001
+NEWC
+STSLICE
+ROTREV
+NEWC
+STSLICECONST x6115f072
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+STBREFR
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 0
+
+.macro transferOwnership
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 36
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+ENDS
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 0
+CALLREF {
+	.inline __transferOwnership_f2fde38b_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro transferOwnership_f2fde38b_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 14
+GETGLOB 9
+GETGLOB 10
+SDEQ
+DUP
+PUSHCONT {
+	DROP
+	GETGLOB 9
+	PARSEMSGADDR
+	INDEX 3
+	PLDU 256
+	NEQINT 0
+}
+IF
+THROWIFNOT 1000
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 37
+DUP
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+SDEQ
+THROWIF 1001
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 42
+CALLREF {
+	.inline __setOwnership_a7016023_internal_macro
+}
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 0
+
+.macro renounceOwnership
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	.inline __c4_to_c7
+}
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 48
+ENDS
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 0
+CALLREF {
+	.inline __renounceOwnership_715018a6_internal_macro
+}
+CALLREF {
+	.inline __c7_to_c4
+}
+THROW 0
+
+.macro renounceOwnership_715018a6_internal_macro
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 14
+GETGLOB 9
+GETGLOB 10
+SDEQ
+DUP
+PUSHCONT {
+	DROP
+	GETGLOB 9
+	PARSEMSGADDR
+	INDEX 3
+	PLDU 256
+	NEQINT 0
+}
+IF
+THROWIFNOT 1000
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 49
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 51
+CALLREF {
+	.inline __setOwnership_a7016023_internal_macro
+}
+.loc @broxus/contracts/contracts/access/InternalOwner.tsol, 0
+
+.macro c4_to_c7
+PUSHROOT
+CTOS
+LDU 256 ; pubkey c4
+LDU 64 ; pubkey timestamp c4
+LDU 1 ; ctor flag
+NIP
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDU 32
+LDDICT
+ROTREV
+PAIR
+XCHG S1, S2
+PAIR
+SWAP
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ROTREV
+PAIR
+SWAP
+LDU 8
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDU 256
+ENDS
+SETGLOB 15
+SETGLOB 14
+SETGLOB 13
+SETGLOB 12
+SETGLOB 11
+SETGLOB 10
+SETGLOB 3
+SETGLOB 2
+
+.macro c4_to_c7_with_init_storage
+PUSHROOT
+CTOS
+SBITS
+GTINT 1
+PUSHCONT {
+	PUSHINT 0
+	PUSHROOT
+	CTOS
+	PLDDICT ; D
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	DUP
+	PUSHINT 0
+	NEWDICT
+	PAIR
+	PAIR
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	DUP
+	PAIR
+	PUSHINT 0
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	PUSHINT 1
+	PUSH S6
+	PUSHINT 64
+	DICTUGET
+	PUSHCONT {
+		PLDU 256
+	}
+	PUSHCONT {
+		PUSHINT 0
+	}
+	IFELSE
+	SETGLOB 15
+	SETGLOB 14
+	SETGLOB 13
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	PUSHINT 64
+	DICTUGET
+	THROWIFNOT 61
+	PLDU 256
+	SETGLOB 2
+	PUSHINT 0 ; timestamp
+	SETGLOB 3
+}
+IFREFELSE {
+	.inline __c4_to_c7
+}
+
+.macro c7_to_c4
+GETGLOB 15
+GETGLOB 14
+GETGLOB 13
+GETGLOB 12
+GETGLOB 11
+GETGLOB 10
+GETGLOB 3
+GETGLOB 2
+NEWC
+STU 256
+STU 64
+STONE
+STSLICE
+SWAP
+UNPAIR
+XCHG S2
+ROLLREV 6
+NEWC
+STSLICE
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+SWAP
+UNPAIR
+XCHG S2
+ROLLREV 5
+NEWC
+STSLICE
+ROLLREV 4
+NEWC
+STSLICE
+STU 8
+ROTREV
+NEWC
+STSLICE
+STU 256
+STBREFR
+STBREFR
+STBREFR
+STBREFR
+ENDC
+POPROOT
+
+.macro upd_only_time_in_c4
+PUSHROOT
+CTOS
+LDU 256
+LDU 64
+NIP
+GETGLOB 3
+ROT
+NEWC
+STU 256
+STU 64
+STSLICE
+ENDC
+POPROOT
+
+.internal-alias :main_internal, 0
+.internal :main_internal
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSH S2
+CTOS
+LDU 4 ; bounced tail
+LDMSGADDR ; bounced src tail
+DROP
+SETGLOB 9
+MODPOW2 1
+GETGLOB 4
+TRUE
+SETINDEXQ 1
+PUSHINT 10000000
+SETINDEXQ 2
+NULL
+SETINDEXQ 3
+PUSHINT 0
+SETINDEXQ 4
+SETGLOB 4
+IFRET
+OVER
+SEMPTY ; isEmpty
+IFJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+OVER
+LDUQ 32  ; [funcId] body' ok
+THROWIFNOT 60
+OVER
+IFNOTJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+SWAP
+CALLREF {
+	.inline __public_function_selector
+}
+THROW 60
+
+.internal-alias :main_external, -1
+.internal :main_external
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+SETGLOB 9
+OVER
+CALLREF {
+	.inline __c4_to_c7_with_init_storage
+}
+LDU 1 ; haveSign msgSlice
+SWAP
+PUSHCONT {
+	PUSHPOW2 9
+	LDSLICEX
+	DUP
+	MYADDR
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	HASHCU
+	ROT
+	GETGLOB 2
+	DUP
+	SETGLOB 5
+	CHKSIGNU
+	THROWIFNOT 40
+}
+IF
+LDU 64 ; timestamp msgSlice
+SWAP
+.inline __replay_protection_macro
+LDU 32 ; funcId body
+SWAP
+CALLREF {
+	.inline __public_function_selector
+}
+THROW 60
+
+.macro owner
+DROP
+ENDS
+CALLREF {
+	.inline __c4_to_c7
+}
+GETGLOB 10
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000df0bcfde
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro dex_middleware
+DROP
+ENDS
+CALLREF {
+	.inline __c4_to_c7
+}
+GETGLOB 14
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000e310a8c3
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro _randomNonce
+DROP
+ENDS
+CALLREF {
+	.inline __c4_to_c7
+}
+GETGLOB 15
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000bb53331f
+	NEWC
+	STSLICE
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.globl	EventContractNonce_with_obj__calculateNonce_dc2a9bcf
+.type	EventContractNonce_with_obj__calculateNonce_dc2a9bcf, @function
+.inline __EventContractNonce_with_obj__calculateNonce_dc2a9bcf_macro
+
+.macro EventContractNonce_with_obj__calculateNonce_dc2a9bcf_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 16
+NEWC
+OVER
+UNTUPLE 4
+REVERSE 5, 0
+SWAP
+UNTUPLE 5
+REVERSE 6, 0
+STU 256
+STU 32
+STREF
+STU 32
+STU 256
+ROLLREV 3
+NEWC
+STSLICE
+ROTREV
+NEWC
+STSLICE
+STU 32
+STBREFR
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 18
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_no_obj__calculateNonce_dc2a9bcf
+.type	EventContractNonce_no_obj__calculateNonce_dc2a9bcf, @function
+.inline __EventContractNonce_no_obj__calculateNonce_dc2a9bcf_macro
+
+.macro EventContractNonce_no_obj__calculateNonce_dc2a9bcf_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 16
+NEWC
+SWAP
+UNTUPLE 4
+REVERSE 5, 0
+SWAP
+UNTUPLE 5
+REVERSE 6, 0
+STU 256
+STU 32
+STREF
+STU 32
+STU 256
+ROLLREV 3
+NEWC
+STSLICE
+ROTREV
+NEWC
+STSLICE
+STU 32
+STBREFR
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 18
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_with_obj__calculateNonce_f285340b
+.type	EventContractNonce_with_obj__calculateNonce_f285340b, @function
+.inline __EventContractNonce_with_obj__calculateNonce_f285340b_macro
+
+.macro EventContractNonce_with_obj__calculateNonce_f285340b_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 24
+NEWC
+OVER
+UNTRIPLE
+REVERSE 4, 0
+SWAP
+UNTRIPLE
+REVERSE 4, 0
+STU 64
+STU 32
+STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 26
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_no_obj__calculateNonce_f285340b
+.type	EventContractNonce_no_obj__calculateNonce_f285340b, @function
+.inline __EventContractNonce_no_obj__calculateNonce_f285340b_macro
+
+.macro EventContractNonce_no_obj__calculateNonce_f285340b_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 24
+NEWC
+SWAP
+UNTRIPLE
+REVERSE 4, 0
+SWAP
+UNTRIPLE
+REVERSE 4, 0
+STU 64
+STU 32
+STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 26
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_with_obj__calculateNonce_59df1c52
+.type	EventContractNonce_with_obj__calculateNonce_59df1c52, @function
+.inline __EventContractNonce_with_obj__calculateNonce_59df1c52_macro
+
+.macro EventContractNonce_with_obj__calculateNonce_59df1c52_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 32
+NEWC
+OVER
+UNTRIPLE
+REVERSE 4, 0
+SWAP
+UNTUPLE 5
+REVERSE 6, 0
+STU 128
+STU 64
+STU 64
+STREF
+STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 34
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_no_obj__calculateNonce_59df1c52
+.type	EventContractNonce_no_obj__calculateNonce_59df1c52, @function
+.inline __EventContractNonce_no_obj__calculateNonce_59df1c52_macro
+
+.macro EventContractNonce_no_obj__calculateNonce_59df1c52_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 32
+NEWC
+SWAP
+UNTRIPLE
+REVERSE 4, 0
+SWAP
+UNTUPLE 5
+REVERSE 6, 0
+STU 128
+STU 64
+STU 64
+STREF
+STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 34
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_with_obj__calculateNonce_87dda8df
+.type	EventContractNonce_with_obj__calculateNonce_87dda8df, @function
+.inline __EventContractNonce_with_obj__calculateNonce_87dda8df_macro
+
+.macro EventContractNonce_with_obj__calculateNonce_87dda8df_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 40
+NEWC
+OVER
+UNTRIPLE
+REVERSE 4, 0
+SWAP
+UNTUPLE 6
+REVERSE 7, 0
+STU 64
+STU 32
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+STI 1
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 42
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	EventContractNonce_no_obj__calculateNonce_87dda8df
+.type	EventContractNonce_no_obj__calculateNonce_87dda8df, @function
+.inline __EventContractNonce_no_obj__calculateNonce_87dda8df_macro
+
+.macro EventContractNonce_no_obj__calculateNonce_87dda8df_macro
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 40
+NEWC
+SWAP
+UNTRIPLE
+REVERSE 4, 0
+SWAP
+UNTUPLE 6
+REVERSE 7, 0
+STU 64
+STU 32
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+STI 1
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+ENDC
+HASHCU
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 42
+PUSHPOW2DEC 32
+MOD
+UFITS 32
+.loc contracts/bridge/libraries/EventContractNonce.tsol, 0
+
+.globl	JettonUtils_with_obj_buildMinterMetadata_b9540be5
+.type	JettonUtils_with_obj_buildMinterMetadata_b9540be5, @function
+.inline __JettonUtils_with_obj_buildMinterMetadata_b9540be5_macro
+
+.macro JettonUtils_with_obj_buildMinterMetadata_b9540be5_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 23
+PUSH S4
+NEWC
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 24
+ROLL 4
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 25
+ROLL 3
+STUR 8
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 26
+XCHG S1, S2
+STU 256
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 27
+STU 256
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 29
+ENDC
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_buildMinterMetadata_b9540be5
+.type	JettonUtils_no_obj_buildMinterMetadata_b9540be5, @function
+.inline __JettonUtils_no_obj_buildMinterMetadata_b9540be5_macro
+
+.macro JettonUtils_no_obj_buildMinterMetadata_b9540be5_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 23
+ROLL 4
+NEWC
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 24
+ROLL 4
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 25
+ROLL 3
+STUR 8
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 26
+XCHG S1, S2
+STU 256
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 27
+STU 256
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 29
+ENDC
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_buildMinterStateInit_fecab881
+.type	JettonUtils_with_obj_buildMinterStateInit_fecab881, @function
+.inline __JettonUtils_with_obj_buildMinterStateInit_fecab881_macro
+
+.macro JettonUtils_with_obj_buildMinterStateInit_fecab881_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 43
+NEWC
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 45
+STSLICECONST x0
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 46
+PUSH S9
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 47
+ROLL 3
+BLKSWAP 4, 4
+XCHG S4, S8
+CALLREF {
+	.inline __JettonUtils_no_obj_buildMinterMetadata_b9540be5_macro
+}
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 56
+ROLL 3
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 57
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 58
+STSLICECONST x00000001
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 60
+ENDC
+SWAP
+NEWC
+STSLICECONST x2_
+STDICT
+STDICT
+STZERO
+ENDC
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_buildMinterStateInit_fecab881
+.type	JettonUtils_no_obj_buildMinterStateInit_fecab881, @function
+.inline __JettonUtils_no_obj_buildMinterStateInit_fecab881_macro
+
+.macro JettonUtils_no_obj_buildMinterStateInit_fecab881_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 43
+NEWC
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 45
+STSLICECONST x0
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 46
+ROLL 9
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 47
+ROLL 3
+BLKSWAP 4, 4
+XCHG S4, S8
+CALLREF {
+	.inline __JettonUtils_no_obj_buildMinterMetadata_b9540be5_macro
+}
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 56
+ROLL 3
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 57
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 58
+STSLICECONST x00000001
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 60
+ENDC
+SWAP
+NEWC
+STSLICECONST x2_
+STDICT
+STDICT
+STZERO
+ENDC
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_deployMinter_6a5e1d19
+.type	JettonUtils_with_obj_deployMinter_6a5e1d19, @function
+.inline __JettonUtils_with_obj_deployMinter_6a5e1d19_macro
+
+.macro JettonUtils_with_obj_deployMinter_6a5e1d19_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 77
+PUSH S11
+BLKSWAP 8, 4
+CALLREF {
+	.inline __JettonUtils_no_obj_buildMinterStateInit_fecab881_macro
+}
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 88
+DUP
+HASHCU
+NEWC
+STSLICECONST x801_
+STU 256
+ENDC
+CTOS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 90
+ROLL 4
+OVER
+ROLL 4
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 3
+STUR 107
+ROT
+DUP
+CALLREF {
+	CTOS
+	LDI 1
+	SWAP
+	PUSHCONT {
+		LDI 5
+		NIP
+	}
+	IF
+	LDI 1
+	SWAP
+	PUSHCONT {
+		LDI 2
+		NIP
+	}
+	IF
+	LDDICT
+	LDDICT
+	LDDICT
+	ENDS
+	BLKDROP 3
+}
+STREFR
+STSLICECONST 0
+ENDC
+ROT
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_deployMinter_6a5e1d19
+.type	JettonUtils_no_obj_deployMinter_6a5e1d19, @function
+.inline __JettonUtils_no_obj_deployMinter_6a5e1d19_macro
+
+.macro JettonUtils_no_obj_deployMinter_6a5e1d19_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 77
+BLKSWAP 9, 3
+CALLREF {
+	.inline __JettonUtils_no_obj_buildMinterStateInit_fecab881_macro
+}
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 88
+DUP
+HASHCU
+NEWC
+STSLICECONST x801_
+STU 256
+ENDC
+CTOS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 90
+ROLL 4
+OVER
+ROLL 4
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 3
+STUR 107
+ROT
+DUP
+CALLREF {
+	CTOS
+	LDI 1
+	SWAP
+	PUSHCONT {
+		LDI 5
+		NIP
+	}
+	IF
+	LDI 1
+	SWAP
+	PUSHCONT {
+		LDI 2
+		NIP
+	}
+	IF
+	LDDICT
+	LDDICT
+	LDDICT
+	ENDS
+	BLKDROP 3
+}
+STREFR
+STSLICECONST 0
+ENDC
+ROT
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_walletOf_82b511c3
+.type	JettonUtils_with_obj_walletOf_82b511c3, @function
+.inline __JettonUtils_with_obj_walletOf_82b511c3_macro
+
+.macro JettonUtils_with_obj_walletOf_82b511c3_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 111
+NEWC
+STSLICECONST x2c76b973
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 112
+ROLL 6
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 113
+ROLL 5
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 114
+ROLL 4
+SWAP
+STI 1
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 116
+ROLL 3
+PUSH S4
+ROLL 3
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_walletOf_82b511c3
+.type	JettonUtils_no_obj_walletOf_82b511c3, @function
+.inline __JettonUtils_no_obj_walletOf_82b511c3_macro
+
+.macro JettonUtils_no_obj_walletOf_82b511c3_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 111
+NEWC
+STSLICECONST x2c76b973
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 112
+ROLL 6
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 113
+ROLL 5
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 114
+ROLL 4
+SWAP
+STI 1
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 116
+ROTREV
+REVERSE 4, 1
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_getInfo_a0efedd9
+.type	JettonUtils_with_obj_getInfo_a0efedd9, @function
+.inline __JettonUtils_with_obj_getInfo_a0efedd9_macro
+
+.macro JettonUtils_with_obj_getInfo_a0efedd9_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 133
+NEWC
+STSLICECONST x13e5c11a
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 134
+ROLL 4
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 136
+ROLL 3
+PUSH S4
+ROLL 3
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_getInfo_a0efedd9
+.type	JettonUtils_no_obj_getInfo_a0efedd9, @function
+.inline __JettonUtils_no_obj_getInfo_a0efedd9_macro
+
+.macro JettonUtils_no_obj_getInfo_a0efedd9_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 133
+NEWC
+STSLICECONST x13e5c11a
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 134
+ROLL 4
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 136
+ROTREV
+REVERSE 4, 1
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_mint_629e0af5
+.type	JettonUtils_with_obj_mint_629e0af5, @function
+.inline __JettonUtils_with_obj_mint_629e0af5_macro
+
+.macro JettonUtils_with_obj_mint_629e0af5_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 159
+NEWC
+STSLICECONST x178d4519
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 160
+PUSH S10
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 161
+ROLL 8
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 162
+MYADDR
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 163
+ROLL 4
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 164
+ROLL 5
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 165
+ROLL 4
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 169
+NEWC
+STSLICECONST x00000015
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 170
+ROLL 7
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 171
+ROLL 6
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 172
+ROLL 5
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 173
+SWAP
+ENDC
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 175
+ROLL 3
+PUSH S4
+ROLL 3
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_mint_629e0af5
+.type	JettonUtils_no_obj_mint_629e0af5, @function
+.inline __JettonUtils_no_obj_mint_629e0af5_macro
+
+.macro JettonUtils_no_obj_mint_629e0af5_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 159
+NEWC
+STSLICECONST x178d4519
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 160
+PUSH S10
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 161
+ROLL 8
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 162
+MYADDR
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 163
+ROLL 4
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 164
+ROLL 5
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 165
+ROLL 4
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 169
+NEWC
+STSLICECONST x00000015
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 170
+ROLL 7
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 171
+ROLL 6
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 172
+ROLL 5
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 173
+SWAP
+ENDC
+SWAP
+STREF
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 175
+ROTREV
+REVERSE 4, 1
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_transferJettons_bbd7a0e3
+.type	JettonUtils_with_obj_transferJettons_bbd7a0e3, @function
+.inline __JettonUtils_with_obj_transferJettons_bbd7a0e3_macro
+
+.macro JettonUtils_with_obj_transferJettons_bbd7a0e3_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 198
+NEWC
+STSLICECONST x0f8a7ea5
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 199
+ROLL 9
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 200
+ROLL 7
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 201
+ROLL 7
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 202
+ROLL 4
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 203
+NULL
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 204
+ROLL 5
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 205
+ROLL 4
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 207
+ROLL 3
+PUSH S4
+ROLL 3
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_transferJettons_bbd7a0e3
+.type	JettonUtils_no_obj_transferJettons_bbd7a0e3, @function
+.inline __JettonUtils_no_obj_transferJettons_bbd7a0e3_macro
+
+.macro JettonUtils_no_obj_transferJettons_bbd7a0e3_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 198
+NEWC
+STSLICECONST x0f8a7ea5
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 199
+ROLL 9
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 200
+ROLL 7
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 201
+ROLL 7
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 202
+ROLL 4
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 203
+NULL
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 204
+ROLL 5
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 205
+ROLL 4
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 207
+ROTREV
+REVERSE 4, 1
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_with_obj_burn_8e1adc88
+.type	JettonUtils_with_obj_burn_8e1adc88, @function
+.inline __JettonUtils_with_obj_burn_8e1adc88_macro
+
+.macro JettonUtils_with_obj_burn_8e1adc88_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 227
+NEWC
+STSLICECONST x595f07bc
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 228
+ROLL 7
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 229
+ROLL 6
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 230
+ROLL 5
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 231
+ROLL 4
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 233
+ROLL 3
+PUSH S4
+ROLL 3
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.globl	JettonUtils_no_obj_burn_8e1adc88
+.type	JettonUtils_no_obj_burn_8e1adc88, @function
+.inline __JettonUtils_no_obj_burn_8e1adc88_macro
+
+.macro JettonUtils_no_obj_burn_8e1adc88_macro
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 227
+NEWC
+STSLICECONST x595f07bc
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 228
+ROLL 7
+STUR 64
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 229
+ROLL 6
+STGRAMS
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 230
+ROLL 5
+STSLICER
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 231
+ROLL 4
+SWAP
+STDICT
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 233
+ROTREV
+REVERSE 4, 1
+NEWC
+STSLICECONST x6_
+STI 1
+STSLICECONST x1_
+STSLICE
+SWAP
+STGRAMS
+PUSHINT 1
+STUR 107
+STBREF
+ENDC
+SWAP
+SENDRAWMSG
+.loc contracts/utils/jetton/libraries/JettonUtils.tsol, 0
+
+.macro public_function_selector
+DUP
+PUSHINT 388172858
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 8128367
+	EQUAL
+	IFJMPREF {
+		.inline __apiVersion
+	}
+	DUP
+	PUSHINT 222744783
+	EQUAL
+	IFJMPREF {
+		.inline __onEventConfirmedExtended
+	}
+	DUP
+	PUSHINT 235197086
+	EQUAL
+	IFJMPREF {
+		.inline __transferOwnership
+	}
+	DUP
+	PUSHINT 388172858
+	EQUAL
+	IFJMPREF {
+		.inline __upgrade
+	}
+}
+DUP
+PUSHINT 1196840156
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 409200220
+	EQUAL
+	IFJMPREF {
+		.inline __setSolanaConfiguration
+	}
+	DUP
+	PUSHINT 840806344
+	EQUAL
+	IFJMPREF {
+		.inline __setEVMConfiguration
+	}
+	DUP
+	PUSHINT 995308319
+	EQUAL
+	IFJMPREF {
+		.inline ___randomNonce
+	}
+	DUP
+	PUSHINT 1196840156
+	EQUAL
+	IFJMPREF {
+		.inline __constructor
+	}
+}
+DUP
+PUSHINT 1729444094
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 1594609630
+	EQUAL
+	IFJMPREF {
+		.inline __owner
+	}
+	DUP
+	PUSHINT 1662036163
+	EQUAL
+	IFJMPREF {
+		.inline __dex_middleware
+	}
+	DUP
+	PUSHINT 1721145508
+	EQUAL
+	IFJMPREF {
+		.inline __getConfiguration
+	}
+	DUP
+	PUSHINT 1729444094
+	EQUAL
+	IFJMPREF {
+		.inline __renounceOwnership
+	}
+}
+DUP
+PUSHINT 2144238365
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 1935855772
+	EQUAL
+	IFJMPREF {
+		.inline __transferNotification
+	}
+	DUP
+	PUSHINT 2144238365
+	EQUAL
+	IFJMPREF {
+		.inline __setDexMiddleware
+	}
+}
+

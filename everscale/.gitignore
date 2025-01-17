@@ -3,7 +3,4 @@ node_modules
 
 # Locklift files
 /.cache
-/build/*.code
-/build/*.base64
-/build/*.tvc
-/build/*.map.json
+/build
