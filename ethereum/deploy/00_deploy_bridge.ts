@@ -36,7 +36,7 @@ const func: DeployFunction = async function ({
         args: [
           owner, // Bridge owner
           roundSubmitter, // Round submitter
-          7, // Minimum required signatures
+          Math.floor((initialRelays.length * 2) / 3) + 1, // Minimum required signatures
           week * 2, // Initial round end, 2 weeks
           0, // Initial round number
           initialRoundEnd, // Initial round end, after 1 week
