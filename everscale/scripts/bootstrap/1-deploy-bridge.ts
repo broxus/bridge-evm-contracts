@@ -20,11 +20,15 @@ const TIME_BEFORE_SET_RELAYS = 60 * 60 * 24 * 4; // 4 days
 // Min delta between next round start and current election end
 const MIN_ROUND_GAP_TIME = 60; // 1 minute
 
-const STAKING_CHAIN_ID = 56;
-const ETH_STAKING_RELAY_VERIFIER = "0x1C132e9a529b93393c260b38d6DE53d96Cd4f78e";
-const ETH_STAKING_START_BLOCK = 44581226;
-const ETH_STAKING_PROXY = "0x6Ff70682DCff11A696e94e99d9cf60b1d78a72e5";
-const ETH_STAKING_START_TIMESTAMP = 1733324541;
+const STAKING_CHAIN_IDS = [56, 1];
+const ETH_STAKING_RELAY_VERIFIER = "0xff2BBA54912d1C4Fbaa69dA4f788F68e4E9f2A3A";
+const ETH_STAKING_START_BLOCK: Record<number, number> = {
+  1: 21681098,
+  56: 45993489,
+  43114: 42800893,
+};
+const ETH_STAKING_PROXY = "0x457ce30424229411097262c2A3A7f6Bc58BDf284";
+const ETH_STAKING_START_TIMESTAMP = 1737561772;
 
 const setupStakingParams = async (staking: Contract<RoundDeployerAbi>, admin: Account): Promise<void> => {
   const platformArtifacts = locklift.factory.getContractArtifacts("Platform");
@@ -186,7 +190,7 @@ const deployStakingConfigurations = async (
   ethEverEventConfigFactory: Contract<EthereumEverscaleEventConfigurationFactoryAbi>,
   everEthEventConfigFactory: Contract<EverscaleEthereumEventConfigurationFactoryAbi>,
 ): Promise<{
-  stakingEthEverConfig: Contract<EthereumEverscaleEventConfigurationAbi>,
+  stakingEthEverConfigs: Record<number, Contract<EthereumEverscaleEventConfigurationAbi>>,
   stakingEverEthConfig: Contract<EverscaleEthereumEventConfigurationAbi>,
 }> => {
   const stakingEthEventAbi = {
@@ -200,44 +204,50 @@ const deployStakingConfigurations = async (
     type: "event",
   };
 
-  const stakingEthEverConfiguration = {
-    _owner: admin.address,
-    _flags: 0,
-    basicConfiguration: {
-      eventABI: Buffer.from(JSON.stringify(stakingEthEventAbi)).toString("base64"),
-      eventCode: locklift.factory.getContractArtifacts("RoundEthereumEverscaleEvent").code,
-      roundDeployer: staking.address,
-      eventInitialBalance: toNano(1),
-    },
-    networkConfiguration: {
-      chainId: STAKING_CHAIN_ID,
-      eventEmitter: new BigNumber(ETH_STAKING_RELAY_VERIFIER.toLowerCase(), 16).toString(10),
-      eventBlocksToConfirm: 30,
-      proxy: staking.address,
-      startBlockNumber: ETH_STAKING_START_BLOCK,
-      endBlockNumber: 0,
-    },
-  };
+  const stakingEthEverConfigs: Record<number, Contract<EthereumEverscaleEventConfigurationAbi>> = {};
 
-  await locklift.tracing.trace(
-    ethEverEventConfigFactory.methods
-      .deploy(stakingEthEverConfiguration)
-      .send({
-        from: admin.address,
-        amount: toNano(2),
-        bounce: true,
-      }),
-  );
+  for (const chainId of STAKING_CHAIN_IDS) {
+    const stakingEthEverConfiguration = {
+      _owner: admin.address,
+      _flags: 0,
+      basicConfiguration: {
+        eventABI: Buffer.from(JSON.stringify(stakingEthEventAbi)).toString("base64"),
+        eventCode: locklift.factory.getContractArtifacts("RoundEthereumEverscaleEvent").code,
+        roundDeployer: staking.address,
+        eventInitialBalance: toNano(1),
+      },
+      networkConfiguration: {
+        chainId: chainId,
+        eventEmitter: new BigNumber(ETH_STAKING_RELAY_VERIFIER.toLowerCase(), 16).toString(10),
+        eventBlocksToConfirm: 30,
+        proxy: staking.address,
+        startBlockNumber: ETH_STAKING_START_BLOCK[chainId],
+        endBlockNumber: 0,
+      },
+    };
 
-  const stakingEthEverConfig = await ethEverEventConfigFactory.methods
-    .deriveConfigurationAddress({
-      basicConfiguration: stakingEthEverConfiguration.basicConfiguration,
-      networkConfiguration: stakingEthEverConfiguration.networkConfiguration,
-    })
-    .call()
-    .then((r) => locklift.factory.getDeployedContract("EthereumEverscaleEventConfiguration", r.value0));
+    await locklift.tracing.trace(
+        ethEverEventConfigFactory.methods
+            .deploy(stakingEthEverConfiguration)
+            .send({
+              from: admin.address,
+              amount: toNano(2),
+              bounce: true,
+            }),
+    );
 
-  console.log(`EthereumEverscaleEventConfiguration: ${stakingEthEverConfig.address}`);
+    const stakingEthEverConfig = await ethEverEventConfigFactory.methods
+        .deriveConfigurationAddress({
+          basicConfiguration: stakingEthEverConfiguration.basicConfiguration,
+          networkConfiguration: stakingEthEverConfiguration.networkConfiguration,
+        })
+        .call()
+        .then((r) => locklift.factory.getDeployedContract("EthereumEverscaleEventConfiguration", r.value0));
+
+    stakingEthEverConfigs[chainId] = stakingEthEverConfig;
+
+    console.log(`EthereumEverscaleEventConfiguration (${chainId}): ${stakingEthEverConfig.address}`);
+  }
 
   const stakingEverEventAbi = [
     { name: "round_num", type: "uint32" },
@@ -283,7 +293,7 @@ const deployStakingConfigurations = async (
   console.log(`EverscaleEthereumEventConfiguration: ${stakingEverEthConfig.address}`);
 
   return {
-    stakingEthEverConfig,
+    stakingEthEverConfigs,
     stakingEverEthConfig,
   };
 };
@@ -392,7 +402,7 @@ const main = async (): Promise<void> => {
   console.log(`CellEncoderStandalone: ${cellEncoder.address}`);
 
   const {
-    stakingEthEverConfig,
+    stakingEthEverConfigs,
     stakingEverEthConfig,
   } = await deployStakingConfigurations(
     admin,
@@ -401,7 +411,7 @@ const main = async (): Promise<void> => {
     everEthEventConfigFactory,
   );
 
-  await deployConnectors(admin, bridge, [stakingEthEverConfig, stakingEverEthConfig] as never);
+  await deployConnectors(admin, bridge, [Object.values(stakingEthEverConfigs), stakingEverEthConfig] as never);
 
   await locklift.tracing.trace(
     staking.methods
