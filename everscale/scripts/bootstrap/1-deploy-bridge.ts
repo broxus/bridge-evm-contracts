@@ -411,7 +411,7 @@ const main = async (): Promise<void> => {
     everEthEventConfigFactory,
   );
 
-  await deployConnectors(admin, bridge, [Object.values(stakingEthEverConfigs), stakingEverEthConfig] as never);
+  await deployConnectors(admin, bridge, [...Object.values(stakingEthEverConfigs), stakingEverEthConfig] as never);
 
   await locklift.tracing.trace(
     staking.methods
