@@ -14,13 +14,13 @@ import {
 import { JettonMinter } from '../../test/utils/jetton';
 
 const RELAYS_COUNT = 3;
-const RELAY_ROUND_TIME = 60 * 60 * 24 * 30; // 1 month
+const RELAY_ROUND_TIME = 60 * 60 * 24 * 30 * 3; // 3 month
 // Time before the election after round starts
-const TIME_BEFORE_SET_RELAYS = 60 * 60 * 24 * 4; // 4 days
+const TIME_BEFORE_SET_RELAYS = 60 * 60 * 24 * 7; // 7 days
 // Min delta between next round start and current election end
 const MIN_ROUND_GAP_TIME = 60; // 1 minute
 
-const STAKING_CHAIN_IDS = [56, 1];
+const STAKING_CHAIN_IDS = [56, 1, 43114];
 const ETH_STAKING_RELAY_VERIFIER = "0xff2BBA54912d1C4Fbaa69dA4f788F68e4E9f2A3A";
 const ETH_STAKING_START_BLOCK: Record<number, number> = {
   1: 21681098,
@@ -34,16 +34,16 @@ const setupStakingParams = async (staking: Contract<RoundDeployerAbi>, admin: Ac
   const platformArtifacts = locklift.factory.getContractArtifacts("Platform");
 
   await locklift.tracing.trace(
-    staking.methods
-      .installPlatformOnce({
-        code: platformArtifacts.code,
-        send_gas_to: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: locklift.utils.toNano(11),
-        bounce: true,
-      }),
+      staking.methods
+          .installPlatformOnce({
+            code: platformArtifacts.code,
+            send_gas_to: admin.address,
+          })
+          .send({
+            from: admin.address,
+            amount: locklift.utils.toNano(11),
+            bounce: true,
+          }),
   );
 
   console.log(`Set platform code to staking. Code hash: ${platformArtifacts.codeHash}`);
@@ -51,36 +51,36 @@ const setupStakingParams = async (staking: Contract<RoundDeployerAbi>, admin: Ac
   const relayRoundArtifacts = locklift.factory.getContractArtifacts("RelayRound");
 
   await locklift.tracing.trace(
-    staking.methods
-      .installOrUpdateRelayRoundCode({
-        code: relayRoundArtifacts.code,
-        send_gas_to: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: locklift.utils.toNano(11),
-        bounce: true,
-      }),
+      staking.methods
+          .installOrUpdateRelayRoundCode({
+            code: relayRoundArtifacts.code,
+            send_gas_to: admin.address,
+          })
+          .send({
+            from: admin.address,
+            amount: locklift.utils.toNano(11),
+            bounce: true,
+          }),
   );
 
   console.log(`Set relay round code to staking. Code hash: ${relayRoundArtifacts.codeHash}`);
 
   await locklift.tracing.trace(
-    staking.methods
-      .setRelayConfig({
-        new_relay_config: {
-          minRelaysCount: RELAYS_COUNT,
-          relayRoundTime: RELAY_ROUND_TIME,
-          timeBeforeSetRelays: TIME_BEFORE_SET_RELAYS,
-          minRoundGapTime: MIN_ROUND_GAP_TIME,
-        },
-        send_gas_to: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: locklift.utils.toNano(11),
-        bounce: true,
-      }),
+      staking.methods
+          .setRelayConfig({
+            new_relay_config: {
+              minRelaysCount: RELAYS_COUNT,
+              relayRoundTime: RELAY_ROUND_TIME,
+              timeBeforeSetRelays: TIME_BEFORE_SET_RELAYS,
+              minRoundGapTime: MIN_ROUND_GAP_TIME,
+            },
+            send_gas_to: admin.address,
+          })
+          .send({
+            from: admin.address,
+            amount: locklift.utils.toNano(11),
+            bounce: true,
+          }),
   );
 
   console.log("Set relay config to staking");
@@ -132,43 +132,43 @@ const deployMultiVaults = async (admin: Account, signer: Signer): Promise<void> 
   console.log(`ProxyMultiVaultAlien: ${proxyAlien.address}`);
 
   await locklift.tracing.trace(
-    proxyAlien.methods
-      .setMergePoolPlatform({
-        _mergePoolPlatform: locklift.factory.getContractArtifacts("MergePoolPlatform").code,
-      })
-      .send({
-        from: admin.address,
-        amount: toNano(0.5),
-        bounce: true,
-      })
+      proxyAlien.methods
+          .setMergePoolPlatform({
+            _mergePoolPlatform: locklift.factory.getContractArtifacts("MergePoolPlatform").code,
+          })
+          .send({
+            from: admin.address,
+            amount: toNano(0.5),
+            bounce: true,
+          })
   );
 
   console.log(`Set merge pool platform code to alien proxy. Code hash: ${locklift.factory.getContractArtifacts("MergePoolPlatform").codeHash}`);
 
   await locklift.tracing.trace(
-    proxyAlien.methods
-      .setMergePool({
-        _mergePool: locklift.factory.getContractArtifacts("MergePool").code,
-      })
-      .send({
-        from: admin.address,
-        amount: toNano(0.5),
-        bounce: true,
-      })
+      proxyAlien.methods
+          .setMergePool({
+            _mergePool: locklift.factory.getContractArtifacts("MergePool").code,
+          })
+          .send({
+            from: admin.address,
+            amount: toNano(0.5),
+            bounce: true,
+          })
   );
 
   console.log(`Set merge pool code to alien proxy. Code hash: ${locklift.factory.getContractArtifacts("MergePool").codeHash}`);
 
   await locklift.tracing.trace(
-    proxyAlien.methods
-      .setMergeRouter({
-        _mergeRouter: locklift.factory.getContractArtifacts("MergeRouter").code,
-      })
-      .send({
-        from: admin.address,
-        amount: toNano(0.5),
-        bounce: true,
-      })
+      proxyAlien.methods
+          .setMergeRouter({
+            _mergeRouter: locklift.factory.getContractArtifacts("MergeRouter").code,
+          })
+          .send({
+            from: admin.address,
+            amount: toNano(0.5),
+            bounce: true,
+          })
   );
 
   console.log(`Set merge router to alien proxy. Code hash: ${locklift.factory.getContractArtifacts("MergeRouter").codeHash}`);
@@ -185,10 +185,10 @@ const deployMultiVaults = async (admin: Account, signer: Signer): Promise<void> 
 };
 
 const deployStakingConfigurations = async (
-  admin: Account,
-  staking: Contract<RoundDeployerAbi>,
-  ethEverEventConfigFactory: Contract<EthereumEverscaleEventConfigurationFactoryAbi>,
-  everEthEventConfigFactory: Contract<EverscaleEthereumEventConfigurationFactoryAbi>,
+    admin: Account,
+    staking: Contract<RoundDeployerAbi>,
+    ethEverEventConfigFactory: Contract<EthereumEverscaleEventConfigurationFactoryAbi>,
+    everEthEventConfigFactory: Contract<EverscaleEthereumEventConfigurationFactoryAbi>,
 ): Promise<{
   stakingEthEverConfigs: Record<number, Contract<EthereumEverscaleEventConfigurationAbi>>,
   stakingEverEthConfig: Contract<EverscaleEthereumEventConfigurationAbi>,
@@ -273,22 +273,22 @@ const deployStakingConfigurations = async (
   };
 
   await locklift.tracing.trace(
-    everEthEventConfigFactory.methods
-      .deploy(stakingEverEthConfiguration)
-      .send({
-        from: admin.address,
-        amount: toNano(2),
-        bounce: true,
-      }),
+      everEthEventConfigFactory.methods
+          .deploy(stakingEverEthConfiguration)
+          .send({
+            from: admin.address,
+            amount: toNano(2),
+            bounce: true,
+          }),
   );
 
   const stakingEverEthConfig = await everEthEventConfigFactory.methods
-    .deriveConfigurationAddress({
-      basicConfiguration: stakingEverEthConfiguration.basicConfiguration,
-      networkConfiguration: stakingEverEthConfiguration.networkConfiguration,
-    })
-    .call()
-    .then((r) => locklift.factory.getDeployedContract("EverscaleEthereumEventConfiguration", r.value0));
+      .deriveConfigurationAddress({
+        basicConfiguration: stakingEverEthConfiguration.basicConfiguration,
+        networkConfiguration: stakingEverEthConfiguration.networkConfiguration,
+      })
+      .call()
+      .then((r) => locklift.factory.getDeployedContract("EverscaleEthereumEventConfiguration", r.value0));
 
   console.log(`EverscaleEthereumEventConfiguration: ${stakingEverEthConfig.address}`);
 
@@ -299,34 +299,36 @@ const deployStakingConfigurations = async (
 };
 
 const deployConnectors = async (
-  admin: Account,
-  bridge: Contract<BridgeAbi>,
-  configurations: Contract<EthereumEverscaleEventConfigurationAbi | EverscaleEthereumEventConfigurationAbi>[],
+    admin: Account,
+    bridge: Contract<BridgeAbi>,
+    configurations: Contract<EthereumEverscaleEventConfigurationAbi | EverscaleEthereumEventConfigurationAbi>[],
 ): Promise<void> => {
+
   for (const configuration of configurations) {
+
     const { traceTree: ttConnector } = await locklift.tracing.trace(
-      bridge.methods
-        .deployConnector({ _eventConfiguration: configuration.address })
-        .send({
-          from: admin.address,
-          amount: toNano(2),
-          bounce: true,
-        }),
+        bridge.methods
+            .deployConnector({ _eventConfiguration: configuration.address })
+            .send({
+              from: admin.address,
+              amount: toNano(2),
+              bounce: true,
+            }),
     );
 
     const connector = locklift.factory.getDeployedContract(
-      "Connector",
-      ttConnector!.findEventsForContract({ contract: bridge, name: "ConnectorDeployed" as const })[0].connector,
+        "Connector",
+        ttConnector!.findEventsForContract({ contract: bridge, name: "ConnectorDeployed" as const })[0].connector,
     );
 
     await locklift.tracing.trace(
-      connector.methods
-        .enable({})
-        .send({
-          from: admin.address,
-          amount: toNano(0.5),
-          bounce: true,
-        }),
+        connector.methods
+            .enable({})
+            .send({
+              from: admin.address,
+              amount: toNano(0.5),
+              bounce: true,
+            }),
     );
 
     console.log(`${configuration.address} Connector: ${connector.address}`);
@@ -353,15 +355,15 @@ const main = async (): Promise<void> => {
   console.log(`Bridge token: ${bridgeToken.minter}`);
 
   const { contract: staking } = await locklift.factory.deployContract({
-      contract: "RoundDeployer",
-      constructorParams: {
-        _admin: admin.address,
-        _bridge_event_config_ton_sol: zeroAddress,
-        _bridge_event_config_ton_eth: zeroAddress,
-      },
-      initParams: { deploy_nonce: getRandomNonce() },
-      publicKey: signer.publicKey,
-      value: locklift.utils.toNano(3),
+    contract: "RoundDeployer",
+    constructorParams: {
+      _admin: admin.address,
+      _bridge_event_config_ton_sol: zeroAddress,
+      _bridge_event_config_ton_eth: zeroAddress,
+    },
+    initParams: { deploy_nonce: getRandomNonce() },
+    publicKey: signer.publicKey,
+    value: locklift.utils.toNano(3),
   });
 
   console.log(`Staking: ${staking.address}`);
@@ -405,40 +407,40 @@ const main = async (): Promise<void> => {
     stakingEthEverConfigs,
     stakingEverEthConfig,
   } = await deployStakingConfigurations(
-    admin,
-    staking,
-    ethEverEventConfigFactory,
-    everEthEventConfigFactory,
+      admin,
+      staking,
+      ethEverEventConfigFactory,
+      everEthEventConfigFactory,
   );
 
   await deployConnectors(admin, bridge, [...Object.values(stakingEthEverConfigs), stakingEverEthConfig] as never);
 
   await locklift.tracing.trace(
-    staking.methods
-      .setBridgeEventTonEthConfig({
-        new_bridge_event_config_ton_eth: stakingEverEthConfig.address,
-        send_gas_to: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: toNano(11),
-        bounce: true
-      }),
+      staking.methods
+          .setBridgeEventTonEthConfig({
+            new_bridge_event_config_ton_eth: stakingEverEthConfig.address,
+            send_gas_to: admin.address,
+          })
+          .send({
+            from: admin.address,
+            amount: toNano(11),
+            bounce: true
+          }),
   );
 
   console.log(`Set ton eth config to staking: ${stakingEverEthConfig.address}`);
 
   await locklift.tracing.trace(
-    staking.methods
-      .setActive({
-        new_active: true,
-        send_gas_to: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: locklift.utils.toNano(11),
-        bounce: true,
-      }),
+      staking.methods
+          .setActive({
+            new_active: true,
+            send_gas_to: admin.address,
+          })
+          .send({
+            from: admin.address,
+            amount: locklift.utils.toNano(11),
+            bounce: true,
+          }),
   );
 
   console.log("Set staking active");

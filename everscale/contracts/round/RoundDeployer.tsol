@@ -21,6 +21,8 @@ contract RoundDeployer is RoundDeployerRelay {
         base_details.admin = _admin;
         bridge_event_config_ton_sol = _bridge_event_config_ton_sol;
 
+        round_details.currentRelayRound = 1;
+
         _admin.transfer({
             value: 0,
             flag: MsgFlag.ALL_NOT_RESERVED + MsgFlag.IGNORE_ERRORS

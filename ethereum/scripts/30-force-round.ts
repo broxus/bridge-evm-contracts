@@ -7,11 +7,11 @@ const main = async () => {
         { from: deployer, log: true },
         'forceRoundRelays',
         [
-            "0x0649e690377a9f317b3590968052ef1718c24e31",
-            "0x85f9738d6ef12a530fdafafe458aa0d93b4edf34",
-            "0x25ef9bfa3700ba40e8509f6b84f27cd2f0c61a9b"
+            "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
+            "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
+            "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f"
         ],
-        '1735583405'
+        '1745373385'
     );
 };
 

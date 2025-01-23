@@ -21,19 +21,15 @@ import "@nomicfoundation/hardhat-verify";
 import { HardhatUserConfig } from "hardhat/config";
 
 const proxyadmin = {
-  // main: '0x5889d26Ad270540E315B028Dd39Ae0ECB3De6179',
-  // polygon: '0x9f6898d5D36e2a4b9A0c6e58A0e86525475f58d7',
-  // bsc: '0xa3CbceE67325bCa03aCCcD06b9121955CCF224C3',
-  // fantom: '0x6dF42fdE8BC7AF2596a450b9af306EA2060Ec8dc',
-  // avalanche: '0x25D28c131461dE91d42495d0DacC603AF3f4Eb33',
+  main: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
+  bsc: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
+  avalanche: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
 };
 
 const multisig = {
-  main: "0x840B3De19e3FAB72fa9A168bD8Dd71B678c57989",
-  polygon: "0x3C85236De762DFF9FDE8A0c796ec2E089fC63Bc7",
-  bsc: "0x3C85236De762DFF9FDE8A0c796ec2E089fC63Bc7",
-  fantom: "0xa30808d1067fb7efFEC06F31b44A24cDC6df1A90",
-  avalanche: "0xdad6133c8fA19f649769220e415Ae5EB408B207c",
+  main: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
+  bsc: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
+  avalanche: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
 };
 
 const weth = {
@@ -44,12 +40,11 @@ const weth = {
   avalanche: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7", // https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7
 };
 
+
 const bridge = {
-  // main: '0xF4404070f63a7E19Be0b1dd89A5fb88E12c0173A',
-  // polygon: '0x62AE18A40Fa81697Fc7d0fe58402af5cAF795e68',
-  // bsc: '0xc25CA21377C5bbC860F0bF48dF685D744A411489',
-  // fantom: '0x9f6898d5D36e2a4b9A0c6e58A0e86525475f58d7',
-  // avalanche: '0x32Be6537F7FD40A919158d94e1C15271bF9855cB'
+  main: '0xe356b80fFF3D253425f8ca030dbfffcf3F1a0ad3',
+  bsc: '0xe356b80fFF3D253425f8ca030dbfffcf3F1a0ad3',
+  avalanche: '0xe356b80fFF3D253425f8ca030dbfffcf3F1a0ad3'
 };
 
 const config: HardhatUserConfig = {
@@ -204,17 +199,7 @@ const config: HardhatUserConfig = {
     },
     main: {
       url: process.env.ETHEREUM_RPC_URL,
-      gasPrice: 70000000000, // 70 gwei
-      gas: 3000000,
-      timeout: 1000000,
-      accounts: {
-        mnemonic: process.env.ETH_MNEMONIC,
-        count: 50,
-      },
-    },
-    polygon: {
-      url: process.env.POLYGON_RPC_URL,
-      gasPrice: 300001000000, // 1.001 gwei
+      gasPrice: 10000000000, // 10 gwei
       gas: 3000000,
       timeout: 1000000,
       accounts: {
@@ -224,17 +209,7 @@ const config: HardhatUserConfig = {
     },
     bsc: {
       url: process.env.BSC_RPC_URL,
-      gasPrice: 5000000000, // 5 gwei
-      gas: 3000000,
-      timeout: 1000000,
-      accounts: {
-        mnemonic: process.env.ETH_MNEMONIC,
-        count: 50,
-      },
-    },
-    fantom: {
-      url: process.env.FANTOM_RPC_URL,
-      gasPrice: 550000000000, // 550 gwei
+      gasPrice: 1500000000, // 1.5 gwei
       gas: 3000000,
       timeout: 1000000,
       accounts: {
@@ -244,17 +219,7 @@ const config: HardhatUserConfig = {
     },
     avalanche: {
       url: process.env.AVALANCHE_RPC_URL,
-      gasPrice: 100000000000, // 100 gwei
-      gas: 3000000,
-      timeout: 1000000,
-      accounts: {
-        mnemonic: process.env.ETH_MNEMONIC,
-        count: 50,
-      },
-    },
-    klaytn: {
-      url: process.env.KLAYTN_RPC_URL,
-      gasPrice: 250000000000,
+      gasPrice: 3500000000, // 3.5 gwei
       gas: 3000000,
       timeout: 1000000,
       accounts: {
@@ -276,35 +241,16 @@ const config: HardhatUserConfig = {
   },
   namedAccounts: {
     multisig: {
-      hardhat: "0xe29B04B9c6712080f79B2dAc5211B18B279D5DE0",
-    },
-    dai_vault: {
-      hardhat: "0x032d06b4cc8a914b85615acd0131c3e0a7330968",
-      0: "0x032d06b4cc8a914b85615acd0131c3e0a7330968",
-    },
-    usdt_vault: {
-      hardhat: "0x81598d5362eac63310e5719315497c5b8980c579",
-      0: "0x81598d5362eac63310e5719315497c5b8980c579",
-    },
-    usdc_vault: {
-      hardhat: "0xf8a0d53ddc6c92c3c59824f380c0f3d2a3cf521c",
-      0: "0xf8a0d53ddc6c92c3c59824f380c0f3d2a3cf521c",
-    },
-    usdt: {
-      hardhat: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-      0: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    },
-    proxy_admin: {
-      hardhat: "0x5889d26Ad270540E315B028Dd39Ae0ECB3De6179",
+      ...multisig,
     },
     deployer: {
-      default: 0,
+      ...multisig,
     },
     guardian: {
-      default: 1,
+      ...multisig,
     },
     management: {
-      default: 2,
+      ...multisig,
     },
     bridge: {
       default: "0x0000000000000000000000000000000000000000",
@@ -315,7 +261,6 @@ const config: HardhatUserConfig = {
       ...proxyadmin,
     },
     owner: {
-      default: 3,
       ...multisig,
     },
     weth: {
@@ -335,100 +280,34 @@ const config: HardhatUserConfig = {
       default: 7,
     },
     roundSubmitter: {
-      default: 8,
-      ropsten: 8,
-      goerli: 8,
       ...multisig,
-    },
-    dai_owner: {
-      default: "0xA929022c9107643515F5c777cE9a910F0D1e490C",
     },
     multivault: {
       default: "0x0000000000000000000000000000000000000000",
-      main: "0x4aB740157721105aE503fbad756a578171512525",
-      polygon: "0x4aB740157721105aE503fbad756a578171512525",
-      bsc: "0x4aB740157721105aE503fbad756a578171512525",
-      fantom: "0x4aB740157721105aE503fbad756a578171512525",
-      avalanche: "0x4aB740157721105aE503fbad756a578171512525",
+      main: "0x457ce30424229411097262c2A3A7f6Bc58BDf284",
+      bsc: "0x457ce30424229411097262c2A3A7f6Bc58BDf284",
+      avalanche: "0x457ce30424229411097262c2A3A7f6Bc58BDf284",
     },
     relay_1: {
-      default: 10,
-      main: "0xf7ae6b7c4a79c3b50b0e0c78aba20980ff49ad1b",
-      polygon: "0xf7ae6b7c4a79c3b50b0e0c78aba20980ff49ad1b",
-      bsc: "0xf7ae6b7c4a79c3b50b0e0c78aba20980ff49ad1b",
-      fantom: "0xf7ae6b7c4a79c3b50b0e0c78aba20980ff49ad1b",
-      avalanche: "0xf7ae6b7c4a79c3b50b0e0c78aba20980ff49ad1b",
+      main: "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
+      bsc: "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
+      avalanche: "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
     },
     relay_2: {
-      default: 11,
-      main: "0x1604ed0441d949df934be628f1ed2b0db2b29437",
-      polygon: "0x1604ed0441d949df934be628f1ed2b0db2b29437",
-      bsc: "0x1604ed0441d949df934be628f1ed2b0db2b29437",
-      fantom: "0x1604ed0441d949df934be628f1ed2b0db2b29437",
-      avalanche: "0x1604ed0441d949df934be628f1ed2b0db2b29437",
+      main: "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
+      bsc: "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
+      avalanche: "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
     },
     relay_3: {
-      default: 12,
-      main: "0xbdd25b57f53d516d73a67578a64958651b6824b4",
-      polygon: "0xbdd25b57f53d516d73a67578a64958651b6824b4",
-      bsc: "0xbdd25b57f53d516d73a67578a64958651b6824b4",
-      fantom: "0xbdd25b57f53d516d73a67578a64958651b6824b4",
-      avalanche: "0xbdd25b57f53d516d73a67578a64958651b6824b4",
-    },
-    relay_4: {
-      default: 13,
-      main: "0xb76e542f664073066e18fa76dc27dbbfefb64ec8",
-      polygon: "0xb76e542f664073066e18fa76dc27dbbfefb64ec8",
-      bsc: "0xb76e542f664073066e18fa76dc27dbbfefb64ec8",
-      fantom: "0xb76e542f664073066e18fa76dc27dbbfefb64ec8",
-      avalanche: "0xb76e542f664073066e18fa76dc27dbbfefb64ec8",
-    },
-    relay_5: {
-      default: 14,
-      main: "0xa2e2f1592e49ff8036e70bd2f3fee63084869e5a",
-      polygon: "0xa2e2f1592e49ff8036e70bd2f3fee63084869e5a",
-      bsc: "0xa2e2f1592e49ff8036e70bd2f3fee63084869e5a",
-      fantom: "0xa2e2f1592e49ff8036e70bd2f3fee63084869e5a",
-      avalanche: "0xa2e2f1592e49ff8036e70bd2f3fee63084869e5a",
-    },
-    relay_6: {
-      default: 15,
-      main: "0xf3f04502c00e7be82c3c3a0782646302729b561f",
-      polygon: "0xf3f04502c00e7be82c3c3a0782646302729b561f",
-      bsc: "0xf3f04502c00e7be82c3c3a0782646302729b561f",
-      fantom: "0xf3f04502c00e7be82c3c3a0782646302729b561f",
-      avalanche: "0xf3f04502c00e7be82c3c3a0782646302729b561f",
-    },
-    relay_7: {
-      default: 16,
-      main: "0x4b54583d919b8e2249df7355fd8c35ba0aadc43d",
-      polygon: "0x4b54583d919b8e2249df7355fd8c35ba0aadc43d",
-      bsc: "0x4b54583d919b8e2249df7355fd8c35ba0aadc43d",
-      fantom: "0x4b54583d919b8e2249df7355fd8c35ba0aadc43d",
-      avalanche: "0x4b54583d919b8e2249df7355fd8c35ba0aadc43d",
-    },
-    relay_8: {
-      default: 17,
-      main: "0xbea46a1ae3fce7e59741a17cfefaf510ec5ded52",
-      polygon: "0xbea46a1ae3fce7e59741a17cfefaf510ec5ded52",
-      bsc: "0xbea46a1ae3fce7e59741a17cfefaf510ec5ded52",
-      fantom: "0xbea46a1ae3fce7e59741a17cfefaf510ec5ded52",
-      avalanche: "0xbea46a1ae3fce7e59741a17cfefaf510ec5ded52",
-    },
-    relay_9: {
-      default: 18,
-      main: "0xdc59cbd3c0ad56e6da03b27bc599c42ce5aa02a9",
-      polygon: "0xdc59cbd3c0ad56e6da03b27bc599c42ce5aa02a9",
-      bsc: "0xdc59cbd3c0ad56e6da03b27bc599c42ce5aa02a9",
-      fantom: "0xdc59cbd3c0ad56e6da03b27bc599c42ce5aa02a9",
-      avalanche: "0xdc59cbd3c0ad56e6da03b27bc599c42ce5aa02a9",
+      main: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
+      bsc: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
+      avalanche: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
     },
     withdrawGuardian: {
-      default: 23,
       ...multisig,
     },
     gasDonor: {
-      default: 24,
+      ...multisig,
     },
   },
 };

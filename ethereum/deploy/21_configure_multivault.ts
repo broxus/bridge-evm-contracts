@@ -26,7 +26,7 @@ const func: DeployFunction = async function ({
       log: true,
     },
     "setDefaultNativeWithdrawFee",
-    200,
+      100,
   );
 
   await deployments.execute(
@@ -36,7 +36,7 @@ const func: DeployFunction = async function ({
       log: true,
     },
     "setDefaultAlienDepositFee",
-    300,
+      100,
   );
 
   await deployments.execute(
@@ -46,7 +46,7 @@ const func: DeployFunction = async function ({
       log: true,
     },
     "setDefaultAlienWithdrawFee",
-    400,
+      100,
   );
 
   await deployments.execute(
@@ -56,7 +56,10 @@ const func: DeployFunction = async function ({
       log: true,
     },
     "setConfigurationAlien",
-    defaultConfiguration,
+      {
+          wid: 0,
+          addr: "9596982276728072944706534558097645686118760608564989067536664306694917587439"
+      },
   );
 
   await deployments.execute(
@@ -66,7 +69,10 @@ const func: DeployFunction = async function ({
       log: true,
     },
     "setConfigurationNative",
-    defaultConfiguration,
+      {
+          wid: 0,
+          addr: "89724267677931400774945563627652144079668997617928740949412054841719759133635"
+      },
   );
 
   await deployments.execute(

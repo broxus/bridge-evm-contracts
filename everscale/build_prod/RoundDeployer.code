@@ -45,6 +45,11 @@ SETGLOB 15
 .loc contracts/round/RoundDeployer.tsol, 22
 SETGLOB 16
 .loc contracts/round/RoundDeployer.tsol, 24
+GETGLOB 14
+PUSHINT 1
+SETINDEX 0
+SETGLOB 14
+.loc contracts/round/RoundDeployer.tsol, 26
 NEWC
 STSLICECONST x62_
 STSLICE
@@ -70,7 +75,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/round/RoundDeployer.tsol, 31
+.loc contracts/round/RoundDeployer.tsol, 33
 OVER
 PUSHCONT {
 	LDREF
@@ -102,7 +107,7 @@ SDEQ
 IFNOTREF {
 	.inline __checkDelegate_c45d6a7d_internal_macro
 }
-.loc contracts/round/RoundDeployer.tsol, 32
+.loc contracts/round/RoundDeployer.tsol, 34
 PUSHINT 2511
 DEPTH
 ADDCONST -2
@@ -110,7 +115,7 @@ PICK
 PUSHINT 50000000
 GEQ
 THROWANYIFNOT
-.loc contracts/round/RoundDeployer.tsol, 34
+.loc contracts/round/RoundDeployer.tsol, 36
 GETGLOB 20
 GETGLOB 19
 GETGLOB 18
@@ -177,10 +182,10 @@ STBREFR
 STBREFR
 STBREFR
 ENDC
-.loc contracts/round/RoundDeployer.tsol, 61
+.loc contracts/round/RoundDeployer.tsol, 63
 OVER
 SETCODE
-.loc contracts/round/RoundDeployer.tsol, 64
+.loc contracts/round/RoundDeployer.tsol, 66
 SWAP
 CTOS
 DUP
@@ -195,7 +200,7 @@ PLDREF
 CTOS
 BLESS
 POP C3
-.loc contracts/round/RoundDeployer.tsol, 65
+.loc contracts/round/RoundDeployer.tsol, 67
 PUSHINT $onCodeUpgrade_0e89a1b9_internal$
 PUSH C3
 EXECUTE
@@ -341,7 +346,7 @@ DUP
 .loc contracts/round/base/RoundDeployerRelay.tsol, 30
 GETGLOB 14
 FIRST
-EQINT 0
+EQINT 1
 GETGLOB 14
 SECOND
 EQINT 0
@@ -349,7 +354,7 @@ AND
 PUSHCONT {
 	.loc contracts/round/base/RoundDeployerRelay.tsol, 31
 	DROP
-	PUSHINT 0
+	PUSHINT 1
 	.loc contracts/round/base/RoundDeployerRelay.tsol, 32
 	NOW
 	POP S2

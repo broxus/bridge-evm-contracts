@@ -3,7 +3,7 @@ import { DeployFunction } from "hardhat-deploy/types";
 
 import { getInitialRelays } from "../test/utils";
 
-const deterministicDeployment = "multivault-ton-main";
+const deterministicDeployment = "chainconnect-ton-prod";
 
 const func: DeployFunction = async function ({
   getNamedAccounts,
@@ -15,7 +15,8 @@ const func: DeployFunction = async function ({
   const initialRelays = await getInitialRelays();
   const week = 604800;
 
-  const initialRoundEnd = Math.floor(Date.now() / 1000) + week;
+  //FIXME
+  const initialRoundEnd = 1737763200;
 
   console.log(`Bridge owner: ${owner}`);
   console.log(`Round submitter: ${roundSubmitter}`);

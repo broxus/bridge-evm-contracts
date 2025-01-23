@@ -2,9 +2,9 @@ import { Address, getRandomNonce, toNano } from "locklift";
 
 const main = async () => {
   const key =
-    "0x9c9565a37e90ac15fd574726162c46c212b4d34259c9b0e5a452cd591bb77d89";
+    "0x98d55b252538ad1b3d29576759cb015b4a505bbc2967f9fe537fcf669e69fc5c";
   const owner =
-    "0:42387b9e0c9ac80b4ac3228e560b9be87540bc1ff5c516265fb51e5a36ef4286";
+    "0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b";
 
   const EventCloser = locklift.factory.getContractArtifacts("EventCloser");
   const EventDeployer = locklift.factory.getContractArtifacts("EventDeployer");
@@ -19,12 +19,12 @@ const main = async () => {
         key_: key,
         eventCloserCode_: EventCloser.code,
         eventDeployerCode_: EventDeployer.code,
-        eventClosersCount: 2,
-        eventDeployersCount: 2,
+        eventClosersCount: 1,
+        eventDeployersCount: 1,
       },
       initParams: { _randomNonce: getRandomNonce() },
       publicKey: signer.publicKey,
-      value: toNano(45),
+      value: toNano(5),
     })
   );
 

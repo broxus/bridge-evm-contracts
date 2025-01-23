@@ -2,7 +2,7 @@ import { DeployFunction } from "hardhat-deploy/types";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Diamond } from "../typechain-types";
 
-const deterministicDeployment = "multivault-ton-main";
+const deterministicDeployment = "chainconnect-ton-prod";
 
 const func: DeployFunction = async function ({
   getNamedAccounts,

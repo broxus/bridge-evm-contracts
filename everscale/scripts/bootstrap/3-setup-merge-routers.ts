@@ -5,14 +5,15 @@ import assert from 'node:assert';
 
 enum Network {
     BSC = 'BSC',
-    POLYGON = 'POLYGON',
     AVALANCHE = 'AVALANCHE',
     ETHEREUM = 'ETHEREUM',
 }
 
 enum Token {
     USDT = 'USDT',
-    DAI = 'DAI',
+    USDC = 'USDC',
+    WBTC = 'WBTC',
+    WETH = 'WETH',
 }
 
 type MergeRouterInfo = {
@@ -39,35 +40,50 @@ type TokensConfig = {
 const networkToId: Record<Network, number> = {
     [Network.BSC]: 56,
     [Network.ETHEREUM]: 1,
-    [Network.POLYGON]: 137,
     [Network.AVALANCHE]: 43114,
 };
 
 const tokenToConfig: Record<string, TokensConfig> = {
     [Token.USDT]: {
         reference: Network.ETHEREUM, // Token of this network will be used as 'main' for EVM->TVM transfers
-        mergePool: undefined, // Set it if merge pool is already deployed. New tokens will be connected to predeployed pool. In other case, new merge pool will be deployed
+        mergePool: new Address('0:ceb29b43c331046ed3919d6704d394947d565240d79c2a418bcebb470606767d'), // Set it if merge pool is already deployed. New tokens will be connected to predeployed pool. In other case, new merge pool will be deployed
         tokens: [
             { network: Network.ETHEREUM, address: utils.getAddress('0xdac17f958d2ee523a2206206994597c13d831ec7'), name: 'Tether USD', symbol: 'USDT', decimals: 6 },
             { network: Network.BSC, address: utils.getAddress('0x55d398326f99059fF775485246999027B3197955'), name: 'Tether USD', symbol: 'USDT', decimals: 18 },
-            { network: Network.POLYGON, address: utils.getAddress('0xc2132D05D31c914a87C6611C10748AEb04B58e8F'), name: '(PoS) Tether USD', symbol: 'USDT', decimals: 6 },
-            // { network: Network.AVALANCHE, address: utils.getAddress('0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7'), name: 'TetherToken', symbol: 'USDt', decimals: 6 },
+            { network: Network.AVALANCHE, address: utils.getAddress('0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7'), name: 'TetherToken', symbol: 'USDt', decimals: 6 },
         ]
     },
-    [Token.DAI]: {
+    [Token.USDC]: {
         reference: Network.ETHEREUM,
-        mergePool: undefined,
+        mergePool: new Address('0:5a683c88d9f223706c21311b81d8e10b53ffd54c70b02874692c32dd38b67f67'),
         tokens: [
-            { network: Network.ETHEREUM, address: utils.getAddress('0x6B175474E89094C44Da98b954EedeAC495271d0F'), name: 'Dai Stablecoin', symbol: 'DAI', decimals: 18 },
-            { network: Network.BSC, address: utils.getAddress('0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3'), name: 'Dai Token', symbol: 'DAI', decimals: 18 },
-            { network: Network.POLYGON, address: utils.getAddress('0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063'), name: '(PoS) Dai Stablecoin', symbol: 'DAI', decimals: 18 },
-            { network: Network.AVALANCHE, address: utils.getAddress('0xd586E7F844cEa2F87f50152665BCbc2C279D8d70'), name: 'Dai Stablecoin', symbol: 'DAI.e', decimals: 18 },
+            { network: Network.ETHEREUM, address: utils.getAddress('0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'), name: 'USD Coin', symbol: 'USDC', decimals: 6 },
+            { network: Network.BSC, address: utils.getAddress('0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d'), name: 'USD Coin', symbol: 'USDC', decimals: 18 },
+            { network: Network.AVALANCHE, address: utils.getAddress('0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E'), name: 'USD Coin', symbol: 'USDC', decimals: 6 },
         ]
     },
+    [Token.WBTC]: {
+        reference: Network.ETHEREUM, // Token of this network will be used as 'main' for EVM->TVM transfers
+        mergePool: new Address('0:1b71d9dd53d90d2c1c51c2fef2188b3e158615057696b3fd4981b1cde7f40b8e'), // Set it if merge pool is already deployed. New tokens will be connected to predeployed pool. In other case, new merge pool will be deployed
+        tokens: [
+            { network: Network.ETHEREUM, address: utils.getAddress('0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'), name: 'Wrapped BTC', symbol: 'WBTC', decimals: 8 },
+            { network: Network.BSC, address: utils.getAddress('0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c'), name: 'BTCB Token', symbol: 'BTCB', decimals: 18 },
+            { network: Network.AVALANCHE, address: utils.getAddress('0x50b7545627a5162f82a992c33b87adc75187b218'), name: 'Wrapped BTC', symbol: 'WBTC.e', decimals: 8 },
+        ]
+    },
+    [Token.WETH]: {
+        reference: Network.ETHEREUM, // Token of this network will be used as 'main' for EVM->TVM transfers
+        mergePool: new Address('0:80ef2702a33e2dd4d341f3db68140e08760da390ef55250b914304dd22facf04'), // Set it if merge pool is already deployed. New tokens will be connected to predeployed pool. In other case, new merge pool will be deployed
+        tokens: [
+            { network: Network.ETHEREUM, address: utils.getAddress('0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'), name: 'Wrapped Ether', symbol: 'WETH', decimals: 18 },
+            { network: Network.BSC, address: utils.getAddress('0x2170Ed0880ac9A755fd29B2688956BD959F933F8'), name: 'Ethereum Token', symbol: 'ETH', decimals: 18 },
+            { network: Network.AVALANCHE, address: utils.getAddress('0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB'), name: 'Wrapped Ether', symbol: 'WETH.e', decimals: 18 },
+        ]
+    }
 };
 
-const ALIEN_PROXY_MULTI_VAULT = new Address('0:3d2ee3ff7118b05c7ea39ff6cdefe8101814bc3753ca45654d76b6791611992a');
-const ADMIN = new Address('0:2746d46337aa25d790c97f1aefb01a5de48cc1315b41a4f32753146a1e1aeb7d');
+const ALIEN_PROXY_MULTI_VAULT = new Address('0:ab234789f6989a94ed1b9282ee8271a8ad0ca061f943d943f647b573aa6d7287');
+const ADMIN = new Address('0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b');
 
 const Gas = {
     DEPLOY_ALIEN_TOKEN: toNano(2),
@@ -92,12 +108,13 @@ const main = async (): Promise<void> => {
 
     // Derive alien TIP-3 token address from EVM token on different network
     for (const [token, config] of Object.entries(tokenToConfig)) {
+        tokenToNetworkToAlienToken[token] = {};
         for (const tokenParams of config.tokens) {
             const alienToken = await alienProxyMultiVault.methods
                 .deriveEVMAlienTokenRoot({
                     answerId: 0,
                     chainId: networkToId[tokenParams.network],
-                    token: new BigNumber(tokenParams.address, 16).toString(10),
+                    token: new BigNumber(tokenParams.address.toLowerCase(), 16).toString(10),
                     name: tokenParams.name,
                     symbol: tokenParams.symbol,
                     decimals: tokenParams.decimals,
@@ -120,7 +137,7 @@ const main = async (): Promise<void> => {
                     alienProxyMultiVault.methods
                         .deployEVMAlienToken({
                             chainId: networkToId[tokenParams.network],
-                            token: new BigNumber(tokenParams.address, 16).toString(10),
+                            token: new BigNumber(tokenParams.address.toLowerCase(), 16).toString(10),
                             name: tokenParams.name,
                             symbol: tokenParams.symbol,
                             decimals: tokenParams.decimals,
