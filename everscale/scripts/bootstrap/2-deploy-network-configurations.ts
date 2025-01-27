@@ -2,9 +2,6 @@ import { Address, Contract, toNano, WalletTypes } from 'locklift';
 import { BigNumber } from 'bignumber.js';
 import { Account } from 'everscale-standalone-client/nodejs';
 import { BridgeAbi, MultiVaultEVMTONEventAlienAbi, MultiVaultTONEVMEventAlienAbi } from '../../build/factorySource';
-import MinterCode from "../../jetton-contracts/jetton-minter.compiled.json";
-import WalletCode from "../../jetton-contracts/jetton-wallet.compiled.json";
-import PlatformCode from "../../jetton-contracts/jetton-platform.compiled.json";
 
 const BRIDGE_ADMIN = "0:2746d46337aa25d790c97f1aefb01a5de48cc1315b41a4f32753146a1e1aeb7d";
 const BRIDGE = "0:16c43aee96a19ad89066d4e8ec3929c202006499f54c5ad63627a0dadca91b11";
@@ -19,6 +16,8 @@ const START_BLOCK_NUMBER = 44581229;
 const BLOCKS_TO_CONFIRM = 30;
 const START_TIMESTAMP = Math.floor(Date.now() / 1000);
 const MULTI_VAULT_PROXY = "0x6Ff70682DCff11A696e94e99d9cf60b1d78a72e5";
+
+const DEPLOY_EVER_CONFIGURATIONS = false;
 
 const ALIEN_TRANSFER_EVENT_ABI = {
   anonymous: false,
@@ -215,119 +214,100 @@ const main = async (): Promise<void> => {
 
   console.log(`EthEverNativeEventConfig: ${ethEverNativeConfig.address}`);
 
-  const everEthAlienConfiguration = {
-    _owner: admin.address,
-    _flags: 0,
-    basicConfiguration: {
-      eventABI: Buffer.from(JSON.stringify(EVER_ALIEN_TRANSFER_EVENT_ABI)).toString("base64"),
-      roundDeployer: new Address(STAKING),
-      eventInitialBalance: toNano(1),
-      eventCode: locklift.factory.getContractArtifacts("MultiVaultTONEVMEventAlien").code,
-    },
-    networkConfiguration: {
-      eventEmitter: proxyMultiVaultAlien.address,
-      proxy: new BigNumber(MULTI_VAULT_PROXY.toLowerCase(), 16).toString(10),
-      startTimestamp: START_TIMESTAMP,
-      endTimestamp: 0,
-    },
-  };
+  if (DEPLOY_EVER_CONFIGURATIONS) {
+    const everEthAlienConfiguration = {
+      _owner: admin.address,
+      _flags: 0,
+      basicConfiguration: {
+        eventABI: Buffer.from(JSON.stringify(EVER_ALIEN_TRANSFER_EVENT_ABI)).toString("base64"),
+        roundDeployer: new Address(STAKING),
+        eventInitialBalance: toNano(1),
+        eventCode: locklift.factory.getContractArtifacts("MultiVaultTONEVMEventAlien").code,
+      },
+      networkConfiguration: {
+        eventEmitter: proxyMultiVaultAlien.address,
+        proxy: new BigNumber(MULTI_VAULT_PROXY.toLowerCase(), 16).toString(10),
+        startTimestamp: START_TIMESTAMP,
+        endTimestamp: 0,
+      },
+    };
 
-  await locklift.tracing.trace(
-    everEthEventConfigFactory.methods
-      .deploy(everEthAlienConfiguration)
-      .send({
-        from: admin.address,
-        amount: toNano(2),
-        bounce: true,
-      }),
-  );
+    await locklift.tracing.trace(
+        everEthEventConfigFactory.methods
+            .deploy(everEthAlienConfiguration)
+            .send({
+              from: admin.address,
+              amount: toNano(2),
+              bounce: true,
+            }),
+    );
 
-  const everEthAlienConfig = await everEthEventConfigFactory.methods
-    .deriveConfigurationAddress({
-      basicConfiguration: everEthAlienConfiguration.basicConfiguration,
-      networkConfiguration: everEthAlienConfiguration.networkConfiguration,
-    })
-    .call()
-    .then((r) => locklift.factory.getDeployedContract("EverscaleEthereumEventConfiguration", r.value0));
+    const everEthAlienConfig = await everEthEventConfigFactory.methods
+        .deriveConfigurationAddress({
+          basicConfiguration: everEthAlienConfiguration.basicConfiguration,
+          networkConfiguration: everEthAlienConfiguration.networkConfiguration,
+        })
+        .call()
+        .then((r) => locklift.factory.getDeployedContract("EverscaleEthereumEventConfiguration", r.value0));
 
-  console.log(`EverEthAlienEventConfig: ${everEthAlienConfig.address}`);
+    console.log(`EverEthAlienEventConfig: ${everEthAlienConfig.address}`);
 
-  const everEthNativeConfiguration = {
-    _owner: admin.address,
-    _flags: 1,
-    basicConfiguration: {
-      eventABI: Buffer.from(JSON.stringify(EVER_NATIVE_TRANSFER_EVENT_ABI)).toString("base64"),
-      roundDeployer: new Address(STAKING),
-      eventInitialBalance: toNano(1),
-      eventCode: locklift.factory.getContractArtifacts("MultiVaultTONEVMEventNative").code,
-    },
-    networkConfiguration: {
-      eventEmitter: proxyMultiVaultNative.address,
-      proxy: new BigNumber(MULTI_VAULT_PROXY.toLowerCase(), 16).toString(10),
-      startTimestamp: START_TIMESTAMP,
-      endTimestamp: 0,
-    },
-  };
+    await deployConnectors(
+        admin,
+        locklift.factory.getDeployedContract("Bridge", new Address(BRIDGE)),
+        [everEthAlienConfig] as never[],
+    );
+  }
 
-  await locklift.tracing.trace(
-    everEthEventConfigFactory.methods
-      .deploy(everEthNativeConfiguration)
-      .send({
-        from: admin.address,
-        amount: toNano(2),
-        bounce: true,
-      }),
-  );
+  if (DEPLOY_EVER_CONFIGURATIONS) {
+    const everEthNativeConfiguration = {
+      _owner: admin.address,
+      _flags: 1,
+      basicConfiguration: {
+        eventABI: Buffer.from(JSON.stringify(EVER_NATIVE_TRANSFER_EVENT_ABI)).toString("base64"),
+        roundDeployer: new Address(STAKING),
+        eventInitialBalance: toNano(1),
+        eventCode: locklift.factory.getContractArtifacts("MultiVaultTONEVMEventNative").code,
+      },
+      networkConfiguration: {
+        eventEmitter: proxyMultiVaultNative.address,
+        proxy: new BigNumber(MULTI_VAULT_PROXY.toLowerCase(), 16).toString(10),
+        startTimestamp: START_TIMESTAMP,
+        endTimestamp: 0,
+      },
+    };
 
-  const everEthNativeConfig = await everEthEventConfigFactory.methods
-    .deriveConfigurationAddress({
-      basicConfiguration: everEthNativeConfiguration.basicConfiguration,
-      networkConfiguration: everEthNativeConfiguration.networkConfiguration,
-    })
-    .call()
-    .then((r) => locklift.factory.getDeployedContract("EverscaleEthereumEventConfiguration", r.value0));
+    await locklift.tracing.trace(
+        everEthEventConfigFactory.methods
+            .deploy(everEthNativeConfiguration)
+            .send({
+              from: admin.address,
+              amount: toNano(2),
+              bounce: true,
+            }),
+    );
 
-  console.log(`EverEthNativeEventConfig: ${everEthNativeConfig.address}`);
+    const everEthNativeConfig = await everEthEventConfigFactory.methods
+        .deriveConfigurationAddress({
+          basicConfiguration: everEthNativeConfiguration.basicConfiguration,
+          networkConfiguration: everEthNativeConfiguration.networkConfiguration,
+        })
+        .call()
+        .then((r) => locklift.factory.getDeployedContract("EverscaleEthereumEventConfiguration", r.value0));
+
+    console.log(`EverEthNativeEventConfig: ${everEthNativeConfig.address}`);
+
+    await deployConnectors(
+        admin,
+        locklift.factory.getDeployedContract("Bridge", new Address(BRIDGE)),
+        [everEthNativeConfig] as never[],
+    );
+  }
 
   await deployConnectors(
     admin,
     locklift.factory.getDeployedContract("Bridge", new Address(BRIDGE)),
-    [ethEverAlienConfig, ethEverNativeConfig, everEthAlienConfig, everEthNativeConfig] as never[],
-  );
-
-  await locklift.tracing.trace(
-    proxyMultiVaultAlien.methods
-      .setEVMConfiguration({
-        _config: {
-          everscaleConfiguration: everEthAlienConfig.address,
-          evmConfigurations: [ethEverAlienConfig.address],
-          alienTokenWalletPlatformCode: Buffer.from(PlatformCode.hex, "hex").toString("base64"),
-          alienTokenRootCode: Buffer.from(MinterCode.hex, "hex").toString("base64"),
-          alienTokenWalletCode: Buffer.from(WalletCode.hex, "hex").toString("base64"),
-        },
-        remainingGasTo: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: toNano(0.5),
-        bounce: true,
-      })
-  );
-
-  await locklift.tracing.trace(
-    proxyMultiVaultNative.methods
-      .setEVMConfiguration({
-        _config: {
-          everscaleConfiguration: everEthNativeConfig.address,
-          evmConfigurations: [ethEverNativeConfig.address],
-        },
-        remainingGasTo: admin.address,
-      })
-      .send({
-        from: admin.address,
-        amount: toNano(0.5),
-        bounce: true,
-      })
+    [ethEverAlienConfig, ethEverNativeConfig] as never[],
   );
 };
 
