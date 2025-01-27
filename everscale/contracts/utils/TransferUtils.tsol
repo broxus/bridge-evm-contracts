@@ -55,7 +55,7 @@ abstract contract TransferUtils {
     }
 
     function _targetBalance() internal pure virtual returns (uint128) {
-        return 1 ever;
+        return 0.1 ever;
     }
 
     function _transferJettonsCallbackValue()  internal pure virtual returns (uint128) {

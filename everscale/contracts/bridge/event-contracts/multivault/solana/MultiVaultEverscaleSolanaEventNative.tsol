@@ -85,7 +85,7 @@ contract MultiVaultEverscaleSolanaEventNative is
             0,
             proxy,
             false,
-            0.1 ever,
+            BridgeGas.GET_WALLET_OF_VALUE,
             MsgFlag.SENDER_PAYS_FEES,
             true
         );

@@ -67,7 +67,7 @@ contract MultiVaultEVMTONEventAlien is
 
         IEthereumEverscaleEventConfiguration(eventInitData.configuration)
             .getDetails{
-                value: 0.1 ever,
+                value: BridgeGas.GET_CONFIG_DETAILS_VALUE,
                 callback: MultiVaultEVMTONEventAlien.receiveConfigurationDetails
             }();
     }
@@ -85,7 +85,7 @@ contract MultiVaultEVMTONEventAlien is
 
         IProxyMultiVaultAlienJetton(_networkConfiguration.proxy)
             .deriveEVMAlienTokenRoot{
-                value: 0.5 ever,
+                value: BridgeGas.DERIVE_ALIEN_TOKEN_ROOT_VALUE,
                 callback: MultiVaultEVMTONEventAlien.receiveAlienTokenRoot
             }(
                 eventData.base_chainId,
@@ -110,7 +110,7 @@ contract MultiVaultEVMTONEventAlien is
         JettonUtils.getInfo(
             token,
             0,
-            0.1 ever,
+            BridgeGas.GET_TOKEN_ROOT_INFO_VALUE,
             MsgFlag.SENDER_PAYS_FEES,
             true
         );
@@ -138,7 +138,7 @@ contract MultiVaultEVMTONEventAlien is
         // Ask the router address
         IProxyMultiVaultAlienJetton(transitionalData.proxy)
             .deriveMergeRouter{
-                value: 0.1 ever,
+                value: BridgeGas.DERIVE_MERGE_ROUTER_VALUE,
                 bounce: false,
                 callback: MultiVaultEVMTONEventAlien.receiveMergeRouter
             }(transitionalData.token);
@@ -159,7 +159,7 @@ contract MultiVaultEVMTONEventAlien is
         // Request merge router pool
         IMergeRouter(router)
             .getPool{
-                value: 0.1 ever,
+                value: BridgeGas.GET_POOL_VALUE,
                 bounce: true,
                 callback: MultiVaultEVMTONEventAlien.receiveMergeRouterPool
             }();
@@ -184,7 +184,7 @@ contract MultiVaultEVMTONEventAlien is
         } else {
             IMergePool(pool)
                 .getCanon{
-                    value: 1 ever,
+                    value: BridgeGas.GET_CANON_VALUE,
                     bounce: false,
                     callback: MultiVaultEVMTONEventAlien.receiveMergePoolCanon
                 }();
@@ -318,7 +318,7 @@ contract MultiVaultEVMTONEventAlien is
             // Seems like corresponding token root not deployed so deploy it
             IProxyMultiVaultAlienJetton(transitionalData.proxy)
                 .deployEVMAlienToken{
-                    value: 1 ever,
+                    value: BridgeGas.DEPLOY_ALIEN_TOKEN_ROOT_VALUE,
                     bounce: false
                 }(
                     eventData.base_chainId,
@@ -338,7 +338,7 @@ contract MultiVaultEVMTONEventAlien is
             // Seems like corresponding router not deployed so deploy it
             IProxyMultiVaultAlienJetton(transitionalData.proxy)
                 .deployMergeRouter{
-                    value: 1 ever,
+                    value: BridgeGas.DEPLOY_MERGE_ROUTER_VALUE,
                     bounce: false
                 }(transitionalData.token);
 

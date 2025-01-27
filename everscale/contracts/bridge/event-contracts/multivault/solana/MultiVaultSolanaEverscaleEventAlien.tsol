@@ -101,7 +101,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
         }
 
         ISolanaEverscaleEventConfiguration(eventInitData.configuration).getDetails{
-            value: 1 ever,
+            value: BridgeGas.GET_CONFIG_DETAILS_VALUE,
             callback: MultiVaultSolanaEverscaleEventAlien.receiveConfigurationDetails
         }();
     }
@@ -117,7 +117,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
 
         IProxyMultiVaultAlienJetton(proxy)
             .deriveSolanaAlienTokenRoot{
-                value: 1 ever,
+                value: BridgeGas.DERIVE_ALIEN_TOKEN_ROOT_VALUE,
                 callback: MultiVaultSolanaEverscaleEventAlien.receiveAlienTokenRoot
             }(
                 base_token,
@@ -137,7 +137,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
         JettonUtils.getInfo(
             token,
             0,
-            1 ever,
+            BridgeGas.GET_TOKEN_ROOT_INFO_VALUE,
             MsgFlag.SENDER_PAYS_FEES,
             true
         );
@@ -156,7 +156,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
         // Ask the router address
         IProxyMultiVaultAlienJetton(proxy)
             .deriveMergeRouter{
-                value: 1 ever,
+                value: BridgeGas.DERIVE_MERGE_ROUTER_VALUE,
                 bounce: false,
                 callback: MultiVaultSolanaEverscaleEventAlien.receiveMergeRouter
             }(token);
@@ -176,7 +176,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
 
         // Request merge router pool
         IMergeRouter(router).getPool{
-            value: 1 ever,
+            value: BridgeGas.GET_POOL_VALUE,
             bounce: true,
             callback: MultiVaultSolanaEverscaleEventAlien.receiveMergeRouterPool
         }();
@@ -198,7 +198,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
             _finishSetup(token, amount);
         } else {
             IMergePool(pool).getCanon{
-                value: 1 ever,
+                value: BridgeGas.GET_CANON_VALUE,
                 bounce: false,
                 callback: MultiVaultSolanaEverscaleEventAlien.receiveMergePoolCanon
             }();
@@ -298,7 +298,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
             // Seems like corresponding token root not deployed so deploy it
             IProxyMultiVaultAlienJetton(proxy)
                 .deploySolanaAlienToken{
-                    value: 2 ever,
+                    value: BridgeGas.DEPLOY_ALIEN_TOKEN_ROOT_VALUE,
                     bounce: false
                 }(
                     base_token,
@@ -317,7 +317,7 @@ contract MultiVaultSolanaEverscaleEventAlien is
             // Seems like corresponding router not deployed so deploy it
             IProxyMultiVaultAlienJetton(proxy)
                 .deployMergeRouter{
-                    value: 1 ever,
+                    value: BridgeGas.DEPLOY_MERGE_ROUTER_VALUE,
                     bounce: false
                 }(token);
 

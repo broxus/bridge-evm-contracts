@@ -40,10 +40,6 @@ abstract contract ProxyMultiVaultNativeJetton_Deposit is
 
         if (recipient == dex_middleware) {
             transferPayload = payload;
-        } else {
-            uint32 nonce = EventContractNonce._calculateNonce(eventInitData);
-
-            transferPayload = abi.encode(nonce, payload);
         }
 
         _transferTokens(

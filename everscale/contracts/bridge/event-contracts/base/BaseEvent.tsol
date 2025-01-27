@@ -9,6 +9,7 @@ import "../../interfaces/IRoundDeployer.tsol";
 import "../../interfaces/IRound.tsol";
 import "../../interfaces/IEventNotificationReceiver.tsol";
 import "../../interfaces/event-contracts/IBasicEvent.tsol";
+import "../../libraries/BridgeGas.tsol";
 
 import "@broxus/contracts/contracts/libraries/MsgFlag.tsol";
 
@@ -72,7 +73,7 @@ abstract contract BaseEvent is IBasicEvent, TransferUtils {
 
         IRoundDeployer(getRoundDeployerAddress())
             .getRelayRoundAddressFromTimestamp{
-                value: 0.1 ever,
+                value: BridgeGas.GET_RELAY_ROUND_ADDRESS_VALUE,
                 bounce: false,
                 callback: BaseEvent.receiveRoundAddress
             }(block.timestamp);
@@ -87,7 +88,7 @@ abstract contract BaseEvent is IBasicEvent, TransferUtils {
 
         IRound(roundContract)
             .relayKeys{
-                value: 0.1 ever,
+                value: BridgeGas.GET_RELAY_KEYS_VALUE,
                 bounce: false,
                 callback: BaseEvent.receiveRoundRelays
             }();

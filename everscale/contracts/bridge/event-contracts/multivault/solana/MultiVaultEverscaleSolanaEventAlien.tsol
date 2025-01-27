@@ -63,7 +63,7 @@ contract MultiVaultEverscaleSolanaEventAlien is
         JettonUtils.getInfo(
             token,
             0,
-            1 ever,
+            BridgeGas.GET_TOKEN_ROOT_INFO_VALUE,
             MsgFlag.SENDER_PAYS_FEES,
             true
         );
@@ -83,7 +83,7 @@ contract MultiVaultEverscaleSolanaEventAlien is
 
         IProxyMultiVaultAlienJetton(proxy)
             .deriveSolanaAlienTokenRoot{
-                value: 1 ever,
+                value: BridgeGas.DERIVE_ALIEN_TOKEN_ROOT_VALUE,
                 bounce: true,
                 callback: MultiVaultEverscaleSolanaEventAlien.receiveAlienTokenRoot
             }(
