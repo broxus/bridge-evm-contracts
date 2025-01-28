@@ -9,45 +9,45 @@ const func: DeployFunction = async function ({
 }: HardhatRuntimeEnvironment) {
   const { owner, gasDonor } = await getNamedAccounts();
 
-  await deployments.execute(
-    "MultiVault",
-    {
-      from: owner,
-      log: true,
-    },
-    "setDefaultNativeDepositFee",
-    100,
-  );
-
-  await deployments.execute(
-    "MultiVault",
-    {
-      from: owner,
-      log: true,
-    },
-    "setDefaultNativeWithdrawFee",
-      100,
-  );
-
-  await deployments.execute(
-    "MultiVault",
-    {
-      from: owner,
-      log: true,
-    },
-    "setDefaultAlienDepositFee",
-      100,
-  );
-
-  await deployments.execute(
-    "MultiVault",
-    {
-      from: owner,
-      log: true,
-    },
-    "setDefaultAlienWithdrawFee",
-      100,
-  );
+  // await deployments.execute(
+  //   "MultiVault",
+  //   {
+  //     from: owner,
+  //     log: true,
+  //   },
+  //   "setDefaultNativeDepositFee",
+  //   100,
+  // );
+  //
+  // await deployments.execute(
+  //   "MultiVault",
+  //   {
+  //     from: owner,
+  //     log: true,
+  //   },
+  //   "setDefaultNativeWithdrawFee",
+  //     100,
+  // );
+  //
+  // await deployments.execute(
+  //   "MultiVault",
+  //   {
+  //     from: owner,
+  //     log: true,
+  //   },
+  //   "setDefaultAlienDepositFee",
+  //     100,
+  // );
+  //
+  // await deployments.execute(
+  //   "MultiVault",
+  //   {
+  //     from: owner,
+  //     log: true,
+  //   },
+  //   "setDefaultAlienWithdrawFee",
+  //     100,
+  // );
 
   await deployments.execute(
     "MultiVault",
@@ -58,7 +58,7 @@ const func: DeployFunction = async function ({
     "setConfigurationAlien",
       {
           wid: 0,
-          addr: "9596982276728072944706534558097645686118760608564989067536664306694917587439"
+          addr: "301134971792308039032421595411762228723840698140131322645251629745414336038"
       },
   );
 
@@ -71,19 +71,19 @@ const func: DeployFunction = async function ({
     "setConfigurationNative",
       {
           wid: 0,
-          addr: "89724267677931400774945563627652144079668997617928740949412054841719759133635"
+          addr: "78048562028472618827633212252422056427181746103622745051525366064922017849598"
       },
   );
-
-  await deployments.execute(
-    "MultiVault",
-    {
-      from: owner,
-      log: true,
-    },
-    "setGasDonor",
-    gasDonor,
-  );
+  //
+  // await deployments.execute(
+  //   "MultiVault",
+  //   {
+  //     from: owner,
+  //     log: true,
+  //   },
+  //   "setGasDonor",
+  //   gasDonor,
+  // );
 };
 
 // noinspection JSUnusedGlobalSymbols

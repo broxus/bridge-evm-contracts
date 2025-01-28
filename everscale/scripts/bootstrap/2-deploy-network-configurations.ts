@@ -6,21 +6,21 @@ import { BridgeAbi, MultiVaultEVMTONEventAlienAbi, MultiVaultTONEVMEventAlienAbi
 const BRIDGE_ADMIN = "0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b";
 const BRIDGE = "0:7ce794235d7081538276e5e5e5cddc7f1ded13d8de248ad3253654a4d2a9678c";
 const STAKING = "0:f41de04e5dc943c35528502621a7fea01142c5ad856eb46972ea938fd14aee4f";
-const ETH_EVER_EVENT_CONFIG_FACTORY = "0:630e1171ad9d0ee19adf92ff461e34fee2e65d015ea3ddc46b2f26088f3532f9";
-const EVER_ETH_EVER_EVENT_CONFIG_FACTORY = "0:7b62dfe7e73719bef1f250966f1f54716178589172b918172dc234442a0e0587";
+const ETH_EVER_EVENT_CONFIG_FACTORY = "0:af0c7cc83c2d241b421eccd97ed374cb3c18dce7f636f7ef60bfee6078ef8b0d";
+const EVER_ETH_EVER_EVENT_CONFIG_FACTORY = "0:f04096dd1448de9a17560046030d302ddb73f85e385433b1c38a1527afcaa25c";
 const PROXY_MULTI_VAULT_ALIEN = "0:ab234789f6989a94ed1b9282ee8271a8ad0ca061f943d943f647b573aa6d7287";
 const PROXY_MULTI_VAULT_NATIVE = "0:d25385cbd0d34699ab78c3871663323807f52b8d7f2feb18237e27c30e479784";
 
 // const CHAIN_ID = 1;
-// const START_BLOCK_NUMBER = 21719231;
+// const START_BLOCK_NUMBER = 21720165;
 // const BLOCKS_TO_CONFIRM = 12;
 
 // const CHAIN_ID = 56;
-// const START_BLOCK_NUMBER = 46146776;
+// const START_BLOCK_NUMBER = 46150504;
 // const BLOCKS_TO_CONFIRM = 30;
 
 const CHAIN_ID = 43114;
-const START_BLOCK_NUMBER = 56450811;
+const START_BLOCK_NUMBER = 56456638;
 const BLOCKS_TO_CONFIRM = 30;
 
 const START_TIMESTAMP = Math.floor(Date.now() / 1000);
@@ -98,7 +98,7 @@ const deployConnectors = async (
         .deployConnector({ _eventConfiguration: configuration.address })
         .send({
           from: admin.address,
-          amount: toNano(2),
+          amount: toNano(0.3),
           bounce: true,
         }),
     );
@@ -113,7 +113,7 @@ const deployConnectors = async (
         .enable({})
         .send({
           from: admin.address,
-          amount: toNano(0.5),
+          amount: toNano(0.02),
           bounce: true,
         }),
     );
@@ -151,7 +151,7 @@ const main = async (): Promise<void> => {
     basicConfiguration: {
       eventABI: Buffer.from(JSON.stringify(ALIEN_TRANSFER_EVENT_ABI)).toString("base64"),
       roundDeployer: new Address(STAKING),
-      eventInitialBalance: toNano(1),
+      eventInitialBalance: toNano(0.3),
       eventCode: locklift.factory.getContractArtifacts("MultiVaultEVMTONEventAlien").code,
     },
     networkConfiguration: {
@@ -169,9 +169,9 @@ const main = async (): Promise<void> => {
       .deploy(ethEverAlienConfiguration)
       .send({
         from: admin.address,
-        amount: toNano(2),
+        amount: toNano(1.1),
         bounce: true,
-      }),
+      }), {raise: false}
   );
 
   const ethEverAlienConfig = await ethEverEventConfigFactory.methods
@@ -190,7 +190,7 @@ const main = async (): Promise<void> => {
     basicConfiguration: {
       eventABI: Buffer.from(JSON.stringify(NATIVE_TRANSFER_EVENT_ABI)).toString("base64"),
       roundDeployer: new Address(STAKING),
-      eventInitialBalance: toNano(1),
+      eventInitialBalance: toNano(0.3),
       eventCode: locklift.factory.getContractArtifacts("MultiVaultEVMTONEventNative").code,
     },
     networkConfiguration: {
@@ -208,9 +208,9 @@ const main = async (): Promise<void> => {
       .deploy(ethEverNativeConfiguration)
       .send({
         from: admin.address,
-        amount: toNano(2),
+        amount: toNano(1.1),
         bounce: true,
-      }),
+      }), {raise: false}
   );
 
   const ethEverNativeConfig = await ethEverEventConfigFactory.methods
@@ -230,7 +230,7 @@ const main = async (): Promise<void> => {
       basicConfiguration: {
         eventABI: Buffer.from(JSON.stringify(EVER_ALIEN_TRANSFER_EVENT_ABI)).toString("base64"),
         roundDeployer: new Address(STAKING),
-        eventInitialBalance: toNano(1),
+        eventInitialBalance: toNano(0.3),
         eventCode: locklift.factory.getContractArtifacts("MultiVaultTONEVMEventAlien").code,
       },
       networkConfiguration: {
@@ -246,9 +246,9 @@ const main = async (): Promise<void> => {
             .deploy(everEthAlienConfiguration)
             .send({
               from: admin.address,
-              amount: toNano(2),
+              amount: toNano(1.1),
               bounce: true,
-            }),
+            }), {raise: false}
     );
 
     const everEthAlienConfig = await everEthEventConfigFactory.methods
@@ -275,7 +275,7 @@ const main = async (): Promise<void> => {
       basicConfiguration: {
         eventABI: Buffer.from(JSON.stringify(EVER_NATIVE_TRANSFER_EVENT_ABI)).toString("base64"),
         roundDeployer: new Address(STAKING),
-        eventInitialBalance: toNano(1),
+        eventInitialBalance: toNano(0.3),
         eventCode: locklift.factory.getContractArtifacts("MultiVaultTONEVMEventNative").code,
       },
       networkConfiguration: {
@@ -291,9 +291,9 @@ const main = async (): Promise<void> => {
             .deploy(everEthNativeConfiguration)
             .send({
               from: admin.address,
-              amount: toNano(2),
+              amount: toNano(1.1),
               bounce: true,
-            }),
+            }), {raise: false}
     );
 
     const everEthNativeConfig = await everEthEventConfigFactory.methods
