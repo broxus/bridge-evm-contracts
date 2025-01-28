@@ -10,7 +10,7 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 64
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 63
 THROW 100
 .loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 
@@ -23,7 +23,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 67
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 66
 LDREF
 LDU 8
 ENDS
@@ -37,32 +37,32 @@ CALLREF {
 THROW 0
 
 .macro acceptUpgrade_7b3c4b10_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 59
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 58
 PUSHINT 2901
 GETGLOB 9
 GETGLOB 12
 SDEQ
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 60
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 59
 PUSHCONT {
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 71
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 70
 	GETGLOB 13
 	OVER
 	EQUAL
 	PUSHCONT {
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 72
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 71
 		DROP2
 		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 	}
 	IFJMP
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 75
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 74
 	PUSHINT 0
 	NEWDICT
 	PAIR
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 76
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 75
 	PUSHINT 0
 	DUP
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 79
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 78
 	GETGLOB 14
 	DUP
 	PUSHINT 267
@@ -85,7 +85,7 @@ IFREFELSE {
 		NOT
 	}
 	PUSHCONT {
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 80
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 79
 		PUSH2 S1, S6
 		UNPAIR
 		OVER
@@ -95,18 +95,18 @@ IFREFELSE {
 		DICTUSET
 		PAIR
 		POP S7
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 82
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 81
 		DROP
 		GETGLOB 16
 		SDEQ
 		PUSHCONT {
-			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 83
+			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 82
 			PUSH S2
 			POP S4
 			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 		}
 		IF
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 86
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 85
 		PUSH S2
 		INC
 		POP S3
@@ -130,7 +130,7 @@ IFREFELSE {
 	}
 	WHILE
 	BLKDROP 5
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 89
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 88
 	GETGLOB 15
 	GETGLOB 10
 	BLKSWAP 3, 2
@@ -156,10 +156,10 @@ IFREFELSE {
 	STBREFR
 	STBREFR
 	ENDC
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 99
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 98
 	OVER
 	SETCODE
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 100
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 99
 	SWAP
 	CTOS
 	DUP
@@ -174,18 +174,18 @@ IFREFELSE {
 	CTOS
 	BLESS
 	POP C3
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 102
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 101
 	PUSHINT $onCodeUpgrade_0e89a1b9_internal$
 	PUSH C3
 	EXECUTE
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 67
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 66
 }
 CALLX
 .loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 
 .internal-alias onCodeUpgrade_0e89a1b9_internal, 2083461128
 .internal onCodeUpgrade_0e89a1b9_internal
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 108
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 107
 PUSHREFSLICE {
 	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
 }
@@ -206,7 +206,7 @@ SETGLOB 13
 SETGLOB 12
 SETGLOB 11
 SETGLOB 10
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 110
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 109
 CTOS
 LDMSGADDR
 LDU 256
@@ -226,28 +226,28 @@ ENDS
 CTOS
 LDMSGADDR
 ENDS
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 128
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 127
 ROLL 6
 SETGLOB 12
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 129
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 128
 ROLL 5
 SETGLOB 11
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 130
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 129
 ROLL 4
 SETGLOB 13
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 132
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 131
 PUSHINT 2903
 PUSH S4
 FIRST
 GTINT 0
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 133
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 132
 PUSHINT 2901
 GETGLOB 9
 GETGLOB 12
 SDEQ
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 134
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 133
 PUSHINT 2909
 PUSH2 S3, S4
 FIRST
@@ -255,7 +255,7 @@ DEC
 UFITS 256
 LEQ
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 136
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 135
 ROT
 PUSH S3
 SECOND
@@ -263,14 +263,14 @@ PUSHINT 32
 DICTUGET
 THROWIFNOT 50
 SETGLOB 16
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 138
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 137
 SWAP
 CALLREF {
 	.inline __setOwnership_a7016023_internal_macro
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 140
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 139
 SETGLOB 15
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 143
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 142
 SECOND
 PUSHINT 0
 NULL
@@ -286,7 +286,7 @@ PUSHCONT {
 	NOT
 }
 PUSHCONT {
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 144
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 143
 	PUSHINT 0
 	DUP
 	PAIR
@@ -304,7 +304,7 @@ PUSHCONT {
 	PUSHINT 267
 	DICTSETB
 	SETGLOB 14
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 149
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 148
 	DUP
 	CALLREF {
 		.inline ___requestTokenDecimals_416ca606_internal_macro
@@ -332,7 +332,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 153
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 152
 OVER
 PUSHCONT {
 	LDU 64
@@ -361,7 +361,7 @@ CALLREF {
 THROW 0
 
 .macro takeInfo_d2aaf097_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 46
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 45
 BLKDROP 4
 PUSHINT 2903
 GETGLOB 9
@@ -371,7 +371,7 @@ DICTGET
 NULLSWAPIFNOT
 NIP
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 166
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 165
 GETGLOB 9
 GETGLOB 14
 DUP2
@@ -414,7 +414,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 169
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 168
 OVER
 PUSHCONT {
 	LDREF
@@ -459,7 +459,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 175
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 174
 SETGLOB 15
 .loc contracts/utils/TransferUtils.tsol, 48
 GETGLOB 9
@@ -482,7 +482,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 183
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 182
 OVER
 PUSHCONT {
 	LDREF
@@ -502,7 +502,7 @@ CALLREF {
 THROW 0
 
 .macro removeToken_5fa7b584_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -512,12 +512,12 @@ GETGLOB 15
 SDEQ
 OR
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 55
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 54
 PUSHINT 2903
 OVER
 GETGLOB 14
 PUSHINT 267
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 46
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 45
 DICTGET
 NULLSWAPIFNOT
 NIP
@@ -532,14 +532,14 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 190
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 189
 PUSHINT 2904
 OVER
 GETGLOB 16
 SDEQ
 NOT
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 192
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 191
 GETGLOB 14
 PUSHINT 267
 DICTDEL
@@ -566,7 +566,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 199
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 198
 OVER
 PUSHCONT {
 	LDREF
@@ -586,7 +586,7 @@ CALLREF {
 THROW 0
 
 .macro addToken_d48bfca7_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -606,7 +606,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 205
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 204
 PUSHINT 2905
 OVER
 GETGLOB 14
@@ -616,7 +616,7 @@ NULLSWAPIFNOT
 NIP
 NOT
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 207
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 206
 PUSHINT 0
 DUP
 PAIR
@@ -634,7 +634,7 @@ ROTREV
 PUSHINT 267
 DICTSETB
 SETGLOB 14
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 212
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 211
 CALLREF {
 	.inline ___requestTokenDecimals_416ca606_internal_macro
 }
@@ -659,7 +659,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 218
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 217
 OVER
 PUSHCONT {
 	LDREF
@@ -679,7 +679,7 @@ CALLREF {
 THROW 0
 
 .macro setCanon_219beb88_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -689,12 +689,12 @@ GETGLOB 15
 SDEQ
 OR
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 55
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 54
 PUSHINT 2903
 OVER
 GETGLOB 14
 PUSHINT 267
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 46
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 45
 DICTGET
 NULLSWAPIFNOT
 NIP
@@ -709,7 +709,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 225
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 224
 PUSHINT 2907
 OVER
 GETGLOB 14
@@ -729,7 +729,7 @@ IFREFELSEREF
 }
 SECOND
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 227
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 226
 SETGLOB 16
 .loc contracts/utils/TransferUtils.tsol, 48
 GETGLOB 9
@@ -752,7 +752,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 234
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 233
 OVER
 PUSHCONT {
 	LDREF
@@ -776,7 +776,7 @@ THROW 0
 .inline __enableToken_c690908a_internal_macro
 
 .macro enableToken_c690908a_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -786,12 +786,12 @@ GETGLOB 15
 SDEQ
 OR
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 55
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 54
 PUSHINT 2903
 OVER
 GETGLOB 14
 PUSHINT 267
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 46
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 45
 DICTGET
 NULLSWAPIFNOT
 NIP
@@ -806,7 +806,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 241
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 240
 PUSHINT 2908
 OVER
 GETGLOB 14
@@ -827,7 +827,7 @@ IFREFELSEREF
 FIRST
 GTINT 0
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 243
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 242
 TRUE
 CALLREF {
 	.inline ___setTokenStatus_f6b18cd7_internal_macro
@@ -853,7 +853,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 246
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 245
 ENDS
 .loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 CALLREF {
@@ -865,7 +865,7 @@ CALLREF {
 THROW 0
 
 .macro enableAll_47f2c363_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -885,7 +885,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 252
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 251
 GETGLOB 14
 DUP
 PUSHINT 267
@@ -908,7 +908,7 @@ PUSHCONT {
 	NOT
 }
 PUSHCONT {
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 253
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 252
 	PUSHINT 2908
 	PUSH S2
 	GETGLOB 14
@@ -929,7 +929,7 @@ IFREFELSEREF
 	FIRST
 	GTINT 0
 	THROWANYIFNOT
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 255
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 254
 	DROP
 	TRUE
 	CALLREF {
@@ -976,7 +976,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 264
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 263
 OVER
 PUSHCONT {
 	LDREF
@@ -1000,7 +1000,7 @@ THROW 0
 .inline __disableToken_23e27a64_internal_macro
 
 .macro disableToken_23e27a64_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -1010,12 +1010,12 @@ GETGLOB 15
 SDEQ
 OR
 THROWANYIFNOT
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 55
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 54
 PUSHINT 2903
 OVER
 GETGLOB 14
 PUSHINT 267
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 46
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 45
 DICTGET
 NULLSWAPIFNOT
 NIP
@@ -1030,7 +1030,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 271
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 270
 FALSE
 CALLREF {
 	.inline ___setTokenStatus_f6b18cd7_internal_macro
@@ -1056,7 +1056,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 274
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 273
 ENDS
 .loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 CALLREF {
@@ -1068,7 +1068,7 @@ CALLREF {
 THROW 0
 
 .macro disableAll_3825dcba_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 51
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 50
 PUSHINT 2902
 GETGLOB 9
 GETGLOB 10
@@ -1088,7 +1088,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 280
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 279
 GETGLOB 14
 DUP
 PUSHINT 267
@@ -1111,7 +1111,7 @@ PUSHCONT {
 	NOT
 }
 PUSHCONT {
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 281
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 280
 	DROP
 	FALSE
 	CALLREF {
@@ -1158,7 +1158,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 287
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 286
 LDU 32
 GETGLOB 4
 ROT
@@ -1238,7 +1238,7 @@ CALLREF {
 THROW 0
 
 .macro getCanon_7a1a5d4f_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 293
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 292
 GETGLOB 4
 PUSHINT 0
 SETINDEXQ 2
@@ -1276,7 +1276,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 303
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 302
 LDU 32
 GETGLOB 4
 ROT
@@ -1348,7 +1348,7 @@ CALLREF {
 THROW 0
 
 .macro getTokens_aa6ca808_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 312
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 311
 GETGLOB 4
 PUSHINT 0
 SETINDEXQ 2
@@ -1370,7 +1370,7 @@ ISNULL
 IFREF {
 	.inline __c4_to_c7
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 325
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 324
 OVER
 PUSHCONT {
 	LDREF
@@ -1400,7 +1400,7 @@ CALLREF {
 THROW 0
 
 .macro onAcceptTokensBurn_07d14114_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 46
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 45
 PUSHINT 2903
 GETGLOB 9
 GETGLOB 14
@@ -1419,7 +1419,7 @@ SUB
 UFITS 128
 PUSHINT 2
 RAWRESERVE
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 337
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 336
 CTOS
 LDU 32
 LDU 8
@@ -1433,14 +1433,14 @@ ENDS
 CTOS
 LDMSGADDR
 ENDS
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 351
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 350
 PUSH S8
 GETGLOB 9
 PUSH S4
 CALLREF {
 	.inline ___convertDecimals_12993623_internal_macro
 }
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 357
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 356
 PUSH S3
 GETGLOB 14
 PUSHINT 267
@@ -1485,7 +1485,7 @@ IFREFELSEREF
 }
 IFNOT
 PUSHCONT {
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 361
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 360
 	GETGLOB 9
 	BLKPUSH 2, 10
 	PUSH2 S4, S5
@@ -1499,7 +1499,7 @@ PUSHCONT {
 		PUSH S4
 		EQINT 1
 		PUSHCONT {
-			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 381
+			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 380
 			PUSH3 S3, S0, S8
 			PUSH2 S4, S5
 			CALLREF {
@@ -1507,7 +1507,7 @@ PUSHCONT {
 			}
 		}
 		PUSHCONT {
-			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 389
+			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 388
 			PUSH S2
 			CTOS
 			LDU 8
@@ -1516,13 +1516,13 @@ PUSHCONT {
 			THROWIF 73
 			LDREF
 			ENDS
-			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 391
+			.loc contracts/bridge/alien-token-merge/MergePool.tsol, 390
 			OVER
 			PUSHCONT {
 				OVER
 				EQINT 1
 				PUSHCONT {
-					.loc contracts/bridge/alien-token-merge/MergePool.tsol, 427
+					.loc contracts/bridge/alien-token-merge/MergePool.tsol, 426
 					DUP
 					CTOS
 					LDU 160
@@ -1533,7 +1533,7 @@ PUSHCONT {
 					TRIPLE
 					SWAP
 					ENDS
-					.loc contracts/bridge/alien-token-merge/MergePool.tsol, 429
+					.loc contracts/bridge/alien-token-merge/MergePool.tsol, 428
 					PUSH2 S11, S5
 					ROLL 3
 					PUSH3 S6, S9, S11
@@ -1578,7 +1578,7 @@ PUSHCONT {
 				IF
 			}
 			PUSHCONT {
-				.loc contracts/bridge/alien-token-merge/MergePool.tsol, 392
+				.loc contracts/bridge/alien-token-merge/MergePool.tsol, 391
 				DUP
 				CTOS
 				LDU 256
@@ -1595,7 +1595,7 @@ PUSHCONT {
 				SWAP
 				LDREF
 				ENDS
-				.loc contracts/bridge/alien-token-merge/MergePool.tsol, 406
+				.loc contracts/bridge/alien-token-merge/MergePool.tsol, 405
 				REVERSE 4, 0
 				PUSH2 S14, S8
 				ROLL 6
@@ -1650,7 +1650,7 @@ PUSHCONT {
 		IFELSE
 	}
 	PUSHCONT {
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 371
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 370
 		GETGLOB 9
 		BLKPUSH 2, 10
 		PUSH2 S4, S5
@@ -1669,9 +1669,9 @@ BLKDROP 10
 .inline ___requestTokenDecimals_416ca606_internal_macro
 
 .macro _requestTokenDecimals_416ca606_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 449
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 448
 PUSHINT 0
-PUSHINT 300000000
+PUSHINT 30000000
 PUSHINT 1
 FALSE
 CALLREF {
@@ -1684,7 +1684,7 @@ CALLREF {
 .inline ___mintTokens_83da233d_internal_macro
 
 .macro _mintTokens_83da233d_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 465
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 464
 REVERSE 5, 0
 GETGLOB 11
 GETGLOB 12
@@ -1722,8 +1722,26 @@ SENDRAWMSG
 .inline ___convertDecimals_12993623_internal_macro
 
 .macro _convertDecimals_12993623_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 480
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 479
 PUSHINT 0
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 484
+PUSH S2
+GETGLOB 14
+PUSHINT 267
+DICTGET
+IFREFELSEREF
+{
+	LDU 8
+	LDI 1
+	ENDS
+	PAIR
+}
+{
+	PUSHINT 0
+	DUP
+	PAIR
+}
+FIRST
 .loc contracts/bridge/alien-token-merge/MergePool.tsol, 485
 PUSH S2
 GETGLOB 14
@@ -1742,31 +1760,13 @@ IFREFELSEREF
 	PAIR
 }
 FIRST
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 486
-PUSH S2
-GETGLOB 14
-PUSHINT 267
-DICTGET
-IFREFELSEREF
-{
-	LDU 8
-	LDI 1
-	ENDS
-	PAIR
-}
-{
-	PUSHINT 0
-	DUP
-	PAIR
-}
-FIRST
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 488
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 487
 PUSHINT 10
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 490
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 489
 BLKPUSH 2, 2
 EQUAL
 PUSHCONT {
-	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 491
+	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 490
 	BLKDROP 6
 	.loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 }
@@ -1774,7 +1774,7 @@ PUSHCONT {
 	BLKPUSH 2, 2
 	GREATER
 	PUSHCONT {
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 493
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 492
 		ROT
 		ROLL 6
 		XCHG S3
@@ -1792,7 +1792,7 @@ PUSHCONT {
 		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 0
 	}
 	PUSHCONT {
-		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 495
+		.loc contracts/bridge/alien-token-merge/MergePool.tsol, 494
 		ROLL 6
 		REVERSE 4, 0
 		SUB
@@ -1819,7 +1819,7 @@ IFELSE
 .inline ___setTokenStatus_f6b18cd7_internal_macro
 
 .macro _setTokenStatus_f6b18cd7_internal_macro
-.loc contracts/bridge/alien-token-merge/MergePool.tsol, 500
+.loc contracts/bridge/alien-token-merge/MergePool.tsol, 499
 SWAP
 GETGLOB 14
 DUP2
@@ -1908,7 +1908,7 @@ RAWRESERVE
 
 .macro _targetBalance_81a00f03_internal_macro
 .loc contracts/utils/TransferUtils.tsol, 58
-PUSHINT 1000000000
+PUSHINT 100000000
 .loc contracts/utils/TransferUtils.tsol, 0
 
 .globl	_transferJettonsCallbackValue_7e6a0612_internal

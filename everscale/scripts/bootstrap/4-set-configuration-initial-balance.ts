@@ -4,28 +4,24 @@ type InitialBalance = ['EverscaleEthereumEventConfiguration' | 'EthereumEverscal
 
 const initialBalances: Record<string, InitialBalance> = {
     // Ethereum
-    '0:e38847934cae1f401f515af321a99729db797c6655a7cb0e56e4fa9be65d02ca': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
-    '0:d5bcc3a6c76520b200026f958ea2037bb9a590e01766363cbbd60e740c6db570': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
-    '0:1537b310e3870c1effb3cc4f2a37697b69e984b02909f3e19d23d4f936ba01ef': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
-    '0:c65e22c75e7bdd2e9d95fbab9ea75008af5345214ea5720e0d7fc059392d5bc3': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
+    '0:1dbe60fbeae7aef6751d35154eb4203531c04cff9e5d206363101b4fc8165fa1': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
+    '0:0f7c5fba232bf46ae1eeac0b8cecbe5dc8e83e262141a1ba7f36d0410b28c1d8': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
+    '0:1f1aaa8a0cf3c9851ec5496ad88cf0dbb50cb48fde75d08ca91247512eb33495': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
+    '0:3dc467e95a433fd2905e3b2d893116eb4dad7f0bbbecd96d7ba97eefc45bbe14': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
 
     // BSC
-    '0:5c3b2268f8944cca603aeaef8efdc422974a43e848780759fe9665a9e39d49df': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
-    '0:c5abe7f9da85a49ff71270616e19ff0ed2280defa0418ace0b0b90cfd3a3b362': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
-    '0:9f9e3c7bb283c21b5a7318c617246674bd6a57bea0a5bf964f0b4ca909e1dfab': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
-    '0:8af4ce3a20cf226f012fd11c6a6d926a5a516f8942c56c7ccf85313c8d6bddb0': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
+    '0:5b6affb7658d55c20612bdff74d23b95f45341ed154a2e595843ac2542358706': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
+    '0:27659b94045b39225294f84fb9ae72e1334ea52316d3745d51d7d626f06523d5': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
 
     // Avalanche
-    '0:9dcbb2ae503cfccc1cee704ba84e1b2fcef5c17f38adf0d1af03abfb70fc1247': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
-    '0:e3c5e3f1f7c59706490e86b5db447d4a7ce71c7fdc324b2ef7cf2381878a358e': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
-    '0:6f4a0b9175bbac603c63a641fbc69406129cec0b53be78a4f552a116d800eeab': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
-    '0:315ab3901e1217d92e2dfbb38f11e6be189809c3a9308ed741ec752e174cd571': ['EverscaleEthereumEventConfiguration', toNano(0.3)],
+    '0:070d9c22b7d85e08c28e8c6fbd633da849e61e2e21167d7352aeecbc32a72553': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
+    '0:21f57eb5223b839f374b01ec35b9fe059c25f9e4b6a8f5233c5450ac000740fe': ['EthereumEverscaleEventConfiguration', toNano(0.3)],
 };
 
 const ADMIN = new Address('0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b');
 
 const Gas = {
-    CONFIGURATION_SET_INITIAL_BALANCE: toNano(0.2),
+    CONFIGURATION_SET_INITIAL_BALANCE: toNano(0.1),
 };
 
 const main = async (): Promise<void> => {

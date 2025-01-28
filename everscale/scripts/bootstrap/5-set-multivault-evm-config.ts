@@ -3,23 +3,31 @@ import MinterCode from "../../jetton-contracts/jetton-minter.compiled.json";
 import WalletCode from "../../jetton-contracts/jetton-wallet.compiled.json";
 import { Address, toNano, WalletTypes } from "locklift";
 
-const BRIDGE_ADMIN = "0:2746d46337aa25d790c97f1aefb01a5de48cc1315b41a4f32753146a1e1aeb7d";
-const PROXY_MULTI_VAULT_ALIEN = "0:3d2ee3ff7118b05c7ea39ff6cdefe8101814bc3753ca45654d76b6791611992a";
-const PROXY_MULTI_VAULT_NATIVE = "0:abaef59990f979b2f42bfb3ebd85bbe4a9841dc1b489a9dbb3cd73244b95fee8";
+const BRIDGE_ADMIN = "0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b";
+const PROXY_MULTI_VAULT_ALIEN = "0:ab234789f6989a94ed1b9282ee8271a8ad0ca061f943d943f647b573aa6d7287";
+const PROXY_MULTI_VAULT_NATIVE = "0:d25385cbd0d34699ab78c3871663323807f52b8d7f2feb18237e27c30e479784";
 
 const ALIEN_MULTIVAULT_CONFIGURATIONS = {
-    everscaleConfiguration: new Address(''),
-    evmConfigurations: [new Address('')],
+    everscaleConfiguration: new Address('0:1f1aaa8a0cf3c9851ec5496ad88cf0dbb50cb48fde75d08ca91247512eb33495'),
+    evmConfigurations: [
+        new Address('0:1dbe60fbeae7aef6751d35154eb4203531c04cff9e5d206363101b4fc8165fa1'),
+        new Address('0:5b6affb7658d55c20612bdff74d23b95f45341ed154a2e595843ac2542358706'),
+        new Address('0:070d9c22b7d85e08c28e8c6fbd633da849e61e2e21167d7352aeecbc32a72553')
+    ],
 };
 
 const NATIVE_MULTIVAULT_CONFIGURATIONS = {
-    everscaleConfiguration: new Address(''),
-    evmConfigurations: [new Address('')],
+    everscaleConfiguration: new Address('0:3dc467e95a433fd2905e3b2d893116eb4dad7f0bbbecd96d7ba97eefc45bbe14'),
+    evmConfigurations: [
+        new Address('0:0f7c5fba232bf46ae1eeac0b8cecbe5dc8e83e262141a1ba7f36d0410b28c1d8'),
+        new Address('0:27659b94045b39225294f84fb9ae72e1334ea52316d3745d51d7d626f06523d5'),
+        new Address('0:21f57eb5223b839f374b01ec35b9fe059c25f9e4b6a8f5233c5450ac000740fe')
+    ],
 };
 
 const DISABLE_CONFIGURATIONS = [
-    { address: new Address(''), endBlock: '123' },
-    { address: new Address(''), endTimestamp: '123' }
+    // { address: new Address(''), endBlock: '123' },
+    // { address: new Address(''), endTimestamp: '123' }
 ];
 
 const main = async (): Promise<void> => {

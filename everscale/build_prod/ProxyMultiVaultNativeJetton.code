@@ -299,23 +299,11 @@ SDEQ
 PUSHCONT {
 	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 42
 	OVER
+	NIP
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
 }
-PUSHCONT {
-	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 44
-	PUSH S6
-	CALLREF {
-		.inline __EventContractNonce_no_obj__calculateNonce_dc2a9bcf_macro
-	}
-	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 46
-	PUXC S2, S-1
-	NEWC
-	STU 32
-	STREF
-	ENDC
-}
-IFELSE
-NIP
-.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 49
+IF
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 45
 XCHG S1, S5
 CALLREF {
 	.inline ___transferTokens_76bf1fab_internal_macro
@@ -328,7 +316,7 @@ DROP2
 .inline ___isArrayContainsAddress_fd9f2e52_internal_macro
 
 .macro _isArrayContainsAddress_fd9f2e52_internal_macro
-.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 62
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 58
 SWAP
 SECOND
 PUSHINT 0
@@ -346,11 +334,11 @@ PUSHCONT {
 	NOT
 }
 PUSHCONT {
-	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 63
+	.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 59
 	PUSH2 S4, S1
 	SDEQ
 	PUSHCONT {
-		.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 64
+		.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 60
 		BLKDROP 5
 		TRUE
 		PUSHINT 4
@@ -366,7 +354,7 @@ PUSHCONT {
 WHILEBRK
 IFRET
 BLKDROP 4
-.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 68
+.loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 64
 FALSE
 .loc contracts/bridge/proxy/multivault/native-ton/ProxyMultiVaultNativeJetton_Deposit.tsol, 0
 
@@ -1075,7 +1063,7 @@ RAWRESERVE
 
 .macro _targetBalance_81a00f03_internal_macro
 .loc contracts/utils/TransferUtils.tsol, 58
-PUSHINT 1000000000
+PUSHINT 100000000
 .loc contracts/utils/TransferUtils.tsol, 0
 
 .globl	_transferJettonsCallbackValue_7e6a0612_internal
