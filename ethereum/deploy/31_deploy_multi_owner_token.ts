@@ -1,15 +1,21 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
 
+const deterministicDeployment = "chainconnect-ton-prod";
+
 const func: DeployFunction = async function ({
   getNamedAccounts,
   deployments,
+  ethers,
 }: HardhatRuntimeEnvironment) {
-  const { deployer, owner } = await getNamedAccounts();
+  const { deployer } = await getNamedAccounts();
 
   await deployments.deploy("MultiOwnerToken", {
     from: deployer,
     log: true,
+    deterministicDeployment: ethers.encodeBytes32String(
+      deterministicDeployment,
+    ),
   });
 
   await deployments.execute(
