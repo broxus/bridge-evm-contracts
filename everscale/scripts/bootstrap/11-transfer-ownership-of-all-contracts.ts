@@ -10,6 +10,7 @@ import {
   EthereumEverscaleEventConfigurationAbi,
   EverscaleEthereumEventConfigurationAbi,
   MergePoolAbi,
+  MediatorAbi,
 } from "../../build_prod/factorySource";
 import { JettonMinter } from "../../test/utils/jetton";
 
@@ -243,6 +244,8 @@ const EVENT_CREDIT_FACTORY =
   "0:0e13640a05fd54b50dfa1794a36ea498c983e2119623b6c0e7baec0e03b99544";
 const WTON_MINTER =
   "0:4fa2916fc8cb24141b1fa79c3fe6505c52e02782c4a3fc99323ab4a00005fe3e";
+const MEDIATOR =
+  "0:095762ba75cb724ee2db7affd21ca0f6770d2c06b760e50e9694497235127bd0";
 
 const main = async (): Promise<void> => {
   const admin = await locklift.factory.accounts.addExistingAccount({
@@ -390,6 +393,22 @@ const main = async (): Promise<void> => {
       "\n",
     );
   }
+
+  const mediator: Contract<MediatorAbi> =
+    await locklift.factory.getDeployedContract(
+      "Mediator",
+      new Address(MEDIATOR),
+    );
+  await mediator.methods
+    .transferOwnership({ newOwner: NEW_OWNER })
+    .send({ from: admin.address, amount: toNano(0.2) });
+  console.log(
+    `Mediator new owner:`,
+    await mediator.methods
+      .owner({})
+      .call()
+      .then((a) => a.owner.toString()),
+  );
 
   const eventCreditFactory: Contract<EventCreditFactoryAbi> =
     await locklift.factory.getDeployedContract(
