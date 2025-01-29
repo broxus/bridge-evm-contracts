@@ -16,6 +16,7 @@ const func: DeployFunction = async function ({
     deterministicDeployment: ethers.encodeBytes32String(
       deterministicDeployment,
     ),
+    args: [deployer],
   });
 
   await deployments.execute(

@@ -15,7 +15,7 @@ import "./utils/MultiOwnable.sol";
 contract MultiOwnerToken is IMultiVaultToken, Context, IERC20, IERC20Metadata, MultiOwnable {
     uint activation;
 
-    constructor() MultiOwnable(_msgSender()) {}
+    constructor(address owner) MultiOwnable(owner) {}
 
     mapping(address => uint256) private _balances;
 
