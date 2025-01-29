@@ -11,6 +11,7 @@ import {
   EverscaleEthereumEventConfigurationAbi,
   MergePoolAbi,
 } from "../../build_prod/factorySource";
+import { JettonMinter } from "../../test/utils/jetton";
 
 const ADMIN = new Address(
   "0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b",
@@ -240,6 +241,8 @@ const MERGE_ROUTERS_AND_POOL = [
 ];
 const EVENT_CREDIT_FACTORY =
   "0:0e13640a05fd54b50dfa1794a36ea498c983e2119623b6c0e7baec0e03b99544";
+const WTON_MINTER =
+  "0:4fa2916fc8cb24141b1fa79c3fe6505c52e02782c4a3fc99323ab4a00005fe3e";
 
 const main = async (): Promise<void> => {
   const admin = await locklift.factory.accounts.addExistingAccount({
@@ -402,6 +405,17 @@ const main = async (): Promise<void> => {
       .owner({})
       .call()
       .then((a) => a.owner.toString()),
+    "\n",
+  );
+
+  const wton = new JettonMinter(new Address(WTON_MINTER), admin.address);
+  await wton.changeAdmin(new Address(NEW_OWNER), {
+    value: toNano(0.2),
+    bounce: true,
+  });
+  console.log(
+    `WTON new owner:`,
+    await wton.getState().then((a) => a.admin.toString()),
   );
 };
 
