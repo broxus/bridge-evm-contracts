@@ -6,11 +6,14 @@ const main = async () => {
     for (const dep of deploys) {
         if (dep[1].bytecode) {
             console.log(`Verify ${dep[0]}: ${dep[1].address}`);
-
-            await run("verify:verify", {
-                address: dep[1].address,
-                constructorArguments: dep[1].args,
-            });
+            try {
+                await run("verify:verify", {
+                    address: dep[1].address,
+                    constructorArguments: dep[1].args,
+                });
+            } catch (e) {
+                console.log(e);
+            }
         }
     }
 };

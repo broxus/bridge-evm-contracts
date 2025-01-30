@@ -26,8 +26,8 @@ const func: DeployFunction = async function ({
       log: true,
     },
     "initialize",
-    "MultiOwnerToken",
-    "MOT",
+    "Hamster Kombat",
+    "HMSTR",
     9,
   );
 };

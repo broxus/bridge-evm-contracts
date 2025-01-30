@@ -30,6 +30,7 @@ const multisig = {
   main: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
   bsc: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
   avalanche: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
+  polygon: "0x495064d4aaeeF771b9e89B7fD88C94e680F5E9C0",
 };
 
 const weth = {
@@ -219,7 +220,17 @@ const config: HardhatUserConfig = {
     },
     avalanche: {
       url: process.env.AVALANCHE_RPC_URL,
-      gasPrice: 3500000000, // 3.5 gwei
+      gasPrice: 2500000000, // 2.5 gwei
+      gas: 3000000,
+      timeout: 1000000,
+      accounts: {
+        mnemonic: process.env.ETH_MNEMONIC,
+        count: 50,
+      },
+    },
+    polygon: {
+      url: 'https://polygon-rpc.com',
+      gasPrice: 40000000000, // 40 gwei
       gas: 3000000,
       timeout: 1000000,
       accounts: {

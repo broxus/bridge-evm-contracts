@@ -1,5 +1,9 @@
 import { deployments, getNamedAccounts } from "hardhat";
 
+import {BigNumber} from "bignumber.js";
+
+BigNumber.config({ EXPONENTIAL_AT: 1e+9 })
+
 const main = async () => {
     const { deployer } = await getNamedAccounts();
 
@@ -7,9 +11,9 @@ const main = async () => {
         "MultiVault",
         { from: deployer, log: true },
         "addPredeployedToken",
-        ["0", "1485964644044902029379366325111601310947727015793334109634373504816903004807"],
-        "0x9cDD44107055b6259c2a5407318b39F85379DDA6",
-        ["PikaTon", "PKTN", 9],
+        ["0", new BigNumber('0:09f2e59dec406ab26a5259a45d7ff23ef11f3e5c7c21de0b0d2a1cbe52b76b3d'.split(':')[1], 16).toString()],
+        "0xa62dc6Aa3faf4b8e29FeD4c25b844E0B0D552E5d",
+        ["Hamster Kombat", "HMSTR", 9],
     );
 };
 
