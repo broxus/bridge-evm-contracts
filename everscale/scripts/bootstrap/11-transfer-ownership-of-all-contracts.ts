@@ -11,13 +11,13 @@ import {
   EverscaleEthereumEventConfigurationAbi,
   MergePoolAbi,
   MediatorAbi,
-} from "../../build_prod/factorySource";
+} from "../../build/factorySource";
 import { JettonMinter } from "../../test/utils/jetton";
 
 const ADMIN = new Address(
   "0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b",
 );
-const NEW_OWNER = "";
+const NEW_OWNER = new Address("");
 
 const BRIDGE =
   "0:22128f17fef7a538d4a92152db86c4b70f4dd1137ae162d38939a36b724e681b";
@@ -27,7 +27,15 @@ const PROXY_MULTIVAULT_ALIEN =
   "0:ab234789f6989a94ed1b9282ee8271a8ad0ca061f943d943f647b573aa6d7287";
 const PROXY_MULTIVAULT_NATIVE =
   "0:d25385cbd0d34699ab78c3871663323807f52b8d7f2feb18237e27c30e479784";
-const EVENT_CONFIGS_AND_CONNECTORS = [
+const EVENT_CONFIGS_AND_CONNECTORS: {
+  group: string;
+  eventConfigs: {
+    eventConfigName: 'EthereumEverscaleEventConfiguration' | 'EverscaleEthereumEventConfiguration';
+    description: string;
+    eventConfigAddress: string;
+    connector: string;
+  }[];
+}[] = [
   {
     group: "STAKING",
     eventConfigs: [
@@ -253,11 +261,26 @@ const main = async (): Promise<void> => {
     address: ADMIN,
   });
 
+  let CHANGE_OWNER_GAS;
+
+  switch (locklift.context.network.name) {
+    case 'ton':
+      CHANGE_OWNER_GAS = toNano(0.05);
+      break;
+    case 'hamster':
+      CHANGE_OWNER_GAS = toNano(30);
+      break;
+    default:
+      CHANGE_OWNER_GAS = toNano(0.5);
+  }
+
   const bridge: Contract<BridgeAbi> =
-    await locklift.factory.getDeployedContract("Bridge", new Address(BRIDGE));
-  await bridge.methods
-    .transferOwnership({ newOwner: NEW_OWNER })
-    .send({ from: admin.address, amount: toNano(0.2) });
+    locklift.factory.getDeployedContract("Bridge", new Address(BRIDGE));
+  await locklift.tracing.trace(
+    bridge.methods
+      .transferOwnership({ newOwner: NEW_OWNER })
+      .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+  );
   console.log(
     "Bridge new owner:",
     await bridge.methods
@@ -267,13 +290,15 @@ const main = async (): Promise<void> => {
   );
 
   const staking: Contract<RoundDeployerAbi> =
-    await locklift.factory.getDeployedContract(
+    locklift.factory.getDeployedContract(
       "RoundDeployer",
       new Address(STAKING),
     );
-  await staking.methods
-    .setAdmin({ new_admin: NEW_OWNER, send_gas_to: admin.address })
-    .send({ from: admin.address, amount: toNano(0.5) });
+  await locklift.tracing.trace(
+    staking.methods
+      .setAdmin({ new_admin: NEW_OWNER, send_gas_to: admin.address })
+      .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+  );
   console.log(
     "Staking new owner:",
     await staking.methods
@@ -283,13 +308,15 @@ const main = async (): Promise<void> => {
   );
 
   const proxyAlien: Contract<ProxyMultiVaultAlienJettonAbi> =
-    await locklift.factory.getDeployedContract(
+    locklift.factory.getDeployedContract(
       "ProxyMultiVaultAlienJetton",
       new Address(PROXY_MULTIVAULT_ALIEN),
     );
-  await proxyAlien.methods
-    .transferOwnership({ newOwner: NEW_OWNER })
-    .send({ from: admin.address, amount: toNano(0.2) });
+  await locklift.tracing.trace(
+    proxyAlien.methods
+      .transferOwnership({ newOwner: NEW_OWNER })
+      .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+  );
   console.log(
     "ProxyMultiVaultAlien new owner:",
     await proxyAlien.methods
@@ -299,13 +326,15 @@ const main = async (): Promise<void> => {
   );
 
   const proxyNative: Contract<ProxyMultiVaultNativeJettonAbi> =
-    await locklift.factory.getDeployedContract(
-      "ProxyMultiVaultAlienNative",
+    locklift.factory.getDeployedContract(
+      "ProxyMultiVaultNativeJetton",
       new Address(PROXY_MULTIVAULT_NATIVE),
     );
-  await proxyNative.methods
-    .transferOwnership({ newOwner: NEW_OWNER })
-    .send({ from: admin.address, amount: toNano(0.2) });
+  await locklift.tracing.trace(
+    proxyNative.methods
+      .transferOwnership({ newOwner: NEW_OWNER })
+      .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+  );
   console.log(
     "ProxyMultiVaultNative new owner:",
     await proxyNative.methods
@@ -315,19 +344,21 @@ const main = async (): Promise<void> => {
     "\n",
   );
 
-  for (let group of EVENT_CONFIGS_AND_CONNECTORS) {
+  for (const group of EVENT_CONFIGS_AND_CONNECTORS) {
     console.log(group.group);
-    for (let config of group.eventConfigs) {
+    for (const config of group.eventConfigs) {
       const eventConfig: Contract<
         | EthereumEverscaleEventConfigurationAbi
         | EverscaleEthereumEventConfigurationAbi
-      > = await locklift.factory.getDeployedContract(
+      > = locklift.factory.getDeployedContract(
         config.eventConfigName,
         new Address(config.eventConfigAddress),
       );
-      await eventConfig.methods
-        .transferOwnership({ newOwner: NEW_OWNER })
-        .send({ from: admin.address, amount: toNano(0.2) });
+      await locklift.tracing.trace(
+        eventConfig.methods
+          .transferOwnership({ newOwner: NEW_OWNER })
+          .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+      );
       console.log(
         `${config.eventConfigName} (${config.description}) new owner:`,
         await eventConfig.methods
@@ -337,13 +368,15 @@ const main = async (): Promise<void> => {
       );
 
       const connector: Contract<ConnectorAbi> =
-        await locklift.factory.getDeployedContract(
+        locklift.factory.getDeployedContract(
           "Connector",
           new Address(config.connector),
         );
-      await connector.methods
-        .transferOwnership({ newOwner: NEW_OWNER })
-        .send({ from: admin.address, amount: toNano(0.2) });
+      await locklift.tracing.trace(
+        connector.methods
+          .transferOwnership({ newOwner: NEW_OWNER })
+          .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+      );
       console.log(
         `${config.eventConfigAddress} Connector new owner:`,
         await connector.methods
@@ -355,18 +388,20 @@ const main = async (): Promise<void> => {
     console.log();
   }
 
-  for (let mergeConfig of MERGE_ROUTERS_AND_POOL) {
+  for (const mergeConfig of MERGE_ROUTERS_AND_POOL) {
     console.log(`Merge Pool for ${mergeConfig.description}`);
 
-    for (let router of mergeConfig.mergeRouters) {
+    for (const router of mergeConfig.mergeRouters) {
       const mergeRouter: Contract<MergeRouterAbi> =
-        await locklift.factory.getDeployedContract(
+        locklift.factory.getDeployedContract(
           "MergeRouter",
           new Address(router.address),
         );
-      await mergeRouter.methods
-        .transferOwnership({ newOwner: NEW_OWNER })
-        .send({ from: admin.address, amount: toNano(0.2) });
+      await locklift.tracing.trace(
+        mergeRouter.methods
+          .transferOwnership({ newOwner: NEW_OWNER })
+          .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+      );
       console.log(
         `MergeRouter ${router.network}-${mergeConfig.description} new owner:`,
         await mergeRouter.methods
@@ -377,13 +412,15 @@ const main = async (): Promise<void> => {
     }
 
     const mergePool: Contract<MergePoolAbi> =
-      await locklift.factory.getDeployedContract(
-        "MergePool_V5",
+      locklift.factory.getDeployedContract(
+        "MergePool",
         new Address(mergeConfig.mergePool),
       );
-    await mergePool.methods
-      .transferOwnership({ newOwner: NEW_OWNER })
-      .send({ from: admin.address, amount: toNano(0.2) });
+    await locklift.tracing.trace(
+      mergePool.methods
+        .transferOwnership({ newOwner: NEW_OWNER })
+        .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+    );
     console.log(
       `MergePool new owner:`,
       await mergePool.methods
@@ -395,13 +432,15 @@ const main = async (): Promise<void> => {
   }
 
   const mediator: Contract<MediatorAbi> =
-    await locklift.factory.getDeployedContract(
+    locklift.factory.getDeployedContract(
       "Mediator",
       new Address(MEDIATOR),
     );
-  await mediator.methods
-    .transferOwnership({ newOwner: NEW_OWNER })
-    .send({ from: admin.address, amount: toNano(0.2) });
+  await locklift.tracing.trace(
+    mediator.methods
+      .transferOwnership({ newOwner: NEW_OWNER })
+      .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+  );
   console.log(
     `Mediator new owner:`,
     await mediator.methods
@@ -411,13 +450,15 @@ const main = async (): Promise<void> => {
   );
 
   const eventCreditFactory: Contract<EventCreditFactoryAbi> =
-    await locklift.factory.getDeployedContract(
+    locklift.factory.getDeployedContract(
       "EventCreditFactory",
       new Address(EVENT_CREDIT_FACTORY),
     );
-  await eventCreditFactory.methods
-    .transferOwnership({ newOwner: NEW_OWNER })
-    .send({ from: admin.address, amount: toNano(0.2) });
+  await locklift.tracing.trace(
+    eventCreditFactory.methods
+      .transferOwnership({ newOwner: NEW_OWNER })
+      .send({ from: admin.address, amount: CHANGE_OWNER_GAS })
+  );
   console.log(
     `EventCreditFactory new owner:`,
     await eventCreditFactory.methods
@@ -428,14 +469,18 @@ const main = async (): Promise<void> => {
   );
 
   const wton = new JettonMinter(new Address(WTON_MINTER), admin.address);
-  await wton.changeAdmin(new Address(NEW_OWNER), {
-    value: toNano(0.2),
-    bounce: true,
-  });
+  await locklift.tracing.trace(
+    wton.changeAdmin(NEW_OWNER, {
+      value: CHANGE_OWNER_GAS,
+      bounce: true,
+    })
+  );
   console.log(
     `WTON new owner:`,
     await wton.getState().then((a) => a.admin.toString()),
   );
+
+  // TODO: DexMiddleware
 };
 
 main().then(() => console.log("Success"));
