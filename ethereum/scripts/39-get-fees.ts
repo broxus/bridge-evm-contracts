@@ -19,7 +19,7 @@ const main = async () => {
   for (const token of networkTokens) {
     const Token = await ethers.getContractAt("ERC20", token);
     console.log(`${await Token.name()}: ${token}`);
-    console.log(`Fee: ${Number(await multivault.fees(token)) / Math.max(Number(await Token.decimals()), 1)}`);
+    console.log(`Fee: ${Number(await multivault.fees(token)) / Math.pow(10, Number(await Token.decimals()))}`);
   }
 };
 
