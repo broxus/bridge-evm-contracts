@@ -1,41 +1,32 @@
-import { writeFileSync } from "fs";
+import { readFileSync } from "fs";
 import { ethers, getNamedAccounts } from "hardhat";
 
-const tokens: Record<string, string[]> = {
-  main: [],
-  bsc: [],
-  fantom: [],
-  polygon: [],
-  avalanche: [],
-};
+const RECEIVER = "";
 
 const main = async () => {
   const { name: networkName, chainId } = await ethers.provider.getNetwork();
   console.log(`Network name: ${networkName}`);
 
-  const networkTokens = tokens[networkName];
-
   const { management } = await getNamedAccounts();
   console.log(`Management: ${management}`);
 
-  const multivault = await ethers.getContract("MultiVault");
-
-  const feesInfo = [];
+  const fees = JSON.parse(readFileSync(`./withdrawn-fees-${networkName}.json`).toString());
 
   const transactions = [];
-  for (const token of networkTokens) {
-    feesInfo.push({ token: token, fee: (await multivault.fees(token)).toString() });
-
+  for (const feeData of fees) {
     transactions.push({
-      to: await multivault.getAddress(),
+      to: feeData.token,
       value: "0",
       data: null,
       contractMethod: {
-        inputs: [{ internalType: "address", name: "token", type: "address" }],
-        name: "skim",
+        inputs: [
+          { internalType: "address", name: "to", type: "address" },
+          { internalType: "uint256", name: "value", type: "uint256" },
+        ],
+        name: "transfer",
         payable: false,
       },
-      contractInputsValues: { token: token },
+      contractInputsValues: { to: RECEIVER, value: feeData.fee },
     });
   }
 
@@ -44,7 +35,7 @@ const main = async () => {
     chainId: chainId.toString(),
     createdAt: new Date().getTime(),
     meta: {
-      name: "Skim Batch",
+      name: "Transfer Batch",
       description: "",
       txBuilderVersion: "1.18.0",
       createdFromSafeAddress: management.toString(),
@@ -55,8 +46,6 @@ const main = async () => {
   };
 
   console.log(JSON.stringify(json));
-
-  writeFileSync(`./withdrawn-fees-${networkName}.json`, JSON.stringify(feesInfo, null, 2));
 };
 
 main().catch(error => {
