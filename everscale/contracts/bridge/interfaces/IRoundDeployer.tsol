@@ -1,8 +1,0 @@
-pragma ever-solidity >= 0.62.0;
-
-
-interface IRoundDeployer {
-    function getRelayRoundAddressFromTimestamp(
-        uint32 time
-    ) external responsible view returns(address roundContract, uint32 roundNum);
-}

@@ -1,2 +1,16 @@
-.idea/
-.DS_Store
+node_modules
+.env
+gas-report.txt
+
+# Hardhat files
+/cache
+/artifacts
+/deployments
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json

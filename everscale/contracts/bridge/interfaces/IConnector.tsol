@@ -1,8 +1,0 @@
-pragma ever-solidity >= 0.62.0;
-
-
-interface IConnector {
-    function enable() external;
-
-    event Enabled();
-}

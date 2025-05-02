@@ -1,9 +1,0 @@
-pragma ever-solidity >= 0.62.0;
-
-interface ITakeWalletAddress {
-    function takeWalletAddress(
-        uint64 _callId,
-        address _wallet,
-        optional(TvmCell) _walletOwner
-    ) external functionID(0xd1735400);
-}

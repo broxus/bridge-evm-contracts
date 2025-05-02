@@ -1,8 +1,0 @@
-pragma ever-solidity >= 0.62.0;
-
-import "./event-contracts/IBasicEvent.tsol";
-
-
-interface IEventNotificationReceiver is IBasicEvent {
-    function notifyEventStatusChanged(Status status) external;
-}
