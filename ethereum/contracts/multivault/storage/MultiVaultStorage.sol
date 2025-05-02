@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 import "../../interfaces/multivault/IMultiVaultFacetTokens.sol";
 import "../../interfaces/multivault/IMultiVaultFacetPendingWithdrawals.sol";
 import "../../interfaces/multivault/IMultiVaultFacetLiquidity.sol";
@@ -25,7 +25,7 @@ library MultiVaultStorage {
 
     struct Storage {
         mapping (address => IMultiVaultFacetTokens.Token) tokens_;
-        mapping (address => IEverscale.EverscaleAddress) natives_;
+        mapping (address => ITVM.TvmAddress) natives_;
 
         uint defaultNativeDepositFee;
         uint defaultNativeWithdrawFee;
@@ -36,9 +36,9 @@ library MultiVaultStorage {
 
         address bridge;
         mapping(bytes32 => bool) withdrawalIds;
-        IEverscale.EverscaleAddress rewards_; // deprecated
-        IEverscale.EverscaleAddress configurationNative_;
-        IEverscale.EverscaleAddress configurationAlien_;
+        ITVM.TvmAddress rewards_; // deprecated
+        ITVM.TvmAddress configurationNative_;
+        ITVM.TvmAddress configurationAlien_;
 
         address governance;
         address pendingGovernance;

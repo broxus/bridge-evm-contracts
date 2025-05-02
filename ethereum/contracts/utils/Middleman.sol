@@ -56,11 +56,11 @@ contract Middleman is Initializable, IOctusCallbackAlien, IOctusCallbackNative, 
 
         (
             address dstMultiVault,
-            IEverscale.EverscaleAddress memory recipientAddress,
+            ITVM.TvmAddress memory recipientAddress,
             bytes memory depositData
         ) = abi.decode(callback.payload, (
             address,
-            IEverscale.EverscaleAddress,
+            ITVM.TvmAddress,
             bytes
         ));
 

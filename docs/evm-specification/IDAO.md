@@ -77,7 +77,7 @@ function setBridge(address _bridge) external nonpayable
 ### setConfiguration
 
 ```solidity
-function setConfiguration(IEverscale.EverscaleAddress _configuration) external nonpayable
+function setConfiguration(ITVM.TvmAddress _configuration) external nonpayable
 ```
 
 
@@ -88,7 +88,7 @@ function setConfiguration(IEverscale.EverscaleAddress _configuration) external n
 
 | Name | Type | Description |
 |---|---|---|
-| _configuration | IEverscale.EverscaleAddress | undefined |
+| _configuration | ITVM.TvmAddress | undefined |
 
 
 
@@ -113,7 +113,7 @@ event UpdateBridge(address indexed bridge)
 ### UpdateConfiguration
 
 ```solidity
-event UpdateConfiguration(IEverscale.EverscaleAddress configuration)
+event UpdateConfiguration(ITVM.TvmAddress configuration)
 ```
 
 
@@ -124,7 +124,7 @@ event UpdateConfiguration(IEverscale.EverscaleAddress configuration)
 
 | Name | Type | Description |
 |---|---|---|
-| configuration  | IEverscale.EverscaleAddress | undefined |
+| configuration  | ITVM.TvmAddress | undefined |
 
 
 

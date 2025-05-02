@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "../IEverscale.sol";
+import "../ITVM.sol";
 
 
 interface IMultiVaultFacetSettings {
@@ -12,8 +12,8 @@ interface IMultiVaultFacetSettings {
         address _weth
     ) external;
 
-    function configurationAlien() external view returns (IEverscale.EverscaleAddress memory);
-    function configurationNative() external view returns (IEverscale.EverscaleAddress memory);
+    function configurationAlien() external view returns (ITVM.TvmAddress memory);
+    function configurationNative() external view returns (ITVM.TvmAddress memory);
 
     function bridge() external view returns(address);
 
@@ -55,9 +55,9 @@ interface IMultiVaultFacetSettings {
     ) external;
 
     function setConfigurationNative(
-        IEverscale.EverscaleAddress memory _configuration
+        ITVM.TvmAddress memory _configuration
     ) external;
     function setConfigurationAlien(
-        IEverscale.EverscaleAddress memory _configuration
+        ITVM.TvmAddress memory _configuration
     ) external;
 }

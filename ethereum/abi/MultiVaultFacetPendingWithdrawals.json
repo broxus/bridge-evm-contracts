@@ -97,7 +97,7 @@
       {
         "indexed": false,
         "internalType": "uint256",
-        "name": "expected_evers",
+        "name": "expected_gas",
         "type": "uint256"
       },
       {
@@ -201,7 +201,7 @@
       {
         "indexed": false,
         "internalType": "uint256",
-        "name": "expected_evers",
+        "name": "expected_gas",
         "type": "uint256"
       },
       {
@@ -414,13 +414,13 @@
             "type": "uint256"
           }
         ],
-        "internalType": "struct IEverscale.EverscaleAddress",
+        "internalType": "struct ITVM.TvmAddress",
         "name": "recipient",
         "type": "tuple"
       },
       {
         "internalType": "uint256",
-        "name": "expected_evers",
+        "name": "expected_gas",
         "type": "uint256"
       },
       {

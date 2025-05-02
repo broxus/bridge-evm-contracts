@@ -38,18 +38,18 @@ contract MultiVaultFacetTokens is
         return s.tokens_[_token];
     }
 
-    /// @notice Get native Everscale token address for EVM token
+    /// @notice Get native TVM token address for EVM token
     /// @param _token Token address
     function natives(
         address _token
-    ) external view override returns (IEverscale.EverscaleAddress memory) {
+    ) external view override returns (ITVM.TvmAddress memory) {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         return s.natives_[_token];
     }
 
     function getPredeployedToken(
-        IEverscale.EverscaleAddress memory tvmToken
+        ITVM.TvmAddress memory tvmToken
     ) external view override returns (address) {
         mapping (bytes32 => address) storage predeployed = MultiVaultStorage._getPredeployed();
 
@@ -68,8 +68,8 @@ contract MultiVaultFacetTokens is
     }
 
     /// @notice Gets the address
-    /// @param wid Everscale token address workchain id
-    /// @param addr Everscale token address body
+    /// @param wid TVM token address workchain id
+    /// @param addr TVM token address body
     /// @return token Token address
     function getNativeToken(
         int8 wid,

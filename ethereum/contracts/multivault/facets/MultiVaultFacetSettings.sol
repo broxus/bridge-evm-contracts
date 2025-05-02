@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 import "../../interfaces/multivault/IMultiVaultFacetTokens.sol";
 import "../../interfaces/multivault/IMultiVaultFacetSettings.sol";
 import "../../interfaces/multivault/IMultiVaultFacetSettingsEvents.sol";
@@ -55,24 +55,24 @@ contract MultiVaultFacetSettings is
     }
 
     /// @notice Native configuration address
-    /// @return Everscale address, used for verifying native withdrawals
+    /// @return TVM address, used for verifying native withdrawals
     function configurationNative()
         external
         view
         override
-    returns (IEverscale.EverscaleAddress memory) {
+    returns (ITVM.TvmAddress memory) {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         return s.configurationNative_;
     }
 
     /// @notice Alien configuration address
-    /// @return Everscale address, used for verifying alien withdrawals
+    /// @return TVM address, used for verifying alien withdrawals
     function configurationAlien()
         external
         view
         override
-    returns (IEverscale.EverscaleAddress memory) {
+    returns (ITVM.TvmAddress memory) {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         return s.configurationAlien_;
@@ -81,7 +81,7 @@ contract MultiVaultFacetSettings is
     /// @notice Set alien configuration address.
     /// @param _configuration The address to use for alien configuration.
     function setConfigurationAlien(
-        IEverscale.EverscaleAddress memory _configuration
+        ITVM.TvmAddress memory _configuration
     ) external override onlyGovernance {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
@@ -97,7 +97,7 @@ contract MultiVaultFacetSettings is
     /// @notice Set native configuration address.
     /// @param _configuration The address to use for native configuration.
     function setConfigurationNative(
-        IEverscale.EverscaleAddress memory _configuration
+        ITVM.TvmAddress memory _configuration
     ) external override onlyGovernance {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 

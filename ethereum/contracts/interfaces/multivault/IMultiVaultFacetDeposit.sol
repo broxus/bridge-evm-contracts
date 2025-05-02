@@ -2,23 +2,23 @@
 pragma solidity ^0.8.20;
 
 
-import "../IEverscale.sol";
+import "../ITVM.sol";
 import "./IMultiVaultFacetPendingWithdrawals.sol";
 
 
 interface IMultiVaultFacetDeposit {
     struct DepositParams {
-        IEverscale.EverscaleAddress recipient;
+        ITVM.TvmAddress recipient;
         address token;
         uint amount;
-        uint expected_evers;
+        uint expected_gas;
         bytes payload;
     }
 
     struct DepositNativeTokenParams {
-        IEverscale.EverscaleAddress recipient;
+        ITVM.TvmAddress recipient;
         uint amount;
-        uint expected_evers;
+        uint expected_gas;
         bytes payload;
     }
 

@@ -105,7 +105,7 @@ contract MultiVaultFacetLiquidity is
         IERC20(token).safeTransfer(recipient, underlying_amount);
     }
 
-    /// @notice Each LP token is convertible into an ever increasing quantity of the underlying asset,
+    /// @notice Each LP token is convertible into a native tvm token increasing quantity of the underlying asset,
     /// as interest accrues in the market.
     /// @param token Underlying token address
     function exchangeRateCurrent(

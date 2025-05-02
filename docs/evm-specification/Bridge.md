@@ -4,7 +4,7 @@
 
 > EVM Bridge contract
 
-Stores relays for each round, implements relay slashing, helps in validating Everscale-EVM events
+Stores relays for each round, implements relay slashing, helps in validating TVM-EVM events
 
 
 
@@ -70,28 +70,6 @@ function cache(bytes32) external view returns (bool)
 |---|---|---|
 | _0 | bool | undefined |
 
-### decodeEverscaleEvent
-
-```solidity
-function decodeEverscaleEvent(bytes payload) external pure returns (struct IEverscale.EverscaleEvent _event)
-```
-
-
-
-
-
-#### Parameters
-
-| Name | Type | Description |
-|---|---|---|
-| payload | bytes | undefined |
-
-#### Returns
-
-| Name | Type | Description |
-|---|---|---|
-| _event | IEverscale.EverscaleEvent | undefined |
-
 ### decodeRoundRelaysEventData
 
 ```solidity
@@ -115,6 +93,28 @@ function decodeRoundRelaysEventData(bytes payload) external pure returns (uint32
 | round | uint32 | undefined |
 | _relays | uint160[] | undefined |
 | roundEnd | uint32 | undefined |
+
+### decodeTvmEvent
+
+```solidity
+function decodeTvmEvent(bytes payload) external pure returns (struct ITVM.TvmEvent _event)
+```
+
+
+
+
+
+#### Parameters
+
+| Name | Type | Description |
+|---|---|---|
+| payload | bytes | undefined |
+
+#### Returns
+
+| Name | Type | Description |
+|---|---|---|
+| _event | ITVM.TvmEvent | undefined |
 
 ### forceRoundRelays
 
@@ -158,7 +158,7 @@ function initialize(address _owner, address _roundSubmitter, uint32 _minimumRequ
 
 Bridge initializer
 
-*`roundRelaysConfiguration` should be specified after deploy, since it&#39;s an Everscale contract, which needs EVM Bridge address to be deployed.*
+*`roundRelaysConfiguration` should be specified after deploy, since it&#39;s an TVM contract, which needs EVM Bridge address to be deployed.*
 
 #### Parameters
 
@@ -298,7 +298,7 @@ function pause() external nonpayable
 
 Pause Bridge contract. Can be called only by `owner`.
 
-*When Bridge paused, any signature verification Everscale-EVM event fails.*
+*When Bridge paused, any signature verification TVM-EVM event fails.*
 
 
 ### paused
@@ -455,7 +455,7 @@ function rounds(uint32) external view returns (uint32 end, uint32 ttl, uint32 re
 ### setConfiguration
 
 ```solidity
-function setConfiguration(IEverscale.EverscaleAddress _roundRelaysConfiguration) external nonpayable
+function setConfiguration(ITVM.TvmAddress _roundRelaysConfiguration) external nonpayable
 ```
 
 
@@ -466,7 +466,7 @@ function setConfiguration(IEverscale.EverscaleAddress _roundRelaysConfiguration)
 
 | Name | Type | Description |
 |---|---|---|
-| _roundRelaysConfiguration | IEverscale.EverscaleAddress | undefined |
+| _roundRelaysConfiguration | ITVM.TvmAddress | undefined |
 
 ### setRoundRelays
 
@@ -482,7 +482,7 @@ Grant relay permission for set of addresses at specific round
 
 | Name | Type | Description |
 |---|---|---|
-| payload | bytes | Bytes encoded EverscaleEvent structure |
+| payload | bytes | Bytes encoded TvmEvent structure |
 | signatures | bytes[] | Payload signatures |
 
 ### setRoundSubmitter
@@ -550,7 +550,7 @@ Unpause Bridge contract.
 function updateMinimumRequiredSignatures(uint32 _minimumRequiredSignatures) external nonpayable
 ```
 
-Update minimum amount of required signatures per round This parameter limits the minimum amount of signatures to be required for Everscale-EVM event.
+Update minimum amount of required signatures per round This parameter limits the minimum amount of signatures to be required for TVM-EVM event.
 
 
 
@@ -576,13 +576,13 @@ Update round TTL
 |---|---|---|
 | _roundTTL | uint32 | New TTL value |
 
-### verifySignedEverscaleEvent
+### verifySignedTvmEvent
 
 ```solidity
-function verifySignedEverscaleEvent(bytes payload, bytes[] signatures) external view returns (uint32 errorCode)
+function verifySignedTvmEvent(bytes payload, bytes[] signatures) external view returns (uint32 errorCode)
 ```
 
-Verify `EverscaleEvent` signatures.
+Verify `TvmEvent` signatures.
 
 *Signatures should be sorted by the ascending signers. Error codes: 0. Verification passed (no error) 1. Specified round is less than initial round 2. Specified round is greater than last round 3. Not enough correct signatures. Possible reasons: - Some of the signers are not relays at the specified round - Some of the signers are banned 4. Round is rotten. 5. Verification passed, but bridge is in &quot;paused&quot; mode*
 
@@ -590,7 +590,7 @@ Verify `EverscaleEvent` signatures.
 
 | Name | Type | Description |
 |---|---|---|
-| payload | bytes | Bytes encoded `EverscaleEvent` structure |
+| payload | bytes | Bytes encoded `TvmEvent` structure |
 | signatures | bytes[] | Payload signatures |
 
 #### Returns
@@ -738,7 +738,7 @@ event UpdateMinimumRequiredSignatures(uint32 value)
 ### UpdateRoundRelaysConfiguration
 
 ```solidity
-event UpdateRoundRelaysConfiguration(IEverscale.EverscaleAddress configuration)
+event UpdateRoundRelaysConfiguration(ITVM.TvmAddress configuration)
 ```
 
 
@@ -749,7 +749,7 @@ event UpdateRoundRelaysConfiguration(IEverscale.EverscaleAddress configuration)
 
 | Name | Type | Description |
 |---|---|---|
-| configuration  | IEverscale.EverscaleAddress | undefined |
+| configuration  | ITVM.TvmAddress | undefined |
 
 ### UpdateRoundSubmitter
 

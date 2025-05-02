@@ -59,8 +59,8 @@ contract UnwrapNativeToken is IOctusCallbackAlien, Initializable {
     function cancelPendingWithdrawal(
         uint256 _id,
         uint256 _amount,
-        IEverscale.EverscaleAddress memory _recipient,
-        uint _expected_evers,
+        ITVM.TvmAddress memory _recipient,
+        uint _expected_gas,
         bytes memory _payload,
         uint _bounty
     ) external payable onlyWithdrawRequestOwner(_id) {
@@ -68,7 +68,7 @@ contract UnwrapNativeToken is IOctusCallbackAlien, Initializable {
             _id,
             _amount,
             _recipient,
-            _expected_evers,
+            _expected_gas,
             _payload,
             _bounty
         );

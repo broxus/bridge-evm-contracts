@@ -6,7 +6,7 @@ import "../../interfaces/multivault/IMultiVaultFacetPendingWithdrawals.sol";
 import "../../interfaces/multivault/IMultiVaultFacetPendingWithdrawalsEvents.sol";
 import "../../interfaces/multivault/IMultiVaultFacetWithdraw.sol";
 import "../../interfaces/IMultiVaultToken.sol";
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
@@ -15,7 +15,7 @@ import "../helpers/MultiVaultHelperActors.sol";
 import "../helpers/MultiVaultHelperPendingWithdrawal.sol";
 import "../helpers/MultiVaultHelperReentrancyGuard.sol";
 import "../helpers/MultiVaultHelperTokenBalance.sol";
-import "../helpers/MultiVaultHelperEverscale.sol";
+import "../helpers/MultiVaultHelperTVM.sol";
 import "../helpers/MultiVaultHelperCallback.sol";
 import "../helpers/MultiVaultHelperGas.sol";
 
@@ -27,7 +27,7 @@ contract MultiVaultFacetPendingWithdrawals is
     MultiVaultHelperEmergency,
     MultiVaultHelperGas,
     MultiVaultHelperActors,
-    MultiVaultHelperEverscale,
+    MultiVaultHelperTVM,
     MultiVaultHelperTokenBalance,
     MultiVaultHelperPendingWithdrawal,
     MultiVaultHelperReentrancyGuard,
@@ -134,13 +134,13 @@ contract MultiVaultFacetPendingWithdrawals is
     /// This may only be called by pending withdrawal recipient.
     /// @param id Pending withdrawal ID
     /// @param amount Amount to cancel, should be less or equal than pending withdrawal amount
-    /// @param recipient Tokens recipient, in Everscale network
+    /// @param recipient Tokens recipient, in TVM network
     /// @param bounty New value for bounty
     function cancelPendingWithdrawal(
         uint256 id,
         uint256 amount,
-        IEverscale.EverscaleAddress memory recipient,
-        uint expected_evers,
+        ITVM.TvmAddress memory recipient,
+        uint expected_gas,
         bytes memory payload,
         uint bounty
     )
@@ -166,11 +166,11 @@ contract MultiVaultFacetPendingWithdrawals is
             recipient: recipient,
             token: pendingWithdrawal.token,
             amount: amount,
-            expected_evers: expected_evers,
+            expected_gas: expected_gas,
             payload: payload
         });
 
-        _transferToEverscaleAlien(deposit, 0, msg.value);
+        _transferToTvmAlien(deposit, 0, msg.value);
 
         emit PendingWithdrawalCancel(msg.sender, id, amount);
 

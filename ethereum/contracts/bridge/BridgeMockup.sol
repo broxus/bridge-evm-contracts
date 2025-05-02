@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 
 contract BridgeMockup {
-    function verifySignedEverscaleEvent(
+    function verifySignedTvmEvent(
         bytes memory /*payload*/,
         bytes[] memory /*signatures*/
     ) external pure returns (uint32) {

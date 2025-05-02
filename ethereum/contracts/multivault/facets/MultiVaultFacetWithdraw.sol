@@ -5,7 +5,7 @@ import "../../interfaces/multivault/IMultiVaultFacetWithdraw.sol";
 import "../../interfaces/multivault/IMultiVaultFacetPendingWithdrawals.sol";
 import "../../interfaces/multivault/IMultiVaultFacetTokens.sol";
 import "../../interfaces/multivault/IMultiVaultFacetFees.sol";
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
@@ -49,7 +49,7 @@ contract MultiVaultFacetWithdraw is
     {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
-        IEverscale.EverscaleEvent memory _event = _processWithdrawEvent(
+        ITVM.TvmEvent memory _event = _processWithdrawEvent(
             payload,
             signatures,
             s.configurationNative_
@@ -164,7 +164,7 @@ contract MultiVaultFacetWithdraw is
     {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
-        IEverscale.EverscaleEvent memory _event = _processWithdrawEvent(
+        ITVM.TvmEvent memory _event = _processWithdrawEvent(
             payload,
             signatures,
             s.configurationAlien_
@@ -302,7 +302,7 @@ contract MultiVaultFacetWithdraw is
         );
 
         return NativeWithdrawalParams({
-            native: IEverscale.EverscaleAddress(native_wid, native_addr),
+            native: ITVM.TvmAddress(native_wid, native_addr),
             meta: IMultiVaultFacetTokens.TokenMeta(name, symbol, decimals),
             amount: amount,
             recipient: address(recipient),
@@ -355,7 +355,7 @@ contract MultiVaultFacetWithdraw is
     }
 
     function addPredeployedToken(
-        IEverscale.EverscaleAddress memory tvmToken,
+        ITVM.TvmAddress memory tvmToken,
         address evmToken,
         IMultiVaultFacetTokens.TokenMeta memory meta
     ) external override onlyGovernance {
@@ -380,13 +380,13 @@ contract MultiVaultFacetWithdraw is
     }
 
     function removePredeployedToken(
-        IEverscale.EverscaleAddress memory tvmToken,
+        ITVM.TvmAddress memory tvmToken,
         address evmToken
     ) external override onlyGovernance {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
         mapping (bytes32 => address) storage predeployed = MultiVaultStorage._getPredeployed();
 
-        IEverscale.EverscaleAddress memory emptyTvmAddr;
+        ITVM.TvmAddress memory emptyTvmAddr;
         IMultiVaultFacetTokens.Token memory emptyTokenData;
 
         predeployed[keccak256(abi.encodePacked(tvmToken.wid, tvmToken.addr))] = address(0);

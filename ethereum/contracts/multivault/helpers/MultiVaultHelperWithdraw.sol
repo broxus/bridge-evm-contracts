@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 import "../../interfaces/bridge/IBridge.sol";
 import "../../interfaces/multivault/IMultiVaultFacetTokens.sol";
 import "../../interfaces/multivault/IMultiVaultFacetWithdrawEvents.sol";
@@ -31,16 +31,16 @@ abstract contract MultiVaultHelperWithdraw is IMultiVaultFacetWithdrawEvents {
     function _processWithdrawEvent(
         bytes memory payload,
         bytes[] memory signatures,
-        IEverscale.EverscaleAddress memory configuration
-    ) internal view returns (IEverscale.EverscaleEvent memory) {
+        ITVM.TvmAddress memory configuration
+    ) internal view returns (ITVM.TvmEvent memory) {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
         require(
-            IBridge(s.bridge).verifySignedEverscaleEvent(payload, signatures) == 0
+            IBridge(s.bridge).verifySignedTvmEvent(payload, signatures) == 0
         );
 
-        // Decode Everscale event
-        (IEverscale.EverscaleEvent memory _event) = abi.decode(payload, (IEverscale.EverscaleEvent));
+        // Decode TVM event
+        (ITVM.TvmEvent memory _event) = abi.decode(payload, (ITVM.TvmEvent));
 
         require(
             _event.configurationWid == configuration.wid &&

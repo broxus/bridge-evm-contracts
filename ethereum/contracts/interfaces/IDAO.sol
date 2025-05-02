@@ -15,7 +15,7 @@ interface IDAO {
     }
 
     function setConfiguration(
-        IBridge.EverscaleAddress calldata _configuration
+        IBridge.TvmAddress calldata _configuration
     ) external;
 
     function decodeEthActionsEventData(
@@ -37,5 +37,5 @@ interface IDAO {
     ) external returns (bytes[] memory responses);
 
     event UpdateBridge(address indexed bridge);
-    event UpdateConfiguration(IBridge.EverscaleAddress configuration);
+    event UpdateConfiguration(IBridge.TvmAddress configuration);
 }

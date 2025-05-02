@@ -2,13 +2,13 @@
 pragma solidity ^0.8.20;
 
 
-interface IEverscale {
-    struct EverscaleAddress {
+interface ITVM {
+    struct TvmAddress {
         int8 wid;
         uint256 addr;
     }
 
-    struct EverscaleEvent {
+    struct TvmEvent {
         uint64 eventTransactionLt;
         uint32 eventTimestamp;
         bytes eventData;

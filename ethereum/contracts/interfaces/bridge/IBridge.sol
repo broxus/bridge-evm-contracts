@@ -3,10 +3,10 @@ pragma solidity ^0.8.20;
 
 
 
-import "./../IEverscale.sol";
+import "./../ITVM.sol";
 
 
-interface IBridge is IEverscale {
+interface IBridge is ITVM {
     struct Round {
         uint32 end;
         uint32 ttl;
@@ -15,7 +15,7 @@ interface IBridge is IEverscale {
     }
 
     function updateMinimumRequiredSignatures(uint32 _minimumRequiredSignatures) external;
-    function setConfiguration(EverscaleAddress calldata _roundRelaysConfiguration) external;
+    function setConfiguration(TvmAddress calldata _roundRelaysConfiguration) external;
     function updateRoundTTL(uint32 _roundTTL) external;
 
     function decodeRoundRelaysEventData(
@@ -26,9 +26,9 @@ interface IBridge is IEverscale {
         uint32 roundEnd
     );
 
-    function decodeEverscaleEvent(
+    function decodeTvmEvent(
         bytes memory payload
-    ) external returns (EverscaleEvent memory _event);
+    ) external returns (TvmEvent memory _event);
 
     function isRelay(
         uint32 round,
@@ -43,7 +43,7 @@ interface IBridge is IEverscale {
         uint32 round
     ) external view returns (bool);
 
-    function verifySignedEverscaleEvent(
+    function verifySignedTvmEvent(
         bytes memory payload,
         bytes[] memory signatures
     ) external view returns (uint32);
@@ -73,7 +73,7 @@ interface IBridge is IEverscale {
 
     event UpdateMinimumRequiredSignatures(uint32 value);
     event UpdateRoundTTL(uint32 value);
-    event UpdateRoundRelaysConfiguration(EverscaleAddress configuration);
+    event UpdateRoundRelaysConfiguration(TvmAddress configuration);
     event UpdateRoundSubmitter(address _roundSubmitter);
 
     event NewRound(uint32 indexed round, Round meta);

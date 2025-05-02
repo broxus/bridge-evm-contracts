@@ -25,7 +25,7 @@ library PrefixBytes {
 
 /// @title EVM Bridge contract
 /// @author https://github.com/broxus
-/// @notice Stores relays for each round, implements relay slashing, helps in validating Everscale-EVM events
+/// @notice Stores relays for each round, implements relay slashing, helps in validating TVM-EVM events
 contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
     using ECDSA for bytes32;
     using PrefixBytes for bytes32;
@@ -54,8 +54,8 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
     // NOTE: special address, can set up rounds without relays's signatures
     address public roundSubmitter;
 
-    // NOTE: Broxus Bridge Everscale-ETH configuration address, that emits event with round relays
-    EverscaleAddress public roundRelaysConfiguration;
+    // NOTE: Broxus Bridge TVM-ETH configuration address, that emits event with round relays
+    TvmAddress public roundRelaysConfiguration;
 
     constructor() {
         _disableInitializers();
@@ -67,7 +67,7 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
 
     /**
         @notice Bridge initializer
-        @dev `roundRelaysConfiguration` should be specified after deploy, since it's an Everscale contract,
+        @dev `roundRelaysConfiguration` should be specified after deploy, since it's an TVM contract,
         which needs EVM Bridge address to be deployed.
         @param _owner Bridge owner
         @param _roundSubmitter Round submitter
@@ -111,10 +111,10 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
 
     /**
         @notice Update address of configuration, that emits event with relays for next round.
-        @param _roundRelaysConfiguration Everscale address of configuration contract
+        @param _roundRelaysConfiguration TVM address of configuration contract
     */
     function setConfiguration(
-        EverscaleAddress calldata _roundRelaysConfiguration
+        TvmAddress calldata _roundRelaysConfiguration
     ) external override onlyOwner {
         emit UpdateRoundRelaysConfiguration(_roundRelaysConfiguration);
 
@@ -124,7 +124,7 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
     /**
         @notice Pause Bridge contract.
         Can be called only by `owner`.
-        @dev When Bridge paused, any signature verification Everscale-EVM event fails.
+        @dev When Bridge paused, any signature verification TVM-EVM event fails.
     */
     function pause() external override onlyOwner {
         _pause();
@@ -139,7 +139,7 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
 
     /**
         @notice Update minimum amount of required signatures per round
-        This parameter limits the minimum amount of signatures to be required for Everscale-EVM event.
+        This parameter limits the minimum amount of signatures to be required for TVM-EVM event.
         @param _minimumRequiredSignatures New value
     */
     function updateMinimumRequiredSignatures(
@@ -192,7 +192,7 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
     }
 
 
-    /// @notice Verify `EverscaleEvent` signatures.
+    /// @notice Verify `TvmEvent` signatures.
     /// @dev Signatures should be sorted by the ascending signers.
     /// Error codes:
     /// 0. Verification passed (no error)
@@ -203,10 +203,10 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
     /// - Some of the signers are banned
     /// 4. Round is rotten.
     /// 5. Verification passed, but bridge is in "paused" mode
-    /// @param payload Bytes encoded `EverscaleEvent` structure
+    /// @param payload Bytes encoded `TvmEvent` structure
     /// @param signatures Payload signatures
     /// @return errorCode Error code
-    function verifySignedEverscaleEvent(
+    function verifySignedTvmEvent(
         bytes memory payload,
         bytes[] memory signatures
     )
@@ -216,7 +216,7 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
     returns (
         uint32 errorCode
     ) {
-        (EverscaleEvent memory _event) = abi.decode(payload, (EverscaleEvent));
+        (TvmEvent memory _event) = abi.decode(payload, (TvmEvent));
 
         uint32 round = _event.round;
 
@@ -290,7 +290,7 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
 
     /**
         @notice Grant relay permission for set of addresses at specific round
-        @param payload Bytes encoded EverscaleEvent structure
+        @param payload Bytes encoded TvmEvent structure
         @param signatures Payload signatures
     */
     function setRoundRelays(
@@ -298,14 +298,14 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
         bytes[] calldata signatures
     ) override external notCached(payload) {
         require(
-            verifySignedEverscaleEvent(
+            verifySignedTvmEvent(
                 payload,
                 signatures
             ) == 0,
             "Bridge: signatures verification failed"
         );
 
-        (EverscaleEvent memory _event) = abi.decode(payload, (EverscaleEvent));
+        (TvmEvent memory _event) = abi.decode(payload, (TvmEvent));
 
         require(
             _event.configurationWid == roundRelaysConfiguration.wid &&
@@ -329,18 +329,18 @@ contract Bridge is OwnableUpgradeable, PausableUpgradeable, Cache, IBridge {
         uint160[] memory _relays,
         uint32 roundEnd
     ) {
-        (EverscaleEvent memory EverscaleEvent) = abi.decode(payload, (EverscaleEvent));
+        (TvmEvent memory TvmEvent) = abi.decode(payload, (TvmEvent));
 
         (round, _relays, roundEnd) = abi.decode(
-            EverscaleEvent.eventData,
+            TvmEvent.eventData,
             (uint32, uint160[], uint32)
         );
     }
 
-    function decodeEverscaleEvent(
+    function decodeTvmEvent(
         bytes memory payload
-    ) external override pure returns (EverscaleEvent memory _event) {
-        (_event) = abi.decode(payload, (EverscaleEvent));
+    ) external override pure returns (TvmEvent memory _event) {
+        (_event) = abi.decode(payload, (TvmEvent));
     }
 
     /**

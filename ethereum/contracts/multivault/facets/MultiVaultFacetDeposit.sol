@@ -16,7 +16,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 import "../storage/MultiVaultStorage.sol";
 
-import "../helpers/MultiVaultHelperEverscale.sol";
+import "../helpers/MultiVaultHelperTVM.sol";
 import "../helpers/MultiVaultHelperReentrancyGuard.sol";
 import "../helpers/MultiVaultHelperTokens.sol";
 import "../helpers/MultiVaultHelperFee.sol";
@@ -28,7 +28,7 @@ import "../helpers/MultiVaultHelperGas.sol";
 contract MultiVaultFacetDeposit is
     MultiVaultHelperFee,
     MultiVaultHelperGas,
-    MultiVaultHelperEverscale,
+    MultiVaultHelperTVM,
     MultiVaultHelperReentrancyGuard,
     MultiVaultHelperTokens,
     MultiVaultHelperPendingWithdrawal,
@@ -58,7 +58,7 @@ contract MultiVaultFacetDeposit is
                 recipient: d.recipient,
                 token: s.weth,
                 amount: d.amount,
-                expected_evers: d.expected_evers,
+                expected_gas: d.expected_gas,
                 payload: d.payload
             }),
             msg.value - d.amount,
@@ -79,7 +79,7 @@ contract MultiVaultFacetDeposit is
     {
         _deposit(d, msg.value, msg.sender);
     }
-    /// @notice Transfer tokens to the Everscale. Works both for native and alien tokens.
+    /// @notice Transfer tokens to TVM. Works both for native and alien tokens.
     /// Approve is required only for alien tokens deposit.
     /// @param d Deposit parameters
     function _deposit(
@@ -109,7 +109,7 @@ contract MultiVaultFacetDeposit is
 
             d.amount -= fee;
 
-            _transferToEverscaleNative(d, fee, msg.value);
+            _transferToTvmNative(d, fee, msg.value);
         } else {
             if (tokens_owner != address(this)) {
                 uint balanceBefore = IERC20(token).balanceOf(address(this));
@@ -127,7 +127,7 @@ contract MultiVaultFacetDeposit is
 
             d.amount -= fee;
 
-            _transferToEverscaleAlien(d, fee, _value);
+            _transferToTvmAlien(d, fee, _value);
         }
 
         _increaseTokenFee(d.token, fee);
@@ -155,7 +155,7 @@ contract MultiVaultFacetDeposit is
                 recipient:d.recipient,
                 token: s.weth,
                 amount: d.amount,
-                expected_evers: d.expected_evers,
+                expected_gas: d.expected_gas,
                 payload: d.payload
             }),
             expectedMinBounty,
@@ -245,7 +245,7 @@ contract MultiVaultFacetDeposit is
 
         d.amount = amountPlusBounty - fee;
 
-        _transferToEverscaleAlien(
+        _transferToTvmAlien(
             d,
             fee,
             _value

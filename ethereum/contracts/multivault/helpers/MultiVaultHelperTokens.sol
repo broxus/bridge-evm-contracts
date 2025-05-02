@@ -6,7 +6,7 @@ import "../../interfaces/multivault/IMultiVaultFacetTokens.sol";
 import "../../interfaces/multivault/IMultiVaultFacetWithdraw.sol";
 import "../../interfaces/multivault/IMultiVaultFacetTokensEvents.sol";
 import "../../interfaces/multivault/IMultiVaultFacetTokenFactory.sol";
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 
 import "../storage/MultiVaultStorage.sol";
 import "./MultiVaultHelperEmergency.sol";
@@ -98,7 +98,7 @@ abstract contract MultiVaultHelperTokens is
     ) internal returns (address) {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
-        // Derive native token address from the Everscale (token wid, token addr)
+        // Derive native token address from the TVM (token wid, token addr)
         address token = IMultiVaultFacetTokens(address(this)).getNativeToken(
             withdrawal.native.wid,
             withdrawal.native.addr

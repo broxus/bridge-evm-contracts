@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "./../IEverscale.sol";
+import "./../ITVM.sol";
 
 
 interface IMultiVaultFacetTokens {
@@ -32,9 +32,9 @@ interface IMultiVaultFacetTokens {
 
     function prefixes(address _token) external view returns (TokenPrefix memory);
     function tokens(address _token) external view returns (Token memory);
-    function natives(address _token) external view returns (IEverscale.EverscaleAddress memory);
+    function natives(address _token) external view returns (ITVM.TvmAddress memory);
 
-    function getPredeployedToken(IEverscale.EverscaleAddress memory tvmToken) external view returns (address);
+    function getPredeployedToken(ITVM.TvmAddress memory tvmToken) external view returns (address);
 
     function getLPToken(
         address token

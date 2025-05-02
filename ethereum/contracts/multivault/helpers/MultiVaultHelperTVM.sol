@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "../../interfaces/IEverscale.sol";
+import "../../interfaces/ITVM.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 import "../../interfaces/multivault/IMultiVaultFacetDepositEvents.sol";
 import "../../interfaces/multivault/IMultiVaultFacetDeposit.sol";
@@ -10,21 +10,21 @@ import "../../interfaces/multivault/IMultiVaultFacetDeposit.sol";
 import "../storage/MultiVaultStorage.sol";
 
 
-abstract contract MultiVaultHelperEverscale is IMultiVaultFacetDepositEvents {
+abstract contract MultiVaultHelperTVM is IMultiVaultFacetDepositEvents {
     modifier checkDepositAmount(uint amount) {
         require(amount < type(uint128).max, "Deposit amount too is large");
 
         _;
     }
 
-    function _transferToEverscaleNative(
+    function _transferToTvmNative(
         IMultiVaultFacetDeposit.DepositParams memory deposit,
         uint fee,
         uint value
     ) internal checkDepositAmount(deposit.amount) {
         MultiVaultStorage.Storage storage s = MultiVaultStorage._storage();
 
-        IEverscale.EverscaleAddress memory native = s.natives_[deposit.token];
+        ITVM.TvmAddress memory native = s.natives_[deposit.token];
 
         emit NativeTransfer(
             native.wid,
@@ -34,14 +34,14 @@ abstract contract MultiVaultHelperEverscale is IMultiVaultFacetDepositEvents {
             deposit.recipient.wid,
             deposit.recipient.addr,
             value,
-            deposit.expected_evers,
+            deposit.expected_gas,
             deposit.payload
         );
 
         _emitDeposit(deposit, fee, true);
     }
 
-    function _transferToEverscaleAlien(
+    function _transferToTvmAlien(
         IMultiVaultFacetDeposit.DepositParams memory deposit,
         uint fee,
         uint value
@@ -57,7 +57,7 @@ abstract contract MultiVaultHelperEverscale is IMultiVaultFacetDepositEvents {
             deposit.recipient.wid,
             deposit.recipient.addr,
             value,
-            deposit.expected_evers,
+            deposit.expected_gas,
             deposit.payload
         );
 

@@ -12,7 +12,7 @@ interface IMultiVaultFacetDepositEvents {
         int8 recipient_wid,
         uint256 recipient_addr,
         uint value,
-        uint expected_evers,
+        uint expected_gas,
         bytes payload
     );
 
@@ -26,7 +26,7 @@ interface IMultiVaultFacetDepositEvents {
         int8 recipient_wid,
         uint256 recipient_addr,
         uint value,
-        uint expected_evers,
+        uint expected_gas,
         bytes payload
     );
 

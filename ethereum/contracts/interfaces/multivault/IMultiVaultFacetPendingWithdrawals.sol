@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 
-import "../IEverscale.sol";
+import "../ITVM.sol";
 import "./IMultiVaultFacetWithdraw.sol";
 
 
@@ -52,8 +52,8 @@ interface IMultiVaultFacetPendingWithdrawals {
     function cancelPendingWithdrawal(
         uint256 id,
         uint256 amount,
-        IEverscale.EverscaleAddress memory recipient,
-        uint expected_evers,
+        ITVM.TvmAddress memory recipient,
+        uint expected_gas,
         bytes memory payload,
         uint bounty
     ) external payable;

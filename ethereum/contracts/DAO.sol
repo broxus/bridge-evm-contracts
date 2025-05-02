@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 
 import "./interfaces/bridge/IBridge.sol";
-import "./interfaces/IEverscale.sol";
+import "./interfaces/ITVM.sol";
 import "./interfaces/IDAO.sol";
 
 import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
@@ -12,12 +12,12 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "./utils/Cache.sol";
 
 
-/// @title DAO contract for Everscale-EVM bridge
-/// @dev Executes proposals confirmed in Everscale Bridge DAO.
+/// @title DAO contract for TVM-EVM bridge
+/// @dev Executes proposals confirmed in TVM Bridge DAO.
 /// Proposals are submitted in form of payloads and signatures
-contract DAO is IDAO, IEverscale, ReentrancyGuardUpgradeable, OwnableUpgradeable, Cache {
+contract DAO is IDAO, ITVM, ReentrancyGuardUpgradeable, OwnableUpgradeable, Cache {
     address public bridge;
-    EverscaleAddress public configuration;
+    TvmAddress public configuration;
 
     constructor() {
         _disableInitializers();
@@ -49,11 +49,11 @@ contract DAO is IDAO, IEverscale, ReentrancyGuardUpgradeable, OwnableUpgradeable
     }
 
     /**
-        @notice Update address of the Everscale configuration, that emits actions for this DAO
-        @param _configuration New configuration Everscale address
+        @notice Update address of the TVM configuration, that emits actions for this DAO
+        @param _configuration New configuration TVM address
     */
     function setConfiguration(
-        EverscaleAddress calldata _configuration
+        TvmAddress calldata _configuration
     ) public override onlyOwner {
         configuration = _configuration;
     }
@@ -74,7 +74,7 @@ contract DAO is IDAO, IEverscale, ReentrancyGuardUpgradeable, OwnableUpgradeable
         uint32 chainId,
         EthAction[] memory actions
     ) {
-        (EverscaleEvent memory _event) = abi.decode(payload, (EverscaleEvent));
+        (TvmEvent memory _event) = abi.decode(payload, (TvmEvent));
 
         return abi.decode(
             _event.eventData,
@@ -84,7 +84,7 @@ contract DAO is IDAO, IEverscale, ReentrancyGuardUpgradeable, OwnableUpgradeable
 
     /**
         @notice Execute set of actions.
-        @param payload Encoded Everscale event with payload details
+        @param payload Encoded TVM event with payload details
         @param signatures Payload signatures
         @return responses Bytes-encoded payload action responses
     */
@@ -100,14 +100,14 @@ contract DAO is IDAO, IEverscale, ReentrancyGuardUpgradeable, OwnableUpgradeable
         bytes[] memory responses
     ) {
         require(
-            IBridge(bridge).verifySignedEverscaleEvent(
+            IBridge(bridge).verifySignedTvmEvent(
                 payload,
                 signatures
             ) == 0,
             "DAO: signatures verification failed"
         );
 
-        (EverscaleEvent memory _event) = abi.decode(payload, (EverscaleEvent));
+        (TvmEvent memory _event) = abi.decode(payload, (TvmEvent));
 
         require(
             _event.configurationWid == configuration.wid &&

@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 
 import "./IMultiVaultFacetTokens.sol";
-import "../IEverscale.sol";
+import "../ITVM.sol";
 
 
 interface IMultiVaultFacetWithdraw {
@@ -14,7 +14,7 @@ interface IMultiVaultFacetWithdraw {
     }
 
     struct NativeWithdrawalParams {
-        IEverscale.EverscaleAddress native;
+        ITVM.TvmAddress native;
         IMultiVaultFacetTokens.TokenMeta meta;
         uint256 amount;
         address recipient;
@@ -49,13 +49,13 @@ interface IMultiVaultFacetWithdraw {
     ) external;
 
     function addPredeployedToken(
-        IEverscale.EverscaleAddress memory tvmToken,
+        ITVM.TvmAddress memory tvmToken,
         address evmToken,
         IMultiVaultFacetTokens.TokenMeta memory meta
     ) external;
 
     function removePredeployedToken(
-        IEverscale.EverscaleAddress memory tvmToken,
+        ITVM.TvmAddress memory tvmToken,
         address evmToken
     ) external;
 }
