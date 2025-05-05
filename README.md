@@ -1,13 +1,3 @@
-<p align="center">
-  <a href="https://github.com/venom-blockchain/developer-program">
-    <img src="https://raw.githubusercontent.com/venom-blockchain/developer-program/main/vf-dev-program.png" alt="Logo" width="366.8" height="146.4">
-  </a>
-</p>
-
-# Integration documentation
-
-[https://integrate.octusbridge.io/](https://integrate.octusbridge.io/)
-
 # Rescuer role in a Staking contract
 
 In the context of our staking contract, the rescuer role is a critical component designed to manage emergency situations. This section outlines the responsibilities, limitations, and procedural guidelines associated with the rescuer role, ensuring a clear understanding of its purpose and functioning within the contract ecosystem.
@@ -34,7 +24,7 @@ The rescuer role serves as an emergency response mechanism within the staking co
 
 # Potential Funds Lock on Event Rejection in TVM to EVM Bridge
 
-Event rejection is essential for handling exceptional cases in the TVM to EVM bridge process, ensuring only valid transactions are processed. Users should double-check transaction details before burning tokens. Burning is irreversible, and errors can lead to permanent token loss. If an event is rejected, the current EverscaleEthereumBaseEvent contract does not re-mint burnt tokens. This means rejected events will result in permanent loss of funds.
+Event rejection is essential for handling exceptional cases in the TVM to EVM bridge process, ensuring only valid transactions are processed. Users should double-check transaction details before burning tokens. Burning is irreversible, and errors can lead to permanent token loss. If an event is rejected, the current TvmEvmBaseEvent contract does not re-mint burnt tokens. This means rejected events will result in permanent loss of funds.
 
 # Potential Funds Lock on Token Burn in TVM to EVM Bridge
 

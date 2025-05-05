@@ -2,7 +2,7 @@ import { deployments, ethers, getNamedAccounts } from "hardhat";
 import { expect } from "chai";
 
 import {
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenAlienWithdrawalData,
     defaultChainId,
     getPayloadSignatures,
@@ -44,14 +44,14 @@ describe('Test deposit-withdraw for alien token', () => {
             const deposit = multivault.connect(alice).getFunction('deposit(((int8,uint256),address,uint256,uint256,bytes))');
 
             const deposit_value = ethers.parseEther("0.1");
-            const deposit_expected_evers = 33;
+            const deposit_expected_gas = 33;
             const deposit_payload = "0x001122";
 
             await expect(deposit({
                     recipient,
                     token: await token.getAddress(),
                     amount,
-                    expected_evers: deposit_expected_evers,
+                    expected_gas: deposit_expected_gas,
                     payload: deposit_payload
                 }, { value: deposit_value }))
                 .to.emit(multivault, 'AlienTransfer')
@@ -65,7 +65,7 @@ describe('Test deposit-withdraw for alien token', () => {
                     recipient.wid,
                     recipient.addr,
                     deposit_value,
-                    deposit_expected_evers,
+                    deposit_expected_gas,
                     deposit_payload
                 );
         });
@@ -119,7 +119,7 @@ describe('Test deposit-withdraw for alien token', () => {
                 callback: {}
             });
 
-            payload = encodeEverscaleEvent({
+            payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
             });

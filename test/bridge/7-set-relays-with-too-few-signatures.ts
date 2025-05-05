@@ -5,7 +5,7 @@ import {
   defaultConfiguration,
   generateWallets,
   addressToU160,
-  encodeEverscaleEvent,
+  encodeTvmEvent,
   getInitialRelays,
   sortAccounts,
   signReceipt
@@ -44,7 +44,7 @@ describe('Try to set next round relays with too few signatures', () => {
       ]
     );
     
-    const payload = encodeEverscaleEvent({
+    const payload = encodeTvmEvent({
       eventData: roundRelaysPayload,
       proxy: await bridge.getAddress(),
     });

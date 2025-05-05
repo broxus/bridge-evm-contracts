@@ -5,7 +5,7 @@ import {
   defaultConfiguration,
   encodeDaoActions,
   defaultChainId,
-  encodeEverscaleEvent,
+  encodeTvmEvent,
   sortAccounts,
   getInitialRelays,
   signReceipt
@@ -35,7 +35,7 @@ describe('Use payload with wrong chain id', () => {
       data: '0x'
     }], defaultChainId + 1);
   
-    payload = encodeEverscaleEvent({
+    payload = encodeTvmEvent({
       eventData: actions,
       proxy: await dao.getAddress(),
     });

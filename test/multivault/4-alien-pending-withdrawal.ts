@@ -4,7 +4,7 @@ import { expect } from "chai";
 import {
     defaultChainId,
     defaultTonRecipient,
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenAlienWithdrawalData,
     getPayloadSignatures,
 } from "../utils";
@@ -44,14 +44,14 @@ describe('Alice creates pending withdrawal', () => {
             .getFunction('deposit(((int8,uint256),address,uint256,uint256,bytes))');
 
         const deposit_value = ethers.parseEther("0.1");
-        const deposit_expected_evers = 33;
+        const deposit_expected_gas = 33;
         const deposit_payload = "0x001122";
 
         await deposit({
             recipient,
             token: await token.getAddress(),
             amount: amount - 1n,
-            expected_evers: deposit_expected_evers,
+            expected_gas: deposit_expected_gas,
             payload: deposit_payload
         }, { value: deposit_value });
     });
@@ -67,7 +67,7 @@ describe('Alice creates pending withdrawal', () => {
             callback: {}
         });
 
-        const payload = encodeEverscaleEvent({
+        const payload = encodeTvmEvent({
             eventData: withdrawalEventData,
             proxy: await multivault.getAddress(),
         });
@@ -114,7 +114,7 @@ describe('Alice creates pending withdrawal', () => {
             const bob = await ethers.getNamedSigner('bob');
 
             const cancel_value = ethers.parseEther("0.1");
-            const cancel_expected_evers = 33;
+            const cancel_expected_gas = 33;
             const cancel_payload = "0x001122";
 
             await expect(
@@ -124,7 +124,7 @@ describe('Alice creates pending withdrawal', () => {
                         0,
                         amountToCancel,
                         defaultTonRecipient,
-                        cancel_expected_evers,
+                        cancel_expected_gas,
                         cancel_payload,
                         newBounty,
                         { value: cancel_value }
@@ -141,7 +141,7 @@ describe('Alice creates pending withdrawal', () => {
                     defaultTonRecipient.wid,
                     defaultTonRecipient.addr,
                     cancel_value,
-                    cancel_expected_evers,
+                    cancel_expected_gas,
                     cancel_payload
                 );
         });

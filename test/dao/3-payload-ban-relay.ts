@@ -3,7 +3,7 @@ import { expect } from "chai";
 
 import {
   encodeDaoActions,
-  encodeEverscaleEvent,
+  encodeTvmEvent,
   defaultConfiguration,
   sortAccounts,
   signReceipt,
@@ -67,7 +67,7 @@ describe('Execute banning relay by DAO', () => {
       data: actionData
     }]);
   
-    payload = encodeEverscaleEvent({
+    payload = encodeTvmEvent({
       eventData: actions,
       proxy: await dao.getAddress(),
     });

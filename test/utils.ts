@@ -42,10 +42,10 @@ const sortAccounts = (accounts: SignerWithAddress[]) => accounts
 
 const addressToU160 = (address: string) => (new BigNumber(address.toLowerCase())).toString(10);
 
-const encodeEverscaleEvent = (params: Record<string, string | number>) => {
+const encodeTvmEvent = (params: Record<string, string | number>) => {
   return web3.eth.abi.encodeParameters(
     [{
-      'EverscaleEvent': {
+      'TvmEvent': {
         'eventTransactionLt': 'uint64',
         'eventTimestamp': 'uint32',
         'eventData': 'bytes',
@@ -207,7 +207,7 @@ const getPayloadSignatures = async (payload: string) => {
 export {
   signReceipt,
   sortAccounts,
-  encodeEverscaleEvent,
+  encodeTvmEvent,
   encodeDaoActions,
   addressToU160,
   defaultChainId,

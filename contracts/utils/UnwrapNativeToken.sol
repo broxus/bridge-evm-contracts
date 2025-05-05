@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 
 import "../interfaces/IWETH.sol";
-import "../interfaces/multivault/IOctusCallback.sol";
+import "../interfaces/multivault/IBridgeCallback.sol";
 import "../interfaces/multivault/IMultiVaultFacetWithdraw.sol";
 import "../interfaces/multivault/IMultiVaultFacetSettings.sol";
 import "../interfaces/multivault/IMultiVaultFacetPendingWithdrawals.sol";
@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 
-contract UnwrapNativeToken is IOctusCallbackAlien, Initializable {
+contract UnwrapNativeToken is IBridgeCallbackAlien, Initializable {
     IWETH public wethContract;
     address public multiVault;
 

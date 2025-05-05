@@ -63,7 +63,7 @@ describe("Test deposit for predeployed native token", () => {
     );
   });
 
-  describe("Deposit WEVER token", async () => {
+  describe("Deposit wrapped native TVM token", async () => {
     it("Check EVM token address", async () => {
       const tokenAddress = await multivault.getNativeToken(
         native.wid,
@@ -97,7 +97,7 @@ describe("Test deposit for predeployed native token", () => {
       );
     });
 
-    it("Bob deposits 300 WEVER", async () => {
+    it("Bob deposits 300 wrapped native TVM tokens", async () => {
       const bob = await ethers.getNamedSigner("bob");
 
       const amount = ethers.parseUnits("300", BigInt(meta.decimals));
@@ -117,7 +117,7 @@ describe("Test deposit for predeployed native token", () => {
         .getFunction("deposit(((int8,uint256),address,uint256,uint256,bytes))");
 
       const deposit_value = ethers.parseEther("0.1");
-      const deposit_expected_evers = 33;
+      const deposit_expected_gas = 33;
       const deposit_payload = "0x001122";
 
       await expect(
@@ -126,7 +126,7 @@ describe("Test deposit for predeployed native token", () => {
             recipient,
             token: await token.getAddress(),
             amount,
-            expected_evers: deposit_expected_evers,
+            expected_gas: deposit_expected_gas,
             payload: deposit_payload,
           },
           { value: deposit_value },
@@ -140,7 +140,7 @@ describe("Test deposit for predeployed native token", () => {
           recipient.wid,
           recipient.addr,
           deposit_value,
-          deposit_expected_evers,
+          deposit_expected_gas,
           deposit_payload,
         );
     });

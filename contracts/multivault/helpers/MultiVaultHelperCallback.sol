@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 
 import "../../interfaces/multivault/IMultiVaultFacetWithdraw.sol";
-import "../../interfaces/multivault/IOctusCallback.sol";
+import "../../interfaces/multivault/IBridgeCallback.sol";
 
 abstract contract MultiVaultHelperCallback {
     modifier checkCallbackRecipient(address recipient) {
@@ -19,7 +19,7 @@ abstract contract MultiVaultHelperCallback {
         uint256 _withdrawAmount
     ) internal checkCallbackRecipient(withdrawal.callback.recipient) {
         bytes memory data = abi.encodeWithSelector(
-            IOctusCallbackNative.onNativeWithdrawal.selector,
+            IBridgeCallbackNative.onNativeWithdrawal.selector,
             withdrawal,
             _withdrawAmount
         );
@@ -36,7 +36,7 @@ abstract contract MultiVaultHelperCallback {
         uint256 _withdrawAmount
     ) internal checkCallbackRecipient(_withdrawal.callback.recipient) {
         bytes memory data = abi.encodeWithSelector(
-            IOctusCallbackAlien.onAlienWithdrawal.selector,
+            IBridgeCallbackAlien.onAlienWithdrawal.selector,
             _withdrawal,
             _withdrawAmount
         );
@@ -53,7 +53,7 @@ abstract contract MultiVaultHelperCallback {
         uint _pendingWithdrawalId
     ) checkCallbackRecipient(_withdrawal.callback.recipient) internal {
         bytes memory data = abi.encodeWithSelector(
-            IOctusCallbackNative.onNativeWithdrawalPendingCreated.selector,
+            IBridgeCallbackNative.onNativeWithdrawalPendingCreated.selector,
             _withdrawal,
             _pendingWithdrawalId
         );
@@ -70,7 +70,7 @@ abstract contract MultiVaultHelperCallback {
         uint _pendingWithdrawalId
     ) checkCallbackRecipient(_withdrawal.callback.recipient) internal {
         bytes memory data = abi.encodeWithSelector(
-            IOctusCallbackAlien.onAlienWithdrawalPendingCreated.selector,
+            IBridgeCallbackAlien.onAlienWithdrawalPendingCreated.selector,
             _withdrawal,
             _pendingWithdrawalId
         );

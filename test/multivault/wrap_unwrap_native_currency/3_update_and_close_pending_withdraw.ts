@@ -3,7 +3,7 @@ import { expect } from "chai";
 import { EventLog } from 'ethers';
 
 import {
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenAlienWithdrawalData,
     defaultChainId,
     getPayloadSignatures,
@@ -65,7 +65,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                         strict: true
                     }
                 });
-                payload = encodeEverscaleEvent({
+                payload = encodeTvmEvent({
                     eventData: withdrawalEventData,
                     proxy: await multivault.getAddress(),
                 });
@@ -127,7 +127,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                     wid: 0,
                     addr: 123123
                 };
-                const deposit_expected_evers = 33;
+                const deposit_expected_gas = 33;
                 const deposit_payload = "0x001122";
 
                 await expect(
@@ -137,7 +137,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                             bobsPendingWithdrawId,
                             partialCancelWithdrawAmount,
                             recipient,
-                            deposit_expected_evers,
+                            deposit_expected_gas,
                             deposit_payload,
                             0
                         )
@@ -169,13 +169,13 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                 const deposit_value = ethers.parseEther("0.1");
 
 
-                const deposit_expected_evers = 33;
+                const deposit_expected_gas = 33;
                 const deposit_payload = "0x001122";
 
                 const depResult = await deposit({
                     recipient,
                     amount: depositAmount,
-                    expected_evers: deposit_expected_evers,
+                    expected_gas: deposit_expected_gas,
                     payload: deposit_payload
                 }, { value: depositAmount + deposit_value })
                 await expect(depResult)
@@ -190,7 +190,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                         recipient.wid,
                         recipient.addr,
                         deposit_value,
-                        deposit_expected_evers,
+                        deposit_expected_gas,
                         deposit_payload
                     );
             });

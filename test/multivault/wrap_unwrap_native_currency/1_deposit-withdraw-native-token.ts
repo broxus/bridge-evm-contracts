@@ -2,7 +2,7 @@ import { deployments, ethers, getNamedAccounts, web3 } from "hardhat";
 import { expect } from "chai";
 
 import {
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     defaultChainId,
     getPayloadSignatures,
     encodeMultiTokenAlienWithdrawalData,
@@ -44,13 +44,13 @@ describe.skip('Test deposit-withdraw for native token', () => {
             const deposit_value = ethers.parseEther("0.1");
 
 
-            const deposit_expected_evers = 33;
+            const deposit_expected_gas = 33;
             const deposit_payload = "0x001122";
 
             const depResult = await deposit({
                 recipient,
                 amount: amount,
-                expected_evers: deposit_expected_evers,
+                expected_gas: deposit_expected_gas,
                 payload: deposit_payload
             }, { value: amount + deposit_value });
 
@@ -66,7 +66,7 @@ describe.skip('Test deposit-withdraw for native token', () => {
                     recipient.wid,
                     recipient.addr,
                     deposit_value,
-                    deposit_expected_evers,
+                    deposit_expected_gas,
                     deposit_payload
                 );
         });
@@ -126,7 +126,7 @@ describe.skip('Test deposit-withdraw for native token', () => {
                 }
 
             });
-            payload = encodeEverscaleEvent({
+            payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
             });

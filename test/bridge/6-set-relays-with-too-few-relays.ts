@@ -4,7 +4,7 @@ import { expect } from "chai";
 import {
   defaultConfiguration,
   generateWallets,
-  encodeEverscaleEvent,
+  encodeTvmEvent,
   addressToU160,
   sortAccounts,
   getInitialRelays,
@@ -42,7 +42,7 @@ describe('Try to set too few relays for the next round', () => {
       ]
     );
     
-    const payload = encodeEverscaleEvent({
+    const payload = encodeTvmEvent({
       eventData: roundRelaysPayload,
       proxy: await bridge.getAddress(),
     });

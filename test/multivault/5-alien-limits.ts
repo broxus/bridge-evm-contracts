@@ -4,7 +4,7 @@ import { expect } from "chai";
 import {
     defaultChainId,
     deriveWithdrawalPeriodId,
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenAlienWithdrawalData,
     getPayloadSignatures,
 } from "../utils";
@@ -45,14 +45,14 @@ describe('Test alien withdrawal limits', () => {
             .getFunction('deposit(((int8,uint256),address,uint256,uint256,bytes))');
 
         const deposit_value = ethers.parseEther("0.1");
-        const deposit_expected_evers = 33;
+        const deposit_expected_gas = 33;
         const deposit_payload = "0x001122";
 
         await deposit({
             recipient,
             token: await token.getAddress(),
             amount: deposit_amount,
-            expected_evers: deposit_expected_evers,
+            expected_gas: deposit_expected_gas,
             payload: deposit_payload
         }, { value: deposit_value });
     });
@@ -104,7 +104,7 @@ describe('Test alien withdrawal limits', () => {
                 callback: {}
             });
 
-            const payload = encodeEverscaleEvent({
+            const payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
                 eventTimestamp,
@@ -197,7 +197,7 @@ describe('Test alien withdrawal limits', () => {
                 callback: {}
             });
 
-            const payload = encodeEverscaleEvent({
+            const payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
                 eventTimestamp

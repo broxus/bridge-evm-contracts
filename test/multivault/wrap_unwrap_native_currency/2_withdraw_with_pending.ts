@@ -3,7 +3,7 @@ import { expect } from "chai";
 import { EventLog } from 'ethers';
 
 import {
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenAlienWithdrawalData,
     defaultChainId,
     getPayloadSignatures,
@@ -65,7 +65,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                     }
 
                 });
-                payload = encodeEverscaleEvent({
+                payload = encodeTvmEvent({
                     eventData: withdrawalEventData,
                     proxy: await multivault.getAddress(),
                 });
@@ -107,7 +107,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                     .connect(alice)
                     .getFunction('depositByNativeToken(((int8,uint256),uint256,uint256,bytes),uint256,(address,uint256)[])');
 
-                const deposit_expected_evers = 33;
+                const deposit_expected_gas = 33;
                 const deposit_payload = "0x001122";
                 let depResult;
 
@@ -116,7 +116,7 @@ describe.skip('Test deposit-withdraw-with-pending for native token', () => {
                         {
                             recipient,
                             amount: amount,
-                            expected_evers: deposit_expected_evers,
+                            expected_gas: deposit_expected_gas,
                             payload: deposit_payload
                         },
                         0,

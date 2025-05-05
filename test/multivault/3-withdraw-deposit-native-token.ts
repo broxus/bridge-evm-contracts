@@ -2,7 +2,7 @@ import { deployments, ethers, getNamedAccounts } from "hardhat";
 import { expect } from "chai";
 
 import {
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenNativeWithdrawalData,
     defaultChainId,
     getPayloadSignatures,
@@ -21,8 +21,8 @@ describe('Test deposit-withdraw for native token', () => {
     };
 
     const meta = {
-        name: 'Wrapped EVER',
-        symbol: 'WEVER',
+        name: 'Wrapped Native TVM',
+        symbol: 'WNTVM',
         decimals: 9
     };
 
@@ -32,7 +32,7 @@ describe('Test deposit-withdraw for native token', () => {
         multivault = await ethers.getContract('MultiVault');
     });
 
-    describe('Withdraw WEVER Token', async () => {
+    describe('Withdraw wrapped native TVM Token', async () => {
         let payload, signatures;
 
         const amount = ethers.parseUnits('500', 18);
@@ -54,7 +54,7 @@ describe('Test deposit-withdraw for native token', () => {
                 callback: {}
             });
 
-            payload = encodeEverscaleEvent({
+            payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
             });
@@ -108,7 +108,7 @@ describe('Test deposit-withdraw for native token', () => {
                 .to.be.equal(amount - fee, 'Wrong token total supply');
         });
 
-        it('Bob transfers 100 ERC20 WEVER to Alice', async () => {
+        it('Bob transfers 100 ERC20 wrapped native TVM tokens to Alice', async () => {
             const bob = await ethers.getNamedSigner('bob');
             const { alice } = await getNamedAccounts();
 
@@ -132,12 +132,12 @@ describe('Test deposit-withdraw for native token', () => {
         });
     });
 
-    describe('Deposit WEVER token', async () => {
+    describe('Deposit wrapped native TVM token', async () => {
         const amount = ethers.parseUnits('300', 18);
 
         let fee;
 
-        it('Bob deposits 300 WEVER', async () => {
+        it('Bob deposits 300 wrapped native TVM tokens', async () => {
             const bob = await ethers.getNamedSigner('bob');
 
             const recipient = {
@@ -154,14 +154,14 @@ describe('Test deposit-withdraw for native token', () => {
               .getFunction('deposit(((int8,uint256),address,uint256,uint256,bytes))');
 
             const deposit_value = ethers.parseEther("0.1");
-            const deposit_expected_evers = 33;
+            const deposit_expected_gas = 33;
             const deposit_payload = "0x001122";
 
             await expect(deposit({
                 recipient,
                 token: await token.getAddress(),
                 amount,
-                expected_evers: deposit_expected_evers,
+                expected_gas: deposit_expected_gas,
                 payload: deposit_payload
             }, { value: deposit_value }))
                 .to.emit(multivault, 'NativeTransfer')
@@ -172,7 +172,7 @@ describe('Test deposit-withdraw for native token', () => {
                     recipient.wid,
                     recipient.addr,
                     deposit_value,
-                    deposit_expected_evers,
+                    deposit_expected_gas,
                     deposit_payload
                 );
         });

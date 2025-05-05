@@ -9,7 +9,7 @@ import {
   getInitialRelays,
   addressToU160,
   signReceipt,
-  encodeEverscaleEvent
+  encodeTvmEvent
 } from '../utils';
 import { Bridge } from "../../typechain-types";
 
@@ -47,7 +47,7 @@ describe('Set next round relays', () => {
       ]
     );
     
-    payload = encodeEverscaleEvent({
+    payload = encodeTvmEvent({
       eventData: roundRelaysPayload,
       proxy: await bridge.getAddress(),
     });

@@ -2,7 +2,7 @@ import { deployments, ethers, getNamedAccounts } from "hardhat";
 import { expect } from "chai";
 
 import {
-  encodeEverscaleEvent,
+  encodeTvmEvent,
   encodeMultiTokenNativeWithdrawalData,
   defaultChainId,
   getPayloadSignatures,
@@ -57,7 +57,7 @@ describe("Test withdraw for predeployed native token", () => {
     );
   });
 
-  describe("Withdraw WEVER Token", async () => {
+  describe("Withdraw wrapped native TVM Token", async () => {
     it("Check EVM token address", async () => {
       const tokenAddress = await multivault.getNativeToken(
         native.wid,
@@ -111,7 +111,7 @@ describe("Test withdraw for predeployed native token", () => {
         callback: {},
       });
 
-      payload = encodeEverscaleEvent({
+      payload = encodeTvmEvent({
         eventData: withdrawalEventData,
         proxy: await multivault.getAddress(),
       });
@@ -142,7 +142,7 @@ describe("Test withdraw for predeployed native token", () => {
       );
     });
 
-    it("Bob transfers 100 ERC20 WEVER to Alice", async () => {
+    it("Bob transfers 100 ERC20 wrapped native TVM tokens to Alice", async () => {
       const bob = await ethers.getNamedSigner("bob");
       const { alice } = await getNamedAccounts();
 

@@ -3,7 +3,7 @@ import { expect } from "chai";
 
 import {
     defaultChainId,
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenAlienWithdrawalData,
     getPayloadSignatures,
 } from "../utils";
@@ -60,14 +60,14 @@ describe('Test multivault liquidity supply', () => {
             .getFunction('deposit(((int8,uint256),address,uint256,uint256,bytes))');
 
         const deposit_value = ethers.parseEther("0.1");
-        const deposit_expected_evers = 33;
+        const deposit_expected_gas = 33;
         const deposit_payload = "0x001122";
 
         await deposit({
             recipient,
             token: await token.getAddress(),
             amount: deposit_amount,
-            expected_evers: deposit_expected_evers,
+            expected_gas: deposit_expected_gas,
             payload: deposit_payload
         }, { value: deposit_value });
     });
@@ -146,7 +146,7 @@ describe('Test multivault liquidity supply', () => {
                 callback: {}
             });
 
-            payload = encodeEverscaleEvent({
+            payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
             });

@@ -1,5 +1,5 @@
 {
-  "name": "@broxus/octusbridge-ethereum-contracts",
+  "name": "@broxus/bridge-evm-contracts",
   "version": "1.0.0",
   "scripts": {
     "build": "npx hardhat compile",

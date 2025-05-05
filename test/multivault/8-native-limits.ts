@@ -4,7 +4,7 @@ import { expect } from "chai";
 import {
     defaultChainId,
     deriveWithdrawalPeriodId,
-    encodeEverscaleEvent,
+    encodeTvmEvent,
     encodeMultiTokenNativeWithdrawalData,
     getPayloadSignatures
 } from "../utils";
@@ -22,8 +22,8 @@ describe('Test native withdrawal limits', () => {
     };
 
     const meta = {
-        name: 'Wrapped EVER',
-        symbol: 'WEVER',
+        name: 'Wrapped Native TVM',
+        symbol: 'WNTVM',
         decimals: 9
     };
 
@@ -51,7 +51,7 @@ describe('Test native withdrawal limits', () => {
             callback: {}
         });
 
-        const payload = encodeEverscaleEvent({
+        const payload = encodeTvmEvent({
             eventData: withdrawalEventData,
             proxy: await multivault.getAddress(),
         });
@@ -116,7 +116,7 @@ describe('Test native withdrawal limits', () => {
                 callback: {}
             });
 
-            const payload = encodeEverscaleEvent({
+            const payload = encodeTvmEvent({
                 eventData: withdrawalEventData,
                 proxy: await multivault.getAddress(),
                 eventTimestamp,

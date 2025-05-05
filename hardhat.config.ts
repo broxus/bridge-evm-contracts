@@ -82,7 +82,7 @@ const config: HardhatUserConfig = {
   },
   dodoc: {
     runOnCompile: true,
-    outputDir: "./../docs/evm-specification",
+    outputDir: "./docs/evm-specification",
     include: [
       "bridge/Bridge.sol",
       "vault/Vault.sol",
