@@ -5,22 +5,24 @@ const deterministicDeployment = "chainconnect-ton-prod";
 
 const func: DeployFunction = async function ({
   getNamedAccounts,
-  deployments,
   ethers,
+  deployments,
 }: HardhatRuntimeEnvironment) {
-  const { deployer } = await getNamedAccounts();
+  const {owner} = await getNamedAccounts();
 
-  // Deploy diamond
-  await deployments.deploy("MultiVaultFacetPendingWithdrawals", {
-    from: deployer,
+  await deployments.deploy("UnwrapNativeToken", {
+    from: owner,
     log: true,
     deterministicDeployment: ethers.encodeBytes32String(
       deterministicDeployment,
     ),
+    proxy: {
+      proxyContract: "EIP173ProxyWithReceive",
+    },
   });
 };
 
 // noinspection JSUnusedGlobalSymbols
 export default func;
 
-func.tags = ["Deploy_MultiVault_Facet_Pending_Withdrawals"];
+func.tags = ["Upgrade_Unwrap_Native_Token"];

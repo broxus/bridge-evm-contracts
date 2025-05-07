@@ -11,7 +11,7 @@ const func: DeployFunction = async function ({
   const { deployer } = await getNamedAccounts();
 
   // Deploy diamond
-  await deployments.deploy("MultiVaultFacetPendingWithdrawals", {
+  await deployments.deploy("MultiVaultFacetLiquidity", {
     from: deployer,
     log: true,
     deterministicDeployment: ethers.encodeBytes32String(
@@ -23,4 +23,4 @@ const func: DeployFunction = async function ({
 // noinspection JSUnusedGlobalSymbols
 export default func;
 
-func.tags = ["Deploy_MultiVault_Facet_Pending_Withdrawals"];
+func.tags = ["Deploy_MultiVault_Facet_Liquidity"];

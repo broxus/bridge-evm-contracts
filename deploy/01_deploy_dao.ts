@@ -22,9 +22,12 @@ const func: DeployFunction = async function ({
     ),
     proxy: {
       proxyContract: "OpenZeppelinTransparentProxy",
+      viaAdminContract: "DefaultProxyAdmin",
       execute: {
-        methodName: "initialize",
-        args: [owner, bridge.address],
+        init: {
+          methodName: "initialize",
+          args: [owner, bridge.address],
+        }
       },
     },
   });

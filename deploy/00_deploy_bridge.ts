@@ -32,18 +32,21 @@ const func: DeployFunction = async function ({
     ),
     proxy: {
       proxyContract: "OpenZeppelinTransparentProxy",
+      viaAdminContract: "DefaultProxyAdmin",
       execute: {
-        methodName: "initialize",
-        args: [
-          owner, // Bridge owner
-          roundSubmitter, // Round submitter
-          Math.floor((initialRelays.length * 2) / 3) + 1, // Minimum required signatures
-          week * 2, // Initial round end, 2 weeks
-          0, // Initial round number
-          initialRoundEnd, // Initial round end, after 1 week
-          initialRelays.map((a) => a.address), // Initial relays
-        ],
-      },
+        init: {
+          methodName: "initialize",
+          args: [
+            owner, // Bridge owner
+            roundSubmitter, // Round submitter
+            Math.floor((initialRelays.length * 2) / 3) + 1, // Minimum required signatures
+            week * 2, // Initial round end, 2 weeks
+            0, // Initial round number
+            initialRoundEnd, // Initial round end, after 1 week
+            initialRelays.map((a) => a.address), // Initial relays
+          ],
+        },
+      }
     },
   });
 };
