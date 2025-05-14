@@ -210,7 +210,7 @@ const config: HardhatUserConfig = {
     },
     bsc: {
       url: process.env.BSC_RPC_URL,
-      gasPrice: 1500000000, // 1.5 gwei
+      gasPrice: 1100000000, // 1.1 gwei
       gas: 3000000,
       timeout: 1000000,
       accounts: {
@@ -220,7 +220,7 @@ const config: HardhatUserConfig = {
     },
     avalanche: {
       url: process.env.AVALANCHE_RPC_URL,
-      gasPrice: 2500000000, // 2.5 gwei
+      gasPrice: 3000000000, // 3 gwei
       gas: 3000000,
       timeout: 1000000,
       accounts: {
@@ -313,6 +313,56 @@ const config: HardhatUserConfig = {
       main: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
       bsc: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
       avalanche: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
+    },
+    relay_4: {
+      main: "0xfefeebe2a8186e642e7c62b4c2aa2c9f360a644b",
+      bsc: "0xfefeebe2a8186e642e7c62b4c2aa2c9f360a644b",
+      avalanche: "0xfefeebe2a8186e642e7c62b4c2aa2c9f360a644b",
+    },
+    relay_5: {
+      main: "0x31de5838c1a4dbacb24bdf4791c29ea58efbd6a7",
+      bsc: "0x31de5838c1a4dbacb24bdf4791c29ea58efbd6a7",
+      avalanche: "0x31de5838c1a4dbacb24bdf4791c29ea58efbd6a7",
+    },
+    relay_6: {
+      main: "0x20a08ed82cf2a0bdce26d0b335695505c26be655",
+      bsc: "0x20a08ed82cf2a0bdce26d0b335695505c26be655",
+      avalanche: "0x20a08ed82cf2a0bdce26d0b335695505c26be655",
+    },
+    relay_7: {
+      main: "0xa6e9c32235321cfe24a3ba0487e5ace41ca662ea",
+      bsc: "0xa6e9c32235321cfe24a3ba0487e5ace41ca662ea",
+      avalanche: "0xa6e9c32235321cfe24a3ba0487e5ace41ca662ea",
+    },
+    relay_8: {
+      main: "0xe70ef948fd60967a7949686ae4956fe1a0974ffe",
+      bsc: "0xe70ef948fd60967a7949686ae4956fe1a0974ffe",
+      avalanche: "0xe70ef948fd60967a7949686ae4956fe1a0974ffe",
+    },
+    relay_9: {
+      main: "0xfdbe47cd2f10794d584c72fd38a1113f9d5df605",
+      bsc: "0xfdbe47cd2f10794d584c72fd38a1113f9d5df605",
+      avalanche: "0xfdbe47cd2f10794d584c72fd38a1113f9d5df605",
+    },
+    relay_10: {
+      main: "0xc83dd7823e761c0d26b47c461266979db0720c2b",
+      bsc: "0xc83dd7823e761c0d26b47c461266979db0720c2b",
+      avalanche: "0xc83dd7823e761c0d26b47c461266979db0720c2b",
+    },
+    relay_11: {
+      main: "0x71b3a20f03a263e6cce586c305dc680b25bfbb6c",
+      bsc: "0x71b3a20f03a263e6cce586c305dc680b25bfbb6c",
+      avalanche: "0x71b3a20f03a263e6cce586c305dc680b25bfbb6c",
+    },
+    relay_12: {
+      main: "0x520bd3955e885853342524485c55b6ab4b520580",
+      bsc: "0x520bd3955e885853342524485c55b6ab4b520580",
+      avalanche: "0x520bd3955e885853342524485c55b6ab4b520580",
+    },
+    relay_13: {
+      main: "0x15021d8f1e1ff955cf758a578aea0416e7c343f6",
+      bsc: "0x15021d8f1e1ff955cf758a578aea0416e7c343f6",
+      avalanche: "0x15021d8f1e1ff955cf758a578aea0416e7c343f6",
     },
     withdrawGuardian: {
       ...multisig,
