@@ -3,6 +3,9 @@ import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { defaultConfiguration } from "../test/utils";
 
+import {BigNumber} from "bignumber.js";
+BigNumber.config({ EXPONENTIAL_AT: 1e+9 })
+
 const func: DeployFunction = async function ({
   getNamedAccounts,
   deployments,
@@ -58,7 +61,7 @@ const func: DeployFunction = async function ({
     "setConfigurationAlien",
       {
           wid: 0,
-          addr: "301134971792308039032421595411762228723840698140131322645251629745414336038"
+          addr: new BigNumber('0:26413cdd7bb77166bdc2f0e41ad758143ac4484e085aea17e12609ed62fe3527'.split(':')[1], 16).toString()
       },
   );
 
@@ -71,7 +74,7 @@ const func: DeployFunction = async function ({
     "setConfigurationNative",
       {
           wid: 0,
-          addr: "78048562028472618827633212252422056427181746103622745051525366064922017849598"
+          addr: new BigNumber('0:bb2bd2389a7ce484f718f94c91059de2d1274f4b97e5c436504cea8b12a1921d'.split(':')[1], 16).toString()
       },
   );
   //
