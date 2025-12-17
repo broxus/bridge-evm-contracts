@@ -16,7 +16,7 @@ const func: DeployFunction = async function ({
   const week = 604800;
 
   //FIXME
-  const initialRoundEnd = 1737763200;
+  const initialRoundEnd = 2737763200;
 
   console.log(`Bridge owner: ${owner}`);
   console.log(`Round submitter: ${roundSubmitter}`);
