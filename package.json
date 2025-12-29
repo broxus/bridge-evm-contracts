@@ -11,7 +11,7 @@
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
     "@nomicfoundation/hardhat-ethers": "^3.0.8",
     "@nomicfoundation/hardhat-verify": "^2.0.11",
-    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@nomicfoundation/hardhat-web3-v4": "^1.1.2",
     "@openzeppelin/contracts-upgradeable": "^5.0.2",
     "@primitivefi/hardhat-dodoc": "^0.2.3",
     "@typechain/hardhat": "^9.1.0",
@@ -33,6 +33,15 @@
     "solidity-coverage": "^0.8.13",
     "ts-node": "^10.9.2",
     "underscore": "^1.13.7",
-    "web3": "^1.10.4"
+    "web3": "^4.16.0"
+  },
+  "overrides": {
+    "zksync-ethers": "^6.15.0",
+    "axios": "^1.7.9",
+    "cookie": "^0.7.2",
+    "tmp": "^0.2.3",
+    "@primitivefi/hardhat-dodoc": {
+      "squirrelly": "^9.0.0"
+    }
   }
 }

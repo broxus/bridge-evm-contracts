@@ -1,5 +1,10 @@
 import "dotenv/config";
 
+import "@nomicfoundation/hardhat-web3-v4";
+import "@nomicfoundation/hardhat-ethers";
+import "@nomicfoundation/hardhat-chai-matchers";
+import "@nomicfoundation/hardhat-verify";
+
 import "hardhat-dependency-compiler";
 import "hardhat-diamond-abi";
 import "hardhat-abi-exporter";
@@ -7,16 +12,10 @@ import "hardhat-contract-sizer";
 import "hardhat-deploy";
 import "hardhat-deploy-ethers";
 import "hardhat-gas-reporter";
-import "solidity-coverage";
 
 import "@typechain/hardhat";
 import "@primitivefi/hardhat-dodoc";
-
-import "@nomiclabs/hardhat-web3";
-import "@nomicfoundation/hardhat-ethers";
-import "@nomicfoundation/hardhat-chai-matchers";
-import "@nomicfoundation/hardhat-ethers";
-import "@nomicfoundation/hardhat-verify";
+import "solidity-coverage";
 
 import { HardhatUserConfig } from "hardhat/config";
 
@@ -252,15 +251,19 @@ const config: HardhatUserConfig = {
   },
   namedAccounts: {
     multisig: {
+      hardhat: 0,
       ...multisig,
     },
     deployer: {
+      hardhat: 0,
       ...multisig,
     },
     guardian: {
+      hardhat: 1,
       ...multisig,
     },
     management: {
+      hardhat: 2,
       ...multisig,
     },
     bridge: {
@@ -272,6 +275,7 @@ const config: HardhatUserConfig = {
       ...proxyadmin,
     },
     owner: {
+      hardhat: 3,
       ...multisig,
     },
     weth: {
@@ -279,18 +283,19 @@ const config: HardhatUserConfig = {
       ...weth,
     },
     alice: {
-      default: 4,
+      hardhat: 4,
     },
     bob: {
-      default: 5,
+      hardhat: 5,
     },
     eve: {
-      default: 6,
+      hardhat: 6,
     },
     stranger: {
-      default: 7,
+      hardhat: 7,
     },
     roundSubmitter: {
+      hardhat: 8,
       ...multisig,
     },
     multivault: {
@@ -300,74 +305,89 @@ const config: HardhatUserConfig = {
       avalanche: "0x457ce30424229411097262c2A3A7f6Bc58BDf284",
     },
     relay_1: {
+      hardhat: 10,
       main: "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
       bsc: "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
       avalanche: "0x7f96d32f752507b03d48baad1dee0fc92b6373d8",
     },
     relay_2: {
+      hardhat: 11,
       main: "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
       bsc: "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
       avalanche: "0xf3abcaf556d2a63c70039ff45670544bd28e6056",
     },
     relay_3: {
+      hardhat: 12,
       main: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
       bsc: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
       avalanche: "0xbf26930e84b6378eb6938b4b6018ea67d608ae5f",
     },
     relay_4: {
+      hardhat: 13,
       main: "0xfefeebe2a8186e642e7c62b4c2aa2c9f360a644b",
       bsc: "0xfefeebe2a8186e642e7c62b4c2aa2c9f360a644b",
       avalanche: "0xfefeebe2a8186e642e7c62b4c2aa2c9f360a644b",
     },
     relay_5: {
+      hardhat: 14,
       main: "0x31de5838c1a4dbacb24bdf4791c29ea58efbd6a7",
       bsc: "0x31de5838c1a4dbacb24bdf4791c29ea58efbd6a7",
       avalanche: "0x31de5838c1a4dbacb24bdf4791c29ea58efbd6a7",
     },
     relay_6: {
+      hardhat: 15,
       main: "0x20a08ed82cf2a0bdce26d0b335695505c26be655",
       bsc: "0x20a08ed82cf2a0bdce26d0b335695505c26be655",
       avalanche: "0x20a08ed82cf2a0bdce26d0b335695505c26be655",
     },
     relay_7: {
+      hardhat: 16,
       main: "0xa6e9c32235321cfe24a3ba0487e5ace41ca662ea",
       bsc: "0xa6e9c32235321cfe24a3ba0487e5ace41ca662ea",
       avalanche: "0xa6e9c32235321cfe24a3ba0487e5ace41ca662ea",
     },
     relay_8: {
+      hardhat: 17,
       main: "0xe70ef948fd60967a7949686ae4956fe1a0974ffe",
       bsc: "0xe70ef948fd60967a7949686ae4956fe1a0974ffe",
       avalanche: "0xe70ef948fd60967a7949686ae4956fe1a0974ffe",
     },
     relay_9: {
+      hardhat: 18,
       main: "0xfdbe47cd2f10794d584c72fd38a1113f9d5df605",
       bsc: "0xfdbe47cd2f10794d584c72fd38a1113f9d5df605",
       avalanche: "0xfdbe47cd2f10794d584c72fd38a1113f9d5df605",
     },
     relay_10: {
+      hardhat: 19,
       main: "0xc83dd7823e761c0d26b47c461266979db0720c2b",
       bsc: "0xc83dd7823e761c0d26b47c461266979db0720c2b",
       avalanche: "0xc83dd7823e761c0d26b47c461266979db0720c2b",
     },
     relay_11: {
+      hardhat: 20,
       main: "0x71b3a20f03a263e6cce586c305dc680b25bfbb6c",
       bsc: "0x71b3a20f03a263e6cce586c305dc680b25bfbb6c",
       avalanche: "0x71b3a20f03a263e6cce586c305dc680b25bfbb6c",
     },
     relay_12: {
+      hardhat: 21,
       main: "0x520bd3955e885853342524485c55b6ab4b520580",
       bsc: "0x520bd3955e885853342524485c55b6ab4b520580",
       avalanche: "0x520bd3955e885853342524485c55b6ab4b520580",
     },
     relay_13: {
+      hardhat: 22,
       main: "0x15021d8f1e1ff955cf758a578aea0416e7c343f6",
       bsc: "0x15021d8f1e1ff955cf758a578aea0416e7c343f6",
       avalanche: "0x15021d8f1e1ff955cf758a578aea0416e7c343f6",
     },
     withdrawGuardian: {
+      hardhat: 23,
       ...multisig,
     },
     gasDonor: {
+      hardhat: 24,
       ...multisig,
     },
   },
